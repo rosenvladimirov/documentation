@@ -221,6 +221,28 @@ Database
 
     port the database listens on, defaults to 5432
 
+.. option:: --db_replica_host <hostname>
+
+    host for the replica server.
+
+    When set, Odoo will redirect all read-only transactions to the --db_replica_host
+
+    The status of each request is logged:
+
+    - Green ``ro``: request done using a readonly cursor
+    - Yellow ``rw``: request done using a normal read/write cursor
+    - Red ``ro->rw``: requested attempted in readonly but failed due a write query (create/update/delete) and retried with a read/write cursor.
+
+    You can decorate your model methods with ``@api.readonly``, when that method will be directly accessed in RPC it's going to open a cursor
+    on one of the replica databases instead of the primary one.
+
+    You can flag your controllers with ``@route(readonly=True)``, when that controller will be accessed it's gonna open a cursor on the replica.
+    Note that for advanced usages you can also give a callback, take example on DataSet._call_kw_readonly.
+
+.. option:: --db_replica_port <port>
+
+    port the replica database listens on, defaults to 5432
+
 .. option:: --db-filter <filter>
 
     hides databases that do not match ``<filter>``. The filter is a
