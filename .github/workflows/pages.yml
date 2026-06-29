@@ -37,10 +37,11 @@ jobs:
       - name: Build HTML (en + bg; без odoo core → ORM autodoc се прескача)
         run: |
           # English → root, Bulgarian → /bg/; switcher = en,bg
-          make html   LANGUAGES=en,bg
-          make static LANGUAGES=en,bg
-          make html   CURRENT_LANG=bg LANGUAGES=en,bg
-          make static CURRENT_LANG=bg LANGUAGES=en,bg
+          # IS_REMOTE_BUILD=1 → уеб URL-и в превключвателя (иначе абсолютни file:// пътища)
+          make html   LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make static LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make html   CURRENT_LANG=bg LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make static CURRENT_LANG=bg LANGUAGES=en,bg IS_REMOTE_BUILD=1
           # custom домейн + изключваме Jekyll (Sphinx ползва _static/_sources с _)
           echo "docs.odoo-shell.dev" > _build/html/CNAME
           touch _build/html/.nojekyll
