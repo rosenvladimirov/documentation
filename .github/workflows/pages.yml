@@ -34,10 +34,13 @@ jobs:
           python -m pip install "setuptools<81"
           pip install -r requirements.txt "Jinja2==3.0.3" "MarkupSafe==2.0.1"
 
-      - name: Build HTML (без odoo core → само user docs; ORM autodoc се прескача)
+      - name: Build HTML (en + bg; без odoo core → ORM autodoc се прескача)
         run: |
-          make html
-          make static
+          # English → root, Bulgarian → /bg/; switcher = en,bg
+          make html   LANGUAGES=en,bg
+          make static LANGUAGES=en,bg
+          make html   CURRENT_LANG=bg LANGUAGES=en,bg
+          make static CURRENT_LANG=bg LANGUAGES=en,bg
           # custom домейн + изключваме Jekyll (Sphinx ползва _static/_sources с _)
           echo "docs.odoo-shell.dev" > _build/html/CNAME
           touch _build/html/.nojekyll
