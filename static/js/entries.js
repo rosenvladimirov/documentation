@@ -2,6 +2,8 @@
 /* global createAtom, findAncestor */
 (function () {
     'use strict';
+
+    var t = window.__cheat_t || function (s) { return s; };
     // NOTE: used by accounting cheat_sheet.rst
 
     var data = createAtom();
@@ -43,10 +45,10 @@
                             }
                         }),
                         ' ',
-                        entry.get('title')
+                        t(entry.get('title'))
                     );
                 }, this),
-                this.props.entry && React.DOM.p(null, this.props.entry.get('help'))
+                this.props.entry && React.DOM.p(null, t(this.props.entry.get('help')))
             );
         }
     });
@@ -62,8 +64,8 @@
                         React.DOM.tr(
                             null,
                             React.DOM.th(),
-                            React.DOM.th(null, "Debit"),
-                            React.DOM.th(null, "Credit")
+                            React.DOM.th(null, t("Debit")),
+                            React.DOM.th(null, t("Credit"))
                         )
                     ),
                     React.DOM.tbody(
@@ -72,11 +74,11 @@
                     )
                 ),
                 React.createElement(Listing, {
-                    heading: "Explanation",
+                    heading: t("Explanation"),
                     items: entry && entry.get('explanation')
                 }),
                 React.createElement(Listing, {
-                    heading: "Configuration",
+                    heading: t("Configuration"),
                     items: entry && entry.get('configuration')
                 })
             );
@@ -94,7 +96,7 @@
             }
             return React.DOM.tr(
                 { key: index },
-                React.DOM.td(null, entry.get('account')),
+                React.DOM.td(null, t(entry.get('account'))),
                 React.DOM.td(null, entry.get('debit')),
                 React.DOM.td(null, entry.get('credit'))
             );
@@ -117,11 +119,11 @@
                 React.DOM.ul(
                     null,
                     items.map(function (item, index) {
-                        return React.DOM.li({ key: index }, item);
+                        return React.DOM.li({ key: index }, t(item));
                     })
                 ),
                 epilog.map(function (item, index) {
-                    return React.DOM.p({ key: index }, item);
+                    return React.DOM.p({ key: index }, t(item));
                 })
             );
         }

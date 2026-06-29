@@ -4,6 +4,8 @@
     // NOTE: used by accounting cheat_sheet.rst
     'use strict';
 
+    var t = window.__cheat_t || function (s) { return s; };
+
     var data = createAtom();
 
     function toKey(s, postfix) {
@@ -46,7 +48,7 @@
                         }
                     }),
                     " ",
-                    label
+                    t(label)
                 );
             }));
         }
@@ -68,9 +70,9 @@
                         React.DOM.tr(
                             null,
                             React.DOM.th(),
-                            React.DOM.th({ className: 'text-right' }, "Debit"),
-                            React.DOM.th({ className: 'text-right' }, "Credit"),
-                            React.DOM.th({ className: 'text-right' }, "Balance"))
+                            React.DOM.th({ className: 'text-right' }, t("Debit")),
+                            React.DOM.th({ className: 'text-right' }, t("Credit")),
+                            React.DOM.th({ className: 'text-right' }, t("Balance")))
                     ),
                     React.DOM.tbody(
                         null,
@@ -80,7 +82,7 @@
                                 { key: data.get('code') },
                                 React.DOM.th(null,
                                     data.get('level') ? '\u2001 ' : '',
-                                    data.get('code'), ' ', data.get('label')),
+                                    data.get('code'), ' ', t(data.get('label'))),
                                 React.DOM.td({
                                     className: React.addons.classSet({
                                         'text-right': true,
