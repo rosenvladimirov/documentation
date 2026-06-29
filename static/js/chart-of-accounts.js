@@ -5,6 +5,7 @@
     'use strict';
 
     var t = window.__cheat_t || function (s) { return s; };
+    var isBG = (document.documentElement.lang || '').toLowerCase().indexOf('bg') === 0;
 
     var data = createAtom();
 
@@ -158,7 +159,7 @@
     });
 
     var NULL = Immutable.Map({ debit: 0, credit: 0 });
-    var ASSETS = {
+    var ASSETS_EN = {
         code: 1,
         label: "Assets",
         BANK: { code: 11000, label: "Cash" },
@@ -169,7 +170,7 @@
         DEPRECIATION: { code: 17800, label: "Accumulated Depreciation" },
         TAXES_PAID: { code: 19000, label: "Deferred Tax Assets" }
     };
-    var LIABILITIES = {
+    var LIABILITIES_EN = {
         code: 2,
         label: "Liabilities",
         ACCOUNTS_PAYABLE: { code: 21000, label: "Accounts Payable" },
@@ -177,24 +178,66 @@
         STOCK_IN: { code: 23000, label: "Goods Received Not Purchased" },
         TAXES_PAYABLE: { code: 26200, label: "Deferred Tax Liabilities" }
     };
-    var EQUITY = {
+    var EQUITY_EN = {
         code: 3,
         label: "Equity",
         CAPITAL: { code: 31000, label: "Common Stock" }
     };
-    var REVENUE = {
+    var REVENUE_EN = {
         code: 4,
         label: "Revenue",
         SALES: { code: 41000, label: "Goods" },
         SALES_SERVICES: { code: 42000, label: "Services" }
     };
-    var EXPENSES = {
+    var EXPENSES_EN = {
         code: 5,
         label: "Expenses",
         GOODS_SOLD: { code: 51100, label: "Cost of Goods Sold" },
         DEPRECIATION: { code: 52500, label: "Other Operating Expenses" },
         PRICE_DIFFERENCE: { code: 53000, label: "Price Difference" }
     };
+    var ASSETS_BG = {
+        code: 1,
+        label: "Активи",
+        BANK: { code: '503', label: "Разплащателна сметка" },
+        ACCOUNTS_RECEIVABLE: { code: '411', label: "Вземания от клиенти" },
+        STOCK: { code: '304', label: "Стоки" },
+        STOCK_OUT: { code: '304.9', label: "Експедирани нефактурирани стоки" },
+        BUILDINGS: { code: '202', label: "Сгради и конструкции" },
+        DEPRECIATION: { code: '241', label: "Амортизация на ДМА" },
+        TAXES_PAID: { code: '4531', label: "ДДС на покупките" }
+    };
+    var LIABILITIES_BG = {
+        code: 2,
+        label: "Пасиви",
+        ACCOUNTS_PAYABLE: { code: '401', label: "Задължения към доставчици" },
+        DEFERRED_REVENUE: { code: '751', label: "Приходи за бъдещи периоди" },
+        STOCK_IN: { code: '301', label: "Доставки (получени нефактурирани)" },
+        TAXES_PAYABLE: { code: '4532', label: "ДДС на продажбите" }
+    };
+    var EQUITY_BG = {
+        code: 3,
+        label: "Собствен капитал",
+        CAPITAL: { code: '101', label: "Основен капитал" }
+    };
+    var REVENUE_BG = {
+        code: 4,
+        label: "Приходи",
+        SALES: { code: '702', label: "Приходи от продажби на стоки" },
+        SALES_SERVICES: { code: '703', label: "Приходи от продажби на услуги" }
+    };
+    var EXPENSES_BG = {
+        code: 5,
+        label: "Разходи",
+        GOODS_SOLD: { code: '702.100', label: "Отчетна стойност на продадените стоки" },
+        DEPRECIATION: { code: '603', label: "Разходи за амортизации" },
+        PRICE_DIFFERENCE: { code: '609', label: "Ценови разлики при доставки" }
+    };
+    var ASSETS = isBG ? ASSETS_BG : ASSETS_EN;
+    var LIABILITIES = isBG ? LIABILITIES_BG : LIABILITIES_EN;
+    var EQUITY = isBG ? EQUITY_BG : EQUITY_EN;
+    var REVENUE = isBG ? REVENUE_BG : REVENUE_EN;
+    var EXPENSES = isBG ? EXPENSES_BG : EXPENSES_EN;
     var categories = Immutable.fromJS([ASSETS, LIABILITIES, EQUITY, REVENUE, EXPENSES], function (k, v) {
         return Immutable.Iterable.isIndexed(v)
             ? v.toList()
@@ -215,15 +258,16 @@
         );
     });
 
+    var VAT = isBG ? 0.20 : 0.09;
     var sale = 100,
         cor = 50,
-        cor_tax = cor * 0.09,
-        tax = sale * 0.09,
+        cor_tax = cor * VAT,
+        tax = sale * VAT,
         total = sale + tax,
         refund = sale,
-        refund_tax = refund * 0.09,
+        refund_tax = refund * VAT,
         purchase = 52,
-        purchase_tax = 52 * 0.09;
+        purchase_tax = 52 * VAT;
     var operations = Immutable.fromJS([{
         label: "Company Incorporation (Initial Capital $1,000)",
         operations: [
@@ -308,14 +352,14 @@
         label: "Acquire a building (purchase contract)",
         operations: [
             { account: ASSETS.BUILDINGS.code, debit: constant(3000) },
-            { account: ASSETS.TAXES_PAID.code, debit: constant(300) },
-            { account: LIABILITIES.ACCOUNTS_PAYABLE.code, credit: constant(3300) }
+            { account: ASSETS.TAXES_PAID.code, debit: constant(3000 * VAT) },
+            { account: LIABILITIES.ACCOUNTS_PAYABLE.code, credit: constant(3000 * (1 + VAT)) }
         ]
     }, {
         label: "Pay for building",
         operations: [
-            { account: LIABILITIES.ACCOUNTS_PAYABLE.code, debit: constant(3300) },
-            { account: ASSETS.BANK.code, credit: constant(3300) }
+            { account: LIABILITIES.ACCOUNTS_PAYABLE.code, debit: constant(3000 * (1 + VAT)) },
+            { account: ASSETS.BANK.code, credit: constant(3000 * (1 + VAT)) }
         ]
     }, {
         label: "Yearly Asset Depreciation (10% per year)",
