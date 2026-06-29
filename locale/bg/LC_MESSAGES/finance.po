@@ -194,7 +194,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting.rst:67
 #: ../../content/applications/finance/accounting.rst:296
 msgid ":doc:`Accounting Cheat Sheet <accounting/get_started/cheat_sheet>`"
-msgstr ":doc:`Счетоводна шпаргалка <accounting/get_started/cheat_sheet>`"
+msgstr ":doc:`Счетоводен наръчник <accounting/get_started/cheat_sheet>`"
 
 #: ../../content/applications/finance/accounting.rst:72
 msgid "Accrual and cash basis"
@@ -14354,7 +14354,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/get_started/cheat_sheet.rst:7
 msgid "Accounting cheat sheet"
-msgstr "Счетоводна шпаргалка"
+msgstr "Счетоводен наръчник"
 
 #: ../../content/applications/finance/accounting/get_started/cheat_sheet.rst:13
 msgid ""
