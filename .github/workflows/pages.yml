@@ -1,0 +1,84 @@
+name: Build & deploy Odoo docs (19.0 + 18.0) to Pages
+
+on:
+  push:
+    branches: ["19.0", "18.0"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout 19.0
+        uses: actions/checkout@v4
+        with:
+          ref: "19.0"
+          path: doc19
+
+      - name: Checkout 18.0
+        uses: actions/checkout@v4
+        with:
+          ref: "18.0"
+          path: doc18
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install build deps
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends build-essential
+          python -m pip install --upgrade pip wheel
+          # Sphinx 4.3.2 ползва pkg_resources (махнат в setuptools>=81) и
+          # чупи на Jinja2>=3.1 / MarkupSafe>=2.1 — пинваме съвместими
+          python -m pip install "setuptools<81"
+          pip install -r doc19/requirements.txt "Jinja2==3.0.3" "MarkupSafe==2.0.1"
+
+      - name: Build 19.0 (en + bg) — root на сайта, layout непроменен
+        working-directory: doc19
+        run: |
+          make html   LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make static LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make html   CURRENT_LANG=bg LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make static CURRENT_LANG=bg LANGUAGES=en,bg IS_REMOTE_BUILD=1
+
+      - name: Build 18.0 (en + bg) — VERSIONS вгражда изхода под 18.0/ (вграден Makefile механизъм)
+        working-directory: doc18
+        run: |
+          make html   VERSIONS=18.0,19.0 LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make static VERSIONS=18.0,19.0 LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make html   VERSIONS=18.0,19.0 CURRENT_LANG=bg LANGUAGES=en,bg IS_REMOTE_BUILD=1
+          make static VERSIONS=18.0,19.0 CURRENT_LANG=bg LANGUAGES=en,bg IS_REMOTE_BUILD=1
+
+      - name: Assemble combined site (root=19.0 непроменен, doc18 съдържа вложена 18.0/ директория)
+        run: |
+          mkdir -p _site
+          cp -r doc19/_build/html/. _site/
+          cp -r doc18/_build/html/. _site/
+          # custom домейн + изключваме Jekyll (Sphinx ползва _static/_sources с _)
+          echo "docs.odoo-shell.dev" > _site/CNAME
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-22.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
