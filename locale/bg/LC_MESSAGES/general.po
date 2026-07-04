@@ -7121,7 +7121,7 @@ msgstr ""
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid "OAuth is Limited to 100 Sensitive Scope Logins."
-msgstr "OAuth is Limited to 100 Sensitive Scope Logins."
+msgstr "OAuth е ограничен до 100 входа с чувствителен обхват."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:174
 msgid ""
@@ -7176,8 +7176,7 @@ msgstr ""
 #: ../../content/applications/general/email_communication/google_oauth.rst:None
 msgid ""
 "Forbidden you don't have the permission to access the requested resource."
-msgstr ""
-"Forbidden you don't have the permission to access the requested resource."
+msgstr "Забранено — нямате права за достъп до заявения ресурс."
 
 #: ../../content/applications/general/email_communication/google_oauth.rst:201
 msgid ""
