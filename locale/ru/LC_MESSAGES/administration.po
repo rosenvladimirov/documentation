@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-12 17:31+0000\n"
-"PO-Revision-Date: 2026-06-25 23:20+0000\n"
+"POT-Creation-Date: 2026-08-21 17:32+0000\n"
+"PO-Revision-Date: 2026-09-07 16:11+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19-doc/"
 "administration/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/administration.rst:8
 msgid "Database management"
@@ -150,12 +150,12 @@ msgid "Transferring an on-premise database"
 msgstr "Перенос локальной базы данных"
 
 #: ../../content/administration/hosting.rst:17
-#: ../../content/administration/hosting.rst:92
+#: ../../content/administration/hosting.rst:106
 msgid "To Odoo Online"
 msgstr "В Odoo Online"
 
 #: ../../content/administration/hosting.rst:20
-#: ../../content/administration/hosting.rst:95
+#: ../../content/administration/hosting.rst:109
 msgid "Odoo Online is *not* compatible with **non-standard apps**."
 msgstr "Odoo Online *не* совместим с **нестандартными приложениями**."
 
@@ -181,7 +181,7 @@ msgstr ""
 "Используйте менеджер баз данных для создания *дампа с файловым хранилищем*."
 
 #: ../../content/administration/hosting.rst:26
-#: ../../content/administration/hosting.rst:98
+#: ../../content/administration/hosting.rst:112
 msgid ""
 "`Create a support ticket <https://www.odoo.com/help-form>`_ including the "
 "following:"
@@ -190,27 +190,72 @@ msgstr ""
 "указав следующее:"
 
 #: ../../content/administration/hosting.rst:28
-#: ../../content/administration/hosting.rst:100
+#: ../../content/administration/hosting.rst:114
 msgid "your **subscription number**,"
 msgstr "ваш **номер подписки**,"
 
 #: ../../content/administration/hosting.rst:29
+#: ../../content/administration/hosting.rst:115
 msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`), and"
+"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
 msgstr ""
 "**URL-адрес**, который вы хотите использовать для базы данных (например, "
-"`company.odoo.com`), и"
+"`company.odoo.com`),"
 
 #: ../../content/administration/hosting.rst:30
 msgid ""
 "the **dump** as an attachment or as a link to the file (required for 60 MB+ "
-"files)."
+"files),"
 msgstr ""
-"**дамп** в виде вложения или в виде ссылки на файл (требуется для файлов "
-"размером более 60 МБ)."
+"**дамп** в виде вложения или ссылки на файл (обязательно для файлов размером "
+"более 60 МБ),"
 
-#: ../../content/administration/hosting.rst:32
-#: ../../content/administration/hosting.rst:107
+#: ../../content/administration/hosting.rst:31
+msgid "the **region** you wish to be hosted in,"
+msgstr "**регион**, в котором вы хотите разместить базу данных,"
+
+#: ../../content/administration/hosting.rst:34
+msgid ""
+"The list of available regions is available in `our privacy policy <https://"
+"www.odoo.com/privacy#data-transfer>`_."
+msgstr ""
+"Список доступных регионов приведен в `нашей политике конфиденциальности "
+"<https://www.odoo.com/privacy#data-transfer>`_."
+
+#: ../../content/administration/hosting.rst:36
+msgid "the **name** you want for the database,"
+msgstr "**название**, которое вы хотите для базы данных,"
+
+#: ../../content/administration/hosting.rst:37
+msgid "what **version** the database is in,"
+msgstr "**версию**, в которой находится база данных,"
+
+#: ../../content/administration/hosting.rst:38
+msgid "the login (email) of the **administrator** user,"
+msgstr "логин (электронную почту) пользователя-**администратора**,"
+
+#: ../../content/administration/hosting.rst:39
+msgid "whether you wish to have a first **test** deployment, and"
+msgstr "хотите ли вы сначала **тестовое** развертывание, и"
+
+#: ../../content/administration/hosting.rst:42
+msgid ""
+"This is strongly recommended, especially if you have ever installed third-"
+"party apps."
+msgstr ""
+"Это настоятельно рекомендуется, особенно если вы когда-либо устанавливали "
+"сторонние приложения."
+
+#: ../../content/administration/hosting.rst:44
+msgid ""
+"**when** you will want the production database to be put online (day, time "
+"of day, and your timezone)."
+msgstr ""
+"**когда** вы хотите, чтобы производственная база данных была введена в "
+"эксплуатацию (день, время суток и ваш часовой пояс)."
+
+#: ../../content/administration/hosting.rst:46
+#: ../../content/administration/hosting.rst:121
 msgid ""
 "Odoo then makes sure the database is compatible before putting it online. In "
 "case of technical issues during the process, Odoo might contact you."
@@ -218,8 +263,8 @@ msgstr ""
 "Odoo проверяет совместимость базы данных перед ее публикацией в сети. В "
 "случае технических проблем в процессе переноса Odoo может связаться с вами."
 
-#: ../../content/administration/hosting.rst:36
-#: ../../content/administration/hosting.rst:111
+#: ../../content/administration/hosting.rst:50
+#: ../../content/administration/hosting.rst:125
 msgid ""
 "If you have time constraints, `create a support ticket <https://www.odoo.com/"
 "help-form>`_ as soon as possible to schedule the transfer."
@@ -228,13 +273,13 @@ msgstr ""
 "<https://www.odoo.com/help-form>`_ как можно скорее, чтобы запланировать "
 "перенос."
 
-#: ../../content/administration/hosting.rst:40
-#: ../../content/administration/hosting.rst:78
+#: ../../content/administration/hosting.rst:54
+#: ../../content/administration/hosting.rst:92
 msgid "To Odoo.sh"
 msgstr "В Odoo.sh"
 
-#: ../../content/administration/hosting.rst:42
-#: ../../content/administration/hosting.rst:85
+#: ../../content/administration/hosting.rst:56
+#: ../../content/administration/hosting.rst:99
 msgid ""
 "Follow the instructions found in :ref:`the Import a database section <odoo-"
 "sh/create/import>` of the Odoo.sh *Create a project* documentation."
@@ -242,11 +287,11 @@ msgstr ""
 "Следуйте инструкциям в :ref:`разделе Импорт базы данных <odoo-sh/create/"
 "import>` документации Odoo.sh *Создание проекта*."
 
-#: ../../content/administration/hosting.rst:46
+#: ../../content/administration/hosting.rst:60
 msgid "Transferring an Odoo Online database"
 msgstr "Перенос базы данных Odoo Online"
 
-#: ../../content/administration/hosting.rst:49
+#: ../../content/administration/hosting.rst:63
 msgid ""
 "Odoo Online's :doc:`intermediary versions <standard_extended_support>` are "
 "not supported by Odoo.sh or on-premise. Therefore, if the database to "
@@ -260,7 +305,7 @@ msgstr ""
 "до следующей :doc:`основной версии <standard_extended_support>`, дождавшись "
 "её выпуска при необходимости."
 
-#: ../../content/administration/hosting.rst:55
+#: ../../content/administration/hosting.rst:69
 msgid ""
 "Transferring an online database running on Odoo 16.3 would require first "
 "upgrading it to Odoo 17.0."
@@ -268,7 +313,7 @@ msgstr ""
 "Перенос онлайн-базы данных, работающей на Odoo 16.3, потребует сначала "
 "обновить ее до Odoo 17.0."
 
-#: ../../content/administration/hosting.rst:59
+#: ../../content/administration/hosting.rst:73
 msgid ""
 "Click the :icon:`fa-gear` (:guilabel:`gear`) button next to the database "
 "name on the `Odoo Online database manager <https://www.odoo.com/my/databases/"
@@ -278,7 +323,7 @@ msgstr ""
 "данных в `менеджере баз данных Odoo Online <https://www.odoo.com/my/"
 "databases/>`_, чтобы отобразить номер ее версии."
 
-#: ../../content/administration/hosting.rst:63
+#: ../../content/administration/hosting.rst:77
 msgid ""
 "If there is an active Odoo subscription linked to the database being "
 "migrated, reach out to the Customer Service Manager or `contact Odoo support "
@@ -288,13 +333,13 @@ msgstr ""
 "менеджером по обслуживанию клиентов или `обратитесь в службу поддержки Odoo "
 "<https://www.odoo.com/help>`_ для завершения переноса подписки."
 
-#: ../../content/administration/hosting.rst:68
-#: ../../content/administration/hosting.rst:120
+#: ../../content/administration/hosting.rst:82
+#: ../../content/administration/hosting.rst:134
 msgid "To on-premise"
 msgstr "На собственный сервер"
 
-#: ../../content/administration/hosting.rst:70
-#: ../../content/administration/hosting.rst:80
+#: ../../content/administration/hosting.rst:84
+#: ../../content/administration/hosting.rst:94
 msgid ""
 "Download a database backup by signing in to `the Odoo Online database "
 "manager <https://www.odoo.com/my/databases/>`_, clicking the :icon:`fa-gear` "
@@ -310,8 +355,8 @@ msgstr ""
 "большого размера файла, `обратитесь в службу поддержки Odoo <https://"
 "www.odoo.com/help>`_."
 
-#: ../../content/administration/hosting.rst:75
-#: ../../content/administration/hosting.rst:123
+#: ../../content/administration/hosting.rst:89
+#: ../../content/administration/hosting.rst:137
 msgid ""
 "Restore the database from the database manager on your local server using "
 "the backup."
@@ -319,11 +364,11 @@ msgstr ""
 "Восстановите базу данных из менеджера баз данных на вашем локальном сервере, "
 "используя резервную копию."
 
-#: ../../content/administration/hosting.rst:89
+#: ../../content/administration/hosting.rst:103
 msgid "Transferring an Odoo.sh database"
 msgstr "Перенос базы данных Odoo.sh"
 
-#: ../../content/administration/hosting.rst:97
+#: ../../content/administration/hosting.rst:111
 msgid ""
 "Uninstall all **non-standard apps** in a staging build before doing it in "
 "the production build."
@@ -331,18 +376,11 @@ msgstr ""
 "Удалите все **нестандартные приложения** в промежуточной сборке, прежде чем "
 "делать это в производственной сборке."
 
-#: ../../content/administration/hosting.rst:101
-msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
-msgstr ""
-"**URL-адрес**, который вы хотите использовать для базы данных (например, "
-"`company.odoo.com`),"
-
-#: ../../content/administration/hosting.rst:102
+#: ../../content/administration/hosting.rst:116
 msgid "which **branch** should be migrated,"
 msgstr "какую **ветку** следует перенести,"
 
-#: ../../content/administration/hosting.rst:103
+#: ../../content/administration/hosting.rst:117
 msgid ""
 "in which **region** you want the database to be hosted (Americas, Europe, or "
 "Asia),"
@@ -350,28 +388,28 @@ msgstr ""
 "в каком **регионе** вы хотите разместить базу данных (Америка, Европа или "
 "Азия),"
 
-#: ../../content/administration/hosting.rst:104
+#: ../../content/administration/hosting.rst:118
 msgid "which user(s) will be the **administrator(s)**, and"
 msgstr "какой(ие) пользователь(и) будет(ут) **администратором(ами)**, и"
 
-#: ../../content/administration/hosting.rst:105
+#: ../../content/administration/hosting.rst:119
 msgid ""
 "**when** (and in which timezone) you want the database to be up and running."
 msgstr ""
 "**когда** (и в каком часовом поясе) вы хотите, чтобы база данных была "
 "запущена и работала."
 
-#: ../../content/administration/hosting.rst:113
+#: ../../content/administration/hosting.rst:127
 msgid "Select the **region** closest to most of your users to reduce latency."
 msgstr ""
 "Выберите **регион**, наиболее близкий к большинству ваших пользователей, "
 "чтобы снизить задержку."
 
-#: ../../content/administration/hosting.rst:114
+#: ../../content/administration/hosting.rst:128
 msgid "Future **administrator(s)** must have an Odoo.com account."
 msgstr "Будущие **администраторы** должны иметь учетную запись Odoo.com."
 
-#: ../../content/administration/hosting.rst:115
+#: ../../content/administration/hosting.rst:129
 msgid ""
 "The **date and time** you want the database to be up and running are helpful "
 "to organize the switch from the Odoo.sh server to the Odoo Online servers."
@@ -380,11 +418,11 @@ msgstr ""
 "работала, помогут организовать переключение с сервера Odoo.sh на серверы "
 "Odoo Online."
 
-#: ../../content/administration/hosting.rst:117
+#: ../../content/administration/hosting.rst:131
 msgid "Databases are **not reachable** during their migration."
 msgstr "Базы данных **недоступны** во время их миграции."
 
-#: ../../content/administration/hosting.rst:122
+#: ../../content/administration/hosting.rst:136
 msgid ""
 "Download a :ref:`backup of your Odoo.sh production database <odoo-sh/"
 "branches/tabs/backups>`."
@@ -1143,7 +1181,6 @@ msgstr "Контейнеры"
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:7
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:9
-#: ../../content/administration/odoo_sh/first_module.rst:6
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:14
 msgid "Overview"
 msgstr "Обзор"
@@ -1736,8 +1773,6 @@ msgstr "Затем добавьте подмодуль с помощью ком�
 
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:82
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:94
-#: ../../content/administration/odoo_sh/first_module.rst:359
-#: ../../content/administration/odoo_sh/first_module.rst:498
 msgid "Replace"
 msgstr "Заменить"
 
@@ -1813,743 +1848,631 @@ msgstr ""
 "вручную выбрать нужные модули, создав на них символические ссылки из другой "
 "папки."
 
-#: ../../content/administration/odoo_sh/first_module.rst:3
-msgid "Your first module"
-msgstr "Ваш первый модуль"
+#: ../../content/administration/odoo_sh/create_module.rst:3
+msgid "Create a module"
+msgstr "Создание модуля"
 
-#: ../../content/administration/odoo_sh/first_module.rst:8
+#: ../../content/administration/odoo_sh/create_module.rst:5
 msgid ""
-"This chapter helps you to create your first Odoo module and deploy it in "
-"your Odoo.sh project."
+"Before creating your first module, it is necessary to :doc:`create an "
+"Odoo.sh project <getting_started/create>` and knowing your GitHub "
+"repository's URL."
 msgstr ""
-"Эта глава поможет вам создать первый модуль Odoo и развернуть его в вашем "
-"проекте Odoo.sh."
+"Прежде чем создавать свой первый модуль, необходимо :doc:`создать проект "
+"Odoo.sh <getting_started/create>` и узнать URL-адрес вашего репозитория "
+"GitHub."
 
-#: ../../content/administration/odoo_sh/first_module.rst:10
+#: ../../content/administration/odoo_sh/create_module.rst:8
+msgid "Glossary"
+msgstr "Глоссарий"
+
+#: ../../content/administration/odoo_sh/create_module.rst:10
 msgid ""
-"This tutorial requires you created a project on Odoo.sh, and you know your "
-"Github repository's URL."
+"`~/src` is the directory where the Git repositories related to your Odoo "
+"projects are located."
 msgstr ""
-"Для этого руководства требуется, чтобы вы создали проект на Odoo.sh и знали "
-"URL вашего репозитория Github."
+"`~/src` — это каталог, в котором находятся репозитории Git, связанные с "
+"вашими проектами Odoo."
 
-#: ../../content/administration/odoo_sh/first_module.rst:13
-msgid "Basic use of Git and Github is explained."
-msgstr "Объясняется базовое использование Git и Github."
+#: ../../content/administration/odoo_sh/create_module.rst:11
+msgid "`odoo` is the GitHub user."
+msgstr "`odoo` — это пользователь GitHub."
 
-#: ../../content/administration/odoo_sh/first_module.rst:15
-msgid "The below assumptions are made:"
-msgstr "Сделаны следующие предположения:"
+#: ../../content/administration/odoo_sh/create_module.rst:12
+msgid "`odoo-addons` is the GitHub repository."
+msgstr "`odoo-addons` — это репозиторий GitHub."
 
-#: ../../content/administration/odoo_sh/first_module.rst:17
-msgid ""
-"*~/src* is the directory where are located the Git repositories related to "
-"your Odoo projects,"
-msgstr ""
-"*~/src* — каталог, в котором находятся Git-репозитории, связанные с вашими "
-"проектами Odoo,"
+#: ../../content/administration/odoo_sh/create_module.rst:13
+msgid "`feature-1` is the name of a development branch."
+msgstr "`feature-1` — это название ветки разработки."
 
-#: ../../content/administration/odoo_sh/first_module.rst:18
-msgid "*odoo* is the Github user,"
-msgstr "*odoo* — пользователь Github,"
+#: ../../content/administration/odoo_sh/create_module.rst:14
+msgid "`main` is the name of the production branch."
+msgstr "`main` — это название производственной ветки."
 
-#: ../../content/administration/odoo_sh/first_module.rst:19
-msgid "*odoo-addons* is the Github repository,"
-msgstr "*odoo-addons* — репозиторий Github,"
+#: ../../content/administration/odoo_sh/create_module.rst:15
+msgid "`my_module` is the name of the module."
+msgstr "`my_module` — это название модуля."
 
-#: ../../content/administration/odoo_sh/first_module.rst:20
-msgid "*feature-1* is the name of a development branch,"
-msgstr "*feature-1* — название ветки разработки,"
+#: ../../content/administration/odoo_sh/create_module.rst:17
+msgid "Replace these as necessary."
+msgstr "При необходимости замените их."
 
-#: ../../content/administration/odoo_sh/first_module.rst:21
-msgid "*master* is the name of the production branch,"
-msgstr "*master* — название производственной ветки,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:22
-msgid "*my_module* is the name of the module."
-msgstr "*my_module* — название модуля."
-
-#: ../../content/administration/odoo_sh/first_module.rst:24
-msgid "Replace these by the values of your choice."
-msgstr "Замените их значениями по вашему выбору."
-
-#: ../../content/administration/odoo_sh/first_module.rst:27
+#: ../../content/administration/odoo_sh/create_module.rst:22
 msgid "Create the development branch"
 msgstr "Создание ветки разработки"
 
-#: ../../content/administration/odoo_sh/first_module.rst:30
-msgid "From Odoo.sh"
-msgstr "Из Odoo.sh"
+#: ../../content/administration/odoo_sh/create_module.rst:26
+#: ../../content/administration/odoo_sh/create_module.rst:73
+#: ../../content/administration/odoo_sh/create_module.rst:165
+msgid "On Odoo.sh"
+msgstr "В Odoo.sh"
 
-#: ../../content/administration/odoo_sh/first_module.rst:32
-msgid "In the branches view:"
-msgstr "В представлении веток:"
+#: ../../content/administration/odoo_sh/create_module.rst:28
+msgid "From the :doc:`Branches view <getting_started/branches>`:"
+msgstr "Из представления :doc:`Ветки <getting_started/branches>`:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:34
-msgid "hit the :code:`+` button next to the development stage,"
-msgstr "нажмите кнопку :code:`+` рядом с этапом разработки,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:35
-msgid "choose the branch *master* in the *Fork* selection,"
-msgstr "выберите ветку *master* в списке *Fork*,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:36
-msgid "type *feature-1* in the *To* input."
-msgstr "введите *feature-1* в поле *To*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:38
-msgid "|pic1|  |pic2|"
-msgstr "|pic1|  |pic2|"
-
-#: ../../content/administration/odoo_sh/first_module.rst:40
-msgid "pic1"
-msgstr "pic1"
-
-#: ../../content/administration/odoo_sh/first_module.rst:43
-msgid "pic2"
-msgstr "pic2"
-
-#: ../../content/administration/odoo_sh/first_module.rst:46
+#: ../../content/administration/odoo_sh/create_module.rst:30
 msgid ""
-"Once the build created, you can access the editor and browse to the folder "
-"*~/src/user* to access to the code of your development branch."
+"In the branches navigation panel, click the ＋ (:guilabel:`New development "
+"branch`) button next to :guilabel:`Development`."
 msgstr ""
-"После создания сборки вы можете открыть редактор и перейти в папку *~/src/"
-"user* для доступа к коду вашей ветки разработки."
+"На панели навигации веток нажмите кнопку ＋ (:guilabel:`Новая ветка "
+"разработки`) рядом с :guilabel:`Разработка`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:56
-msgid "From your computer"
-msgstr "С вашего компьютера"
+#: ../../content/administration/odoo_sh/create_module.rst:32
+msgid "Under :guilabel:`Fork`, select the `main` branch."
+msgstr "В разделе :guilabel:`Ответвить` выберите ветку `main`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:58
-msgid "Clone your Github repository on your computer:"
-msgstr "Клонируйте ваш репозиторий Github на компьютер:"
+#: ../../content/administration/odoo_sh/create_module.rst:33
+msgid "Under :guilabel:`To`, enter `feature-1`."
+msgstr "В разделе :guilabel:`В` введите `feature-1`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:67
-msgid "Create a new branch:"
-msgstr "Создайте новую ветку:"
+#: ../../content/administration/odoo_sh/create_module.rst:0
+msgid "Forking the production branch to create a development branch on Odoo.sh"
+msgstr ""
+"Ответвление производственной ветки для создания ветки разработки на Odoo.sh"
 
-#: ../../content/administration/odoo_sh/first_module.rst:74
+#: ../../content/administration/odoo_sh/create_module.rst:38
+msgid ""
+"Once the build is ready, you can access the :doc:`editor <getting_started/"
+"online_editor>` and the code of your development branch from the folder `~/"
+"src/user` folder."
+msgstr ""
+"Когда сборка будет готова, вы сможете получить доступ к :doc:`редактору "
+"<getting_started/online_editor>` и коду вашей ветки разработки из папки `~/"
+"src/user`."
+
+#: ../../content/administration/odoo_sh/create_module.rst:41
+#: ../../content/administration/odoo_sh/create_module.rst:81
+#: ../../content/administration/odoo_sh/create_module.rst:177
+msgid "On a computer"
+msgstr "На компьютере"
+
+#: ../../content/administration/odoo_sh/create_module.rst:43
+msgid ""
+"Clone your GitHub repository on your computer by running the following "
+"commands:"
+msgstr ""
+"Клонируйте ваш репозиторий GitHub на компьютер, выполнив следующие команды:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:52
+msgid "Create a new branch by running:"
+msgstr "Создайте новую ветку, выполнив:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:61
 msgid "Create the module structure"
 msgstr "Создать структуру модуля"
 
-#: ../../content/administration/odoo_sh/first_module.rst:77
-msgid "Scaffolding the module"
-msgstr "Создание каркаса модуля"
+#: ../../content/administration/odoo_sh/create_module.rst:66
+msgid "Scaffolding"
+msgstr "Создание структуры"
 
-#: ../../content/administration/odoo_sh/first_module.rst:79
+#: ../../content/administration/odoo_sh/create_module.rst:68
 msgid ""
-"While not necessary, scaffolding avoids the tedium of setting the basic Odoo "
-"module structure. You can scaffold a new module using the executable *odoo-"
-"bin*."
+"While it is not required, scaffolding avoids the tedium of setting the basic "
+"Odoo module structure. You can scaffold a new module using the `odoo-bin` "
+"executable."
 msgstr ""
-"Хотя это и не обязательно, создание каркаса избавляет от рутины настройки "
-"базовой структуры модуля Odoo. Вы можете создать каркас нового модуля с "
-"помощью исполняемого файла *odoo-bin*."
+"Хотя это и не обязательно, создание структуры избавляет от необходимости "
+"вручную настраивать базовую структуру модуля Odoo. Вы можете создать "
+"структуру нового модуля с помощью исполняемого файла `odoo-bin`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:82
-msgid "From the Odoo.sh editor, in a terminal:"
-msgstr "В редакторе Odoo.sh, в терминале:"
+#: ../../content/administration/odoo_sh/create_module.rst:75
+#: ../../content/administration/odoo_sh/create_module.rst:167
+msgid "From the :doc:`editor <getting_started/online_editor>` terminal, run:"
+msgstr ""
+"Из терминала :doc:`редактора <getting_started/online_editor>` выполните:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:88
-msgid "Or, from your computer, if you have an installation of Odoo:"
-msgstr "Или с вашего компьютера, если у вас установлен Odoo:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:94
+#: ../../content/administration/odoo_sh/create_module.rst:83
 msgid ""
-"If you do not want to bother installing Odoo on your computer, you can "
-"also :download:`download this module structure template <first_module/"
-"my_module.zip>` in which you replace every occurrences of *my_module* to the "
-"name of your choice."
+"With :doc:`Odoo installed <../on_premise/source>` on your computer, run:"
+msgstr ""
+"С :doc:`установленным Odoo <../on_premise/source>` на вашем компьютере "
+"выполните:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:90
+msgid ""
+"If you do not want to install Odoo on your computer, you can "
+"also :download:`download this module structure template <create_module/"
+"my_module.zip>`. Replace every occurrence of `my_module` with the name of "
+"your choice."
 msgstr ""
 "Если вы не хотите устанавливать Odoo на свой компьютер, вы также можете "
-":download:`скачать этот шаблон структуры модуля <first_module/my_module.zip>"
-"`, в котором нужно заменить все вхождения *my_module* на выбранное вами имя."
+":download:`скачать этот шаблон структуры модуля <create_module/my_module.zip>"
+"`. Замените все вхождения `my_module` на выбранное вами имя."
 
-#: ../../content/administration/odoo_sh/first_module.rst:98
-msgid "The below structure will be generated:"
+#: ../../content/administration/odoo_sh/create_module.rst:94
+msgid "The structure below will be generated:"
 msgstr "Будет создана следующая структура:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:121
+#: ../../content/administration/odoo_sh/create_module.rst:117
 msgid ""
-"Do not use special characters other than the underscore ( _ ) for your "
-"module name, not even an hyphen ( - ). This name is used for the Python "
-"classes of your module, and having classes name with special characters "
-"other than the underscore is not valid in Python."
+"Only use alphanumeric characters (`a-z`, `0-9`) or underscores (`_`) when "
+"naming your module, as its name is used for Python classes, and class names "
+"containing special characters other than underscores are not valid in Python."
 msgstr ""
-"Не используйте специальные символы, кроме подчеркивания ( _ ), в имени "
-"модуля, даже дефис ( - ). Это имя используется для классов Python вашего "
-"модуля, и наличие имен классов со специальными символами, отличными от "
-"подчеркивания, недопустимо в Python."
+"Используйте только буквенно-цифровые символы (`a-z`, `0-9`) или знаки "
+"подчеркивания (`_`) при именовании модуля, так как его имя используется для "
+"классов Python, а имена классов, содержащие специальные символы, кроме "
+"подчеркиваний, недопустимы в Python."
 
-#: ../../content/administration/odoo_sh/first_module.rst:125
-msgid "Uncomment the content of the files:"
-msgstr "Раскомментируйте содержимое файлов:"
+#: ../../content/administration/odoo_sh/create_module.rst:121
+msgid "Uncomment the following files:"
+msgstr "Раскомментируйте следующие файлы:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:127
-msgid "*models/models.py*, an example of model with its fields,"
-msgstr "*models/models.py* — пример модели с её полями,"
+#: ../../content/administration/odoo_sh/create_module.rst:123
+msgid ":file:`models/models.py` an example of a model with its fields"
+msgstr ":file:`models/models.py` — пример модели с её полями"
 
-#: ../../content/administration/odoo_sh/first_module.rst:129
-msgid "*views/views.xml*, a tree and a form view, with the menus opening them,"
-msgstr ""
-"*views/views.xml* — представления в виде дерева и формы с меню, которые их "
-"открывают,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:131
-msgid "*demo/demo.xml*, demo records for the above example model,"
-msgstr ""
-"*demo/demo.xml* — демонстрационные записи для указанной выше примерной "
-"модели,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:133
+#: ../../content/administration/odoo_sh/create_module.rst:124
 msgid ""
-"*controllers/controllers.py*, an example of controller implementing some "
-"routes,"
+":file:`views/views.xml` a tree and a form view, with the menus opening them"
 msgstr ""
-"*controllers/controllers.py* — пример контроллера, реализующего некоторые "
-"маршруты,"
+":file:`views/views.xml` — представления в виде дерева и формы с меню для их "
+"открытия"
 
-#: ../../content/administration/odoo_sh/first_module.rst:135
+#: ../../content/administration/odoo_sh/create_module.rst:125
+msgid ":file:`demo/demo.xml` demo records for the example model"
+msgstr ":file:`demo/demo.xml` — демонстрационные записи для примера модели"
+
+#: ../../content/administration/odoo_sh/create_module.rst:126
 msgid ""
-"*views/templates.xml*, two example qweb views used by the above controller "
-"routes,"
+":file:`controllers/controllers.py` an example of a controller implementing "
+"some routes"
 msgstr ""
-"*views/templates.xml* — два примера qweb-представлений, используемых "
-"указанными выше маршрутами контроллера,"
+":file:`controllers/controllers.py` пример контроллера, реализующего "
+"несколько маршрутов"
 
-#: ../../content/administration/odoo_sh/first_module.rst:137
+#: ../../content/administration/odoo_sh/create_module.rst:127
 msgid ""
-"*__manifest__.py*, the manifest of your module, including for instance its "
-"title, description and data files to load. You just need to uncomment the "
-"access control list data file:"
+":file:`views/templates.xml` two example qweb views used by the controller "
+"routes"
 msgstr ""
-"*__manifest__.py* — манифест вашего модуля, включающий, например, его "
-"название, описание и файлы данных для загрузки. Вам нужно только "
-"раскомментировать файл данных списка контроля доступа:"
+":file:`views/templates.xml` два примера представлений qweb, используемых "
+"маршрутами контроллера"
 
-#: ../../content/administration/odoo_sh/first_module.rst:146
+#: ../../content/administration/odoo_sh/create_module.rst:128
+msgid ""
+":file:`__manifest__.py` the manifest of your module, including its title, "
+"description and data files to load. Uncomment the access control list data "
+"file:"
+msgstr ""
+":file:`__manifest__.py` манифест вашего модуля, включая его название, "
+"описание и файлы данных для загрузки. Раскомментируйте файл данных списка "
+"контроля доступа:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:138
 msgid "Manually"
 msgstr "Вручную"
 
-#: ../../content/administration/odoo_sh/first_module.rst:148
+#: ../../content/administration/odoo_sh/create_module.rst:140
 msgid ""
-"If you want to create your module structure manually, you can follow "
-"the :doc:`/developer/tutorials/server_framework_101` tutorial to understand "
-"the structure of a module and the content of each file."
+"To create your module structure manually, follow the :doc:`/developer/"
+"tutorials/server_framework_101` tutorial to understand the structure of a "
+"module and the content of each file."
 msgstr ""
-"Если вы хотите создать структуру модуля вручную, вы можете следовать "
-"учебному пособию :doc:`/developer/tutorials/server_framework_101`, чтобы "
-"понять структуру модуля и содержимое каждого файла."
+"Чтобы создать структуру модуля вручную, следуйте руководству :doc:`/"
+"developer/tutorials/server_framework_101`, чтобы понять структуру модуля и "
+"содержимое каждого файла."
 
-#: ../../content/administration/odoo_sh/first_module.rst:153
-msgid "Push the development branch"
-msgstr "Отправить ветку разработки"
+#: ../../content/administration/odoo_sh/create_module.rst:147
+msgid "Push on the development branch"
+msgstr "Отправка в ветку разработки"
 
-#: ../../content/administration/odoo_sh/first_module.rst:155
-msgid "Stage the changes to be committed"
-msgstr "Подготовить изменения к фиксации"
+#: ../../content/administration/odoo_sh/create_module.rst:149
+msgid "Stage the changes to be committed by running:"
+msgstr "Добавьте изменения для фиксации, выполнив команду:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:161
-#: ../../content/administration/odoo_sh/first_module.rst:394
-msgid "Commit your changes"
-msgstr "Зафиксировать изменения"
+#: ../../content/administration/odoo_sh/create_module.rst:155
+msgid "Commit your changes by running:"
+msgstr "Зафиксируйте изменения, выполнив команду:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:167
-msgid "Push your changes to your remote repository"
-msgstr "Отправьте ваши изменения в удаленный репозиторий"
+#: ../../content/administration/odoo_sh/create_module.rst:161
+msgid "Push your changes to your remote repository by running:"
+msgstr "Отправьте изменения в удаленный репозиторий, выполнив команду:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:169
-msgid "From an Odoo.sh editor terminal:"
-msgstr "Из терминала редактора Odoo.sh:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:175
+#: ../../content/administration/odoo_sh/create_module.rst:174
 msgid ""
-"The above command is explained in the section :ref:`Commit and push changes "
-"<odoo-sh/editor/commit>` of the :doc:`Online editor page <getting_started/"
-"online_editor>`. It includes the explanation regarding the fact you will be "
-"prompted to type your username and password, and what to do if you use the "
-"two-factor authentication."
+":ref:`Online editor documentation: committing and pushing changes <odoo-sh/"
+"editor/commit>`"
 msgstr ""
-"Приведенная выше команда объясняется в разделе :ref:`Фиксация и отправка "
-"изменений <odoo-sh/editor/commit>` страницы :doc:`Онлайн-редактор "
-"<getting_started/online_editor>`. Он включает объяснение того, что вам будет "
-"предложено ввести имя пользователя и пароль, а также что делать, если вы "
-"используете двухфакторную аутентификацию."
+":ref:`Документация онлайн-редактора: фиксация и отправка изменений <odoo-sh/"
+"editor/commit>`"
 
-#: ../../content/administration/odoo_sh/first_module.rst:180
-#: ../../content/administration/odoo_sh/first_module.rst:382
-#: ../../content/administration/odoo_sh/first_module.rst:408
-msgid "Or, from your computer terminal:"
-msgstr "Или из терминала вашего компьютера:"
+#: ../../content/administration/odoo_sh/create_module.rst:179
+msgid "Run:"
+msgstr "Выполните команду:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:186
+#: ../../content/administration/odoo_sh/create_module.rst:185
 msgid ""
-"You need to specify *-u origin feature-1* for the first push only. From that "
-"point, to push your future changes from your computer, you can simply use"
+"It is only necessary to specify `-u origin feature-1` the first time you "
+"push. After that, run:"
 msgstr ""
-"Вам нужно указать *-u origin feature-1* только для первой отправки. После "
-"этого для отправки будущих изменений с вашего компьютера можно просто "
-"использовать"
+"Необходимо указать `-u origin feature-1` только при первой отправке. После "
+"этого выполняйте:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:194
-msgid "Test your module"
-msgstr "Протестируйте ваш модуль"
+#: ../../content/administration/odoo_sh/create_module.rst:195
+msgid "Test the module"
+msgstr "Тестирование модуля"
 
-#: ../../content/administration/odoo_sh/first_module.rst:196
-msgid "Your branch should appear in your development branches in your project."
-msgstr "Ваша ветка должна появиться в ваших ветках разработки в вашем проекте."
-
-#: ../../content/administration/odoo_sh/first_module.rst:201
+#: ../../content/administration/odoo_sh/create_module.rst:197
 msgid ""
-"In the branches view of your project, you can click on your branch name in "
-"the left navigation panel to access its history."
+"The branch should appear under the :guilabel:`Development` section of "
+"the :doc:`Branches view <getting_started/branches>` navigation panel."
 msgstr ""
-"В представлении веток вашего проекта вы можете нажать на название вашей "
-"ветки на левой навигационной панели для доступа к ее истории."
+"Ветка должна появиться в разделе :guilabel:`Development` :doc:`представления "
+"веток <getting_started/branches>` на навигационной панели."
 
-#: ../../content/administration/odoo_sh/first_module.rst:207
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "Example of a development branch"
+msgstr "Пример ветки разработки"
+
+#: ../../content/administration/odoo_sh/create_module.rst:203
 msgid ""
-"You can see here the changes you just pushed, including the comment you set. "
-"Once the database ready, you can access it by clicking the *Connect* button."
+"Click the branch name to view its history, including the changes you just "
+"pushed. Once the database is ready, click :guilabel:`Connect` to access it."
 msgstr ""
-"Здесь вы можете увидеть изменения, которые вы только что отправили, включая "
-"комментарий, который вы указали. Когда база данных будет готова, вы можете "
-"получить к ней доступ, нажав кнопку *Подключиться*."
+"Нажмите на название ветки, чтобы просмотреть её историю, включая только что "
+"отправленные изменения. Когда база данных будет готова, нажмите "
+":guilabel:`Connect`, чтобы получить к ней доступ."
 
-#: ../../content/administration/odoo_sh/first_module.rst:213
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "The connect button to access a database"
+msgstr "Кнопка подключения для доступа к базе данных"
+
+#: ../../content/administration/odoo_sh/create_module.rst:209
 msgid ""
-"If your Odoo.sh project is configured to install your module automatically, "
-"you will directly see it amongst the database apps. Otherwise, it will be "
-"available in the apps to install."
+"If your Odoo.sh project is configured to automatically install the module, "
+"it will appear directly on the database dashboard. Otherwise, it will be "
+"available for installation under the :guilabel:`Apps` app."
 msgstr ""
-"Если ваш проект Odoo.sh настроен на автоматическую установку вашего модуля, "
-"вы сразу увидите его среди приложений базы данных. В противном случае он "
-"будет доступен в приложениях для установки."
+"Если ваш проект Odoo.sh настроен на автоматическую установку модуля, он "
+"появится непосредственно на панели управления базы данных. В противном "
+"случае он будет доступен для установки в приложении :guilabel:`Apps`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:217
-msgid ""
-"You can then play around with your module, create new records and test your "
-"features and buttons."
-msgstr ""
-"Затем вы можете поработать с вашим модулем, создать новые записи и "
-"протестировать ваши функции и кнопки."
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "The new module on the database dashboard"
+msgstr "Новый модуль на панели управления базы данных"
 
-#: ../../content/administration/odoo_sh/first_module.rst:220
+#: ../../content/administration/odoo_sh/create_module.rst:219
 msgid "Test with the production data"
 msgstr "Тестирование с производственными данными"
 
-#: ../../content/administration/odoo_sh/first_module.rst:222
+#: ../../content/administration/odoo_sh/create_module.rst:222
 msgid ""
-"You need to have a production database for this step. You can create it if "
-"you do not have it yet."
+"A production database is required for this step. If you do not have one yet, "
+"create it."
 msgstr ""
-"Для этого шага вам нужна производственная база данных. Вы можете создать ее, "
-"если у вас ее еще нет."
+"Для этого шага требуется рабочая база данных. Если у вас её ещё нет, "
+"создайте её."
 
-#: ../../content/administration/odoo_sh/first_module.rst:224
+#: ../../content/administration/odoo_sh/create_module.rst:224
 msgid ""
-"Once you tested your module in a development build with the demo data and "
-"believe it is ready, you can test it with the production data using a "
+"Once you have tested the module in a development build with the demo data "
+"and believe it is ready, you can test it with the production data using a "
 "staging branch."
 msgstr ""
-"После того как вы протестировали ваш модуль в сборке разработки с "
+"После того как вы протестировали модуль в сборке разработки с "
 "демонстрационными данными и считаете его готовым, вы можете протестировать "
-"его с производственными данными, используя промежуточную ветку."
+"его с рабочими данными, используя промежуточную ветку."
 
-#: ../../content/administration/odoo_sh/first_module.rst:227
-msgid "You can either:"
-msgstr "Вы можете либо:"
+#: ../../content/administration/odoo_sh/create_module.rst:227
+msgid "You can:"
+msgstr "Вы можете:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:229
+#: ../../content/administration/odoo_sh/create_module.rst:229
 msgid ""
-"Make your development branch a staging branch, by drag and dropping it onto "
-"the *staging* section title."
+"Convert your development branch to a staging branch by dragging and dropping "
+"it into the :guilabel:`Staging` section."
 msgstr ""
-"Сделать вашу ветку разработки промежуточной веткой, перетащив ее на "
-"заголовок раздела *staging*."
+"Преобразуйте вашу ветку разработки в промежуточную ветку, перетащив её в "
+"раздел :guilabel:`Staging`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:235
+#: ../../content/administration/odoo_sh/create_module.rst:231
 msgid ""
-"Merge it in an existing staging branch, by drag and dropping it onto the "
-"given staging branch."
+"Merge it into an existing staging branch by dragging and dropping it onto "
+"that branch."
 msgstr ""
-"Объединить ее с существующей промежуточной веткой, перетащив ее на данную "
-"промежуточную ветку."
+"Объедините её с существующей промежуточной веткой, перетащив её на эту ветку."
 
-#: ../../content/administration/odoo_sh/first_module.rst:240
-#: ../../content/administration/odoo_sh/first_module.rst:286
-msgid "You can also use the :code:`git merge` command to merge your branches."
-msgstr ""
-"Вы также можете использовать команду :code:`git merge` для объединения ваших "
-"веток."
+#: ../../content/administration/odoo_sh/create_module.rst:232
+msgid "Use the `git merge` command to merge your branches."
+msgstr "Используйте команду `git merge` для объединения ваших веток."
 
-#: ../../content/administration/odoo_sh/first_module.rst:242
+#: ../../content/administration/odoo_sh/create_module.rst:234
 msgid ""
-"This will create a new staging build, which will duplicate the production "
-"database and make it run using a server updated with your latest changes of "
-"your branch."
+"This creates a new staging build that duplicates the production database and "
+"runs it on a server updated with your branch’s latest changes."
 msgstr ""
-"Это создаст новую промежуточную сборку, которая продублирует "
-"производственную базу данных и запустит ее на сервере, обновленном вашими "
-"последними изменениями вашей ветки."
+"Это создаёт новую промежуточную сборку, которая дублирует производственную "
+"базу данных и запускает её на сервере, обновлённом последними изменениями из "
+"вашей ветки."
 
-#: ../../content/administration/odoo_sh/first_module.rst:248
-#: ../../content/administration/odoo_sh/first_module.rst:294
-msgid "Once the database ready, you can access it using the *Connect* button."
+#: ../../content/administration/odoo_sh/create_module.rst:237
+msgid "Once the database is ready, click :guilabel:`Connect` to access it."
 msgstr ""
-"Когда база данных будет готова, вы можете получить к ней доступ, используя "
-"кнопку *Подключиться*."
+"Когда база данных будет готова, нажмите :guilabel:`Connect`, чтобы получить "
+"к ней доступ."
 
-#: ../../content/administration/odoo_sh/first_module.rst:253
-#: ../../content/administration/odoo_sh/first_module.rst:297
-msgid "Install your module"
-msgstr "Установите ваш модуль"
+#: ../../content/administration/odoo_sh/create_module.rst:242
+#: ../../content/administration/odoo_sh/create_module.rst:272
+msgid "Install the module"
+msgstr "Установка модуля"
 
-#: ../../content/administration/odoo_sh/first_module.rst:255
+#: ../../content/administration/odoo_sh/create_module.rst:244
+#: ../../content/administration/odoo_sh/create_module.rst:274
 msgid ""
-"Your module will not be installed automatically, you have to install it from "
-"the apps menu. Indeed, the purpose of the staging build is to test the "
-"behavior of your changes as it would be on your production, and on your "
-"production you would not like your module to be installed automatically, but "
-"on demand."
+"Install the module from the :guilabel:`Apps` app. As the module may not "
+"appear directly in the list of apps, update the list of apps by activating "
+"the :ref:`developer mode <developer-mode>` and "
+"clicking :menuselection:`Update Apps List --> Update`."
 msgstr ""
-"Ваш модуль не будет установлен автоматически, вам необходимо установить его "
-"из меню приложений. Целью промежуточной сборки является тестирование "
-"поведения ваших изменений так, как если бы они были в вашей производственной "
-"среде, а в производственной среде вы не хотели бы, чтобы ваш модуль "
-"устанавливался автоматически, а по требованию."
+"Установите модуль из приложения :guilabel:`Apps`. Поскольку модуль может не "
+"отображаться непосредственно в списке приложений, обновите список "
+"приложений, активировав :ref:`режим разработчика <developer-mode>` и нажав "
+":menuselection:`Update Apps List --> Update`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:260
+#: ../../content/administration/odoo_sh/create_module.rst:249
 msgid ""
-"Your module may not appear directly in your apps to install either, you need "
-"to update your apps list first:"
+"The module is not installed automatically, as the purpose of the staging "
+"build is to test the behavior of your changes as they would be on the "
+"production database, so you would not want a module installed automatically."
 msgstr ""
-"Ваш модуль может не появиться сразу в списке приложений для установки, "
-"сначала необходимо обновить список приложений:"
+"Модуль не устанавливается автоматически, поскольку цель промежуточной сборки "
+"— протестировать поведение ваших изменений так, как они будут работать на "
+"производственной базе данных, поэтому вы не хотели бы, чтобы модуль "
+"устанавливался автоматически."
 
-#: ../../content/administration/odoo_sh/first_module.rst:263
-msgid "Activate the :ref:`developer mode <developer-mode>`"
-msgstr "Активируйте :ref:`режим разработчика <developer-mode>`"
-
-#: ../../content/administration/odoo_sh/first_module.rst:264
-msgid "in the apps menu, click the *Update Apps List* button,"
-msgstr "в меню приложений нажмите кнопку *Обновить список приложений*,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:265
-msgid "in the dialog that appears, click the *Update* button."
-msgstr "в появившемся диалоговом окне нажмите кнопку *Обновить*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:270
-msgid "Your module will then appear in the list of available apps."
-msgstr "После этого ваш модуль появится в списке доступных приложений."
-
-#: ../../content/administration/odoo_sh/first_module.rst:276
+#: ../../content/administration/odoo_sh/create_module.rst:256
 msgid "Deploy in production"
 msgstr "Развертывание в производственной среде"
 
-#: ../../content/administration/odoo_sh/first_module.rst:278
+#: ../../content/administration/odoo_sh/create_module.rst:258
 msgid ""
-"Once you tested your module in a staging branch with your production data, "
-"and believe it is ready for production, you can merge your branch in the "
-"production branch."
+"Once you have tested the module in a staging branch with the production data "
+"and believe it is ready for production, you can merge your branch into the "
+"production branch by:"
 msgstr ""
-"После того как вы протестировали свой модуль в промежуточной ветке с "
-"производственными данными и считаете, что он готов для производства, вы "
-"можете объединить свою ветку с производственной веткой."
+"После того как вы протестировали модуль в промежуточной ветке с "
+"производственными данными и уверены, что он готов для производства, вы "
+"можете объединить вашу ветку с производственной веткой следующими способами:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:281
-msgid "Drag and drop your staging branch on the production branch."
-msgstr "Перетащите промежуточную ветку на производственную ветку."
+#: ../../content/administration/odoo_sh/create_module.rst:261
+msgid "Dragging and dropping the staging branch onto the production branch."
+msgstr "Перетащив промежуточную ветку на производственную ветку."
 
-#: ../../content/administration/odoo_sh/first_module.rst:288
+#: ../../content/administration/odoo_sh/create_module.rst:262
+msgid "Using the `git merge` command to merge your branches."
+msgstr "Используя команду `git merge` для объединения ваших веток."
+
+#: ../../content/administration/odoo_sh/create_module.rst:264
 msgid ""
-"This will merge the latest changes of your staging branch in the production "
-"branch, and update your production server with these latest changes."
+"This merges the latest changes from the staging branch into the production "
+"branch and updates the production server with them."
 msgstr ""
-"Это объединит последние изменения вашей промежуточной ветки с "
-"производственной веткой и обновит ваш производственный сервер этими "
-"последними изменениями."
+"Это объединяет последние изменения из промежуточной ветки с производственной "
+"веткой и обновляет производственный сервер этими изменениями."
 
-#: ../../content/administration/odoo_sh/first_module.rst:299
-msgid ""
-"Your module will not be installed automatically, you have to install it "
-"manually as explained in the :ref:`above section about installing your "
-"module in staging databases <odoosh-gettingstarted-firstmodule-"
-"productiondata-install>`."
+#: ../../content/administration/odoo_sh/create_module.rst:267
+msgid "Once the database is ready,  click :guilabel:`Connect` to access it."
 msgstr ""
-"Ваш модуль не будет установлен автоматически, вам необходимо установить его "
-"вручную, как описано в :ref:`разделе выше об установке модуля в "
-"промежуточных базах данных <odoosh-gettingstarted-firstmodule-productiondata-"
-"install>`."
+"Когда база данных будет готова, нажмите :guilabel:`Connect`, чтобы получить "
+"к ней доступ."
 
-#: ../../content/administration/odoo_sh/first_module.rst:307
+#: ../../content/administration/odoo_sh/create_module.rst:281
 msgid "Add a change"
 msgstr "Добавление изменения"
 
-#: ../../content/administration/odoo_sh/first_module.rst:309
+#: ../../content/administration/odoo_sh/create_module.rst:283
 msgid ""
 "This section explains how to add a change in your module by adding a new "
-"field in a model and deploy it."
+"field in a model and deploying it."
 msgstr ""
 "В этом разделе объясняется, как добавить изменение в ваш модуль, добавив "
 "новое поле в модель и развернув его."
 
-#: ../../content/administration/odoo_sh/first_module.rst:314
-msgid "From the Odoo.sh editor,"
-msgstr "В редакторе Odoo.sh"
-
-#: ../../content/administration/odoo_sh/first_module.rst:313
-msgid "browse to your module folder *~/src/user/my_module*,"
-msgstr "перейдите в папку вашего модуля *~/src/user/my_module*,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:314
-msgid "then, open the file *models/models.py*."
-msgstr "затем откройте файл *models/models.py*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:320
-msgid "Or, from your computer,"
-msgstr "Или на вашем компьютере"
-
-#: ../../content/administration/odoo_sh/first_module.rst:317
+#: ../../content/administration/odoo_sh/create_module.rst:286
 msgid ""
-"use the file browser of your choice to browse to your module folder *~/src/"
-"odoo-addons/my_module*,"
+"From the :doc:`editor <getting_started/online_editor>` or from your "
+"computer, open the module folder :file:`~/src/odoo-addons/my_module`, then "
+"open the :file:`models/models.py` file to edit it. After the description "
+"field:"
 msgstr ""
-"используйте любой файловый менеджер для перехода в папку вашего модуля *~/"
-"src/odoo-addons/my_module*,"
+"Из :doc:`редактора <getting_started/online_editor>` или с вашего компьютера "
+"откройте папку модуля :file:`~/src/odoo-addons/my_module`, затем откройте "
+"файл :file:`models/models.py` для редактирования. После поля description:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:319
+#: ../../content/administration/odoo_sh/create_module.rst:294
+msgid "add a datetime field:"
+msgstr "добавьте поле datetime:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:300
+msgid "Open the :file:`views/views.xml` file and after:"
+msgstr "Откройте файл :file:`views/views.xml` и после:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:306
+#: ../../content/administration/odoo_sh/create_module.rst:377
+#: ../../content/administration/odoo_sh/create_module.rst:389
+msgid "add:"
+msgstr "добавьте:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:314
 msgid ""
-"then, open the file *models/models.py* using the editor of your choice, such "
-"as *Atom*, *Sublime Text*, *PyCharm*, *vim*, ..."
+"These changes alter the database structure by adding a column to a table and "
+"modifying a view. To be applied to an existing database, such as your "
+"production database, these changes require the module to be updated. If you "
+"would like the update to be performed automatically by the Odoo.sh platform "
+"when you push your changes, increase the module's version in its manifest by "
+"opening :file:`__manifest__.py` and replacing:"
 msgstr ""
-"затем откройте файл *models/models.py* с помощью любого редактора, такого "
-"как *Atom*, *Sublime Text*, *PyCharm*, *vim* и т. д."
+"Эти изменения изменяют структуру базы данных, добавляя столбец в таблицу и "
+"изменяя представление. Чтобы применить их к существующей базе данных, "
+"например к вашей производственной базе данных, эти изменения требуют "
+"обновления модуля. Если вы хотите, чтобы обновление выполнялось "
+"автоматически платформой Odoo.sh при отправке ваших изменений, увеличьте "
+"версию модуля в его манифесте, открыв :file:`__manifest__.py` и заменив:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:322
-msgid "Then, after the description field"
-msgstr "Затем после поля description"
+#: ../../content/administration/odoo_sh/create_module.rst:324
+msgid "with:"
+msgstr "с:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:328
-msgid "Add a datetime field"
-msgstr "Добавить поле datetime"
-
-#: ../../content/administration/odoo_sh/first_module.rst:334
-msgid "Then, open the file *views/views.xml*."
-msgstr "Затем откройте файл *views/views.xml*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:336
-#: ../../content/administration/odoo_sh/first_module.rst:472
-msgid "After"
-msgstr "После"
-
-#: ../../content/administration/odoo_sh/first_module.rst:342
-#: ../../content/administration/odoo_sh/first_module.rst:449
-#: ../../content/administration/odoo_sh/first_module.rst:466
-#: ../../content/administration/odoo_sh/first_module.rst:478
-msgid "Add"
-msgstr "Добавить"
-
-#: ../../content/administration/odoo_sh/first_module.rst:348
+#: ../../content/administration/odoo_sh/create_module.rst:330
 msgid ""
-"These changes alter the database structure by adding a column in a table, "
-"and modify a view stored in database."
-msgstr ""
-"Эти изменения изменяют структуру базы данных, добавляя столбец в таблицу, и "
-"модифицируют представление, хранящееся в базе данных."
-
-#: ../../content/administration/odoo_sh/first_module.rst:351
-msgid ""
-"In order to be applied in existing databases, such as your production "
-"database, these changes requires the module to be updated."
-msgstr ""
-"Чтобы применить эти изменения в существующих базах данных, например в вашей "
-"производственной базе данных, требуется обновление модуля."
-
-#: ../../content/administration/odoo_sh/first_module.rst:354
-msgid ""
-"If you would like the update to be performed automatically by the Odoo.sh "
-"platform when you push your changes, increase your module version in its "
-"manifest."
-msgstr ""
-"Если вы хотите, чтобы обновление выполнялось автоматически платформой "
-"Odoo.sh при отправке изменений, увеличьте версию модуля в его манифесте."
-
-#: ../../content/administration/odoo_sh/first_module.rst:357
-msgid "Open the module manifest *__manifest__.py*."
-msgstr "Откройте манифест модуля *__manifest__.py*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:365
-#: ../../content/administration/odoo_sh/first_module.rst:504
-msgid "with"
-msgstr "с"
-
-#: ../../content/administration/odoo_sh/first_module.rst:371
-msgid ""
-"The platform will detect the change of version and trigger the update of the "
-"module upon the new revision deployment."
+"The platform will detect a version change and trigger the module update upon "
+"deployment of the new revision."
 msgstr ""
 "Платформа обнаружит изменение версии и запустит обновление модуля при "
-"развертывании новой ревизии."
+"развертывании новой редакции."
 
-#: ../../content/administration/odoo_sh/first_module.rst:374
-msgid "Browse to your Git folder."
-msgstr "Перейдите в вашу папку Git."
+#: ../../content/administration/odoo_sh/create_module.rst:333
+msgid "Next, :ref:`push the changes <odoo-sh/module/push-development>`."
+msgstr "Далее :ref:`отправьте изменения <odoo-sh/module/push-development>`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:376
-msgid "Then, from an Odoo.sh terminal:"
-msgstr "Затем из терминала Odoo.sh:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:388
-msgid "Then, stage your changes to be committed"
-msgstr "Затем подготовьте изменения для фиксации"
-
-#: ../../content/administration/odoo_sh/first_module.rst:400
-msgid "Push your changes:"
-msgstr "Отправьте изменения:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:402
-msgid "From an Odoo.sh terminal:"
-msgstr "Из терминала Odoo.sh:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:414
-msgid "The platform will then create a new build for the branch *feature-1*."
-msgstr "Платформа создаст новую сборку для ветки *feature-1*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:419
+#: ../../content/administration/odoo_sh/create_module.rst:335
 msgid ""
-"Once you tested your changes, you can merge your changes in the production "
-"branch, for instance by drag-and-dropping the branch on the production "
-"branch in the Odoo.sh interface. As you increased the module version in the "
-"manifest, the platform will update the module automatically and your new "
-"field will be directly available. Otherwise you can manually update the "
-"module within the apps list."
+"Once you have :ref:`tested your changes <odoo-sh/module/test-module>`, you "
+"can merge them into the production branch, for instance, by dragging and "
+"dropping the branch onto the production branch in the Odoo.sh interface. "
+"Since you increased the module version in the manifest, the platform will "
+"automatically update the module, and your new field will be available "
+"immediately. Otherwise, you can manually :ref:`update the module <odoo-sh/"
+"module/deploy/install>` within the apps list."
 msgstr ""
-"После того как вы протестируете изменения, можете объединить их с "
-"производственной веткой, например перетащив ветку на производственную ветку "
-"в интерфейсе Odoo.sh. Поскольку вы увеличили версию модуля в манифесте, "
-"платформа обновит модуль автоматически, и ваше новое поле будет сразу "
-"доступно. В противном случае вы можете вручную обновить модуль в списке "
-"приложений."
+"После того как вы :ref:`протестируете изменения <odoo-sh/module/test-module>"
+"`, вы можете объединить их с рабочей веткой, например, перетащив ветку на "
+"рабочую ветку в интерфейсе Odoo.sh. Поскольку вы увеличили версию модуля в "
+"манифесте, платформа автоматически обновит модуль, и ваше новое поле станет "
+"доступным немедленно. В противном случае вы можете вручную :ref:`обновить "
+"модуль <odoo-sh/module/deploy/install>` в списке приложений."
 
-#: ../../content/administration/odoo_sh/first_module.rst:425
+#: ../../content/administration/odoo_sh/create_module.rst:343
 msgid "Use an external Python library"
 msgstr "Использование внешней библиотеки Python"
 
-#: ../../content/administration/odoo_sh/first_module.rst:427
+#: ../../content/administration/odoo_sh/create_module.rst:345
 msgid ""
-"If you would like to use an external Python library which is not installed "
-"by default, you can define a *requirements.txt* file listing the external "
-"libraries your modules depends on."
+"If you would like to use an external Python library that is not installed by "
+"default, you can define a :file:`requirements.txt` file listing the external "
+"libraries your modules depend on. The platform will use this file to "
+"automatically install the Python libraries your project needs."
 msgstr ""
 "Если вы хотите использовать внешнюю библиотеку Python, которая не "
-"установлена по умолчанию, можете определить файл *requirements.txt* со "
-"списком внешних библиотек, от которых зависят ваши модули."
+"установлена по умолчанию, вы можете определить файл "
+":file:`requirements.txt`, содержащий список внешних библиотек, от которых "
+"зависят ваши модули. Платформа будет использовать этот файл для "
+"автоматической установки библиотек Python, необходимых вашему проекту."
 
-#: ../../content/administration/odoo_sh/first_module.rst:431
+#: ../../content/administration/odoo_sh/create_module.rst:350
 msgid ""
-"It is not possible to install or upgrade system packages on an Odoo.sh "
-"database (e.g., apt packages). However, under specific conditions, packages "
-"can be considered for installation. This also applies to **Python modules** "
-"requiring system packages for their compilation, and **third-party Odoo "
-"modules**."
+"It is not possible to install or upgrade system packages on Odoo.sh "
+"databases (e.g., apt packages). However, under specific conditions, "
+"`packages can be considered for installation <https://www.odoo.sh/"
+"faq#install_dependencies>`_. This also applies to Python modules that "
+"require system packages for compilation and to third-party Odoo modules."
 msgstr ""
-"Установка или обновление системных пакетов в базе данных Odoo.sh невозможна "
-"(например, пакеты apt). Однако при определенных условиях пакеты могут быть "
-"рассмотрены для установки. Это также относится к **модулям Python**, "
-"требующим системные пакеты для компиляции, и **сторонним модулям Odoo**."
+"Невозможно установить или обновить системные пакеты в базах данных Odoo.sh "
+"(например, пакеты apt). Однако при определенных условиях `пакеты могут быть "
+"рассмотрены для установки <https://www.odoo.sh/faq#install_dependencies>`_. "
+"Это также относится к модулям Python, требующим системные пакеты для "
+"компиляции, и к сторонним модулям Odoo."
 
-#: ../../content/administration/odoo_sh/first_module.rst:435
-msgid "**PostgreSQL extensions** are not supported on Odoo.sh."
-msgstr "**Расширения PostgreSQL** не поддерживаются на Odoo.sh."
-
-#: ../../content/administration/odoo_sh/first_module.rst:436
+#: ../../content/administration/odoo_sh/create_module.rst:354
 msgid ""
-"For more information, consult our `FAQ <https://www.odoo.sh/"
-"faq#install_dependencies>`_."
+"PostgreSQL extensions are not supported on Odoo.sh hence it is not possible "
+"to install extensions (such as PostGIS, ltree, ...) in Odoo.sh databases."
 msgstr ""
-"Для получения дополнительной информации обратитесь к нашему `FAQ <https://"
-"www.odoo.sh/faq#install_dependencies>`_."
+"Расширения PostgreSQL не поддерживаются в Odoo.sh, поэтому невозможно "
+"установить расширения (такие как PostGIS, ltree, ...) в базах данных Odoo.sh."
 
-#: ../../content/administration/odoo_sh/first_module.rst:438
+#: ../../content/administration/odoo_sh/create_module.rst:357
 msgid ""
-"The platform will use this file to automatically install the Python "
-"libraries your project needs."
+"For example, to use the `Unidecode library <https://pypi.org/project/"
+"Unidecode>`_ in your module:"
 msgstr ""
-"Платформа будет использовать этот файл для автоматической установки "
-"библиотек Python, необходимых вашему проекту."
+"Например, чтобы использовать `библиотеку Unidecode <https://pypi.org/project/"
+"Unidecode>`_ в вашем модуле:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:440
+#: ../../content/administration/odoo_sh/create_module.rst:359
 msgid ""
-"The feature is explained in this section by using the `Unidecode library "
-"<https://pypi.python.org/pypi/Unidecode>`_ in your module."
+"Create a file :file:`requirements.txt` in the root folder of your repository:"
 msgstr ""
-"Эта функция объясняется в данном разделе с использованием `библиотеки "
-"Unidecode <https://pypi.python.org/pypi/Unidecode>`_ в вашем модуле."
+"Создайте файл :file:`requirements.txt` в корневой папке вашего репозитория:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:443
-msgid "Create a file *requirements.txt* in the root folder of your repository"
-msgstr "Создайте файл *requirements.txt* в корневой папке вашего репозитория"
-
-#: ../../content/administration/odoo_sh/first_module.rst:445
+#: ../../content/administration/odoo_sh/create_module.rst:361
 msgid ""
-"From the Odoo.sh editor, create and open the file ~/src/user/"
-"requirements.txt."
+"From the Odoo.sh editor, create and open the file :file:`~/src/user/"
+"requirements.txt`."
 msgstr ""
-"В редакторе Odoo.sh создайте и откройте файл ~/src/user/requirements.txt."
+"В редакторе Odoo.sh создайте и откройте файл :file:`~/src/user/"
+"requirements.txt`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:447
+#: ../../content/administration/odoo_sh/create_module.rst:362
 msgid ""
-"Or, from your computer, create and open the file ~/src/odoo-addons/"
-"requirements.txt."
+"From your computer, create nd open the file :file:`~/src/odoo-addons/"
+"requirements.txt`."
 msgstr ""
-"Или на вашем компьютере создайте и откройте файл ~/src/odoo-addons/"
-"requirements.txt."
+"На вашем компьютере создайте и откройте файл :file:`~/src/odoo-addons/"
+"requirements.txt`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:455
+#: ../../content/administration/odoo_sh/create_module.rst:364
+msgid "Add to the file:"
+msgstr "Добавьте в файл:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:370
 msgid ""
-"Then use the library in your module, for instance to remove accents from "
-"characters in the name field of your model."
+"You can now use the library in your module, for instance, to remove accents "
+"from characters in the name field of your model. To do so, open "
+"the :file:`models/models.py` file and before:"
 msgstr ""
-"Затем используйте библиотеку в вашем модуле, например, для удаления акцентов "
-"из символов в поле имени вашей модели."
+"Теперь вы можете использовать библиотеку в своем модуле, например, для "
+"удаления акцентов из символов в поле имени вашей модели. Для этого откройте "
+"файл :file:`models/models.py` и перед:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:458
-msgid "Open the file *models/models.py*."
-msgstr "Откройте файл *models/models.py*."
+#: ../../content/administration/odoo_sh/create_module.rst:383
+msgid "After:"
+msgstr "После:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:460
-msgid "Before"
-msgstr "До"
-
-#: ../../content/administration/odoo_sh/first_module.rst:494
+#: ../../content/administration/odoo_sh/create_module.rst:404
 msgid ""
-"Adding a Python dependency requires a module version increase for the "
-"platform to install it."
+"Increase the module version to install the Python dependency by editing "
+"the :ref:`module's manifest <odoo-sh/module/add/"
+"manifest>` :file:`__manifest__.py`."
 msgstr ""
-"Добавление зависимости Python требует увеличения версии модуля, чтобы "
-"платформа установила её."
+"Увеличьте версию модуля для установки зависимости Python, отредактировав "
+":ref:`манифест модуля <odoo-sh/module/add/manifest>` :file:`__manifest__.py`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:496
-msgid "Edit the module manifest *__manifest__.py*"
-msgstr "Отредактируйте манифест модуля *__manifest__.py*"
+#: ../../content/administration/odoo_sh/create_module.rst:407
+msgid "Then, :ref:`push the changes <odoo-sh/module/push-development>`."
+msgstr "Затем :ref:`отправьте изменения <odoo-sh/module/push-development>`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:510
-msgid "Stage and commit your changes:"
-msgstr "Подготовьте и зафиксируйте ваши изменения:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:518
-msgid "Then, push your changes:"
-msgstr "Затем отправьте ваши изменения:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:520
-msgid "In an Odoo.sh terminal:"
-msgstr "В терминале Odoo.sh:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:526
-msgid "In your computer terminal:"
-msgstr "В терминале вашего компьютера:"
+#: ../../content/administration/odoo_sh/create_module.rst:410
+msgid ""
+"Stage the :file:`requirements.txt` file by running `git add "
+"requirements.txt`."
+msgstr ""
+"Добавьте файл :file:`requirements.txt` в индекс, выполнив `git add "
+"requirements.txt`."
 
 #: ../../content/administration/odoo_sh/getting_started.rst:5
 msgid "Getting started"
@@ -3830,12 +3753,12 @@ msgstr ""
 msgid ""
 "The purpose of manual backups is to create a specific snapshot of production "
 "or staging databases (not available for development). These remain available "
-"for seven days. However, there is a limit of five daily manual backups."
+"for three days. However, there is a limit of five daily manual backups."
 msgstr ""
-"Цель резервного копирования вручную — создать конкретный снимок "
-"производственных или промежуточных баз данных (недоступно для разработки). "
-"Они остаются доступными в течение семи дней. Однако существует ограничение в "
-"пять ежедневных резервных копий вручную."
+"Ручное резервное копирование предназначено для создания определённого снимка "
+"рабочей базы данных или базы данных на промежуточном сервере (недоступно для "
+"баз разработки). Такие копии хранятся в течение трёх дней. При этом "
+"действует ограничение — не более пяти ручных резервных копий в день."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:500
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:49
@@ -5195,51 +5118,10 @@ msgstr ""
 "серверу используйте порт **465** или **587**."
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:164
-msgid "Check scheduled actions"
-msgstr "Проверка запланированных действий"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:166
-msgid ""
-"Scheduled actions are **disabled by default** after importing your database. "
-"This prevents your newly imported database from performing potentially "
-"disruptive operations such as:"
-msgstr ""
-"Запланированные действия **по умолчанию отключены** после импорта базы "
-"данных. Это предотвращает выполнение вашей новой импортированной базой "
-"данных потенциально нежелательных операций, таких как:"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:169
-msgid "sending queued emails,"
-msgstr "отправка писем из очереди,"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:170
-msgid "triggering mass mailings, or"
-msgstr "запуск массовых рассылок или"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:171
-msgid "syncing with third-party services (e.g., calendars, cloud storage)."
-msgstr ""
-"синхронизация со сторонними сервисами (например, календари, облачные "
-"хранилища)."
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:173
-msgid ""
-"If you intend to use this imported database in production, **re-enable** "
-"only the scheduled actions you need by enabling :ref:`developer mode "
-"<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
-"Automation: Scheduled Actions`."
-msgstr ""
-"Если вы планируете использовать эту импортированную базу данных в рабочей "
-"среде, **повторно включите** только необходимые запланированные действия. "
-"Для этого включите :ref:`режим разработчика <developer-mode>` и перейдите в "
-":menuselection:`Настройки --> Технические --> Автоматизация: Запланированные "
-"действия`."
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:178
 msgid "Register the subscription"
 msgstr "Регистрация подписки"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:180
+#: ../../content/administration/odoo_sh/getting_started/create.rst:166
 msgid ""
 "After import, the database is considered a **duplicate** and will be "
 "unlinked from your enterprise subscription."
@@ -5247,25 +5129,25 @@ msgstr ""
 "После импорта база данных считается **дубликатом** и будет отвязана от вашей "
 "корпоративной подписки."
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:184
+#: ../../content/administration/odoo_sh/getting_started/create.rst:170
 msgid "You are allowed only one active database per subscription."
 msgstr "Вам разрешена только одна активная база данных на подписку."
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:186
+#: ../../content/administration/odoo_sh/getting_started/create.rst:172
 msgid ""
 "If you intend to make the imported database your production environment:"
 msgstr ""
 "Если вы планируете сделать импортированную базу данных вашей рабочей средой:"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:188
+#: ../../content/administration/odoo_sh/getting_started/create.rst:174
 msgid "Unlink your previous database from the subscription."
 msgstr "Отвяжите предыдущую базу данных от подписки."
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:189
+#: ../../content/administration/odoo_sh/getting_started/create.rst:175
 msgid "Register the new one."
 msgstr "Зарегистрируйте новую."
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:191
+#: ../../content/administration/odoo_sh/getting_started/create.rst:177
 msgid ""
 "Refer to the :doc:`database registration documentation <../../on_premise>` "
 "for step-by-step instructions."
@@ -5628,15 +5510,16 @@ msgstr "Название проекта"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:12
 msgid ""
-"The name of your project defines the address used to access your production "
-"database. The addresses of your staging and development builds are "
-"automatically derived from this name. If you change the project name, only "
-"future builds will use the new name."
+"The project name defines your production database address, as well as the "
+"derived URLs for staging and development. Upon saving, the new name is "
+"applied directly to the production branch. However, for staging and "
+"development URLs, the change will only reflect after a rebuild."
 msgstr ""
-"Имя проекта определяет адрес, используемый для доступа к производственной "
-"базе данных. Адреса промежуточных сборок и сборок разработки автоматически "
-"формируются из этого имени. Если вы измените имя проекта, только будущие "
-"сборки будут использовать новое имя."
+"Имя проекта определяет адрес вашей рабочей базы данных, а также производные "
+"URL-адреса для промежуточной и разрабатываемой сред. При сохранении новое "
+"имя применяется непосредственно к рабочей ветке. Однако для URL-адресов "
+"промежуточной и разрабатываемой сред изменение отразится только после "
+"пересборки."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:None
 msgid "The project name setting"
@@ -5790,15 +5673,15 @@ msgstr "Подключиться + / Подключиться как"
 #: ../../content/administration/standard_extended_support.rst:36
 #: ../../content/administration/standard_extended_support.rst:42
 #: ../../content/administration/standard_extended_support.rst:48
-#: ../../content/administration/standard_extended_support.rst:54
-#: ../../content/administration/standard_extended_support.rst:55
-#: ../../content/administration/standard_extended_support.rst:56
-#: ../../content/administration/standard_extended_support.rst:78
-#: ../../content/administration/standard_extended_support.rst:79
-#: ../../content/administration/standard_extended_support.rst:80
+#: ../../content/administration/standard_extended_support.rst:60
+#: ../../content/administration/standard_extended_support.rst:61
+#: ../../content/administration/standard_extended_support.rst:62
 #: ../../content/administration/standard_extended_support.rst:84
 #: ../../content/administration/standard_extended_support.rst:85
 #: ../../content/administration/standard_extended_support.rst:86
+#: ../../content/administration/standard_extended_support.rst:90
+#: ../../content/administration/standard_extended_support.rst:91
+#: ../../content/administration/standard_extended_support.rst:92
 msgid "|green|"
 msgstr "|green|"
 
@@ -5873,14 +5756,15 @@ msgstr "Статус"
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:187
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:191
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:192
-#: ../../content/administration/standard_extended_support.rst:60
+#: ../../content/administration/standard_extended_support.rst:54
 #: ../../content/administration/standard_extended_support.rst:66
 #: ../../content/administration/standard_extended_support.rst:72
-#: ../../content/administration/standard_extended_support.rst:90
+#: ../../content/administration/standard_extended_support.rst:78
 #: ../../content/administration/standard_extended_support.rst:96
 #: ../../content/administration/standard_extended_support.rst:102
 #: ../../content/administration/standard_extended_support.rst:108
-#: ../../content/administration/standard_extended_support.rst:109
+#: ../../content/administration/standard_extended_support.rst:114
+#: ../../content/administration/standard_extended_support.rst:115
 msgid "|red|"
 msgstr "|red|"
 
@@ -5894,7 +5778,7 @@ msgid ":ref:`Backups <odoo-sh/branches/tabs/backups>`"
 msgstr ":ref:`Резервные копии <odoo-sh/branches/tabs/backups>`"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:200
-#: ../../content/administration/standard_extended_support.rst:114
+#: ../../content/administration/standard_extended_support.rst:120
 msgid "Legend"
 msgstr "Легенда"
 
@@ -9818,8 +9702,8 @@ msgid "End of standard support"
 msgstr "Окончание стандартной поддержки"
 
 #: ../../content/administration/standard_extended_support.rst:35
-msgid "Odoo SaaS 19.3"
-msgstr "Odoo SaaS 19.3"
+msgid "Odoo SaaS 19.4"
+msgstr "Odoo SaaS 19.4"
 
 #: ../../content/administration/standard_extended_support.rst:37
 #: ../../content/administration/standard_extended_support.rst:38
@@ -9827,154 +9711,164 @@ msgstr "Odoo SaaS 19.3"
 #: ../../content/administration/standard_extended_support.rst:44
 #: ../../content/administration/standard_extended_support.rst:49
 #: ../../content/administration/standard_extended_support.rst:50
-#: ../../content/administration/standard_extended_support.rst:61
-#: ../../content/administration/standard_extended_support.rst:62
+#: ../../content/administration/standard_extended_support.rst:55
+#: ../../content/administration/standard_extended_support.rst:56
 #: ../../content/administration/standard_extended_support.rst:67
 #: ../../content/administration/standard_extended_support.rst:68
 #: ../../content/administration/standard_extended_support.rst:73
 #: ../../content/administration/standard_extended_support.rst:74
+#: ../../content/administration/standard_extended_support.rst:79
+#: ../../content/administration/standard_extended_support.rst:80
 msgid "N/A"
 msgstr "Нет данных"
 
 #: ../../content/administration/standard_extended_support.rst:39
+msgid "July 2026"
+msgstr "Июль 2026 г."
+
+#: ../../content/administration/standard_extended_support.rst:41
+msgid "Odoo SaaS 19.3"
+msgstr "Odoo SaaS 19.3"
+
+#: ../../content/administration/standard_extended_support.rst:45
 msgid "May 2026"
 msgstr "Май 2026"
 
-#: ../../content/administration/standard_extended_support.rst:41
+#: ../../content/administration/standard_extended_support.rst:47
 msgid "Odoo SaaS 19.2"
 msgstr "Odoo SaaS 19.2"
 
-#: ../../content/administration/standard_extended_support.rst:45
+#: ../../content/administration/standard_extended_support.rst:51
 msgid "March 2026"
 msgstr "Март 2026"
 
-#: ../../content/administration/standard_extended_support.rst:47
+#: ../../content/administration/standard_extended_support.rst:53
 msgid "Odoo SaaS 19.1"
 msgstr "Odoo SaaS 19.1"
 
-#: ../../content/administration/standard_extended_support.rst:51
+#: ../../content/administration/standard_extended_support.rst:57
 msgid "January 2026"
 msgstr "Январь 2026"
 
-#: ../../content/administration/standard_extended_support.rst:53
+#: ../../content/administration/standard_extended_support.rst:59
 msgid "**Odoo 19.0**"
 msgstr "**Odoo 19.0**"
 
-#: ../../content/administration/standard_extended_support.rst:57
-#: ../../content/administration/standard_extended_support.rst:94
+#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:100
 msgid "September 2025"
 msgstr "сентябрь 2025"
 
-#: ../../content/administration/standard_extended_support.rst:58
+#: ../../content/administration/standard_extended_support.rst:64
 msgid "September 2028 (planned)"
 msgstr "сентябрь 2028 (планируется)"
 
-#: ../../content/administration/standard_extended_support.rst:59
+#: ../../content/administration/standard_extended_support.rst:65
 msgid "Odoo SaaS 18.4"
 msgstr "Odoo SaaS 18.4"
 
-#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:69
 msgid "July 2025"
 msgstr "Июль 2025"
 
-#: ../../content/administration/standard_extended_support.rst:65
+#: ../../content/administration/standard_extended_support.rst:71
 msgid "Odoo SaaS 18.3"
 msgstr "Odoo SaaS 18.3"
 
-#: ../../content/administration/standard_extended_support.rst:69
+#: ../../content/administration/standard_extended_support.rst:75
 msgid "May 2025"
 msgstr "Май 2025"
 
-#: ../../content/administration/standard_extended_support.rst:71
+#: ../../content/administration/standard_extended_support.rst:77
 msgid "Odoo SaaS 18.2"
 msgstr "Odoo SaaS 18.2"
 
-#: ../../content/administration/standard_extended_support.rst:75
+#: ../../content/administration/standard_extended_support.rst:81
 msgid "March 2025"
 msgstr "Март 2025"
 
-#: ../../content/administration/standard_extended_support.rst:77
+#: ../../content/administration/standard_extended_support.rst:83
 msgid "**Odoo 18.0**"
 msgstr "**Odoo 18.0**"
 
-#: ../../content/administration/standard_extended_support.rst:81
-#: ../../content/administration/standard_extended_support.rst:100
+#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:106
 msgid "October 2024"
 msgstr "Октябрь 2024"
 
-#: ../../content/administration/standard_extended_support.rst:82
+#: ../../content/administration/standard_extended_support.rst:88
 msgid "September 2027 (planned)"
 msgstr "сентябрь 2027 (планируется)"
 
-#: ../../content/administration/standard_extended_support.rst:83
+#: ../../content/administration/standard_extended_support.rst:89
 msgid "**Odoo 17.0**"
 msgstr "**Odoo 17.0**"
 
-#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:93
 msgid "November 2023"
 msgstr "Ноябрь 2023"
 
-#: ../../content/administration/standard_extended_support.rst:88
+#: ../../content/administration/standard_extended_support.rst:94
 msgid "September 2026 (planned)"
 msgstr "сентябрь 2026 (планируется)"
 
-#: ../../content/administration/standard_extended_support.rst:89
+#: ../../content/administration/standard_extended_support.rst:95
 msgid "**Odoo 16.0**"
 msgstr "**Odoo 16.0**"
 
-#: ../../content/administration/standard_extended_support.rst:91
-#: ../../content/administration/standard_extended_support.rst:92
 #: ../../content/administration/standard_extended_support.rst:97
 #: ../../content/administration/standard_extended_support.rst:98
 #: ../../content/administration/standard_extended_support.rst:103
 #: ../../content/administration/standard_extended_support.rst:104
+#: ../../content/administration/standard_extended_support.rst:109
 #: ../../content/administration/standard_extended_support.rst:110
+#: ../../content/administration/standard_extended_support.rst:116
 msgid "|orange|"
 msgstr "|orange|"
 
-#: ../../content/administration/standard_extended_support.rst:93
+#: ../../content/administration/standard_extended_support.rst:99
 msgid "October 2022"
 msgstr "Октябрь 2022"
 
-#: ../../content/administration/standard_extended_support.rst:95
+#: ../../content/administration/standard_extended_support.rst:101
 msgid "**Odoo 15.0**"
 msgstr "**Odoo 15.0**"
 
-#: ../../content/administration/standard_extended_support.rst:99
+#: ../../content/administration/standard_extended_support.rst:105
 msgid "October 2021"
 msgstr "Октябрь 2021"
 
-#: ../../content/administration/standard_extended_support.rst:101
+#: ../../content/administration/standard_extended_support.rst:107
 msgid "**Odoo 14.0**"
 msgstr "**Odoo 14.0**"
 
-#: ../../content/administration/standard_extended_support.rst:105
 #: ../../content/administration/standard_extended_support.rst:111
+#: ../../content/administration/standard_extended_support.rst:117
 msgid "Before 2021"
 msgstr "До 2021 года"
 
-#: ../../content/administration/standard_extended_support.rst:106
 #: ../../content/administration/standard_extended_support.rst:112
+#: ../../content/administration/standard_extended_support.rst:118
 msgid "Before 2024"
 msgstr "До 2024 года"
 
-#: ../../content/administration/standard_extended_support.rst:107
+#: ../../content/administration/standard_extended_support.rst:113
 msgid "Older versions"
 msgstr "Более старые версии"
 
-#: ../../content/administration/standard_extended_support.rst:116
+#: ../../content/administration/standard_extended_support.rst:122
 msgid "|green| : Standard support"
 msgstr "|green| : Стандартная поддержка"
 
-#: ../../content/administration/standard_extended_support.rst:118
+#: ../../content/administration/standard_extended_support.rst:124
 msgid "|orange| : Extended support (mandatory extra fee)"
 msgstr "|orange| : Расширенная поддержка (обязательная дополнительная плата)"
 
-#: ../../content/administration/standard_extended_support.rst:120
+#: ../../content/administration/standard_extended_support.rst:126
 msgid "|red| : Not supported"
 msgstr "|red| : Не поддерживается"
 
-#: ../../content/administration/standard_extended_support.rst:122
+#: ../../content/administration/standard_extended_support.rst:128
 msgid "N/A : Never released for this platform"
 msgstr "N/A : Никогда не выпускалась для этой платформы"
 
@@ -11068,6 +10962,675 @@ msgstr ":doc:`Документация Odoo.sh <odoo_sh>`"
 #: ../../content/administration/upgrade.rst:432
 msgid ":doc:`Supported Odoo versions <standard_extended_support>`"
 msgstr ":doc:`Поддерживаемые версии Odoo <standard_extended_support>`"
+
+#~ msgid ""
+#~ "The purpose of manual backups is to create a specific snapshot of "
+#~ "production or staging databases (not available for development). These "
+#~ "remain available for seven days. However, there is a limit of five daily "
+#~ "manual backups."
+#~ msgstr ""
+#~ "Цель резервного копирования вручную — создать конкретный снимок "
+#~ "производственных или промежуточных баз данных (недоступно для "
+#~ "разработки). Они остаются доступными в течение семи дней. Однако "
+#~ "существует ограничение в пять ежедневных резервных копий вручную."
+
+#~ msgid "Check scheduled actions"
+#~ msgstr "Проверка запланированных действий"
+
+#~ msgid ""
+#~ "Scheduled actions are **disabled by default** after importing your "
+#~ "database. This prevents your newly imported database from performing "
+#~ "potentially disruptive operations such as:"
+#~ msgstr ""
+#~ "Запланированные действия **по умолчанию отключены** после импорта базы "
+#~ "данных. Это предотвращает выполнение вашей новой импортированной базой "
+#~ "данных потенциально нежелательных операций, таких как:"
+
+#~ msgid "sending queued emails,"
+#~ msgstr "отправка писем из очереди,"
+
+#~ msgid "triggering mass mailings, or"
+#~ msgstr "запуск массовых рассылок или"
+
+#~ msgid "syncing with third-party services (e.g., calendars, cloud storage)."
+#~ msgstr ""
+#~ "синхронизация со сторонними сервисами (например, календари, облачные "
+#~ "хранилища)."
+
+#~ msgid ""
+#~ "If you intend to use this imported database in production, **re-enable** "
+#~ "only the scheduled actions you need by enabling :ref:`developer mode "
+#~ "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
+#~ "Automation: Scheduled Actions`."
+#~ msgstr ""
+#~ "Если вы планируете использовать эту импортированную базу данных в рабочей "
+#~ "среде, **повторно включите** только необходимые запланированные действия. "
+#~ "Для этого включите :ref:`режим разработчика <developer-mode>` и перейдите "
+#~ "в :menuselection:`Настройки --> Технические --> Автоматизация: "
+#~ "Запланированные действия`."
+
+#~ msgid ""
+#~ "the **URL** you want to use for the database (e.g., `company.odoo.com`), "
+#~ "and"
+#~ msgstr ""
+#~ "**URL-адрес**, который вы хотите использовать для базы данных (например, "
+#~ "`company.odoo.com`), и"
+
+#~ msgid ""
+#~ "the **dump** as an attachment or as a link to the file (required for 60 "
+#~ "MB+ files)."
+#~ msgstr ""
+#~ "**дамп** в виде вложения или в виде ссылки на файл (требуется для файлов "
+#~ "размером более 60 МБ)."
+
+#~ msgid "Your first module"
+#~ msgstr "Ваш первый модуль"
+
+#~ msgid ""
+#~ "This chapter helps you to create your first Odoo module and deploy it in "
+#~ "your Odoo.sh project."
+#~ msgstr ""
+#~ "Эта глава поможет вам создать первый модуль Odoo и развернуть его в вашем "
+#~ "проекте Odoo.sh."
+
+#~ msgid ""
+#~ "This tutorial requires you created a project on Odoo.sh, and you know "
+#~ "your Github repository's URL."
+#~ msgstr ""
+#~ "Для этого руководства требуется, чтобы вы создали проект на Odoo.sh и "
+#~ "знали URL вашего репозитория Github."
+
+#~ msgid "Basic use of Git and Github is explained."
+#~ msgstr "Объясняется базовое использование Git и Github."
+
+#~ msgid "The below assumptions are made:"
+#~ msgstr "Сделаны следующие предположения:"
+
+#~ msgid ""
+#~ "*~/src* is the directory where are located the Git repositories related "
+#~ "to your Odoo projects,"
+#~ msgstr ""
+#~ "*~/src* — каталог, в котором находятся Git-репозитории, связанные с "
+#~ "вашими проектами Odoo,"
+
+#~ msgid "*odoo* is the Github user,"
+#~ msgstr "*odoo* — пользователь Github,"
+
+#~ msgid "*odoo-addons* is the Github repository,"
+#~ msgstr "*odoo-addons* — репозиторий Github,"
+
+#~ msgid "*feature-1* is the name of a development branch,"
+#~ msgstr "*feature-1* — название ветки разработки,"
+
+#~ msgid "*master* is the name of the production branch,"
+#~ msgstr "*master* — название производственной ветки,"
+
+#~ msgid "*my_module* is the name of the module."
+#~ msgstr "*my_module* — название модуля."
+
+#~ msgid "Replace these by the values of your choice."
+#~ msgstr "Замените их значениями по вашему выбору."
+
+#~ msgid "From Odoo.sh"
+#~ msgstr "Из Odoo.sh"
+
+#~ msgid "In the branches view:"
+#~ msgstr "В представлении веток:"
+
+#~ msgid "hit the :code:`+` button next to the development stage,"
+#~ msgstr "нажмите кнопку :code:`+` рядом с этапом разработки,"
+
+#~ msgid "choose the branch *master* in the *Fork* selection,"
+#~ msgstr "выберите ветку *master* в списке *Fork*,"
+
+#~ msgid "type *feature-1* in the *To* input."
+#~ msgstr "введите *feature-1* в поле *To*."
+
+#~ msgid "|pic1|  |pic2|"
+#~ msgstr "|pic1|  |pic2|"
+
+#~ msgid "pic1"
+#~ msgstr "pic1"
+
+#~ msgid "pic2"
+#~ msgstr "pic2"
+
+#~ msgid ""
+#~ "Once the build created, you can access the editor and browse to the "
+#~ "folder *~/src/user* to access to the code of your development branch."
+#~ msgstr ""
+#~ "После создания сборки вы можете открыть редактор и перейти в папку *~/src/"
+#~ "user* для доступа к коду вашей ветки разработки."
+
+#~ msgid "From your computer"
+#~ msgstr "С вашего компьютера"
+
+#~ msgid "Clone your Github repository on your computer:"
+#~ msgstr "Клонируйте ваш репозиторий Github на компьютер:"
+
+#~ msgid "Create a new branch:"
+#~ msgstr "Создайте новую ветку:"
+
+#~ msgid "Scaffolding the module"
+#~ msgstr "Создание каркаса модуля"
+
+#~ msgid ""
+#~ "While not necessary, scaffolding avoids the tedium of setting the basic "
+#~ "Odoo module structure. You can scaffold a new module using the executable "
+#~ "*odoo-bin*."
+#~ msgstr ""
+#~ "Хотя это и не обязательно, создание каркаса избавляет от рутины настройки "
+#~ "базовой структуры модуля Odoo. Вы можете создать каркас нового модуля с "
+#~ "помощью исполняемого файла *odoo-bin*."
+
+#~ msgid "From the Odoo.sh editor, in a terminal:"
+#~ msgstr "В редакторе Odoo.sh, в терминале:"
+
+#~ msgid "Or, from your computer, if you have an installation of Odoo:"
+#~ msgstr "Или с вашего компьютера, если у вас установлен Odoo:"
+
+#~ msgid ""
+#~ "If you do not want to bother installing Odoo on your computer, you can "
+#~ "also :download:`download this module structure template <first_module/"
+#~ "my_module.zip>` in which you replace every occurrences of *my_module* to "
+#~ "the name of your choice."
+#~ msgstr ""
+#~ "Если вы не хотите устанавливать Odoo на свой компьютер, вы также "
+#~ "можете :download:`скачать этот шаблон структуры модуля <first_module/"
+#~ "my_module.zip>`, в котором нужно заменить все вхождения *my_module* на "
+#~ "выбранное вами имя."
+
+#~ msgid "The below structure will be generated:"
+#~ msgstr "Будет создана следующая структура:"
+
+#~ msgid ""
+#~ "Do not use special characters other than the underscore ( _ ) for your "
+#~ "module name, not even an hyphen ( - ). This name is used for the Python "
+#~ "classes of your module, and having classes name with special characters "
+#~ "other than the underscore is not valid in Python."
+#~ msgstr ""
+#~ "Не используйте специальные символы, кроме подчеркивания ( _ ), в имени "
+#~ "модуля, даже дефис ( - ). Это имя используется для классов Python вашего "
+#~ "модуля, и наличие имен классов со специальными символами, отличными от "
+#~ "подчеркивания, недопустимо в Python."
+
+#~ msgid "Uncomment the content of the files:"
+#~ msgstr "Раскомментируйте содержимое файлов:"
+
+#~ msgid "*models/models.py*, an example of model with its fields,"
+#~ msgstr "*models/models.py* — пример модели с её полями,"
+
+#~ msgid ""
+#~ "*views/views.xml*, a tree and a form view, with the menus opening them,"
+#~ msgstr ""
+#~ "*views/views.xml* — представления в виде дерева и формы с меню, которые "
+#~ "их открывают,"
+
+#~ msgid "*demo/demo.xml*, demo records for the above example model,"
+#~ msgstr ""
+#~ "*demo/demo.xml* — демонстрационные записи для указанной выше примерной "
+#~ "модели,"
+
+#~ msgid ""
+#~ "*controllers/controllers.py*, an example of controller implementing some "
+#~ "routes,"
+#~ msgstr ""
+#~ "*controllers/controllers.py* — пример контроллера, реализующего некоторые "
+#~ "маршруты,"
+
+#~ msgid ""
+#~ "*views/templates.xml*, two example qweb views used by the above "
+#~ "controller routes,"
+#~ msgstr ""
+#~ "*views/templates.xml* — два примера qweb-представлений, используемых "
+#~ "указанными выше маршрутами контроллера,"
+
+#~ msgid ""
+#~ "*__manifest__.py*, the manifest of your module, including for instance "
+#~ "its title, description and data files to load. You just need to uncomment "
+#~ "the access control list data file:"
+#~ msgstr ""
+#~ "*__manifest__.py* — манифест вашего модуля, включающий, например, его "
+#~ "название, описание и файлы данных для загрузки. Вам нужно только "
+#~ "раскомментировать файл данных списка контроля доступа:"
+
+#~ msgid ""
+#~ "If you want to create your module structure manually, you can follow "
+#~ "the :doc:`/developer/tutorials/server_framework_101` tutorial to "
+#~ "understand the structure of a module and the content of each file."
+#~ msgstr ""
+#~ "Если вы хотите создать структуру модуля вручную, вы можете следовать "
+#~ "учебному пособию :doc:`/developer/tutorials/server_framework_101`, чтобы "
+#~ "понять структуру модуля и содержимое каждого файла."
+
+#~ msgid "Push the development branch"
+#~ msgstr "Отправить ветку разработки"
+
+#~ msgid "Stage the changes to be committed"
+#~ msgstr "Подготовить изменения к фиксации"
+
+#~ msgid "Commit your changes"
+#~ msgstr "Зафиксировать изменения"
+
+#~ msgid "Push your changes to your remote repository"
+#~ msgstr "Отправьте ваши изменения в удаленный репозиторий"
+
+#~ msgid "From an Odoo.sh editor terminal:"
+#~ msgstr "Из терминала редактора Odoo.sh:"
+
+#~ msgid ""
+#~ "The above command is explained in the section :ref:`Commit and push "
+#~ "changes <odoo-sh/editor/commit>` of the :doc:`Online editor page "
+#~ "<getting_started/online_editor>`. It includes the explanation regarding "
+#~ "the fact you will be prompted to type your username and password, and "
+#~ "what to do if you use the two-factor authentication."
+#~ msgstr ""
+#~ "Приведенная выше команда объясняется в разделе :ref:`Фиксация и отправка "
+#~ "изменений <odoo-sh/editor/commit>` страницы :doc:`Онлайн-редактор "
+#~ "<getting_started/online_editor>`. Он включает объяснение того, что вам "
+#~ "будет предложено ввести имя пользователя и пароль, а также что делать, "
+#~ "если вы используете двухфакторную аутентификацию."
+
+#~ msgid "Or, from your computer terminal:"
+#~ msgstr "Или из терминала вашего компьютера:"
+
+#~ msgid ""
+#~ "You need to specify *-u origin feature-1* for the first push only. From "
+#~ "that point, to push your future changes from your computer, you can "
+#~ "simply use"
+#~ msgstr ""
+#~ "Вам нужно указать *-u origin feature-1* только для первой отправки. После "
+#~ "этого для отправки будущих изменений с вашего компьютера можно просто "
+#~ "использовать"
+
+#~ msgid "Test your module"
+#~ msgstr "Протестируйте ваш модуль"
+
+#~ msgid ""
+#~ "Your branch should appear in your development branches in your project."
+#~ msgstr ""
+#~ "Ваша ветка должна появиться в ваших ветках разработки в вашем проекте."
+
+#~ msgid ""
+#~ "In the branches view of your project, you can click on your branch name "
+#~ "in the left navigation panel to access its history."
+#~ msgstr ""
+#~ "В представлении веток вашего проекта вы можете нажать на название вашей "
+#~ "ветки на левой навигационной панели для доступа к ее истории."
+
+#~ msgid ""
+#~ "You can see here the changes you just pushed, including the comment you "
+#~ "set. Once the database ready, you can access it by clicking the *Connect* "
+#~ "button."
+#~ msgstr ""
+#~ "Здесь вы можете увидеть изменения, которые вы только что отправили, "
+#~ "включая комментарий, который вы указали. Когда база данных будет готова, "
+#~ "вы можете получить к ней доступ, нажав кнопку *Подключиться*."
+
+#~ msgid ""
+#~ "If your Odoo.sh project is configured to install your module "
+#~ "automatically, you will directly see it amongst the database apps. "
+#~ "Otherwise, it will be available in the apps to install."
+#~ msgstr ""
+#~ "Если ваш проект Odoo.sh настроен на автоматическую установку вашего "
+#~ "модуля, вы сразу увидите его среди приложений базы данных. В противном "
+#~ "случае он будет доступен в приложениях для установки."
+
+#~ msgid ""
+#~ "You can then play around with your module, create new records and test "
+#~ "your features and buttons."
+#~ msgstr ""
+#~ "Затем вы можете поработать с вашим модулем, создать новые записи и "
+#~ "протестировать ваши функции и кнопки."
+
+#~ msgid ""
+#~ "You need to have a production database for this step. You can create it "
+#~ "if you do not have it yet."
+#~ msgstr ""
+#~ "Для этого шага вам нужна производственная база данных. Вы можете создать "
+#~ "ее, если у вас ее еще нет."
+
+#~ msgid ""
+#~ "Once you tested your module in a development build with the demo data and "
+#~ "believe it is ready, you can test it with the production data using a "
+#~ "staging branch."
+#~ msgstr ""
+#~ "После того как вы протестировали ваш модуль в сборке разработки с "
+#~ "демонстрационными данными и считаете его готовым, вы можете "
+#~ "протестировать его с производственными данными, используя промежуточную "
+#~ "ветку."
+
+#~ msgid "You can either:"
+#~ msgstr "Вы можете либо:"
+
+#~ msgid ""
+#~ "Make your development branch a staging branch, by drag and dropping it "
+#~ "onto the *staging* section title."
+#~ msgstr ""
+#~ "Сделать вашу ветку разработки промежуточной веткой, перетащив ее на "
+#~ "заголовок раздела *staging*."
+
+#~ msgid ""
+#~ "Merge it in an existing staging branch, by drag and dropping it onto the "
+#~ "given staging branch."
+#~ msgstr ""
+#~ "Объединить ее с существующей промежуточной веткой, перетащив ее на данную "
+#~ "промежуточную ветку."
+
+#~ msgid ""
+#~ "You can also use the :code:`git merge` command to merge your branches."
+#~ msgstr ""
+#~ "Вы также можете использовать команду :code:`git merge` для объединения "
+#~ "ваших веток."
+
+#~ msgid ""
+#~ "This will create a new staging build, which will duplicate the production "
+#~ "database and make it run using a server updated with your latest changes "
+#~ "of your branch."
+#~ msgstr ""
+#~ "Это создаст новую промежуточную сборку, которая продублирует "
+#~ "производственную базу данных и запустит ее на сервере, обновленном вашими "
+#~ "последними изменениями вашей ветки."
+
+#~ msgid ""
+#~ "Once the database ready, you can access it using the *Connect* button."
+#~ msgstr ""
+#~ "Когда база данных будет готова, вы можете получить к ней доступ, "
+#~ "используя кнопку *Подключиться*."
+
+#~ msgid "Install your module"
+#~ msgstr "Установите ваш модуль"
+
+#~ msgid ""
+#~ "Your module will not be installed automatically, you have to install it "
+#~ "from the apps menu. Indeed, the purpose of the staging build is to test "
+#~ "the behavior of your changes as it would be on your production, and on "
+#~ "your production you would not like your module to be installed "
+#~ "automatically, but on demand."
+#~ msgstr ""
+#~ "Ваш модуль не будет установлен автоматически, вам необходимо установить "
+#~ "его из меню приложений. Целью промежуточной сборки является тестирование "
+#~ "поведения ваших изменений так, как если бы они были в вашей "
+#~ "производственной среде, а в производственной среде вы не хотели бы, чтобы "
+#~ "ваш модуль устанавливался автоматически, а по требованию."
+
+#~ msgid ""
+#~ "Your module may not appear directly in your apps to install either, you "
+#~ "need to update your apps list first:"
+#~ msgstr ""
+#~ "Ваш модуль может не появиться сразу в списке приложений для установки, "
+#~ "сначала необходимо обновить список приложений:"
+
+#~ msgid "Activate the :ref:`developer mode <developer-mode>`"
+#~ msgstr "Активируйте :ref:`режим разработчика <developer-mode>`"
+
+#~ msgid "in the apps menu, click the *Update Apps List* button,"
+#~ msgstr "в меню приложений нажмите кнопку *Обновить список приложений*,"
+
+#~ msgid "in the dialog that appears, click the *Update* button."
+#~ msgstr "в появившемся диалоговом окне нажмите кнопку *Обновить*."
+
+#~ msgid "Your module will then appear in the list of available apps."
+#~ msgstr "После этого ваш модуль появится в списке доступных приложений."
+
+#~ msgid ""
+#~ "Once you tested your module in a staging branch with your production "
+#~ "data, and believe it is ready for production, you can merge your branch "
+#~ "in the production branch."
+#~ msgstr ""
+#~ "После того как вы протестировали свой модуль в промежуточной ветке с "
+#~ "производственными данными и считаете, что он готов для производства, вы "
+#~ "можете объединить свою ветку с производственной веткой."
+
+#~ msgid "Drag and drop your staging branch on the production branch."
+#~ msgstr "Перетащите промежуточную ветку на производственную ветку."
+
+#~ msgid ""
+#~ "This will merge the latest changes of your staging branch in the "
+#~ "production branch, and update your production server with these latest "
+#~ "changes."
+#~ msgstr ""
+#~ "Это объединит последние изменения вашей промежуточной ветки с "
+#~ "производственной веткой и обновит ваш производственный сервер этими "
+#~ "последними изменениями."
+
+#~ msgid ""
+#~ "Your module will not be installed automatically, you have to install it "
+#~ "manually as explained in the :ref:`above section about installing your "
+#~ "module in staging databases <odoosh-gettingstarted-firstmodule-"
+#~ "productiondata-install>`."
+#~ msgstr ""
+#~ "Ваш модуль не будет установлен автоматически, вам необходимо установить "
+#~ "его вручную, как описано в :ref:`разделе выше об установке модуля в "
+#~ "промежуточных базах данных <odoosh-gettingstarted-firstmodule-"
+#~ "productiondata-install>`."
+
+#~ msgid ""
+#~ "This section explains how to add a change in your module by adding a new "
+#~ "field in a model and deploy it."
+#~ msgstr ""
+#~ "В этом разделе объясняется, как добавить изменение в ваш модуль, добавив "
+#~ "новое поле в модель и развернув его."
+
+#~ msgid "From the Odoo.sh editor,"
+#~ msgstr "В редакторе Odoo.sh"
+
+#~ msgid "browse to your module folder *~/src/user/my_module*,"
+#~ msgstr "перейдите в папку вашего модуля *~/src/user/my_module*,"
+
+#~ msgid "then, open the file *models/models.py*."
+#~ msgstr "затем откройте файл *models/models.py*."
+
+#~ msgid "Or, from your computer,"
+#~ msgstr "Или на вашем компьютере"
+
+#~ msgid ""
+#~ "use the file browser of your choice to browse to your module folder *~/"
+#~ "src/odoo-addons/my_module*,"
+#~ msgstr ""
+#~ "используйте любой файловый менеджер для перехода в папку вашего модуля *~/"
+#~ "src/odoo-addons/my_module*,"
+
+#~ msgid ""
+#~ "then, open the file *models/models.py* using the editor of your choice, "
+#~ "such as *Atom*, *Sublime Text*, *PyCharm*, *vim*, ..."
+#~ msgstr ""
+#~ "затем откройте файл *models/models.py* с помощью любого редактора, такого "
+#~ "как *Atom*, *Sublime Text*, *PyCharm*, *vim* и т. д."
+
+#~ msgid "Then, after the description field"
+#~ msgstr "Затем после поля description"
+
+#~ msgid "Add a datetime field"
+#~ msgstr "Добавить поле datetime"
+
+#~ msgid "Then, open the file *views/views.xml*."
+#~ msgstr "Затем откройте файл *views/views.xml*."
+
+#~ msgid "After"
+#~ msgstr "После"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid ""
+#~ "These changes alter the database structure by adding a column in a table, "
+#~ "and modify a view stored in database."
+#~ msgstr ""
+#~ "Эти изменения изменяют структуру базы данных, добавляя столбец в таблицу, "
+#~ "и модифицируют представление, хранящееся в базе данных."
+
+#~ msgid ""
+#~ "In order to be applied in existing databases, such as your production "
+#~ "database, these changes requires the module to be updated."
+#~ msgstr ""
+#~ "Чтобы применить эти изменения в существующих базах данных, например в "
+#~ "вашей производственной базе данных, требуется обновление модуля."
+
+#~ msgid ""
+#~ "If you would like the update to be performed automatically by the Odoo.sh "
+#~ "platform when you push your changes, increase your module version in its "
+#~ "manifest."
+#~ msgstr ""
+#~ "Если вы хотите, чтобы обновление выполнялось автоматически платформой "
+#~ "Odoo.sh при отправке изменений, увеличьте версию модуля в его манифесте."
+
+#~ msgid "Open the module manifest *__manifest__.py*."
+#~ msgstr "Откройте манифест модуля *__manifest__.py*."
+
+#~ msgid "with"
+#~ msgstr "с"
+
+#~ msgid ""
+#~ "The platform will detect the change of version and trigger the update of "
+#~ "the module upon the new revision deployment."
+#~ msgstr ""
+#~ "Платформа обнаружит изменение версии и запустит обновление модуля при "
+#~ "развертывании новой ревизии."
+
+#~ msgid "Browse to your Git folder."
+#~ msgstr "Перейдите в вашу папку Git."
+
+#~ msgid "Then, from an Odoo.sh terminal:"
+#~ msgstr "Затем из терминала Odoo.sh:"
+
+#~ msgid "Then, stage your changes to be committed"
+#~ msgstr "Затем подготовьте изменения для фиксации"
+
+#~ msgid "Push your changes:"
+#~ msgstr "Отправьте изменения:"
+
+#~ msgid "From an Odoo.sh terminal:"
+#~ msgstr "Из терминала Odoo.sh:"
+
+#~ msgid ""
+#~ "The platform will then create a new build for the branch *feature-1*."
+#~ msgstr "Платформа создаст новую сборку для ветки *feature-1*."
+
+#~ msgid ""
+#~ "Once you tested your changes, you can merge your changes in the "
+#~ "production branch, for instance by drag-and-dropping the branch on the "
+#~ "production branch in the Odoo.sh interface. As you increased the module "
+#~ "version in the manifest, the platform will update the module "
+#~ "automatically and your new field will be directly available. Otherwise "
+#~ "you can manually update the module within the apps list."
+#~ msgstr ""
+#~ "После того как вы протестируете изменения, можете объединить их с "
+#~ "производственной веткой, например перетащив ветку на производственную "
+#~ "ветку в интерфейсе Odoo.sh. Поскольку вы увеличили версию модуля в "
+#~ "манифесте, платформа обновит модуль автоматически, и ваше новое поле "
+#~ "будет сразу доступно. В противном случае вы можете вручную обновить "
+#~ "модуль в списке приложений."
+
+#~ msgid ""
+#~ "If you would like to use an external Python library which is not "
+#~ "installed by default, you can define a *requirements.txt* file listing "
+#~ "the external libraries your modules depends on."
+#~ msgstr ""
+#~ "Если вы хотите использовать внешнюю библиотеку Python, которая не "
+#~ "установлена по умолчанию, можете определить файл *requirements.txt* со "
+#~ "списком внешних библиотек, от которых зависят ваши модули."
+
+#~ msgid ""
+#~ "It is not possible to install or upgrade system packages on an Odoo.sh "
+#~ "database (e.g., apt packages). However, under specific conditions, "
+#~ "packages can be considered for installation. This also applies to "
+#~ "**Python modules** requiring system packages for their compilation, and "
+#~ "**third-party Odoo modules**."
+#~ msgstr ""
+#~ "Установка или обновление системных пакетов в базе данных Odoo.sh "
+#~ "невозможна (например, пакеты apt). Однако при определенных условиях "
+#~ "пакеты могут быть рассмотрены для установки. Это также относится к "
+#~ "**модулям Python**, требующим системные пакеты для компиляции, и "
+#~ "**сторонним модулям Odoo**."
+
+#~ msgid "**PostgreSQL extensions** are not supported on Odoo.sh."
+#~ msgstr "**Расширения PostgreSQL** не поддерживаются на Odoo.sh."
+
+#~ msgid ""
+#~ "For more information, consult our `FAQ <https://www.odoo.sh/"
+#~ "faq#install_dependencies>`_."
+#~ msgstr ""
+#~ "Для получения дополнительной информации обратитесь к нашему `FAQ <https://"
+#~ "www.odoo.sh/faq#install_dependencies>`_."
+
+#~ msgid ""
+#~ "The platform will use this file to automatically install the Python "
+#~ "libraries your project needs."
+#~ msgstr ""
+#~ "Платформа будет использовать этот файл для автоматической установки "
+#~ "библиотек Python, необходимых вашему проекту."
+
+#~ msgid ""
+#~ "The feature is explained in this section by using the `Unidecode library "
+#~ "<https://pypi.python.org/pypi/Unidecode>`_ in your module."
+#~ msgstr ""
+#~ "Эта функция объясняется в данном разделе с использованием `библиотеки "
+#~ "Unidecode <https://pypi.python.org/pypi/Unidecode>`_ в вашем модуле."
+
+#~ msgid ""
+#~ "Create a file *requirements.txt* in the root folder of your repository"
+#~ msgstr ""
+#~ "Создайте файл *requirements.txt* в корневой папке вашего репозитория"
+
+#~ msgid ""
+#~ "From the Odoo.sh editor, create and open the file ~/src/user/"
+#~ "requirements.txt."
+#~ msgstr ""
+#~ "В редакторе Odoo.sh создайте и откройте файл ~/src/user/requirements.txt."
+
+#~ msgid ""
+#~ "Or, from your computer, create and open the file ~/src/odoo-addons/"
+#~ "requirements.txt."
+#~ msgstr ""
+#~ "Или на вашем компьютере создайте и откройте файл ~/src/odoo-addons/"
+#~ "requirements.txt."
+
+#~ msgid ""
+#~ "Then use the library in your module, for instance to remove accents from "
+#~ "characters in the name field of your model."
+#~ msgstr ""
+#~ "Затем используйте библиотеку в вашем модуле, например, для удаления "
+#~ "акцентов из символов в поле имени вашей модели."
+
+#~ msgid "Open the file *models/models.py*."
+#~ msgstr "Откройте файл *models/models.py*."
+
+#~ msgid "Before"
+#~ msgstr "До"
+
+#~ msgid ""
+#~ "Adding a Python dependency requires a module version increase for the "
+#~ "platform to install it."
+#~ msgstr ""
+#~ "Добавление зависимости Python требует увеличения версии модуля, чтобы "
+#~ "платформа установила её."
+
+#~ msgid "Edit the module manifest *__manifest__.py*"
+#~ msgstr "Отредактируйте манифест модуля *__manifest__.py*"
+
+#~ msgid "Stage and commit your changes:"
+#~ msgstr "Подготовьте и зафиксируйте ваши изменения:"
+
+#~ msgid "Then, push your changes:"
+#~ msgstr "Затем отправьте ваши изменения:"
+
+#~ msgid "In an Odoo.sh terminal:"
+#~ msgstr "В терминале Odoo.sh:"
+
+#~ msgid "In your computer terminal:"
+#~ msgstr "В терминале вашего компьютера:"
+
+#~ msgid ""
+#~ "The name of your project defines the address used to access your "
+#~ "production database. The addresses of your staging and development builds "
+#~ "are automatically derived from this name. If you change the project name, "
+#~ "only future builds will use the new name."
+#~ msgstr ""
+#~ "Имя проекта определяет адрес, используемый для доступа к производственной "
+#~ "базе данных. Адреса промежуточных сборок и сборок разработки "
+#~ "автоматически формируются из этого имени. Если вы измените имя проекта, "
+#~ "только будущие сборки будут использовать новое имя."
 
 #~ msgid "You can `upgrade <https://upgrade.odoo.com>`_ from any version."
 #~ msgstr ""

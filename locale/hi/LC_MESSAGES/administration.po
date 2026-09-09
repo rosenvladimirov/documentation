@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-12 17:31+0000\n"
-"PO-Revision-Date: 2026-06-25 14:28+0000\n"
+"POT-Creation-Date: 2026-08-21 17:32+0000\n"
+"PO-Revision-Date: 2026-09-07 16:11+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19-doc/"
 "administration/hi/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/administration.rst:8
 msgid "Database management"
@@ -145,12 +145,12 @@ msgid "Transferring an on-premise database"
 msgstr "ऑन-प्रिमाइज़ डेटाबेस का स्थानांतरण"
 
 #: ../../content/administration/hosting.rst:17
-#: ../../content/administration/hosting.rst:92
+#: ../../content/administration/hosting.rst:106
 msgid "To Odoo Online"
 msgstr "ओडू ऑनलाइन में"
 
 #: ../../content/administration/hosting.rst:20
-#: ../../content/administration/hosting.rst:95
+#: ../../content/administration/hosting.rst:109
 msgid "Odoo Online is *not* compatible with **non-standard apps**."
 msgstr "ओडू ऑनलाइन गैर-मानक ऐप्स के साथ संगत नहीं है।"
 
@@ -174,7 +174,7 @@ msgid "Use the database manager to grab a *dump with filestore*."
 msgstr "डेटाबेस प्रबंधक का उपयोग करके फाइलस्टोर के साथ डंप प्राप्त करें।"
 
 #: ../../content/administration/hosting.rst:26
-#: ../../content/administration/hosting.rst:98
+#: ../../content/administration/hosting.rst:112
 msgid ""
 "`Create a support ticket <https://www.odoo.com/help-form>`_ including the "
 "following:"
@@ -182,25 +182,69 @@ msgstr ""
 "`सपोर्ट टिकट बनाएं <https://www.odoo.com/help-form>`_ जिसमें निम्नलिखित शामिल हों:"
 
 #: ../../content/administration/hosting.rst:28
-#: ../../content/administration/hosting.rst:100
+#: ../../content/administration/hosting.rst:114
 msgid "your **subscription number**,"
 msgstr "आपका सब्सक्रिप्शन नंबर,"
 
 #: ../../content/administration/hosting.rst:29
+#: ../../content/administration/hosting.rst:115
 msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`), and"
+"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
 msgstr ""
-"आपके द्वारा डेटाबेस के लिए उपयोग करना चाहते हैं URL (जैसे, company.odoo.com), और"
+"आपके द्वारा डेटाबेस के लिए उपयोग करना चाहते हैं URL (जैसे, company.odoo.com),"
 
 #: ../../content/administration/hosting.rst:30
 msgid ""
 "the **dump** as an attachment or as a link to the file (required for 60 MB+ "
-"files)."
+"files),"
 msgstr ""
-"डंप को एक अटैचमेंट के रूप में या फाइल के लिंक के रूप में (60 MB+ फाइल्स के लिए आवश्यक)।"
+"**डम्प** को अटैचमेंट के रूप में या फ़ाइल के लिंक के रूप में (60 MB+ फ़ाइल के लिए आवश्यक),"
 
-#: ../../content/administration/hosting.rst:32
-#: ../../content/administration/hosting.rst:107
+#: ../../content/administration/hosting.rst:31
+msgid "the **region** you wish to be hosted in,"
+msgstr "**रीजन** जिसमें आप होस्ट होना चाहते हैं,"
+
+#: ../../content/administration/hosting.rst:34
+msgid ""
+"The list of available regions is available in `our privacy policy <https://"
+"www.odoo.com/privacy#data-transfer>`_."
+msgstr ""
+"उपलब्ध रीजन की सूची `हमारी प्राइवेसी पॉलिसी <https://www.odoo.com/privacy#data-"
+"transfer>`_ में उपलब्ध है।"
+
+#: ../../content/administration/hosting.rst:36
+msgid "the **name** you want for the database,"
+msgstr "**नाम** जो आप डेटाबेस के लिए चाहते हैं,"
+
+#: ../../content/administration/hosting.rst:37
+msgid "what **version** the database is in,"
+msgstr "डेटाबेस किस **वर्शन** में है,"
+
+#: ../../content/administration/hosting.rst:38
+msgid "the login (email) of the **administrator** user,"
+msgstr "**एडमिन** यूज़र की लॉगिन (ईमेल),"
+
+#: ../../content/administration/hosting.rst:39
+msgid "whether you wish to have a first **test** deployment, and"
+msgstr "क्या आप पहले **टेस्ट** डिप्लॉयमेंट चाहते हैं, और"
+
+#: ../../content/administration/hosting.rst:42
+msgid ""
+"This is strongly recommended, especially if you have ever installed third-"
+"party apps."
+msgstr ""
+"यह दृढ़ता से अनुशंसित है, विशेष रूप से यदि आपने कभी थर्ड-पार्टी ऐप्लिकेशन इंस्टॉल किए हों।"
+
+#: ../../content/administration/hosting.rst:44
+msgid ""
+"**when** you will want the production database to be put online (day, time "
+"of day, and your timezone)."
+msgstr ""
+"**कब** आप प्रॉडक्शन डेटाबेस को ऑनलाइन लाना चाहते हैं (दिन, दिन का समय, और आपका "
+"टाइमज़ोन)।"
+
+#: ../../content/administration/hosting.rst:46
+#: ../../content/administration/hosting.rst:121
 msgid ""
 "Odoo then makes sure the database is compatible before putting it online. In "
 "case of technical issues during the process, Odoo might contact you."
@@ -208,8 +252,8 @@ msgstr ""
 "ओडू फिर यह सुनिश्चित करता है कि डेटाबेस ऑनलाइन डालने से पहले संगत है। यदि प्रक्रिया के "
 "दौरान तकनीकी समस्याएँ आती हैं, तो ओडू आपसे संपर्क कर सकता है।"
 
-#: ../../content/administration/hosting.rst:36
-#: ../../content/administration/hosting.rst:111
+#: ../../content/administration/hosting.rst:50
+#: ../../content/administration/hosting.rst:125
 msgid ""
 "If you have time constraints, `create a support ticket <https://www.odoo.com/"
 "help-form>`_ as soon as possible to schedule the transfer."
@@ -217,13 +261,13 @@ msgstr ""
 "अगर आपके पास समय की कमी है, तो ट्रांसफ़र को शेड्यूल करने के लिए जितनी जल्दी हो सके "
 "`सपोर्ट टिकट बनाएं <https://www.odoo.com/help-form>`_।"
 
-#: ../../content/administration/hosting.rst:40
-#: ../../content/administration/hosting.rst:78
+#: ../../content/administration/hosting.rst:54
+#: ../../content/administration/hosting.rst:92
 msgid "To Odoo.sh"
 msgstr "ओडू.sh में"
 
-#: ../../content/administration/hosting.rst:42
-#: ../../content/administration/hosting.rst:85
+#: ../../content/administration/hosting.rst:56
+#: ../../content/administration/hosting.rst:99
 msgid ""
 "Follow the instructions found in :ref:`the Import a database section <odoo-"
 "sh/create/import>` of the Odoo.sh *Create a project* documentation."
@@ -231,11 +275,11 @@ msgstr ""
 "Odoo.sh *प्रोजेक्ट बनाएं* दस्तावेज़ के :ref:`डेटाबेस इंपोर्ट करें सेक्शन <odoo-sh/create/"
 "import>` में दिए गए निर्देशों का पालन करें।"
 
-#: ../../content/administration/hosting.rst:46
+#: ../../content/administration/hosting.rst:60
 msgid "Transferring an Odoo Online database"
 msgstr "ओडू ऑनलाइन डेटाबेस का स्थानांतरण"
 
-#: ../../content/administration/hosting.rst:49
+#: ../../content/administration/hosting.rst:63
 msgid ""
 "Odoo Online's :doc:`intermediary versions <standard_extended_support>` are "
 "not supported by Odoo.sh or on-premise. Therefore, if the database to "
@@ -248,7 +292,7 @@ msgstr ""
 "वर्शन पर चल रहा है, तो उसे पहले अगले :doc:`मेजर वर्शन <standard_extended_support>` "
 "में अपग्रेड किया जाना चाहिए, ज़रूरत पड़ने पर उसकी रिलीज़ का इंतज़ार करते हुए।"
 
-#: ../../content/administration/hosting.rst:55
+#: ../../content/administration/hosting.rst:69
 msgid ""
 "Transferring an online database running on Odoo 16.3 would require first "
 "upgrading it to Odoo 17.0."
@@ -256,7 +300,7 @@ msgstr ""
 "ओडू 16.3 पर चल रहे ऑनलाइन डेटाबेस को स्थानांतरित करने के लिए इसे पहले ओडू 17.0 में अपग्रेड "
 "करना आवश्यक होगा।"
 
-#: ../../content/administration/hosting.rst:59
+#: ../../content/administration/hosting.rst:73
 msgid ""
 "Click the :icon:`fa-gear` (:guilabel:`gear`) button next to the database "
 "name on the `Odoo Online database manager <https://www.odoo.com/my/databases/"
@@ -266,7 +310,7 @@ msgstr ""
 "के आगे :icon:`fa-gear` (:guilabel:`गियर`) बटन को क्लिक करें ताकि इसका वर्शन नंबर "
 "दिखाया जा सके।"
 
-#: ../../content/administration/hosting.rst:63
+#: ../../content/administration/hosting.rst:77
 msgid ""
 "If there is an active Odoo subscription linked to the database being "
 "migrated, reach out to the Customer Service Manager or `contact Odoo support "
@@ -276,13 +320,13 @@ msgstr ""
 "सब्सक्रिप्शन ट्रांसफ़र पूरा करने के लिए कस्टमर सर्विस मैनेजर से संपर्क करें या `Odoo सपोर्ट से "
 "संपर्क करें <https://www.odoo.com/help>`_।"
 
-#: ../../content/administration/hosting.rst:68
-#: ../../content/administration/hosting.rst:120
+#: ../../content/administration/hosting.rst:82
+#: ../../content/administration/hosting.rst:134
 msgid "To on-premise"
 msgstr "ऑन-प्रिमाइज़ में"
 
-#: ../../content/administration/hosting.rst:70
-#: ../../content/administration/hosting.rst:80
+#: ../../content/administration/hosting.rst:84
+#: ../../content/administration/hosting.rst:94
 msgid ""
 "Download a database backup by signing in to `the Odoo Online database "
 "manager <https://www.odoo.com/my/databases/>`_, clicking the :icon:`fa-gear` "
@@ -297,61 +341,55 @@ msgstr ""
 "डाउनलोड करें। अगर फ़ाइल बहुत बड़ी होने के कारण डाउनलोड विफल होता है, तो `Odoo सपोर्ट "
 "से संपर्क करें <https://www.odoo.com/help>`_।"
 
-#: ../../content/administration/hosting.rst:75
-#: ../../content/administration/hosting.rst:123
+#: ../../content/administration/hosting.rst:89
+#: ../../content/administration/hosting.rst:137
 msgid ""
 "Restore the database from the database manager on your local server using "
 "the backup."
 msgstr ""
 "बैकअप का उपयोग करके अपने लोकल सर्वर पर डेटाबेस प्रबंधक से डेटाबेस को पुनर्स्थापित करें।"
 
-#: ../../content/administration/hosting.rst:89
+#: ../../content/administration/hosting.rst:103
 msgid "Transferring an Odoo.sh database"
 msgstr "ओडू.sh डेटाबेस का स्थानांतरण"
 
-#: ../../content/administration/hosting.rst:97
+#: ../../content/administration/hosting.rst:111
 msgid ""
 "Uninstall all **non-standard apps** in a staging build before doing it in "
 "the production build."
 msgstr ""
 "उत्पादन बिल्ड में इसे करने से पहले, एक स्टेजिंग बिल्ड में सभी गैर-मानक ऐप्स को अनइंस्टॉल करें।"
 
-#: ../../content/administration/hosting.rst:101
-msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
-msgstr ""
-"आपके द्वारा डेटाबेस के लिए उपयोग करना चाहते हैं URL (जैसे, company.odoo.com),"
-
-#: ../../content/administration/hosting.rst:102
+#: ../../content/administration/hosting.rst:116
 msgid "which **branch** should be migrated,"
 msgstr "कौन सा ब्रांच स्थानांतरित किया जाना चाहिए,"
 
-#: ../../content/administration/hosting.rst:103
+#: ../../content/administration/hosting.rst:117
 msgid ""
 "in which **region** you want the database to be hosted (Americas, Europe, or "
 "Asia),"
 msgstr ""
 "आप चाहते हैं कि डेटाबेस किस क्षेत्र में होस्ट किया जाए (अमेरिकास, यूरोप, या एशिया),"
 
-#: ../../content/administration/hosting.rst:104
+#: ../../content/administration/hosting.rst:118
 msgid "which user(s) will be the **administrator(s)**, and"
 msgstr "कौन सा उपयोगकर्ता(उपयोगकर्ता) प्रशासक(प्रशासक) होगा, और"
 
-#: ../../content/administration/hosting.rst:105
+#: ../../content/administration/hosting.rst:119
 msgid ""
 "**when** (and in which timezone) you want the database to be up and running."
 msgstr "कब (और किस समयक्षेत्र में) आप चाहते हैं कि डेटाबेस चालू और कार्यशील हो।"
 
-#: ../../content/administration/hosting.rst:113
+#: ../../content/administration/hosting.rst:127
 msgid "Select the **region** closest to most of your users to reduce latency."
 msgstr ""
 "चुनें **क्षेत्र** अपने अधिकांश उपयोगकर्ताओं के करीब सर्वर रखें ताकि विलंबता कम हो सके।"
 
-#: ../../content/administration/hosting.rst:114
+#: ../../content/administration/hosting.rst:128
 msgid "Future **administrator(s)** must have an Odoo.com account."
 msgstr "भविष्य के प्रशासक(ों) के पास Odoo.com खाता होना चाहिए।"
 
-#: ../../content/administration/hosting.rst:115
+#: ../../content/administration/hosting.rst:129
 msgid ""
 "The **date and time** you want the database to be up and running are helpful "
 "to organize the switch from the Odoo.sh server to the Odoo Online servers."
@@ -359,11 +397,11 @@ msgstr ""
 "जो तिथि और समय आप चाहते हैं कि डेटाबेस चालू और कार्यशील हो, वे Odoo.sh सर्वर से Odoo "
 "Online सर्वरों पर स्विच को व्यवस्थित करने में मददगार होते हैं।"
 
-#: ../../content/administration/hosting.rst:117
+#: ../../content/administration/hosting.rst:131
 msgid "Databases are **not reachable** during their migration."
 msgstr "डेटाबेस अपने स्थानांतरण के दौरान सुलभ नहीं होते हैं।"
 
-#: ../../content/administration/hosting.rst:122
+#: ../../content/administration/hosting.rst:136
 msgid ""
 "Download a :ref:`backup of your Odoo.sh production database <odoo-sh/"
 "branches/tabs/backups>`."
@@ -1099,7 +1137,6 @@ msgstr "कंटेनर"
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:7
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:9
-#: ../../content/administration/odoo_sh/first_module.rst:6
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:14
 msgid "Overview"
 msgstr "खास जानकारी"
@@ -1671,8 +1708,6 @@ msgstr "फिर, नीचे दिए गए कमांड का इस�
 
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:82
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:94
-#: ../../content/administration/odoo_sh/first_module.rst:359
-#: ../../content/administration/odoo_sh/first_module.rst:498
 msgid "Replace"
 msgstr "बदलें"
 
@@ -1746,724 +1781,609 @@ msgstr ""
 "अपने सबमॉड्यूल फ़ोल्डर को :code:`.` से प्रीफ़िक्स कर सकते हैं। प्लेटफ़ॉर्म इस फ़ोल्डर को इग्नोर "
 "करेगा और आप किसी अन्य फ़ोल्डर से उनके सिमलिंक बनाकर अपने मॉड्यूल चुन सकते हैं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:3
-msgid "Your first module"
-msgstr "आपका पहला मॉड्यूल"
+#: ../../content/administration/odoo_sh/create_module.rst:3
+msgid "Create a module"
+msgstr "मॉड्यूल बनाएं"
 
-#: ../../content/administration/odoo_sh/first_module.rst:8
+#: ../../content/administration/odoo_sh/create_module.rst:5
 msgid ""
-"This chapter helps you to create your first Odoo module and deploy it in "
-"your Odoo.sh project."
+"Before creating your first module, it is necessary to :doc:`create an "
+"Odoo.sh project <getting_started/create>` and knowing your GitHub "
+"repository's URL."
 msgstr ""
-"यह चैप्टर आपको अपना पहला Odoo मॉड्यूल बनाने और इसे अपने Odoo.sh प्रोजेक्ट में डिप्लॉय करने "
-"में मदद करता है।"
+"अपना पहला मॉड्यूल बनाने से पहले, :doc:`Odoo.sh प्रोजेक्ट बनाना <getting_started/"
+"create>` और अपने GitHub रिपॉज़िटरी का यूआरएल जानना आवश्यक है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:10
+#: ../../content/administration/odoo_sh/create_module.rst:8
+msgid "Glossary"
+msgstr "शब्दावली"
+
+#: ../../content/administration/odoo_sh/create_module.rst:10
 msgid ""
-"This tutorial requires you created a project on Odoo.sh, and you know your "
-"Github repository's URL."
+"`~/src` is the directory where the Git repositories related to your Odoo "
+"projects are located."
 msgstr ""
-"इस ट्यूटोरियल के लिए आवश्यक है कि आपने Odoo.sh पर एक प्रोजेक्ट बनाया हो, और आप अपनी "
-"Github रिपॉज़िटरी का यूआरएल जानते हों।"
+"`~/src` वह डायरेक्टरी है जहां आपके Odoo प्रोजेक्ट से संबंधित Git रिपॉज़िटरी स्थित हैं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:13
-msgid "Basic use of Git and Github is explained."
-msgstr "Git और Github का बेसिक इस्तेमाल समझाया गया है।"
+#: ../../content/administration/odoo_sh/create_module.rst:11
+msgid "`odoo` is the GitHub user."
+msgstr "`odoo` GitHub यूज़र है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:15
-msgid "The below assumptions are made:"
-msgstr "नीचे दी गई धारणाएँ बनाई गई हैं:"
+#: ../../content/administration/odoo_sh/create_module.rst:12
+msgid "`odoo-addons` is the GitHub repository."
+msgstr "`odoo-addons` GitHub रिपॉज़िटरी है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:17
-msgid ""
-"*~/src* is the directory where are located the Git repositories related to "
-"your Odoo projects,"
-msgstr ""
-"*~/src* वह डायरेक्टरी है जहाँ आपके Odoo प्रोजेक्ट से संबंधित Git रिपॉज़िटरी स्थित हैं,"
+#: ../../content/administration/odoo_sh/create_module.rst:13
+msgid "`feature-1` is the name of a development branch."
+msgstr "`feature-1` डेवलपमेंट ब्रांच का नाम है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:18
-msgid "*odoo* is the Github user,"
-msgstr "*odoo* Github यूज़र है,"
+#: ../../content/administration/odoo_sh/create_module.rst:14
+msgid "`main` is the name of the production branch."
+msgstr "`main` प्रॉडक्शन ब्रांच का नाम है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:19
-msgid "*odoo-addons* is the Github repository,"
-msgstr "*odoo-addons* Github रिपॉज़िटरी है,"
+#: ../../content/administration/odoo_sh/create_module.rst:15
+msgid "`my_module` is the name of the module."
+msgstr "`my_module` मॉड्यूल का नाम है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:20
-msgid "*feature-1* is the name of a development branch,"
-msgstr "*feature-1* डेवलपमेंट ब्रांच का नाम है,"
+#: ../../content/administration/odoo_sh/create_module.rst:17
+msgid "Replace these as necessary."
+msgstr "इन्हें आवश्यकतानुसार बदलें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:21
-msgid "*master* is the name of the production branch,"
-msgstr "*master* प्रॉडक्शन ब्रांच का नाम है,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:22
-msgid "*my_module* is the name of the module."
-msgstr "*my_module* मॉड्यूल का नाम है।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:24
-msgid "Replace these by the values of your choice."
-msgstr "इन्हें अपनी पसंद की वैल्यू से बदलें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:27
+#: ../../content/administration/odoo_sh/create_module.rst:22
 msgid "Create the development branch"
 msgstr "डेवलपमेंट ब्रांच बनाएं"
 
-#: ../../content/administration/odoo_sh/first_module.rst:30
-msgid "From Odoo.sh"
-msgstr "Odoo.sh से"
+#: ../../content/administration/odoo_sh/create_module.rst:26
+#: ../../content/administration/odoo_sh/create_module.rst:73
+#: ../../content/administration/odoo_sh/create_module.rst:165
+msgid "On Odoo.sh"
+msgstr "Odoo.sh पर"
 
-#: ../../content/administration/odoo_sh/first_module.rst:32
-msgid "In the branches view:"
-msgstr "ब्रांच व्यू में:"
+#: ../../content/administration/odoo_sh/create_module.rst:28
+msgid "From the :doc:`Branches view <getting_started/branches>`:"
+msgstr ":doc:`ब्रांच व्यूज़ <getting_started/branches>` से:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:34
-msgid "hit the :code:`+` button next to the development stage,"
-msgstr "डेवलपमेंट स्टेज के बगल में :code:`+` बटन दबाएं,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:35
-msgid "choose the branch *master* in the *Fork* selection,"
-msgstr "*Fork* सिलेक्शन में ब्रांच *master* चुनें,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:36
-msgid "type *feature-1* in the *To* input."
-msgstr "*To* इनपुट में *feature-1* टाइप करें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:38
-msgid "|pic1|  |pic2|"
-msgstr "|pic1|  |pic2|"
-
-#: ../../content/administration/odoo_sh/first_module.rst:40
-msgid "pic1"
-msgstr "pic1"
-
-#: ../../content/administration/odoo_sh/first_module.rst:43
-msgid "pic2"
-msgstr "pic2"
-
-#: ../../content/administration/odoo_sh/first_module.rst:46
+#: ../../content/administration/odoo_sh/create_module.rst:30
 msgid ""
-"Once the build created, you can access the editor and browse to the folder "
-"*~/src/user* to access to the code of your development branch."
+"In the branches navigation panel, click the ＋ (:guilabel:`New development "
+"branch`) button next to :guilabel:`Development`."
 msgstr ""
-"बिल्ड बनने के बाद, आप एडिटर को ऐक्सेस कर सकते हैं और अपनी डेवलपमेंट ब्रांच के कोड को ऐक्सेस "
-"करने के लिए फ़ोल्डर *~/src/user* में जा सकते हैं।"
+"ब्रांच नेविगेशन पैनल में, :guilabel:`डेवलपमेंट` के बगल में ＋ (:guilabel:`नया डेवलपमेंट "
+"ब्रांच`) बटन पर क्लिक करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:56
-msgid "From your computer"
-msgstr "अपने कंप्यूटर से"
+#: ../../content/administration/odoo_sh/create_module.rst:32
+msgid "Under :guilabel:`Fork`, select the `main` branch."
+msgstr ":guilabel:`फ़ोर्क` के तहत, `main` ब्रांच को सेलेक्ट करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:58
-msgid "Clone your Github repository on your computer:"
-msgstr "अपनी Github रिपॉज़िटरी को अपने कंप्यूटर पर क्लोन करें:"
+#: ../../content/administration/odoo_sh/create_module.rst:33
+msgid "Under :guilabel:`To`, enter `feature-1`."
+msgstr ":guilabel:`टू` के तहत, `feature-1` एंटर करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:67
-msgid "Create a new branch:"
-msgstr "नया ब्रांच बनाएं:"
+#: ../../content/administration/odoo_sh/create_module.rst:0
+msgid "Forking the production branch to create a development branch on Odoo.sh"
+msgstr ""
+"Odoo.sh पर डेवलपमेंट ब्रांच बनाने के लिए प्रॉडक्शन ब्रांच को फ़ोर्क करना"
 
-#: ../../content/administration/odoo_sh/first_module.rst:74
+#: ../../content/administration/odoo_sh/create_module.rst:38
+msgid ""
+"Once the build is ready, you can access the :doc:`editor <getting_started/"
+"online_editor>` and the code of your development branch from the folder `~/"
+"src/user` folder."
+msgstr ""
+"एक बार बिल्ड तैयार होने के बाद, आप :doc:`एडिटर <getting_started/online_editor>` "
+"और अपनी डेवलपमेंट ब्रांच के कोड को `~/src/user` फ़ोल्डर से ऐक्सेस कर सकते हैं।"
+
+#: ../../content/administration/odoo_sh/create_module.rst:41
+#: ../../content/administration/odoo_sh/create_module.rst:81
+#: ../../content/administration/odoo_sh/create_module.rst:177
+msgid "On a computer"
+msgstr "कंप्यूटर पर"
+
+#: ../../content/administration/odoo_sh/create_module.rst:43
+msgid ""
+"Clone your GitHub repository on your computer by running the following "
+"commands:"
+msgstr ""
+"निम्नलिखित कमांड रन करके अपने GitHub रिपॉज़िटरी को अपने कंप्यूटर पर क्लोन करें:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:52
+msgid "Create a new branch by running:"
+msgstr "निम्नलिखित रन करके नया ब्रांच बनाएं:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:61
 msgid "Create the module structure"
 msgstr "मॉड्यूल स्ट्रक्चर बनाएं"
 
-#: ../../content/administration/odoo_sh/first_module.rst:77
-msgid "Scaffolding the module"
-msgstr "मॉड्यूल को स्कैफोल्डिंग करना"
+#: ../../content/administration/odoo_sh/create_module.rst:66
+msgid "Scaffolding"
+msgstr "स्कैफ़ोल्डिंग"
 
-#: ../../content/administration/odoo_sh/first_module.rst:79
+#: ../../content/administration/odoo_sh/create_module.rst:68
 msgid ""
-"While not necessary, scaffolding avoids the tedium of setting the basic Odoo "
-"module structure. You can scaffold a new module using the executable *odoo-"
-"bin*."
+"While it is not required, scaffolding avoids the tedium of setting the basic "
+"Odoo module structure. You can scaffold a new module using the `odoo-bin` "
+"executable."
 msgstr ""
-"हालांकि जरूरी नहीं है, स्कैफोल्डिंग बुनियादी Odoo मॉड्यूल स्ट्रक्चर सेट करने की उबाऊ प्रक्रिया "
-"से बचाती है। आप एक्जीक्यूटेबल *odoo-bin* का इस्तेमाल करके नया मॉड्यूल स्कैफोल्ड कर सकते हैं।"
+"हालांकि यह ज़रूरी नहीं है, स्कैफ़ोल्डिंग बेसिक Odoo मॉड्यूल स्ट्रक्चर सेट करने की मेहनत से बचाती "
+"है। आप `odoo-bin` एक्सीक्यूटेबल का इस्तेमाल करके नया मॉड्यूल स्कैफ़ोल्ड कर सकते हैं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:82
-msgid "From the Odoo.sh editor, in a terminal:"
-msgstr "Odoo.sh एडिटर से, टर्मिनल में:"
+#: ../../content/administration/odoo_sh/create_module.rst:75
+#: ../../content/administration/odoo_sh/create_module.rst:167
+msgid "From the :doc:`editor <getting_started/online_editor>` terminal, run:"
+msgstr ":doc:`एडिटर <getting_started/online_editor>` टर्मिनल से, रन करें:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:88
-msgid "Or, from your computer, if you have an installation of Odoo:"
-msgstr "या, अपने कंप्यूटर से, अगर आपके पास Odoo का इंस्टॉलेशन है:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:94
+#: ../../content/administration/odoo_sh/create_module.rst:83
 msgid ""
-"If you do not want to bother installing Odoo on your computer, you can "
-"also :download:`download this module structure template <first_module/"
-"my_module.zip>` in which you replace every occurrences of *my_module* to the "
-"name of your choice."
+"With :doc:`Odoo installed <../on_premise/source>` on your computer, run:"
 msgstr ""
-"अगर आप अपने कंप्यूटर पर Odoo इंस्टॉल करने की परेशानी नहीं लेना चाहते, तो आप "
-":download:`इस मॉड्यूल स्ट्रक्चर टेम्प्लेट को डाउनलोड कर सकते हैं <first_module/"
-"my_module.zip>` जिसमें आप *my_module* की हर जगह को अपनी पसंद के नाम से बदल दें।"
+"अपने कंप्यूटर पर :doc:`Odoo इंस्टॉल <../on_premise/source>` होने के साथ, रन करें:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:98
-msgid "The below structure will be generated:"
-msgstr "नीचे दी गई स्ट्रक्चर जनरेट होगी:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:121
+#: ../../content/administration/odoo_sh/create_module.rst:90
 msgid ""
-"Do not use special characters other than the underscore ( _ ) for your "
-"module name, not even an hyphen ( - ). This name is used for the Python "
-"classes of your module, and having classes name with special characters "
-"other than the underscore is not valid in Python."
+"If you do not want to install Odoo on your computer, you can "
+"also :download:`download this module structure template <create_module/"
+"my_module.zip>`. Replace every occurrence of `my_module` with the name of "
+"your choice."
 msgstr ""
-"अपने मॉड्यूल नाम के लिए अंडरस्कोर ( _ ) के अलावा किसी भी विशेष कैरेक्टर का इस्तेमाल न करें, "
-"हाइफ़न ( - ) भी नहीं। इस नाम का इस्तेमाल आपके मॉड्यूल की Python क्लासेज़ के लिए किया "
-"जाता है, और अंडरस्कोर के अलावा विशेष कैरेक्टर वाली क्लासेज़ का नाम Python में मान्य नहीं है।"
+"अगर आप अपने कंप्यूटर पर Odoo इंस्टॉल नहीं करना चाहते हैं, तो आप :download:`यह मॉड्यूल "
+"स्ट्रक्चर टेम्प्लेट डाउनलोड कर <create_module/my_module.zip>` सकते हैं। `my_module` की "
+"हर जगह को अपनी पसंद के नाम से बदलें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:125
-msgid "Uncomment the content of the files:"
-msgstr "फ़ाइलों के कॉन्टेंट को अनकमेंट करें:"
+#: ../../content/administration/odoo_sh/create_module.rst:94
+msgid "The structure below will be generated:"
+msgstr "नीचे दी गई स्ट्रक्चर जेनरेट की जाएगी:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:127
-msgid "*models/models.py*, an example of model with its fields,"
-msgstr "*models/models.py*, अपने फ़ील्ड्स के साथ एक मॉडल का उदाहरण,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:129
-msgid "*views/views.xml*, a tree and a form view, with the menus opening them,"
-msgstr ""
-"*views/views.xml*, एक ट्री और एक फ़ॉर्म व्यू, जिन्हें खोलने वाले मेनू के साथ,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:131
-msgid "*demo/demo.xml*, demo records for the above example model,"
-msgstr "*demo/demo.xml*, उपरोक्त उदाहरण मॉडल के लिए डेमो रिकॉर्ड,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:133
+#: ../../content/administration/odoo_sh/create_module.rst:117
 msgid ""
-"*controllers/controllers.py*, an example of controller implementing some "
-"routes,"
+"Only use alphanumeric characters (`a-z`, `0-9`) or underscores (`_`) when "
+"naming your module, as its name is used for Python classes, and class names "
+"containing special characters other than underscores are not valid in Python."
 msgstr ""
-"*controllers/controllers.py*, कुछ रूट्स को इम्प्लीमेंट करने वाले कंट्रोलर का उदाहरण,"
+"अपने मॉड्यूल को नाम देते समय सिर्फ़ अल्फ़ान्यूमेरिक कैरेक्टर (`a-z`, `0-9`) या अंडरस्कोर "
+"(`_`) का इस्तेमाल करें, क्योंकि इसके नाम का इस्तेमाल Python क्लासेज़ के लिए किया जाता है, "
+"और अंडरस्कोर के अलावा विशेष कैरेक्टर वाले क्लास नाम Python में वैलिड नहीं होते हैं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:135
+#: ../../content/administration/odoo_sh/create_module.rst:121
+msgid "Uncomment the following files:"
+msgstr "निम्नलिखित फ़ाइल को अनकमेंट करें:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:123
+msgid ":file:`models/models.py` an example of a model with its fields"
+msgstr ":file:`models/models.py` अपने फ़ील्ड के साथ मॉडल का एक उदाहरण"
+
+#: ../../content/administration/odoo_sh/create_module.rst:124
 msgid ""
-"*views/templates.xml*, two example qweb views used by the above controller "
-"routes,"
+":file:`views/views.xml` a tree and a form view, with the menus opening them"
 msgstr ""
-"*views/templates.xml*, उपरोक्त कंट्रोलर रूट्स द्वारा इस्तेमाल किए जाने वाले दो उदाहरण "
-"qweb व्यू,"
+":file:`views/views.xml` एक ट्री और एक फ़ॉर्म व्यू, उन्हें खोलने वाले मेनू के साथ"
 
-#: ../../content/administration/odoo_sh/first_module.rst:137
+#: ../../content/administration/odoo_sh/create_module.rst:125
+msgid ":file:`demo/demo.xml` demo records for the example model"
+msgstr ":file:`demo/demo.xml` उदाहरण मॉडल के लिए डेमो रिकॉर्ड"
+
+#: ../../content/administration/odoo_sh/create_module.rst:126
 msgid ""
-"*__manifest__.py*, the manifest of your module, including for instance its "
-"title, description and data files to load. You just need to uncomment the "
-"access control list data file:"
+":file:`controllers/controllers.py` an example of a controller implementing "
+"some routes"
 msgstr ""
-"*__manifest__.py*, आपके मॉड्यूल का मेनिफेस्ट, जिसमें उदाहरण के लिए इसका टाइटल, विवरण "
-"और लोड करने के लिए डेटा फ़ाइलें शामिल हैं। आपको बस ऐक्सेस कंट्रोल लिस्ट डेटा फ़ाइल को अनकमेंट "
-"करना होगा:"
+":file:`controllers/controllers.py` कुछ रूट्स को लागू करने वाले कंट्रोलर का उदाहरण"
 
-#: ../../content/administration/odoo_sh/first_module.rst:146
+#: ../../content/administration/odoo_sh/create_module.rst:127
+msgid ""
+":file:`views/templates.xml` two example qweb views used by the controller "
+"routes"
+msgstr ""
+":file:`views/templates.xml` कंट्रोलर रूट्स द्वारा उपयोग किए जाने वाले दो उदाहरण "
+"qweb व्यूज़"
+
+#: ../../content/administration/odoo_sh/create_module.rst:128
+msgid ""
+":file:`__manifest__.py` the manifest of your module, including its title, "
+"description and data files to load. Uncomment the access control list data "
+"file:"
+msgstr ""
+":file:`__manifest__.py` आपके मॉड्यूल का मेनिफ़ेस्ट, जिसमें इसका शीर्षक, विवरण और लोड "
+"करने के लिए डेटा फ़ाइलें शामिल हैं। ऐक्सेस कंट्रोल लिस्ट डेटा फ़ाइल को अनकमेंट करें:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:138
 msgid "Manually"
 msgstr "मैन्युअल तौर पर"
 
-#: ../../content/administration/odoo_sh/first_module.rst:148
+#: ../../content/administration/odoo_sh/create_module.rst:140
 msgid ""
-"If you want to create your module structure manually, you can follow "
-"the :doc:`/developer/tutorials/server_framework_101` tutorial to understand "
-"the structure of a module and the content of each file."
+"To create your module structure manually, follow the :doc:`/developer/"
+"tutorials/server_framework_101` tutorial to understand the structure of a "
+"module and the content of each file."
 msgstr ""
-"अगर आप अपनी मॉड्यूल स्ट्रक्चर मैन्युअली बनाना चाहते हैं, तो आप मॉड्यूल की स्ट्रक्चर और हर "
-"फ़ाइल के कॉन्टेंट को समझने के लिए :doc:`/developer/tutorials/server_framework_101` "
-"ट्यूटोरियल फ़ॉलो कर सकते हैं।"
+"अपने मॉड्यूल की संरचना को मैन्युअली बनाने के लिए, मॉड्यूल की संरचना और प्रत्येक फ़ाइल के "
+"कॉन्टेंट को समझने के लिए :doc:`/developer/tutorials/server_framework_101` "
+"ट्यूटोरियल को फ़ॉलो करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:153
-msgid "Push the development branch"
-msgstr "डेवलपमेंट ब्रांच को पुश करें"
+#: ../../content/administration/odoo_sh/create_module.rst:147
+msgid "Push on the development branch"
+msgstr "डेवलपमेंट ब्रांच पर पुश करें"
 
-#: ../../content/administration/odoo_sh/first_module.rst:155
-msgid "Stage the changes to be committed"
-msgstr "कमिट की जाने वाली बदलावों को स्टेज करें"
+#: ../../content/administration/odoo_sh/create_module.rst:149
+msgid "Stage the changes to be committed by running:"
+msgstr "चलाकर कमिट किए जाने वाले परिवर्तनों को स्टेज करें:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:161
-#: ../../content/administration/odoo_sh/first_module.rst:394
-msgid "Commit your changes"
-msgstr "अपनी बदलावों को कमिट करें"
+#: ../../content/administration/odoo_sh/create_module.rst:155
+msgid "Commit your changes by running:"
+msgstr "चलाकर अपने परिवर्तनों को कमिट करें:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:167
-msgid "Push your changes to your remote repository"
-msgstr "अपनी बदलावों को अपने रिमोट रिपॉजिटरी में पुश करें"
+#: ../../content/administration/odoo_sh/create_module.rst:161
+msgid "Push your changes to your remote repository by running:"
+msgstr "चलाकर अपने रिमोट रिपॉज़िटरी में परिवर्तनों को पुश करें:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:169
-msgid "From an Odoo.sh editor terminal:"
-msgstr "Odoo.sh एडिटर टर्मिनल से:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:175
+#: ../../content/administration/odoo_sh/create_module.rst:174
 msgid ""
-"The above command is explained in the section :ref:`Commit and push changes "
-"<odoo-sh/editor/commit>` of the :doc:`Online editor page <getting_started/"
-"online_editor>`. It includes the explanation regarding the fact you will be "
-"prompted to type your username and password, and what to do if you use the "
-"two-factor authentication."
+":ref:`Online editor documentation: committing and pushing changes <odoo-sh/"
+"editor/commit>`"
 msgstr ""
-"उपरोक्त कमांड को :ref:`Commit and push changes <odoo-sh/editor/commit>` सेक्शन में "
-":doc:`Online editor page <getting_started/online_editor>` में समझाया गया है। "
-"इसमें इस बात की व्याख्या शामिल है कि आपको अपना यूज़रनेम और पासवर्ड टाइप करने के लिए "
-"प्रॉम्प्ट किया जाएगा, और अगर आप टू-फ़ैक्टर ऑथेंटिकेशन इस्तेमाल करते हैं तो क्या करें।"
+":ref:`ऑनलाइन एडिटर दस्तावेज़: परिवर्तनों को कमिट और पुश करना <odoo-sh/editor/"
+"commit>`"
 
-#: ../../content/administration/odoo_sh/first_module.rst:180
-#: ../../content/administration/odoo_sh/first_module.rst:382
-#: ../../content/administration/odoo_sh/first_module.rst:408
-msgid "Or, from your computer terminal:"
-msgstr "या, अपने कंप्यूटर टर्मिनल से:"
+#: ../../content/administration/odoo_sh/create_module.rst:179
+msgid "Run:"
+msgstr "चलाएँ:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:186
+#: ../../content/administration/odoo_sh/create_module.rst:185
 msgid ""
-"You need to specify *-u origin feature-1* for the first push only. From that "
-"point, to push your future changes from your computer, you can simply use"
+"It is only necessary to specify `-u origin feature-1` the first time you "
+"push. After that, run:"
 msgstr ""
-"आपको पहली पुश के लिए सिर्फ़ *-u origin feature-1* स्पेसिफ़ाई करना होगा। उस पॉइंट से, "
-"अपने कंप्यूटर से अपने भविष्य के बदलाव पुश करने के लिए, आप बस इस्तेमाल कर सकते हैं"
+"पहली बार पुश करते समय `-u origin feature-1` निर्दिष्ट करना आवश्यक है। उसके बाद, "
+"चलाएँ:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:194
-msgid "Test your module"
-msgstr "अपने मॉड्यूल को टेस्ट करें"
+#: ../../content/administration/odoo_sh/create_module.rst:195
+msgid "Test the module"
+msgstr "मॉड्यूल को टेस्ट करें"
 
-#: ../../content/administration/odoo_sh/first_module.rst:196
-msgid "Your branch should appear in your development branches in your project."
-msgstr ""
-"आपकी ब्रांच आपके प्रोजेक्ट में आपकी डेवलपमेंट ब्रांच में दिखाई देनी चाहिए।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:201
+#: ../../content/administration/odoo_sh/create_module.rst:197
 msgid ""
-"In the branches view of your project, you can click on your branch name in "
-"the left navigation panel to access its history."
+"The branch should appear under the :guilabel:`Development` section of "
+"the :doc:`Branches view <getting_started/branches>` navigation panel."
 msgstr ""
-"अपने प्रोजेक्ट के ब्रांच व्यू में, आप बाएं नेविगेशन पैनल में अपनी ब्रांच नाम पर क्लिक करके उसकी "
-"हिस्ट्री को ऐक्सेस कर सकते हैं।"
+":doc:`ब्रांचेज़ व्यू <getting_started/branches>` नेविगेशन पैनल के :guilabel:`डेवलपमेंट` "
+"सेक्शन के अंतर्गत ब्रांच दिखाई देनी चाहिए।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:207
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "Example of a development branch"
+msgstr "डेवलपमेंट ब्रांच का उदाहरण"
+
+#: ../../content/administration/odoo_sh/create_module.rst:203
 msgid ""
-"You can see here the changes you just pushed, including the comment you set. "
-"Once the database ready, you can access it by clicking the *Connect* button."
+"Click the branch name to view its history, including the changes you just "
+"pushed. Once the database is ready, click :guilabel:`Connect` to access it."
 msgstr ""
-"आप यहां अभी पुश किए गए बदलाव देख सकते हैं, जिसमें आपके द्वारा सेट किया गया कमेंट भी शामिल "
-"है। डेटाबेस तैयार होने के बाद, आप *Connect* बटन पर क्लिक करके इसे ऐक्सेस कर सकते हैं।"
+"इसके इतिहास को देखने के लिए ब्रांच के नाम पर क्लिक करें, जिसमें आपके द्वारा अभी पुश किए गए "
+"परिवर्तन शामिल हैं। जब डेटाबेस तैयार हो जाए, तो इसे ऐक्सेस करने के लिए :guilabel:`कनेक्ट "
+"करें` पर क्लिक करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:213
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "The connect button to access a database"
+msgstr "डेटाबेस को ऐक्सेस करने के लिए कनेक्ट बटन"
+
+#: ../../content/administration/odoo_sh/create_module.rst:209
 msgid ""
-"If your Odoo.sh project is configured to install your module automatically, "
-"you will directly see it amongst the database apps. Otherwise, it will be "
-"available in the apps to install."
+"If your Odoo.sh project is configured to automatically install the module, "
+"it will appear directly on the database dashboard. Otherwise, it will be "
+"available for installation under the :guilabel:`Apps` app."
 msgstr ""
-"अगर आपका Odoo.sh प्रोजेक्ट आपके मॉड्यूल को ऑटोमैटिकली इंस्टॉल करने के लिए कॉन्फ़िगर किया "
-"गया है, तो आप इसे सीधे डेटाबेस ऐप्लिकेशन में देखेंगे। अन्यथा, यह इंस्टॉल करने वाले ऐप्लिकेशन में "
-"उपलब्ध होगा।"
+"अगर आपका Odoo.sh प्रोजेक्ट मॉड्यूल को ऑटोमैटिकली इंस्टॉल करने के लिए कॉन्फ़िगर किया गया "
+"है, तो यह सीधे डेटाबेस डैशबोर्ड पर दिखाई देगा। अन्यथा, यह :guilabel:`ऐप्लिकेशन` "
+"ऐप्लिकेशन के अंतर्गत इंस्टॉलेशन के लिए उपलब्ध होगा।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:217
-msgid ""
-"You can then play around with your module, create new records and test your "
-"features and buttons."
-msgstr ""
-"फिर आप अपने मॉड्यूल के साथ प्रयोग कर सकते हैं, नए रिकॉर्ड बना सकते हैं और अपने फ़ीचर और "
-"बटन टेस्ट कर सकते हैं।"
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "The new module on the database dashboard"
+msgstr "डेटाबेस डैशबोर्ड पर नया मॉड्यूल"
 
-#: ../../content/administration/odoo_sh/first_module.rst:220
+#: ../../content/administration/odoo_sh/create_module.rst:219
 msgid "Test with the production data"
 msgstr "प्रॉडक्शन डेटा के साथ टेस्ट करें"
 
-#: ../../content/administration/odoo_sh/first_module.rst:222
+#: ../../content/administration/odoo_sh/create_module.rst:222
 msgid ""
-"You need to have a production database for this step. You can create it if "
-"you do not have it yet."
+"A production database is required for this step. If you do not have one yet, "
+"create it."
 msgstr ""
-"इस स्टेप के लिए आपके पास प्रॉडक्शन डेटाबेस होना चाहिए। अगर आपके पास अभी तक यह नहीं है "
-"तो आप इसे बना सकते हैं।"
+"इस चरण के लिए एक प्रॉडक्शन डेटाबेस आवश्यक है। अगर आपके पास अभी तक कोई नहीं है, तो इसे "
+"बनाएं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:224
+#: ../../content/administration/odoo_sh/create_module.rst:224
 msgid ""
-"Once you tested your module in a development build with the demo data and "
-"believe it is ready, you can test it with the production data using a "
+"Once you have tested the module in a development build with the demo data "
+"and believe it is ready, you can test it with the production data using a "
 "staging branch."
 msgstr ""
-"एक बार जब आप डेमो डेटा के साथ डेवलपमेंट बिल्ड में अपने मॉड्यूल को टेस्ट कर लेते हैं और मानते हैं "
-"कि यह तैयार है, तो आप स्टेजिंग ब्रांच का इस्तेमाल करके प्रॉडक्शन डेटा के साथ इसे टेस्ट कर सकते "
-"हैं।"
+"जब आप डेमो डेटा के साथ डेवलपमेंट बिल्ड में मॉड्यूल को टेस्ट कर लें और मानें कि यह तैयार है, तो "
+"आप स्टेजिंग ब्रांच का उपयोग करके इसे प्रॉडक्शन डेटा के साथ टेस्ट कर सकते हैं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:227
-msgid "You can either:"
-msgstr "आप या तो:"
+#: ../../content/administration/odoo_sh/create_module.rst:227
+msgid "You can:"
+msgstr "आप ये कर सकते हैं:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:229
+#: ../../content/administration/odoo_sh/create_module.rst:229
 msgid ""
-"Make your development branch a staging branch, by drag and dropping it onto "
-"the *staging* section title."
+"Convert your development branch to a staging branch by dragging and dropping "
+"it into the :guilabel:`Staging` section."
 msgstr ""
-"अपनी डेवलपमेंट ब्रांच को स्टेजिंग ब्रांच बनाएं, इसे *staging* सेक्शन टाइटल पर ड्रैग और ड्रॉप "
-"करके।"
+"अपनी डेवलपमेंट ब्रांच को स्टेजिंग ब्रांच में बदलने के लिए इसे ड्रैग और ड्रॉप करके "
+":guilabel:`Staging` सेक्शन में ले जाएं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:235
+#: ../../content/administration/odoo_sh/create_module.rst:231
 msgid ""
-"Merge it in an existing staging branch, by drag and dropping it onto the "
-"given staging branch."
+"Merge it into an existing staging branch by dragging and dropping it onto "
+"that branch."
 msgstr ""
-"इसे किसी मौजूदा स्टेजिंग ब्रांच में मर्ज करें, इसे दी गई स्टेजिंग ब्रांच पर ड्रैग और ड्रॉप करके।"
+"इसे किसी मौजूदा स्टेजिंग ब्रांच में मर्ज करने के लिए इसे ड्रैग और ड्रॉप करके उस ब्रांच पर ले जाएं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:240
-#: ../../content/administration/odoo_sh/first_module.rst:286
-msgid "You can also use the :code:`git merge` command to merge your branches."
-msgstr ""
-"आप अपनी ब्रांच को मर्ज करने के लिए :code:`git merge` कमांड का भी इस्तेमाल कर सकते हैं।"
+#: ../../content/administration/odoo_sh/create_module.rst:232
+msgid "Use the `git merge` command to merge your branches."
+msgstr "अपनी ब्रांचों को मर्ज करने के लिए `git merge` कमांड इस्तेमाल करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:242
+#: ../../content/administration/odoo_sh/create_module.rst:234
 msgid ""
-"This will create a new staging build, which will duplicate the production "
-"database and make it run using a server updated with your latest changes of "
-"your branch."
+"This creates a new staging build that duplicates the production database and "
+"runs it on a server updated with your branch’s latest changes."
 msgstr ""
-"यह एक नई स्टेजिंग बिल्ड बनाएगा, जो प्रॉडक्शन डेटाबेस को डुप्लीकेट करेगा और आपकी ब्रांच के "
-"नवीनतम बदलावों के साथ अपडेट किए गए सर्वर का इस्तेमाल करके इसे चलाएगा।"
+"यह एक नई स्टेजिंग बिल्ड बनाता है जो प्रॉडक्शन डेटाबेस को डुप्लिकेट करती है और इसे आपकी "
+"ब्रांच के नवीनतम बदलावों के साथ अपडेट किए गए सर्वर पर चलाती है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:248
-#: ../../content/administration/odoo_sh/first_module.rst:294
-msgid "Once the database ready, you can access it using the *Connect* button."
+#: ../../content/administration/odoo_sh/create_module.rst:237
+msgid "Once the database is ready, click :guilabel:`Connect` to access it."
 msgstr ""
-"डेटाबेस तैयार होने के बाद, आप *Connect* बटन का इस्तेमाल करके इसे ऐक्सेस कर सकते हैं।"
+"डेटाबेस तैयार होने के बाद, इसे ऐक्सेस करने के लिए :guilabel:`Connect` पर क्लिक करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:253
-#: ../../content/administration/odoo_sh/first_module.rst:297
-msgid "Install your module"
-msgstr "अपना मॉड्यूल इंस्टॉल करें"
+#: ../../content/administration/odoo_sh/create_module.rst:242
+#: ../../content/administration/odoo_sh/create_module.rst:272
+msgid "Install the module"
+msgstr "मॉड्यूल इंस्टॉल करें"
 
-#: ../../content/administration/odoo_sh/first_module.rst:255
+#: ../../content/administration/odoo_sh/create_module.rst:244
+#: ../../content/administration/odoo_sh/create_module.rst:274
 msgid ""
-"Your module will not be installed automatically, you have to install it from "
-"the apps menu. Indeed, the purpose of the staging build is to test the "
-"behavior of your changes as it would be on your production, and on your "
-"production you would not like your module to be installed automatically, but "
-"on demand."
+"Install the module from the :guilabel:`Apps` app. As the module may not "
+"appear directly in the list of apps, update the list of apps by activating "
+"the :ref:`developer mode <developer-mode>` and "
+"clicking :menuselection:`Update Apps List --> Update`."
 msgstr ""
-"आपका मॉड्यूल ऑटोमैटिकली इंस्टॉल नहीं होगा, आपको इसे ऐप्लिकेशन मेन्यू से इंस्टॉल करना होगा। "
-"वास्तव में, स्टेजिंग बिल्ड का उद्देश्य आपके बदलावों के व्यवहार को टेस्ट करना है जैसा कि आपके "
-"प्रॉडक्शन पर होगा, और अपने प्रॉडक्शन पर आप नहीं चाहेंगे कि आपका मॉड्यूल ऑटोमैटिकली इंस्टॉल "
-"हो, बल्कि डिमांड पर हो।"
+":guilabel:`Apps` ऐप्लिकेशन से मॉड्यूल इंस्टॉल करें। चूंकि मॉड्यूल ऐप्लिकेशन की लिस्ट में सीधे "
+"दिखाई नहीं दे सकता, इसलिए :ref:`developer mode <developer-mode>` सक्रिय करके और "
+":menuselection:`Update Apps List --> Update` पर क्लिक करके ऐप्लिकेशन की लिस्ट "
+"अपडेट करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:260
+#: ../../content/administration/odoo_sh/create_module.rst:249
 msgid ""
-"Your module may not appear directly in your apps to install either, you need "
-"to update your apps list first:"
+"The module is not installed automatically, as the purpose of the staging "
+"build is to test the behavior of your changes as they would be on the "
+"production database, so you would not want a module installed automatically."
 msgstr ""
-"आपका मॉड्यूल इंस्टॉल करने के लिए आपके ऐप्लिकेशन में सीधे दिखाई नहीं दे सकता है, आपको पहले "
-"अपनी ऐप्लिकेशन लिस्ट को अपडेट करना होगा:"
+"मॉड्यूल ऑटोमैटिकली इंस्टॉल नहीं होता है, क्योंकि स्टेजिंग बिल्ड का उद्देश्य आपके बदलावों के "
+"व्यवहार को वैसे टेस्ट करना है जैसे वे प्रॉडक्शन डेटाबेस पर होंगे, इसलिए आप नहीं चाहेंगे कि "
+"मॉड्यूल ऑटोमैटिकली इंस्टॉल हो जाए।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:263
-msgid "Activate the :ref:`developer mode <developer-mode>`"
-msgstr ":ref:`डेवलपर मोड <developer-mode>` को एक्टिवेट करें"
-
-#: ../../content/administration/odoo_sh/first_module.rst:264
-msgid "in the apps menu, click the *Update Apps List* button,"
-msgstr "ऐप्लिकेशन मेन्यू में, *अपडेट ऐप्स लिस्ट* बटन पर क्लिक करें,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:265
-msgid "in the dialog that appears, click the *Update* button."
-msgstr "डायलॉग में जो दिखाई देता है, *अपडेट करें* बटन पर क्लिक करें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:270
-msgid "Your module will then appear in the list of available apps."
-msgstr "आपका मॉड्यूल फिर उपलब्ध ऐप्लिकेशन की लिस्ट में दिखाई देगा।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:276
+#: ../../content/administration/odoo_sh/create_module.rst:256
 msgid "Deploy in production"
 msgstr "प्रॉडक्शन में डिप्लॉय करें"
 
-#: ../../content/administration/odoo_sh/first_module.rst:278
+#: ../../content/administration/odoo_sh/create_module.rst:258
 msgid ""
-"Once you tested your module in a staging branch with your production data, "
-"and believe it is ready for production, you can merge your branch in the "
-"production branch."
+"Once you have tested the module in a staging branch with the production data "
+"and believe it is ready for production, you can merge your branch into the "
+"production branch by:"
 msgstr ""
-"एक बार जब आप अपने प्रॉडक्शन डेटा के साथ स्टेजिंग ब्रांच में अपने मॉड्यूल का परीक्षण कर लें, और "
-"मानते हैं कि यह प्रॉडक्शन के लिए तैयार है, तो आप अपनी ब्रांच को प्रॉडक्शन ब्रांच में मर्ज कर "
-"सकते हैं।"
+"एक बार जब आप प्रॉडक्शन डेटा के साथ स्टेजिंग ब्रांच में मॉड्यूल टेस्ट कर लेते हैं और मानते हैं कि "
+"यह प्रॉडक्शन के लिए तैयार है, तो आप अपनी ब्रांच को प्रॉडक्शन ब्रांच में मर्ज कर सकते हैं:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:281
-msgid "Drag and drop your staging branch on the production branch."
-msgstr "अपनी स्टेजिंग ब्रांच को प्रॉडक्शन ब्रांच पर ड्रैग और ड्रॉप करें।"
+#: ../../content/administration/odoo_sh/create_module.rst:261
+msgid "Dragging and dropping the staging branch onto the production branch."
+msgstr "स्टेजिंग ब्रांच को ड्रैग और ड्रॉप करके प्रॉडक्शन ब्रांच पर ले जाएं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:288
+#: ../../content/administration/odoo_sh/create_module.rst:262
+msgid "Using the `git merge` command to merge your branches."
+msgstr "अपनी ब्रांचों को मर्ज करने के लिए `git merge` कमांड इस्तेमाल करें।"
+
+#: ../../content/administration/odoo_sh/create_module.rst:264
 msgid ""
-"This will merge the latest changes of your staging branch in the production "
-"branch, and update your production server with these latest changes."
+"This merges the latest changes from the staging branch into the production "
+"branch and updates the production server with them."
 msgstr ""
-"यह आपकी स्टेजिंग ब्रांच के नवीनतम बदलावों को प्रॉडक्शन ब्रांच में मर्ज कर देगा, और आपके "
-"प्रॉडक्शन सर्वर को इन नवीनतम बदलावों के साथ अपडेट करेगा।"
+"यह स्टेजिंग ब्रांच से नवीनतम बदलावों को प्रॉडक्शन ब्रांच में मर्ज करता है और उनके साथ "
+"प्रॉडक्शन सर्वर को अपडेट करता है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:299
-msgid ""
-"Your module will not be installed automatically, you have to install it "
-"manually as explained in the :ref:`above section about installing your "
-"module in staging databases <odoosh-gettingstarted-firstmodule-"
-"productiondata-install>`."
+#: ../../content/administration/odoo_sh/create_module.rst:267
+msgid "Once the database is ready,  click :guilabel:`Connect` to access it."
 msgstr ""
-"आपका मॉड्यूल ऑटोमैटिकली इंस्टॉल नहीं होगा, आपको इसे मैन्युअली इंस्टॉल करना होगा जैसा कि "
-":ref:`स्टेजिंग डेटाबेस में आपके मॉड्यूल को इंस्टॉल करने के बारे में ऊपर दिए गए सेक्शन <odoosh-"
-"gettingstarted-firstmodule-productiondata-install>` में बताया गया है।"
+"डेटाबेस तैयार होने के बाद, इसे ऐक्सेस करने के लिए :guilabel:`Connect` पर क्लिक करें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:307
+#: ../../content/administration/odoo_sh/create_module.rst:281
 msgid "Add a change"
 msgstr "बदलाव जोड़ें"
 
-#: ../../content/administration/odoo_sh/first_module.rst:309
+#: ../../content/administration/odoo_sh/create_module.rst:283
 msgid ""
 "This section explains how to add a change in your module by adding a new "
-"field in a model and deploy it."
+"field in a model and deploying it."
 msgstr ""
-"यह सेक्शन बताता है कि एक मॉडल में नया फ़ील्ड जोड़कर अपने मॉड्यूल में बदलाव कैसे जोड़ें और इसे "
-"डिप्लॉय करें।"
+"यह सेक्शन बताता है कि किसी मॉडल में नया फ़ील्ड जोड़कर और उसे डिप्लॉय करके अपने मॉड्यूल में "
+"बदलाव कैसे जोड़ें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:314
-msgid "From the Odoo.sh editor,"
-msgstr "Odoo.sh एडिटर से,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:313
-msgid "browse to your module folder *~/src/user/my_module*,"
-msgstr "अपने मॉड्यूल फ़ोल्डर *~/src/user/my_module* को ब्राउज़ करें,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:314
-msgid "then, open the file *models/models.py*."
-msgstr "फिर, *models/models.py* फ़ाइल को खोलें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:320
-msgid "Or, from your computer,"
-msgstr "या, अपने कंप्यूटर से,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:317
+#: ../../content/administration/odoo_sh/create_module.rst:286
 msgid ""
-"use the file browser of your choice to browse to your module folder *~/src/"
-"odoo-addons/my_module*,"
+"From the :doc:`editor <getting_started/online_editor>` or from your "
+"computer, open the module folder :file:`~/src/odoo-addons/my_module`, then "
+"open the :file:`models/models.py` file to edit it. After the description "
+"field:"
 msgstr ""
-"अपनी पसंद के फ़ाइल ब्राउज़र का इस्तेमाल करके अपने मॉड्यूल फ़ोल्डर *~/src/odoo-addons/"
-"my_module* को ब्राउज़ करें,"
+":doc:`editor <getting_started/online_editor>` से या अपने कंप्यूटर से, मॉड्यूल फ़ोल्डर "
+":file:`~/src/odoo-addons/my_module` खोलें, फिर :file:`models/models.py` फ़ाइल "
+"को एडिट करने के लिए खोलें। description फ़ील्ड के बाद:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:319
+#: ../../content/administration/odoo_sh/create_module.rst:294
+msgid "add a datetime field:"
+msgstr "datetime फ़ील्ड जोड़ें:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:300
+msgid "Open the :file:`views/views.xml` file and after:"
+msgstr ":file:`views/views.xml` फ़ाइल खोलें और इसके बाद:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:306
+#: ../../content/administration/odoo_sh/create_module.rst:377
+#: ../../content/administration/odoo_sh/create_module.rst:389
+msgid "add:"
+msgstr "जोड़ें:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:314
 msgid ""
-"then, open the file *models/models.py* using the editor of your choice, such "
-"as *Atom*, *Sublime Text*, *PyCharm*, *vim*, ..."
+"These changes alter the database structure by adding a column to a table and "
+"modifying a view. To be applied to an existing database, such as your "
+"production database, these changes require the module to be updated. If you "
+"would like the update to be performed automatically by the Odoo.sh platform "
+"when you push your changes, increase the module's version in its manifest by "
+"opening :file:`__manifest__.py` and replacing:"
 msgstr ""
-"फिर, अपनी पसंद के एडिटर का इस्तेमाल करके *models/models.py* फ़ाइल को खोलें, जैसे "
-"*Atom*, *Sublime Text*, *PyCharm*, *vim*, ..।"
+"ये बदलाव किसी टेबल में कॉलम जोड़कर और व्यू को संशोधित करके डेटाबेस स्ट्रक्चर को बदलते हैं। "
+"किसी मौजूदा डेटाबेस, जैसे आपके प्रॉडक्शन डेटाबेस, पर लागू होने के लिए, इन बदलावों के लिए "
+"मॉड्यूल को अपडेट करना ज़रूरी है। अगर आप चाहते हैं कि जब आप अपने बदलाव पुश करें तो Odoo.sh "
+"प्लेटफ़ॉर्म द्वारा अपडेट ऑटोमैटिकली किया जाए, तो :file:`__manifest__.py` खोलकर और "
+"बदलकर अपने मैनिफ़ेस्ट में मॉड्यूल का वर्शन बढ़ाएं:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:322
-msgid "Then, after the description field"
-msgstr "फिर, डिस्क्रिप्शन फ़ील्ड के बाद"
+#: ../../content/administration/odoo_sh/create_module.rst:324
+msgid "with:"
+msgstr "के साथ:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:328
-msgid "Add a datetime field"
-msgstr "एक datetime फ़ील्ड जोड़ें"
-
-#: ../../content/administration/odoo_sh/first_module.rst:334
-msgid "Then, open the file *views/views.xml*."
-msgstr "फिर, फ़ाइल *views/views.xml* खोलें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:336
-#: ../../content/administration/odoo_sh/first_module.rst:472
-msgid "After"
-msgstr "आफ़्टर"
-
-#: ../../content/administration/odoo_sh/first_module.rst:342
-#: ../../content/administration/odoo_sh/first_module.rst:449
-#: ../../content/administration/odoo_sh/first_module.rst:466
-#: ../../content/administration/odoo_sh/first_module.rst:478
-msgid "Add"
-msgstr "जोड़ना"
-
-#: ../../content/administration/odoo_sh/first_module.rst:348
+#: ../../content/administration/odoo_sh/create_module.rst:330
 msgid ""
-"These changes alter the database structure by adding a column in a table, "
-"and modify a view stored in database."
+"The platform will detect a version change and trigger the module update upon "
+"deployment of the new revision."
 msgstr ""
-"इन परिवर्तनों से डेटाबेस संरचना बदल जाती है क्योंकि इसमें एक तालिका में एक कॉलम जोड़ा जाता "
-"है और डेटाबेस में संग्रहीत एक व्यू को संशोधित किया जाता है।"
+"प्लेटफ़ॉर्म वर्शन परिवर्तन का पता लगाएगा और नए रिवीज़न की डिप्लॉयमेंट पर मॉड्यूल अपडेट को "
+"ट्रिगर करेगा।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:351
+#: ../../content/administration/odoo_sh/create_module.rst:333
+msgid "Next, :ref:`push the changes <odoo-sh/module/push-development>`."
+msgstr "अगला, :ref:`बदलावों को पुश करें <odoo-sh/module/push-development>`।"
+
+#: ../../content/administration/odoo_sh/create_module.rst:335
 msgid ""
-"In order to be applied in existing databases, such as your production "
-"database, these changes requires the module to be updated."
+"Once you have :ref:`tested your changes <odoo-sh/module/test-module>`, you "
+"can merge them into the production branch, for instance, by dragging and "
+"dropping the branch onto the production branch in the Odoo.sh interface. "
+"Since you increased the module version in the manifest, the platform will "
+"automatically update the module, and your new field will be available "
+"immediately. Otherwise, you can manually :ref:`update the module <odoo-sh/"
+"module/deploy/install>` within the apps list."
 msgstr ""
-"मौजूदा डेटाबेस, जैसे कि आपका उत्पादन डेटाबेस, में लागू होने के लिए, इन परिवर्तनों के लिए "
-"मॉड्यूल को अपडेट करना आवश्यक है।"
+"एक बार जब आप :ref:`अपने बदलावों का टेस्ट कर लें <odoo-sh/module/test-module>`, तो "
+"आप उन्हें प्रॉडक्शन ब्रांच में मर्ज कर सकते हैं, उदाहरण के लिए, Odoo.sh इंटरफ़ेस में ब्रांच को "
+"प्रॉडक्शन ब्रांच पर ड्रैग और ड्रॉप करके। चूंकि आपने मेनिफेस्ट में मॉड्यूल वर्शन बढ़ाया है, "
+"प्लेटफ़ॉर्म ऑटोमैटिकली मॉड्यूल को अपडेट कर देगा, और आपकी नई फ़ीड्ल तुरंत उपलब्ध हो जाएगी। "
+"अन्यथा, आप ऐप्लिकेशन लिस्ट के भीतर मैन्युअल रूप से :ref:`मॉड्यूल को अपडेट <odoo-sh/module/"
+"deploy/install>` कर सकते हैं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:354
-msgid ""
-"If you would like the update to be performed automatically by the Odoo.sh "
-"platform when you push your changes, increase your module version in its "
-"manifest."
-msgstr ""
-"यदि आप चाहते हैं कि आपके परिवर्तन पुश करने पर Odoo.sh प्लेटफ़ॉर्म द्वारा अपडेट स्वचालित रूप "
-"से किया जाए, तो अपने मॉड्यूल संस्करण को उसके मैनिफेस्ट में बढ़ा दें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:357
-msgid "Open the module manifest *__manifest__.py*."
-msgstr "मॉड्यूल मैनिफेस्ट manifest.py खोलें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:365
-#: ../../content/administration/odoo_sh/first_module.rst:504
-msgid "with"
-msgstr "साथ"
-
-#: ../../content/administration/odoo_sh/first_module.rst:371
-msgid ""
-"The platform will detect the change of version and trigger the update of the "
-"module upon the new revision deployment."
-msgstr ""
-"प्लेटफ़ॉर्म संस्करण में बदलाव का पता लगाएगा और नई संशोधन परिनियोजन के समय मॉड्यूल के अपडेट "
-"को ट्रिगर करेगा।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:374
-msgid "Browse to your Git folder."
-msgstr "अपने Git फ़ोल्डर पर जाएं।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:376
-msgid "Then, from an Odoo.sh terminal:"
-msgstr "फिर, एक Odoo.sh टर्मिनल से"
-
-#: ../../content/administration/odoo_sh/first_module.rst:388
-msgid "Then, stage your changes to be committed"
-msgstr "फिर, अपनी परिवर्तनों को कमिट करने के लिए स्टेज करें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:400
-msgid "Push your changes:"
-msgstr "अपने बदलावों को पुश करें"
-
-#: ../../content/administration/odoo_sh/first_module.rst:402
-msgid "From an Odoo.sh terminal:"
-msgstr "एक Odoo.sh टर्मिनल से"
-
-#: ../../content/administration/odoo_sh/first_module.rst:414
-msgid "The platform will then create a new build for the branch *feature-1*."
-msgstr "फिर प्लेटफ़ॉर्म शाखा feature-1 के लिए एक नया बिल्ड बनाएगा।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:419
-msgid ""
-"Once you tested your changes, you can merge your changes in the production "
-"branch, for instance by drag-and-dropping the branch on the production "
-"branch in the Odoo.sh interface. As you increased the module version in the "
-"manifest, the platform will update the module automatically and your new "
-"field will be directly available. Otherwise you can manually update the "
-"module within the apps list."
-msgstr ""
-"एक बार जब आप अपने परिवर्तनों का परीक्षण कर लें, तो आप अपने परिवर्तनों को प्रोडक्शन ब्रांच "
-"में मर्ज कर सकते हैं, उदाहरण के लिए Odoo.sh इंटरफेस में ब्रांच को प्रोडक्शन ब्रांच पर ड्रैग-एंड-"
-"ड्रॉप करके। चूंकि आपने मैनिफेस्ट में मॉड्यूल संस्करण बढ़ाया है, प्लेटफॉर्म स्वचालित रूप से मॉड्यूल "
-"को अपडेट करेगा और आपका नया फ़ील्ड सीधे उपलब्ध हो जाएगा। अन्यथा, आप ऐप्स सूची में मॉड्यूल "
-"को मैन्युअली अपडेट कर सकते हैं।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:425
+#: ../../content/administration/odoo_sh/create_module.rst:343
 msgid "Use an external Python library"
 msgstr "एक बाहरी पायथन लाइब्रेरी का उपयोग करें\""
 
-#: ../../content/administration/odoo_sh/first_module.rst:427
+#: ../../content/administration/odoo_sh/create_module.rst:345
 msgid ""
-"If you would like to use an external Python library which is not installed "
-"by default, you can define a *requirements.txt* file listing the external "
-"libraries your modules depends on."
+"If you would like to use an external Python library that is not installed by "
+"default, you can define a :file:`requirements.txt` file listing the external "
+"libraries your modules depend on. The platform will use this file to "
+"automatically install the Python libraries your project needs."
 msgstr ""
-"यदि आप कोई बाहरी Python लाइब्रेरी उपयोग करना चाहते हैं जो डिफ़ॉल्ट रूप से स्थापित नहीं "
-"है, तो आप एक requirements.txt फ़ाइल बना सकते हैं जिसमें उन बाहरी लाइब्रेरीज़ की सूची हो "
-"जो आपके मॉड्यूल्स पर निर्भर हैं।"
+"अगर आप किसी एक्सटर्नल Python लाइब्रेरी का इस्तेमाल करना चाहते हैं जो डिफ़ॉल्ट रूप से "
+"इंस्टॉल नहीं है, तो आप एक :file:`requirements.txt` फ़ाइल परिभाषित कर सकते हैं जिसमें "
+"उन एक्सटर्नल लाइब्रेरी की लिस्ट हो जिन पर आपके मॉड्यूल निर्भर हैं। प्लेटफ़ॉर्म इस फ़ाइल का "
+"इस्तेमाल करके आपके प्रोजेक्ट के लिए आवश्यक Python लाइब्रेरी को ऑटोमैटिकली इंस्टॉल करेगा।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:431
+#: ../../content/administration/odoo_sh/create_module.rst:350
 msgid ""
-"It is not possible to install or upgrade system packages on an Odoo.sh "
-"database (e.g., apt packages). However, under specific conditions, packages "
-"can be considered for installation. This also applies to **Python modules** "
-"requiring system packages for their compilation, and **third-party Odoo "
-"modules**."
+"It is not possible to install or upgrade system packages on Odoo.sh "
+"databases (e.g., apt packages). However, under specific conditions, "
+"`packages can be considered for installation <https://www.odoo.sh/"
+"faq#install_dependencies>`_. This also applies to Python modules that "
+"require system packages for compilation and to third-party Odoo modules."
 msgstr ""
-"यह ओडू.श डेटाबेस पर सिस्टम पैकेजों को इंस्टॉल या अपग्रेड करना संभव नहीं है (जैसे, एपीटी पैकेज)"
-"। हालांकि, विशेष शर्तों के तहत, पैकेजों को इंस्टॉल करने पर विचार किया जा सकता है। यह "
-"पाइथन मॉड्यूल्स पर भी लागू होता है जिन्हें उनके संकलन के लिए सिस्टम पैकेजों की आवश्यकता होती "
-"है, और थर्ड-पार्टी ओडू मॉड्यूल्स भी।"
+"Odoo.sh डेटाबेस पर सिस्टम पैकेज इंस्टॉल या अपग्रेड करना संभव नहीं है (जैसे apt पैकेज)। "
+"हालांकि, विशिष्ट परिस्थितियों में, `पैकेज को इंस्टॉलेशन के लिए माना जा सकता है <https://"
+"www.odoo.sh/faq#install_dependencies>`_। यह Python मॉड्यूल पर भी लागू होता है "
+"जिन्हें संकलन के लिए सिस्टम पैकेज की आवश्यकता होती है और थर्ड-पार्टी Odoo मॉड्यूल पर भी।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:435
-msgid "**PostgreSQL extensions** are not supported on Odoo.sh."
-msgstr "PostgreSQL एक्सटेंशन Odoo.sh पर समर्थित नहीं हैं।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:436
+#: ../../content/administration/odoo_sh/create_module.rst:354
 msgid ""
-"For more information, consult our `FAQ <https://www.odoo.sh/"
-"faq#install_dependencies>`_."
+"PostgreSQL extensions are not supported on Odoo.sh hence it is not possible "
+"to install extensions (such as PostGIS, ltree, ...) in Odoo.sh databases."
 msgstr ""
-"अधिक जानकारी के लिए, हमारे FAQ <https://www.odoo.sh/faq#install_dependencies>_ "
-"को देखें।"
+"PostgreSQL एक्सटेंशन Odoo.sh पर समर्थित नहीं हैं इसलिए Odoo.sh डेटाबेस में एक्सटेंशन (जैसे "
+"PostGIS, ltree, ...) इंस्टॉल करना संभव नहीं है।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:438
+#: ../../content/administration/odoo_sh/create_module.rst:357
 msgid ""
-"The platform will use this file to automatically install the Python "
-"libraries your project needs."
+"For example, to use the `Unidecode library <https://pypi.org/project/"
+"Unidecode>`_ in your module:"
 msgstr ""
-"प्लेटफ़ॉर्म इस फ़ाइल का उपयोग करके आपके प्रोजेक्ट को आवश्यक Python लाइब्रेरीज़ को स्वचालित "
-"रूप से स्थापित करेगा।"
+"उदाहरण के लिए, अपने मॉड्यूल में `Unidecode लाइब्रेरी <https://pypi.org/project/"
+"Unidecode>`_ का इस्तेमाल करने के लिए:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:440
+#: ../../content/administration/odoo_sh/create_module.rst:359
 msgid ""
-"The feature is explained in this section by using the `Unidecode library "
-"<https://pypi.python.org/pypi/Unidecode>`_ in your module."
+"Create a file :file:`requirements.txt` in the root folder of your repository:"
 msgstr ""
-"यह फीचर इस खंड में आपके मॉड्यूल में Unidecode लाइब्रेरी <https://pypi.python.org/pypi/"
-"Unidecode>_ का उपयोग करके समझाया गया है।"
+"अपने रिपॉजिटरी के रूट फ़ोल्डर में एक फ़ाइल :file:`requirements.txt` बनाएं:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:443
-msgid "Create a file *requirements.txt* in the root folder of your repository"
-msgstr "अपने रिपॉजिटरी के रूट फोल्डर में requirements.txt फ़ाइल बनाएं।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:445
+#: ../../content/administration/odoo_sh/create_module.rst:361
 msgid ""
-"From the Odoo.sh editor, create and open the file ~/src/user/"
-"requirements.txt."
-msgstr "ओडू.श एडिटर से, फ़ाइल ~/src/user/requirements.txt बनाएं और खोलें।"
-
-#: ../../content/administration/odoo_sh/first_module.rst:447
-msgid ""
-"Or, from your computer, create and open the file ~/src/odoo-addons/"
-"requirements.txt."
+"From the Odoo.sh editor, create and open the file :file:`~/src/user/"
+"requirements.txt`."
 msgstr ""
-"या, अपने कंप्यूटर से फ़ाइल ~/src/odoo-addons/requirements.txt बनाएं और खोलें।"
+"Odoo.sh एडिटर से, फ़ाइल :file:`~/src/user/requirements.txt` बनाएं और खोलें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:455
+#: ../../content/administration/odoo_sh/create_module.rst:362
 msgid ""
-"Then use the library in your module, for instance to remove accents from "
-"characters in the name field of your model."
+"From your computer, create nd open the file :file:`~/src/odoo-addons/"
+"requirements.txt`."
 msgstr ""
-"इस लाइब्रेरी को अपने मॉड्यूल में उपयोग करें, उदाहरण के लिए अपने मॉडल के नाम फ़ील्ड में से "
-"अक्षरों के उच्चारण को हटाने के लिए।"
+"अपने कंप्यूटर से, फ़ाइल :file:`~/src/odoo-addons/requirements.txt` बनाएं और खोलें।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:458
-msgid "Open the file *models/models.py*."
-msgstr "फ़ाइल models/models.py खोलें।"
+#: ../../content/administration/odoo_sh/create_module.rst:364
+msgid "Add to the file:"
+msgstr "फ़ाइल में जोड़ें:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:460
-msgid "Before"
-msgstr "पहले"
-
-#: ../../content/administration/odoo_sh/first_module.rst:494
+#: ../../content/administration/odoo_sh/create_module.rst:370
 msgid ""
-"Adding a Python dependency requires a module version increase for the "
-"platform to install it."
+"You can now use the library in your module, for instance, to remove accents "
+"from characters in the name field of your model. To do so, open "
+"the :file:`models/models.py` file and before:"
 msgstr ""
-"प्लेटफ़ॉर्म पर किसी Python डिपेंडेंसी को जोड़ने के लिए मॉड्यूल संस्करण को बढ़ाना आवश्यक होता है"
-"।"
+"अब आप अपने मॉड्यूल में लाइब्रेरी का इस्तेमाल कर सकते हैं, उदाहरण के लिए, अपने मॉडल के नाम "
+"फ़ील्ड में वर्णों से एक्सेंट हटाने के लिए। ऐसा करने के लिए, :file:`models/models.py` फ़ाइल "
+"खोलें और इससे पहले:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:496
-msgid "Edit the module manifest *__manifest__.py*"
-msgstr "मॉड्यूल मैनिफेस्ट __manifest__.py संपादित करें"
+#: ../../content/administration/odoo_sh/create_module.rst:383
+msgid "After:"
+msgstr "इसके बाद:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:510
-msgid "Stage and commit your changes:"
-msgstr "अपने परिवर्तनों को स्टेज करें और कमिट करें"
+#: ../../content/administration/odoo_sh/create_module.rst:404
+msgid ""
+"Increase the module version to install the Python dependency by editing "
+"the :ref:`module's manifest <odoo-sh/module/add/"
+"manifest>` :file:`__manifest__.py`."
+msgstr ""
+":ref:`मॉड्यूल के मेनिफेस्ट <odoo-sh/module/add/manifest>` :file:`__manifest__.py` "
+"को एडिट करके Python डिपेंडेंसी इंस्टॉल करने के लिए मॉड्यूल वर्शन बढ़ाएं।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:518
-msgid "Then, push your changes:"
-msgstr "फिर, अपनी परिवर्तन को पुश करें"
+#: ../../content/administration/odoo_sh/create_module.rst:407
+msgid "Then, :ref:`push the changes <odoo-sh/module/push-development>`."
+msgstr "फिर, :ref:`बदलावों को पुश करें <odoo-sh/module/push-development>`।"
 
-#: ../../content/administration/odoo_sh/first_module.rst:520
-msgid "In an Odoo.sh terminal:"
-msgstr "एक Odoo.sh टर्मिनल में"
-
-#: ../../content/administration/odoo_sh/first_module.rst:526
-msgid "In your computer terminal:"
-msgstr "अपने कंप्यूटर टर्मिनल में"
+#: ../../content/administration/odoo_sh/create_module.rst:410
+msgid ""
+"Stage the :file:`requirements.txt` file by running `git add "
+"requirements.txt`."
+msgstr ""
+"`git add requirements.txt` चलाकर :file:`requirements.txt` फ़ाइल को स्टेज करें।"
 
 #: ../../content/administration/odoo_sh/getting_started.rst:5
 msgid "Getting started"
@@ -3672,10 +3592,10 @@ msgstr ""
 msgid ""
 "The purpose of manual backups is to create a specific snapshot of production "
 "or staging databases (not available for development). These remain available "
-"for seven days. However, there is a limit of five daily manual backups."
+"for three days. However, there is a limit of five daily manual backups."
 msgstr ""
 "मैन्युअल बैकअप का उद्देश्य प्रॉडक्शन या स्टेजिंग डेटाबेस का एक विशिष्ट स्नैपशॉट बनाना है "
-"(डेवलपमेंट के लिए उपलब्ध नहीं)। ये सात दिनों के लिए उपलब्ध रहते हैं। हालांकि, रोज़ाना पांच "
+"(डेवलपमेंट के लिए उपलब्ध नहीं है)। ये तीन दिनों तक उपलब्ध रहते हैं। हालांकि, प्रतिदिन पांच "
 "मैन्युअल बैकअप की सीमा है।"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:500
@@ -5002,47 +4922,10 @@ msgstr ""
 "पोर्ट **465** या **587** का इस्तेमाल करें।"
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:164
-msgid "Check scheduled actions"
-msgstr "शेड्यूल्ड एक्शन चेक करें"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:166
-msgid ""
-"Scheduled actions are **disabled by default** after importing your database. "
-"This prevents your newly imported database from performing potentially "
-"disruptive operations such as:"
-msgstr ""
-"आपका डेटाबेस इंपोर्ट करने के बाद शेड्यूल्ड एक्शन **डिफ़ॉल्ट रूप से अक्षम** होते हैं। यह आपके नए "
-"इंपोर्ट किए गए डेटाबेस को संभावित रूप से विघटनकारी ऑपरेशन करने से रोकता है जैसे:"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:169
-msgid "sending queued emails,"
-msgstr "कतारबद्ध ईमेल भेजना,"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:170
-msgid "triggering mass mailings, or"
-msgstr "मास मेलिंग ट्रिगर करना, या"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:171
-msgid "syncing with third-party services (e.g., calendars, cloud storage)."
-msgstr "थर्ड-पार्टी सर्विस के साथ सिंक करना (जैसे कैलेंडर, क्लाउड स्टोरेज)।"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:173
-msgid ""
-"If you intend to use this imported database in production, **re-enable** "
-"only the scheduled actions you need by enabling :ref:`developer mode "
-"<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
-"Automation: Scheduled Actions`."
-msgstr ""
-"अगर आप इस इंपोर्ट किए गए डेटाबेस को प्रॉडक्शन में इस्तेमाल करने का इरादा रखते हैं, तो "
-":ref:`डेवलपर मोड <developer-mode>` सक्षम करके और :menuselection:`Settings --> "
-"Technical --> Automation: Scheduled Actions` पर जाकर सिर्फ़ उन शेड्यूल्ड एक्शन को "
-"**पुनः सक्षम करें** जिनकी आपको ज़रूरत है।"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:178
 msgid "Register the subscription"
 msgstr "सब्सक्रिप्शन रजिस्टर करें"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:180
+#: ../../content/administration/odoo_sh/getting_started/create.rst:166
 msgid ""
 "After import, the database is considered a **duplicate** and will be "
 "unlinked from your enterprise subscription."
@@ -5050,25 +4933,25 @@ msgstr ""
 "इंपोर्ट के बाद, डेटाबेस को **डुप्लीकेट** माना जाता है और आपकी एंटरप्राइज़ सब्सक्रिप्शन से "
 "अनलिंक कर दिया जाएगा।"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:184
+#: ../../content/administration/odoo_sh/getting_started/create.rst:170
 msgid "You are allowed only one active database per subscription."
 msgstr "आपको प्रति सब्सक्रिप्शन सिर्फ़ एक सक्रिय डेटाबेस की अनुमति है।"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:186
+#: ../../content/administration/odoo_sh/getting_started/create.rst:172
 msgid ""
 "If you intend to make the imported database your production environment:"
 msgstr ""
 "अगर आप इंपोर्ट किए गए डेटाबेस को अपना प्रॉडक्शन एन्वायरमेंट बनाना चाहते हैं:"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:188
+#: ../../content/administration/odoo_sh/getting_started/create.rst:174
 msgid "Unlink your previous database from the subscription."
 msgstr "अपने पिछले डेटाबेस को सब्सक्रिप्शन से अनलिंक करें।"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:189
+#: ../../content/administration/odoo_sh/getting_started/create.rst:175
 msgid "Register the new one."
 msgstr "नया डेटाबेस रजिस्टर करें।"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:191
+#: ../../content/administration/odoo_sh/getting_started/create.rst:177
 msgid ""
 "Refer to the :doc:`database registration documentation <../../on_premise>` "
 "for step-by-step instructions."
@@ -5414,15 +5297,15 @@ msgstr "परियोजना का नाम"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:12
 msgid ""
-"The name of your project defines the address used to access your production "
-"database. The addresses of your staging and development builds are "
-"automatically derived from this name. If you change the project name, only "
-"future builds will use the new name."
+"The project name defines your production database address, as well as the "
+"derived URLs for staging and development. Upon saving, the new name is "
+"applied directly to the production branch. However, for staging and "
+"development URLs, the change will only reflect after a rebuild."
 msgstr ""
-"आपके प्रोजेक्ट का नाम उस पते को परिभाषित करता है जिसका इस्तेमाल आपके प्रॉडक्शन डेटाबेस तक "
-"पहुँचने के लिए किया जाता है। आपकी स्टेजिंग और डेवलपमेंट बिल्ड्स के पते इस नाम से ऑटोमैटिकली "
-"निकाले जाते हैं। अगर आप प्रोजेक्ट का नाम बदलते हैं, तो केवल भविष्य की बिल्ड्स नए नाम का "
-"इस्तेमाल करेंगी।"
+"प्रोजेक्ट नाम आपके प्रॉडक्शन डेटाबेस पते को परिभाषित करता है, साथ ही स्टेजिंग और डेवलपमेंट के "
+"लिए व्युत्पन्न URL को भी। सेव करने पर, नया नाम सीधे प्रॉडक्शन ब्रांच पर लागू होता है। "
+"हालांकि, स्टेजिंग और डेवलपमेंट URL के लिए, परिवर्तन केवल रीबिल्ड के बाद ही प्रतिबिंबित होगा"
+"।"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:None
 msgid "The project name setting"
@@ -5572,15 +5455,15 @@ msgstr "कनेक्ट करें + / इस रूप में कने
 #: ../../content/administration/standard_extended_support.rst:36
 #: ../../content/administration/standard_extended_support.rst:42
 #: ../../content/administration/standard_extended_support.rst:48
-#: ../../content/administration/standard_extended_support.rst:54
-#: ../../content/administration/standard_extended_support.rst:55
-#: ../../content/administration/standard_extended_support.rst:56
-#: ../../content/administration/standard_extended_support.rst:78
-#: ../../content/administration/standard_extended_support.rst:79
-#: ../../content/administration/standard_extended_support.rst:80
+#: ../../content/administration/standard_extended_support.rst:60
+#: ../../content/administration/standard_extended_support.rst:61
+#: ../../content/administration/standard_extended_support.rst:62
 #: ../../content/administration/standard_extended_support.rst:84
 #: ../../content/administration/standard_extended_support.rst:85
 #: ../../content/administration/standard_extended_support.rst:86
+#: ../../content/administration/standard_extended_support.rst:90
+#: ../../content/administration/standard_extended_support.rst:91
+#: ../../content/administration/standard_extended_support.rst:92
 msgid "|green|"
 msgstr "हरा"
 
@@ -5655,14 +5538,15 @@ msgstr "स्टेटस"
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:187
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:191
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:192
-#: ../../content/administration/standard_extended_support.rst:60
+#: ../../content/administration/standard_extended_support.rst:54
 #: ../../content/administration/standard_extended_support.rst:66
 #: ../../content/administration/standard_extended_support.rst:72
-#: ../../content/administration/standard_extended_support.rst:90
+#: ../../content/administration/standard_extended_support.rst:78
 #: ../../content/administration/standard_extended_support.rst:96
 #: ../../content/administration/standard_extended_support.rst:102
 #: ../../content/administration/standard_extended_support.rst:108
-#: ../../content/administration/standard_extended_support.rst:109
+#: ../../content/administration/standard_extended_support.rst:114
+#: ../../content/administration/standard_extended_support.rst:115
 msgid "|red|"
 msgstr "|red|"
 
@@ -5676,7 +5560,7 @@ msgid ":ref:`Backups <odoo-sh/branches/tabs/backups>`"
 msgstr ":ref:`बैकअप <odoo-sh/branches/tabs/backups>`"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:200
-#: ../../content/administration/standard_extended_support.rst:114
+#: ../../content/administration/standard_extended_support.rst:120
 msgid "Legend"
 msgstr "लीजेंड"
 
@@ -9446,8 +9330,8 @@ msgid "End of standard support"
 msgstr "स्टैंडर्ड समर्थन का अंत"
 
 #: ../../content/administration/standard_extended_support.rst:35
-msgid "Odoo SaaS 19.3"
-msgstr "Odoo SaaS 19.3"
+msgid "Odoo SaaS 19.4"
+msgstr "Odoo SaaS 19.4"
 
 #: ../../content/administration/standard_extended_support.rst:37
 #: ../../content/administration/standard_extended_support.rst:38
@@ -9455,154 +9339,164 @@ msgstr "Odoo SaaS 19.3"
 #: ../../content/administration/standard_extended_support.rst:44
 #: ../../content/administration/standard_extended_support.rst:49
 #: ../../content/administration/standard_extended_support.rst:50
-#: ../../content/administration/standard_extended_support.rst:61
-#: ../../content/administration/standard_extended_support.rst:62
+#: ../../content/administration/standard_extended_support.rst:55
+#: ../../content/administration/standard_extended_support.rst:56
 #: ../../content/administration/standard_extended_support.rst:67
 #: ../../content/administration/standard_extended_support.rst:68
 #: ../../content/administration/standard_extended_support.rst:73
 #: ../../content/administration/standard_extended_support.rst:74
+#: ../../content/administration/standard_extended_support.rst:79
+#: ../../content/administration/standard_extended_support.rst:80
 msgid "N/A"
 msgstr "उपलब्ध नहीं"
 
 #: ../../content/administration/standard_extended_support.rst:39
+msgid "July 2026"
+msgstr "जुलाई 2026"
+
+#: ../../content/administration/standard_extended_support.rst:41
+msgid "Odoo SaaS 19.3"
+msgstr "Odoo SaaS 19.3"
+
+#: ../../content/administration/standard_extended_support.rst:45
 msgid "May 2026"
 msgstr "मई 2026"
 
-#: ../../content/administration/standard_extended_support.rst:41
+#: ../../content/administration/standard_extended_support.rst:47
 msgid "Odoo SaaS 19.2"
 msgstr "Odoo SaaS 19.2"
 
-#: ../../content/administration/standard_extended_support.rst:45
+#: ../../content/administration/standard_extended_support.rst:51
 msgid "March 2026"
 msgstr "मार्च 2026"
 
-#: ../../content/administration/standard_extended_support.rst:47
+#: ../../content/administration/standard_extended_support.rst:53
 msgid "Odoo SaaS 19.1"
 msgstr "Odoo SaaS 19.1"
 
-#: ../../content/administration/standard_extended_support.rst:51
+#: ../../content/administration/standard_extended_support.rst:57
 msgid "January 2026"
 msgstr "जनवरी 2026"
 
-#: ../../content/administration/standard_extended_support.rst:53
+#: ../../content/administration/standard_extended_support.rst:59
 msgid "**Odoo 19.0**"
 msgstr "**Odoo 19.0**"
 
-#: ../../content/administration/standard_extended_support.rst:57
-#: ../../content/administration/standard_extended_support.rst:94
+#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:100
 msgid "September 2025"
 msgstr "सितंबर 2025"
 
-#: ../../content/administration/standard_extended_support.rst:58
+#: ../../content/administration/standard_extended_support.rst:64
 msgid "September 2028 (planned)"
 msgstr "सितंबर 2028 (नियोजित)"
 
-#: ../../content/administration/standard_extended_support.rst:59
+#: ../../content/administration/standard_extended_support.rst:65
 msgid "Odoo SaaS 18.4"
 msgstr "Odoo SaaS 18.4"
 
-#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:69
 msgid "July 2025"
 msgstr "जुलाई 2025"
 
-#: ../../content/administration/standard_extended_support.rst:65
+#: ../../content/administration/standard_extended_support.rst:71
 msgid "Odoo SaaS 18.3"
 msgstr "Odoo SaaS 18.3"
 
-#: ../../content/administration/standard_extended_support.rst:69
+#: ../../content/administration/standard_extended_support.rst:75
 msgid "May 2025"
 msgstr "मई 2025"
 
-#: ../../content/administration/standard_extended_support.rst:71
+#: ../../content/administration/standard_extended_support.rst:77
 msgid "Odoo SaaS 18.2"
 msgstr "Odoo SaaS 18.2"
 
-#: ../../content/administration/standard_extended_support.rst:75
+#: ../../content/administration/standard_extended_support.rst:81
 msgid "March 2025"
 msgstr "मार्च 2025"
 
-#: ../../content/administration/standard_extended_support.rst:77
+#: ../../content/administration/standard_extended_support.rst:83
 msgid "**Odoo 18.0**"
 msgstr "**Odoo 18.0**"
 
-#: ../../content/administration/standard_extended_support.rst:81
-#: ../../content/administration/standard_extended_support.rst:100
+#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:106
 msgid "October 2024"
 msgstr "अक्टूबर 2024"
 
-#: ../../content/administration/standard_extended_support.rst:82
+#: ../../content/administration/standard_extended_support.rst:88
 msgid "September 2027 (planned)"
 msgstr "सितंबर 2027 (नियोजित)"
 
-#: ../../content/administration/standard_extended_support.rst:83
+#: ../../content/administration/standard_extended_support.rst:89
 msgid "**Odoo 17.0**"
 msgstr "**Odoo 17.0**"
 
-#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:93
 msgid "November 2023"
 msgstr "नवंबर 2023"
 
-#: ../../content/administration/standard_extended_support.rst:88
+#: ../../content/administration/standard_extended_support.rst:94
 msgid "September 2026 (planned)"
 msgstr "सितंबर 2026 (नियोजित)"
 
-#: ../../content/administration/standard_extended_support.rst:89
+#: ../../content/administration/standard_extended_support.rst:95
 msgid "**Odoo 16.0**"
 msgstr "**Odoo 16.0**"
 
-#: ../../content/administration/standard_extended_support.rst:91
-#: ../../content/administration/standard_extended_support.rst:92
 #: ../../content/administration/standard_extended_support.rst:97
 #: ../../content/administration/standard_extended_support.rst:98
 #: ../../content/administration/standard_extended_support.rst:103
 #: ../../content/administration/standard_extended_support.rst:104
+#: ../../content/administration/standard_extended_support.rst:109
 #: ../../content/administration/standard_extended_support.rst:110
+#: ../../content/administration/standard_extended_support.rst:116
 msgid "|orange|"
 msgstr "|orange|"
 
-#: ../../content/administration/standard_extended_support.rst:93
+#: ../../content/administration/standard_extended_support.rst:99
 msgid "October 2022"
 msgstr "अक्टूबर 2022"
 
-#: ../../content/administration/standard_extended_support.rst:95
+#: ../../content/administration/standard_extended_support.rst:101
 msgid "**Odoo 15.0**"
 msgstr "**Odoo 15.0**"
 
-#: ../../content/administration/standard_extended_support.rst:99
+#: ../../content/administration/standard_extended_support.rst:105
 msgid "October 2021"
 msgstr "अक्टूबर 2021"
 
-#: ../../content/administration/standard_extended_support.rst:101
+#: ../../content/administration/standard_extended_support.rst:107
 msgid "**Odoo 14.0**"
 msgstr "**Odoo 14.0**"
 
-#: ../../content/administration/standard_extended_support.rst:105
 #: ../../content/administration/standard_extended_support.rst:111
+#: ../../content/administration/standard_extended_support.rst:117
 msgid "Before 2021"
 msgstr "2021 से पहले"
 
-#: ../../content/administration/standard_extended_support.rst:106
 #: ../../content/administration/standard_extended_support.rst:112
+#: ../../content/administration/standard_extended_support.rst:118
 msgid "Before 2024"
 msgstr "2024 से पहले"
 
-#: ../../content/administration/standard_extended_support.rst:107
+#: ../../content/administration/standard_extended_support.rst:113
 msgid "Older versions"
 msgstr "पुराने वर्शन"
 
-#: ../../content/administration/standard_extended_support.rst:116
+#: ../../content/administration/standard_extended_support.rst:122
 msgid "|green| : Standard support"
 msgstr "|green| : स्टैंडर्ड सपोर्ट"
 
-#: ../../content/administration/standard_extended_support.rst:118
+#: ../../content/administration/standard_extended_support.rst:124
 msgid "|orange| : Extended support (mandatory extra fee)"
 msgstr "|orange| : एक्सटेंडेड सपोर्ट (अनिवार्य अतिरिक्त शुल्क)"
 
-#: ../../content/administration/standard_extended_support.rst:120
+#: ../../content/administration/standard_extended_support.rst:126
 msgid "|red| : Not supported"
 msgstr "|red| : सपोर्ट नहीं किया गया"
 
-#: ../../content/administration/standard_extended_support.rst:122
+#: ../../content/administration/standard_extended_support.rst:128
 msgid "N/A : Never released for this platform"
 msgstr "N/A : इस प्लेटफ़ॉर्म के लिए कभी रिलीज़ नहीं किया गया"
 
@@ -10649,6 +10543,646 @@ msgstr ":doc:`Odoo.sh दस्तावेज़ <odoo_sh>`"
 #: ../../content/administration/upgrade.rst:432
 msgid ":doc:`Supported Odoo versions <standard_extended_support>`"
 msgstr ":doc:`समर्थित Odoo संस्करण <standard_extended_support>`"
+
+#~ msgid ""
+#~ "The purpose of manual backups is to create a specific snapshot of "
+#~ "production or staging databases (not available for development). These "
+#~ "remain available for seven days. However, there is a limit of five daily "
+#~ "manual backups."
+#~ msgstr ""
+#~ "मैन्युअल बैकअप का उद्देश्य प्रॉडक्शन या स्टेजिंग डेटाबेस का एक विशिष्ट स्नैपशॉट बनाना है "
+#~ "(डेवलपमेंट के लिए उपलब्ध नहीं)। ये सात दिनों के लिए उपलब्ध रहते हैं। हालांकि, रोज़ाना "
+#~ "पांच मैन्युअल बैकअप की सीमा है।"
+
+#~ msgid "Check scheduled actions"
+#~ msgstr "शेड्यूल्ड एक्शन चेक करें"
+
+#~ msgid ""
+#~ "Scheduled actions are **disabled by default** after importing your "
+#~ "database. This prevents your newly imported database from performing "
+#~ "potentially disruptive operations such as:"
+#~ msgstr ""
+#~ "आपका डेटाबेस इंपोर्ट करने के बाद शेड्यूल्ड एक्शन **डिफ़ॉल्ट रूप से अक्षम** होते हैं। यह आपके "
+#~ "नए इंपोर्ट किए गए डेटाबेस को संभावित रूप से विघटनकारी ऑपरेशन करने से रोकता है जैसे:"
+
+#~ msgid "sending queued emails,"
+#~ msgstr "कतारबद्ध ईमेल भेजना,"
+
+#~ msgid "triggering mass mailings, or"
+#~ msgstr "मास मेलिंग ट्रिगर करना, या"
+
+#~ msgid "syncing with third-party services (e.g., calendars, cloud storage)."
+#~ msgstr "थर्ड-पार्टी सर्विस के साथ सिंक करना (जैसे कैलेंडर, क्लाउड स्टोरेज)।"
+
+#~ msgid ""
+#~ "If you intend to use this imported database in production, **re-enable** "
+#~ "only the scheduled actions you need by enabling :ref:`developer mode "
+#~ "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
+#~ "Automation: Scheduled Actions`."
+#~ msgstr ""
+#~ "अगर आप इस इंपोर्ट किए गए डेटाबेस को प्रॉडक्शन में इस्तेमाल करने का इरादा रखते हैं, "
+#~ "तो :ref:`डेवलपर मोड <developer-mode>` सक्षम करके और :menuselection:`Settings "
+#~ "--> Technical --> Automation: Scheduled Actions` पर जाकर सिर्फ़ उन शेड्यूल्ड "
+#~ "एक्शन को **पुनः सक्षम करें** जिनकी आपको ज़रूरत है।"
+
+#~ msgid ""
+#~ "the **URL** you want to use for the database (e.g., `company.odoo.com`), "
+#~ "and"
+#~ msgstr ""
+#~ "आपके द्वारा डेटाबेस के लिए उपयोग करना चाहते हैं URL (जैसे, company.odoo.com), और"
+
+#~ msgid ""
+#~ "the **dump** as an attachment or as a link to the file (required for 60 "
+#~ "MB+ files)."
+#~ msgstr ""
+#~ "डंप को एक अटैचमेंट के रूप में या फाइल के लिंक के रूप में (60 MB+ फाइल्स के लिए आवश्यक)।"
+
+#~ msgid "Your first module"
+#~ msgstr "आपका पहला मॉड्यूल"
+
+#~ msgid ""
+#~ "This chapter helps you to create your first Odoo module and deploy it in "
+#~ "your Odoo.sh project."
+#~ msgstr ""
+#~ "यह चैप्टर आपको अपना पहला Odoo मॉड्यूल बनाने और इसे अपने Odoo.sh प्रोजेक्ट में डिप्लॉय "
+#~ "करने में मदद करता है।"
+
+#~ msgid ""
+#~ "This tutorial requires you created a project on Odoo.sh, and you know "
+#~ "your Github repository's URL."
+#~ msgstr ""
+#~ "इस ट्यूटोरियल के लिए आवश्यक है कि आपने Odoo.sh पर एक प्रोजेक्ट बनाया हो, और आप "
+#~ "अपनी Github रिपॉज़िटरी का यूआरएल जानते हों।"
+
+#~ msgid "Basic use of Git and Github is explained."
+#~ msgstr "Git और Github का बेसिक इस्तेमाल समझाया गया है।"
+
+#~ msgid "The below assumptions are made:"
+#~ msgstr "नीचे दी गई धारणाएँ बनाई गई हैं:"
+
+#~ msgid ""
+#~ "*~/src* is the directory where are located the Git repositories related "
+#~ "to your Odoo projects,"
+#~ msgstr ""
+#~ "*~/src* वह डायरेक्टरी है जहाँ आपके Odoo प्रोजेक्ट से संबंधित Git रिपॉज़िटरी स्थित हैं,"
+
+#~ msgid "*odoo* is the Github user,"
+#~ msgstr "*odoo* Github यूज़र है,"
+
+#~ msgid "*odoo-addons* is the Github repository,"
+#~ msgstr "*odoo-addons* Github रिपॉज़िटरी है,"
+
+#~ msgid "*feature-1* is the name of a development branch,"
+#~ msgstr "*feature-1* डेवलपमेंट ब्रांच का नाम है,"
+
+#~ msgid "*master* is the name of the production branch,"
+#~ msgstr "*master* प्रॉडक्शन ब्रांच का नाम है,"
+
+#~ msgid "*my_module* is the name of the module."
+#~ msgstr "*my_module* मॉड्यूल का नाम है।"
+
+#~ msgid "Replace these by the values of your choice."
+#~ msgstr "इन्हें अपनी पसंद की वैल्यू से बदलें।"
+
+#~ msgid "From Odoo.sh"
+#~ msgstr "Odoo.sh से"
+
+#~ msgid "In the branches view:"
+#~ msgstr "ब्रांच व्यू में:"
+
+#~ msgid "hit the :code:`+` button next to the development stage,"
+#~ msgstr "डेवलपमेंट स्टेज के बगल में :code:`+` बटन दबाएं,"
+
+#~ msgid "choose the branch *master* in the *Fork* selection,"
+#~ msgstr "*Fork* सिलेक्शन में ब्रांच *master* चुनें,"
+
+#~ msgid "type *feature-1* in the *To* input."
+#~ msgstr "*To* इनपुट में *feature-1* टाइप करें।"
+
+#~ msgid "|pic1|  |pic2|"
+#~ msgstr "|pic1|  |pic2|"
+
+#~ msgid "pic1"
+#~ msgstr "pic1"
+
+#~ msgid "pic2"
+#~ msgstr "pic2"
+
+#~ msgid ""
+#~ "Once the build created, you can access the editor and browse to the "
+#~ "folder *~/src/user* to access to the code of your development branch."
+#~ msgstr ""
+#~ "बिल्ड बनने के बाद, आप एडिटर को ऐक्सेस कर सकते हैं और अपनी डेवलपमेंट ब्रांच के कोड को "
+#~ "ऐक्सेस करने के लिए फ़ोल्डर *~/src/user* में जा सकते हैं।"
+
+#~ msgid "From your computer"
+#~ msgstr "अपने कंप्यूटर से"
+
+#~ msgid "Clone your Github repository on your computer:"
+#~ msgstr "अपनी Github रिपॉज़िटरी को अपने कंप्यूटर पर क्लोन करें:"
+
+#~ msgid "Create a new branch:"
+#~ msgstr "नया ब्रांच बनाएं:"
+
+#~ msgid "Scaffolding the module"
+#~ msgstr "मॉड्यूल को स्कैफोल्डिंग करना"
+
+#~ msgid ""
+#~ "While not necessary, scaffolding avoids the tedium of setting the basic "
+#~ "Odoo module structure. You can scaffold a new module using the executable "
+#~ "*odoo-bin*."
+#~ msgstr ""
+#~ "हालांकि जरूरी नहीं है, स्कैफोल्डिंग बुनियादी Odoo मॉड्यूल स्ट्रक्चर सेट करने की उबाऊ "
+#~ "प्रक्रिया से बचाती है। आप एक्जीक्यूटेबल *odoo-bin* का इस्तेमाल करके नया मॉड्यूल स्कैफोल्ड "
+#~ "कर सकते हैं।"
+
+#~ msgid "From the Odoo.sh editor, in a terminal:"
+#~ msgstr "Odoo.sh एडिटर से, टर्मिनल में:"
+
+#~ msgid "Or, from your computer, if you have an installation of Odoo:"
+#~ msgstr "या, अपने कंप्यूटर से, अगर आपके पास Odoo का इंस्टॉलेशन है:"
+
+#~ msgid ""
+#~ "If you do not want to bother installing Odoo on your computer, you can "
+#~ "also :download:`download this module structure template <first_module/"
+#~ "my_module.zip>` in which you replace every occurrences of *my_module* to "
+#~ "the name of your choice."
+#~ msgstr ""
+#~ "अगर आप अपने कंप्यूटर पर Odoo इंस्टॉल करने की परेशानी नहीं लेना चाहते, तो "
+#~ "आप :download:`इस मॉड्यूल स्ट्रक्चर टेम्प्लेट को डाउनलोड कर सकते हैं <first_module/"
+#~ "my_module.zip>` जिसमें आप *my_module* की हर जगह को अपनी पसंद के नाम से बदल दें।"
+
+#~ msgid "The below structure will be generated:"
+#~ msgstr "नीचे दी गई स्ट्रक्चर जनरेट होगी:"
+
+#~ msgid ""
+#~ "Do not use special characters other than the underscore ( _ ) for your "
+#~ "module name, not even an hyphen ( - ). This name is used for the Python "
+#~ "classes of your module, and having classes name with special characters "
+#~ "other than the underscore is not valid in Python."
+#~ msgstr ""
+#~ "अपने मॉड्यूल नाम के लिए अंडरस्कोर ( _ ) के अलावा किसी भी विशेष कैरेक्टर का इस्तेमाल न "
+#~ "करें, हाइफ़न ( - ) भी नहीं। इस नाम का इस्तेमाल आपके मॉड्यूल की Python क्लासेज़ के लिए "
+#~ "किया जाता है, और अंडरस्कोर के अलावा विशेष कैरेक्टर वाली क्लासेज़ का नाम Python में "
+#~ "मान्य नहीं है।"
+
+#~ msgid "Uncomment the content of the files:"
+#~ msgstr "फ़ाइलों के कॉन्टेंट को अनकमेंट करें:"
+
+#~ msgid "*models/models.py*, an example of model with its fields,"
+#~ msgstr "*models/models.py*, अपने फ़ील्ड्स के साथ एक मॉडल का उदाहरण,"
+
+#~ msgid ""
+#~ "*views/views.xml*, a tree and a form view, with the menus opening them,"
+#~ msgstr "*views/views.xml*, एक ट्री और एक फ़ॉर्म व्यू, जिन्हें खोलने वाले मेनू के साथ,"
+
+#~ msgid "*demo/demo.xml*, demo records for the above example model,"
+#~ msgstr "*demo/demo.xml*, उपरोक्त उदाहरण मॉडल के लिए डेमो रिकॉर्ड,"
+
+#~ msgid ""
+#~ "*controllers/controllers.py*, an example of controller implementing some "
+#~ "routes,"
+#~ msgstr ""
+#~ "*controllers/controllers.py*, कुछ रूट्स को इम्प्लीमेंट करने वाले कंट्रोलर का उदाहरण,"
+
+#~ msgid ""
+#~ "*views/templates.xml*, two example qweb views used by the above "
+#~ "controller routes,"
+#~ msgstr ""
+#~ "*views/templates.xml*, उपरोक्त कंट्रोलर रूट्स द्वारा इस्तेमाल किए जाने वाले दो "
+#~ "उदाहरण qweb व्यू,"
+
+#~ msgid ""
+#~ "*__manifest__.py*, the manifest of your module, including for instance "
+#~ "its title, description and data files to load. You just need to uncomment "
+#~ "the access control list data file:"
+#~ msgstr ""
+#~ "*__manifest__.py*, आपके मॉड्यूल का मेनिफेस्ट, जिसमें उदाहरण के लिए इसका टाइटल, "
+#~ "विवरण और लोड करने के लिए डेटा फ़ाइलें शामिल हैं। आपको बस ऐक्सेस कंट्रोल लिस्ट डेटा फ़ाइल "
+#~ "को अनकमेंट करना होगा:"
+
+#~ msgid ""
+#~ "If you want to create your module structure manually, you can follow "
+#~ "the :doc:`/developer/tutorials/server_framework_101` tutorial to "
+#~ "understand the structure of a module and the content of each file."
+#~ msgstr ""
+#~ "अगर आप अपनी मॉड्यूल स्ट्रक्चर मैन्युअली बनाना चाहते हैं, तो आप मॉड्यूल की स्ट्रक्चर और हर "
+#~ "फ़ाइल के कॉन्टेंट को समझने के लिए :doc:`/developer/tutorials/"
+#~ "server_framework_101` ट्यूटोरियल फ़ॉलो कर सकते हैं।"
+
+#~ msgid "Push the development branch"
+#~ msgstr "डेवलपमेंट ब्रांच को पुश करें"
+
+#~ msgid "Stage the changes to be committed"
+#~ msgstr "कमिट की जाने वाली बदलावों को स्टेज करें"
+
+#~ msgid "Commit your changes"
+#~ msgstr "अपनी बदलावों को कमिट करें"
+
+#~ msgid "Push your changes to your remote repository"
+#~ msgstr "अपनी बदलावों को अपने रिमोट रिपॉजिटरी में पुश करें"
+
+#~ msgid "From an Odoo.sh editor terminal:"
+#~ msgstr "Odoo.sh एडिटर टर्मिनल से:"
+
+#~ msgid ""
+#~ "The above command is explained in the section :ref:`Commit and push "
+#~ "changes <odoo-sh/editor/commit>` of the :doc:`Online editor page "
+#~ "<getting_started/online_editor>`. It includes the explanation regarding "
+#~ "the fact you will be prompted to type your username and password, and "
+#~ "what to do if you use the two-factor authentication."
+#~ msgstr ""
+#~ "उपरोक्त कमांड को :ref:`Commit and push changes <odoo-sh/editor/commit>` "
+#~ "सेक्शन में :doc:`Online editor page <getting_started/online_editor>` में समझाया "
+#~ "गया है। इसमें इस बात की व्याख्या शामिल है कि आपको अपना यूज़रनेम और पासवर्ड टाइप करने "
+#~ "के लिए प्रॉम्प्ट किया जाएगा, और अगर आप टू-फ़ैक्टर ऑथेंटिकेशन इस्तेमाल करते हैं तो क्या करें।"
+
+#~ msgid "Or, from your computer terminal:"
+#~ msgstr "या, अपने कंप्यूटर टर्मिनल से:"
+
+#~ msgid ""
+#~ "You need to specify *-u origin feature-1* for the first push only. From "
+#~ "that point, to push your future changes from your computer, you can "
+#~ "simply use"
+#~ msgstr ""
+#~ "आपको पहली पुश के लिए सिर्फ़ *-u origin feature-1* स्पेसिफ़ाई करना होगा। उस पॉइंट "
+#~ "से, अपने कंप्यूटर से अपने भविष्य के बदलाव पुश करने के लिए, आप बस इस्तेमाल कर सकते हैं"
+
+#~ msgid "Test your module"
+#~ msgstr "अपने मॉड्यूल को टेस्ट करें"
+
+#~ msgid ""
+#~ "Your branch should appear in your development branches in your project."
+#~ msgstr "आपकी ब्रांच आपके प्रोजेक्ट में आपकी डेवलपमेंट ब्रांच में दिखाई देनी चाहिए।"
+
+#~ msgid ""
+#~ "In the branches view of your project, you can click on your branch name "
+#~ "in the left navigation panel to access its history."
+#~ msgstr ""
+#~ "अपने प्रोजेक्ट के ब्रांच व्यू में, आप बाएं नेविगेशन पैनल में अपनी ब्रांच नाम पर क्लिक करके "
+#~ "उसकी हिस्ट्री को ऐक्सेस कर सकते हैं।"
+
+#~ msgid ""
+#~ "You can see here the changes you just pushed, including the comment you "
+#~ "set. Once the database ready, you can access it by clicking the *Connect* "
+#~ "button."
+#~ msgstr ""
+#~ "आप यहां अभी पुश किए गए बदलाव देख सकते हैं, जिसमें आपके द्वारा सेट किया गया कमेंट भी "
+#~ "शामिल है। डेटाबेस तैयार होने के बाद, आप *Connect* बटन पर क्लिक करके इसे ऐक्सेस कर "
+#~ "सकते हैं।"
+
+#~ msgid ""
+#~ "If your Odoo.sh project is configured to install your module "
+#~ "automatically, you will directly see it amongst the database apps. "
+#~ "Otherwise, it will be available in the apps to install."
+#~ msgstr ""
+#~ "अगर आपका Odoo.sh प्रोजेक्ट आपके मॉड्यूल को ऑटोमैटिकली इंस्टॉल करने के लिए कॉन्फ़िगर "
+#~ "किया गया है, तो आप इसे सीधे डेटाबेस ऐप्लिकेशन में देखेंगे। अन्यथा, यह इंस्टॉल करने वाले "
+#~ "ऐप्लिकेशन में उपलब्ध होगा।"
+
+#~ msgid ""
+#~ "You can then play around with your module, create new records and test "
+#~ "your features and buttons."
+#~ msgstr ""
+#~ "फिर आप अपने मॉड्यूल के साथ प्रयोग कर सकते हैं, नए रिकॉर्ड बना सकते हैं और अपने फ़ीचर और "
+#~ "बटन टेस्ट कर सकते हैं।"
+
+#~ msgid ""
+#~ "You need to have a production database for this step. You can create it "
+#~ "if you do not have it yet."
+#~ msgstr ""
+#~ "इस स्टेप के लिए आपके पास प्रॉडक्शन डेटाबेस होना चाहिए। अगर आपके पास अभी तक यह नहीं "
+#~ "है तो आप इसे बना सकते हैं।"
+
+#~ msgid ""
+#~ "Once you tested your module in a development build with the demo data and "
+#~ "believe it is ready, you can test it with the production data using a "
+#~ "staging branch."
+#~ msgstr ""
+#~ "एक बार जब आप डेमो डेटा के साथ डेवलपमेंट बिल्ड में अपने मॉड्यूल को टेस्ट कर लेते हैं और मानते "
+#~ "हैं कि यह तैयार है, तो आप स्टेजिंग ब्रांच का इस्तेमाल करके प्रॉडक्शन डेटा के साथ इसे टेस्ट "
+#~ "कर सकते हैं।"
+
+#~ msgid "You can either:"
+#~ msgstr "आप या तो:"
+
+#~ msgid ""
+#~ "Make your development branch a staging branch, by drag and dropping it "
+#~ "onto the *staging* section title."
+#~ msgstr ""
+#~ "अपनी डेवलपमेंट ब्रांच को स्टेजिंग ब्रांच बनाएं, इसे *staging* सेक्शन टाइटल पर ड्रैग और "
+#~ "ड्रॉप करके।"
+
+#~ msgid ""
+#~ "Merge it in an existing staging branch, by drag and dropping it onto the "
+#~ "given staging branch."
+#~ msgstr ""
+#~ "इसे किसी मौजूदा स्टेजिंग ब्रांच में मर्ज करें, इसे दी गई स्टेजिंग ब्रांच पर ड्रैग और ड्रॉप करके।"
+
+#~ msgid ""
+#~ "You can also use the :code:`git merge` command to merge your branches."
+#~ msgstr ""
+#~ "आप अपनी ब्रांच को मर्ज करने के लिए :code:`git merge` कमांड का भी इस्तेमाल कर सकते "
+#~ "हैं।"
+
+#~ msgid ""
+#~ "This will create a new staging build, which will duplicate the production "
+#~ "database and make it run using a server updated with your latest changes "
+#~ "of your branch."
+#~ msgstr ""
+#~ "यह एक नई स्टेजिंग बिल्ड बनाएगा, जो प्रॉडक्शन डेटाबेस को डुप्लीकेट करेगा और आपकी ब्रांच "
+#~ "के नवीनतम बदलावों के साथ अपडेट किए गए सर्वर का इस्तेमाल करके इसे चलाएगा।"
+
+#~ msgid ""
+#~ "Once the database ready, you can access it using the *Connect* button."
+#~ msgstr ""
+#~ "डेटाबेस तैयार होने के बाद, आप *Connect* बटन का इस्तेमाल करके इसे ऐक्सेस कर सकते हैं।"
+
+#~ msgid "Install your module"
+#~ msgstr "अपना मॉड्यूल इंस्टॉल करें"
+
+#~ msgid ""
+#~ "Your module will not be installed automatically, you have to install it "
+#~ "from the apps menu. Indeed, the purpose of the staging build is to test "
+#~ "the behavior of your changes as it would be on your production, and on "
+#~ "your production you would not like your module to be installed "
+#~ "automatically, but on demand."
+#~ msgstr ""
+#~ "आपका मॉड्यूल ऑटोमैटिकली इंस्टॉल नहीं होगा, आपको इसे ऐप्लिकेशन मेन्यू से इंस्टॉल करना "
+#~ "होगा। वास्तव में, स्टेजिंग बिल्ड का उद्देश्य आपके बदलावों के व्यवहार को टेस्ट करना है जैसा "
+#~ "कि आपके प्रॉडक्शन पर होगा, और अपने प्रॉडक्शन पर आप नहीं चाहेंगे कि आपका मॉड्यूल "
+#~ "ऑटोमैटिकली इंस्टॉल हो, बल्कि डिमांड पर हो।"
+
+#~ msgid ""
+#~ "Your module may not appear directly in your apps to install either, you "
+#~ "need to update your apps list first:"
+#~ msgstr ""
+#~ "आपका मॉड्यूल इंस्टॉल करने के लिए आपके ऐप्लिकेशन में सीधे दिखाई नहीं दे सकता है, आपको पहले "
+#~ "अपनी ऐप्लिकेशन लिस्ट को अपडेट करना होगा:"
+
+#~ msgid "Activate the :ref:`developer mode <developer-mode>`"
+#~ msgstr ":ref:`डेवलपर मोड <developer-mode>` को एक्टिवेट करें"
+
+#~ msgid "in the apps menu, click the *Update Apps List* button,"
+#~ msgstr "ऐप्लिकेशन मेन्यू में, *अपडेट ऐप्स लिस्ट* बटन पर क्लिक करें,"
+
+#~ msgid "in the dialog that appears, click the *Update* button."
+#~ msgstr "डायलॉग में जो दिखाई देता है, *अपडेट करें* बटन पर क्लिक करें।"
+
+#~ msgid "Your module will then appear in the list of available apps."
+#~ msgstr "आपका मॉड्यूल फिर उपलब्ध ऐप्लिकेशन की लिस्ट में दिखाई देगा।"
+
+#~ msgid ""
+#~ "Once you tested your module in a staging branch with your production "
+#~ "data, and believe it is ready for production, you can merge your branch "
+#~ "in the production branch."
+#~ msgstr ""
+#~ "एक बार जब आप अपने प्रॉडक्शन डेटा के साथ स्टेजिंग ब्रांच में अपने मॉड्यूल का परीक्षण कर लें, "
+#~ "और मानते हैं कि यह प्रॉडक्शन के लिए तैयार है, तो आप अपनी ब्रांच को प्रॉडक्शन ब्रांच में "
+#~ "मर्ज कर सकते हैं।"
+
+#~ msgid "Drag and drop your staging branch on the production branch."
+#~ msgstr "अपनी स्टेजिंग ब्रांच को प्रॉडक्शन ब्रांच पर ड्रैग और ड्रॉप करें।"
+
+#~ msgid ""
+#~ "This will merge the latest changes of your staging branch in the "
+#~ "production branch, and update your production server with these latest "
+#~ "changes."
+#~ msgstr ""
+#~ "यह आपकी स्टेजिंग ब्रांच के नवीनतम बदलावों को प्रॉडक्शन ब्रांच में मर्ज कर देगा, और आपके "
+#~ "प्रॉडक्शन सर्वर को इन नवीनतम बदलावों के साथ अपडेट करेगा।"
+
+#~ msgid ""
+#~ "Your module will not be installed automatically, you have to install it "
+#~ "manually as explained in the :ref:`above section about installing your "
+#~ "module in staging databases <odoosh-gettingstarted-firstmodule-"
+#~ "productiondata-install>`."
+#~ msgstr ""
+#~ "आपका मॉड्यूल ऑटोमैटिकली इंस्टॉल नहीं होगा, आपको इसे मैन्युअली इंस्टॉल करना होगा जैसा "
+#~ "कि :ref:`स्टेजिंग डेटाबेस में आपके मॉड्यूल को इंस्टॉल करने के बारे में ऊपर दिए गए सेक्शन "
+#~ "<odoosh-gettingstarted-firstmodule-productiondata-install>` में बताया गया है।"
+
+#~ msgid ""
+#~ "This section explains how to add a change in your module by adding a new "
+#~ "field in a model and deploy it."
+#~ msgstr ""
+#~ "यह सेक्शन बताता है कि एक मॉडल में नया फ़ील्ड जोड़कर अपने मॉड्यूल में बदलाव कैसे जोड़ें और "
+#~ "इसे डिप्लॉय करें।"
+
+#~ msgid "From the Odoo.sh editor,"
+#~ msgstr "Odoo.sh एडिटर से,"
+
+#~ msgid "browse to your module folder *~/src/user/my_module*,"
+#~ msgstr "अपने मॉड्यूल फ़ोल्डर *~/src/user/my_module* को ब्राउज़ करें,"
+
+#~ msgid "then, open the file *models/models.py*."
+#~ msgstr "फिर, *models/models.py* फ़ाइल को खोलें।"
+
+#~ msgid "Or, from your computer,"
+#~ msgstr "या, अपने कंप्यूटर से,"
+
+#~ msgid ""
+#~ "use the file browser of your choice to browse to your module folder *~/"
+#~ "src/odoo-addons/my_module*,"
+#~ msgstr ""
+#~ "अपनी पसंद के फ़ाइल ब्राउज़र का इस्तेमाल करके अपने मॉड्यूल फ़ोल्डर *~/src/odoo-addons/"
+#~ "my_module* को ब्राउज़ करें,"
+
+#~ msgid ""
+#~ "then, open the file *models/models.py* using the editor of your choice, "
+#~ "such as *Atom*, *Sublime Text*, *PyCharm*, *vim*, ..."
+#~ msgstr ""
+#~ "फिर, अपनी पसंद के एडिटर का इस्तेमाल करके *models/models.py* फ़ाइल को खोलें, जैसे "
+#~ "*Atom*, *Sublime Text*, *PyCharm*, *vim*, ..।"
+
+#~ msgid "Then, after the description field"
+#~ msgstr "फिर, डिस्क्रिप्शन फ़ील्ड के बाद"
+
+#~ msgid "Add a datetime field"
+#~ msgstr "एक datetime फ़ील्ड जोड़ें"
+
+#~ msgid "Then, open the file *views/views.xml*."
+#~ msgstr "फिर, फ़ाइल *views/views.xml* खोलें।"
+
+#~ msgid "After"
+#~ msgstr "आफ़्टर"
+
+#~ msgid "Add"
+#~ msgstr "जोड़ना"
+
+#~ msgid ""
+#~ "These changes alter the database structure by adding a column in a table, "
+#~ "and modify a view stored in database."
+#~ msgstr ""
+#~ "इन परिवर्तनों से डेटाबेस संरचना बदल जाती है क्योंकि इसमें एक तालिका में एक कॉलम जोड़ा "
+#~ "जाता है और डेटाबेस में संग्रहीत एक व्यू को संशोधित किया जाता है।"
+
+#~ msgid ""
+#~ "In order to be applied in existing databases, such as your production "
+#~ "database, these changes requires the module to be updated."
+#~ msgstr ""
+#~ "मौजूदा डेटाबेस, जैसे कि आपका उत्पादन डेटाबेस, में लागू होने के लिए, इन परिवर्तनों के लिए "
+#~ "मॉड्यूल को अपडेट करना आवश्यक है।"
+
+#~ msgid ""
+#~ "If you would like the update to be performed automatically by the Odoo.sh "
+#~ "platform when you push your changes, increase your module version in its "
+#~ "manifest."
+#~ msgstr ""
+#~ "यदि आप चाहते हैं कि आपके परिवर्तन पुश करने पर Odoo.sh प्लेटफ़ॉर्म द्वारा अपडेट स्वचालित "
+#~ "रूप से किया जाए, तो अपने मॉड्यूल संस्करण को उसके मैनिफेस्ट में बढ़ा दें।"
+
+#~ msgid "Open the module manifest *__manifest__.py*."
+#~ msgstr "मॉड्यूल मैनिफेस्ट manifest.py खोलें।"
+
+#~ msgid "with"
+#~ msgstr "साथ"
+
+#~ msgid ""
+#~ "The platform will detect the change of version and trigger the update of "
+#~ "the module upon the new revision deployment."
+#~ msgstr ""
+#~ "प्लेटफ़ॉर्म संस्करण में बदलाव का पता लगाएगा और नई संशोधन परिनियोजन के समय मॉड्यूल के "
+#~ "अपडेट को ट्रिगर करेगा।"
+
+#~ msgid "Browse to your Git folder."
+#~ msgstr "अपने Git फ़ोल्डर पर जाएं।"
+
+#~ msgid "Then, from an Odoo.sh terminal:"
+#~ msgstr "फिर, एक Odoo.sh टर्मिनल से"
+
+#~ msgid "Then, stage your changes to be committed"
+#~ msgstr "फिर, अपनी परिवर्तनों को कमिट करने के लिए स्टेज करें।"
+
+#~ msgid "Push your changes:"
+#~ msgstr "अपने बदलावों को पुश करें"
+
+#~ msgid "From an Odoo.sh terminal:"
+#~ msgstr "एक Odoo.sh टर्मिनल से"
+
+#~ msgid ""
+#~ "The platform will then create a new build for the branch *feature-1*."
+#~ msgstr "फिर प्लेटफ़ॉर्म शाखा feature-1 के लिए एक नया बिल्ड बनाएगा।"
+
+#~ msgid ""
+#~ "Once you tested your changes, you can merge your changes in the "
+#~ "production branch, for instance by drag-and-dropping the branch on the "
+#~ "production branch in the Odoo.sh interface. As you increased the module "
+#~ "version in the manifest, the platform will update the module "
+#~ "automatically and your new field will be directly available. Otherwise "
+#~ "you can manually update the module within the apps list."
+#~ msgstr ""
+#~ "एक बार जब आप अपने परिवर्तनों का परीक्षण कर लें, तो आप अपने परिवर्तनों को प्रोडक्शन "
+#~ "ब्रांच में मर्ज कर सकते हैं, उदाहरण के लिए Odoo.sh इंटरफेस में ब्रांच को प्रोडक्शन ब्रांच पर "
+#~ "ड्रैग-एंड-ड्रॉप करके। चूंकि आपने मैनिफेस्ट में मॉड्यूल संस्करण बढ़ाया है, प्लेटफॉर्म स्वचालित रूप "
+#~ "से मॉड्यूल को अपडेट करेगा और आपका नया फ़ील्ड सीधे उपलब्ध हो जाएगा। अन्यथा, आप ऐप्स "
+#~ "सूची में मॉड्यूल को मैन्युअली अपडेट कर सकते हैं।"
+
+#~ msgid ""
+#~ "If you would like to use an external Python library which is not "
+#~ "installed by default, you can define a *requirements.txt* file listing "
+#~ "the external libraries your modules depends on."
+#~ msgstr ""
+#~ "यदि आप कोई बाहरी Python लाइब्रेरी उपयोग करना चाहते हैं जो डिफ़ॉल्ट रूप से स्थापित "
+#~ "नहीं है, तो आप एक requirements.txt फ़ाइल बना सकते हैं जिसमें उन बाहरी लाइब्रेरीज़ की "
+#~ "सूची हो जो आपके मॉड्यूल्स पर निर्भर हैं।"
+
+#~ msgid ""
+#~ "It is not possible to install or upgrade system packages on an Odoo.sh "
+#~ "database (e.g., apt packages). However, under specific conditions, "
+#~ "packages can be considered for installation. This also applies to "
+#~ "**Python modules** requiring system packages for their compilation, and "
+#~ "**third-party Odoo modules**."
+#~ msgstr ""
+#~ "यह ओडू.श डेटाबेस पर सिस्टम पैकेजों को इंस्टॉल या अपग्रेड करना संभव नहीं है (जैसे, एपीटी "
+#~ "पैकेज)। हालांकि, विशेष शर्तों के तहत, पैकेजों को इंस्टॉल करने पर विचार किया जा सकता है। "
+#~ "यह पाइथन मॉड्यूल्स पर भी लागू होता है जिन्हें उनके संकलन के लिए सिस्टम पैकेजों की "
+#~ "आवश्यकता होती है, और थर्ड-पार्टी ओडू मॉड्यूल्स भी।"
+
+#~ msgid "**PostgreSQL extensions** are not supported on Odoo.sh."
+#~ msgstr "PostgreSQL एक्सटेंशन Odoo.sh पर समर्थित नहीं हैं।"
+
+#~ msgid ""
+#~ "For more information, consult our `FAQ <https://www.odoo.sh/"
+#~ "faq#install_dependencies>`_."
+#~ msgstr ""
+#~ "अधिक जानकारी के लिए, हमारे FAQ <https://www.odoo.sh/"
+#~ "faq#install_dependencies>_ को देखें।"
+
+#~ msgid ""
+#~ "The platform will use this file to automatically install the Python "
+#~ "libraries your project needs."
+#~ msgstr ""
+#~ "प्लेटफ़ॉर्म इस फ़ाइल का उपयोग करके आपके प्रोजेक्ट को आवश्यक Python लाइब्रेरीज़ को "
+#~ "स्वचालित रूप से स्थापित करेगा।"
+
+#~ msgid ""
+#~ "The feature is explained in this section by using the `Unidecode library "
+#~ "<https://pypi.python.org/pypi/Unidecode>`_ in your module."
+#~ msgstr ""
+#~ "यह फीचर इस खंड में आपके मॉड्यूल में Unidecode लाइब्रेरी <https://pypi.python.org/"
+#~ "pypi/Unidecode>_ का उपयोग करके समझाया गया है।"
+
+#~ msgid ""
+#~ "Create a file *requirements.txt* in the root folder of your repository"
+#~ msgstr "अपने रिपॉजिटरी के रूट फोल्डर में requirements.txt फ़ाइल बनाएं।"
+
+#~ msgid ""
+#~ "From the Odoo.sh editor, create and open the file ~/src/user/"
+#~ "requirements.txt."
+#~ msgstr "ओडू.श एडिटर से, फ़ाइल ~/src/user/requirements.txt बनाएं और खोलें।"
+
+#~ msgid ""
+#~ "Or, from your computer, create and open the file ~/src/odoo-addons/"
+#~ "requirements.txt."
+#~ msgstr ""
+#~ "या, अपने कंप्यूटर से फ़ाइल ~/src/odoo-addons/requirements.txt बनाएं और खोलें।"
+
+#~ msgid ""
+#~ "Then use the library in your module, for instance to remove accents from "
+#~ "characters in the name field of your model."
+#~ msgstr ""
+#~ "इस लाइब्रेरी को अपने मॉड्यूल में उपयोग करें, उदाहरण के लिए अपने मॉडल के नाम फ़ील्ड में से "
+#~ "अक्षरों के उच्चारण को हटाने के लिए।"
+
+#~ msgid "Open the file *models/models.py*."
+#~ msgstr "फ़ाइल models/models.py खोलें।"
+
+#~ msgid "Before"
+#~ msgstr "पहले"
+
+#~ msgid ""
+#~ "Adding a Python dependency requires a module version increase for the "
+#~ "platform to install it."
+#~ msgstr ""
+#~ "प्लेटफ़ॉर्म पर किसी Python डिपेंडेंसी को जोड़ने के लिए मॉड्यूल संस्करण को बढ़ाना आवश्यक "
+#~ "होता है।"
+
+#~ msgid "Edit the module manifest *__manifest__.py*"
+#~ msgstr "मॉड्यूल मैनिफेस्ट __manifest__.py संपादित करें"
+
+#~ msgid "Stage and commit your changes:"
+#~ msgstr "अपने परिवर्तनों को स्टेज करें और कमिट करें"
+
+#~ msgid "Then, push your changes:"
+#~ msgstr "फिर, अपनी परिवर्तन को पुश करें"
+
+#~ msgid "In an Odoo.sh terminal:"
+#~ msgstr "एक Odoo.sh टर्मिनल में"
+
+#~ msgid "In your computer terminal:"
+#~ msgstr "अपने कंप्यूटर टर्मिनल में"
+
+#~ msgid ""
+#~ "The name of your project defines the address used to access your "
+#~ "production database. The addresses of your staging and development builds "
+#~ "are automatically derived from this name. If you change the project name, "
+#~ "only future builds will use the new name."
+#~ msgstr ""
+#~ "आपके प्रोजेक्ट का नाम उस पते को परिभाषित करता है जिसका इस्तेमाल आपके प्रॉडक्शन डेटाबेस "
+#~ "तक पहुँचने के लिए किया जाता है। आपकी स्टेजिंग और डेवलपमेंट बिल्ड्स के पते इस नाम से "
+#~ "ऑटोमैटिकली निकाले जाते हैं। अगर आप प्रोजेक्ट का नाम बदलते हैं, तो केवल भविष्य की बिल्ड्स "
+#~ "नए नाम का इस्तेमाल करेंगी।"
 
 #~ msgid "You can `upgrade <https://upgrade.odoo.com>`_ from any version."
 #~ msgstr "आप किसी भी वर्शन से `अपग्रेड <https://upgrade.odoo.com>`_ कर सकते हैं।"

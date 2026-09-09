@@ -75,6 +75,8 @@ Button` section, and configure the following:
    - The default :guilabel:`Add to cart` button does not offer those options, but its label can be
      changed.
 
+.. _ecommerce/checkout/cart-button-header:
+
 .. tip::
    In the website editor, it is also possible to show or hide the :icon:`fa-shopping-cart`
    (:guilabel:`cart`) icon in the page's header. To do so, click the header, go to the
@@ -281,8 +283,17 @@ Order confirmation
 
 The final step of the checkout process is the order confirmation page, which provides a
 summary of the customer's purchase details. A sales order is automatically created in the backend.
-Enable the :ref:`Automatic Invoice <ecommerce/handling/invoices>` setting to automatically send
-an invoice to the customer.
+
+To automatically send an order confirmation message, navigate to :menuselection:`Website -->
+Configuration --> Settings` and scroll down to the :guilabel:`eCommerce` section. Under
+:guilabel:`Order Confirmation`, select an :guilabel:`Email` :doc:`template
+</applications/general/companies/email_template>`, or, if the :doc:`WhatsApp app
+</applications/productivity/whatsapp>` is installed, a :guilabel:`WhatsApp` :ref:`template
+<productivity/whatsapp/templates>` from the dropdown list. To edit the selected template, click the
+:icon:`fa-arrow-right` (:guilabel:`Internal link`) arrow.
+
+To automatically send an invoice to the customer, enable the :ref:`Automatic Invoice
+<ecommerce/handling/invoices>` setting.
 
 .. seealso::
    :doc:`Order handling <order_handling>`

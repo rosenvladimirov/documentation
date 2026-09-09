@@ -39,11 +39,6 @@ planning, and compliance reporting.
 
       Create and manage virtual and in-person employee training.
 
-   .. card:: Contracts
-      :target: payroll/contracts
-
-      Manage and create employee contracts.
-
    .. card:: Certifications
       :target: employees/certifications
 
@@ -59,15 +54,20 @@ planning, and compliance reporting.
 
       Manage and track employee equipment.
 
+   .. card:: Skills inventory
+      :target: employees/skills_inventory
+
+      View all current employee's skills.
+
    .. card:: Offboarding
       :target: employees/offboarding
 
       Take care of employee records when collaboration ends.
 
-   .. card:: Employee retention report
-      :target: employees/retention_report
+   .. card:: Training attendances
+      :target: employees/training_attendances
 
-      Gain insight into a company's retention rate.
+      See what training each employee has completed.
 
 .. _employees/settings:
 
@@ -151,5 +151,6 @@ This field only appears if the **Salary Configurator** module is installed.
    employees/certifications
    employees/badges
    employees/equipment
+   employees/skills_inventory
    employees/offboarding
-   employees/retention_report
+   employees/training_attendances

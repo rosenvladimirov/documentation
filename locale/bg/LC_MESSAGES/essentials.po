@@ -1,21 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
+# Rosen Vladimirov <vladimirov.rosen@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 17:31+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: bg\n"
+"POT-Creation-Date: 2026-08-28 17:32+0000\n"
+"PO-Revision-Date: 2026-09-08 13:28+0000\n"
+"Last-Translator: Rosen Vladimirov <vladimirov.rosen@gmail.com>\n"
+"Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-19-doc/"
+"essentials/bg/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/applications/essentials.rst:3
 msgid "Odoo essentials"
@@ -49,8 +51,7 @@ msgstr ""
 #: ../../content/applications/essentials/activities.rst:15
 msgid ":icon:`fa-phone` :guilabel:`(phone)` icon: a phone call is scheduled."
 msgstr ""
-"Икона :icon:`fa-phone` :guilabel:`(телефон)`: планирано е телефонно "
-"обаждане."
+"Икона :icon:`fa-phone` :guilabel:`(телефон)`: планирано е телефонно обаждане."
 
 #: ../../content/applications/essentials/activities.rst:16
 msgid ""
@@ -80,8 +81,8 @@ msgid ""
 ":icon:`fa-pencil-square-o` :guilabel:`(request signature)` icon: a signature"
 " request is scheduled."
 msgstr ""
-"Икона :icon:`fa-pencil-square-o` :guilabel:`(заявка за подпис)`: планирана е"
-" заявка за подпис."
+"Икона :icon:`fa-pencil-square-o` :guilabel:`(заявка за подпис)`: планирана е "
+"заявка за подпис."
 
 #: ../../content/applications/essentials/activities.rst:23
 msgid "Schedule activities"
@@ -185,8 +186,8 @@ msgid ""
 "right of the top row."
 msgstr ""
 "Ако колоната :guilabel:`Дейности` е скрита, разкрийте я чрез иконата "
-":icon:`oi-settings-adjust` :guilabel:`(настройка на настройки)` в най-десния"
-" край на горния ред."
+":icon:`oi-settings-adjust` :guilabel:`(настройка на настройки)` в най-десния "
+"край на горния ред."
 
 #: ../../content/applications/essentials/activities.rst:72
 msgid ""
@@ -194,8 +195,8 @@ msgid ""
 "and click :guilabel:`+ Schedule an activity`. Proceed to :ref:`fill out the "
 "Schedule Activity form <activities/form>` that appears."
 msgstr ""
-"След това кликнете върху |clock| за записа, към който се добавя дейността, и"
-" кликнете върху :guilabel:`+ Планиране на дейност`. Продължете с "
+"След това кликнете върху |clock| за записа, към който се добавя дейността, и "
+"кликнете върху :guilabel:`+ Планиране на дейност`. Продължете с "
 ":ref:`попълване на формуляра за планиране на дейност <activities/form>`, "
 "който се появява."
 
@@ -214,8 +215,8 @@ msgid ""
 "the other view option icons."
 msgstr ""
 "Повечето приложения в Odoo разполагат с изглед *Дейности*. Ако е наличен, "
-"|clock| се вижда в горния десен ъгъл на главното меню, сред останалите икони"
-" за опции на изгледа."
+"|clock| се вижда в горния десен ъгъл на главното меню, сред останалите икони "
+"за опции на изгледа."
 
 #: ../../content/applications/essentials/activities.rst:91
 msgid "To open the activity view, click the |clock|."
@@ -273,8 +274,8 @@ msgid ""
 "Click the :icon:`fa-plus` :guilabel:`(plus)` icon, and then :ref:`fill out "
 "the Schedule Activity form <activities/form>`."
 msgstr ""
-"За да планирате дейност за даден запис, посочете с мишката съответното поле."
-" Кликнете върху иконата :icon:`fa-plus` :guilabel:`(плюс)`, а след това "
+"За да планирате дейност за даден запис, посочете с мишката съответното поле. "
+"Кликнете върху иконата :icon:`fa-plus` :guilabel:`(плюс)`, а след това "
 ":ref:`попълнете формуляра за планиране на дейност <activities/form>`."
 
 #: ../../content/applications/essentials/activities.rst:None
@@ -296,9 +297,9 @@ msgid ""
 msgstr ""
 "Дейности могат да бъдат планирани от много различни места, като например от "
 ":ref:`чата <activities/chatter>` на даден запис или от един от няколкото "
-"изгледа в приложение, когато е наличен: :ref:`канбан изглед "
-"<activities/kanban>`, :ref:`списъчен изглед <activities/list>` или "
-":ref:`изглед на дейности <activities/activity>`."
+"изгледа в приложение, когато е наличен: :ref:`канбан изглед <activities/"
+"kanban>`, :ref:`списъчен изглед <activities/list>` или :ref:`изглед на "
+"дейности <activities/activity>`."
 
 #: ../../content/applications/essentials/activities.rst:128
 msgid "First, select an activity type:"
@@ -376,8 +377,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/activities.rst:None
 msgid "View of CRM leads and the option to schedule an activity."
-msgstr ""
-"Изглед на потенциални клиенти в CRM и опцията за планиране на дейност."
+msgstr "Изглед на потенциални клиенти в CRM и опцията за планиране на дейност."
 
 #: ../../content/applications/essentials/activities.rst:150
 msgid ""
@@ -385,8 +385,8 @@ msgid ""
 " chatter under :guilabel:`Planned Activities`. Click :guilabel:`Mark Done` "
 "to add the details of the activity to the chatter under :guilabel:`Today`."
 msgstr ""
-"Кликнете върху :guilabel:`Запази`, за да планирате дейността и да я добавите"
-" в чата под :guilabel:`Планирани дейности`. Кликнете върху "
+"Кликнете върху :guilabel:`Запази`, за да планирате дейността и да я добавите "
+"в чата под :guilabel:`Планирани дейности`. Кликнете върху "
 ":guilabel:`Маркирай като изпълнено`, за да добавите подробностите за "
 "дейността в чата под :guilabel:`Днес`."
 
@@ -435,8 +435,8 @@ msgid ""
 "To view a consolidated list of activities, organized by application, click "
 "the |clock| in the header menu, located in the top-right corner."
 msgstr ""
-"За да видите обобщен списък с дейности, организирани по приложение, кликнете"
-" върху |clock| в менюто на заглавната част, разположено в горния десен ъгъл."
+"За да видите обобщен списък с дейности, организирани по приложение, кликнете "
+"върху |clock| в менюто на заглавната част, разположено в горния десен ъгъл."
 
 #: ../../content/applications/essentials/activities.rst:177
 msgid ""
@@ -527,8 +527,8 @@ msgid ""
 msgstr ""
 "Отделните приложения разполагат със списък с *Типове дейности*, специфичен "
 "за съответното приложение. Например, за да видите и редактирате наличните "
-"дейности за приложението **CRM**, отидете на :menuselection:`Приложение CRM "
-"--> Конфигурация --> Типове дейности`."
+"дейности за приложението **CRM**, отидете на :menuselection:`Приложение "
+"CRM --> Конфигурация --> Типове дейности`."
 
 #: ../../content/applications/essentials/activities.rst:None
 msgid "The list of activity types already configured and available."
@@ -629,8 +629,8 @@ msgid ""
 "Available activity types vary based on the installed applications in the "
 "database."
 msgstr ""
-"Наличните типове дейности варират в зависимост от инсталираните приложения в"
-" базата данни."
+"Наличните типове дейности варират в зависимост от инсталираните приложения в "
+"базата данни."
 
 #: ../../content/applications/essentials/activities.rst:255
 msgid ""
@@ -669,9 +669,8 @@ msgid ""
 "be altered before the activity is scheduled or saved."
 msgstr ""
 "Информацията в полетата :guilabel:`Потребител по подразбиране` и "
-":guilabel:`Резюме по подразбиране` се включва при създаването на дейност. Тя"
-" обаче може да бъде променена преди дейността да бъде планирана или "
-"запазена."
+":guilabel:`Резюме по подразбиране` се включва при създаването на дейност. Тя "
+"обаче може да бъде променена преди дейността да бъде планирана или запазена."
 
 #: ../../content/applications/essentials/activities.rst:268
 msgid ""
@@ -727,8 +726,8 @@ msgid ""
 " :guilabel:`Trigger`. Using the drop-down menu, select the activity to "
 "recommend or schedule as a follow-up task to the activity type."
 msgstr ""
-":guilabel:`Предложи/Задействай`: в зависимост от избраното за :guilabel:`Тип"
-" верижно свързване`, това поле показва или :guilabel:`Предложи`, или "
+":guilabel:`Предложи/Задействай`: в зависимост от избраното за :guilabel:`Тип "
+"верижно свързване`, това поле показва или :guilabel:`Предложи`, или "
 ":guilabel:`Задействай`. Чрез падащото меню изберете дейността, която да се "
 "препоръча или планира като последваща задача към типа дейност."
 
@@ -776,15 +775,15 @@ msgstr "Нов формуляр за дейност с всички попълн
 
 #: ../../content/applications/essentials/activities.rst:304
 msgid ":doc:`../productivity/discuss`"
-msgstr ":doc:`../productivity/discuss`"
+msgstr ""
 
 #: ../../content/applications/essentials/activities.rst:305
 msgid ":doc:`../productivity/discuss/team_communication`"
-msgstr ":doc:`../productivity/discuss/team_communication`"
+msgstr ""
 
 #: ../../content/applications/essentials/activities.rst:306
 msgid ":doc:`../sales/crm/optimize/utilize_activities`"
-msgstr ":doc:`../sales/crm/optimize/utilize_activities`"
+msgstr ""
 
 #: ../../content/applications/essentials/contacts.rst:5
 msgid "Contacts"
@@ -811,8 +810,8 @@ msgid ""
 "click :guilabel:`New`. A new form appears where various contact information "
 "can be added."
 msgstr ""
-"За да създадете нов контакт, отидете на :menuselection:`Приложение Контакти`"
-" и кликнете върху :guilabel:`Нов`. Появява се нов формуляр, в който може да "
+"За да създадете нов контакт, отидете на :menuselection:`Приложение Контакти` "
+"и кликнете върху :guilabel:`Нов`. Появява се нов формуляр, в който може да "
 "бъде добавена различна информация за контакта."
 
 #: ../../content/applications/essentials/contacts.rst:22
@@ -849,9 +848,9 @@ msgid ""
 ":guilabel:`Address` of the :guilabel:`Company` or :guilabel:`Person`."
 msgstr ""
 "В полето :icon:`fa-envelope` :guilabel:`(плик)` въведете имейл адреса с "
-"домейна. В полето :icon:`fa-phone` :guilabel:`(телефон)` въведете телефонния"
-" номер с подходящия код на държавата. След това въведете :guilabel:`Адрес` "
-"на :guilabel:`Компанията` или :guilabel:`Лицето`."
+"домейна. В полето :icon:`fa-phone` :guilabel:`(телефон)` въведете телефонния "
+"номер с подходящия код на държавата. След това въведете :guilabel:`Адрес` на "
+":guilabel:`Компанията` или :guilabel:`Лицето`."
 
 #: ../../content/applications/essentials/contacts.rst:37
 msgid "Additional fields"
@@ -904,8 +903,8 @@ msgid ""
 "emails and documents sent to this contact are then translated to the "
 "selected language."
 msgstr ""
-":guilabel:`Language`: въведете езика, използван от контакта. Всички имейли и"
-" документи, изпратени до този контакт, се превеждат на избрания език."
+":guilabel:`Language`: въведете езика, използван от контакта. Всички имейли и "
+"документи, изпратени до този контакт, се превеждат на избрания език."
 
 #: ../../content/applications/essentials/contacts.rst:49
 msgid ""
@@ -930,8 +929,8 @@ msgid ""
 "contact person for the company can be listed here."
 msgstr ""
 "В раздела :guilabel:`Contacts` могат да се добавят контакти, свързани с "
-":guilabel:`Company` и съответните адреси. Например тук може да бъде посочено"
-" конкретно лице за контакт от фирмата."
+":guilabel:`Company` и съответните адреси. Например тук може да бъде посочено "
+"конкретно лице за контакт от фирмата."
 
 #: ../../content/applications/essentials/contacts.rst:60
 msgid ""
@@ -942,8 +941,8 @@ msgid ""
 msgstr ""
 "Могат да се добавят множество адреси както към контакти от тип "
 ":guilabel:`Person`, така и към :guilabel:`Company`. За целта кликнете на "
-":guilabel:`Add Contact` в раздела :guilabel:`Contacts`. Това отваря изскачащ"
-" формуляр :guilabel:`Create Contact`, в който могат да се конфигурират "
+":guilabel:`Add Contact` в раздела :guilabel:`Contacts`. Това отваря изскачащ "
+"формуляр :guilabel:`Create Contact`, в който могат да се конфигурират "
 "допълнителни адреси."
 
 #: ../../content/applications/essentials/contacts.rst:None
@@ -970,8 +969,8 @@ msgid ""
 ":guilabel:`Invoice`: adds a specific invoice address to the existing contact"
 " form."
 msgstr ""
-":guilabel:`Invoice`: добавя конкретен адрес за фактуриране към съществуващия"
-" формуляр на контакт."
+":guilabel:`Invoice`: добавя конкретен адрес за фактуриране към съществуващия "
+"формуляр на контакт."
 
 #: ../../content/applications/essentials/contacts.rst:71
 msgid ""
@@ -997,8 +996,8 @@ msgid ""
 "Once an option is selected, enter the corresponding contact information that"
 " should be used for the specified address type."
 msgstr ""
-"След като е избрана опция, въведете съответната информация за контакт, която"
-" трябва да се използва за указания тип адрес."
+"След като е избрана опция, въведете съответната информация за контакт, която "
+"трябва да се използва за указания тип адрес."
 
 #: ../../content/applications/essentials/contacts.rst:80
 msgid ""
@@ -1106,8 +1105,8 @@ msgid ""
 "Under the :guilabel:`Point Of Sale` heading, enter a :guilabel:`Barcode` "
 "that can be used to identify the contact."
 msgstr ""
-"Под заглавието :guilabel:`Point Of Sale` въведете :guilabel:`Barcode`, който"
-" може да се използва за идентифициране на контакта."
+"Под заглавието :guilabel:`Point Of Sale` въведете :guilabel:`Barcode`, който "
+"може да се използва за идентифициране на контакта."
 
 #: ../../content/applications/essentials/contacts.rst:124
 msgid "Purchase section"
@@ -1147,8 +1146,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/contacts.rst:134
 msgid ":guilabel:`Always`: replenishment needs are always grouped."
-msgstr ""
-":guilabel:`Always`: нуждите от попълване на запаси винаги се групират."
+msgstr ":guilabel:`Always`: нуждите от попълване на запаси винаги се групират."
 
 #: ../../content/applications/essentials/contacts.rst:136
 msgid ""
@@ -1165,8 +1163,8 @@ msgid ""
 "can be set here, as well. Select a :guilabel:`Supplier Currency` to be used "
 "for purchases from the contact."
 msgstr ""
-"Тук посочете :guilabel:`Payment Terms`, информация за :guilabel:`1099 Box` и"
-" предпочитан :guilabel:`Payment Method`. Тук може да се зададе и "
+"Тук посочете :guilabel:`Payment Terms`, информация за :guilabel:`1099 Box` и "
+"предпочитан :guilabel:`Payment Method`. Тук може да се зададе и "
 ":guilabel:`Receipt Reminder`. Изберете :guilabel:`Supplier Currency`, която "
 "да се използва за покупки от контакта."
 
@@ -1205,8 +1203,8 @@ msgid ""
 "the :guilabel:`Website` drop-down menu to restrict the publishing of this "
 "contact to one website (if working on a database with multiple websites)."
 msgstr ""
-"Ако този контакт трябва да е достъпен само за една фирма в мултифирмена база"
-" данни, изберете я от падащия списък на полето :guilabel:`Company`. "
+"Ако този контакт трябва да е достъпен само за една фирма в мултифирмена база "
+"данни, изберете я от падащия списък на полето :guilabel:`Company`. "
 "Използвайте падащото меню :guilabel:`Website`, за да ограничите "
 "публикуването на този контакт до един уебсайт (при работа с база данни с "
 "множество уебсайтове)."
@@ -1240,20 +1238,20 @@ msgid ""
 "process."
 msgstr ""
 "Под заглавието :guilabel:`Inventory` използвайте падащото меню "
-":guilabel:`Customer Location`, за да изберете складовата локация, използвана"
-" като местоназначение при изпращане на стоки към този контакт. След това "
+":guilabel:`Customer Location`, за да изберете складовата локация, използвана "
+"като местоназначение при изпращане на стоки към този контакт. След това "
 "използвайте падащото меню :guilabel:`Vendor Location`, за да изберете "
-"складовата локация, използвана като източник при получаване на стоки от този"
-" контакт. Накрая използвайте падащото меню :guilabel:`Subcontractor "
-"Location`, за да определите локация, използвана едновременно като източник и"
-" местоназначение при изпращане на стоки към този контакт по време на процес "
+"складовата локация, използвана като източник при получаване на стоки от този "
+"контакт. Накрая използвайте падащото меню :guilabel:`Subcontractor "
+"Location`, за да определите локация, използвана едновременно като източник и "
+"местоназначение при изпращане на стоки към този контакт по време на процес "
 "на подизпълнение."
 
-#: ../../content/applications/essentials/contacts.rst:175
+#: ../../content/applications/essentials/contacts.rst:177
 msgid "Accounting tab"
 msgstr "Раздел Accounting"
 
-#: ../../content/applications/essentials/contacts.rst:177
+#: ../../content/applications/essentials/contacts.rst:179
 msgid ""
 "The :guilabel:`Accounting` tab appears when the *Accounting* application is "
 "installed. Here, a user can add any related :guilabel:`Bank Accounts`, or "
@@ -1264,7 +1262,7 @@ msgstr ""
 ":guilabel:`Bank Accounts`, или да зададе подразбиращи се "
 ":guilabel:`Accounting entries`."
 
-#: ../../content/applications/essentials/contacts.rst:180
+#: ../../content/applications/essentials/contacts.rst:182
 msgid ""
 "Under the :ref:`Invoice Follow-Ups <accounting/follow_up/follow-ups-for-one-"
 "customer>` heading, the :guilabel:`Follow-up Status` indicates if the "
@@ -1273,18 +1271,18 @@ msgid ""
 "either :guilabel:`Automatic` or :guilabel:`Manual` reminders, as well as "
 "schedule the :guilabel:`Next Reminder`."
 msgstr ""
-"Под заглавието :ref:`Invoice Follow-Ups <accounting/follow_up/follow-ups-"
-"for-one-customer>` полето :guilabel:`Follow-up Status` показва дали "
-"контактът в момента има просрочени плащания. За да конфигурирате "
-":guilabel:`Reminders` за този контакт, използвайте радио бутоните, за да "
-"изберете :guilabel:`Automatic` или :guilabel:`Manual` напомняния, както и да"
-" планирате :guilabel:`Next Reminder`."
+"Под заглавието :ref:`Invoice Follow-Ups <accounting/follow_up/follow-ups-for-"
+"one-customer>` полето :guilabel:`Follow-up Status` показва дали контактът в "
+"момента има просрочени плащания. За да конфигурирате :guilabel:`Reminders` "
+"за този контакт, използвайте радио бутоните, за да изберете "
+":guilabel:`Automatic` или :guilabel:`Manual` напомняния, както и да "
+"планирате :guilabel:`Next Reminder`."
 
-#: ../../content/applications/essentials/contacts.rst:189
+#: ../../content/applications/essentials/contacts.rst:191
 msgid "Partner Assignment tab"
 msgstr "Раздел Partner Assignment"
 
-#: ../../content/applications/essentials/contacts.rst:191
+#: ../../content/applications/essentials/contacts.rst:193
 msgid ""
 "Next is the :guilabel:`Partner Assignment` tab, which by default, includes a"
 " :guilabel:`Geolocation` section, and other partner options, including "
@@ -1294,24 +1292,24 @@ msgid ""
 msgstr ""
 "Следва разделът :guilabel:`Partner Assignment`, който по подразбиране "
 "включва секция :guilabel:`Geolocation` и други опции за партньори, "
-"включително конфигурации :guilabel:`Partner Activation` и :guilabel:`Partner"
-" Review`. Те присъстват **само** когато е инсталиран модулът *Resellers*."
+"включително конфигурации :guilabel:`Partner Activation` и :guilabel:`Partner "
+"Review`. Те присъстват **само** когато е инсталиран модулът *Resellers*."
 
-#: ../../content/applications/essentials/contacts.rst:196
+#: ../../content/applications/essentials/contacts.rst:198
 msgid ""
 "Follow the :doc:`Resellers documentation "
 "<../sales/crm/track_leads/resellers>` for more information on publishing "
 "partners on the website."
 msgstr ""
-"Следвайте :doc:`документацията за Resellers "
-"<../sales/crm/track_leads/resellers>` за повече информация относно "
-"публикуването на партньори на уебсайта."
+"Следвайте :doc:`документацията за Resellers <../sales/crm/track_leads/"
+"resellers>` за повече информация относно публикуването на партньори на "
+"уебсайта."
 
-#: ../../content/applications/essentials/contacts.rst:200
+#: ../../content/applications/essentials/contacts.rst:202
 msgid "Internal Notes tab"
 msgstr "Раздел Internal Notes"
 
-#: ../../content/applications/essentials/contacts.rst:202
+#: ../../content/applications/essentials/contacts.rst:204
 msgid ""
 "Following the :guilabel:`Accounting` tab is the :guilabel:`Internal Notes` "
 "tab, where notes can be left on this contact form, just like on the contact "
@@ -1321,11 +1319,11 @@ msgstr ""
 "Notes`, където могат да се оставят бележки върху този формуляр на контакт, "
 "точно както в споменатия по-горе формуляр на контакт."
 
-#: ../../content/applications/essentials/contacts.rst:206
+#: ../../content/applications/essentials/contacts.rst:208
 msgid "UBO tab"
 msgstr "Раздел UBO"
 
-#: ../../content/applications/essentials/contacts.rst:208
+#: ../../content/applications/essentials/contacts.rst:210
 msgid ""
 "The UBO (Ultimate Beneficial Owner) tab contains a snapshot of the "
 "*Holdings* information from the :guilabel:`Equity` app, as well as "
@@ -1337,7 +1335,7 @@ msgstr ""
 "информация за отделния контакт, включително неговите :guilabel:`Birth Date` "
 "и :guilabel:`Birth Place`."
 
-#: ../../content/applications/essentials/contacts.rst:212
+#: ../../content/applications/essentials/contacts.rst:214
 msgid ""
 "The :guilabel:`UBO` tab is **only** present when the *Equity* app is "
 "installed."
@@ -1345,7 +1343,7 @@ msgstr ""
 "Разделът :guilabel:`UBO` присъства **само** когато е инсталирано "
 "приложението *Equity*."
 
-#: ../../content/applications/essentials/contacts.rst:214
+#: ../../content/applications/essentials/contacts.rst:216
 msgid ""
 "To request the information required for the :abbr:`UBO (Ultimate Beneficial "
 "Owner)` tab, click the :icon:`fa-cog` :guilabel:`Action` icon, then select "
@@ -1356,11 +1354,11 @@ msgstr ""
 "след което изберете :guilabel:`Request UBO Form`, за да изпратите имейл до "
 "контакта."
 
-#: ../../content/applications/essentials/contacts.rst:219
+#: ../../content/applications/essentials/contacts.rst:221
 msgid "Smart buttons"
 msgstr "Смарт бутони"
 
-#: ../../content/applications/essentials/contacts.rst:221
+#: ../../content/applications/essentials/contacts.rst:223
 msgid ""
 "At the top of the contact form, there are some additional options available,"
 " known as *smart buttons*."
@@ -1368,7 +1366,7 @@ msgstr ""
 "В горната част на формуляра на контакта има някои допълнителни налични "
 "опции, известни като *смарт бутони*."
 
-#: ../../content/applications/essentials/contacts.rst:224
+#: ../../content/applications/essentials/contacts.rst:226
 msgid ""
 "Here, Odoo displays a variety of records, related to this contact, that were"
 " created on other apps. Odoo integrates information from every single app, "
@@ -1378,7 +1376,7 @@ msgstr ""
 "създадени в други приложения. Odoo интегрира информация от всяко отделно "
 "приложение, затова смарт бутоните са много."
 
-#: ../../content/applications/essentials/contacts.rst:228
+#: ../../content/applications/essentials/contacts.rst:230
 msgid ""
 "For example, there is an :guilabel:`Opportunities` smart button, where all "
 "the opportunities related to this customer from the *CRM* app are "
@@ -1387,7 +1385,7 @@ msgstr ""
 "Например има смарт бутон :guilabel:`Opportunities`, чрез който са достъпни "
 "всички възможности, свързани с този клиент, от приложението *CRM*."
 
-#: ../../content/applications/essentials/contacts.rst:232
+#: ../../content/applications/essentials/contacts.rst:234
 msgid ""
 "If the corresponding applications are installed, their related smart buttons"
 " appear automatically on a contact form."
@@ -1395,7 +1393,7 @@ msgstr ""
 "Ако съответните приложения са инсталирани, свързаните с тях смарт бутони се "
 "появяват автоматично във формуляра на контакта."
 
-#: ../../content/applications/essentials/contacts.rst:235
+#: ../../content/applications/essentials/contacts.rst:237
 msgid ""
 "A user can see any :guilabel:`Meetings`, :guilabel:`Sales`, :guilabel:`POS "
 "Orders`, :guilabel:`Subscriptions`, project :guilabel:`Tasks`, and the "
@@ -1413,7 +1411,7 @@ msgstr ""
 "Rate` за доставки, информация :guilabel:`Invoiced`, :guilabel:`Vendor "
 "Bills`, и :guilabel:`Partner Ledger`, свързани с този контакт."
 
-#: ../../content/applications/essentials/contacts.rst:241
+#: ../../content/applications/essentials/contacts.rst:243
 msgid ""
 "Deliveries, documents, loyalty cards, and direct debits are *also* linked to"
 " smart buttons, like this, should there be any outstanding/on-file for this "
@@ -1423,7 +1421,7 @@ msgstr ""
 "със смарт бутони, подобно на това, ако има такива в наличност/архивирани за "
 "този контакт."
 
-#: ../../content/applications/essentials/contacts.rst:244
+#: ../../content/applications/essentials/contacts.rst:246
 msgid ""
 "If the contact is a partner, the user can visit their partner page on the "
 "Odoo-built website by clicking the :guilabel:`Go to Website` smart button."
@@ -1432,11 +1430,11 @@ msgstr ""
 "страница на изградения от Odoo уебсайт, като кликне на смарт бутона "
 ":guilabel:`Go to Website`."
 
-#: ../../content/applications/essentials/contacts.rst:248
+#: ../../content/applications/essentials/contacts.rst:250
 msgid "Archive contacts"
 msgstr "Архивиране на контакти"
 
-#: ../../content/applications/essentials/contacts.rst:250
+#: ../../content/applications/essentials/contacts.rst:252
 msgid ""
 "If a user decides they no longer want to have this contact active, the "
 "record can be archived. To do that, go to the :icon:`fa-cog` "
@@ -1448,7 +1446,7 @@ msgstr ""
 ":guilabel:`Action` в горната част на формуляра на контакта и кликнете на "
 ":guilabel:`Archive`."
 
-#: ../../content/applications/essentials/contacts.rst:254
+#: ../../content/applications/essentials/contacts.rst:256
 msgid ""
 "Then, click :guilabel:`Archive` from the resulting :guilabel:`Confirmation` "
 "pop-up window."
@@ -1456,17 +1454,17 @@ msgstr ""
 "След това кликнете на :guilabel:`Archive` в появилия се изскачащ прозорец "
 ":guilabel:`Confirmation`."
 
-#: ../../content/applications/essentials/contacts.rst:256
+#: ../../content/applications/essentials/contacts.rst:258
 msgid ""
 "With this contact successfully archived, as indicated by a banner at the "
 "top, they do not show up in the main contacts page, but they can still be "
 "searched for with the :guilabel:`Archived` filter."
 msgstr ""
 "След успешното архивиране на този контакт, обозначено с банер в горната "
-"част, той не се показва на основната страница с контакти, но все още може да"
-" бъде търсен чрез филтъра :guilabel:`Archived`."
+"част, той не се показва на основната страница с контакти, но все още може да "
+"бъде търсен чрез филтъра :guilabel:`Archived`."
 
-#: ../../content/applications/essentials/contacts.rst:260
+#: ../../content/applications/essentials/contacts.rst:262
 msgid ""
 "A contact can be *unarchived*, if the user decides to work with them again. "
 "To do that, just click the :icon:`fa-cog` :guilabel:`Action` menu again at "
@@ -1480,21 +1478,21 @@ msgstr ""
 "кликнете на :guilabel:`Unarchive`. При това действие банерът "
 ":guilabel:`Archived` се премахва и контактът се възстановява."
 
-#: ../../content/applications/essentials/contacts.rst:266
+#: ../../content/applications/essentials/contacts.rst:268
 msgid ""
 ":doc:`Add different addresses in CRM "
 "<../sales/sales/sales_quotations/different_addresses>`"
 msgstr ""
-":doc:`Добавяне на различни адреси в CRM "
-"<../sales/sales/sales_quotations/different_addresses>`"
+":doc:`Добавяне на различни адреси в CRM <../sales/sales/sales_quotations/"
+"different_addresses>`"
 
-#: ../../content/applications/essentials/contacts.rst:267
+#: ../../content/applications/essentials/contacts.rst:269
 msgid ""
 "`Odoo's eLearning Contacts tutorial "
 "<https://www.odoo.com/slides/slide/contacts-2527?fullscreen=1>`_"
 msgstr ""
-"`Уроците на Odoo eLearning за Contacts "
-"<https://www.odoo.com/slides/slide/contacts-2527?fullscreen=1>`_"
+"`Уроците на Odoo eLearning за Contacts <https://www.odoo.com/slides/slide/"
+"contacts-2527?fullscreen=1>`_"
 
 #: ../../content/applications/essentials/contacts/merge.rst:3
 msgid "Merge contacts"
@@ -1508,8 +1506,8 @@ msgid ""
 "salesperson."
 msgstr ""
 "Приложението *Contacts* на Odoo позволява на потребителите да обединяват "
-"дублирани контакти, без да губят никаква информация в процеса. Това поддържа"
-" базата данни организирана и предотвратява контактуването с контакти от "
+"дублирани контакти, без да губят никаква информация в процеса. Това поддържа "
+"базата данни организирана и предотвратява контактуването с контакти от "
 "повече от един търговец."
 
 #: ../../content/applications/essentials/contacts/merge.rst:12
@@ -1521,8 +1519,8 @@ msgid ""
 "Merging is an irreversible action. Do **not** merge contacts unless "
 "absolutely certain they should be combined."
 msgstr ""
-"Обединяването е необратимо действие. **Не** обединявайте контакти, освен ако"
-" не сте напълно сигурни, че трябва да бъдат комбинирани."
+"Обединяването е необратимо действие. **Не** обединявайте контакти, освен ако "
+"не сте напълно сигурни, че трябва да бъдат комбинирани."
 
 #: ../../content/applications/essentials/contacts/merge.rst:18
 msgid ""
@@ -1536,8 +1534,7 @@ msgstr ""
 "list` :guilabel:`(list)`. Изберете два или повече дублирани контакта от "
 "списъка и отметнете квадратчето (най-вляво) за контактите, които трябва да "
 "бъдат обединени. След това кликнете на иконата :icon:`fa-cog` "
-":guilabel:`Actions` и изберете :guilabel:`Merge` от появилото се падащо "
-"меню."
+":guilabel:`Actions` и изберете :guilabel:`Merge` от появилото се падащо меню."
 
 #: ../../content/applications/essentials/contacts/merge.rst:None
 msgid "The merge contacts option in the Contacts application."
@@ -1552,9 +1549,8 @@ msgid ""
 msgstr ""
 "Това отваря изскачащия прозорец :guilabel:`Merge`. Оттук прегледайте "
 "детайлите на контактите, преди да потвърдите, че трябва да бъдат обединени. "
-"Ако някои контакти в списъка **не** трябва да бъдат обединявани, кликнете на"
-" иконата :icon:`fa-times` :guilabel:`(delete)` в най-дясната част на "
-"контакта."
+"Ако някои контакти в списъка **не** трябва да бъдат обединявани, кликнете на "
+"иконата :icon:`fa-times` :guilabel:`(delete)` в най-дясната част на контакта."
 
 #: ../../content/applications/essentials/contacts/merge.rst:32
 msgid ""
@@ -1623,23 +1619,23 @@ msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:58
 msgid ":guilabel:`Email`"
-msgstr ":guilabel:`Email`"
+msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:59
 msgid ":guilabel:`Name`"
-msgstr ":guilabel:`Name`"
+msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:60
 msgid ":guilabel:`Is Company`"
-msgstr ":guilabel:`Is Company`"
+msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:61
 msgid ":guilabel:`VAT`"
-msgstr ":guilabel:`VAT`"
+msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:62
 msgid ":guilabel:`Parent Company`"
-msgstr ":guilabel:`Parent Company`"
+msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:65
 msgid ""
@@ -1661,11 +1657,11 @@ msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:71
 msgid ":guilabel:`A user associated to the contact`"
-msgstr ":guilabel:`A user associated to the contact`"
+msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:72
 msgid ":guilabel:`Journal Items associated to the contact`"
-msgstr ":guilabel:`Journal Items associated to the contact`"
+msgstr ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:74
 msgid ""
@@ -1707,8 +1703,8 @@ msgid ""
 " of the records, process exports or imports in smaller batches."
 msgstr ""
 "Понякога потребителите се сблъскват с грешка „time out“, или запис не се "
-"обработва поради своя размер. Това може да се случи при големи експорти, или"
-" в случаите, когато файлът за импортиране е твърде голям. За да заобиколите "
+"обработва поради своя размер. Това може да се случи при големи експорти, или "
+"в случаите, когато файлът за импортиране е твърде голям. За да заобиколите "
 "това ограничение относно размера на записите, обработвайте експортите или "
 "импортите на по-малки партиди."
 
@@ -1723,8 +1719,8 @@ msgid ""
 "provides a precise reporting tool with each available application."
 msgstr ""
 "При работа с база данни понякога е необходимо да се експортират данни в "
-"отделен файл. Това може да помогне при отчитане на дейности, въпреки че Odoo"
-" предоставя прецизен инструмент за отчитане за всяко налично приложение."
+"отделен файл. Това може да помогне при отчитане на дейности, въпреки че Odoo "
+"предоставя прецизен инструмент за отчитане за всяко налично приложение."
 
 #: ../../content/applications/essentials/export_import_data.rst:22
 msgid ""
@@ -1740,8 +1736,7 @@ msgstr ""
 ":guilabel:`(List)` върху елементите, които трябва да бъдат експортирани, и "
 "след това изберете записите, които трябва да бъдат експортирани. За да "
 "изберете запис, отметнете квадратчето до съответния запис. Накрая кликнете "
-"на бутона :guilabel:`Action` и изберете :icon:`fa-upload` "
-":guilabel:`Export`."
+"на бутона :guilabel:`Action` и изберете :icon:`fa-upload` :guilabel:`Export`."
 
 #: ../../content/applications/essentials/export_import_data.rst:None
 msgid "View of the different things to enable/click to export data."
@@ -1775,8 +1770,8 @@ msgstr ""
 "При отметната опция :guilabel:`I want to update data (import-compatable "
 "export)` системата показва само полетата, които могат да бъдат импортирани. "
 "Това е полезно в случаите, когато :ref:`съществуващи записи трябва да бъдат "
-"актуализирани <essentials/update-data>`. Това работи като филтър. Ако полето"
-" остане неотметнато, се предоставят много повече опции за полета, защото се "
+"актуализирани <essentials/update-data>`. Това работи като филтър. Ако полето "
+"остане неотметнато, се предоставят много повече опции за полета, защото се "
 "показват всички полета, а не само тези, които могат да бъдат импортирани."
 
 #: ../../content/applications/essentials/export_import_data.rst:42
@@ -1803,8 +1798,8 @@ msgstr ""
 ":icon:`fa-chevron-right` :guilabel:`(Show sub-fields)`, за да покажете "
 "повече опции за подполета. Използвайте лентата :guilabel:`Search`, за да "
 "намерите конкретни полета. За да използвате опцията :guilabel:`Search` по-"
-"ефективно, кликнете на всички икони :icon:`fa-chevron-right` "
-":guilabel:`(Show sub-fields)`, за да покажете всички полета."
+"ефективно, кликнете на всички икони :icon:`fa-chevron-right` :guilabel:`"
+"(Show sub-fields)`, за да покажете всички полета."
 
 #: ../../content/applications/essentials/export_import_data.rst:49
 msgid ""
@@ -1821,9 +1816,9 @@ msgid ""
 "which they are displayed in the exported file. Drag-and-drop using the "
 ":icon:`fa-sort` :guilabel:`(Sort)` icon."
 msgstr ""
-"Иконата :icon:`fa-sort` :guilabel:`(Sort)` вляво от избраните полета може да"
-" се използва, за да местите полетата нагоре и надолу, за да промените реда, "
-"в който се показват в експортирания файл. Извършете влачене с иконата "
+"Иконата :icon:`fa-sort` :guilabel:`(Sort)` вляво от избраните полета може да "
+"се използва, за да местите полетата нагоре и надолу, за да промените реда, в "
+"който се показват в експортирания файл. Извършете влачене с иконата "
 ":icon:`fa-sort` :guilabel:`(Sort)`."
 
 #: ../../content/applications/essentials/export_import_data.rst:54
@@ -1833,8 +1828,8 @@ msgid ""
 " the field."
 msgstr ""
 "Иконата :icon:`fa-trash` :guilabel:`(Remove field)` се използва за "
-"премахване на полета. Кликнете на иконата :icon:`fa-trash` "
-":guilabel:`(Remove field)`, за да премахнете полето."
+"премахване на полета. Кликнете на иконата :icon:`fa-trash` :guilabel:`"
+"(Remove field)`, за да премахнете полето."
 
 #: ../../content/applications/essentials/export_import_data.rst:56
 msgid ""
@@ -1850,8 +1845,8 @@ msgstr ""
 "Оттам кликнете на :guilabel:`New template` и дайте уникално име на шаблона "
 "за експортиране. Кликнете на иконата :icon:`fa-floppy-o` :guilabel:`(floppy "
 "drive)`, за да запазите конфигурацията. Следващия път, когато същият списък "
-"трябва да бъде експортиран, изберете съответния предварително запазен шаблон"
-" от падащото меню."
+"трябва да бъде експортиран, изберете съответния предварително запазен шаблон "
+"от падащото меню."
 
 #: ../../content/applications/essentials/export_import_data.rst:63
 msgid ""
@@ -1862,8 +1857,8 @@ msgid ""
 msgstr ""
 "Полезно е да знаете външния идентификатор на полето. Например "
 ":guilabel:`Related Company` в потребителския интерфейс за експорт "
-"съответства на *parent_id* (външен идентификатор). Това е полезно, защото по"
-" този начин единствените експортирани данни са тези, които трябва да бъдат "
+"съответства на *parent_id* (външен идентификатор). Това е полезно, защото по "
+"този начин единствените експортирани данни са тези, които трябва да бъдат "
 "променени и повторно импортирани."
 
 #: ../../content/applications/essentials/export_import_data.rst:70
@@ -1877,10 +1872,10 @@ msgid ""
 "data>`. The following documentation covers how to import data into an Odoo "
 "database."
 msgstr ""
-"Импортирането на данни в Odoo е изключително полезно по време на внедряване,"
-" или в моменти, когато данните трябва да бъдат :ref:`актуализирани в партида"
-" <essentials/update-data>`. Следващата документация описва как да "
-"импортирате данни в база данни на Odoo."
+"Импортирането на данни в Odoo е изключително полезно по време на внедряване, "
+"или в моменти, когато данните трябва да бъдат :ref:`актуализирани в партида "
+"<essentials/update-data>`. Следващата документация описва как да импортирате "
+"данни в база данни на Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:77
 msgid ""
@@ -1889,8 +1884,8 @@ msgid ""
 " created by the import."
 msgstr ""
 "Импортите са постоянни и **не могат** да бъдат отменени. Въпреки това е "
-"възможно да се използват филтри (`created on` или `last modified`), за да се"
-" идентифицират записите, променени или създадени от импорта."
+"възможно да се използват филтри (`created on` или `last modified`), за да се "
+"идентифицират записите, променени или създадени от импорта."
 
 #: ../../content/applications/essentials/export_import_data.rst:81
 msgid ""
@@ -1952,8 +1947,7 @@ msgid ""
 msgstr ""
 "Отворете изгледа на обекта, в който трябва да бъдат импортирани/попълнени "
 "данните, кликнете върху иконата :icon:`fa-cog` :guilabel:`(Действие)`, и от "
-"падащото меню изберете :icon:`fa-upload` :guilabel:`(Импортиране на "
-"записи)`."
+"падащото меню изберете :icon:`fa-upload` :guilabel:`(Импортиране на записи)`."
 
 #: ../../content/applications/essentials/export_import_data.rst:None
 msgid "Action menu revealed with the import records option highlighted."
@@ -1967,11 +1961,11 @@ msgid ""
 "company's own data. Such templates can be imported in one click since the "
 "data mapping is already preconfigured."
 msgstr ""
-"Кликнете върху :icon:`fa-upload`:guilabel:`Шаблон за импортиране за клиенти`"
-" в центъра на страницата, за да изтеглите :ref:`шаблон "
-"<essentials/export_import_data/adapt-a-template>` и да го попълните с "
-"данните на компанията. Такива шаблони могат да бъдат импортирани с едно "
-"кликване, тъй като съответствието на данните вече е предварително настроено."
+"Кликнете върху :icon:`fa-upload`:guilabel:`Шаблон за импортиране за клиенти` "
+"в центъра на страницата, за да изтеглите :ref:`шаблон <essentials/"
+"export_import_data/adapt-a-template>` и да го попълните с данните на "
+"компанията. Такива шаблони могат да бъдат импортирани с едно кликване, тъй "
+"като съответствието на данните вече е предварително настроено."
 
 #: ../../content/applications/essentials/export_import_data.rst:115
 msgid ""
@@ -2049,16 +2043,16 @@ msgstr "След като шаблонът бъде изтеглен, продъ
 #: ../../content/applications/essentials/export_import_data.rst:140
 msgid "Add, remove, and sort columns to best fit the data structure."
 msgstr ""
-"Добавяйте, премахвайте и подреждайте колони, за да съответстват най-добре на"
-" структурата на данните."
+"Добавяйте, премахвайте и подреждайте колони, за да съответстват най-добре на "
+"структурата на данните."
 
 #: ../../content/applications/essentials/export_import_data.rst:141
 msgid ""
 "It is strongly advised to **not** remove the :guilabel:`External ID` (ID) "
 "column (see why in the next section)."
 msgstr ""
-"Силно се препоръчва да **не** премахвате колоната :guilabel:`Външен ID` (ID)"
-" (вижте защо в следващия раздел)."
+"Силно се препоръчва да **не** премахвате колоната :guilabel:`Външен ID` (ID) "
+"(вижте защо в следващия раздел)."
 
 #: ../../content/applications/essentials/export_import_data.rst:143
 msgid ""
@@ -2106,10 +2100,10 @@ msgid ""
 "export a sample file using the fields to be imported. This way, if there is "
 "not a sample import template, the names are accurate."
 msgstr ""
-"Друг полезен начин да откриете правилните имена на колоните за импортиране е"
-" да експортирате примерен файл, използвайки полетата, които трябва да бъдат "
-"импортирани. По този начин, ако няма примерен шаблон за импортиране, имената"
-" са точни."
+"Друг полезен начин да откриете правилните имена на колоните за импортиране е "
+"да експортирате примерен файл, използвайки полетата, които трябва да бъдат "
+"импортирани. По този начин, ако няма примерен шаблон за импортиране, имената "
+"са точни."
 
 #: ../../content/applications/essentials/export_import_data.rst:168
 msgid "Import from another application"
@@ -2122,15 +2116,14 @@ msgid ""
 " facilitate the transition to Odoo."
 msgstr ""
 "Полето :guilabel:`Външен ID` (ID) е уникален идентификатор за ред от данни. "
-"Възможно е да се използва :guilabel:`Външен ID` (ID) от предишен софтуер, за"
-" да се улесни преходът към Odoo."
+"Възможно е да се използва :guilabel:`Външен ID` (ID) от предишен софтуер, за "
+"да се улесни преходът към Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:173
 msgid ""
 "Setting an ID is not mandatory when importing, but it helps in many cases:"
 msgstr ""
-"Задаването на ID не е задължително при импортиране, но помага в много "
-"случаи:"
+"Задаването на ID не е задължително при импортиране, но помага в много случаи:"
 
 #: ../../content/applications/essentials/export_import_data.rst:175
 msgid ""
@@ -2143,8 +2136,7 @@ msgstr ""
 #: ../../content/applications/essentials/export_import_data.rst:177
 msgid ":ref:`Import relation fields <export_import_data/relation-fields>`."
 msgstr ""
-":ref:`Импортиране на релационни полета <export_import_data/relation-"
-"fields>`."
+":ref:`Импортиране на релационни полета <export_import_data/relation-fields>`."
 
 #: ../../content/applications/essentials/export_import_data.rst:179
 msgid ""
@@ -2162,9 +2154,9 @@ msgid ""
 "(XXX/External ID) for the original unique identifier. This record can also "
 "be found using its name."
 msgstr ""
-"Когато се импортира друг запис, който се свързва с първия, използвайте "
-"**XXX/ID** (XXX/Външен ID) за оригиналния уникален идентификатор. Този запис"
-" може да бъде открит и по неговото име."
+"Когато се импортира друг запис, който се свързва с първия, използвайте **XXX/"
+"ID** (XXX/Външен ID) за оригиналния уникален идентификатор. Този запис може "
+"да бъде открит и по неговото име."
 
 #: ../../content/applications/essentials/export_import_data.rst:186
 msgid ""
@@ -2191,8 +2183,8 @@ msgid ""
 "For example, if there is a column only containing numbers, only the fields "
 "with the *integer* type are presented as options."
 msgstr ""
-"Например, ако има колона, съдържаща само числа, като опции се предлагат само"
-" полетата от тип *цяло число*."
+"Например, ако има колона, съдържаща само числа, като опции се предлагат само "
+"полетата от тип *цяло число*."
 
 #: ../../content/applications/essentials/export_import_data.rst:197
 msgid ""
@@ -2201,8 +2193,8 @@ msgid ""
 "proposed by default."
 msgstr ""
 "Въпреки че това поведение може да е полезно в повечето случаи, е възможно "
-"също да се провали, или колоната да трябва да бъде съпоставена с поле, което"
-" не се предлага по подразбиране."
+"също да се провали, или колоната да трябва да бъде съпоставена с поле, което "
+"не се предлага по подразбиране."
 
 #: ../../content/applications/essentials/export_import_data.rst:200
 msgid ""
@@ -2279,9 +2271,9 @@ msgid ""
 " the date format columns to import."
 msgstr ""
 "При импортиране на Excel файлове (`.xls`, `.xlsx`), обмислете използването "
-"на *клетки за дата* за съхранение на дати. Това запазва локалните формати на"
-" дата за визуализация, независимо от начина, по който е форматирана датата в"
-" Odoo. При импортиране на файл :abbr:`CSV (Comma-separated Values)`, "
+"на *клетки за дата* за съхранение на дати. Това запазва локалните формати на "
+"дата за визуализация, независимо от начина, по който е форматирана датата в "
+"Odoo. При импортиране на файл :abbr:`CSV (Comma-separated Values)`, "
 "използвайте секцията :guilabel:`Форматиране` на Odoo, за да изберете "
 "колоните с формат на дата за импортиране."
 
@@ -2317,36 +2309,35 @@ msgstr ""
 msgid ""
 "Examples of supported numbers (using 'thirty-two thousand' as the figure):"
 msgstr ""
-"Примери за поддържани числа (използвайки „тридесет и две хиляди“ като "
-"число):"
+"Примери за поддържани числа (използвайки „тридесет и две хиляди“ като число):"
 
 #: ../../content/applications/essentials/export_import_data.rst:249
 msgid "32.000,00"
-msgstr "32.000,00"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:250
 msgid "32000,00"
-msgstr "32000,00"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:251
 msgid "32,000.00"
-msgstr "32,000.00"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:252
 msgid "-32000.00"
-msgstr "-32000.00"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:253
 msgid "(32000.00)"
-msgstr "(32000.00)"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:254
 msgid "$ 32.000,00"
-msgstr "$ 32.000,00"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:255
 msgid "(32000.00 €)"
-msgstr "(32000.00 €)"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:257
 msgid "Example that will not work:"
@@ -2354,11 +2345,11 @@ msgstr "Пример, който няма да работи:"
 
 #: ../../content/applications/essentials/export_import_data.rst:259
 msgid "ABC 32.000,00"
-msgstr "ABC 32.000,00"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:260
 msgid "$ (32.000,00)"
-msgstr "$ (32.000,00)"
+msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:263
 msgid ""
@@ -2400,8 +2391,8 @@ msgstr ""
 "Ако файлът :abbr:`CSV (Comma-separated Values)` използва табулация като "
 "разделител, Odoo **не** открива разделенията. Опциите за формат на файла "
 "трябва да бъдат променени в приложението за електронни таблици. Вижте "
-"следния раздел :ref:`Промяна на формата на CSV файл "
-"<export_import_data/change-csv>`."
+"следния раздел :ref:`Промяна на формата на CSV файл <export_import_data/"
+"change-csv>`."
 
 #: ../../content/applications/essentials/export_import_data.rst:284
 msgid "Change CSV file format in spreadsheet application"
@@ -2529,8 +2520,8 @@ msgid ""
 msgstr ""
 "Използвайте :guilabel:`Държава/Database ID`: това рядко трябва да се "
 "използва. Обикновено се използва от разработчици, тъй като основното "
-"предимство е, че никога не възникват конфликти (може да има няколко записа с"
-" едно и също име, но те винаги имат уникален Database ID)"
+"предимство е, че никога не възникват конфликти (може да има няколко записа с "
+"едно и също име, но те винаги имат уникален Database ID)"
 
 #: ../../content/applications/essentials/export_import_data.rst:329
 msgid ""
@@ -2550,27 +2541,26 @@ msgid ""
 "categories."
 msgstr ""
 "Когато се използват *External ID*, импортирайте файлове :abbr:`CSV (Comma-"
-"separated Values)` с колона :guilabel:`Външен ID` (ID), дефинираща *External"
-" ID* на всеки импортиран запис. След това може да се направи препратка към "
+"separated Values)` с колона :guilabel:`Външен ID` (ID), дефинираща *External "
+"ID* на всеки импортиран запис. След това може да се направи препратка към "
 "този запис с колони като `Field/External ID`. Следните два файла :abbr:`CSV "
-"(Comma-separated Values)` предоставят пример за продукти и техните "
-"категории."
+"(Comma-separated Values)` предоставят пример за продукти и техните категории."
 
 #: ../../content/applications/essentials/export_import_data.rst:337
 msgid ""
 ":download:`CSV file for categories "
 "<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
 msgstr ""
-":download:`CSV файл за категории "
-"<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
+":download:`CSV файл за категории <export_import_data/"
+"External_id_3rd_party_application_product_categories.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:339
 msgid ""
 ":download:`CSV file for Products "
 "<export_import_data/External_id_3rd_party_application_products.csv>`"
 msgstr ""
-":download:`CSV файл за продукти "
-"<export_import_data/External_id_3rd_party_application_products.csv>`"
+":download:`CSV файл за продукти <export_import_data/"
+"External_id_3rd_party_application_products.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:345
 msgid "Import relation fields"
@@ -2584,9 +2574,9 @@ msgid ""
 " their own list menu."
 msgstr ""
 "Даден обект на Odoo винаги е свързан с много други обекти (напр. продукт е "
-"свързан с категории продукти, атрибути, доставчици и др.). За да импортирате"
-" тези релации, записите на свързания обект трябва да бъдат импортирани "
-"първо, от собственото им списъчно меню."
+"свързан с категории продукти, атрибути, доставчици и др.). За да импортирате "
+"тези релации, записите на свързания обект трябва да бъдат импортирани първо, "
+"от собственото им списъчно меню."
 
 #: ../../content/applications/essentials/export_import_data.rst:351
 msgid ""
@@ -2595,8 +2585,8 @@ msgid ""
 " the same name. In such a case add `/ ID` at the end of the column title "
 "(e.g. for product attributes: `Product Attributes / Attribute / ID`)."
 msgstr ""
-"Това може да се постигне, като се използва или името на свързания запис, или"
-" неговият ID, в зависимост от обстоятелствата. ID се очаква, когато два "
+"Това може да се постигне, като се използва или името на свързания запис, или "
+"неговият ID, в зависимост от обстоятелствата. ID се очаква, когато два "
 "записа имат едно и също име. В такъв случай добавете `/ ID` в края на "
 "заглавието на колоната (напр. за атрибути на продукт: `Product Attributes / "
 "Attribute / ID`)."
@@ -2630,8 +2620,8 @@ msgid ""
 " 'Category'."
 msgstr ""
 "Ако обаче компанията не желае да променя конфигурацията на категориите "
-"продукти, Odoo препоръчва използването на *External ID* за това поле, "
-"„Категория“."
+"продукти, Odoo препоръчва използването на *External ID* за това поле, „"
+"Категория“."
 
 #: ../../content/applications/essentials/export_import_data.rst:369
 msgid "Import many2many relationship fields"
@@ -2654,8 +2644,8 @@ msgid ""
 ":download:`CSV file for Manufacturer, Retailer "
 "<export_import_data/m2m-customers-tags.csv>`"
 msgstr ""
-":download:`CSV файл за Manufacturer, Retailer "
-"<export_import_data/m2m-customers-tags.csv>`"
+":download:`CSV файл за Manufacturer, Retailer <export_import_data/m2m-"
+"customers-tags.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:378
 msgid "Import one2many relationships"
@@ -2722,8 +2712,8 @@ msgid ""
 ":download:`Customers and their respective contacts "
 "<export_import_data/o2m-customers-contacts.csv>`"
 msgstr ""
-":download:`Клиенти и техните съответни контакти "
-"<export_import_data/o2m-customers-contacts.csv>`"
+":download:`Клиенти и техните съответни контакти <export_import_data/o2m-"
+"customers-contacts.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:405
 msgid "Import image files"
@@ -2735,9 +2725,9 @@ msgid ""
 "<essentials/export_import_data/get-started>` CSV or Excel file, follow the "
 "next steps:"
 msgstr ""
-"За да импортирате файлове с изображения заедно с :ref:`качения "
-"<essentials/export_import_data/get-started>` CSV или Excel файл, следвайте "
-"следните стъпки:"
+"За да импортирате файлове с изображения заедно с :ref:`качения <essentials/"
+"export_import_data/get-started>` CSV или Excel файл, следвайте следните "
+"стъпки:"
 
 #: ../../content/applications/essentials/export_import_data.rst:410
 msgid ""
@@ -2774,8 +2764,7 @@ msgstr ""
 #: ../../content/applications/essentials/export_import_data.rst:415
 msgid "Click :guilabel:`Test` to verify that all data is valid."
 msgstr ""
-"Кликнете върху :guilabel:`Тест`, за да проверите, че всички данни са "
-"валидни."
+"Кликнете върху :guilabel:`Тест`, за да проверите, че всички данни са валидни."
 
 #: ../../content/applications/essentials/export_import_data.rst:416
 msgid ""
@@ -2785,8 +2774,8 @@ msgid ""
 msgstr ""
 "Кликнете върху :guilabel:`Импортиране`. По време на процеса на импортиране "
 "Odoo извършва проверка на файловете, за да свърже автоматично качените "
-"изображения с импортирания файл с данни. Ако няма съвпадение, файлът с данни"
-" се импортира без никакво изображение."
+"изображения с импортирания файл с данни. Ако няма съвпадение, файлът с данни "
+"се импортира без никакво изображение."
 
 #: ../../content/applications/essentials/export_import_data.rst:422
 msgid ""
@@ -2816,12 +2805,12 @@ msgid ""
 msgstr ""
 "При импортиране на голям брой изображения посочете максималния размер на "
 "партида в мегабайти и задайте закъснение, за да предотвратите претоварване "
-"на системата. За целта :doc:`активирайте режим на разработчик "
-"<../general/developer_mode>` и попълнете полетата :guilabel:`Макс. размер на"
-" партида` и :guilabel:`Закъснение след всяка партида` в секцията "
-":guilabel:`Файлове за импортиране`. По подразбиране закъснението отговаря на"
-" лимита за RPC/API извиквания, дефиниран в `Odoo Cloud - Acceptable Use "
-"Policy <https://www.odoo.com/acceptable-use>`_."
+"на системата. За целта :doc:`активирайте режим на разработчик <../general/"
+"developer_mode>` и попълнете полетата :guilabel:`Макс. размер на партида` и "
+":guilabel:`Закъснение след всяка партида` в секцията :guilabel:`Файлове за "
+"импортиране`. По подразбиране закъснението отговаря на лимита за RPC/API "
+"извиквания, дефиниран в `Odoo Cloud - Acceptable Use Policy <https://"
+"www.odoo.com/acceptable-use>`_."
 
 #: ../../content/applications/essentials/export_import_data.rst:433
 msgid "Import records several times"
@@ -2855,9 +2844,9 @@ msgid ""
 "This feature allows a company to use the *Import/Export tool* in Odoo to "
 "modify a batch of records in a spreadsheet application."
 msgstr ""
-"Тази функция позволява на компания да използва *инструмента за "
-"импортиране/експортиране* в Odoo, за да променя партида от записи в "
-"приложение за електронни таблици."
+"Тази функция позволява на компания да използва *инструмента за импортиране/"
+"експортиране* в Odoo, за да променя партида от записи в приложение за "
+"електронни таблици."
 
 #: ../../content/applications/essentials/export_import_data.rst:446
 msgid "Value not provided for a specific field"
@@ -2872,8 +2861,8 @@ msgid ""
 msgstr ""
 "Ако не всички полета са зададени в CSV файла, Odoo присвоява стойността по "
 "подразбиране за всяко недефинирано поле. Ако обаче полетата са зададени с "
-"празни стойности във файла :abbr:`CSV (Comma-separated Values)`, Odoo задава"
-" празната стойност в полето, вместо да присвоява стойността по подразбиране."
+"празни стойности във файла :abbr:`CSV (Comma-separated Values)`, Odoo задава "
+"празната стойност в полето, вместо да присвоява стойността по подразбиране."
 
 #: ../../content/applications/essentials/export_import_data.rst:453
 msgid "Export/import different tables from an SQL application to Odoo"
@@ -2900,11 +2889,11 @@ msgid ""
 "name of the application or table. (like, 'company_1', 'person_1' - instead "
 "of '1')"
 msgstr ""
-"За да управлявате връзки между таблици, използвайте възможностите на Odoo за"
-" `External ID`. `External ID` на запис е уникалният идентификатор на този "
+"За да управлявате връзки между таблици, използвайте възможностите на Odoo за "
+"`External ID`. `External ID` на запис е уникалният идентификатор на този "
 "запис в друго приложение. `External ID` трябва да бъде уникален за всички "
-"записи на всички обекти. Добра практика е този `External ID` да се предхожда"
-" от името на приложението или таблицата (например „company_1“, „person_1“ – "
+"записи на всички обекти. Добра практика е този `External ID` да се предхожда "
+"от името на приложението или таблицата (например „company_1“, „person_1“ – "
 "вместо „1“)"
 
 #: ../../content/applications/essentials/export_import_data.rst:464
@@ -2914,8 +2903,8 @@ msgid ""
 "the link between a person and the company they work for must be recreated."
 msgstr ""
 "Като пример, да предположим, че има SQL база данни с две таблици, които "
-"трябва да бъдат импортирани: компании и хора. Всеки човек принадлежи на една"
-" компания, така че връзката между човека и компанията, за която работи, "
+"трябва да бъдат импортирани: компании и хора. Всеки човек принадлежи на една "
+"компания, така че връзката между човека и компанията, за която работи, "
 "трябва да бъде пресъздадена."
 
 #: ../../content/applications/essentials/export_import_data.rst:468
@@ -3008,11 +2997,11 @@ msgid ""
 "upload` :guilabel:`Export` from the drop-down menu."
 msgstr ""
 "За да обновите данни чрез импортиране, първо отидете до данните, които "
-"трябва да бъдат обновени, и изберете иконата :icon:`oi-view-list` "
-":guilabel:`(List)`, за да активирате списъчния изглед. От лявата страна на "
-"списъка отметнете полето за отметка на всеки запис, който трябва да бъде "
-"обновен. След това щракнете върху бутона :guilabel:`Actions` и изберете "
-":icon:`fa-upload` :guilabel:`Export` от падащото меню."
+"трябва да бъдат обновени, и изберете иконата :icon:`oi-view-list` :guilabel:`"
+"(List)`, за да активирате списъчния изглед. От лявата страна на списъка "
+"отметнете полето за отметка на всеки запис, който трябва да бъде обновен. "
+"След това щракнете върху бутона :guilabel:`Actions` и изберете :icon:`fa-"
+"upload` :guilabel:`Export` от падащото меню."
 
 #: ../../content/applications/essentials/export_import_data.rst:530
 msgid ""
@@ -3036,10 +3025,10 @@ msgid ""
 "data (import-compatible export)` checkbox is ticked, it is included in the "
 "export."
 msgstr ""
-"Полето :guilabel:`External ID` **не** се показва в списъка :guilabel:`Fields"
-" to export`, освен ако не бъде добавено ръчно, но въпреки това се включва в "
-"експортирането. Ако обаче полето за отметка :guilabel:`I want to update data"
-" (import-compatible export)` е отметнато, то се включва в експортирането."
+"Полето :guilabel:`External ID` **не** се показва в списъка :guilabel:`Fields "
+"to export`, освен ако не бъде добавено ръчно, но въпреки това се включва в "
+"експортирането. Ако обаче полето за отметка :guilabel:`I want to update data "
+"(import-compatible export)` е отметнато, то се включва в експортирането."
 
 #: ../../content/applications/essentials/export_import_data.rst:540
 msgid ""
@@ -3047,8 +3036,8 @@ msgid ""
 ":ref:`options <essentials/export_import_data/export-data>` on the pop-up "
 "window, then click :guilabel:`Export`."
 msgstr ""
-"Изберете необходимите полета, които да бъдат включени в експортирането, като"
-" използвате :ref:`опциите <essentials/export_import_data/export-data>` в "
+"Изберете необходимите полета, които да бъдат включени в експортирането, като "
+"използвате :ref:`опциите <essentials/export_import_data/export-data>` в "
 "изскачащия прозорец, след което щракнете върху :guilabel:`Export`."
 
 #: ../../content/applications/essentials/export_import_data.rst:544
@@ -3061,10 +3050,10 @@ msgid ""
 "is ready, it can be :ref:`imported <essentials/export_import_data/import-"
 "data>` by following the same process as a normal data import."
 msgstr ""
-"След експортирането направете необходимите промени във файла с данни. Когато"
-" файлът е готов, той може да бъде :ref:`импортиран "
-"<essentials/export_import_data/import-data>`, следвайки същия процес като "
-"при обикновено импортиране на данни."
+"След експортирането направете необходимите промени във файла с данни. Когато "
+"файлът е готов, той може да бъде :ref:`импортиран <essentials/"
+"export_import_data/import-data>`, следвайки същия процес като при обикновено "
+"импортиране на данни."
 
 #: ../../content/applications/essentials/export_import_data.rst:551
 msgid ""
@@ -3098,8 +3087,8 @@ msgstr ""
 ":ref:`статиите в Knowledge <knowledge/articles_editing/edit-article>` и "
 ":ref:`редактора на отчети в Studio <studio/pdf-reports/report-editor>`, "
 "наред с други. Започнете да пишете или използвайте :ref:`лентата с "
-"инструменти <essentials/html_editor/toolbar>` или :ref:`powerbox "
-"<essentials/html_editor/commands>` за форматиране и структуриране на текста."
+"инструменти <essentials/html_editor/toolbar>` или :ref:`powerbox <essentials/"
+"html_editor/commands>` за форматиране и структуриране на текста."
 
 #: ../../content/applications/essentials/html_editor.rst:15
 msgid ""
@@ -3131,8 +3120,9 @@ msgid ""
 "**Font style**: Define the font style using various options, such as "
 ":guilabel:`Header 1 to 6, Normal, Paragraph, Code`, and :guilabel:`Quote`."
 msgstr ""
-"**Стил на шрифта**: Задайте стила на шрифта чрез различни опции, като "
-":guilabel:`Header 1 to 6, Normal, Paragraph, Code` и :guilabel:`Quote`."
+"**Стил на шрифта**: Задайте стила на шрифта, като използвате различни опции, "
+"например :guilabel:`Заглавие 1 до 6, Нормален, Абзац, Код` и "
+":guilabel:`Цитат`."
 
 #: ../../content/applications/essentials/html_editor.rst:29
 msgid "**Font size**: Select the preferred font size."
@@ -3140,32 +3130,36 @@ msgstr "**Размер на шрифта**: Изберете предпочит�
 
 #: ../../content/applications/essentials/html_editor.rst:30
 msgid ":icon:`fa-bold` (:guilabel:`Toggle bold`): Put the text in bold."
-msgstr ":icon:`fa-bold` (:guilabel:`Toggle bold`): Направете текста получер."
+msgstr ""
+":icon:`fa-bold` (:guilabel:`Превключване на удебелен шрифт`): Поставя текста "
+"в удебелен вид."
 
 #: ../../content/applications/essentials/html_editor.rst:31
 msgid ""
 ":icon:`fa-italic` (:guilabel:`Toggle italic`): Put the text in italics."
 msgstr ""
-":icon:`fa-italic` (:guilabel:`Toggle italic`): Направете текста курсив."
+":icon:`fa-italic` (:guilabel:`Превключване на курсив`): Поставя текста в "
+"курсив."
 
 #: ../../content/applications/essentials/html_editor.rst:32
 msgid ""
 ":icon:`fa-underline` (:guilabel:`Toggle underline`): Underline the text."
 msgstr ""
-":icon:`fa-underline` (:guilabel:`Toggle underline`): Подчертайте текста."
+":icon:`fa-underline` (:guilabel:`Превключване на подчертаване`): Подчертава "
+"текста."
 
 #: ../../content/applications/essentials/html_editor.rst:33
 msgid ""
 ":icon:`fa-font` (:guilabel:`Apply Font Color`): Customize the font colors:"
 msgstr ""
-":icon:`fa-font` (:guilabel:`Apply Font Color`): Персонализирайте цветовете "
-"на шрифта:"
+":icon:`fa-font` (:guilabel:`Прилагане на цвят на шрифта`): Персонализирайте "
+"цветовете на шрифта:"
 
 #: ../../content/applications/essentials/html_editor.rst:35
 msgid ""
 ":guilabel:`Solid`: Select the preferred color from the predefined palette."
 msgstr ""
-":guilabel:`Solid`: Изберете предпочитания цвят от предварително зададената "
+":guilabel:`Плътен`: Изберете предпочитания цвят от предварително зададената "
 "палитра."
 
 #: ../../content/applications/essentials/html_editor.rst:36
@@ -3173,8 +3167,9 @@ msgid ""
 ":guilabel:`Custom`: Customize the color palette using the wheel or by "
 "configuring the :guilabel:`hex` code and :guilabel:`RGBA` values."
 msgstr ""
-":guilabel:`Custom`: Персонализирайте цветовата палитра чрез колелото или "
-"като зададете :guilabel:`hex` код и стойности за :guilabel:`RGBA`."
+":guilabel:`Персонализиран`: Персонализирайте цветовата палитра с помощта на "
+"цветовия кръг или като зададете :guilabel:`шестнадесетичен` код и стойности "
+":guilabel:`RGBA`."
 
 #: ../../content/applications/essentials/html_editor.rst:38
 msgid ""
@@ -3182,16 +3177,16 @@ msgid ""
 "choosing between :guilabel:`Linear` or :guilabel:`Radial` and adjusting the "
 "wheel."
 msgstr ""
-":guilabel:`Gradient`: Изберете предварително зададен градиент или го "
-"персонализирайте, като изберете между :guilabel:`Linear` или "
-":guilabel:`Radial` и настроите колелото."
+":guilabel:`Градиент`: Изберете предварително зададен градиент или го "
+"персонализирайте, като изберете между :guilabel:`Линеен` или "
+":guilabel:`Радиален` и коригирате чрез цветовия кръг."
 
 #: ../../content/applications/essentials/html_editor.rst:40
 msgid ""
 ":icon:`fa-trash` (:guilabel:`Reset`): Restore the original font/background "
 "color."
 msgstr ""
-":icon:`fa-trash` (:guilabel:`Reset`): Възстановете първоначалния цвят на "
+":icon:`fa-trash` (:guilabel:`Нулиране`): Възстановява оригиналния цвят на "
 "шрифта/фона."
 
 #: ../../content/applications/essentials/html_editor.rst:42
@@ -3199,9 +3194,9 @@ msgid ""
 ":icon:`fa-link` (:guilabel:`Add a link`): Insert or edit a URL link to a "
 "selected text, and optionally upload an image using its file URL."
 msgstr ""
-":icon:`fa-link` (:guilabel:`Add a link`): Вмъкнете или редактирайте URL "
-"връзка към избран текст и по избор качете изображение чрез неговия URL адрес"
-" на файла."
+":icon:`fa-link` (:guilabel:`Добавяне на връзка`): Вмъква или редактира URL "
+"връзка към избран текст и по избор качва изображение чрез неговия URL адрес "
+"на файла."
 
 #: ../../content/applications/essentials/html_editor.rst:44
 msgid ""
@@ -3209,38 +3204,39 @@ msgid ""
 "Optionally, click the AI suggestions instead of writing a prompt."
 msgstr ""
 ":guilabel:`Odoo AI`: Напишете подкана и получете съдържание, генерирано от "
-"AI. По избор щракнете върху предложение от AI, вместо да пишете подкана."
+"изкуствен интелект. По избор щракнете върху предложенията на ИИ, вместо да "
+"пишете подкана."
 
 #: ../../content/applications/essentials/html_editor.rst:47
 msgid ""
 "Click the :icon:`fa-ellipsis-v` (:guilabel:`Expand toolbar`) icon to display"
 " additional formatting options:"
 msgstr ""
-"Щракнете върху иконата :icon:`fa-ellipsis-v` (:guilabel:`Expand toolbar`), "
-"за да се покажат допълнителни опции за форматиране:"
+"Щракнете върху иконата :icon:`fa-ellipsis-v` (:guilabel:`Разгъване на "
+"лентата с инструменти`), за да се покажат допълнителни опции за форматиране:"
 
 #: ../../content/applications/essentials/html_editor.rst:50
 msgid ""
 "**Font family**: Use the :guilabel:`Default system font` or select a "
 "preferred font family for the text."
 msgstr ""
-"**Семейство шрифтове**: Използвайте :guilabel:`Default system font` или "
-"изберете предпочитано семейство шрифтове за текста."
+"**Семейство шрифтове**: Използвайте :guilabel:`Стандартен системен шрифт` "
+"или изберете предпочитано семейство шрифтове за текста."
 
 #: ../../content/applications/essentials/html_editor.rst:52
 msgid ""
 ":icon:`fa-strikethrough` (:guilabel:`Toggle strikethrough`): Strike through "
 "the text."
 msgstr ""
-":icon:`fa-strikethrough` (:guilabel:`Toggle strikethrough`): Зачертайте "
-"текста."
+":icon:`fa-strikethrough` (:guilabel:`Превключване на зачертаване`): "
+"Зачертава текста."
 
 #: ../../content/applications/essentials/html_editor.rst:53
 msgid ""
 ":icon:`fa-paint-brush` :guilabel:`(Apply Background Color)`: Customize the "
 "background colors."
 msgstr ""
-":icon:`fa-paint-brush` :guilabel:`(Apply Background Color)`: "
+":icon:`fa-paint-brush` :guilabel:`(Прилагане на цвят на фона)`: "
 "Персонализирайте цветовете на фона."
 
 #: ../../content/applications/essentials/html_editor.rst:54
@@ -3248,7 +3244,7 @@ msgid ""
 ":icon:`fa-eraser` (:guilabel:`Remove Format`): Remove all formatting applied"
 " to a selected text."
 msgstr ""
-":icon:`fa-eraser` (:guilabel:`Remove Format`): Премахнете цялото "
+":icon:`fa-eraser` (:guilabel:`Премахване на форматиране`): Премахва цялото "
 "форматиране, приложено към избран текст."
 
 #: ../../content/applications/essentials/html_editor.rst:55
@@ -3256,16 +3252,16 @@ msgid ""
 ":icon:`fa-list-ul` (:guilabel:`Toggle List`): Select the following list "
 "options:"
 msgstr ""
-":icon:`fa-list-ul` (:guilabel:`Toggle List`): Изберете следните опции за "
-"списък:"
+":icon:`fa-list-ul` (:guilabel:`Превключване на списък`): Изберете следните "
+"опции за списък:"
 
 #: ../../content/applications/essentials/html_editor.rst:57
 msgid ""
 ":icon:`fa-list-ul` (:guilabel:`Bulleted list`): Turn the text into a "
 "bulleted list."
 msgstr ""
-":icon:`fa-list-ul` (:guilabel:`Bulleted list`): Превърнете текста в маркиран"
-" списък."
+":icon:`fa-list-ul` (:guilabel:`Bulleted list`): Превърнете текста в маркиран "
+"списък."
 
 #: ../../content/applications/essentials/html_editor.rst:58
 msgid ""
@@ -3334,17 +3330,15 @@ msgstr "Инструментариум на текстовия редактор"
 
 #: ../../content/applications/essentials/html_editor.rst:75
 msgid "Use the following keyboard shortcuts to apply formatting:"
-msgstr ""
-"Използвайте следните клавишни комбинации, за да приложите форматиране:"
+msgstr "Използвайте следните клавишни комбинации, за да приложите форматиране:"
 
 #: ../../content/applications/essentials/html_editor.rst:77
 msgid ""
 "**Emphasis**: Press `CTRL`/`CMD` + `B`, `CTRL`/`CMD` + `I`, or `CTRL`/`CMD` "
 "+ `U` to apply the bold, italics, or underlined effect."
 msgstr ""
-"**Акцент**: Натиснете `CTRL`/`CMD` + `B`, `CTRL`/`CMD` + `I` или "
-"`CTRL`/`CMD` + `U`, за да приложите ефект получер, курсив или подчертан "
-"текст."
+"**Акцент**: Натиснете `CTRL`/`CMD` + `B`, `CTRL`/`CMD` + `I` или `CTRL`/"
+"`CMD` + `U`, за да приложите ефект получер, курсив или подчертан текст."
 
 #: ../../content/applications/essentials/html_editor.rst:79
 msgid ""
@@ -3367,8 +3361,8 @@ msgid ""
 msgstr ""
 "Щракнете върху хипервръзка в текста и изпълнете едно от следните действия: "
 ":icon:`fa-clipboard` (:guilabel:`Copy Link`), :icon:`fa-pencil-square-o` "
-"(:guilabel:`Edit Link`) или :icon:`fa-chain-broken` (:guilabel:`Remove "
-"Link`)."
+"(:guilabel:`Edit Link`) или :icon:`fa-chain-broken` (:guilabel:`Remove Link`)"
+"."
 
 #: ../../content/applications/essentials/html_editor.rst:89
 msgid "Powerbox commands"
@@ -3430,79 +3424,79 @@ msgstr "Команда"
 #: ../../content/applications/essentials/html_editor.rst:223
 #: ../../content/applications/essentials/property_fields.rst:34
 msgid "Use"
-msgstr "Употреба"
+msgstr "Използване"
 
 #: ../../content/applications/essentials/html_editor.rst:115
 msgid ":icon:`fa-minus` :guilabel:`Separator`"
-msgstr ":icon:`fa-minus` :guilabel:`Separator`"
+msgstr ":icon:`fa-minus` :guilabel:`Разделител`"
 
 #: ../../content/applications/essentials/html_editor.rst:116
 msgid "Insert a horizontal rule separator."
-msgstr "Вмъкнете хоризонтален разделител."
+msgstr "Вмъква хоризонтален разделител."
 
 #: ../../content/applications/essentials/html_editor.rst:117
 msgid ":icon:`fa-columns` :guilabel:`2 columns`"
-msgstr ":icon:`fa-columns` :guilabel:`2 columns`"
+msgstr ":icon:`fa-columns` :guilabel:`2 колони`"
 
 #: ../../content/applications/essentials/html_editor.rst:118
 msgid "Convert into 2 columns."
-msgstr "Преобразувайте в 2 колони."
+msgstr "Преобразува в 2 колони."
 
 #: ../../content/applications/essentials/html_editor.rst:119
 msgid ":icon:`fa-columns` :guilabel:`3 columns`"
-msgstr ":icon:`fa-columns` :guilabel:`3 columns`"
+msgstr ":icon:`fa-columns` :guilabel:`3 колони`"
 
 #: ../../content/applications/essentials/html_editor.rst:120
 msgid "Convert into 3 columns."
-msgstr "Преобразувайте в 3 колони."
+msgstr "Преобразува в 3 колони."
 
 #: ../../content/applications/essentials/html_editor.rst:121
 msgid ":icon:`fa-columns` :guilabel:`4 columns`"
-msgstr ":icon:`fa-columns` :guilabel:`4 columns`"
+msgstr ":icon:`fa-columns` :guilabel:`4 колони`"
 
 #: ../../content/applications/essentials/html_editor.rst:122
 msgid "Convert into 4 columns."
-msgstr "Преобразувайте в 4 колони."
+msgstr "Преобразува в 4 колони."
 
 #: ../../content/applications/essentials/html_editor.rst:123
 msgid ":icon:`fa-table` :guilabel:`Table`"
-msgstr ":icon:`fa-table` :guilabel:`Table`"
+msgstr ":icon:`fa-table` :guilabel:`Таблица`"
 
 #: ../../content/applications/essentials/html_editor.rst:124
 msgid "Insert a table."
-msgstr "Вмъкнете таблица."
+msgstr "Вмъква таблица."
 
 #: ../../content/applications/essentials/html_editor.rst:125
 msgid ":icon:`fa-list-ul` :guilabel:`Bulleted list`"
-msgstr ":icon:`fa-list-ul` :guilabel:`Bulleted list`"
+msgstr ":icon:`fa-list-ul` :guilabel:`Списък с водещи символи`"
 
 #: ../../content/applications/essentials/html_editor.rst:126
 msgid "Create a bulleted list."
-msgstr "Създайте маркиран списък."
+msgstr "Създава списък с водещи символи."
 
 #: ../../content/applications/essentials/html_editor.rst:127
 msgid ":icon:`fa-list-ol` :guilabel:`Numbered list`"
-msgstr ":icon:`fa-list-ol` :guilabel:`Numbered list`"
+msgstr ":icon:`fa-list-ol` :guilabel:`Номериран списък`"
 
 #: ../../content/applications/essentials/html_editor.rst:128
 msgid "Create a numbered list."
-msgstr "Създайте номериран списък."
+msgstr "Създава номериран списък."
 
 #: ../../content/applications/essentials/html_editor.rst:129
 msgid ":icon:`fa-check-square-o` :guilabel:`Checklist`"
-msgstr ":icon:`fa-check-square-o` :guilabel:`Checklist`"
+msgstr ":icon:`fa-check-square-o` :guilabel:`Списък за проверка`"
 
 #: ../../content/applications/essentials/html_editor.rst:130
 msgid "Create a checklist."
-msgstr "Създайте контролен списък."
+msgstr "Създава списък за проверка."
 
 #: ../../content/applications/essentials/html_editor.rst:131
 msgid ":icon:`fa-caret-square-o-right` :guilabel:`Toggle list`"
-msgstr ":icon:`fa-caret-square-o-right` :guilabel:`Toggle list`"
+msgstr ":icon:`fa-caret-square-o-right` :guilabel:`Разгъващ се списък`"
 
 #: ../../content/applications/essentials/html_editor.rst:132
 msgid "Hide a group of text under a foldable toggle."
-msgstr "Скрийте група текст под сгъваем превключвател."
+msgstr "Скриване на група текст под сгъваем превключвател."
 
 #: ../../content/applications/essentials/html_editor.rst:135
 msgid ""
@@ -3511,8 +3505,8 @@ msgid ""
 " or delete a column or row."
 msgstr ""
 "За да организирате таблица, задръжте курсора върху колона или ред, за да се "
-"появи менюто на таблицата. Щракнете върху иконата :icon:`fa-ellipsis-h` "
-":guilabel:`(ellipsis)`, за да преместите, вмъкнете или изтриете колона или "
+"покаже менюто на таблицата. Кликнете върху иконата :icon:`fa-ellipsis-h` "
+":guilabel:`(многоточие)`, за да преместите, вмъкнете или изтриете колона или "
 "ред."
 
 #: ../../content/applications/essentials/html_editor.rst:139
@@ -3521,35 +3515,35 @@ msgstr "Банер"
 
 #: ../../content/applications/essentials/html_editor.rst:148
 msgid ":icon:`fa-info-circle` :guilabel:`Banner Info`"
-msgstr ":icon:`fa-info-circle` :guilabel:`Banner Info`"
+msgstr ":icon:`fa-info-circle` :guilabel:`Банер за информация`"
 
 #: ../../content/applications/essentials/html_editor.rst:149
 msgid "Insert an info banner."
-msgstr "Вмъкнете информационен банер."
+msgstr "Вмъкване на информационен банер."
 
 #: ../../content/applications/essentials/html_editor.rst:150
 msgid ":icon:`fa-check-circle` :guilabel:`Banner Success`"
-msgstr ":icon:`fa-check-circle` :guilabel:`Banner Success`"
+msgstr ":icon:`fa-check-circle` :guilabel:`Банер за успех`"
 
 #: ../../content/applications/essentials/html_editor.rst:151
 msgid "Insert a success banner."
-msgstr "Вмъкнете банер за успех."
+msgstr "Вмъкване на банер за успех."
 
 #: ../../content/applications/essentials/html_editor.rst:152
 msgid ":icon:`fa-exclamation-triangle` :guilabel:`Banner Warning`"
-msgstr ":icon:`fa-exclamation-triangle` :guilabel:`Banner Warning`"
+msgstr ":icon:`fa-exclamation-triangle` :guilabel:`Банер за предупреждение`"
 
 #: ../../content/applications/essentials/html_editor.rst:153
 msgid "Insert a warning banner."
-msgstr "Вмъкнете предупредителен банер."
+msgstr "Вмъкване на банер за предупреждение."
 
 #: ../../content/applications/essentials/html_editor.rst:154
 msgid ":icon:`fa-exclamation-circle` :guilabel:`Banner Danger`"
-msgstr ":icon:`fa-exclamation-circle` :guilabel:`Banner Danger`"
+msgstr ":icon:`fa-exclamation-circle` :guilabel:`Банер за опасност`"
 
 #: ../../content/applications/essentials/html_editor.rst:155
 msgid "Insert a danger banner."
-msgstr "Вмъкнете банер за опасност."
+msgstr "Вмъкване на банер за опасност."
 
 #: ../../content/applications/essentials/html_editor.rst:157
 msgid "Format"
@@ -3557,67 +3551,67 @@ msgstr "Формат"
 
 #: ../../content/applications/essentials/html_editor.rst:166
 msgid ":icon:`fa-header` :guilabel:`Heading 1`"
-msgstr ":icon:`fa-header` :guilabel:`Heading 1`"
+msgstr ":icon:`fa-header` :guilabel:`Заглавие 1`"
 
 #: ../../content/applications/essentials/html_editor.rst:167
 msgid "Big section heading."
-msgstr "Голямо заглавие на секция."
+msgstr "Голямо заглавие на раздел."
 
 #: ../../content/applications/essentials/html_editor.rst:168
 msgid ":icon:`fa-header` :guilabel:`Heading 2`"
-msgstr ":icon:`fa-header` :guilabel:`Heading 2`"
+msgstr ":icon:`fa-header` :guilabel:`Заглавие 2`"
 
 #: ../../content/applications/essentials/html_editor.rst:169
 msgid "Medium section heading."
-msgstr "Средно заглавие на секция."
+msgstr "Средно заглавие на раздел."
 
 #: ../../content/applications/essentials/html_editor.rst:170
 msgid ":icon:`fa-header` :guilabel:`Heading 3`"
-msgstr ":icon:`fa-header` :guilabel:`Heading 3`"
+msgstr ":icon:`fa-header` :guilabel:`Заглавие 3`"
 
 #: ../../content/applications/essentials/html_editor.rst:171
 msgid "Small section heading."
-msgstr "Малко заглавие на секция."
+msgstr "Малко заглавие на раздел."
 
 #: ../../content/applications/essentials/html_editor.rst:172
 msgid ":icon:`fa-paragraph` :guilabel:`Text`"
-msgstr ":icon:`fa-paragraph` :guilabel:`Text`"
+msgstr ":icon:`fa-paragraph` :guilabel:`Текст`"
 
 #: ../../content/applications/essentials/html_editor.rst:173
 msgid "Paragraph block: Insert a paragraph."
-msgstr "Блок за абзац: Вмъкнете абзац."
+msgstr "Блок абзац: Вмъкване на абзац."
 
 #: ../../content/applications/essentials/html_editor.rst:174
 msgid ":icon:`fa-exchange` :guilabel:`Switch direction`"
-msgstr ":icon:`fa-exchange` :guilabel:`Switch direction`"
+msgstr ":icon:`fa-exchange` :guilabel:`Смяна на посоката`"
 
 #: ../../content/applications/essentials/html_editor.rst:175
 msgid "Switch the text's direction."
-msgstr "Сменете посоката на текста."
+msgstr "Смяна на посоката на текста."
 
 #: ../../content/applications/essentials/html_editor.rst:176
 msgid ":icon:`fa-quote-right` :guilabel:`Quote`"
-msgstr ":icon:`fa-quote-right` :guilabel:`Quote`"
+msgstr ":icon:`fa-quote-right` :guilabel:`Цитат`"
 
 #: ../../content/applications/essentials/html_editor.rst:177
 msgid "Add a blockquote section."
-msgstr "Добавете секция с цитат."
+msgstr "Добавяне на секция за цитат."
 
 #: ../../content/applications/essentials/html_editor.rst:178
 msgid ":icon:`fa-code` :guilabel:`Code`"
-msgstr ":icon:`fa-code` :guilabel:`Code`"
+msgstr ":icon:`fa-code` :guilabel:`Код`"
 
 #: ../../content/applications/essentials/html_editor.rst:179
 msgid "Add a code section."
-msgstr "Добавете секция с код."
+msgstr "Добавяне на секция за код."
 
 #: ../../content/applications/essentials/html_editor.rst:181
 msgid "Media"
-msgstr "Мултимедия"
+msgstr "Медия"
 
 #: ../../content/applications/essentials/html_editor.rst:190
 msgid ":icon:`fa-file-image-o` :guilabel:`Media`"
-msgstr ":icon:`fa-file-image-o` :guilabel:`Media`"
+msgstr ":icon:`fa-file-image-o` :guilabel:`Медия`"
 
 #: ../../content/applications/essentials/html_editor.rst:191
 msgid ""
@@ -3625,21 +3619,21 @@ msgid ""
 "database </applications/general/integrations/unsplash>` or upload images, "
 "documents, or icons."
 msgstr ""
-":ref:`Вмъкнете изображение <insert-media>` или икона: :doc:`Търсене в базата"
-" данни на Unsplash </applications/general/integrations/unsplash>` или качете"
-" изображения, документи или икони."
+":ref:`Вмъкване на изображение <insert-media>` или икона: :doc:`Търсене в "
+"базата данни на Unsplash </applications/general/integrations/unsplash>` или "
+"качване на изображения, документи или икони."
 
 #: ../../content/applications/essentials/html_editor.rst:193
 msgid ":icon:`fa-upload` :guilabel:`Upload a file`"
-msgstr ":icon:`fa-upload` :guilabel:`Upload a file`"
+msgstr ":icon:`fa-upload` :guilabel:`Качване на файл`"
 
 #: ../../content/applications/essentials/html_editor.rst:194
 msgid ""
 "Add a download box: share images, recordings, or documents that internal "
 "users can download."
 msgstr ""
-"Добавете поле за изтегляне: споделяйте изображения, записи или документи, "
-"които вътрешните потребители могат да изтеглят."
+"Добавяне на поле за изтегляне: споделяне на изображения, записи или "
+"документи, които вътрешните потребители могат да изтеглят."
 
 #: ../../content/applications/essentials/html_editor.rst:197
 msgid "Navigation"
@@ -3647,40 +3641,39 @@ msgstr "Навигация"
 
 #: ../../content/applications/essentials/html_editor.rst:206
 msgid ":icon:`fa-link` :guilabel:`Link`"
-msgstr ":icon:`fa-link` :guilabel:`Link`"
+msgstr ":icon:`fa-link` :guilabel:`Връзка`"
 
 #: ../../content/applications/essentials/html_editor.rst:207
 msgid ""
 "Add a link: Type the label and enter a URL or upload a file, then click "
 ":guilabel:`Apply`."
 msgstr ""
-"Добавете връзка: Въведете етикета и посочете URL адрес или качете файл, след"
-" което щракнете върху :guilabel:`Apply`."
+"Добавяне на връзка: въведете етикет и URL адрес или качете файл, след което "
+"щракнете върху :guilabel:`Приложи`."
 
 #: ../../content/applications/essentials/html_editor.rst:209
 msgid ":icon:`fa-link` :guilabel:`Button`"
-msgstr ":icon:`fa-link` :guilabel:`Button`"
+msgstr ":icon:`fa-link` :guilabel:`Бутон`"
 
 #: ../../content/applications/essentials/html_editor.rst:210
 msgid ""
 "Add a button: Type the label, enter a URL or upload a file, select the "
 "button style, type, and size, then click :guilabel:`Apply`."
 msgstr ""
-"Добавете бутон: Въведете етикета, посочете URL адрес или качете файл, "
-"изберете стила, типа и размера на бутона, след което щракнете върху "
-":guilabel:`Apply`."
+"Добавяне на бутон: въведете етикет, URL адрес или качете файл, изберете "
+"стил, тип и размер на бутона, след което щракнете върху :guilabel:`Приложи`."
 
 #: ../../content/applications/essentials/html_editor.rst:212
 msgid ":icon:`fa-bookmark` :guilabel:`Table Of Contents`"
-msgstr ":icon:`fa-bookmark` :guilabel:`Table Of Contents`"
+msgstr ":icon:`fa-bookmark` :guilabel:`Съдържание`"
 
 #: ../../content/applications/essentials/html_editor.rst:213
 msgid ""
 "Highlight the structure (headings): Create a table of content based on the "
 "headings."
 msgstr ""
-"Откроете структурата (заглавията): Създайте съдържание, базирано на "
-"заглавията."
+"Подчертаване на структурата (заглавия): създаване на съдържание въз основа "
+"на заглавията."
 
 #: ../../content/applications/essentials/html_editor.rst:215
 msgid "Widget"
@@ -3688,7 +3681,7 @@ msgstr "Приспособление"
 
 #: ../../content/applications/essentials/html_editor.rst:224
 msgid ":icon:`fa-smile-o` :guilabel:`Emoji`"
-msgstr ":icon:`fa-smile-o` :guilabel:`Emoji`"
+msgstr ":icon:`fa-smile-o` :guilabel:`Емоджи`"
 
 #: ../../content/applications/essentials/html_editor.rst:225
 msgid "Add an emoji: search for the desired emoji."
@@ -3720,9 +3713,9 @@ msgid ""
 ":guilabel:`(media)` icon in the tooltip, then choose from the following "
 "tabs:"
 msgstr ""
-"За да вмъкнете медия, въведете `/Media` или щракнете върху иконата "
-":icon:`fa-file-image-o` :guilabel:`(медия)` в подсказката, след което "
-"изберете от следните раздели:"
+"За да вмъкнете медия, въведете `/Media` или щракнете върху иконата :icon:`fa-"
+"file-image-o` :guilabel:`(медия)` в подсказката, след което изберете от "
+"следните раздели:"
 
 #: ../../content/applications/essentials/html_editor.rst:239
 msgid ":guilabel:`Images`"
@@ -3733,9 +3726,8 @@ msgid ""
 "Search the :doc:`Unsplash </applications/general/integrations/unsplash>` "
 "database to find a suitable image."
 msgstr ""
-"Потърсете в базата данни на :doc:`Unsplash "
-"</applications/general/integrations/unsplash>`, за да намерите подходящо "
-"изображение."
+"Потърсете в базата данни на :doc:`Unsplash </applications/general/"
+"integrations/unsplash>`, за да намерите подходящо изображение."
 
 #: ../../content/applications/essentials/html_editor.rst:243
 msgid ":guilabel:`Add URL`: Copy-paste the **image address**."
@@ -3745,8 +3737,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/html_editor.rst:244
 msgid ":guilabel:`Upload an image`: Upload an image into the library."
-msgstr ""
-":guilabel:`Качване на изображение`: Качете изображение в библиотеката."
+msgstr ":guilabel:`Качване на изображение`: Качете изображение в библиотеката."
 
 #: ../../content/applications/essentials/html_editor.rst:246
 msgid ":guilabel:`Documents`"
@@ -3762,8 +3753,7 @@ msgstr ":guilabel:`Добавяне на URL`: Копирайте и поста�
 
 #: ../../content/applications/essentials/html_editor.rst:250
 msgid ":guilabel:`Upload a document`: Upload a document from a local drive."
-msgstr ""
-":guilabel:`Качване на документ`: Качете документ от локално устройство."
+msgstr ":guilabel:`Качване на документ`: Качете документ от локално устройство."
 
 #: ../../content/applications/essentials/html_editor.rst:252
 msgid ":guilabel:`Icons`: Search for and select one of the available icons."
@@ -3784,8 +3774,8 @@ msgid ""
 "player controls or the fullscreen button, or set a start time."
 msgstr ""
 "При добавяне на видео използвайте превключвателите, за да активирате "
-"автоматично възпроизвеждане или повторение, да скриете контролите на плейъра"
-" или бутона за цял екран, или да зададете начален момент."
+"автоматично възпроизвеждане или повторение, да скриете контролите на плейъра "
+"или бутона за цял екран, или да зададете начален момент."
 
 #: ../../content/applications/essentials/html_editor.rst:261
 msgid "Media editor toolbar"
@@ -3808,8 +3798,8 @@ msgid ""
 msgstr ""
 ":icon:`fa-search-plus` (:guilabel:`Преглед на изображение`): Прегледайте "
 "изображението, увеличете или намалете мащаба, завъртете го, отпечатайте го "
-"или го изтеглете. Излезте от прегледа, като щракнете върху иконата "
-":icon:`fa-times` :guilabel:`(затваряне)` в горния десен ъгъл."
+"или го изтеглете. Излезте от прегледа, като щракнете върху иконата :icon:`fa-"
+"times` :guilabel:`(затваряне)` в горния десен ъгъл."
 
 #: ../../content/applications/essentials/html_editor.rst:269
 msgid ""
@@ -3822,16 +3812,15 @@ msgstr ""
 #: ../../content/applications/essentials/html_editor.rst:270
 msgid ""
 ":guilabel:`Caption`: Write a caption under 100 characters below the image."
-msgstr ""
-":guilabel:`Надпис`: Напишете надпис от под 100 знака под изображението."
+msgstr ":guilabel:`Надпис`: Напишете надпис от под 100 знака под изображението."
 
 #: ../../content/applications/essentials/html_editor.rst:271
 msgid ""
 ":icon:`fa-square` (:guilabel:`Rounded`): Apply a rounded shape to the "
 "corners of the image."
 msgstr ""
-":icon:`fa-square` (:guilabel:`Заоблени`): Приложете заоблена форма на ъглите"
-" на изображението."
+":icon:`fa-square` (:guilabel:`Заоблени`): Приложете заоблена форма на ъглите "
+"на изображението."
 
 #: ../../content/applications/essentials/html_editor.rst:272
 msgid ""
@@ -3862,8 +3851,8 @@ msgid ""
 ":guilabel:`XL` sizes."
 msgstr ""
 ":icon:`fa-plus-square-o` (:guilabel:`Отстъп`): Добавете отстъп на "
-"изображението и изберете от размерите :guilabel:`Малък`, :guilabel:`Среден`,"
-" :guilabel:`Голям` или :guilabel:`XL`."
+"изображението и изберете от размерите :guilabel:`Малък`, :guilabel:`Среден`, "
+":guilabel:`Голям` или :guilabel:`XL`."
 
 #: ../../content/applications/essentials/html_editor.rst:277
 msgid ""
@@ -3933,9 +3922,8 @@ msgid ""
 " adding a URL, or uploading a different one."
 msgstr ""
 ":icon:`fa-exchange` (:guilabel:`Замяна`): Заменете изображението, като "
-"търсите в базата данни на :doc:`Unsplash "
-"</applications/general/integrations/unsplash>`, добавите URL адрес или "
-"качите друго."
+"търсите в базата данни на :doc:`Unsplash </applications/general/integrations/"
+"unsplash>`, добавите URL адрес или качите друго."
 
 #: ../../content/applications/essentials/html_editor.rst:294
 msgid ":icon:`fa-trash` (:guilabel:`Delete`): Delete the image."
@@ -3966,8 +3954,8 @@ msgid ""
 ":icon:`fa-paint-brush` (:guilabel:`Select Background Color`): Customize the "
 "background color."
 msgstr ""
-":icon:`fa-paint-brush` (:guilabel:`Избор на цвят на фона`): Персонализирайте"
-" цвета на фона."
+":icon:`fa-paint-brush` (:guilabel:`Избор на цвят на фона`): Персонализирайте "
+"цвета на фона."
 
 #: ../../content/applications/essentials/html_editor.rst:304
 msgid ":guilabel:`Resize icon`: From :guilabel:`1x` to :guilabel:`5x`."
@@ -4014,8 +4002,8 @@ msgid ""
 "recognition (OCR) and artificial intelligence (AI)."
 msgstr ""
 "Услугата :guilabel:`SMS` изпраща текстови съобщения до контакти директно от "
-"базата данни, а услугата :guilabel:`Дигитализация на документи` дигитализира"
-" сканирани или PDF фактури от доставчици, разходи и автобиографии с помощта "
+"базата данни, а услугата :guilabel:`Дигитализация на документи` дигитализира "
+"сканирани или PDF фактури от доставчици, разходи и автобиографии с помощта "
 "на оптично разпознаване на символи (OCR) и изкуствен интелект (AI)."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:19
@@ -4052,8 +4040,8 @@ msgid ""
 "|IAP| services are provided by Odoo, as well as third-parties, and have a "
 "wide range of uses."
 msgstr ""
-"Услугите |IAP| се предоставят от Odoo, както и от трети страни, и имат широк"
-" спектър от приложения."
+"Услугите |IAP| се предоставят от Odoo, както и от трети страни, и имат широк "
+"спектър от приложения."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:35
 msgid "The following |IAP| services are offered by Odoo:"
@@ -4072,8 +4060,8 @@ msgid ""
 ":guilabel:`Partner Autocomplete`: automatically populates contact records "
 "with corporate data."
 msgstr ""
-":guilabel:`Автоматично попълване на партньори`: автоматично попълва записите"
-" на контакти с корпоративни данни."
+":guilabel:`Автоматично попълване на партньори`: автоматично попълва записите "
+"на контакти с корпоративни данни."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:40
 msgid ""
@@ -4108,8 +4096,8 @@ msgid ""
 "Netherlands."
 msgstr ""
 ":guilabel:`Идентификация на подписващия с itsme®`: Помолете подписващите "
-"документи в Odoo **Sign** да предоставят своята самоличност чрез платформата"
-" за идентичност *itsme* :icon:`fa-registered`, която е налична в Белгия и "
+"документи в Odoo **Sign** да предоставят своята самоличност чрез платформата "
+"за идентичност *itsme* :icon:`fa-registered`, която е налична в Белгия и "
 "Нидерландия."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:48
@@ -4119,8 +4107,8 @@ msgid ""
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
 "За повече информация относно всяка налична в момента услуга (предлагана от "
-"разработчици, различни от Odoo), посетете `Каталога на Odoo IAP "
-"<https://iap.odoo.com/iap/all-in-app-services>`_."
+"разработчици, различни от Odoo), посетете `Каталога на Odoo IAP <https://"
+"iap.odoo.com/iap/all-in-app-services>`_."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:52
 msgid "Use IAP services"
@@ -4165,8 +4153,8 @@ msgid ""
 "One way to utilize the *SMS* |IAP| service with Odoo is showcased in the "
 "following steps:"
 msgstr ""
-"Един начин за използване на услугата *SMS* |IAP| с Odoo е показан в следните"
-" стъпки:"
+"Един начин за използване на услугата *SMS* |IAP| с Odoo е показан в следните "
+"стъпки:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:67
 msgid ""
@@ -4198,9 +4186,9 @@ msgid ""
 "form."
 msgstr ""
 "Въведете съобщение в полето :guilabel:`Съобщение` на изскачащия прозорец. "
-"След това щракнете върху бутона :guilabel:`Изпращане на SMS`. Odoo след това"
-" изпраща съобщението чрез SMS до контакта и записва какво е било изпратено в"
-" *чата* на формуляра на контакта."
+"След това щракнете върху бутона :guilabel:`Изпращане на SMS`. Odoo след това "
+"изпраща съобщението чрез SMS до контакта и записва какво е било изпратено в "
+"*чата* на формуляра на контакта."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:79
 msgid ""
@@ -4226,8 +4214,8 @@ msgstr ""
 #: ../../content/applications/essentials/in_app_purchase.rst:87
 msgid ":doc:`Lead mining <../sales/crm/acquire_leads/lead_mining>`"
 msgstr ""
-":doc:`Търсене на потенциални клиенти "
-"<../sales/crm/acquire_leads/lead_mining>`"
+":doc:`Търсене на потенциални клиенти <../sales/crm/acquire_leads/lead_mining>"
+"`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:88
 msgid ""
@@ -4253,9 +4241,9 @@ msgid ""
 "set up for when :ref:`credits are low <in_app_purchase/low-credits>`."
 msgstr ""
 "Всеки път, когато се използва услуга |IAP|, се изразходва предплатеният "
-"кредит за тази услуга. Odoo подканва за закупуване на повече кредити, когато"
-" няма достатъчно оставащ кредит за продължаване на използването на услугата."
-" Могат да се настроят и имейл известия за случаите, когато :ref:`кредитът е "
+"кредит за тази услуга. Odoo подканва за закупуване на повече кредити, когато "
+"няма достатъчно оставащ кредит за продължаване на използването на услугата. "
+"Могат да се настроят и имейл известия за случаите, когато :ref:`кредитът е "
 "нисък <in_app_purchase/low-credits>`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:101
@@ -4264,9 +4252,9 @@ msgid ""
 "<https://iap.odoo.com/iap/all-in-app-services>`_, and pricing is specific to"
 " each service."
 msgstr ""
-"Кредитите се закупуват в *пакети* от `Каталога на Odoo IAP "
-"<https://iap.odoo.com/iap/all-in-app-services>`_, а ценообразуването е "
-"специфично за всяка услуга."
+"Кредитите се закупуват в *пакети* от `Каталога на Odoo IAP <https://"
+"iap.odoo.com/iap/all-in-app-services>`_, а ценообразуването е специфично за "
+"всяка услуга."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:105
 msgid ""
@@ -4321,8 +4309,8 @@ msgid ""
 "If there are not enough credits to perform a task, the database "
 "automatically prompts the purchase of more credits."
 msgstr ""
-"Ако няма достатъчно кредит за изпълнение на задача, базата данни автоматично"
-" подканва за закупуване на повече кредити."
+"Ако няма достатъчно кредит за изпълнение на задача, базата данни автоматично "
+"подканва за закупуване на повече кредити."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:129
 msgid ""
@@ -4364,10 +4352,9 @@ msgid ""
 ":guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
 msgstr ""
 "Първо отидете на :menuselection:`приложението Настройки` и въведете `IAP` в "
-"лентата за търсене. Като алтернатива потребителите могат да превъртят надолу"
-" до раздела :guilabel:`Контакти`. В раздела :guilabel:`Контакти`, където "
-"пише :guilabel:`Odoo IAP`, щракнете върху :guilabel:`Преглед на моите "
-"услуги`."
+"лентата за търсене. Като алтернатива потребителите могат да превъртят надолу "
+"до раздела :guilabel:`Контакти`. В раздела :guilabel:`Контакти`, където пише "
+":guilabel:`Odoo IAP`, щракнете върху :guilabel:`Преглед на моите услуги`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:None
 msgid ""
@@ -4400,8 +4387,7 @@ msgstr ""
 ":guilabel:`Закупуване на кредит`. Това зарежда страница "
 ":guilabel:`Закупуване на кредити за (Акаунт IAP)` в нов раздел на браузъра. "
 "Оттук щракнете върху :guilabel:`Купи` за желания пакет кредити. След това "
-"следвайте подканите, за да въведете данни за плащане, и потвърдете "
-"поръчката."
+"следвайте подканите, за да въведете данни за плащане, и потвърдете поръчката."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:None
 msgid ""
@@ -4416,8 +4402,8 @@ msgid ""
 "Once the transaction is complete, the credits are available for use in the "
 "database."
 msgstr ""
-"След приключване на транзакцията кредитите са налични за използване в базата"
-" данни."
+"След приключване на транзакцията кредитите са налични за използване в базата "
+"данни."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:167
 msgid "Low-credit notification"
@@ -4460,8 +4446,8 @@ msgid ""
 "which user(s) should receive the email notification using the "
 ":guilabel:`Email Alert Recipients` field."
 msgstr ""
-"Задайте :guilabel:`Праг за имейл известие` на сумата кредит, която трябва да"
-" предизвика известие за нисък кредит, когато балансът падне под нея. След "
+"Задайте :guilabel:`Праг за имейл известие` на сумата кредит, която трябва да "
+"предизвика известие за нисък кредит, когато балансът падне под нея. След "
 "това изберете кой потребител(и) трябва да получава имейл известието, "
 "използвайки полето :guilabel:`Получатели на имейл известия`."
 
@@ -4508,8 +4494,8 @@ msgid ""
 "Below is a list of some of the most commonly used keyboard shortcuts within "
 "Odoo, listed by operating system."
 msgstr ""
-"По-долу е даден списък с някои от най-често използваните клавишни комбинации"
-" в Odoo, подредени по операционна система."
+"По-долу е даден списък с някои от най-често използваните клавишни комбинации "
+"в Odoo, подредени по операционна система."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:29
 msgid "Description"
@@ -4517,11 +4503,11 @@ msgstr "Описание"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:30
 msgid "Windows / Linux"
-msgstr "Windows / Linux"
+msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:31
 msgid "macOS"
-msgstr "macOS"
+msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:32
 msgid "Previous breadcrumb"
@@ -4529,11 +4515,11 @@ msgstr "Предишен елемент от навигационната път
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:33
 msgid ":kbd:`Alt` + :kbd:`B`"
-msgstr ":kbd:`Alt` + :kbd:`B`"
+msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:34
 msgid ":kbd:`Ctrl` + :kbd:`B`"
-msgstr ":kbd:`Ctrl` + :kbd:`B`"
+msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:35
 msgid "Create new record"
@@ -4541,11 +4527,11 @@ msgstr "Създаване на нов запис"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:36
 msgid ":kbd:`Alt` + :kbd:`C`"
-msgstr ":kbd:`Alt` + :kbd:`C`"
+msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:37
 msgid ":kbd:`Ctrl` + :kbd:`C`"
-msgstr ":kbd:`Ctrl` + :kbd:`C`"
+msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:38
 msgid "Odoo Home Page"
@@ -4633,7 +4619,7 @@ msgstr ":kbd:`Ctrl` + :kbd:`1-9`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:59
 msgid "Create a new To-Do"
-msgstr "Създаване на нова задача (To-Do)"
+msgstr "Създаване на нова задача"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:60
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`T`"
@@ -4645,7 +4631,7 @@ msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:62
 msgid "Search a Knowledge article"
-msgstr "Търсене на статия в Knowledge"
+msgstr "Търсене на статия от Knowledge"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:63
 msgid ":kbd:`Alt` + :kbd:`F`"
@@ -4657,7 +4643,7 @@ msgstr ":kbd:`Ctrl` + :kbd:`F`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:65
 msgid "Share a Knowledge article"
-msgstr "Споделяне на статия в Knowledge"
+msgstr "Споделяне на статия от Knowledge"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:66
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`S`"
@@ -4684,7 +4670,7 @@ msgid ""
 "After opening the command palette, search using the following keyboard "
 "shortcuts:"
 msgstr ""
-"След отваряне на палитрата с команди, търсете, като използвате следните "
+"След отваряне на палитрата с команди, потърсете, като използвате следните "
 "клавишни комбинации:"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:75
@@ -4709,9 +4695,9 @@ msgid ""
 "through the available options. Then, click :kbd:`Ctrl` + :kbd:`Enter` to "
 "open the selected app, module, or menu in a new tab."
 msgstr ""
-"Въведете име (или термин) в лентата за търсене или използвайте клавишите със"
-" стрелки, за да прегледате наличните опции. След това натиснете :kbd:`Ctrl` "
-"+ :kbd:`Enter`, за да отворите избраното приложение, модул или меню в нов "
+"Въведете име (или термин) в лентата за търсене или използвайте клавишите със "
+"стрелки, за да превъртите наличните опции. След това натиснете :kbd:`Ctrl` + "
+":kbd:`Enter`, за да отворите избраното приложение, модул или меню в нов "
 "раздел."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
@@ -4745,8 +4731,8 @@ msgstr ""
 "Каталогът с продукти може да бъде достъпен от първия раздел на формуляр за "
 "оферта, заявка за оферта (RfQ), поръчка или спецификация на материалите "
 "(BoM) и се отваря на нова страница при избор. Каталогът показва продукти и "
-"компоненти в удобен за потребителя формат, подобен на POS, от който те могат"
-" да бъдат избрани и добавени към формулярите."
+"компоненти в удобен за потребителя формат, подобен на POS, от който те могат "
+"да бъдат избрани и добавени към формулярите."
 
 #: ../../content/applications/essentials/product_catalog.rst:19
 msgid ""
@@ -4755,9 +4741,9 @@ msgid ""
 " and more, by providing a visual interface through which products and "
 "components can be quickly selected."
 msgstr ""
-"Каталогът с продукти опростява създаването на нови поръчки за продажба "
-"(SOs), поръчки за покупка (POs), производствени поръчки (MOs), спецификации "
-"на материалите (BoMs) и др., като предоставя визуален интерфейс, чрез който "
+"Каталогът с продукти опростява създаването на нови поръчки за продажба (SOs)"
+", поръчки за покупка (POs), производствени поръчки (MOs), спецификации на "
+"материалите (BoMs) и др., като предоставя визуален интерфейс, чрез който "
 "продуктите и компонентите могат бързо да бъдат избрани."
 
 #: ../../content/applications/essentials/product_catalog.rst:24
@@ -4783,10 +4769,9 @@ msgid ""
 " bottom is selected. Depending on the form being configured, this tab may be"
 " titled *Order Lines*, *Components*, *Products*, or *Parts*."
 msgstr ""
-"Във формуляра (оферта, |RfQ|, поръчка, |BoM|), уверете се, че първият раздел"
-" в долната част е избран. В зависимост от конфигурирания формуляр, този "
-"раздел може да се нарича *Order Lines*, *Components*, *Products* или "
-"*Parts*."
+"Във формуляра (оферта, |RfQ|, поръчка, |BoM|), уверете се, че първият раздел "
+"в долната част е избран. В зависимост от конфигурирания формуляр, този "
+"раздел може да се нарича *Order Lines*, *Components*, *Products* или *Parts*."
 
 #: ../../content/applications/essentials/product_catalog.rst:34
 msgid ""
@@ -4871,9 +4856,9 @@ msgid ""
 "already been added to the form."
 msgstr ""
 "При създаване или конфигуриране на оферта или |SO|, по-конкретно се появява "
-"филтър :guilabel:`In the Order` в секцията :guilabel:`Filters` на лентата за"
-" търсене. Изберете този филтър, за да покажете само продуктите, които вече "
-"са добавени към формуляра."
+"филтър :guilabel:`In the Order` в секцията :guilabel:`Filters` на лентата за "
+"търсене. Изберете този филтър, за да покажете само продуктите, които вече са "
+"добавени към формуляра."
 
 #: ../../content/applications/essentials/product_catalog.rst:68
 msgid ""
@@ -4882,8 +4867,8 @@ msgid ""
 " category, or an option in the :icon:`fa-th-list` :guilabel:`ATTRIBUTES` "
 "section to filter by variant attribute."
 msgstr ""
-"В страничната лента от лявата страна на страницата изберете опция в секцията"
-" :icon:`fa-th-list` :guilabel:`PRODUCT CATEGORY`, за да филтрирате по "
+"В страничната лента от лявата страна на страницата изберете опция в секцията "
+":icon:`fa-th-list` :guilabel:`PRODUCT CATEGORY`, за да филтрирате по "
 "категория продукт, или опция в секцията :icon:`fa-th-list` "
 ":guilabel:`ATTRIBUTES`, за да филтрирате по атрибут на варианта."
 
@@ -4967,8 +4952,8 @@ msgid ""
 "available, or inventory inconsistencies may arise."
 msgstr ""
 "Продуктите се появяват в каталога с продукти и могат да бъдат добавени към "
-"поръчки, дори ако наличността на продукта е нула единици. В резултат на това"
-" е важно да потвърдите, че количеството на продукта, добавяно към поръчка, "
+"поръчки, дори ако наличността на продукта е нула единици. В резултат на това "
+"е важно да потвърдите, че количеството на продукта, добавяно към поръчка, "
 "действително е налично, в противен случай могат да възникнат несъответствия "
 "в наличностите."
 
@@ -4983,10 +4968,10 @@ msgid ""
 "<property_field/add>`. These fields allow information storage and management"
 " by adding values."
 msgstr ""
-"Полетата за свойства, или свойствата, позволяват персонализирането на изглед"
-" :ref:`формуляр <studio/views/general/form>` чрез добавяне на различни "
-":ref:`типове полета <property_field/add>`. Тези полета позволяват съхранение"
-" и управление на информация чрез добавяне на стойности."
+"Полетата за свойства, или свойствата, позволяват персонализирането на изглед "
+":ref:`формуляр <studio/views/general/form>` чрез добавяне на различни "
+":ref:`типове полета <property_field/add>`. Тези полета позволяват съхранение "
+"и управление на информация чрез добавяне на стойности."
 
 #: ../../content/applications/essentials/property_fields.rst:9
 msgid "Property vs. regular fields"
@@ -4998,8 +4983,8 @@ msgid ""
 " saved as columns in the database. They also rely on a defined :ref:`parent "
 "record <property-fields/properties-apps>`."
 msgstr ""
-"Свойствата действат като псевдо-полета; те се държат като обикновени полета,"
-" но не се запазват като колони в базата данни. Те също така разчитат на "
+"Свойствата действат като псевдо-полета; те се държат като обикновени полета, "
+"но не се запазват като колони в базата данни. Те също така разчитат на "
 "дефиниран :ref:`родителски запис <property-fields/properties-apps>`."
 
 #: ../../content/applications/essentials/property_fields.rst:15
@@ -5021,10 +5006,9 @@ msgid ""
 "<studio/views/general/form>`, click the :icon:`fa-cog` (:guilabel:`Actions`)"
 " icon, then select :icon:`fa-cogs` :guilabel:`Edit Properties`."
 msgstr ""
-"За да добавите първо поле за свойство към :ref:`изглед формуляр "
-"<studio/views/general/form>`, натиснете иконата :icon:`fa-cog` "
-"(:guilabel:`Actions`), след което изберете :icon:`fa-cogs` :guilabel:`Edit "
-"Properties`."
+"За да добавите първо поле за свойство към :ref:`изглед формуляр <studio/"
+"views/general/form>`, натиснете иконата :icon:`fa-cog` (:guilabel:`Actions`)"
+", след което изберете :icon:`fa-cogs` :guilabel:`Edit Properties`."
 
 #: ../../content/applications/essentials/property_fields.rst:26
 msgid ""
@@ -5046,7 +5030,7 @@ msgstr "Опции"
 
 #: ../../content/applications/essentials/property_fields.rst:36
 msgid ":ref:`Text <studio/fields/simple-fields-text>`"
-msgstr ":ref:`Text <studio/fields/simple-fields-text>`"
+msgstr ":ref:`Текст <studio/fields/simple-fields-text>`"
 
 #: ../../content/applications/essentials/property_fields.rst:37
 msgid "Short text on a single line"
@@ -5059,11 +5043,11 @@ msgstr "Кратък текст на един ред"
 #: ../../content/applications/essentials/property_fields.rst:53
 #: ../../content/applications/essentials/property_fields.rst:56
 msgid "Enter a :guilabel:`Default Value` if desired."
-msgstr "Въведете :guilabel:`Default Value`, ако желаете."
+msgstr "Въведете :guilabel:`Стойност по подразбиране`, ако желаете."
 
 #: ../../content/applications/essentials/property_fields.rst:39
 msgid ":ref:`Multiline Text <studio/fields/simple-fields-multiline-text>`"
-msgstr ":ref:`Multiline Text <studio/fields/simple-fields-multiline-text>`"
+msgstr ":ref:`Многоредов текст <studio/fields/simple-fields-multiline-text>`"
 
 #: ../../content/applications/essentials/property_fields.rst:40
 msgid "Full text on multiple lines"
@@ -5079,7 +5063,7 @@ msgstr "HTML поле"
 
 #: ../../content/applications/essentials/property_fields.rst:45
 msgid ":ref:`Checkbox <studio/fields/simple-fields-checkbox>`"
-msgstr ":ref:`Checkbox <studio/fields/simple-fields-checkbox>`"
+msgstr ":ref:`Отметка <studio/fields/simple-fields-checkbox>`"
 
 #: ../../content/applications/essentials/property_fields.rst:46
 msgid "Checked or unchecked status"
@@ -5087,38 +5071,39 @@ msgstr "Отметнат или неотметнат статус"
 
 #: ../../content/applications/essentials/property_fields.rst:47
 msgid "Choose the :guilabel:`Default State`."
-msgstr "Изберете :guilabel:`Default State`."
+msgstr "Изберете :guilabel:`Състояние по подразбиране`."
 
 #: ../../content/applications/essentials/property_fields.rst:48
 msgid ":ref:`Integer <studio/fields/simple-fields-integer>`"
-msgstr ":ref:`Integer <studio/fields/simple-fields-integer>`"
+msgstr ":ref:`Цяло число <studio/fields/simple-fields-integer>`"
 
 #: ../../content/applications/essentials/property_fields.rst:49
 msgid ""
 "Integer numbers (:dfn:`positive, negative, or zero, without a decimal`)"
 msgstr ""
-"Цели числа (:dfn:`положителни, отрицателни или нула, без десетичен знак`)"
+"Цели числа (:dfn:`положителни, отрицателни или нула, без десетична запетая`)"
 
 #: ../../content/applications/essentials/property_fields.rst:51
 msgid ":ref:`Decimal <studio/fields/simple-fields-decimal>`"
-msgstr ":ref:`Decimal <studio/fields/simple-fields-decimal>`"
+msgstr ":ref:`Десетично число <studio/fields/simple-fields-decimal>`"
 
 #: ../../content/applications/essentials/property_fields.rst:52
 msgid "Decimal numbers (:dfn:`positive, negative, or zero, with a decimal`)"
 msgstr ""
-"Десетични числа (:dfn:`положителни, отрицателни или нула, с десетичен знак`)"
+"Десетични числа (:dfn:`положителни, отрицателни или нула, с десетична "
+"запетая`)"
 
 #: ../../content/applications/essentials/property_fields.rst:54
 msgid ":ref:`Monetary <studio/fields/simple-fields-monetary>`"
-msgstr ":ref:`Monetary <studio/fields/simple-fields-monetary>`"
+msgstr ":ref:`Паричен <studio/fields/simple-fields-monetary>`"
 
 #: ../../content/applications/essentials/property_fields.rst:55
 msgid "Selection of a (cost) currency"
-msgstr "Избор на валута (за себестойност)"
+msgstr "Избор на (разходна) валута"
 
 #: ../../content/applications/essentials/property_fields.rst:57
 msgid ":ref:`Date <studio/fields/simple-fields-date>`"
-msgstr ":ref:`Date <studio/fields/simple-fields-date>`"
+msgstr ":ref:`Дата <studio/fields/simple-fields-date>`"
 
 #: ../../content/applications/essentials/property_fields.rst:58
 msgid "Selection of a date on a calendar"
@@ -5129,11 +5114,11 @@ msgstr "Избор на дата от календар"
 #: ../../content/applications/essentials/property_fields.rst:85
 #: ../../content/applications/essentials/property_fields.rst:91
 msgid "Select a :guilabel:`Default Value` if desired."
-msgstr "Изберете :guilabel:`Default Value`, ако желаете."
+msgstr "Изберете :guilabel:`Стойност по подразбиране`, ако желаете."
 
 #: ../../content/applications/essentials/property_fields.rst:60
 msgid ":ref:`Date & Time <studio/fields/simple-fields-date-time>`"
-msgstr ":ref:`Date & Time <studio/fields/simple-fields-date-time>`"
+msgstr ":ref:`Дата и час <studio/fields/simple-fields-date-time>`"
 
 #: ../../content/applications/essentials/property_fields.rst:61
 msgid "Selection of a date on a calendar and a time on a clock"
@@ -5141,7 +5126,7 @@ msgstr "Избор на дата от календар и час от часов
 
 #: ../../content/applications/essentials/property_fields.rst:63
 msgid ":ref:`Selection <studio/fields/simple-fields-selection>`"
-msgstr ":ref:`Selection <studio/fields/simple-fields-selection>`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:64
 msgid "Selection of a value from a group of predefined values"
@@ -5181,7 +5166,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:75
 msgid ":ref:`Tags <studio/fields/relational-fields-tags>`"
-msgstr ":ref:`Tags <studio/fields/relational-fields-tags>`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:76
 msgid "Selection of multiple values in the form of tags"
@@ -5189,8 +5174,7 @@ msgstr "Избор на множество стойности под форма�
 
 #: ../../content/applications/essentials/property_fields.rst:77
 msgid "Enter a :guilabel:`Tag` name and press `Enter` to save it."
-msgstr ""
-"Въведете име на :guilabel:`Tag` и натиснете `Enter`, за да го запазите."
+msgstr "Въведете име на :guilabel:`Tag` и натиснете `Enter`, за да го запазите."
 
 #: ../../content/applications/essentials/property_fields.rst:79
 msgid "Change a tag's color by clicking it and selecting another one."
@@ -5198,7 +5182,7 @@ msgstr "Променете цвета на етикет, като натисне
 
 #: ../../content/applications/essentials/property_fields.rst:80
 msgid ":ref:`Many2one <studio/fields/relational-fields-many2one>`"
-msgstr ":ref:`Many2one <studio/fields/relational-fields-many2one>`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:81
 msgid "Selection of a single record from another model"
@@ -5215,7 +5199,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:86
 msgid ":ref:`Many2many <studio/fields/relational-fields-many2many>`"
-msgstr ":ref:`Many2many <studio/fields/relational-fields-many2many>`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:87
 msgid "Selection of multiple records from another model"
@@ -5223,7 +5207,7 @@ msgstr "Избор на множество записи от друг модел
 
 #: ../../content/applications/essentials/property_fields.rst:92
 msgid ":guilabel:`Separator`"
-msgstr ":guilabel:`Separator`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:93
 msgid "Group several properties under a foldable label"
@@ -5240,8 +5224,8 @@ msgstr ""
 "Въведете :guilabel:`Suffix`, за да добавите контекстно описание след "
 "стойността на полето. Например, за да посочите цената на километър, "
 "използвайте полето :guilabel:`Monetary` и го наименувайте **Cost**, след "
-"което въведете **per km** в полето :guilabel:`Suffix`. Свойството ще показва"
-" следното: **Cost** [добавена стойност] **per km**."
+"което въведете **per km** в полето :guilabel:`Suffix`. Свойството ще показва "
+"следното: **Cost** [добавена стойност] **per km**."
 
 #: ../../content/applications/essentials/property_fields.rst:101
 msgid ""
@@ -5283,16 +5267,16 @@ msgid ""
 msgstr ""
 "Кликнете бутона :icon:`fa-pencil` (:guilabel:`pencil`), за да отворите "
 "изскачащ прозорец и да промените свойството. В изскачащия прозорец кликнете "
-"стрелката :icon:`fa-chevron-up` (нагоре) или :icon:`fa-chevron-down` "
-"(надолу), за да преместите свойството нагоре или надолу."
+"стрелката :icon:`fa-chevron-up` (нагоре) или :icon:`fa-chevron-down` (надолу)"
+", за да преместите свойството нагоре или надолу."
 
 #: ../../content/applications/essentials/property_fields.rst:114
 msgid ""
 "Click :icon:`fa-trash` :guilabel:`Delete`, then :guilabel:`Delete` to "
 "permanently remove it."
 msgstr ""
-"Кликнете :icon:`fa-trash` :guilabel:`Delete`, след което :guilabel:`Delete`,"
-" за да го премахнете за постоянно."
+"Кликнете :icon:`fa-trash` :guilabel:`Delete`, след което :guilabel:`Delete`, "
+"за да го премахнете за постоянно."
 
 #: ../../content/applications/essentials/property_fields.rst:115
 msgid ""
@@ -5304,8 +5288,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:118
 msgid "Click outside the popover to save the added property."
-msgstr ""
-"Кликнете извън изскачащия прозорец, за да запазите добавеното свойство."
+msgstr "Кликнете извън изскачащия прозорец, за да запазите добавеното свойство."
 
 #: ../../content/applications/essentials/property_fields.rst:123
 msgid "Properties across apps"
@@ -5317,8 +5300,8 @@ msgid ""
 "<studio/views/general/form>` of multiple models. Once set, the property is "
 "shared by all records that are linked to the same *parent*."
 msgstr ""
-"Полетата за свойства могат да бъдат дефинирани във :ref:`формуляра "
-"<studio/views/general/form>` на множество модели. След като бъде зададено, "
+"Полетата за свойства могат да бъдат дефинирани във :ref:`формуляра <studio/"
+"views/general/form>` на множество модели. След като бъде зададено, "
 "свойството се споделя от всички записи, свързани със същия *родител*."
 
 #: ../../content/applications/essentials/property_fields.rst:133
@@ -5335,7 +5318,7 @@ msgstr "Родител"
 
 #: ../../content/applications/essentials/property_fields.rst:136
 msgid ":guilabel:`Accounting`"
-msgstr ":guilabel:`Accounting`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:137
 msgid ":ref:`Asset/Revenue Recognition <create-assets-entry>`"
@@ -5355,7 +5338,7 @@ msgstr ":ref:`Дневник <cheat_sheet/journals>`"
 
 #: ../../content/applications/essentials/property_fields.rst:143
 msgid ":guilabel:`Appraisals`"
-msgstr ":guilabel:`Appraisals`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:144
 msgid ":ref:`Employee Appraisal <appraisals/manual>`"
@@ -5367,7 +5350,7 @@ msgstr ":ref:`Отдел <employee/create-departments>`"
 
 #: ../../content/applications/essentials/property_fields.rst:146
 msgid ":guilabel:`Approvals`"
-msgstr ":guilabel:`Approvals`"
+msgstr ":guilabel:`Одобрения`"
 
 #: ../../content/applications/essentials/property_fields.rst:147
 msgid "Approval Request"
@@ -5386,16 +5369,16 @@ msgstr ":guilabel:`CRM`"
 msgid ""
 ":doc:`Lead/Opportunity </applications/sales/crm/acquire_leads/email_manual>`"
 msgstr ""
-":doc:`Потенциален клиент/Възможност "
-"</applications/sales/crm/acquire_leads/email_manual>`"
+":doc:`Потенциален клиент/Възможност </applications/sales/crm/acquire_leads/"
+"email_manual>`"
 
 #: ../../content/applications/essentials/property_fields.rst:151
 msgid ":ref:`Sales team <crm/sales-team-dashboard>`"
-msgstr ":ref:`Търговски екип <crm/sales-team-dashboard>`"
+msgstr ":ref:`Екип по продажбите <crm/sales-team-dashboard>`"
 
 #: ../../content/applications/essentials/property_fields.rst:152
 msgid ":guilabel:`Employees`"
-msgstr ":guilabel:`Employees`"
+msgstr ":guilabel:`Служители`"
 
 #: ../../content/applications/essentials/property_fields.rst:153
 #: ../../content/applications/essentials/property_fields.rst:189
@@ -5409,14 +5392,14 @@ msgstr ":ref:`Компания <employees/general-info>`"
 
 #: ../../content/applications/essentials/property_fields.rst:155
 msgid ":guilabel:`Events`"
-msgstr ":guilabel:`Events`"
+msgstr ":guilabel:`Събития`"
 
 #: ../../content/applications/essentials/property_fields.rst:156
 msgid ""
 ":doc:`Event Registration </applications/marketing/events/registration_desk>`"
 msgstr ""
-":doc:`Регистрация за събитие "
-"</applications/marketing/events/registration_desk>`"
+":doc:`Регистрация за събитие </applications/marketing/events/"
+"registration_desk>`"
 
 #: ../../content/applications/essentials/property_fields.rst:157
 msgid ":ref:`Event <events/new-event>`"
@@ -5424,7 +5407,7 @@ msgstr ":ref:`Събитие <events/new-event>`"
 
 #: ../../content/applications/essentials/property_fields.rst:158
 msgid ":guilabel:`Fleet`"
-msgstr ":guilabel:`Fleet`"
+msgstr ":guilabel:`Автопарк`"
 
 #: ../../content/applications/essentials/property_fields.rst:159
 msgid ":doc:`Vehicle </applications/hr/fleet/new_vehicle>`"
@@ -5432,47 +5415,47 @@ msgstr ":doc:`Превозно средство </applications/hr/fleet/new_vehi
 
 #: ../../content/applications/essentials/property_fields.rst:160
 msgid ":ref:`Vehicle model <fleet/add-model>`"
-msgstr ":ref:`Модел превозно средство <fleet/add-model>`"
+msgstr ":ref:`Модел на превозно средство <fleet/add-model>`"
 
 #: ../../content/applications/essentials/property_fields.rst:161
 msgid ":guilabel:`Frontdesk`"
-msgstr ":guilabel:`Frontdesk`"
+msgstr ":guilabel:`Рецепция`"
 
 #: ../../content/applications/essentials/property_fields.rst:162
 msgid ":ref:`Frontdesk Visitors <frontdesk/list>`"
-msgstr ":ref:`Посетители на рецепция <frontdesk/list>`"
+msgstr ":ref:`Посетители на рецепцията <frontdesk/list>`"
 
 #: ../../content/applications/essentials/property_fields.rst:163
 msgid ":ref:`Station <frontdesk/stations>`"
-msgstr ":ref:`Гише <frontdesk/stations>`"
+msgstr ":ref:`Станция <frontdesk/stations>`"
 
 #: ../../content/applications/essentials/property_fields.rst:164
 msgid ":guilabel:`Helpdesk`"
-msgstr ":guilabel:`Helpdesk`"
+msgstr ":guilabel:`Бюро за помощ`"
 
 #: ../../content/applications/essentials/property_fields.rst:165
 msgid ":ref:`Ticket <helpdesk/follow>`"
-msgstr ":ref:`Тикет <helpdesk/follow>`"
+msgstr ":ref:`Заявка <helpdesk/follow>`"
 
 #: ../../content/applications/essentials/property_fields.rst:166
 msgid ":ref:`Helpdesk team <helpdesk/create-team>`"
-msgstr ":ref:`Екип по поддръжка <helpdesk/create-team>`"
+msgstr ":ref:`Екип от бюро за помощ <helpdesk/create-team>`"
 
 #: ../../content/applications/essentials/property_fields.rst:167
 msgid ":guilabel:`Inventory`"
-msgstr ":guilabel:`Inventory`"
+msgstr ":guilabel:`Склад`"
 
 #: ../../content/applications/essentials/property_fields.rst:168
 msgid ":ref:`Lot/Serial <inventory/product_management/edit-lot>`"
-msgstr ":ref:`Партида/сериен номер <inventory/product_management/edit-lot>`"
+msgstr ":ref:`Партида/Сериен номер <inventory/product_management/edit-lot>`"
 
 #: ../../content/applications/essentials/property_fields.rst:170
 msgid ""
 ":doc:`Transfer "
 "</applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/wave>`"
 msgstr ""
-":doc:`Трансфер "
-"</applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/wave>`"
+":doc:`Трансфер </applications/inventory_and_mrp/inventory/shipping_receiving/"
+"picking_methods/wave>`"
 
 #: ../../content/applications/essentials/property_fields.rst:173
 msgid ":ref:`Batch Transfer <inventory/misc/batch_picking>`"
@@ -5491,12 +5474,11 @@ msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:179
 msgid ":guilabel:`Knowledge`"
-msgstr ":guilabel:`Knowledge`"
+msgstr ":guilabel:`Знания`"
 
 #: ../../content/applications/essentials/property_fields.rst:180
 msgid ":ref:`Knowledge Article <knowledge/articles_editing/create-article>`"
-msgstr ""
-":ref:`Статия от база знания <knowledge/articles_editing/create-article>`"
+msgstr ":ref:`Статия от Знания <knowledge/articles_editing/create-article>`"
 
 #: ../../content/applications/essentials/property_fields.rst:181
 msgid ":ref:`Parent article <knowledge/articles_editing/create-article>`"
@@ -5504,31 +5486,31 @@ msgstr ":ref:`Родителска статия <knowledge/articles_editing/crea
 
 #: ../../content/applications/essentials/property_fields.rst:182
 msgid ":guilabel:`Maintenance`"
-msgstr ":guilabel:`Maintenance`"
+msgstr ":guilabel:`Поддръжка`"
 
 #: ../../content/applications/essentials/property_fields.rst:183
 msgid ""
 ":ref:`Maintenance Equipment "
 "<maintenance/equipment_management/add_new_equipment>`"
 msgstr ""
-":ref:`Оборудване за поддръжка "
-"<maintenance/equipment_management/add_new_equipment>`"
+":ref:`Оборудване за поддръжка <maintenance/equipment_management/"
+"add_new_equipment>`"
 
 #: ../../content/applications/essentials/property_fields.rst:184
 msgid ""
 ":ref:`Equipment category "
 "<maintenance/equipment_management/add_new_equipment>`"
 msgstr ""
-":ref:`Категория оборудване "
-"<maintenance/equipment_management/add_new_equipment>`"
+":ref:`Категория на оборудването <maintenance/equipment_management/"
+"add_new_equipment>`"
 
 #: ../../content/applications/essentials/property_fields.rst:185
 msgid ":guilabel:`Meeting Rooms`"
-msgstr ":guilabel:`Meeting Rooms`"
+msgstr ":guilabel:`Заседателни зали`"
 
 #: ../../content/applications/essentials/property_fields.rst:186
 msgid "Room"
-msgstr "Зала"
+msgstr "Стая"
 
 #: ../../content/applications/essentials/property_fields.rst:187
 msgid "Office"
@@ -5536,7 +5518,7 @@ msgstr "Офис"
 
 #: ../../content/applications/essentials/property_fields.rst:188
 msgid ":guilabel:`Payroll`"
-msgstr ":guilabel:`Payroll`"
+msgstr ":guilabel:`Заплати`"
 
 #: ../../content/applications/essentials/property_fields.rst:191
 msgid ":ref:`Payslip <payroll/new-payslip>`"
@@ -5548,7 +5530,7 @@ msgstr ":ref:`Структура <payroll/structure-types>`"
 
 #: ../../content/applications/essentials/property_fields.rst:195
 msgid ":guilabel:`Planning`"
-msgstr ":guilabel:`Planning`"
+msgstr ":guilabel:`Планиране`"
 
 #: ../../content/applications/essentials/property_fields.rst:196
 msgid ":ref:`Shift <planning/roles>`"
@@ -5560,7 +5542,7 @@ msgstr ":ref:`Роля <planning/roles>`"
 
 #: ../../content/applications/essentials/property_fields.rst:198
 msgid ":guilabel:`Project` / :guilabel:`Field Service`"
-msgstr ":guilabel:`Project` / :guilabel:`Field Service`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:199
 msgid ":ref:`Task <task_creation/task-configuration>`"
@@ -5572,23 +5554,23 @@ msgstr ":ref:`Проект <project_management/configuration>`"
 
 #: ../../content/applications/essentials/property_fields.rst:201
 msgid ":guilabel:`Recruitment`"
-msgstr ":guilabel:`Recruitment`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:202
-msgid ":ref:`Applicant <recruitment/quick-add-applicant>`"
-msgstr ":ref:`Кандидат <recruitment/quick-add-applicant>`"
+msgid ":ref:`Applicant <recruitment/add_applicants/quick-add-applicant>`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:204
-msgid ":ref:`Job Position <recruitment/new_job_position/edit>`"
-msgstr ":ref:`Позиция <recruitment/new_job_position/edit>`"
+msgid ":ref:`Job Position <recruitment/new_job/configure-job-position>`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:206
 msgid "Candidate"
 msgstr "Кандидат"
 
 #: ../../content/applications/essentials/property_fields.rst:207
-msgid ":ref:`Job position <job-position/create-job-position>`"
-msgstr ":ref:`Позиция <job-position/create-job-position>`"
+msgid ":ref:`Job position <recruitment/new_job/create-job-position>`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:209
 #: ../../content/applications/essentials/property_fields.rst:211
@@ -5598,7 +5580,7 @@ msgstr ":ref:`Компания <general/companies/company>`"
 
 #: ../../content/applications/essentials/property_fields.rst:212
 msgid ":guilabel:`Repairs`"
-msgstr ":guilabel:`Repairs`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:213
 msgid ":ref:`Repair order <repairs/repair_orders/repair>`"
@@ -5644,8 +5626,8 @@ msgid ""
 "You can find several reports under the :guilabel:`Reporting` menu of most "
 "apps that let you analyze and visualize the data of your records."
 msgstr ""
-"Можете да намерите няколко отчета в менюто :guilabel:`Reporting` на повечето"
-" приложения, което ви позволява да анализирате и визуализирате данните на "
+"Можете да намерите няколко отчета в менюто :guilabel:`Reporting` на повечето "
+"приложения, което ви позволява да анализирате и визуализирате данните на "
 "вашите записи."
 
 #: ../../content/applications/essentials/reporting.rst:11
@@ -5659,11 +5641,10 @@ msgid ""
 "several views are available for others. However, two generic views are "
 "dedicated to reporting: the graph and pivot views."
 msgstr ""
-"В зависимост от отчета, Odoo може да показва данните по различни начини. "
-"Понякога е наличен уникален изглед, изцяло съобразен с отчета, докато за "
-"други са налични няколко изгледа. Въпреки това два общи изгледа са "
-"предназначени специално за отчитане: графичният изглед и изгледът тип "
-"обобщена таблица."
+"В зависимост от отчета Odoo може да показва данните по различни начини. "
+"Понякога е налице уникален изглед, напълно съобразен с отчета, докато за "
+"други са налични няколко изгледа. Има обаче два общи изгледа, предназначени "
+"за отчитане: изгледът с графика и изгледът с обобщена таблица."
 
 #: ../../content/applications/essentials/reporting.rst:20
 msgid "Graph view"
@@ -5677,19 +5658,19 @@ msgid ""
 "elsewhere. Click the **graph view button** located at the top right to "
 "access it."
 msgstr ""
-"Графичният изглед (:ref:`graph view <reporting/using-graph>`) се използва за"
-" визуализиране на данните на вашите записи, като ви помага да идентифицирате"
-" модели и тенденции. Изгледът често се намира в менюто :guilabel:`Reporting`"
-" на приложенията, но може да бъде намерен и другаде. Кликнете **бутона за "
-"графичен изглед**, разположен горе вдясно, за да получите достъп до него."
+"Изгледът с :ref:`графика <reporting/using-graph>` се използва за "
+"визуализиране на данните от записите ви, за да ви помогне да откриете модели "
+"и тенденции. Този изглед често се намира в менюто :guilabel:`Справки` на "
+"приложенията, но може да бъде намерен и другаде. Кликнете върху **бутона за "
+"изглед с графика**, разположен горе вдясно, за да го отворите."
 
 #: ../../content/applications/essentials/reporting.rst:None
 msgid "Selecting the graph view"
-msgstr "Избор на графичен изглед"
+msgstr "Избор на изглед с графика"
 
 #: ../../content/applications/essentials/reporting.rst:32
 msgid "Pivot view"
-msgstr "Изглед тип обобщена таблица"
+msgstr "Изглед с обобщена таблица"
 
 #: ../../content/applications/essentials/reporting.rst:34
 msgid ""
@@ -5698,20 +5679,19 @@ msgid ""
 "the :guilabel:`Reporting` menu of apps but can be found elsewhere. Click the"
 " **pivot view button** located at the top right to access it."
 msgstr ""
-"Изгледът тип обобщена таблица (:ref:`pivot view <reporting/using-pivot>`) се"
-" използва за агрегиране на данните на вашите записи и разбивката им за "
-"анализ. Изгледът често се намира в менюто :guilabel:`Reporting` на "
-"приложенията, но може да бъде намерен и другаде. Кликнете **бутона за изглед"
-" тип обобщена таблица**, разположен горе вдясно, за да получите достъп до "
-"него."
+"Изгледът с :ref:`обобщена таблица <reporting/using-pivot>` се използва за "
+"обобщаване на данните от записите ви и разбиването им за анализ. Този изглед "
+"често се намира в менюто :guilabel:`Справки` на приложенията, но може да "
+"бъде намерен и другаде. Кликнете върху **бутона за изглед с обобщена "
+"таблица**, разположен горе вдясно, за да го отворите."
 
 #: ../../content/applications/essentials/reporting.rst:None
 msgid "Selecting the pivot view"
-msgstr "Избор на изглед тип обобщена таблица"
+msgstr "Избор на изглед с обобщена таблица"
 
 #: ../../content/applications/essentials/reporting.rst:44
 msgid "Choosing measures"
-msgstr "Избор на показатели"
+msgstr "Избор на мерки"
 
 #: ../../content/applications/essentials/reporting.rst:46
 msgid ""
@@ -5720,11 +5700,11 @@ msgid ""
 "default, a measure is always selected. If you wish to edit it, click "
 ":guilabel:`Measures` and choose one or, only for pivots, multiple measures."
 msgstr ""
-"След като изберете изглед, трябва да се уверите, че само релевантните записи"
-" са :doc:`филтрирани <search>`. След това трябва да изберете какво да бъде "
-"измервано. По подразбиране винаги е избран един показател. Ако желаете да го"
-" редактирате, кликнете :guilabel:`Measures` и изберете един, или само за "
-"обобщени таблици — няколко показателя."
+"След като изберете изглед, трябва да се уверите, че само съответните записи "
+"са :doc:`филтрирани <search>`. След това трябва да изберете какво да се "
+"измерва. По подразбиране винаги е избрана мярка. Ако искате да я "
+"редактирате, кликнете върху :guilabel:`Мерки` и изберете една или, само за "
+"обобщени таблици, няколко мерки."
 
 #: ../../content/applications/essentials/reporting.rst:51
 msgid ""
@@ -5735,13 +5715,12 @@ msgid ""
 "can be measured. In addition, the :guilabel:`Count` option is used to count "
 "the total number of filtered records."
 msgstr ""
-"Когато изберете показател, Odoo агрегира стойностите, записани в това поле "
-"за филтрираните записи. Само числови полета (:ref:`цяло число "
-"<studio/fields/simple-fields-integer>`, :ref:`десетично число "
-"<studio/fields/simple-fields-decimal>`, :ref:`парична стойност "
-"<studio/fields/simple-fields-monetary>`) могат да бъдат измервани. Освен "
-"това опцията :guilabel:`Count` се използва за преброяване на общия брой "
-"филтрирани записи."
+"Когато изберете мярка, Odoo обобщава стойностите, записани в това поле, за "
+"филтрираните записи. Могат да се измерват само числови полета (:ref:`цяло "
+"число <studio/fields/simple-fields-integer>`, :ref:`десетично число <studio/"
+"fields/simple-fields-decimal>`, :ref:`паричен <studio/fields/simple-fields-"
+"monetary>`). Освен това опцията :guilabel:`Брой` се използва за преброяване "
+"на общия брой филтрирани записи."
 
 #: ../../content/applications/essentials/reporting.rst:57
 msgid ""
@@ -5752,13 +5731,13 @@ msgid ""
 msgstr ""
 "След като изберете какво искате да измервате, можете да определите как "
 "данните да бъдат :ref:`групирани <search/group>` в зависимост от "
-"измерението, което искате да анализирате. По подразбиране данните често са "
-"групирани по *Дата > Месец*, което се използва за анализ на развитието на "
-"даден показател през месеците."
+"измерението, което искате да анализирате. По подразбиране данните често се "
+"групират по *Дата > Месец*, което се използва за анализ на развитието на "
+"дадена мярка през месеците."
 
 #: ../../content/applications/essentials/reporting.rst:65
 msgid "Select measures"
-msgstr "Избор на показатели"
+msgstr "Избор на мерки"
 
 #: ../../content/applications/essentials/reporting.rst:67
 msgid ""
@@ -5766,33 +5745,33 @@ msgid ""
 ":guilabel:`Count` measures to the Sales Analysis report. By default, the "
 ":guilabel:`Untaxed Amount` measure is selected."
 msgstr ""
-"Наред с други показатели, можете да добавите показателите :guilabel:`Margin`"
-" и :guilabel:`Count` към отчета за анализ на продажбите. По подразбиране е "
-"избран показателят :guilabel:`Untaxed Amount`."
+"Наред с други мерки бихте могли да добавите мерките :guilabel:`Марж` и "
+":guilabel:`Брой` към справката за анализ на продажбите. По подразбиране е "
+"избрана мярката :guilabel:`Сума без данъци`."
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Selecting different measures on the Sales Analysis report"
-msgstr "Избор на различни показатели в отчета за анализ на продажбите"
+msgstr "Избор на различни мерки в справката за анализ на продажбите"
 
 #: ../../content/applications/essentials/reporting.rst:74
 msgid "Group measures"
-msgstr "Групиране на показатели"
+msgstr "Групиране на мерки"
 
 #: ../../content/applications/essentials/reporting.rst:76
 msgid ""
 "You could group the measures by :guilabel:`Product Category` at the level of"
 " rows on the previous Sales Analysis report example."
 msgstr ""
-"Можете да групирате показателите по :guilabel:`Product Category` на ниво "
-"редове в предишния пример за отчета за анализ на продажбите."
+"В предишния пример на справката за анализ на продажбите бихте могли да "
+"групирате мерките по :guilabel:`категория продукт` на ниво редове."
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Adding a group on the Sales Analysis report"
-msgstr "Добавяне на група в отчета за анализ на продажбите"
+msgstr "Добавяне на група в справката за анализ на продажбите"
 
 #: ../../content/applications/essentials/reporting.rst:85
 msgid "Using the pivot view"
-msgstr "Използване на изгледа тип обобщена таблица"
+msgstr "Използване на изгледа с обобщена таблица"
 
 #: ../../content/applications/essentials/reporting.rst:87
 msgid ""
@@ -5804,22 +5783,22 @@ msgid ""
 " one of the **preconfigured groups**. To remove one, click the minus button "
 "(:guilabel:`➖`)."
 msgstr ""
-"Групирането на данните е от съществено значение за изгледа тип обобщена "
-"таблица. То позволява задълбочаване в данните, за да получите по-задълбочени"
-" прозрения. Докато можете да използвате опцията :guilabel:`Group By`, за да "
-"добавите бързо група на ниво редове, както е показано в примера по-горе, "
-"можете също да кликнете бутона плюс (:guilabel:`➕`) до заглавието "
-":guilabel:`Total` на ниво редове *и* колони, и след това да изберете една от"
-" **предварително конфигурираните групи**. За да премахнете такава, кликнете "
-"бутона минус (:guilabel:`➖`)."
+"Групирането на данни е от основно значение за изгледа с обобщена таблица. То "
+"позволява навлизане в данните за по-задълбочен анализ. Докато можете да "
+"използвате опцията :guilabel:`Групиране по`, за да добавите бързо група на "
+"ниво редове, както е показано в примера по-горе, можете също да кликнете "
+"върху бутона плюс (:guilabel:`➕`) до заглавието :guilabel:`Общо` на ниво "
+"редове *и* колони и след това да изберете една от **предварително "
+"конфигурираните групи**. За да премахнете такава, кликнете върху бутона "
+"минус (:guilabel:`➖`)."
 
 #: ../../content/applications/essentials/reporting.rst:93
 msgid ""
 "Once you have added a group, you can add new ones on the opposite axis or "
 "the newly created subgroups."
 msgstr ""
-"След като сте добавили група, можете да добавяте нови на противоположната ос"
-" или в новосъздадените подгрупи."
+"След като добавите група, можете да добавяте нови групи по противоположната "
+"ос или в новосъздадените подгрупи."
 
 #: ../../content/applications/essentials/reporting.rst:97
 msgid ""
@@ -5828,10 +5807,10 @@ msgid ""
 "the :guilabel:`Order Date > Month` group on the :guilabel:`All / Saleable / "
 "Office Furniture` product category."
 msgstr ""
-"Можете допълнително да разделите показателите в предишния пример за отчета "
-"за анализ на продажбите по групата :guilabel:`Salesperson` на ниво колони и "
-"по групата :guilabel:`Order Date > Month` в продуктовата категория "
-":guilabel:`All / Saleable / Office Furniture`."
+"Можете допълнително да разделите показателите от предишния пример на отчета "
+"за анализ на продажбите по групата :guilabel:`Търговец` на ниво колони и по "
+"групата :guilabel:`Дата на поръчката > Месец` в категорията продукти "
+":guilabel:`Всички / За продажба / Офис мебели`."
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Adding multiple groups on the Sales Analysis report"
@@ -5842,28 +5821,28 @@ msgid ""
 "Switch the rows and columns' groups by clicking the flip axis button "
 "(:guilabel:`⇄`)."
 msgstr ""
-"Разменете групите на редовете и колоните, като кликнете бутона за размяна на"
-" осите (:guilabel:`⇄`)."
+"Разменете групите на редовете и колоните, като щракнете върху бутона за "
+"размяна на осите (:guilabel:`⇄`)."
 
 #: ../../content/applications/essentials/reporting.rst:106
 msgid ""
 "Click on a measure's label to sort the values by ascending (⏶) or descending"
 " (⏷) order."
 msgstr ""
-"Кликнете върху етикета на показател, за да сортирате стойностите във "
-"възходящ (⏶) или низходящ (⏷) ред."
+"Щракнете върху етикета на показател, за да подредите стойностите във "
+"възходящ (⇑) или низходящ (⇓) ред."
 
 #: ../../content/applications/essentials/reporting.rst:107
 msgid ""
 "Download a `.xlsx` version of the pivot by clicking the download button "
 "(:guilabel:`⭳`)."
 msgstr ""
-"Изтеглете `.xlsx` версия на обобщената таблица, като кликнете бутона за "
-"изтегляне (:guilabel:`⭳`)."
+"Изтеглете версия във формат `.xlsx` на обобщената таблица, като щракнете "
+"върху бутона за изтегляне (:guilabel:`⭳`)."
 
 #: ../../content/applications/essentials/reporting.rst:112
 msgid "Using the graph view"
-msgstr "Използване на графичния изглед"
+msgstr "Използване на изгледа с графика"
 
 #: ../../content/applications/essentials/reporting.rst:114
 msgid "Three graphs are available: the bar, line, and pie charts."
@@ -5875,7 +5854,7 @@ msgid ""
 "categories. They are especially useful as they can deal with larger data "
 "sets."
 msgstr ""
-"**Стълбовидните диаграми** се използват за показване на разпределението или "
+"**Стълбовидните диаграми** се използват за показване на разпределение или "
 "сравнение на няколко категории. Те са особено полезни, тъй като могат да "
 "обработват по-големи набори от данни."
 
@@ -5884,15 +5863,15 @@ msgid ""
 "**Line charts** are useful to show changing time series and trends over "
 "time."
 msgstr ""
-"**Линейните диаграми** са полезни за показване на променящи се времеви "
-"редове и тенденции във времето."
+"**Линейните диаграми** са полезни за показване на промени в редове от данни "
+"и тенденции във времето."
 
 #: ../../content/applications/essentials/reporting.rst:121
 msgid ""
 "**Pie charts** are used to show the distribution or a comparison of a small "
 "number of categories when they form a meaningful whole."
 msgstr ""
-"**Кръговите диаграми** се използват за показване на разпределението или "
+"**Кръговите диаграми** се използват за показване на разпределение или "
 "сравнение на малък брой категории, когато те образуват смислено цяло."
 
 #: ../../content/applications/essentials/reporting.rst:126
@@ -5925,17 +5904,17 @@ msgid ""
 "have at least two groups, which then appear on top of each other instead of "
 "next to each other."
 msgstr ""
-"За **стълбовидните** и **линейните** диаграми можете да използвате опцията "
-"за натрупване, когато имате поне две групи, които тогава се показват една "
-"върху друга вместо една до друга."
+"За **стълбовидни** и **линейни** диаграми можете да използвате опцията за "
+"подреждане една върху друга, когато имате поне две групи, които тогава се "
+"показват една върху друга, вместо една до друга."
 
 #: ../../content/applications/essentials/reporting.rst:147
 msgid "Stacked bar chart"
-msgstr "Натрупана стълбовидна диаграма"
+msgstr "Стълбовидна диаграма с подредени стойности"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Stacked bar chart example"
-msgstr "Пример за натрупана стълбовидна диаграма"
+msgstr "Пример за стълбовидна диаграма с подредени стойности"
 
 #: ../../content/applications/essentials/reporting.rst:152
 msgid "Regular bar chart"
@@ -5967,9 +5946,9 @@ msgid ""
 "For **line** charts, you can use the cumulative option to sum values, which "
 "is especially useful to show the change in growth over a time period."
 msgstr ""
-"За **линейни** диаграми можете да използвате кумулативната опция за сумиране"
-" на стойностите, което е особено полезно за показване на промяната в растежа"
-" през определен период от време."
+"За **линейни** диаграми можете да използвате кумулативната опция за сумиране "
+"на стойностите, което е особено полезно за показване на промяната в растежа "
+"през определен период от време."
 
 #: ../../content/applications/essentials/reporting.rst:172
 msgid "Cumulative line chart"
@@ -6049,11 +6028,10 @@ msgid ""
 "typed characters for the selected field are included."
 msgstr ""
 "Използването на полето за търсене е еквивалентно на използването на "
-"оператора *съдържа* при добавяне на :ref:`персонализиран филтър "
-"<search/custom-filters>`. Ако е въведена частична стойност и желаното поле е"
-" избрано директно (без да се избира :icon:`fa-caret-right` "
-":guilabel:`(подменю)`), се включват *всички* записи, съдържащи въведените "
-"символи за избраното поле."
+"оператора *съдържа* при добавяне на :ref:`персонализиран филтър <search/"
+"custom-filters>`. Ако е въведена частична стойност и желаното поле е избрано "
+"директно (без да се избира :icon:`fa-caret-right` :guilabel:`(подменю)`), се "
+"включват *всички* записи, съдържащи въведените символи за избраното поле."
 
 #: ../../content/applications/essentials/search.rst:39
 msgid "Filters"
@@ -6067,8 +6045,8 @@ msgid ""
 "<search/preconfigured-filters>`, or by adding a :ref:`custom filter "
 "<search/custom-filters>`."
 msgstr ""
-"Филтрите се използват за избор на записи, отговарящи на определени критерии."
-" Стандартният избор на записи е специфичен за всеки изглед, но може да бъде "
+"Филтрите се използват за избор на записи, отговарящи на определени критерии. "
+"Стандартният избор на записи е специфичен за всеки изглед, но може да бъде "
 "променен чрез избор на един (или няколко) :ref:`предварително конфигурирани "
 "филтъра <search/preconfigured-filters>`, или чрез добавяне на "
 ":ref:`персонализиран филтър <search/custom-filters>`."
@@ -6084,10 +6062,10 @@ msgid ""
 "several) *preconfigured filters* from the :guilabel:`Filters` drop-down "
 "menu."
 msgstr ""
-"Променете стандартния избор на записи, като щракнете върху иконата "
-":icon:`fa-caret-down` :guilabel:`(падащо меню)` от лентата за търсене и "
-"изберете един (или няколко) *предварително конфигурирани филтъра* от "
-"падащото меню :guilabel:`Филтри`."
+"Променете стандартния избор на записи, като щракнете върху иконата :icon:`fa-"
+"caret-down` :guilabel:`(падащо меню)` от лентата за търсене и изберете един "
+"(или няколко) *предварително конфигурирани филтъра* от падащото меню "
+":guilabel:`Филтри`."
 
 #: ../../content/applications/essentials/search.rst:55
 msgid ""
@@ -6118,9 +6096,8 @@ msgid ""
 msgstr ""
 "Освен това, за да включите *само* записи за поръчки за продажба и оферти от "
 "конкретна година, например 2024, първо премахнете съществуващия филтър "
-"`Order Date: Last 365 Days`, като щракнете върху :icon:`fa-times` "
-":guilabel:`(отказ)`, след което изберете филтъра :menuselection:`Order Date "
-"--> 2024`."
+"`Order Date: Last 365 Days`, като щракнете върху :icon:`fa-times` :guilabel:`"
+"(отказ)`, след което изберете филтъра :menuselection:`Order Date --> 2024`."
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Using preconfigured filters on the Sales Analysis report"
@@ -6138,9 +6115,9 @@ msgid ""
 msgstr ""
 "Предварително конфигурираните :guilabel:`Филтри` са групирани и всяка група "
 "е разделена с хоризонтална линия. Избирането на предварително конфигурирани "
-"филтри от една и съща група позволява записите да съответстват на *кое да е*"
-" от приложените условия. Избирането на филтри от различни групи обаче "
-"изисква записите да съответстват на *всички* приложени условия."
+"филтри от една и съща група позволява записите да съответстват на *кое да е* "
+"от приложените условия. Избирането на филтри от различни групи обаче изисква "
+"записите да съответстват на *всички* приложени условия."
 
 #: ../../content/applications/essentials/search.rst:79
 msgid "Custom filters"
@@ -6153,10 +6130,10 @@ msgid ""
 "down` :guilabel:`(dropdown)` icon in the search bar, then select "
 ":menuselection:`Filters --> Add Custom Filter`."
 msgstr ""
-"Ако :ref:`предварително конфигурираните филтри <search/preconfigured-"
-"filters>` не са достатъчно конкретни, добавете персонализиран филтър. За "
-"целта щракнете върху иконата :icon:`fa-caret-down` :guilabel:`(падащо меню)`"
-" в лентата за търсене, след което изберете :menuselection:`Filters --> Add "
+"Ако :ref:`предварително конфигурираните филтри <search/preconfigured-filters>"
+"` не са достатъчно конкретни, добавете персонализиран филтър. За целта "
+"щракнете върху иконата :icon:`fa-caret-down` :guilabel:`(падащо меню)` в "
+"лентата за търсене, след което изберете :menuselection:`Filters --> Add "
 "Custom Filter`."
 
 #: ../../content/applications/essentials/search.rst:85
@@ -6182,8 +6159,8 @@ msgid ""
 msgstr ""
 "Стандартната конфигурация за съвпадение е :guilabel:`Match any of the "
 "following rules`, което означава, че всяко правило за филтриране се прилага "
-"независимо. За да промените конфигурацията за съвпадение на :guilabel:`Match"
-" all of the following rules`, трябва да се добавят поне две правила за "
+"независимо. За да промените конфигурацията за съвпадение на :guilabel:`Match "
+"all of the following rules`, трябва да се добавят поне две правила за "
 "филтриране към персонализирания филтър."
 
 #: ../../content/applications/essentials/search.rst:96
@@ -6223,8 +6200,8 @@ msgid ""
 msgstr ""
 "Първото вградено поле е *името на полето*, по което да се филтрира. Някои "
 "полета имат уточнени параметри, вложени в друго поле. До тези полета има "
-"икона :icon:`fa-caret-right` :guilabel:`(подменю)`, която може да се избере,"
-" за да се разкрият вложените полета."
+"икона :icon:`fa-caret-right` :guilabel:`(подменю)`, която може да се избере, "
+"за да се разкрият вложените полета."
 
 #: ../../content/applications/essentials/search.rst:107
 msgid ""
@@ -6233,8 +6210,8 @@ msgid ""
 "<reference/orm/domains>` are specific to the field's data type."
 msgstr ""
 "Второто вградено поле е условният *оператор*, използван за сравняване на "
-"името на полето със стойността. :ref:`Наличните условни оператори "
-"<reference/orm/domains>` са специфични за типа данни на полето."
+"името на полето със стойността. :ref:`Наличните условни оператори <reference/"
+"orm/domains>` са специфични за типа данни на полето."
 
 #: ../../content/applications/essentials/search.rst:110
 msgid ""
@@ -6245,8 +6222,8 @@ msgid ""
 msgstr ""
 "Третото вградено поле е променливата *стойност* на името на полето. Полето "
 "за въвеждане на стойност може да се появи като падащо меню, текстово поле, "
-"числово поле, поле за дата/час, булев превключвател, или може да е празно, в"
-" зависимост от използвания оператор и типа данни на полето."
+"числово поле, поле за дата/час, булев превключвател, или може да е празно, в "
+"зависимост от използвания оператор и типа данни на полето."
 
 #: ../../content/applications/essentials/search.rst:114
 msgid ""
@@ -6325,36 +6302,34 @@ msgid ""
 "the following should be entered:"
 msgstr ""
 "За да изберете всички потенциални клиенти и възможности от приложението "
-":menuselection:`CRM`, които са на етап *Спечелена*, и имат очакван приход "
-"по-голям от 1000 щ.д., трябва да въведете следното:"
+":menuselection:`CRM`, които са на етап *Спечелена*, и имат очакван приход по-"
+"голям от 1000 щ.д., трябва да въведете следното:"
 
 #: ../../content/applications/essentials/search.rst:140
 msgid ""
 ":guilabel:`Match all` :icon:`fa-caret-down` :guilabel:`of the following "
 "rules:`"
 msgstr ""
-":guilabel:`Match all` :icon:`fa-caret-down` :guilabel:`of the following "
-"rules:`"
 
 #: ../../content/applications/essentials/search.rst:142
 msgid ":guilabel:`Stage` :guilabel:`is in` :guilabel:`Won`"
-msgstr ":guilabel:`Stage` :guilabel:`is in` :guilabel:`Won`"
+msgstr ""
 
 #: ../../content/applications/essentials/search.rst:143
 msgid ":guilabel:`Expected Revenue` :guilabel:`>` `1,000`"
-msgstr ":guilabel:`Expected Revenue` :guilabel:`>` `1,000`"
+msgstr ""
 
 #: ../../content/applications/essentials/search.rst:144
 msgid ":guilabel:`any` :icon:`fa-caret-down` :guilabel:`of:`"
-msgstr ":guilabel:`any` :icon:`fa-caret-down` :guilabel:`of:`"
+msgstr ""
 
 #: ../../content/applications/essentials/search.rst:146
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Lead`"
-msgstr ":guilabel:`Type` :guilabel:`=` :guilabel:`Lead`"
+msgstr ""
 
 #: ../../content/applications/essentials/search.rst:147
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Opportunity`"
-msgstr ":guilabel:`Type` :guilabel:`=` :guilabel:`Opportunity`"
+msgstr ""
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Adding a custom filter to filter specific records in CRM."
@@ -6396,8 +6371,8 @@ msgid ""
 " any records."
 msgstr ""
 "За да групирате записите по търговски представител в отчета *Анализ на "
-"продажбите* (:menuselection:`приложение Продажби --> Отчитане --> "
-"Продажби`), щракнете върху опцията :guilabel:`Salesperson` от падащото меню "
+"продажбите* (:menuselection:`приложение Продажби --> Отчитане --> Продажби`)"
+", щракнете върху опцията :guilabel:`Salesperson` от падащото меню "
 ":guilabel:`Group By`. Изгледът се променя, за да групира записите по "
 "търговски представител, без да филтрира каквито и да е записи."
 
@@ -6412,8 +6387,8 @@ msgid ""
 "the drop-down menu."
 msgstr ""
 "Възможно е да *персонализирате групи*, като използвате поле, налично в "
-"модела. За целта щракнете върху :menuselection:`Add Custom Group` и изберете"
-" поле от падащото меню."
+"модела. За целта щракнете върху :menuselection:`Add Custom Group` и изберете "
+"поле от падащото меню."
 
 #: ../../content/applications/essentials/search.rst:179
 msgid ""
@@ -6504,12 +6479,12 @@ msgid ""
 msgstr ""
 "За да редактирате, архивирате или премахнете любимо търсене, задръжте "
 "курсора върху името на търсенето в списъка с любими и щракнете върху "
-":icon:`fa-pencil` :guilabel:`(Edit favorite)`. Могат да се променят следните"
-" полета: :guilabel:`Filter Name`, :ref:`Shared with <search/favorites-"
-"share>`, :guilabel:`Default Filter`, :guilabel:`Domain`. За да архивирате "
-"или премахнете любимото, щракнете върху :icon:`fa-cog` "
-":guilabel:`(Actions)`, след което :icon:`oi-archive` :guilabel:`Archive` или"
-" :icon:`fa-trash` :guilabel:`Delete`, според случая."
+":icon:`fa-pencil` :guilabel:`(Edit favorite)`. Могат да се променят следните "
+"полета: :guilabel:`Filter Name`, :ref:`Shared with <search/favorites-share>"
+"`, :guilabel:`Default Filter`, :guilabel:`Domain`. За да архивирате или "
+"премахнете любимото, щракнете върху :icon:`fa-cog` :guilabel:`(Actions)`, "
+"след което :icon:`oi-archive` :guilabel:`Archive` или :icon:`fa-trash` "
+":guilabel:`Delete`, според случая."
 
 #: ../../content/applications/essentials/search.rst:217
 msgid ""
@@ -6522,8 +6497,8 @@ msgstr ""
 "Когато се използва любимо търсене, могат да се приложат допълнителни филтри "
 "или групи, за да се прецизира търсенето допълнително. Условията, приложени "
 "от любимото търсене, могат също да бъдат променени, като задържите курсора "
-"върху :icon:`fa-star` :guilabel:`(звезда)` до името на търсенето и след това"
-" щракнете върху иконата :icon:`fa-cog` :guilabel:`(зъбно колело)`. Тези "
+"върху :icon:`fa-star` :guilabel:`(звезда)` до името на търсенето и след това "
+"щракнете върху иконата :icon:`fa-cog` :guilabel:`(зъбно колело)`. Тези "
 "промени засягат само текущото търсене."
 
 #: ../../content/applications/essentials/search.rst:221
@@ -6574,9 +6549,9 @@ msgid ""
 ":icon:`fa-star` :guilabel:`Favorites`."
 msgstr ""
 "В полето :guilabel:`Shared with` изберете съответните потребители от "
-"падащото меню, след което щракнете върху :icon:`fa-cloud-upload` "
-":guilabel:`(Save manually)`. Любимото вече е видимо за всички избрани "
-"потребители под :icon:`fa-star` :guilabel:`Favorites`."
+"падащото меню, след което щракнете върху :icon:`fa-cloud-upload` :guilabel:`"
+"(Save manually)`. Любимото вече е видимо за всички избрани потребители под "
+":icon:`fa-star` :guilabel:`Favorites`."
 
 #: ../../content/applications/essentials/stages.rst:3
 msgid "Stages"
@@ -6599,8 +6574,7 @@ msgid ""
 msgstr ""
 "В приложенията тези карти представляват конкретни елементи, например в "
 "приложението **Helpdesk** етапите проследяват тикети. Етапите могат да се "
-"персонализират и да се преименуват, за да отговарят на нуждите на всеки "
-"екип."
+"персонализират и да се преименуват, за да отговарят на нуждите на всеки екип."
 
 #: ../../content/applications/essentials/stages.rst:12
 msgid "Create or modify stages"
@@ -6613,11 +6587,11 @@ msgid ""
 "--> General Settings --> Developer Tools`, and click :guilabel:`Activate the"
 " developer mode`."
 msgstr ""
-":ref:`Режимът на разработчик <developer-mode>` **трябва** да бъде активиран,"
-" за да се получи достъп до менюто с етапи. За да активирате режима на "
-"разработчик, отидете на :menuselection:`Settings app --> General Settings "
-"--> Developer Tools` и щракнете върху :guilabel:`Activate the developer "
-"mode`."
+":ref:`Режимът на разработчик <developer-mode>` **трябва** да бъде активиран, "
+"за да се получи достъп до менюто с етапи. За да активирате режима на "
+"разработчик, отидете на :menuselection:`Settings app --> General "
+"Settings --> Developer Tools` и щракнете върху :guilabel:`Activate the "
+"developer mode`."
 
 #: ../../content/applications/essentials/stages.rst:19
 msgid ""
@@ -6634,8 +6608,8 @@ msgid ""
 "the pipeline."
 msgstr ""
 "Стандартният списъчен изглед на страницата :guilabel:`Stages` показва "
-"етапите, налични в момента в приложението. Те са изброени в реда, в който се"
-" появяват в конвейера."
+"етапите, налични в момента в приложението. Те са изброени в реда, в който се "
+"появяват в конвейера."
 
 #: ../../content/applications/essentials/stages.rst:24
 msgid ""
@@ -6643,16 +6617,17 @@ msgid ""
 ":guilabel:`(draggable)` icon, to the left of the stage name, and drag it to "
 "the desired place on the list."
 msgstr ""
-"За да промените реда на етапите, щракнете върху иконата :icon:`oi-draggable`"
-" :guilabel:`(за влачене)`, вляво от името на етапа, и я плъзнете до желаното"
-" място в списъка."
+"За да промените реда на етапите, щракнете върху иконата :icon:`oi-draggable` "
+":guilabel:`(за влачене)`, вляво от името на етапа, и я плъзнете до желаното "
+"място в списъка."
 
 #: ../../content/applications/essentials/stages.rst:None
 msgid ""
 "View of the stage list page emphasizing the buttons used to change the order the stages\n"
 "appear in the list."
 msgstr ""
-"Изглед на страницата със списъка с етапи, подчертаващ бутоните, използвани за промяна на реда, в който\n"
+"Изглед на страницата със списъка с етапи, подчертаващ бутоните, използвани "
+"за промяна на реда, в който\n"
 "се показват етапите в списъка."
 
 #: ../../content/applications/essentials/stages.rst:32
@@ -6668,8 +6643,8 @@ msgid ""
 "To create a new stage, click the :guilabel:`New` button at the top-left of "
 "the stage list. Doing so reveals a blank stage form."
 msgstr ""
-"За да създадете нов етап, щракнете върху бутона :guilabel:`New` в горния ляв"
-" ъгъл на списъка с етапи. Това разкрива празен формуляр за етап."
+"За да създадете нов етап, щракнете върху бутона :guilabel:`New` в горния ляв "
+"ъгъл на списъка с етапи. Това разкрива празен формуляр за етап."
 
 #: ../../content/applications/essentials/stages.rst:38
 msgid "Choose a :guilabel:`Name` for the new stage."
@@ -6689,8 +6664,8 @@ msgid ""
 "instance, **CRM** and **Helpdesk** apps. This feature is automatically "
 "disabled by setting it to zero."
 msgstr ""
-"Функцията *Days to rot* е налична само за приложения, които използват етапи,"
-" например приложенията **CRM** и **Helpdesk**. Тази функция се деактивира "
+"Функцията *Days to rot* е налична само за приложения, които използват етапи, "
+"например приложенията **CRM** и **Helpdesk**. Тази функция се деактивира "
 "автоматично, като се зададе на нула."
 
 #: ../../content/applications/essentials/stages.rst:50
@@ -6795,8 +6770,7 @@ msgstr ""
 #: ../../content/applications/essentials/stages.rst:None
 msgid ""
 "View of a stage's progress highlighting the activities that are due today."
-msgstr ""
-"Изглед на напредъка на етап, подчертаващ дейностите с краен срок днес."
+msgstr "Изглед на напредъка на етап, подчертаващ дейностите с краен срок днес."
 
 #: ../../content/applications/essentials/stages.rst:91
 msgid "Add email and SMS templates to stages"
@@ -6823,8 +6797,8 @@ msgid ""
 "services.odoo.com/iap/sms/pricing>`_ for additional information."
 msgstr ""
 "Изпращането на SMS текстови съобщения е услуга :doc:`Покупка в приложението "
-"(IAP) </applications/essentials/in_app_purchase/>`, която изисква предплатен"
-" кредит, за да работи. За допълнителна информация вижте `SMS Pricing FAQ "
+"(IAP) </applications/essentials/in_app_purchase/>`, която изисква предплатен "
+"кредит, за да работи. За допълнителна информация вижте `SMS Pricing FAQ "
 "<https://iap-services.odoo.com/iap/sms/pricing>`_."
 
 #: ../../content/applications/essentials/stages.rst:102
@@ -6836,8 +6810,8 @@ msgid ""
 msgstr ""
 "За да изберете съществуващ имейл шаблон, изберете го от полето "
 ":guilabel:`Email Template`. След като изберете шаблон, щракнете върху "
-"иконата :icon:`oi-arrow-right` :guilabel:`(дясна стрелка)` вдясно от полето,"
-" за да редактирате избрания шаблон."
+"иконата :icon:`oi-arrow-right` :guilabel:`(дясна стрелка)` вдясно от полето, "
+"за да редактирате избрания шаблон."
 
 #: ../../content/applications/essentials/stages.rst:106
 msgid ""
@@ -6847,8 +6821,7 @@ msgid ""
 msgstr ""
 "За да създадете нов шаблон от този формуляр, щракнете върху полето и "
 "въведете заглавие за новия шаблон. След това изберете :guilabel:`Create and "
-"edit` от падащото меню, което се появява, и попълнете детайлите на "
-"формуляра."
+"edit` от падащото меню, което се появява, и попълнете детайлите на формуляра."
 
 #: ../../content/applications/essentials/stages.rst:110
 msgid ""
@@ -6864,7 +6837,7 @@ msgstr "Изглед на страницата за настройка на SMS 
 
 #: ../../content/applications/essentials/stages.rst:116
 msgid ":doc:`/applications/general/companies/email_template`"
-msgstr ":doc:`/applications/general/companies/email_template`"
+msgstr ""
 
 #: ../../content/applications/essentials/stages.rst:119
 msgid "Fold a stage"
@@ -6883,8 +6856,8 @@ msgid ""
 "Cards in an unfolded stage are visible in the pipeline under the stage name,"
 " and are considered *open*."
 msgstr ""
-"Картите в разгънат етап са видими в конвейера под името на етапа и се считат"
-" за *отворени*."
+"Картите в разгънат етап са видими в конвейера под името на етапа и се считат "
+"за *отворени*."
 
 #: ../../content/applications/essentials/stages.rst:127
 msgid ""
@@ -6948,27 +6921,26 @@ msgid ""
 ":guilabel:`Fold` from the drop-down menu."
 msgstr ""
 "Задръжте курсора в горната част на желания етап, за да го сгънете временно, "
-"след което щракнете върху иконата :icon:`fa-gear` :guilabel:`(зъбно "
-"колело)`, която се появява, и изберете :guilabel:`Fold` от падащото меню."
+"след което щракнете върху иконата :icon:`fa-gear` :guilabel:`(зъбно колело)"
+"`, която се появява, и изберете :guilabel:`Fold` от падащото меню."
 
 #: ../../content/applications/essentials/stages.rst:None
 msgid ""
 "Kanban view of a Helpdesk stage, with the temporary fold option emphasized."
 msgstr ""
-"Канбан изглед на етап от Helpdesk, с акцент върху опцията за временно "
-"сгъване."
+"Изглед Kanban на етап от Helpdesk, с подчертана опцията за временно сгъване."
 
 #: ../../content/applications/essentials/stages.rst:153
 msgid ""
 "Manually folding a stage from the Kanban view is temporary and does **not** "
 "close the cards in the stage."
 msgstr ""
-"Ръчното сгъване на етап от канбан изгледа е временно и **не** затваря "
+"Ръчното сгъване на етап от изгледа Kanban е временно и **не** затваря "
 "картите в етапа."
 
 #: ../../content/applications/essentials/stages.rst:157
 msgid "Assign stages to a team"
-msgstr "Присвояване на етапи към екип"
+msgstr "Задаване на етапи на екип"
 
 #: ../../content/applications/essentials/stages.rst:159
 msgid ""
@@ -6976,6 +6948,6 @@ msgid ""
 "form. More than one team may be selected, since the same stage can be "
 "assigned to multiple teams."
 msgstr ""
-"Направете избор в полето :guilabel:`Teams` във формуляра :guilabel:`Stages`."
-" Може да бъде избран повече от един екип, тъй като един и същ етап може да "
-"бъде присвоен на няколко екипа."
+"Направете избор в полето :guilabel:`Екипи` от формуляра :guilabel:`Етапи`. "
+"Може да изберете повече от един екип, тъй като един и същ етап може да бъде "
+"зададен на няколко екипа."

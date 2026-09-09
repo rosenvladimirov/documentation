@@ -83,7 +83,7 @@ products added to the order, and the numpad for order actions. Once the POS is f
    - Once the register is open, the :guilabel:`Open Register` button is replaced by the
      :guilabel:`Continue Selling` button on the :guilabel:`Dashboard's` POS card.
    - It is possible to switch between :doc:`multiple users <extra/employee_login>` from an open POS
-     register, provided :ref:`multi-employee management is enabled <pos/employee_login/use>`.
+     register, provided :ref:`multi-employee management is enabled <pos/employee-login/user-login>`.
 
 From the POS interface header:
 
@@ -97,7 +97,7 @@ From the POS interface header:
 - Search for products using the search bar.
 - Click the :icon:`fa-barcode` (:guilabel:`barcode`) icon to use a webcam as a barcode scanner.
 - Click the user's avatar to switch between employees, provided :ref:`multi-employee management is
-  enabled <pos/employee_login/use>`.
+  enabled <pos/employee-login/user-login>`.
 - Click the :icon:`fa-bars` (:guilabel:`hamburger menu`) icon to access more advanced options, as
   well as to :ref:`close the register <pos/use/register-close>`.
 
@@ -235,8 +235,8 @@ The steps to process a refund from the :ref:`POS register <pos/use/open-register
 the refund is :ref:`based on an order <pos/use/refund-order-based>` or processed as a
 :ref:`standalone refund that is not based on an order <pos/use/refund-standalone>`.
 
-In both cases, the amount can be refunded or a :ref:`gift card <pos/pricing/loyalty>` issued for the
-refunded amount.
+In both cases, the amount can be refunded or a :ref:`gift card <pos/pricing/giftcards_ewallet>`
+issued for the refunded amount.
 
 .. note::
    Once the return is validated, a corresponding credit note is generated, referencing the original
@@ -260,11 +260,11 @@ To process a refund based on an order, follow these steps:
 
    - To refund the customer, on the payment screen, select a payment method, then click
      :guilabel:`Validate`.
-   - To issue a :ref:`gift card <pos/pricing/loyalty>` for the refund amount, on the payment screen,
-     click :guilabel:`Back`. The cart displays the returned product(s) with a negative quantity.
-     Then, add the gift card from the product selector to the order; its value is automatically set
-     to match the total refund amount. Click :guilabel:`Payment`, then :guilabel:`Validate` the
-     refund.
+   - To issue a :ref:`gift card <pos/pricing/giftcards_ewallet>` for the refund amount, on the
+     payment screen, click :guilabel:`Back`. The cart displays the returned product(s) with a
+     negative quantity. Then, add the gift card from the product selector to the order; its value is
+     automatically set to match the total refund amount. Click :guilabel:`Payment`, then
+     :guilabel:`Validate` the refund.
 
 .. tip::
    - Alternatively, access the list of paid orders by clicking :guilabel:`Orders` in the POS
@@ -288,11 +288,11 @@ To process a standalone refund that is *not* based on an order, follow these ste
 
    - To refund the customer, on the payment screen, select a payment method, then click
      :guilabel:`Validate`.
-   - To issue a :ref:`gift card <pos/pricing/loyalty>` for the refund amount, on the payment screen,
-     click :guilabel:`Back`. The cart displays the returned product(s) with a negative quantity.
-     Then, add the gift card from the product selector to the order; its value is automatically set
-     to match the total refund amount. Click :guilabel:`Payment`, then :guilabel:`Validate` the
-     refund.
+   - To issue a :ref:`gift card <pos/pricing/giftcards_ewallet>` for the refund amount, on the
+     payment screen, click :guilabel:`Back`. The cart displays the returned product(s) with a
+     negative quantity. Then, add the gift card from the product selector to the order; its value is
+     automatically set to match the total refund amount. Click :guilabel:`Payment`, then
+     :guilabel:`Validate` the refund.
 
 .. tip::
    To facilitate management of standalone returns, create a :doc:`preset <extra/presets>` with only

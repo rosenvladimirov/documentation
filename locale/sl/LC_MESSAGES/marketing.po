@@ -5,13 +5,14 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
+# Tadej Vengust <tadej.vengust@implex.si>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-12 17:31+0000\n"
-"PO-Revision-Date: 2026-06-25 15:49+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-08-21 17:32+0000\n"
+"PO-Revision-Date: 2026-09-07 18:11+0000\n"
+"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19-doc/"
 "marketing/sl/>\n"
 "Language: sl\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/applications/marketing.rst:5
 msgid "Marketing"
@@ -1469,7 +1470,7 @@ msgid ""
 "additional :guilabel:`Campaign` field appears in the :guilabel:`Tracking` "
 "section of the :guilabel:`Settings` tab."
 msgstr ""
-"Če je funkcija *Poštna kampanja* aktivirana, se v razdelku "
+"Če je funkcija *Poštna kampanja* *aktivirana*, se v razdelku "
 ":guilabel:`Sledenje` zavihka :guilabel:`Nastavitve` prikaže dodatno polje "
 ":guilabel:`Kampanja`."
 
@@ -2318,11 +2319,11 @@ msgid ""
 msgstr ""
 "Nastavitev več možnosti :guilabel:`Združi po` ustvari gnezdene skupine glede "
 "na to, katera možnost je izbrana prva. Na primer, izbira :guilabel:`Obdobje "
-"pošiljanja`, ki ji sledi :guilabel:`Dodaj skupino po meri --> Odgovoren`, v "
-"stolpcu :guilabel:`Združi po`, najprej razvrsti vse rezultate po obdobju "
-"pošiljanja, nato pa po odgovornem članu ekipe. To je uporabna metrika za "
-"analizo, kdo v ekipi pošilja v obsegu ali količini v določenem časovnem "
-"obdobju."
+"pošiljanja`, temu pa sledi :guilabel:`Dodaj skupino po meri --> Odgovoren`, "
+"v stolpcu :guilabel:`Združi po`, razvrsti vse rezultate *najprej* po obdobju "
+"pošiljanja, *nato* po članu ekipe, ki je odgovoren. To je uporaben kazalnik "
+"za analizo, kdo v ekipi pošilja v velikih količinah ali količini v določenem "
+"časovnem obdobju."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:133
 msgid ""
@@ -2583,9 +2584,7 @@ msgstr ":guilabel:`Razlog za izgubo` *je v* `Ni dovolj zalog`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:25
 msgid "and either :guilabel:`Active` *is* `set` or `not set`"
-msgstr ""
-"in bodisi je :guilabel:`Aktivno` *nastavljeno* `nastavljeno` ali `ni "
-"nastavljeno`"
+msgstr "in bodisi :guilabel:`Aktivno` *je* `nastavljeno` ali `ni nastavljeno`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:0
 msgid ""
@@ -4726,7 +4725,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:145
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:116
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:75
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:68
 msgid "Filter options"
 msgstr "Možnosti filtriranja"
 
@@ -4742,7 +4741,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:150
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:121
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:82
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:76
 msgid "The :guilabel:`Filters` column has the following options:"
 msgstr "Stolpec :guilabel:`Filtri` ima naslednje možnosti:"
 
@@ -4790,7 +4789,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:164
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:143
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:108
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:98
 msgid "Group By options"
 msgstr "Možnosti razvrščanja"
 
@@ -4806,7 +4805,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:170
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:151
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:115
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:105
 msgid "The :guilabel:`Group By` column has the following options:"
 msgstr "Stolpec :guilabel:`Razvrsti po` ima naslednje možnosti:"
 
@@ -5339,12 +5338,13 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:175
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:378
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:379
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
 
@@ -6466,11 +6466,9 @@ msgstr "Stran poročanja o prihodkih"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:13
 msgid ""
-"To access the *Attendees* reporting page, navigate to :menuselection:`Events "
+"To access the *Revenues* reporting page, navigate to :menuselection:`Events "
 "app --> Reporting --> Revenues`."
 msgstr ""
-"Za dostop do strani poročanja *Udeleženci* pojdite na :menuselection:`Events "
-"app --> Reporting --> Revenues`."
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
 msgid ""
@@ -6478,20 +6476,16 @@ msgid ""
 "application."
 msgstr "Privzeti pogled strani poročanja o prihodkih v aplikaciji Odoo Events."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:20
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:19
 msgid ""
 "By default, the :guilabel:`Revenues` reporting page appears as a graph "
 "(a :icon:`fa-line-chart` :guilabel:`(Line Chart)` with :icon:`fa-"
 "database` :guilabel:`(Stacked)` data). The default filters, :guilabel:`Non-"
-"free tickets` and :guilabel:`Event Start Date: (current year)`, are present "
+"free tickets` and :guilabel:`Event Start Date: (current year)`, are applied "
 "in the search bar."
 msgstr ""
-"Privzeto se stran poročanja :guilabel:`Revenues` prikaže kot graf (:icon:`fa-"
-"line-chart` :guilabel:`(Line Chart)` s :icon:`fa-database` :guilabel:`"
-"(Stacked)` podatki). Privzeti filtri :guilabel:`Non-free tickets` in "
-":guilabel:`Event Start Date: (current year)` so prisotni v iskalni vrstici."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:26
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:25
 msgid ""
 "To learn more about the various graph views (and graph view options), refer "
 "to the :ref:`Graph views <reporting/using-graph>` documentation."
@@ -6499,49 +6493,45 @@ msgstr ""
 "Če želite izvedeti več o različnih pogledih grafov (in možnostih pogleda "
 "grafov), glejte dokumentacijo :ref:`Graph views <reporting/using-graph>`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:29
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:28
 msgid ""
-"The :guilabel:`Revenues` reporting page can also be viewed as a :ref:`pivot "
-"table <reporting/views/pivot>`, by clicking the :icon:`oi-view-"
+"The *Revenues* reporting page can also be viewed as a :ref:`pivot table "
+"<reporting/views/pivot>`, by clicking the :icon:`oi-view-"
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
-"Stran poročanja :guilabel:`Revenues` si lahko ogledate tudi kot "
-":ref:`vrtilno tabelo <reporting/views/pivot>`, tako da kliknete ikono "
-":icon:`oi-view-pivot` :guilabel:`(Pivot)` v zgornjem desnem kotu."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:34
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:32
 msgid "Measures"
 msgstr "Izmere"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:36
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:34
 msgid ""
-"Choosing specific :ref:`Measures <reporting/choosing-measures>` is a quick "
-"way to customize reporting pages."
+"Choosing specific :ref:`measures <reporting/choosing-measures>` allows users "
+"to customize reporting pages."
 msgstr ""
-"Izbira določenih :ref:`mer <reporting/choosing-measures>` je hiter način za "
-"prilagoditev strani poročanja."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:37
+msgid ""
+"Clicking the :guilabel:`Measures` drop-down button reveals the following "
+"options:"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:39
-msgid ""
-"Regardless of the chosen view, the measures on the :guilabel:`Revenues` "
-"reporting page are as follows: :guilabel:`Revenues`, :guilabel:`Untaxed "
-"Revenues`, and :guilabel:`Count`."
+msgid ":guilabel:`Revenues`: Shows the revenues generated from events."
 msgstr ""
-"Ne glede na izbrani pogled so mere na strani poročanja :guilabel:`Revenues` "
-"naslednje: :guilabel:`Revenues`, :guilabel:`Untaxed Revenues` in "
-":guilabel:`Count`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:43
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:40
 msgid ""
-"In the default graph view of the :guilabel:`Revenues` reporting page, only "
-"the :guilabel:`Revenues` option is set in the :guilabel:`Measures` drop-down "
-"menu."
+":guilabel:`Untaxed Revenues`: Shows the untaxed revenues generated from "
+"events."
 msgstr ""
-"V privzetem grafičnem pogledu strani poročanja :guilabel:`Revenues` je v "
-"spustnem meniju :guilabel:`Measures` nastavljena samo možnost "
-":guilabel:`Revenues`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:46
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:41
+msgid ""
+":guilabel:`Count`: Shows the total number of registrants who attended events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:44
 msgid ""
 "In graph view, only one of the :guilabel:`Measures` can be selected at a "
 "time."
@@ -6549,7 +6539,7 @@ msgstr ""
 "V grafičnem pogledu je mogoče hkrati izbrati le eno od možnosti "
 ":guilabel:`Meritve`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:48
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:46
 msgid ""
 "When the pivot option is selected, all :guilabel:`Measures` options are "
 "selected, by default."
@@ -6557,50 +6547,23 @@ msgstr ""
 "Ko je izbrana možnost pivot, so privzeto izbrane vse možnosti "
 ":guilabel:`Meritve`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:50
-msgid ":guilabel:`Revenues`: shows the revenues generated from events."
-msgstr ":guilabel:`Prihodki`: prikazuje prihodke, ustvarjene z dogodki."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:51
-msgid ""
-":guilabel:`Untaxed Revenues`: shows the untaxed revenues generated from "
-"events."
-msgstr ""
-":guilabel:`Prihodki brez davka`: prikazuje prihodke brez davka, ustvarjene z "
-"dogodkov."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:52
-msgid ""
-":guilabel:`Count`: shows the total amount of registrants who attended events."
-msgstr ""
-":guilabel:`Števec`: prikazuje skupno število udeležencev, ki so se udeležili "
-"dogodkov."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:55
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:49
 msgid "Filters and grouping options"
 msgstr "Možnosti filtriranja in združevanja"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:57
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:51
 msgid ""
-"To reveal a drop-down menu of filter and grouping options to create custom "
-"reports, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the "
-"right of the search bar."
+"To reveal a drop-down menu of filter and grouping options, click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` next to the search bar."
 msgstr ""
-"Če želite prikazati spustni meni z možnostmi filtriranja in združevanja za "
-"ustvarjanje poročil po meri, kliknite :icon:`fa-caret-down` :guilabel:`"
-"(puščica navzdol)` desno od iskalne vrstice."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:60
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:54
 msgid ""
-"Doing so opens a drop-down mega menu of options organized into "
-"columns: :ref:`Filters <search/preconfigured-filters>`, :ref:`Group By "
-"<search/group>`, and :ref:`Favorites <search/favorites>`."
+"The drop-down menu allows users to set :ref:`Filters <search/preconfigured-"
+"filters>` and :ref:`Group By <search/group>` options."
 msgstr ""
-"S tem se odpre spustni mega meni z možnostmi, organiziranimi v stolpce: "
-":ref:`Filtri <search/preconfigured-filters>`, :ref:`Združi po <search/group>"
-"` in :ref:`Priljubljene <search/favorites>`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:65
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:58
 msgid ""
 "If a time-related option has been selected from the :guilabel:`Filters` "
 "column (e.g. the default :guilabel:`Event Start Date: (year)` filter), "
@@ -6612,7 +6575,7 @@ msgstr ""
 "stolpec :guilabel:`Primerjava` z možnostmi primerjave za ustrezno izbrano "
 "možnost filtra, povezano s časom."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:69
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:62
 msgid ""
 "Only **one** selection can be made from the :guilabel:`Comparison` column at "
 "a time."
@@ -6620,158 +6583,112 @@ msgstr ""
 "Iz stolpca :guilabel:`Primerjava` je mogoče hkrati izbrati le **eno** "
 "možnost."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:72
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:65
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:75
 msgid ":doc:`../../../essentials/search`"
 msgstr ":doc:`../../../essentials/search`"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:77
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:70
 msgid ""
-"In the :guilabel:`Filters` column of the drop-down mega menu, there are "
-"various event-related options that can be utilized to create custom reports, "
-"based on a number of specific criteria."
+"The :guilabel:`Filters` column in the search bar's drop-down menu allows "
+"users to restrict the data to specific criteria."
 msgstr ""
-"V stolpcu :guilabel:`Filtri` spustnega mega menija je na voljo več možnosti, "
-"povezanih z dogodki, ki jih je mogoče uporabiti za ustvarjanje poročil po "
-"meri na podlagi številnih specifičnih meril."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:73
+msgid ""
+"Multiple options in the :guilabel:`Filters` column can be selected at once. "
+"Options can be applied to any view."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:78
+msgid ""
+":guilabel:`Non-free tickets`: Filter by event tickets/registrations that are "
+"not free."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:79
+msgid ":guilabel:`Free`: Filter by event tickets/registrations that are free."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:80
 msgid ""
-"Multiple options in the :guilabel:`Filters` column can be selected at once."
-msgstr "V stolpcu :guilabel:`Filtri` je mogoče hkrati izbrati več možnosti."
+":guilabel:`Pending payment`: Filter by event tickets/registrations that are "
+"purchased but are pending payment."
+msgstr ""
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:84
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:82
 msgid ""
-":guilabel:`Non-free tickets`: event tickets/registrations that were **not** "
-"free."
+":guilabel:`Sold`: Filter by event tickets/registrations that are sold and "
+"paid for."
 msgstr ""
-":guilabel:`Plačljive vstopnice`: vstopnice/registracije za dogodke, ki "
-"**niso** bile brezplačne."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:85
-msgid ":guilabel:`Free`: event tickets/registrations that *were* free."
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:83
+msgid ""
+":guilabel:`Registration Date`: Filter by a specific registration date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
 msgstr ""
-":guilabel:`Brezplačno`: vstopnice/registracije za dogodke, ki *so* bile "
-"brezplačne."
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:86
-msgid ""
-":guilabel:`Pending payment`: event tickets/registrations that were "
-"purchased, but still have payment pending."
+msgid ":guilabel:`Upcoming/Running`: Filter by current or future events."
 msgstr ""
-":guilabel:`Plačilo na čakanju`: vstopnice/registracije za dogodke, ki so "
-"bile kupljene, vendar je plačilo še vedno na čakanju."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:87
+msgid ":guilabel:`Past Events`: Filter by completed events."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:88
 msgid ""
-":guilabel:`Sold`: event tickets/registrations that have been successfully "
-"sold (and paid for)."
+":guilabel:`Event Start Date`: Filter by a specific event start date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
 msgstr ""
-":guilabel:`Prodano`: vstopnice/registracije za dogodke, ki so bile uspešno "
-"prodane (in plačane)."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:89
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:91
 msgid ""
-":guilabel:`Registration Date`: Click the :icon:`fa-caret-"
-"down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, and "
-"year options. Select any number of these options to view a specific periods "
-"of time and see how many registrations happened during that time."
+":guilabel:`Event End Date`: Filter by a specific event end date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
 msgstr ""
-":guilabel:`Datum registracije`: Kliknite ikono :icon:`fa-caret-down` "
-":guilabel:`(puščica navzdol)`, da prikažete seznam možnosti za mesec, "
-"četrtletje in leto. Izberite poljubno število teh možnosti za ogled "
-"določenih časovnih obdobij in si oglejte, koliko registracij se je zgodilo v "
-"tem času."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:92
-msgid ""
-":guilabel:`Upcoming/Running`: include revenue-related information for events "
-"that are either currently running or are going to happen in the future."
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:93
+msgid ":guilabel:`Published Events`: Filter by published events."
 msgstr ""
-":guilabel:`Prihajajoče/tekoče`: vključite informacije o prihodkih za "
-"dogodke, ki bodisi trenutno potekajo bodisi se bodo zgodili v prihodnosti."
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:94
 msgid ""
-":guilabel:`Past Events`: include revenue-related information for events that "
-"have already taken place."
+":guilabel:`Add Custom Filter`: Create a :ref:`custom filter <search/custom-"
+"filters>` to analyze event-related revenue data."
 msgstr ""
-":guilabel:`Pretekli dogodki`: vključuje informacije o prihodkih za dogodke, "
-"ki so se že zgodili."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:96
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:100
 msgid ""
-":guilabel:`Event Start Date`: Click the :icon:`fa-caret-"
-"down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, and "
-"year options. Select any number of these options to designate event start "
-"dates to use as filters for revenue-related event data."
+"The :guilabel:`Group By` column in the search bar's drop-down menu allows "
+"users to group the data by specific criteria."
 msgstr ""
-":guilabel:`Datum začetka dogodka`: Kliknite ikono :icon:`fa-caret-down` "
-":guilabel:`(puščica navzdol)`, da se prikaže seznam možnosti mesecev, "
-"četrtletij in let. Izberite poljubno število teh možnosti, da določite "
-"datume začetka dogodkov, ki se uporabijo kot filtri za podatke o prihodkih "
-"dogodkov."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:99
-msgid ""
-":guilabel:`Event End Date`: Click the :icon:`fa-caret-down` :guilabel:`(down "
-"arrow)` icon to reveal a list of month, quarter, and year options. Select "
-"any number of these options to designate event end dates to use as filters "
-"for revenue-related event data."
-msgstr ""
-":guilabel:`Datum konca dogodka`: Kliknite ikono :icon:`fa-caret-down` "
-":guilabel:`(puščica navzdol)`, da se prikaže seznam možnosti mesecev, "
-"četrtletij in let. Izberite poljubno število teh možnosti, da določite "
-"datume konca dogodkov, ki se uporabijo kot filtri za podatke o prihodkih "
-"dogodkov."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:102
-msgid ""
-":guilabel:`Published Events`: Select this option to show revenue-related "
-"data for published events."
-msgstr ""
-":guilabel:`Objavljeni dogodki`: Izberite to možnost za prikaz podatkov o "
-"prihodkih objavljenih dogodkov."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:104
-msgid ""
-":guilabel:`Add Custom Filter`: Create a custom filter to analyze event-"
-"related revenue data. To learn more, refer to the documentation "
-"on :ref:`custom filters <search/custom-filters>`."
-msgstr ""
-":guilabel:`Dodaj filter po meri`: Ustvarite filter po meri za analizo "
-"podatkov o prihodkih dogodkov. Za več informacij glejte dokumentacijo o "
-":ref:`filtrih po meri <search/custom-filters>`."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:110
-msgid ""
-"In the :guilabel:`Group By` column of the drop-down mega menu, there are "
-"various event-related options to create custom groupings of data."
-msgstr ""
-"V stolpcu :guilabel:`Razvrsti po` spustnega mega menija so na voljo različne "
-"možnosti, povezane z dogodki, za ustvarjanje razvrščanj podatkov po meri."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:113
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:103
 msgid "Multiple :guilabel:`Group By` options can be selected at once."
 msgstr "Hkrati je mogoče izbrati več možnosti :guilabel:`Razvrsti po`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:117
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:107
 msgid ":guilabel:`Event Type`: Group data based on the type of event."
 msgstr ":guilabel:`Vrsta dogodka`: Razvrsti podatke glede na vrsto dogodka."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:118
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:108
 msgid ""
 ":guilabel:`Event`: Organize data into individual groups, separated by events."
 msgstr ""
 ":guilabel:`Dogodek`: Organizira podatke v posamezne skupine, ločene po "
 "dogodkih."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:119
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:109
 msgid ""
 ":guilabel:`Product`: Group data based on the event registration product."
 msgstr ""
 ":guilabel:`Izdelek`: Razvrsti podatke glede na izdelek registracije dogodka."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:120
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:110
 msgid ""
 ":guilabel:`Ticket`: Group data based on the type of event ticket purchased "
 "by attendees."
@@ -6779,7 +6696,7 @@ msgstr ""
 ":guilabel:`Zahtevek`: Razvrsti podatke glede na vrsto vstopnice za dogodek, "
 "ki so jo kupili udeleženci."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:121
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:111
 msgid ""
 ":guilabel:`Registration Status`: Group data based on the status of "
 "registrations."
@@ -6787,7 +6704,7 @@ msgstr ""
 ":guilabel:`Status registracije`: Razvrsti podatke glede na status "
 "registracij."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:122
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:112
 msgid ""
 ":guilabel:`Sale Order Status`: Group data based on the status of event-"
 "related sales orders."
@@ -6795,38 +6712,61 @@ msgstr ""
 ":guilabel:`Status prodajnega naloga`: Razvrsti podatke glede na status "
 "prodajnih nalogov, povezanih z dogodki."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:123
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:113
 msgid ":guilabel:`Customer`: Group data based on customer records."
 msgstr ":guilabel:`Stranka`: Razvrsti podatke glede na zapise strank."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:124
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:114
 msgid ""
-":guilabel:`Add Custom Group`: Click the :icon:`fa-caret-"
+":guilabel:`Add Custom Group`: Create a :ref:`custom group <search/group>` to "
+"organize data by additional fields. Click the :icon:`fa-caret-"
 "down` :guilabel:`(down arrow)` icon to reveal a drop-down of grouping "
-"options. To select one, click on the desired option, and Odoo adds it to "
-"the :guilabel:`Group By` column. Multiple selections can be made."
+"options. Multiple selections can be made."
 msgstr ""
-":guilabel:`Dodaj razvrščanje po meri`: Kliknite ikono :icon:`fa-caret-down` "
-":guilabel:`(puščica navzdol)`, da se prikaže spustni seznam možnosti "
-"razvrščanja. Za izbiro možnosti kliknite na želeno možnost in Odoo jo doda v "
-"stolpec :guilabel:`Razvrsti po`. Mogoče je izbrati več možnosti."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:129
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:119
 msgid "Sample report: event ticket analysis (graph)"
 msgstr "Primer poročila: analiza vstopnic dogodka (graf)"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:131
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:121
 msgid ""
 "The following is an example of how various filters and grouping options can "
-"create a useful analytic graph report related to event revenues. In this "
-"case, the configurations present data about sold or free tickets to "
-"published events, with the metrics separated by ticket type and event."
+"be used to compare the distributions of paid tickets and free tickets for "
+"published events, organized by ticket type and event."
 msgstr ""
-"V nadaljevanju je primer, kako lahko različni filtri in možnosti razvrščanja "
-"ustvarijo uporabno analitično grafično poročilo o prihodkih dogodkov. V tem "
-"primeru konfiguracije predstavljajo podatke o prodanih ali brezplačnih "
-"vstopnicah za objavljene dogodke, pri čemer so meritve ločene po vrsti "
-"vstopnice in dogodku."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:125
+msgid ""
+"To create this report, navigate to :menuselection:`Events app --> Reporting "
+"--> Revenues`. Stay in the default graph view but remove the default filters "
+"from the search bar."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:128
+msgid ""
+"Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` next to the "
+"search bar. From here, select :guilabel:`Free` and :guilabel:`Sold` from "
+"the :guilabel:`Filters` column."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:131
+msgid ""
+"To view data related **only** to already published events, select "
+"the :guilabel:`Published Events` option in the :guilabel:`Filters` column."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:134
+msgid ""
+"Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
+"and :guilabel:`Ticket` options, **in that order**. Doing so first groups the "
+"data by event, then by ticket type."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:138
+msgid ""
+"The order in which the options are selected in the :guilabel:`Group By` "
+"column directly affects how the data is grouped and displayed on the report."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
 msgid ""
@@ -6836,118 +6776,24 @@ msgstr ""
 "Primer poročila analize vstopnic dogodka z uporabljenimi edinstvenimi filtri "
 "in razvrščanji."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:139
-msgid ""
-"To create such a report, navigate to :menuselection:`Events app --> "
-"Reporting --> Revenues`. Stay in the default graph view, but remove the "
-"default filters from the search bar."
-msgstr ""
-"Če želite ustvariti takšno poročilo, pojdite na :menuselection:`Dogodki --> "
-"Poročanje --> Prihodki`. Ostanite v privzetem grafičnem pogledu, vendar "
-"odstranite privzete filtre iz iskalne vrstice."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:142
-msgid ""
-"Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the right "
-"of the search bar, to reveal the drop-down mega menu of filter and grouping "
-"options."
-msgstr ""
-"Nato kliknite :icon:`fa-caret-down` :guilabel:`(puščica navzdol)` na desni "
-"strani iskalne vrstice, da se prikaže spustni meni s filtri in možnostmi za "
-"združevanje."
-
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:145
-msgid ""
-"From here, select :guilabel:`Free` and :guilabel:`Sold` from "
-"the :guilabel:`Filters` column."
-msgstr ""
-"Tukaj izberite :guilabel:`Brezplačno` in :guilabel:`Prodano` iz stolpca "
-":guilabel:`Filtri`."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:147
-msgid ""
-"Then, since it is desired to **only** view data related to already published "
-"events, select the :guilabel:`Published Events` option in "
-"the :guilabel:`Filters` column, as well."
-msgstr ""
-"Nato, ker želite prikazati **samo** podatke, povezane z že objavljenimi "
-"dogodki, izberite tudi možnost :guilabel:`Objavljeni dogodki` v stolpcu "
-":guilabel:`Filtri`."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:150
-msgid ""
-"Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
-"and :guilabel:`Ticket` options, **in that sequential order**. Doing so first "
-"groups the data by event, *then* by ticket type, which provides a more "
-"useful array of data to analyze."
-msgstr ""
-"Nato v stolpcu :guilabel:`Združi po` izberite možnosti :guilabel:`Dogodek` "
-"in :guilabel:`Zahtevek`, **v tem zaporednem vrstnem redu**. S tem najprej "
-"združite podatke po dogodku, *nato* po vrsti vstopnice, kar zagotavlja "
-"uporabnejši nabor podatkov za analizo."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:155
-msgid ""
-"The order in which the options are selected in the :guilabel:`Group By` "
-"column directly affects how the data is presented on the report."
-msgstr ""
-"Vrstni red, v katerem so izbrane možnosti v stolpcu :guilabel:`Združi po`, "
-"neposredno vpliva na način prikaza podatkov v poročilu."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:158
-msgid ""
-"From there, additional configurations can be added for more detailed data, "
-"if desired."
-msgstr ""
-"Od tam lahko po želji dodate dodatne konfiguracije za podrobnejše podatke."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:160
-msgid ""
-"If no additional filters or groupings are added, Odoo presents a graphical "
-"representation of data related to all *free* or *sold* tickets for "
-"*published events*, grouped by *event*, and organized by *ticket* type."
-msgstr ""
-"Če ne dodate dodatnih filtrov ali združevanj, Odoo prikaže grafični prikaz "
-"podatkov, povezanih z vsemi *brezplačnimi* ali *prodanimi* vstopnicami za "
-"*objavljene dogodke*, združenimi po *dogodku* in organiziranimi po vrsti "
-"*vstopnice*."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:165
 msgid "Sample report: event type analysis (pivot table)"
 msgstr "Vzorčno poročilo: analiza vrste dogodka (vrtilna tabela)"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:167
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:147
 msgid ""
-"The following is an example of how various filters and grouping options can "
-"create a useful analytic pivot table report related to event revenues. In "
-"this case, the configurations present data about how much revenue different "
-"event types have generated, in order to gauge which events are the most "
-"profitable."
+"The following is an example of how to create a report analyzing revenue by "
+"event type to determine which event types are most profitable."
 msgstr ""
-"Naslednji primer prikazuje, kako lahko različni filtri in možnosti "
-"združevanja ustvarijo uporabno analitično poročilo vrtilne tabele, povezano "
-"s prihodki dogodkov. V tem primeru konfiguracije prikazujejo podatke o tem, "
-"koliko prihodkov so ustvarile različne vrste dogodkov, da bi ocenili, kateri "
-"dogodki so najbolj donosni."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:150
 msgid ""
-"The event type analysis sample report with unique filters and groupings in "
-"place."
-msgstr ""
-"Vzorčno poročilo analize vrste dogodka z edinstvenimi filtri in združevanji."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:176
-msgid ""
-"First, navigate to :menuselection:`Events app --> Reporting --> Revenues`, "
-"and switch to the pivot table view, by clicking the :icon:`oi-view-"
+"First, navigate to :menuselection:`Events app --> Reporting --> Revenues` "
+"and switch to the pivot table view by clicking the :icon:`oi-view-"
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
-"Najprej pojdite na :menuselection:`Dogodki --> Poročanje --> Prihodki` in "
-"preklopite na pogled vrtilne tabele s klikom na ikono :icon:`oi-view-pivot` "
-":guilabel:`(Vrtilna tabela)` v zgornjem desnem kotu."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:180
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:153
 msgid ""
 "Keep the default filters (:guilabel:`Non-free tickets` and :guilabel:`Event "
 "Start Date: (year)`) in the search bar."
@@ -6955,16 +6801,13 @@ msgstr ""
 "Obdržite privzete filtre (:guilabel:`Plačljive vstopnice` in "
 ":guilabel:`Datum začetka dogodka: (leto)`) v iskalni vrstici."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:183
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:156
 msgid ""
-"Next, open the :guilabel:`Measures` drop-down menu, and deselect the option "
-"for :guilabel:`Count`, because this report is only going to focus on "
-"revenues."
+"Next, open the :guilabel:`Measures` drop-down menu and deselect the option "
+"for :guilabel:`Count` as this report focuses only on revenues."
 msgstr ""
-"Nato odprite spustni meni :guilabel:`Mere` in prekličite izbiro možnosti "
-":guilabel:`Število`, ker se bo to poročilo osredotočalo samo na prihodke."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:186
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:159
 msgid ""
 "Then, click :icon:`fa-plus-square` :guilabel:`Total` above the column "
 "titles, and select :guilabel:`Event Type` from the resulting drop-down menu."
@@ -6972,15 +6815,18 @@ msgstr ""
 "Nato kliknite :icon:`fa-plus-square` :guilabel:`Skupaj` nad naslovi stolpcev "
 "in izberite :guilabel:`Vrsta dogodka` iz nastalega spustnega menija."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:189
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:162
 msgid ""
-"With these configurations in place, all the revenues generated from the "
-"events (and their corresponding registrations) are displayed, organized by "
-"the event type (presented as expandable columns)."
+"With these configurations, all revenues generated from the events and their "
+"corresponding registrations are organized by the event type."
 msgstr ""
-"S temi konfiguracjami so prikazani vsi prihodki, ustvarjeni iz dogodkov (in "
-"njihovih ustreznih registracij), organizirani po vrsti dogodka (prikazani "
-"kot razširljivi stolpci)."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
+msgid ""
+"The event type analysis sample report with unique filters and groupings in "
+"place."
+msgstr ""
+"Vzorčno poročilo analize vrste dogodka z edinstvenimi filtri in združevanji."
 
 #: ../../content/applications/marketing/events/event_setup.rst:6
 msgid "Setup"
@@ -7018,17 +6864,12 @@ msgstr "Nadzorna plošča"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:18
 msgid ""
-"To create an event, navigate to the :guilabel:`Events app` to land on the "
-"dashboard. By default, the :guilabel:`Events` dashboard uses the :icon:`oi-"
-"view-kanban` :guilabel:`(Kanban)` view, which showcases all events in the "
-"database in their respective pipeline stages. Other views can be set using "
-"the buttons in the upper-right corner."
+"To create an event, navigate to the :menuselection:`Events app` to land on "
+"the dashboard. By default, the :guilabel:`Events` dashboard uses "
+"the :icon:`oi-view-kanban` :guilabel:`(Kanban)` view, which showcases all "
+"events in the database in their respective pipeline stages. Other views can "
+"be set using the buttons at the top."
 msgstr ""
-"Za ustvarjanje dogodka pojdite v :guilabel:`aplikacijo Dogodki`, da "
-"pristanete na nadzorni plošči. Privzeto nadzorna plošča :guilabel:`Dogodki` "
-"uporablja pogled :icon:`oi-view-kanban` :guilabel:`(Kanban)`, ki prikazuje "
-"vse dogodke v zbirki podatkov v njihovih ustreznih fazah cevovoda. Druge "
-"poglede je mogoče nastaviti z gumbi v zgornjem desnem kotu."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:23
 msgid ""
@@ -7043,22 +6884,19 @@ msgstr ""
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:27
 msgid ""
 "The default stages in the :guilabel:`Kanban` view "
-"are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, :guilabel:`Ended`, "
-"and :guilabel:`Cancelled`. The cards can be dragged-and-dropped into any "
-"stage in the pipeline."
+"are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, "
+"and :guilabel:`Ended`. The cards can be dragged and dropped into any stage "
+"in the pipeline."
 msgstr ""
 "Privzete faze v pogledu :guilabel:`Kanban` so :guilabel:`Novo`, "
-":guilabel:`Rezervirano`, :guilabel:`Najavljeno`, :guilabel:`Končano` in "
-":guilabel:`Preklicano`. Kartice je mogoče povleči in spustiti v katero koli "
-"fazo v cevovodu."
+":guilabel:`Rezervirano`, :guilabel:`Napovedano` in :guilabel:`Končano`. "
+"Kartice lahko povlečete in spustite v katero koli fazo v cevovodu."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:32
 msgid ""
-"The :guilabel:`Ended` and :guilabel:`Cancelled` stages are folded by default "
-"and located to the right of the other stages."
+"The :guilabel:`Ended` stage is folded by default and located at the end of "
+"the dashboard, next to the final stage."
 msgstr ""
-"Fazi :guilabel:`Končano` in :guilabel:`Preklicano` sta privzeto zloženi in "
-"nahajata se desno od drugih faz."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Overview of Events dashboard with the Kanban view in Odoo Events."
@@ -7066,51 +6904,36 @@ msgstr "Pregled nadzorne plošče Dogodki s pogledom Kanban v Odoo Dogodki."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:38
 msgid ""
-"To add a new stage, click the :icon:`fa-plus` :guilabel:`Add Stage` button "
-"on the right, enter a name for the stage, then click :guilabel:`Add`."
+"To add a new stage, click the :icon:`fa-angle-double-right` :guilabel:`Add "
+"Stage` button at the end of the dashboard. Enter a name for the stage, then "
+"click :icon:`fa-check` :guilabel:`(Add)` to add the stage or :icon:`fa-"
+"times` :guilabel:`(Remove)` to cancel."
 msgstr ""
-"Za dodajanje nove faze kliknite gumb :icon:`fa-plus` :guilabel:`Dodaj fazo` "
-"na desni, vnesite ime faze in kliknite :guilabel:`Dodaj`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:44
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:45
 msgid "Add a new event"
 msgstr "Dodajanje novega dogodka"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:46
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:47
 msgid ""
-"Events can be created by going to the :menuselection:`Events` app, on "
-"the :icon:`oi-view-kanban` :guilabel:`(Kanban)`, :icon:`oi-view-"
-"list` :guilabel:`(List)`, or :icon:`fa-tasks` :guilabel:`(Gantt)` views. "
-"Then, click the :guilabel:`New` button in the upper-left corner of the "
-"dashboard to open up a new event form."
+"Events can be created by opening the :menuselection:`Events app` and "
+"clicking :guilabel:`New`. This opens a new *Events* form."
 msgstr ""
-"Dogodke lahko ustvarite tako, da odprete aplikacijo "
-":menuselection:`Dogodki`, v pogledu :icon:`oi-view-kanban` :guilabel:`"
-"(Kanban)`, :icon:`oi-view-list` :guilabel:`(Seznam)` ali :icon:`fa-tasks` "
-":guilabel:`(Gantt)`. Nato kliknite gumb :guilabel:`Novo` v zgornjem levem "
-"kotu nadzorne plošče, da odprete nov obrazec dogodka."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical event template in the Odoo Events application."
 msgstr "Tipična predloga dogodka v aplikaciji Odoo Dogodki."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:54
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:53
 msgid ""
-"At the top of the event form are a series of smart buttons related to "
-"various event metrics. These auto-populate with data once attendees begin to "
-"register, when booths and sponsors sign on for the event, when the event "
-"takes place, and so on. These smart buttons can be clicked to navigate to "
-"the event's related pages to modify any details and/or perform any desired "
-"actions."
+"At the top of the event form are a series of clickable smart buttons to view "
+"details about event metrics, including attendee registrations, :doc:`booths "
+"<../promote_monetize/event_booths>`, ticket :doc:`sales <../promote_monetize/"
+"sell_tickets>`, event :doc:`tracks <../attendee_experience/event_tracks>`, "
+"and :doc:`sponsors <../promote_monetize/event_sponsors>`."
 msgstr ""
-"Na vrhu obrazca dogodka je vrsta pametnih gumbov, povezanih z različnimi "
-"metrikami dogodka. Ti se samodejno zapolnijo s podatki, ko se udeleženci "
-"začnejo registrirati, ko se za dogodek prijavijo stojnice in sponzorji, ko "
-"se dogodek zgodi itd. Te pametne gumbe je mogoče klikniti za navigacijo na "
-"povezane strani dogodka za spreminjanje podrobnosti in/ali izvajanje želenih "
-"dejanj."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:59
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:58
 msgid ""
 "Beneath the smart buttons is the event form, which contains various fields "
 "and clickable tabs to configure the necessary details of the event."
@@ -7119,19 +6942,19 @@ msgstr ""
 "zavihke, ki jih je mogoče klikniti, za konfiguracijo potrebnih podrobnosti "
 "dogodka."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:62
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:61
 msgid ""
 "To start, enter some basic information about the event in the following "
 "fields:"
 msgstr ""
 "Za začetek vnesite nekaj osnovnih informacij o dogodku v naslednja polja:"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:64
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:63
 msgid ""
 ":guilabel:`Event Name`: The title of the event. This field is **required**."
 msgstr ":guilabel:`Ime dogodka`: Naslov dogodka. To polje je **obvezno**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:65
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:64
 msgid ""
 ":guilabel:`Date`: The scheduled date or date range of the event (expressed "
 "in the local timezone). This field is auto-populated but modifiable and is "
@@ -7141,7 +6964,7 @@ msgstr ""
 "lokalni časovni coni). To polje je samodejno izpolnjeno, a ga je mogoče "
 "spremeniti in je **obvezno**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:67
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:66
 msgid ""
 ":guilabel:`Display Timezone`: The timezone in which the event date is "
 "displayed on the website. This field is auto-populated but modifiable and is "
@@ -7151,33 +6974,25 @@ msgstr ""
 "prikazan na spletnem mestu. To polje je samodejno izpolnjeno, a ga je mogoče "
 "spremeniti in je **obvezno**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:69
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:68
 msgid ":guilabel:`Language`: The chosen language for all event communications."
 msgstr ":guilabel:`Jezik`: Izbrani jezik za vso komunikacijo dogodka."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:72
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:71
 msgid ""
-"To the right of the entered :guilabel:`Event Name`, there is a language "
-"tooltip, represented by an abbreviated language indicator (e.g., `EN`). When "
-"clicked, a :guilabel:`Translate name` pop-up window appears, displaying "
-"various preconfigured language translation options available in the database."
+"Next to the entered :guilabel:`Event Name`, there is a language tooltip, "
+"represented by an abbreviated language indicator (e.g., `EN`). When clicked, "
+"a *Translate: name* pop-up window appears, displaying various preconfigured "
+"language translation options available in the database."
 msgstr ""
-"Na desni strani vnešenega :guilabel:`Imena dogodka` je jezikovni namig, "
-"predstavljen s kratico jezika (npr. `EN`). Ko kliknete nanj, se prikaže "
-"pojavno okno :guilabel:`Prevedi ime`, ki prikazuje različne vnaprej "
-"nastavljene možnosti prevoda jezikov, ki so na voljo v podatkovni zbirki."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:77
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:75
 msgid ""
 "Alternatively, to populate the event form from an event template, select an "
-"option in the :guilabel:`Template` drop-down menu. To learn more, see "
-"the :doc:`event_templates` documentation."
+"option in the :doc:`Template <event_templates>` drop-down menu."
 msgstr ""
-"Druga možnost je, da obrazec dogodka izpolnite iz predloge dogodka tako, da "
-"v spustnem meniju :guilabel:`Predloga` izberete možnost. Če želite izvedeti "
-"več, si oglejte dokumentacijo :doc:`event_templates`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:80
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:78
 msgid ""
 "Additionally, add any corresponding tags (e.g., `Online`, `Conference`) for "
 "the event in the :guilabel:`Tags` field. Multiple tags can be added per "
@@ -7186,7 +7001,7 @@ msgstr ""
 "Poleg tega dodajte ustrezne oznake (npr. `Online`, `Konferenca`) za dogodek "
 "v polje :guilabel:`Oznake`. Na dogodek je mogoče dodati več oznak."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:84
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:82
 msgid ""
 "Tags can be displayed on events that are listed on the website by enabling "
 "the :guilabel:`Show on Website` checkbox from :menuselection:`Events app --> "
@@ -7197,7 +7012,7 @@ msgstr ""
 ":menuselection:`Aplikacija Dogodki --> Nastavitve --> Kategorije oznak "
 "dogodkov`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:87
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:85
 msgid ""
 "Continue by entering information such as points of contact and venue "
 "location in the following fields:"
@@ -7205,14 +7020,14 @@ msgstr ""
 "Nadaljujte z vnašanjem podatkov, kot so kontaktne točke in lokacija "
 "prizorišča v naslednja polja:"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:90
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:88
 msgid ""
 ":guilabel:`Organizer`: The organizer of the event (a company, contact, or "
 "employee)."
 msgstr ""
 ":guilabel:`Organizator`: Organizator dogodka (podjetje, kontakt ali kader)."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:91
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:89
 msgid ""
 ":guilabel:`Responsible`: The specific user responsible for managing the "
 "event in the database."
@@ -7220,7 +7035,7 @@ msgstr ""
 ":guilabel:`Odgovorni`: Določen uporabnik, ki je odgovoren za upravljanje "
 "dogodka v podatkovni zbirki."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:92
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:90
 msgid ""
 ":guilabel:`Company`: The specific company in the database to which the event "
 "is related. This field **only** appears if working in a multi-company "
@@ -7231,21 +7046,40 @@ msgstr ""
 "okolju. To polje je samodejno izpolnjeno, a ga je mogoče spremeniti. Je "
 "**obvezno**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:95
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:93
 msgid ""
-":guilabel:`Website`: The specific website in the database on which the event "
-"is published. If this field is left blank, the event can be published on "
-"**all** websites in the database. To learn more, refer to the :doc:`Multiple "
-"websites <../../../websites/website/configuration/multi_website>` "
-"documentation."
+":guilabel:`Website`: The specific :doc:`website <../../../websites/website/"
+"configuration/multi_website>` in the database on which the event is "
+"published. If this field is left blank, the event can be published on "
+"**all** websites in the database."
 msgstr ""
-":guilabel:`Spletna stran`: Določena spletna stran v zbirki podatkov, na "
-"kateri je dogodek objavljen. Če to polje ostane prazno, je dogodek mogoče "
-"objaviti na **vseh** spletnih straneh v zbirki podatkov. Več informacij "
-"najdete v dokumentaciji :doc:`Več spletnih strani <../../../websites/website/"
-"configuration/multi_website>`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:99
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:97
+msgid ""
+":guilabel:`Visibility`: The visibility of the event on the "
+"specified :guilabel:`Website` and in searches. The following options can be "
+"specified:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:100
+msgid ""
+":guilabel:`Public`: The event is searchable and visible to **all** website "
+"visitors."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:101
+msgid ""
+":guilabel:`Via a Link`: The event is visible **only** to visitors with a "
+"direct URL or already-registered participants."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:103
+msgid ""
+":guilabel:`Logged Users`: The event is visible **only** to logged-in "
+"visitors or visitors with a direct URL."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:106
 msgid ""
 ":guilabel:`Venue`: The event venue location. This field pulls information "
 "from the **Contacts** application. Alternatively, the information can be "
@@ -7255,50 +7089,12 @@ msgstr ""
 "podatke iz aplikacije **Kontakti**. Druga možnost je, da podatke vnesete "
 "ročno."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:101
-msgid ""
-":guilabel:`Exhibition Map`: The image of the event venue map. Click "
-"the :guilabel:`Upload your file` button to upload an image of the event "
-"venue map."
-msgstr ""
-":guilabel:`Načrt razstave`: Slika načrta prizorišča dogodka. Kliknite gumb "
-":guilabel:`Naloži datoteko`, da naložite sliko načrta prizorišča dogodka."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:104
-msgid ""
-"To limit the number of registrations for the event, check "
-"the :guilabel:`Limit Registrations` and enter the maximum number of "
-"attendees allowed in the resulting field."
-msgstr ""
-"Če želite omejiti število registracij za dogodek, označite :guilabel:`Omeji "
-"registracije` in vnesite največje dovoljeno število udeležencev v prikazano "
-"polje."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:107
-msgid ""
-"Optionally, to create event badges for attendees, fill in the following "
-"fields:"
-msgstr ""
-"Po želji izpolnite naslednja polja, da ustvarite značke dogodkov za "
-"udeležence:"
-
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:109
 msgid ""
-":guilabel:`Badge Dimension`: The desired paper format dimension for the "
-"badges. The options are :guilabel:`A4 foldable`, :guilabel:`A6`, "
-"or :guilabel:`4 per sheet`."
+"To limit the number of registrations for the event, select :guilabel:`Limit "
+"Registrations` and enter the maximum number of attendees allowed in the "
+"resulting field."
 msgstr ""
-":guilabel:`Dimenzija značke`: Želena dimenzija papirnega formata za značke. "
-"Možnosti so :guilabel:`A4 zložljiv`, :guilabel:`A6` ali :guilabel:`4 na "
-"list`."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:111
-msgid ""
-":guilabel:`Badge Background`: The custom background image for the badges. "
-"Click the :guilabel:`Upload your file` button to upload an image."
-msgstr ""
-":guilabel:`Ozadje značke`: Slika ozadja po meri za značke. Kliknite gumb "
-":guilabel:`Naloži datoteko`, da naložite sliko."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:115
 msgid "Additional event configurations"
@@ -7318,11 +7114,9 @@ msgstr "Zavihek Vstopnice"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:125
 msgid ""
-"In the :guilabel:`Tickets` tab of the event form, create custom registration "
-"tickets and ticket tiers for events."
+"In the *Tickets* tab of the event form, create custom registration tickets "
+"and ticket tiers for events."
 msgstr ""
-"Na zavihku :guilabel:`Zahtevki` obrazca dogodka ustvarite vstopnice za "
-"registracijo po meri in ravni vstopnic za dogodke."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "A typical tickets tab on an event form in the Odoo Events application."
@@ -7330,145 +7124,100 @@ msgstr "Tipičen zavihek vstopnic na obrazcu dogodka v aplikaciji Odoo Dogodki."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:131
 msgid ""
-"To create a ticket, click :guilabel:`Add a line` in the :guilabel:`Tickets` "
-"tab. In the :guilabel:`Product` field, either select the "
+"To create a ticket, click :guilabel:`Add a line` in the *Tickets* tab. In "
+"the :guilabel:`Product` field, either select the "
 "preconfigured :guilabel:`Event Registration` product, or create a new one by "
 "typing in the name of the new event registration product and then selecting "
 "either :guilabel:`Create` or :guilabel:`Create and edit...` from the "
-"resulting drop-down menu. Then, enter a name for the ticket (e.g. `Basic "
-"Ticket` or `VIP`) in the :guilabel:`Name` field."
+"resulting drop-down menu."
 msgstr ""
-"Za ustvarjanje zahtevka kliknite :guilabel:`Dodaj vrstico` na zavihku "
-":guilabel:`Zahtevki`. V polju :guilabel:`Izdelek` bodisi izberite vnaprej "
-"konfigurirani izdelek :guilabel:`Registracija na dogodek` ali ustvarite "
-"novega tako, da vnesete ime novega izdelka za registracijo na dogodek in "
-"nato v spustnem meniju izberete :guilabel:`Ustvari` ali :guilabel:`Ustvari "
-"in uredi...`. Nato vnesite ime vstopnice (npr. `Osnovna vstopnica` ali "
-"`VIP`) v polje :guilabel:`Ime`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:138
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:136
 msgid ""
-"In order for an event registration product to be selectable in "
-"the :guilabel:`Tickets` tab, the event registration :guilabel:`Product Type` "
-"**must** be set to :guilabel:`Service` and the :guilabel:`Create on Order` "
-"field **must** be set to :guilabel:`Event Registration`."
+"Then, enter a name for the ticket (e.g., `Basic Ticket` or `VIP`) in "
+"the :guilabel:`Name` field."
 msgstr ""
-"Če želite, da je izdelek za registracijo na dogodek mogoče izbrati na "
-"zavihku :guilabel:`Zahtevki`, mora biti :guilabel:`Vrsta izdelka` za "
-"registracijo na dogodek **obvezno** nastavljena na :guilabel:`Storitev` in "
-"polje :guilabel:`Ustvari ob naročilu` mora biti **obvezno** nastavljeno na "
-":guilabel:`Registracija na dogodek`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:143
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:139
 msgid ""
-"Existing event registration products can be modified directly from this "
-"field as well by clicking the :icon:`oi-arrow-right` :guilabel:`(right "
-"arrow)` icon located beside the event registration product. Doing so reveals "
+"In order for an event registration product to be selectable in the *Tickets* "
+"tab, the event registration :guilabel:`Product Type` **must** be set "
+"to :guilabel:`Service` and the :guilabel:`Create on Order` field **must** be "
+"set to :guilabel:`Event Registration`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:144
+msgid ""
+"Existing event registration products can be modified directly from "
+"the :guilabel:`Product` field by clicking the :icon:`oi-arrow-"
+"right` :guilabel:`(right arrow)` icon next to the product. Doing so reveals "
 "that product's form. If the **Inventory** application is installed, "
 "additional choices are available to customize for the product."
 msgstr ""
-"Obstoječe izdelke za registracijo na dogodek je mogoče spremeniti neposredno "
-"iz tega polja tudi tako, da kliknete ikono :icon:`oi-arrow-right` :guilabel:`"
-"(puščica desno)` poleg izdelka za registracijo na dogodek. S tem se prikaže "
-"obrazec tega izdelka. Če je nameščena aplikacija **Zaloga**, so na voljo "
-"dodatne možnosti za prilagajanje izdelka."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:148
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:149
 msgid ""
 "Next, set the registration cost of the ticket in the :guilabel:`Price` field."
 msgstr "Nato nastavite ceno registracije za vstopnico v polju :guilabel:`Cena`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:151
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:152
 msgid ""
-"The :guilabel:`Sales Price` defined on the event registration product's "
-"product form sets the default cost of a ticket. Modifying "
-"the :guilabel:`Price` of a ticket in the :guilabel:`Tickets` tab sets a new "
-"registration cost of the ticket for that event."
+"The :guilabel:`Sales Price` defined on the event registration product's form "
+"sets the default cost of a ticket. Modifying the :guilabel:`Price` of the "
+"event ticket in the *Tickets* tab overrides the ticket's default price with "
+"this new price."
 msgstr ""
-":guilabel:`Prodajna cena`, določena v obrazcu izdelka za registracijo na "
-"dogodek, določa privzeto ceno vstopnice. Spreminjanje :guilabel:`Cene` "
-"vstopnice na zavihku :guilabel:`Zahtevki` nastavi novo ceno registracije za "
-"vstopnico za ta dogodek."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:155
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:156
 msgid ""
 "Next, enter the :guilabel:`Sales Start` and :guilabel:`Sales End` dates in "
-"their respective fields. To do that, click into the blank field to reveal a "
-"calendar pop-over. From there, select the desired date and time, then "
+"their respective fields. To do so, click into the blank field to reveal a "
+"calendar pop-over. Then, select the desired date and time and "
 "click :icon:`fa-check` :guilabel:`Apply`."
 msgstr ""
-"Nato vnesite datuma :guilabel:`Začetek prodaje` in :guilabel:`Konec prodaje` "
-"v ustrezna polja. Kliknite v prazno polje, da se prikaže pojavni koledar. "
-"Nato izberite želeni datum in čas ter kliknite :icon:`fa-check` "
-":guilabel:`Uporabi`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:159
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:160
 msgid ""
-"Then, if desired, designate a :guilabel:`Maximum` amount of that specific "
-"ticket that can be sold."
+"Optionally, designate a :guilabel:`Maximum` amount of the ticket that can be "
+"sold."
 msgstr ""
-"Nato po želji določite :guilabel:`Največje` število te specifične vstopnice, "
-"ki je lahko prodano."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:161
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:162
 msgid ""
-"The :guilabel:`Registration` column populates with the number of tickets "
-"that are sold."
+"As attendees register, the :guilabel:`Registration` column automatically "
+"populates with the number of tickets sold."
 msgstr ""
-"Stolpec :guilabel:`Registracija` se napolni s številom prodanih vstopnic."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:163
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:165
 msgid ""
-"To delete any tickets from the :guilabel:`Tickets` tab, click the :icon:`fa-"
-"trash-o` :guilabel:`(trash can)` icon at the right in the corresponding line "
-"for the ticket that should be deleted."
+"To delete any tickets from the *Tickets* tab, click the :icon:`fa-trash-"
+"o` :guilabel:`(trash can)` icon in the ticket's corresponding line."
 msgstr ""
-"Za brisanje vstopnic iz zavihka :guilabel:`Zahtevki` kliknite ikono "
-":icon:`fa-trash-o` :guilabel:`(koš za smeti)` na desni strani v ustrezni "
-"vrstici za vstopnico, ki naj bo izbrisana."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:168
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:169
 msgid ""
-"To add an optional :guilabel:`Description` column to the :guilabel:`Tickets` "
-"tab, click the :icon:`oi-settings-adjust` :guilabel:`(additional options)` "
-"drop-down menu, located to the far-right of the column titles."
+"To add an optional :guilabel:`Description` column to the *Tickets* tab, "
+"click the :icon:`oi-settings-adjust` :guilabel:`(additional options)` drop-"
+"down menu at the end of the column titles."
 msgstr ""
-"Če želite zavihku :guilabel:`Vstopnice` dodati neobvezni stolpec "
-":guilabel:`Opis`, kliknite spustni meni :icon:`oi-settings-adjust` "
-":guilabel:`(dodatne možnosti)`, ki se nahaja na skrajni desni strani "
-"naslovov stolpcev."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:172
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:173
 msgid ""
-"Then, tick the checkbox beside :guilabel:`Description` from the resulting "
-"drop-down menu."
+"Then, select the checkbox beside :guilabel:`Description` to add a brief "
+"description for each event ticket, informing registrants about ticket "
+"details."
 msgstr ""
-"Nato v spustnemu meniju, ki se prikaže, potrdite potrditveno polje poleg "
-":guilabel:`Opis`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:174
-msgid ""
-"When added, the option to add brief descriptions for each event ticket "
-"appears, which can be used to inform attendees of any perks or amenities "
-"that may coincide with specific ticket purchases."
-msgstr ""
-"Ko je dodan, se prikaže možnost dodajanja kratkih opisov za vsako vstopnico "
-"za dogodek, kar lahko uporabite za obveščanje udeležencev o morebitnih "
-"ugodnostih ali dodatkih, ki lahko sovpadajo s specifičnimi nakupi vstopnic."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:180
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:179
 msgid "Communication tab"
 msgstr "Zavihek Komunikacija"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:182
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:181
 msgid ""
-"In the :guilabel:`Communication` tab of an event form, create various "
-"marketing communications that can be scheduled to be sent at specific "
-"intervals leading up to and following the event."
+"In the *Communication* tab of an event form, create various marketing "
+"communications that can be scheduled to be sent at specific intervals "
+"leading up to and following the event."
 msgstr ""
-"Na zavihku :guilabel:`Komunikacija` obrazca dogodka ustvarite različne "
-"trženjske komunikacije, ki jih je mogoče načrtovati za pošiljanje v "
-"določenih intervalih pred dogodkom in po njem."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid ""
@@ -7476,7 +7225,7 @@ msgid ""
 msgstr ""
 "Tipičen zavihek komunikacija na obrazcu dogodka v aplikaciji Odoo Dogodki."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:189
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:188
 msgid ""
 "By default, Odoo provides three separate preconfigured communications on "
 "every new event form. One is an email sent after each registration to "
@@ -7490,21 +7239,16 @@ msgstr ""
 "opomniki o dogodku, ki sta načrtovana za pošiljanje v različnih časovnih "
 "intervalih pred dogodkom, da prejemnika opomni na prihajajoči dogodek."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:194
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:193
 msgid ""
-"To add a communication in the :guilabel:`Communication` tab, "
-"click :guilabel:`Add a line`. Then, select the desired type of communication "
-"from the first drop-down menu on the :guilabel:`Template` field. The options "
+"To add a communication in the *Communication* tab, click :guilabel:`Add a "
+"line`. Then, select the desired type of communication from the first drop-"
+"down menu in the :guilabel:`Template` column. The options "
 "are: :guilabel:`Mail`, :guilabel:`SMS`, :guilabel:`Social Post`, "
 "or :guilabel:`WhatsApp`."
 msgstr ""
-"Za dodajanje komunikacije na zavihku :guilabel:`Komunikacija` kliknite "
-":guilabel:`Dodaj vrstico`. Nato izberite želeno vrsto komunikacije iz prvega "
-"spustnega menija v polju :guilabel:`Predloga`. Možnosti so: "
-":guilabel:`Pošta`, :guilabel:`SMS`, :guilabel:`Objava na družbenih omrežjih` "
-"ali :guilabel:`WhatsApp`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:200
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:198
 msgid ""
 "The :guilabel:`Social Post` option only appears if the **Social Marketing** "
 "application is installed. The :guilabel:`WhatsApp` option only appears if "
@@ -7514,7 +7258,7 @@ msgstr ""
 "nameščena aplikacija **Družbeno Trženje**. Možnost :guilabel:`WhatsApp` se "
 "prikaže samo, če je nameščen modul **WhatsApp**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:203
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:201
 msgid ""
 ":doc:`WhatsApp <../../../productivity/whatsapp>` templates **cannot** be "
 "edited during active configuration. A separate approval from *Meta* is "
@@ -7524,7 +7268,7 @@ msgstr ""
 "urejati med aktivno konfiguracijo. Potrebna je ločena odobritev podjetja "
 "*Meta*."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:206
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:204
 msgid ""
 "Then, select an existing email template from the second drop-down menu on "
 "the :guilabel:`Template` field."
@@ -7532,131 +7276,125 @@ msgstr ""
 "Nato izberite obstoječo predlogo e-pošte iz drugega spustnega menija v polju "
 ":guilabel:`Predloga`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:209
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:207
 msgid ""
 "Next, define the :guilabel:`Interval` and :guilabel:`Unit` from their "
-"respective drop-down fields, letting Odoo know when the communication should "
-"be sent. The :guilabel:`Unit` options "
+"respective drop-down fields to specify when the communication should be "
+"sent. The :guilabel:`Unit` options "
 "are: :guilabel:`Immediately`, :guilabel:`Hours`, :guilabel:`Days`, :guilabel:`Weeks`, "
 "and :guilabel:`Months`."
 msgstr ""
-"Nato določite :guilabel:`Interval` in :guilabel:`Enota` iz ustreznih "
-"spustnih polj ter obvestite Odoo, kdaj naj se komunikacija pošlje. Možnosti "
-"za :guilabel:`Enota` so: :guilabel:`Takoj`, :guilabel:`Ure`, "
-":guilabel:`Dnevi`, :guilabel:`Tedni` in :guilabel:`Meseci`."
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:212
+msgid ""
+"Then, select one of the following options from the :guilabel:`Trigger` drop-"
+"down menu:"
+msgstr ""
+"Nato izberite eno od naslednjih možnosti v spustnem meniju "
+":guilabel:`Sprožilec`:"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:214
-msgid ""
-"Then, select an option from the :guilabel:`Trigger` drop-down menu. The "
-"options are: :guilabel:`After each registration`, :guilabel:`Before the "
-"event`, and :guilabel:`After the event`."
-msgstr ""
-"Nato izberite možnost iz spustnega menija :guilabel:`Sprožilec`. Možnosti "
-"so: :guilabel:`Po vsaki registraciji`, :guilabel:`Pred dogodkom` in "
-":guilabel:`Po dogodku`."
+msgid ":guilabel:`After each registration`"
+msgstr ":guilabel:`Po vsaki registraciji`"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:215
+msgid ":guilabel:`Before the event starts`"
+msgstr ":guilabel:`Pred začetkom dogodka`"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:216
+msgid ":guilabel:`After the event started`"
+msgstr ":guilabel:`Po začetku dogodka`"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:217
+msgid ":guilabel:`After the event ended`"
+msgstr ":guilabel:`Po koncu dogodka`"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:218
+msgid ":guilabel:`Before the event ends`"
+msgstr ":guilabel:`Pred koncem dogodka`"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:220
 msgid ""
-"The :guilabel:`Sent` column populates with the number of sent "
-"communications. Next to the number are different icons that appear, "
-"depending on the status of that particular communication. The *Running* "
-"status is represented by a :icon:`fa-cogs` :guilabel:`(three gears)` icon. "
-"The *Sent* status is represented by a :icon:`fa-"
-"check` :guilabel:`(checkmark)` icon. And, the *Scheduled* status is "
-"represented by an :icon:`fa-hourglass-half` :guilabel:`(hourglass)` icon."
+"The :guilabel:`(#) Sent` column populates with the number of sent "
+"communications, along with different icons indicating the status of the "
+"communication:"
 msgstr ""
-"Stolpec :guilabel:`Poslano` se napolni s številom poslanih komunikacij. "
-"Poleg številke se prikažejo različne ikone, odvisno od statusa določene "
-"komunikacije. Status *V teku* je označen z ikono :icon:`fa-cogs` :guilabel:`"
-"(trije zobniki)`. Status *Poslano* je označen z ikono :icon:`fa-check` "
-":guilabel:`(kljukica)`. Status *Načrtovano* pa je označen z ikono :icon:`fa-"
-"hourglass-half` :guilabel:`(peščena ura)`."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:223
 msgid ""
-"Any number of communications can be added in the :guilabel:`Communication` "
-"tab of an event form."
+":icon:`fa-cogs` :guilabel:`(Running)`: The communication is active and "
+"running."
 msgstr ""
-"Na zavihku :guilabel:`Komunikacija` obrazca dogodka je mogoče dodati "
-"poljubno število komunikacij."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:226
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:224
+msgid ""
+":icon:`fa-check` :guilabel:`(Sent)`: The communications were sent and are no "
+"longer active."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:225
+msgid ""
+":icon:`fa-hourglass-half` :guilabel:`(Scheduled)`: The communication is "
+"scheduled but has not been deployed."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:228
+msgid ""
+"Any number of communications can be added in the *Communication* tab of an "
+"event form."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:231
 msgid ""
 "To send a confirmation email an hour after an attendee registers for an "
-"event, configure the following communication:"
+"event, configure the communication as follows:"
 msgstr ""
-"Če želite udeležencema poslati potrditveno e-poštno sporočilo eno uro po "
-"registraciji za dogodek, nastavite naslednjo komunikacijo:"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:229
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:234
 msgid ":guilabel:`Interval`: `1`"
 msgstr ":guilabel:`Interval`: `1`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:230
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:235
 msgid ":guilabel:`Unit`: :guilabel:`Hours`"
 msgstr ":guilabel:`Enota`: :guilabel:`Ure`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:231
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:236
 msgid ":guilabel:`Trigger`: :guilabel:`After each registration`"
 msgstr ":guilabel:`Sprožilec`: :guilabel:`Po vsaki registraciji`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:234
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:239
 msgid ""
 "Existing email templates can be modified directly from "
-"the :guilabel:`Template` drop-down menu, if necessary, by clicking "
-"the :icon:`oi-arrow-right` :guilabel:`(Internal link)` icon next to the "
-"template name. Doing so reveals a separate page where users can edit "
+"the :guilabel:`Template` drop-down menu, by clicking the :icon:`oi-arrow-"
+"right` :guilabel:`(Internal link)` icon next to the template name. Doing so "
+"reveals a separate page where users can edit "
 "the :guilabel:`Content`, :guilabel:`Email Configuration`, "
 "and :guilabel:`Settings` of that particular email template."
 msgstr ""
-"Obstoječe predloge e-pošte je po potrebi mogoče spremeniti neposredno iz "
-"spustnega menija :guilabel:`Predloga` tako, da kliknete ikono :icon:`oi-"
-"arrow-right` :guilabel:`(Notranja povezava)` poleg imena predloge. S tem se "
-"prikaže ločena stran, kjer lahko uporabniki uredijo :guilabel:`Vsebino`, "
-":guilabel:`Konfiguracijo e-pošte` in :guilabel:`Nastavitve` določene "
-"predloge e-pošte."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:239
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:244
 msgid ""
 "To view and manage all email templates, activate :ref:`developer-mode` and "
 "navigate to :menuselection:`Settings --> Technical --> Email: Email "
-"Templates`. Modify with caution as email templates effect all communications "
+"Templates`. Modify with caution as email templates affect all communications "
 "where the template is used."
 msgstr ""
-"Za ogled in upravljanje vseh predlog e-pošte aktivirajte :ref:`developer-"
-"mode` in pojdite na :menuselection:`Nastavitve --> Tehnično --> E-pošta: "
-"Predloge e-pošte`. Spreminjajte previdno, saj predloge e-pošte vplivajo na "
-"vso komunikacijo, kjer se predloga uporablja."
+"Če želite videti in upravljati vse predloge e-pošte, aktivirajte "
+":ref:`developer-mode` in pojdite na :menuselection:`Nastavitve --> "
+"Tehnično --> E-pošta: Predloge e-pošte`. Spreminjajte previdno, saj predloge "
+"e-pošte vplivajo na vse komunikacije, kjer se predloga uporablja."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:246
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:251
 #: ../../content/applications/marketing/surveys/create.rst:50
 #: ../../content/applications/marketing/surveys/questions.rst:20
 msgid "Questions tab"
 msgstr "Zavihek vprašanja"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:248
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:253
 msgid ""
-"In the :guilabel:`Questions` tab of an event form, users can create brief "
-"questionnaires for registrants to interact with, and respond to, after they "
-"register for the event."
+"In the *Questions* tab of an event form, users can create questionnaires to "
+"gather information from attendees when registering for the event."
 msgstr ""
-"V zavihku :guilabel:`Vprašanja` obrazca dogodka lahko uporabniki ustvarijo "
-"kratke vprašalnike, s katerimi se lahko registrirani udeleženci ukvarjajo in "
-"nanje odgovarjajo po registraciji za dogodek."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:251
-msgid ""
-"These questions can be focused on gathering basic information about the "
-"attendee, learning about their preferences, expectations, and other things "
-"of that nature. This information can also be used to create more detailed "
-"reporting metrics, in addition to being utilized to create specific lead "
-"generation rules."
-msgstr ""
-"Ta vprašanja se lahko osredotočijo na zbiranje osnovnih informacij o "
-"udeležencu, spoznavanje njihovih preferenc, pričakovanj in podobnih stvari. "
-"Te informacije se lahko uporabijo tudi za ustvarjanje podrobnejših metrik "
-"poročanja in za ustvarjanje posebnih pravil za generiranje potencialnih "
-"strank."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical questions tab on an event form in the Odoo Events application."
@@ -7664,38 +7402,28 @@ msgstr "Tipičen zavihek vprašanja na obrazcu dogodka v aplikaciji Odoo Events.
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:260
 msgid ""
-"By default, Odoo provides three questions in the :guilabel:`Questions` tab "
-"for every event form. The default questions require one or more registrants "
-"to provide their :guilabel:`Name`, :guilabel:`Email`, and an "
-"optional :guilabel:`Phone` number as well."
+"By default, Odoo provides three questions in the *Questions* tab for every "
+"event form. The default questions require registrants to provide "
+"their :guilabel:`Name`, :guilabel:`Email`, and an optional :guilabel:`Phone` "
+"number."
 msgstr ""
-"Odoo privzeto zagotavlja tri vprašanja na zavihku :guilabel:`Vprašanja` za "
-"vsak obrazec dogodka. Privzeta vprašanja zahtevajo, da en ali več "
-"udeležencev navede svoje :guilabel:`Ime`, :guilabel:`E-pošto` in izbirno "
-"tudi :guilabel:`Telefon`."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:264
 msgid ""
-"The information gathered from the :guilabel:`Questions` tab can be found on "
-"the :guilabel:`Attendees` dashboard, accessible via the :icon:`fa-"
+"The information gathered from the *Questions* tab can be found on the "
+"*Attendees* dashboard, accessible via the :icon:`fa-"
 "users` :guilabel:`Attendees` smart button. Odoo populates individual records "
 "that contain basic information about the registrants, as well as their "
 "preferences."
 msgstr ""
-"Informacije, zbrane na zavihku :guilabel:`Vprašanja`, so na voljo na "
-"nadzorni plošči :guilabel:`Udeleženci`, dostopni prek pametnega gumba "
-":icon:`fa-users` :guilabel:`Udeleženci`. Odoo napolni posamezne zapise, ki "
-"vsebujejo osnovne informacije o udeležencih in njihovih željah."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:269
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:268
 msgid ""
-"To add a question in the :guilabel:`Questions` tab, click :guilabel:`Add a "
-"line`. Doing so reveals a :guilabel:`Create Question` pop-up window. From "
-"here, users can create and configure their question."
+"To add a question in the *Questions* tab, click :guilabel:`Add a line`. "
+"Doing so reveals an *Add: Question* pop-up window. From here, users can "
+"select previously configured questions or click :guilabel:`New` to create a "
+"new one. Doing so opens a new *Create Question* pop-up window."
 msgstr ""
-"Za dodajanje vprašanja v zavihku :guilabel:`Vprašanja` kliknite "
-":guilabel:`Dodaj vrstico`. S tem se odpre pojavno okno :guilabel:`Ustvari "
-"vprašanje`. Od tukaj lahko uporabniki ustvarijo in nastavijo svoje vprašanje."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid ""
@@ -7705,35 +7433,17 @@ msgstr "Pojavno okno Ustvari vprašanje, ki se prikaže v aplikaciji Odoo Events
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:275
 msgid ""
-"First, enter the question in the field at the top of the form. Then, decide "
-"if the question should require a :guilabel:`Mandatory Answer` and/or if Odoo "
-"should :guilabel:`Ask once per order`, by ticking their respective boxes, if "
-"desired."
+"First, enter the question in the field at the top of the form. Then, specify "
+"if the question requires a :guilabel:`Mandatory Answer`."
 msgstr ""
-"Najprej vnesite vprašanje v polje na vrhu obrazca. Nato se odločite, ali naj "
-"vprašanje zahteva :guilabel:`Obvezen odgovor` in/ali ali naj Odoo "
-":guilabel:`Vpraša enkrat na naročilo`, tako da po želji označite ustrezna "
-"polja."
+"Najprej vnesite vprašanje v polje na vrhu obrazca. Nato določite, ali "
+"vprašanje zahteva :guilabel:`Obvezen odgovor`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:279
-msgid ""
-"If the :guilabel:`Ask once per order` checkbox is ticked, the question will "
-"only be asked once, and its value is applied to every attendee in the order "
-"(if multiple tickets are purchased at once). If the checkbox is **not** "
-"ticked for this setting, Odoo presents the question for every attendee that "
-"is connected to that registration."
-msgstr ""
-"Če je označeno potrditveno polje :guilabel:`Vprašaj enkrat na naročilo`, bo "
-"vprašanje postavljeno samo enkrat in njegova vrednost se uporabi za vse "
-"udeležence v naročilu (če je naenkrat kupljenih več vstopnic). Če "
-"potrditveno polje za to nastavitev **ni** označeno, Odoo predstavi vprašanje "
-"za vsakega udeleženca, povezanega s to registracijo."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:284
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:278
 msgid "Next, select a :guilabel:`Question Type` option:"
 msgstr "Nato izberite možnost :guilabel:`Vrsta vprašanja`:"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:286
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:280
 msgid ""
 ":guilabel:`Selection`: Provide answer options to the question for "
 "registrants to choose from. Selectable answer options can be managed in "
@@ -7743,7 +7453,7 @@ msgstr ""
 "lahko udeleženec izbira. Možnosti odgovorov je mogoče upravljati v stolpcu "
 ":guilabel:`Odgovori` na dnu pojavnega okna."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:289
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:283
 msgid ""
 ":guilabel:`Text Input`: Lets the users enter a custom response to the "
 "question in a text field."
@@ -7751,7 +7461,7 @@ msgstr ""
 ":guilabel:`Besedilni vnos`: Uporabnikom omogoča, da vnesejo prilagojen "
 "odgovor na vprašanje v besedilno polje."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:290
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:284
 msgid ""
 ":guilabel:`Name`: Provides registrants with a field for them to enter their "
 "name."
@@ -7759,7 +7469,7 @@ msgstr ""
 ":guilabel:`Ime`: Udeležencem ponuja polje, v katerega lahko vnesejo svoje "
 "ime."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:291
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:285
 msgid ""
 ":guilabel:`Email`: Provides registrants with a field for them to enter their "
 "email address."
@@ -7767,7 +7477,7 @@ msgstr ""
 ":guilabel:`E-pošta`: Udeležencem ponuja polje, v katerega lahko vnesejo svoj "
 "e-poštni naslov."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:292
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:286
 msgid ""
 ":guilabel:`Phone`: Provides registrants with a field for them to enter their "
 "phone number."
@@ -7775,7 +7485,7 @@ msgstr ""
 ":guilabel:`Telefon`: Udeležencem ponuja polje, v katerega lahko vnesejo "
 "svojo telefonsko številko."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:293
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:287
 msgid ""
 ":guilabel:`Company`: Provides registrants with a field for them to enter a "
 "company they are associated with."
@@ -7783,53 +7493,65 @@ msgstr ""
 ":guilabel:`Podjetje`: Udeležencem ponuja polje, v katerega lahko vnesejo "
 "podjetje, s katerim so povezani."
 
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:290
+msgid ""
+"Additionally, select one or more of the following options to configure the "
+"question's visibility and extendability:"
+msgstr ""
+"Poleg tega izberite eno ali več naslednjih možnosti za konfiguracijo "
+"vidnosti in razširljivosti vprašanja:"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:293
+msgid ""
+":guilabel:`Ask once per order`: Ask this question only once for each "
+"registration, applying the answer to every attendee in the order (if "
+"multiple tickets are purchased at once)."
+msgstr ""
+":guilabel:`Vprašaj enkrat na naročilo`: To vprašanje zastavite le enkrat za "
+"vsako registracijo, pri čemer se odgovor uporabi za vsakega udeleženca v "
+"naročilu (če se kupi več vstopnic hkrati)."
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:295
+msgid ""
+":guilabel:`Default question`: Automatically add this question for all new "
+"events."
+msgstr ""
+":guilabel:`Privzeto vprašanje`: Samodejno dodajte to vprašanje za vse nove "
+"dogodke."
+
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:296
 msgid ""
-"Once all the desired configurations have been entered, either "
-"click :guilabel:`Save & Close` to save the question, and return to "
-"the :guilabel:`Questions` tab on the event form, or click :guilabel:`Save & "
-"New` to save the question and immediately create a new question on a "
-"new :guilabel:`Create Question` pop-up window."
+":guilabel:`Is Reusable`: Allow this question to be reusable for all new "
+"events. If :guilabel:`Default question` is selected, this option is "
+"automatically enabled."
 msgstr ""
-"Ko so vse želene nastavitve vnesene, kliknite :guilabel:`Shrani in zapri`, "
-"da shranite vprašanje in se vrnete v zavihek :guilabel:`Vprašanja` na "
-"obrazcu dogodka, ali kliknite :guilabel:`Shrani in novo`, da shranite "
-"vprašanje in takoj ustvarite novo vprašanje v novem pojavnem oknu "
-":guilabel:`Ustvari vprašanje`."
+":guilabel:`Ponovno uporabno`: Dovolite, da je to vprašanje ponovno uporabno "
+"za vse nove dogodke. Če je izbrano :guilabel:`Privzeto vprašanje`, je ta "
+"možnost samodejno omogočena."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:301
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:299
 msgid ""
-"As questions are added to the :guilabel:`Questions` tab, the informative "
-"columns showcase the configurations of each question."
+"If :guilabel:`Selection` was chosen as the :guilabel:`Question Type`, an "
+"*Answers* tab appears. Add any answers to the question under this tab by "
+"clicking :guilabel:`Add a line`."
 msgstr ""
-"Ko so vprašanja dodana v zavihek :guilabel:`Vprašanja`, informativni stolpci "
-"prikazujejo nastavitve vsakega vprašanja."
+"Če je bila kot :guilabel:`Vrsta vprašanja` izbrana :guilabel:`Izbira`, se "
+"prikaže zavihek *Odgovori*. Dodajte odgovore na vprašanje pod tem zavihkom "
+"tako, da kliknete :guilabel:`Dodaj vrstico`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:304
-msgid "The informative columns are the following:"
-msgstr "Informativni stolpci so naslednji:"
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:302
+msgid ""
+"Once all the desired configurations have been entered, click :guilabel:`Save "
+"& Close` to save the question and return to the *Questions* tab on the event "
+"form. Or, click :guilabel:`Save & New` to save the question and configure "
+"another. To cancel, click :guilabel:`Discard`."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:306
-msgid ":guilabel:`Title`"
-msgstr ":guilabel:`Naslov`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:307
-msgid ":guilabel:`Mandatory`"
-msgstr ":guilabel:`Obvezno`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:308
-msgid ":guilabel:`Once per Order`"
-msgstr ":guilabel:`Enkrat na naročilo`"
+msgid "Users can add as many questions in the *Questions* tab as needed."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:309
-msgid ":guilabel:`Type`"
-msgstr ":guilabel:`Vrsta`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:310
-msgid ":guilabel:`Answers` (if applicable)"
-msgstr ":guilabel:`Odgovori` (če je primerno)"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:312
 msgid ""
 "For :guilabel:`Selection` and :guilabel:`Text Input` types, a :icon:`fa-bar-"
 "chart` :guilabel:`Stats` button appears on the right side of the question "
@@ -7842,90 +7564,94 @@ msgstr ""
 "določeno vprašanje."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:316
-msgid ""
-"To delete any question from the :guilabel:`Questions` tab, click "
-"the :icon:`fa-trash-o` :guilabel:`(trash can)` icon on the corresponding "
-"question line."
-msgstr ""
-"Če želite izbrisati katerokoli vprašanje z zavihka :guilabel:`Vprašanja`, "
-"kliknite ikono :icon:`fa-trash-o` :guilabel:`(koš)` v ustrezni vrstici "
-"vprašanja."
+msgid "Notes & Documents tab"
+msgstr "Zavihek Opombe in dokumenti"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:319
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:318
 msgid ""
-"Any number of questions can be added in the :guilabel:`Questions` tab of an "
-"event form."
+"In the *Notes & Documents* tab of an event form, users can leave detailed "
+"internal notes and event-related instructions or information for attendees."
 msgstr ""
-"V zavihku :guilabel:`Vprašanja` na obrazcu dogodka je mogoče dodati poljubno "
-"število vprašanj."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:324
-msgid "Notes tab"
-msgstr "Zavihek opombe"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:326
-msgid ""
-"In the :guilabel:`Notes` tab of an event form, users can leave detailed "
-"internal notes and/or event-related instructions/information for attendees."
-msgstr ""
-"V zavihku :guilabel:`Opombe` obrazca dogodka lahko uporabniki pustijo "
-"podrobne notranje opombe in/ali navodila/informacije v zvezi z dogodkom za "
-"udeležence."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical notes tab on an event form in the Odoo Events application."
 msgstr "Tipičen zavihek opomb na obrazcu dogodka v aplikaciji Odoo Events."
 
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:324
+msgid ""
+"For in-person events, users can specify the venue map and attendee badge "
+"details in the following fields:"
+msgstr ""
+"Za dogodke v živo lahko uporabniki določijo zemljevid prizorišča in "
+"podrobnosti izkaznic udeležencev v naslednjih poljih:"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:327
+msgid ""
+":guilabel:`Exhibition Map`: Upload an image of the event venue map. Do so by "
+"clicking :guilabel:`Upload your file`."
+msgstr ""
+":guilabel:`Zemljevid razstave`: Prenesite sliko zemljevida prizorišča "
+"dogodka. To storite tako, da kliknete :guilabel:`Naložite svojo datoteko`."
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:329
+msgid ""
+":guilabel:`Badge Dimension`: Select the desired paper format dimension for "
+"attendees' event badges. The options are :guilabel:`A4 "
+"foldable`, :guilabel:`A6`, :guilabel:`4 per sheet`, and :guilabel:`96x82mm "
+"(Badge Printer)`."
+msgstr ""
+":guilabel:`Dimenzija izkaznice`: Izberite želeno dimenzijo formata papirja "
+"za izkaznice udeležencev dogodka. Možnosti so :guilabel:`A4 za zlaganje`, "
+":guilabel:`A6`, :guilabel:`4 na list` in :guilabel:`96x82mm (tiskalnik "
+"izkaznic)`."
+
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:332
 msgid ""
-"In the :guilabel:`Note` field of the :guilabel:`Notes` tab, users can leave "
-"internal notes for other event employees, like \"to-do\" lists, contact "
-"information, instructions, and so on."
+":guilabel:`Badge Background`: Upload an image of the custom background image "
+"for the badge. Do so by clicking :guilabel:`Upload your file`."
 msgstr ""
-"V polju :guilabel:`Opomba` zavihka :guilabel:`Opombe` lahko uporabniki "
-"pustijo notranje opombe za druge zaposlene pri dogodku, kot so seznami \"za "
-"narediti\", kontaktne informacije, navodila in podobno."
+":guilabel:`Ozadje izkaznice`: Prenesite sliko prilagojenega ozadja za "
+"izkaznico. To storite tako, da kliknete :guilabel:`Naložite svojo datoteko`."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:335
 msgid ""
-"In the :guilabel:`Ticket Instructions` field of the :guilabel:`Notes` tab, "
-"users can leave specific instructions for people attending the event that "
-"appear on the attendees ticket."
+"In the :guilabel:`Ticket Instructions` field, users can leave specific "
+"instructions for attendees and display them on attendees' tickets."
 msgstr ""
-"V polju :guilabel:`Navodila za zahtevek` zavihka :guilabel:`Opombe` lahko "
-"uporabniki pustijo posebna navodila za osebe, ki se udeležujejo dogodka, ki "
-"se prikažejo na zahtevku udeleženca."
+"V polju :guilabel:`Navodila za vstopnice` lahko uporabniki pustijo posebna "
+"navodila za udeležence in jih prikažejo na vstopnicah udeležencev."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:339
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:338
+msgid ""
+"In the :guilabel:`Note` field, users can leave internal notes for other "
+"event employees, such as \"to-do\" lists, contact information, instructions, "
+"and so on."
+msgstr ""
+"V polju :guilabel:`Opomba` lahko uporabniki pustijo interne opombe za druge "
+"zaposlene na dogodku, kot so sezname opravil, kontaktni podatki, navodila "
+"itd."
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:344
 msgid "Publish events"
 msgstr "Objavi dogodke"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:341
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:346
 msgid ""
-"Once all configurations and modifications are complete on the event form, it "
-"is time to publish the event on the website. Doing so makes the event "
-"visible to website visitors, and makes it possible for people to register "
-"for the event."
+"Once all configurations and modifications are complete on the event form, "
+"the event can be published on the website. Doing so makes the event visible "
+"to website visitors and allows them to register for the event."
 msgstr ""
-"Ko so vse konfiguracije in spremembe na obrazcu dogodka dokončane, je čas, "
-"da objavite dogodek na spletnem mestu. S tem postane dogodek viden "
-"obiskovalcem spletnega mesta in omogoči ljudem, da se registrirajo za "
-"dogodek."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:345
-msgid ""
-"To publish an event after all the customizations are complete, click "
-"the :icon:`fa-globe` :guilabel:`Go to Website` smart button at the top of "
-"the event form. Doing so reveals the event's web page, which can be "
-"customized like any other web page on the site, via the :guilabel:`Edit` "
-"button."
-msgstr ""
-"Če želite objaviti dogodek po dokončanju vseh prilagoditev, kliknite pametni "
-"gumb :icon:`fa-globe` :guilabel:`Pojdi na spletno mesto` na vrhu obrazca "
-"dogodka. S tem se prikaže spletna stran dogodka, ki jo je mogoče prilagoditi "
-"kot katero koli drugo spletno stran na mestu, prek gumba :guilabel:`Uredi`."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:350
+msgid ""
+"To publish an event, click the :icon:`fa-globe` :guilabel:`Go to Website` "
+"smart button to open the event webpage. Then, toggle "
+"the :guilabel:`Unpublished` button in the header menu, changing it to "
+"a :guilabel:`Published` switch. The event webpage is now published and "
+"accessible by all website visitors."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:356
 msgid ""
 "To learn more about website design functionality and options, consult "
 "the :doc:`Building block <../../../websites/website/web_design/"
@@ -7935,57 +7661,37 @@ msgstr ""
 "si oglejte dokumentacijo :doc:`Gradbeni blok <../../../websites/website/"
 "web_design/building_blocks>`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:353
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:359
 msgid ""
 "Once the event website is ready to be shared, click the "
 "red :guilabel:`Unpublished` toggle switch in the header menu, changing it to "
 "a green :guilabel:`Published` switch. At this point, the event web page is "
-"published and viewable/accessible by all website visitors."
+"published and accessible by all website visitors."
 msgstr ""
-"Ko je spletna stran dogodka pripravljena za objavo, kliknite rdeč gumb "
-":guilabel:`Neobjavljeno` v meniju glave in ga spremenite v zelen gumb "
-":guilabel:`Objavljeno`. V tej točki je spletna stran dogodka objavljena in "
-"vidna/dostopna vsem obiskovalcem spletnega mesta."
+"Ko je spletna stran dogodka pripravljena za deljenje, kliknite rdečo "
+"stikalko :guilabel:`Ni objavljeno` v meniju glave in jo spremenite v zeleno "
+"stikalko :guilabel:`Objavljeno`. V tem trenutku je spletna stran dogodka "
+"objavljena in dostopna vsem obiskovalcem spletnega mesta."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:358
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:364
 msgid "Send event invites"
 msgstr "Pošlji povabila na dogodek"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:360
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:366
 msgid ""
 "To send event invites to potential attendees, navigate to the desired event "
-"form, via :menuselection:`Events app --> Events`, and click into the desired "
-"event. Following this, click the :guilabel:`Invite` button in the upper-left "
-"corner of the event form."
+"form via :menuselection:`Events app --> Events` and click the desired event. "
+"On the event form, click the :guilabel:`Invite` button."
 msgstr ""
-"Če želite poslati povabila na dogodek potencialnim udeležencem, se pomaknite "
-"na želeni obrazec dogodka prek :menuselection:`Aplikacija Events --> "
-"Dogodki` in kliknite na želeni dogodek. Nato kliknite gumb "
-":guilabel:`Povabi` v zgornjem levem kotu obrazca dogodka."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:364
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:370
 msgid ""
-"Doing so reveals a blank email form to fill out, as desired. To learn more "
-"about how to create and customize emails like this, refer to "
-"the :ref:`Create an email <email_marketing/create_email>` documentation."
+"Doing so reveals a blank :ref:`email form <email_marketing/create_email>`. "
+"Customize the message by specifying a mailing type, subject, recipients, and "
+"the mail body."
 msgstr ""
-"S tem se prikaže prazen obrazec e-pošte, ki ga izpolnite po želji. Če želite "
-"izvedeti več o tem, kako ustvariti in prilagoditi tovrstne e-poštne "
-"sporočila, glejte dokumentacijo :ref:`Ustvari e-pošto <email_marketing/"
-"create_email>`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:368
-msgid ""
-"Proceed to create and customize an email message to send as an invite to "
-"potential attendees. Remember to include a link to the registration page on "
-"the event website, allowing interested recipients to register."
-msgstr ""
-"Nadaljujte z ustvarjanjem in prilagajanjem e-poštnega sporočila, ki ga boste "
-"poslali kot vabilo potencialnim udeležencem. Ne pozabite vključiti povezave "
-"do registracijske strani na spletni strani dogodka, da se lahko "
-"zainteresirani prejemniki registrirajo."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:373
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:374
 msgid ""
 "Sending emails from Odoo is subject to a daily limit, which, by default, is "
 "200. To learn more about daily limits, visit the :ref:`email-issues-outgoing-"
@@ -8411,7 +8117,7 @@ msgid ""
 "Custom *booth categories* can be created by users to assign different price "
 "tiers and :doc:`sponsors <event_sponsors>` for multiple booths at once."
 msgstr ""
-"Uporabniki lahko ustvarijo kategorije razstavnih prostorov po meri, da "
+"Uporabniki lahko ustvarijo *kategorije razstavnih prostorov* po meri, da "
 "dodelijo različne cenovne razrede in :doc:`sponzorje <event_sponsors>` za "
 "več razstavnih prostorov hkrati."
 
@@ -8927,6 +8633,7 @@ msgstr ""
 "preko ustreznih pametnih gumbov, ki se pojavijo na vrhu obrazca."
 
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:235
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:176
 msgid ":doc:`sell_tickets`"
 msgstr ":doc:`sell_tickets`"
 
@@ -9346,6 +9053,366 @@ msgstr ":doc:`event_booths`"
 msgid ":doc:`../attendee_experience/event_tracks`"
 msgstr ":doc:`../attendee_experience/event_tracks`"
 
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:3
+msgid "Generate leads from events"
+msgstr "Ustvarjanje potencialnih strank iz dogodkov"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:5
+msgid ""
+"Odoo **Events** allows users to generate leads from their event attendees "
+"based on customizable criteria. Leads can be generated manually, or "
+"automatically by configuring *lead generation rules*."
+msgstr ""
+"Odoo **Dogodki** uporabnikom omogočajo ustvarjanje potencialnih strank iz "
+"udeležencev dogodkov na podlagi prilagodljivih meril. Potencialne stranke "
+"lahko ustvarite ročno ali samodejno s konfiguracijo *pravil za ustvarjanje "
+"potencialnih strank*."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:9
+msgid "View lead generation rules"
+msgstr "Ogled pravil za ustvarjanje potencialnih strank"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:11
+msgid ""
+"To view the lead generation rules for an event, navigate "
+"to :menuselection:`Events app --> Configuration --> Lead Generation`."
+msgstr ""
+"Za ogled pravil za ustvarjanje potencialnih strank za dogodek pojdite na "
+":menuselection:`Aplikacija Dogodki --> Konfiguracija --> Ustvarjanje "
+"potencialnih strank`."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:14
+msgid ""
+"The *Lead Generation Rule* page displays any previously configured rules in "
+"a standard list view with each rule's :guilabel:`Rule Name`, :guilabel:`Lead "
+"Creation Type`, :guilabel:`When` it is triggered, its "
+"associated :guilabel:`Event Templates`, the :guilabel:`Event` it is applied "
+"to, and its related :guilabel:`Company` (if applicable)."
+msgstr ""
+"Stran *Pravilo za ustvarjanje potencialnih strank* prikazuje predhodno "
+"konfigurirana pravila v standardnem seznamskem prikazu z naslednjimi podatki "
+"za vsako pravilo: :guilabel:`Ime pravila`, :guilabel:`Vrsta ustvarjanja "
+"potencialne stranke`, :guilabel:`Kdaj` se sproži, povezani "
+":guilabel:`Predloge dogodkov`, :guilabel:`Dogodek`, za katerega se "
+"uporablja, in povezano :guilabel:`Podjetje` (če je ustrezno)."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:20
+msgid "Create a lead generation rule"
+msgstr "Ustvarjanje pravila za ustvarjanje potencialnih strank"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:22
+msgid ""
+"On the *Lead Generation Rule* dashboard, click :guilabel:`New` to open a "
+"new :guilabel:`Lead Generation Rule` form."
+msgstr ""
+"Na nadzorni plošči *Pravilo za ustvarjanje potencialnih strank* kliknite "
+":guilabel:`Novo`, da odprete nov obrazec :guilabel:`Pravilo za ustvarjanje "
+"potencialnih strank`."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:25
+msgid "Start by entering a :guilabel:`Rule Name`."
+msgstr "Najprej vnesite :guilabel:`Ime pravila`."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:27
+msgid ""
+"In the :guilabel:`Create` field, select one of the following options to "
+"specify the lead creation type:"
+msgstr ""
+"V polju :guilabel:`Ustvari` izberite eno od naslednjih možnosti za določitev "
+"vrste ustvarjanja potencialne stranke:"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:30
+msgid ":guilabel:`Per Attendee`: Create a single lead for each attendee."
+msgstr ""
+":guilabel:`Na udeleženca`: ustvari eno potencialno stranko za vsakega "
+"udeleženca."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:31
+msgid ""
+":guilabel:`Per Order`: Create a single lead for each :doc:`ticket sale "
+"<sell_tickets>`."
+msgstr ""
+":guilabel:`Na naročilo`: ustvari eno potencialno stranko za vsako "
+":doc:`prodajo vstopnic <sell_tickets>`."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:33
+msgid ""
+"In the :guilabel:`When` field, select one of the following options to "
+"specify when the rule is triggered:"
+msgstr ""
+"V polju :guilabel:`Kdaj` izberite eno od naslednjih možnosti, da določite, "
+"kdaj se pravilo sproži:"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:36
+msgid ""
+":guilabel:`Attendees are created`: Create a lead when an attendee record for "
+"an event is created."
+msgstr ""
+":guilabel:`Udeleženci so ustvarjeni`: ustvari potencialno stranko, ko je "
+"ustvarjen zapis udeleženca za dogodek."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:37
+msgid ""
+":guilabel:`Attendees are registered`: Create a lead when an attendee "
+"registers for an event."
+msgstr ""
+":guilabel:`Udeleženci so registrirani`: ustvari potencialno stranko, ko se "
+"udeleženec prijavi na dogodek."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:38
+msgid ""
+":guilabel:`Attendees attended`: Create a lead when an attendee's attendance "
+"is confirmed and the registration stage is set to *Done*."
+msgstr ""
+":guilabel:`Udeleženci so se udeležili`: ustvari potencialno stranko, ko je "
+"potrjena udeležba udeleženca in je faza registracije nastavljena na "
+"*Opravljeno*."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:42
+msgid "Event-specific filters"
+msgstr "Filtri, specifični za dogodek"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:44
+msgid ""
+"In the :guilabel:`For Any Of These Events` section of the form, configure "
+"the following options to restrict the rule to the following criteria:"
+msgstr ""
+"V razdelku obrazca :guilabel:`Za katerega koli od teh dogodkov` "
+"konfigurirajte naslednje možnosti, da omejite pravilo na naslednja merila:"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:47
+msgid ""
+":guilabel:`Event Templates`: Trigger the rule only for events of the "
+"specified :doc:`event template/category <../event_setup/event_templates>`."
+msgstr ""
+":guilabel:`Predloge dogodkov`: sproži pravilo samo za dogodke z navedeno "
+":doc:`predlogo/kategorijo dogodka <../event_setup/event_templates>`."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:49
+msgid ""
+":guilabel:`Company`: Trigger the rule only for events belonging to the "
+"specified company (if working in a :doc:`multi-company <../../../general/"
+"companies/multi_company>` environment)."
+msgstr ""
+":guilabel:`Podjetje`: sproži pravilo samo za dogodke, ki pripadajo "
+"navedenemu podjetju (če delate v okolju :doc:`več podjetij <../../../general/"
+"companies/multi_company>`)."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:51
+msgid ":guilabel:`Event`: Trigger the rule only for the specified event."
+msgstr ":guilabel:`Dogodek`: sproži pravilo samo za navedeni dogodek."
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:54
+msgid "Attendee-specific filters"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:56
+msgid ""
+"In the :guilabel:`If The Attendees Meet These Conditions` section of the "
+"form, restrict the rule to attendees fulfilling specific criteria."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:59
+msgid ""
+"By default, this field is set to :guilabel:`Match all records` of attendees "
+"in the database."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:61
+msgid ""
+"To add specific criteria, click the :icon:`fa-plus` :guilabel:`Add "
+"condition` button. Alternatively, click the :icon:`fa-caret-"
+"right` :guilabel:`(right arrow)` icon, then click :guilabel:`New Rule`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:64
+msgid ""
+"Doing so adds a new custom :ref:`filter rule <search/custom-filters>`. Users "
+"can select a *field name* to filter by and choose a *conditional operator* "
+"to compare the *value* to the chosen field. If needed, users can also add a "
+"group of nested conditions that depend on the parent rule by "
+"clicking :icon:`fa-sitemap` :guilabel:`(Add branch)`. For any group of "
+"conditions, users can toggle between matching :guilabel:`all` of the "
+"conditions in the group or :guilabel:`any` of the conditions."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:71
+msgid ""
+"The number of filtered attendee records is displayed at the bottom of the "
+"section. Click :guilabel:`# record(s)` to view the list of attendees that "
+"match the filter rule."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:78
+msgid "Lead default values"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:80
+msgid ""
+"In the :guilabel:`Lead Default Values` section, assign default values to new "
+"leads generated from this rule."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:83
+msgid ""
+"First, in the :guilabel:`Lead Type` field, specify whether this rule creates "
+"a :guilabel:`Lead` or an :guilabel:`Opportunity`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:87
+msgid ""
+"The :guilabel:`Lead Type` field only appears if the **CRM** app is installed "
+"and :doc:`leads <../../../sales/crm/acquire_leads/convert>` are enabled. To "
+"do so, navigate to :menuselection:`CRM app --> Configuration --> Settings`, "
+"then enable the :guilabel:`Leads` feature."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:92
+msgid ""
+"In the :guilabel:`Sales Team` field, select a specific sales team in the "
+"database to which newly created leads are automatically assigned. Similarly, "
+"specify a :guilabel:`Salesperson` to which the leads are automatically "
+"assigned."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:96
+msgid ""
+"Finally, in the :guilabel:`Tags` field, add one or more tags to the created "
+"leads generated from the rule to organize and distinguish leads by specific "
+"identifiers/categories."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:100
+msgid ""
+"A company called *Stealthy Wood* wants to generate leads for every attendee "
+"who bought a *General Admission* ticket to their *Design Fair Los Angeles* "
+"event by clicking a link for tickets from a social media post on *LinkedIn*, "
+"then purchasing the ticket online. Additionally, any new leads generated "
+"should be automatically assigned to their dedicated *Website Sales* team."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:105
+msgid ""
+"To generate these leads, they create a rule called `Social Media Attendees`. "
+"Then, they select :guilabel:`Per Attendee` in the :guilabel:`Create` field "
+"and :guilabel:`Attendees are created` in the :guilabel:`When` field to "
+"trigger the rule every time a new attendee is created."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:109
+msgid ""
+"In the :guilabel:`For Any Of These Events` section, they "
+"select :guilabel:`Exhibition` as the event category in the :guilabel:`Event "
+"Templates` field. Next, they select *Stealthy Wood* as "
+"the :guilabel:`Company` the event is associated with. They also select "
+"*Design Fair Los Angeles* as the specific :guilabel:`Event` the rule should "
+"generate leads for."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:114
+msgid ""
+"In the :guilabel:`If The Attendees Meet These Conditions` section, they "
+"click the :icon:`fa-plus` :guilabel:`Add condition` button to reveal a new, "
+"modifiable condition line."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:117
+msgid ""
+"Next, they click the first field and select :guilabel:`Ticket Type` from the "
+"popover. In the second field, they select `is equal to`. In the third field, "
+"they select the :guilabel:`General Admission` ticket type."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:121
+msgid ""
+"Because the company wants to be even more specific about attendees who "
+"purchased a :guilabel:`General Admission` ticket, they add two more "
+"condition lines by clicking :guilabel:`New Rule`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:125
+msgid ""
+"In the second condition line, they select :guilabel:`Source` in the first "
+"field, choose `is equal to` in the second field, and add the "
+"corresponding :guilabel:`LinkedIn` social media outlet options in the third "
+"field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:129
+msgid ""
+"In the final condition line, they select :guilabel:`Sales Order` :icon:`fa-"
+"angle-right` :guilabel:`Online payment` in the first field. Then, they "
+"select `is set` in the second field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:132
+msgid ""
+"Finally, in the :guilabel:`Lead Default Values` section, they assign these "
+"leads to their *Website Sales* team in the :guilabel:`Sales Team` field. "
+"They also add *Matt* as the lead :guilabel:`Salesperson` responsible for "
+"managing the leads. Finally, for organization purposes, they add a *Design* "
+"tag in the :guilabel:`Tags` field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:0
+msgid "Example lead generation form in Odoo Events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:141
+msgid "Generate leads"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:143
+msgid ""
+"Leads are automatically generated for applicable events whenever a rule is "
+"satisfied. To view generated leads, open the *Events* app and select the "
+"targeted event. A :icon:`fa-star` :guilabel:`Leads` smart button appears at "
+"the top of the chosen event form, displaying the number of leads generated "
+"for this event."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:148
+msgid ""
+"Click the :icon:`fa-star` :guilabel:`Leads` smart button to open a dashboard "
+"of generated leads. By default, the dashboard opens in a :icon:`oi-view-"
+"list` :guilabel:`(List)` view displaying each lead's title, associated "
+"attendee's contact details, assigned salesperson, the expected revenue and "
+"stage of the lead, and the option to either :guilabel:`Email` or send "
+"an :guilabel:`SMS` to the lead."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:154
+msgid ""
+"Leads can also be viewed in the :icon:`oi-view-"
+"kanban` :guilabel:`(Kanban)`, :icon:`fa-area-"
+"chart` :guilabel:`(Graph)`, :icon:`oi-view-"
+"pivot` :guilabel:`(Pivot)`, :icon:`fa-calendar` :guilabel:`(Calendar)`, "
+"and :icon:`fa-clock-o` :guilabel:`(Activity)` views. The search bar's drop-"
+"down menu allows users to :ref:`filter <search/filters>` or :ref:`group "
+"<search/group>` records by specific criteria in each view."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:None
+msgid "Dashboard of generated leads in Odoo Events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:164
+msgid "Manually generate leads"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:166
+msgid ""
+"Leads can also be manually generated from an event form by clicking "
+"the :icon:`fa-cog` :guilabel:`(Actions)` button at the top, then "
+"selecting :guilabel:`Generate Leads`. This allows users to generate (or re-"
+"generate) leads as needed (e.g., after modifying a rule) without duplicating "
+"existing leads."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:None
+msgid "Generate Leads button on an event form in Odoo Events."
+msgstr ""
+
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:5
 msgid ""
 "Odoo **Events** provides users with the ability to create custom event "
@@ -9470,10 +9537,10 @@ msgid ""
 "product form of the event registration product."
 msgstr ""
 "Za dodajanje izdelka za registracijo dogodka v prodajni nalog mora biti "
-"polje :guilabel:`Product Type` nastavljeno na :guilabel:`Service` in polje "
-":guilabel:`Create on Order` **mora** biti nastavljeno na :guilabel:`Event "
-"Registration`. Ta polja so dostopna v obrazcu izdelka za registracijo "
-"dogodka."
+"polje :guilabel:`Product Type` **mora** biti nastavljeno na "
+":guilabel:`Service` in polje :guilabel:`Create on Order` **mora** biti "
+"nastavljeno na :guilabel:`Event Registration`. Ta polja so dostopna v "
+"obrazcu izdelka za registracijo dogodka."
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:None
 msgid "View of an event registration product form in Odoo."
@@ -11775,10 +11842,10 @@ msgid ""
 "workflow can be made up of any number of :ref:`activities "
 "<marketing_automation/activities>` to meet the needs of the campaign."
 msgstr ""
-":ref:`Delovni potek <marketing_automation/activities>` je celotna struktura "
-"*aktivnosti* kampanje avtomatizacije trženja. V vsaki kampanji je lahko samo "
-"en delovni potek. Vendar pa je lahko delovni potek sestavljen iz poljubnega "
-"števila aktivnosti, ki ustrezajo potrebam kampanje."
+"*Delovni potek* je celotna struktura *aktivnosti* kampanje avtomatizacije "
+"trženja. V vsaki kampanji je lahko samo en delovni potek. Vendar pa je lahko "
+"delovni potek sestavljen iz poljubnega števila :ref:`aktivnosti "
+"<marketing_automation/activities>`, ki ustrezajo potrebam kampanje."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:13
 msgid "A workflow in an Odoo Marketing Automation campaign."
@@ -13510,7 +13577,7 @@ msgid ""
 msgstr ""
 ":guilabel:`Pošlji`: sporočilo pošlje takoj. Razmislite o uporabi te "
 "možnosti, če je seznam prejemnikov zelo prečiščen ali v primerih, ko gre za "
-"hitro približujoče se roke, kot je \"hitra razprodaja\"."
+"hitro približujoče se roke, kot je \"hitra razprodaja.\""
 
 #: ../../content/applications/marketing/sms_marketing/create_sms.rst:112
 msgid ""
@@ -13830,7 +13897,7 @@ msgid ""
 msgstr ""
 "Med migracijo programske opreme/platforme je mogoče uvoziti že obstoječ črni "
 "seznam stikov. To vključuje stranke, ki so že prosile, da se dodajo na črni "
-"seznam za :abbr:`SMS (kratka tekstovna sporočila)` pošiljke."
+"seznam za sporočila :abbr:`SMS (kratka tekstovna sporočila)`."
 
 #: ../../content/applications/marketing/sms_marketing/mailing_lists_blacklists.rst:139
 msgid ""
@@ -14504,7 +14571,7 @@ msgstr ""
 ":menuselection:`Poročanje` v meniju glave) so na voljo možnosti za uporabo "
 "različnih kombinacij :guilabel:`Filtrov` in :guilabel:`Mer`, da si ogledate "
 "meritve v številnih različnih postavitvah (npr. pogledi :guilabel:`Graf`, "
-":guilabel:`Seznam` in :guilabel:`Kohorta`)."
+":guilabel:`Seznam` in :guilabel:`Kohort`.)"
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:10
 msgid ""
@@ -15728,11 +15795,11 @@ msgstr ""
 "možnost :guilabel:`Seznam`, ki se nahaja pod iskalno vrstico v zgornjem "
 "desnem kotu."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:57
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:59
 msgid "Create social marketing campaigns"
 msgstr "Ustvarite kampanje družbenega trženja"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:59
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:61
 msgid ""
 "First, open the :menuselection:`Social Marketing` application, and "
 "select :guilabel:`Campaigns` from the header menu."
@@ -15740,7 +15807,7 @@ msgstr ""
 "Najprej odprite aplikacijo :menuselection:`Družbeno Trženje` in v meniju "
 "glave izberite :guilabel:`Kampanje`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:62
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:64
 msgid ""
 "On the :guilabel:`Campaigns` dashboard, a new campaign can be created by "
 "clicking the quick add :guilabel:`+ (plus sign)` located in the top-right "
@@ -15754,7 +15821,7 @@ msgstr ""
 "Kampanje lahko ustvarite tudi s klikom na :guilabel:`Ustvari` v zgornjem "
 "levem kotu nadzorne plošče :guilabel:`Kampanje`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:67
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:69
 msgid ""
 "Both options reveal a new campaign detail window directly on "
 "the :guilabel:`Campaigns` dashboard when clicked."
@@ -15766,7 +15833,7 @@ msgstr ""
 msgid "View of the quick add option for campaigns in Odoo Social Marketing."
 msgstr "Pogled možnosti hitrega dodajanja za kampanje v Odoo Družbenem Trženju."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:74
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:76
 msgid ""
 "Here, the :guilabel:`Campaign Name`, :guilabel:`Responsible`, "
 "and :guilabel:`Tags` can be entered. When all modifications are complete, "
@@ -15776,11 +15843,11 @@ msgstr ""
 ":guilabel:`Oznake`. Ko so vse spremembe dokončane, kliknite "
 ":guilabel:`Dodaj`, da dodate kampanjo v bazo podatkov."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:78
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:80
 msgid "Edit social marketing campaigns"
 msgstr "Urejanje kampanj družbenega trženja"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:80
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:82
 msgid ""
 "In order to edit a campaign in greater detail, and create/send various forms "
 "of communications related to it, the template page for that campaign must be "
@@ -15792,7 +15859,7 @@ msgstr ""
 "predloge za to kampanjo. Obstaja več načinov za dostop do strani predloge za "
 "kampanjo."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:84
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:86
 msgid ""
 "After entering the pertinent information in the :guilabel:`Quick Add` "
 "campaign drop-down, click :guilabel:`Edit`."
@@ -15800,7 +15867,7 @@ msgstr ""
 "Po vnosu ustreznih informacij v spustni meni kampanje :guilabel:`Hitro "
 "dodajanje` kliknite :guilabel:`Uredi`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:86
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:88
 msgid ""
 "Simply select the desired campaign from the :guilabel:`Campaigns` dashboard "
 "in list or kanban view."
@@ -15808,7 +15875,7 @@ msgstr ""
 "Preprosto izberite želeno kampanjo na nadzorni plošči :guilabel:`Kampanje` v "
 "pogledu seznama ali kanban."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:88
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:90
 msgid ""
 "On the :guilabel:`Campaigns` dashboard in the kanban view, select "
 "the :guilabel:`⋮ (three dots)` drop-down menu on the desired campaign, and "
@@ -15818,7 +15885,7 @@ msgstr ""
 "meni :guilabel:`⋮ (tri pike)` pri želeni kampanji in izberite "
 ":guilabel:`Uredi`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:91
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:93
 msgid ""
 "Any of the above routes will reveal the *Campaign Template* page for that "
 "specific campaign."
@@ -15826,11 +15893,11 @@ msgstr ""
 "Vse navedene poti privedejo do strani *Predloga kampanje* za to specifično "
 "kampanjo."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:94
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:96
 msgid "Social marketing campaign templates"
 msgstr "Predloge kampanj družbenega trženja"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:96
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:98
 msgid ""
 "On a *Campaign Template* page, numerous elements can be customized/modified, "
 "and various forms of communications can be created, modified, and sent or "
@@ -15844,7 +15911,7 @@ msgstr ""
 msgid "View of a sample campaign template page in Odoo Social Marketing."
 msgstr "Pogled vzorca strani predloge kampanje v Odoo Družbenem Trženju."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:105
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:107
 msgid ""
 "In order for the :guilabel:`Send New Mailing` option to appear on campaign "
 "templates, make sure the *Mailing Campaigns* feature is enabled in the "
@@ -15858,7 +15925,7 @@ msgstr ""
 ":menuselection:`E-poštno trženje --> Konfiguracija --> Nastavitve`, "
 "aktivirate :guilabel:`Kampanje pošiljanja` in kliknete :guilabel:`Shrani`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:111
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:113
 msgid ""
 "In order for the :guilabel:`Send SMS` option to appear, the Odoo *SMS "
 "Marketing* application must be installed on the database."
@@ -15866,11 +15933,11 @@ msgstr ""
 "Da se prikaže možnost :guilabel:`Pošlji SMS`, mora biti v bazi podatkov "
 "nameščena aplikacija Odoo *SMS trženje*."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:115
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:117
 msgid "Add content and communications to campaigns"
 msgstr "Dodajanje vsebine in komunikacij v kampanje"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:117
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:119
 msgid ""
 "If the proper settings and applications are installed (as instructed above), "
 "there are four forms of communication/content options that can be added to "
@@ -15882,7 +15949,7 @@ msgstr ""
 "dodati kampanjam. Vsaka od teh možnosti je prikazana kot gumb v zgornjem "
 "levem kotu strani predloge kampanje."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:121
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:123
 msgid ""
 ":guilabel:`Send New Mailing`: reveals a blank email template on a separate "
 "page, in which the message can be fully customized in a variety of ways."
@@ -15890,7 +15957,7 @@ msgstr ""
 ":guilabel:`Pošlji novo pošiljko`: prikaže prazno predlogo e-pošte na ločeni "
 "strani, kjer je mogoče sporočilo v celoti prilagoditi na različne načine."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:123
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:125
 msgid ""
 ":guilabel:`Send SMS`: reveals a blank SMS template on a separate page, in "
 "which a SMS communication can be created and configured."
@@ -15898,7 +15965,7 @@ msgstr ""
 ":guilabel:`Pošlji SMS`: prikaže prazno predlogo SMS-a na ločeni strani, kjer "
 "je mogoče ustvariti in konfigurirati SMS-komunikacijo."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:125
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:127
 msgid ""
 ":guilabel:`Send Social Post`: reveals a blank social post template on a "
 "separate page, in which a post can be created, and applied to social media "
@@ -15909,7 +15976,7 @@ msgstr ""
 "objavo in jo objaviti na računih družbenih medijev, ki so že povezani z bazo "
 "podatkov."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:128
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:130
 msgid ""
 ":guilabel:`Push Notification`: reveals a similar blank social post template "
 "on a separate page, however, the :guilabel:`Push Notification` options are "
@@ -15919,7 +15986,7 @@ msgstr ""
 "družbenih omrežjih na ločeni strani, vendar so možnosti :guilabel:`Potisno "
 "obvestilo` že vnaprej izbrane v polju :guilabel:`Objavi na`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:132
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:134
 msgid ""
 "Whichever form of communication is created, once it's completed, Odoo "
 "returns to the :guilabel:`Campaign Template` page, showcasing that new "
@@ -15932,7 +15999,7 @@ msgstr ""
 "vsebino v ustreznem zavihku (npr. :guilabel:`Pošiljke`, :guilabel:`SMS`, "
 ":guilabel:`Družbeni mediji` in/ali :guilabel:`Potisna obvestila`)."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:137
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:139
 msgid ""
 "As content and communications are added to a campaign, tabs for those "
 "specific mediums appear, along with a variety of analytical smart buttons "
@@ -15943,7 +16010,7 @@ msgstr ""
 ":guilabel:`Prihodki`, :guilabel:`Ponudbe`, :guilabel:`Potencialni kupci` "
 "itd.)."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:141
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:143
 msgid ""
 "These smart buttons, located at the top of the template, display different "
 "metrics related to the campaign, and its various communications and content. "
@@ -15957,7 +16024,7 @@ msgstr ""
 "temu določenemu elementu kampanje, kar omogoča hitrejšo in bolj organizirano "
 "analizo."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:147
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:149
 msgid ""
 "The Odoo *Social Marketing* app is integrated with other Odoo applications, "
 "such as *Sales*, *Invoicing*, *CRM*, and *Website*."
@@ -19131,7 +19198,7 @@ msgstr ""
 "Ne glede na izbrano možnost za polje :guilabel:`Pagination`, anketa *Live "
 "Session* prikazuje *samo* :guilabel:`One page per question` in bo privzeto "
 "nastavljena na to možnost, ko je kliknjen gumb :guilabel:`Create Live "
-"Session` in se anketa Live Session uradno začne."
+"Session` in se anketa *Live Session* uradno začne."
 
 #: ../../content/applications/marketing/surveys/live_session.rst:73
 msgid ""
@@ -20362,6 +20429,1071 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr "Primer, kako značka izgleda na delu eLearning spletnega mesta."
+
+#~ msgid ""
+#~ "To create an event, navigate to the :guilabel:`Events app` to land on the "
+#~ "dashboard. By default, the :guilabel:`Events` dashboard uses "
+#~ "the :icon:`oi-view-kanban` :guilabel:`(Kanban)` view, which showcases all "
+#~ "events in the database in their respective pipeline stages. Other views "
+#~ "can be set using the buttons in the upper-right corner."
+#~ msgstr ""
+#~ "Za ustvarjanje dogodka pojdite v :guilabel:`aplikacijo Dogodki`, da "
+#~ "pristanete na nadzorni plošči. Privzeto nadzorna "
+#~ "plošča :guilabel:`Dogodki` uporablja pogled :icon:`oi-view-"
+#~ "kanban` :guilabel:`(Kanban)`, ki prikazuje vse dogodke v zbirki podatkov "
+#~ "v njihovih ustreznih fazah cevovoda. Druge poglede je mogoče nastaviti z "
+#~ "gumbi v zgornjem desnem kotu."
+
+#~ msgid ""
+#~ "The :guilabel:`Ended` stage is folded by default and located to the right "
+#~ "of the other stages."
+#~ msgstr ""
+#~ "Faza :guilabel:`Končano` je privzeto zložena in se nahaja desno od drugih "
+#~ "faz."
+
+#~ msgid ""
+#~ "To add a new stage, click the :icon:`fa-plus` :guilabel:`Add Stage` "
+#~ "button on the right, enter a name for the stage, then click :icon:`fa-"
+#~ "check` :guilabel:`(Add)` to add the stage or :icon:`fa-"
+#~ "times` :guilabel:`(Remove)` to cancel."
+#~ msgstr ""
+#~ "Če želite dodati novo fazo, kliknite gumb :icon:`fa-"
+#~ "plus` :guilabel:`Dodaj fazo` na desni, vnesite ime faze, nato "
+#~ "kliknite :icon:`fa-check` :guilabel:`(Dodaj)` za dodajanje faze "
+#~ "ali :icon:`fa-times` :guilabel:`(Odstrani)` za preklic."
+
+#~ msgid ""
+#~ "Events can be created by going to the :menuselection:`Events` app, on "
+#~ "the :icon:`oi-view-kanban` :guilabel:`(Kanban)`, :icon:`oi-view-"
+#~ "list` :guilabel:`(List)`, or :icon:`fa-tasks` :guilabel:`(Gantt)` views. "
+#~ "Then, click the :guilabel:`New` button in the upper-left corner of the "
+#~ "dashboard to open up a new event form."
+#~ msgstr ""
+#~ "Dogodke lahko ustvarite tako, da odprete "
+#~ "aplikacijo :menuselection:`Dogodki`, v pogledu :icon:`oi-view-"
+#~ "kanban` :guilabel:`(Kanban)`, :icon:`oi-view-list` :guilabel:`(Seznam)` "
+#~ "ali :icon:`fa-tasks` :guilabel:`(Gantt)`. Nato kliknite "
+#~ "gumb :guilabel:`Novo` v zgornjem levem kotu nadzorne plošče, da odprete "
+#~ "nov obrazec dogodka."
+
+#~ msgid ""
+#~ "At the top of the event form are a series of smart buttons related to "
+#~ "various event metrics. These auto-populate with data once attendees begin "
+#~ "to register, when booths and sponsors sign on for the event, when the "
+#~ "event takes place, and so on. These smart buttons can be clicked to "
+#~ "navigate to the event's related pages to modify any details and perform "
+#~ "any desired actions."
+#~ msgstr ""
+#~ "Na vrhu obrazca dogodka je vrsta pametnih gumbov, povezanih z različnimi "
+#~ "kazalniki dogodka. Ti se samodejno napolnijo s podatki, ko se udeleženci "
+#~ "začnejo registrirati, ko se razstavljavci in sponzorji prijavijo na "
+#~ "dogodek, ko dogodek poteka itd. Na te pametne gumbe lahko kliknete za "
+#~ "navigacijo na sorodne strani dogodka, da spremenite podrobnosti in "
+#~ "izvedete želena dejanja."
+
+#~ msgid ""
+#~ "To the right of the entered :guilabel:`Event Name`, there is a language "
+#~ "tooltip, represented by an abbreviated language indicator (e.g., `EN`). "
+#~ "When clicked, a :guilabel:`Translate name` pop-up window appears, "
+#~ "displaying various preconfigured language translation options available "
+#~ "in the database."
+#~ msgstr ""
+#~ "Na desni strani vnešenega :guilabel:`Imena dogodka` je jezikovni namig, "
+#~ "predstavljen s kratico jezika (npr. `EN`). Ko kliknete nanj, se prikaže "
+#~ "pojavno okno :guilabel:`Prevedi ime`, ki prikazuje različne vnaprej "
+#~ "nastavljene možnosti prevoda jezikov, ki so na voljo v podatkovni zbirki."
+
+#~ msgid ""
+#~ "Alternatively, to populate the event form from an event template, select "
+#~ "an option in the :guilabel:`Template` drop-down menu. To learn more, see "
+#~ "the :doc:`event_templates` documentation."
+#~ msgstr ""
+#~ "Druga možnost je, da obrazec dogodka izpolnite iz predloge dogodka tako, "
+#~ "da v spustnem meniju :guilabel:`Predloga` izberete možnost. Če želite "
+#~ "izvedeti več, si oglejte dokumentacijo :doc:`event_templates`."
+
+#~ msgid ""
+#~ ":guilabel:`Website`: The specific website in the database on which the "
+#~ "event is published. If this field is left blank, the event can be "
+#~ "published on **all** websites in the database. To learn more, refer to "
+#~ "the :doc:`Multiple websites <../../../websites/website/configuration/"
+#~ "multi_website>` documentation."
+#~ msgstr ""
+#~ ":guilabel:`Spletna stran`: Določena spletna stran v zbirki podatkov, na "
+#~ "kateri je dogodek objavljen. Če to polje ostane prazno, je dogodek mogoče "
+#~ "objaviti na **vseh** spletnih straneh v zbirki podatkov. Več informacij "
+#~ "najdete v dokumentaciji :doc:`Več spletnih strani <../../../websites/"
+#~ "website/configuration/multi_website>`."
+
+#~ msgid ""
+#~ "To limit the number of registrations for the event, check "
+#~ "the :guilabel:`Limit Registrations` and enter the maximum number of "
+#~ "attendees allowed in the resulting field."
+#~ msgstr ""
+#~ "Če želite omejiti število registracij za dogodek, "
+#~ "označite :guilabel:`Omeji registracije` in vnesite največje dovoljeno "
+#~ "število udeležencev v prikazano polje."
+
+#~ msgid ""
+#~ "In the :guilabel:`Tickets` tab of the event form, create custom "
+#~ "registration tickets and ticket tiers for events."
+#~ msgstr ""
+#~ "Na zavihku :guilabel:`Zahtevki` obrazca dogodka ustvarite vstopnice za "
+#~ "registracijo po meri in ravni vstopnic za dogodke."
+
+#~ msgid ""
+#~ "To create a ticket, click :guilabel:`Add a line` in "
+#~ "the :guilabel:`Tickets` tab. In the :guilabel:`Product` field, either "
+#~ "select the preconfigured :guilabel:`Event Registration` product, or "
+#~ "create a new one by typing in the name of the new event registration "
+#~ "product and then selecting either :guilabel:`Create` or :guilabel:`Create "
+#~ "and edit...` from the resulting drop-down menu. Then, enter a name for "
+#~ "the ticket (e.g. `Basic Ticket` or `VIP`) in the :guilabel:`Name` field."
+#~ msgstr ""
+#~ "Za ustvarjanje zahtevka kliknite :guilabel:`Dodaj vrstico` na "
+#~ "zavihku :guilabel:`Zahtevki`. V polju :guilabel:`Izdelek` bodisi izberite "
+#~ "vnaprej konfigurirani izdelek :guilabel:`Registracija na dogodek` ali "
+#~ "ustvarite novega tako, da vnesete ime novega izdelka za registracijo na "
+#~ "dogodek in nato v spustnem meniju izberete :guilabel:`Ustvari` "
+#~ "ali :guilabel:`Ustvari in uredi...`. Nato vnesite ime vstopnice (npr. "
+#~ "`Osnovna vstopnica` ali `VIP`) v polje :guilabel:`Ime`."
+
+#~ msgid ""
+#~ "In order for an event registration product to be selectable in "
+#~ "the :guilabel:`Tickets` tab, the event registration :guilabel:`Product "
+#~ "Type` **must** be set to :guilabel:`Service` and the :guilabel:`Create on "
+#~ "Order` field **must** be set to :guilabel:`Event Registration`."
+#~ msgstr ""
+#~ "Če želite, da je izdelek za registracijo na dogodek mogoče izbrati na "
+#~ "zavihku :guilabel:`Zahtevki`, mora biti :guilabel:`Vrsta izdelka` za "
+#~ "registracijo na dogodek **obvezno** nastavljena na :guilabel:`Storitev` "
+#~ "in polje :guilabel:`Ustvari ob naročilu` mora biti **obvezno** "
+#~ "nastavljeno na :guilabel:`Registracija na dogodek`."
+
+#~ msgid ""
+#~ "Existing event registration products can be modified directly from this "
+#~ "field as well by clicking the :icon:`oi-arrow-right` :guilabel:`(right "
+#~ "arrow)` icon located beside the event registration product. Doing so "
+#~ "reveals that product's form. If the **Inventory** application is "
+#~ "installed, additional choices are available to customize for the product."
+#~ msgstr ""
+#~ "Obstoječe izdelke za registracijo na dogodek je mogoče spremeniti "
+#~ "neposredno iz tega polja tudi tako, da kliknete ikono :icon:`oi-arrow-"
+#~ "right` :guilabel:`(puščica desno)` poleg izdelka za registracijo na "
+#~ "dogodek. S tem se prikaže obrazec tega izdelka. Če je nameščena "
+#~ "aplikacija **Zaloga**, so na voljo dodatne možnosti za prilagajanje "
+#~ "izdelka."
+
+#~ msgid ""
+#~ "The :guilabel:`Sales Price` defined on the event registration product's "
+#~ "product form sets the default cost of a ticket. Modifying "
+#~ "the :guilabel:`Price` of a ticket in the :guilabel:`Tickets` tab sets a "
+#~ "new registration cost of the ticket for that event."
+#~ msgstr ""
+#~ ":guilabel:`Prodajna cena`, določena v obrazcu izdelka za registracijo na "
+#~ "dogodek, določa privzeto ceno vstopnice. Spreminjanje :guilabel:`Cene` "
+#~ "vstopnice na zavihku :guilabel:`Zahtevki` nastavi novo ceno registracije "
+#~ "za vstopnico za ta dogodek."
+
+#~ msgid ""
+#~ "Next, enter the :guilabel:`Sales Start` and :guilabel:`Sales End` dates "
+#~ "in their respective fields. To do that, click into the blank field to "
+#~ "reveal a calendar pop-over. From there, select the desired date and time, "
+#~ "then click :icon:`fa-check` :guilabel:`Apply`."
+#~ msgstr ""
+#~ "Nato vnesite datuma :guilabel:`Začetek prodaje` in :guilabel:`Konec "
+#~ "prodaje` v ustrezna polja. Kliknite v prazno polje, da se prikaže pojavni "
+#~ "koledar. Nato izberite želeni datum in čas ter kliknite :icon:`fa-"
+#~ "check` :guilabel:`Uporabi`."
+
+#~ msgid ""
+#~ "Then, if desired, designate a :guilabel:`Maximum` amount of that specific "
+#~ "ticket that can be sold."
+#~ msgstr ""
+#~ "Nato po želji določite :guilabel:`Največje` število te specifične "
+#~ "vstopnice, ki je lahko prodano."
+
+#~ msgid ""
+#~ "The :guilabel:`Registration` column populates with the number of tickets "
+#~ "that are sold."
+#~ msgstr ""
+#~ "Stolpec :guilabel:`Registracija` se napolni s številom prodanih vstopnic."
+
+#~ msgid ""
+#~ "To delete any tickets from the :guilabel:`Tickets` tab, click "
+#~ "the :icon:`fa-trash-o` :guilabel:`(trash can)` icon at the right in the "
+#~ "corresponding line for the ticket that should be deleted."
+#~ msgstr ""
+#~ "Za brisanje vstopnic iz zavihka :guilabel:`Zahtevki` kliknite "
+#~ "ikono :icon:`fa-trash-o` :guilabel:`(koš za smeti)` na desni strani v "
+#~ "ustrezni vrstici za vstopnico, ki naj bo izbrisana."
+
+#~ msgid ""
+#~ "To add an optional :guilabel:`Description` column to "
+#~ "the :guilabel:`Tickets` tab, click the :icon:`oi-settings-"
+#~ "adjust` :guilabel:`(additional options)` drop-down menu, located to the "
+#~ "far-right of the column titles."
+#~ msgstr ""
+#~ "Če želite zavihku :guilabel:`Vstopnice` dodati neobvezni "
+#~ "stolpec :guilabel:`Opis`, kliknite spustni meni :icon:`oi-settings-"
+#~ "adjust` :guilabel:`(dodatne možnosti)`, ki se nahaja na skrajni desni "
+#~ "strani naslovov stolpcev."
+
+#~ msgid ""
+#~ "Then, select the checkbox beside :guilabel:`Description` from the "
+#~ "resulting drop-down menu."
+#~ msgstr ""
+#~ "Nato izberite potrditveno polje poleg :guilabel:`Opis` v spustnem meniju."
+
+#~ msgid ""
+#~ "When added, the option to add brief descriptions for each event ticket "
+#~ "appears, which can be used to inform attendees of any perks or amenities "
+#~ "that may coincide with specific ticket purchases."
+#~ msgstr ""
+#~ "Ko je dodan, se prikaže možnost dodajanja kratkih opisov za vsako "
+#~ "vstopnico za dogodek, kar lahko uporabite za obveščanje udeležencev o "
+#~ "morebitnih ugodnostih ali dodatkih, ki lahko sovpadajo s specifičnimi "
+#~ "nakupi vstopnic."
+
+#~ msgid ""
+#~ "In the :guilabel:`Communication` tab of an event form, create various "
+#~ "marketing communications that can be scheduled to be sent at specific "
+#~ "intervals leading up to and following the event."
+#~ msgstr ""
+#~ "Na zavihku :guilabel:`Komunikacija` obrazca dogodka ustvarite različne "
+#~ "trženjske komunikacije, ki jih je mogoče načrtovati za pošiljanje v "
+#~ "določenih intervalih pred dogodkom in po njem."
+
+#~ msgid ""
+#~ "To add a communication in the :guilabel:`Communication` tab, "
+#~ "click :guilabel:`Add a line`. Then, select the desired type of "
+#~ "communication from the first drop-down menu in the :guilabel:`Template` "
+#~ "column. The options "
+#~ "are: :guilabel:`Mail`, :guilabel:`SMS`, :guilabel:`Social Post`, "
+#~ "or :guilabel:`WhatsApp`."
+#~ msgstr ""
+#~ "Če želite dodati komunikacijo na zavihku :guilabel:`Komunikacija`, "
+#~ "kliknite :guilabel:`Dodaj vrstico`. Nato izberite želeno vrsto "
+#~ "komunikacije iz prvega spustnega menija v stolpcu :guilabel:`Predloga`. "
+#~ "Možnosti so: :guilabel:`Pošta`, :guilabel:`SMS`, :guilabel:`Objava na "
+#~ "družbenem omrežju` ali :guilabel:`WhatsApp`."
+
+#~ msgid ""
+#~ "Next, define the :guilabel:`Interval` and :guilabel:`Unit` from their "
+#~ "respective drop-down fields, letting Odoo know when the communication "
+#~ "should be sent. The :guilabel:`Unit` options "
+#~ "are: :guilabel:`Immediately`, :guilabel:`Hours`, :guilabel:`Days`, :guilabel:`Weeks`, "
+#~ "and :guilabel:`Months`."
+#~ msgstr ""
+#~ "Nato določite :guilabel:`Interval` in :guilabel:`Enota` iz ustreznih "
+#~ "spustnih polj ter obvestite Odoo, kdaj naj se komunikacija pošlje. "
+#~ "Možnosti za :guilabel:`Enota` "
+#~ "so: :guilabel:`Takoj`, :guilabel:`Ure`, :guilabel:`Dnevi`, :guilabel:`Tedni` "
+#~ "in :guilabel:`Meseci`."
+
+#~ msgid ""
+#~ "The :guilabel:`(#) Sent` column populates with the number of sent "
+#~ "communications. Next to the number are different icons that appear, "
+#~ "depending on the status of that particular communication. The *Running* "
+#~ "status is represented by a :icon:`fa-cogs` :guilabel:`(three gears)` "
+#~ "icon. The *Sent* status is represented by a :icon:`fa-"
+#~ "check` :guilabel:`(checkmark)` icon. Finally, the *Scheduled* status is "
+#~ "represented by an :icon:`fa-hourglass-half` :guilabel:`(hourglass)` icon."
+#~ msgstr ""
+#~ "Stolpec :guilabel:`(#) Poslano` se napolni s številom poslanih "
+#~ "komunikacij. Poleg številke se pojavijo različne ikone, odvisno od "
+#~ "statusa te komunikacije. Status *V teku* je prikazan z ikono :icon:`fa-"
+#~ "cogs` :guilabel:`(tri orodja)`. Status *Poslano* je prikazan z "
+#~ "ikono :icon:`fa-check` :guilabel:`(kljukica)`. Status *Načrtovano* je "
+#~ "prikazan z ikono :icon:`fa-hourglass-half` :guilabel:`(peščena ura)`."
+
+#~ msgid ""
+#~ "Any number of communications can be added in "
+#~ "the :guilabel:`Communication` tab of an event form."
+#~ msgstr ""
+#~ "Na zavihku :guilabel:`Komunikacija` obrazca dogodka je mogoče dodati "
+#~ "poljubno število komunikacij."
+
+#~ msgid ""
+#~ "To send a confirmation email an hour after an attendee registers for an "
+#~ "event, configure the following communication:"
+#~ msgstr ""
+#~ "Če želite udeležencema poslati potrditveno e-poštno sporočilo eno uro po "
+#~ "registraciji za dogodek, nastavite naslednjo komunikacijo:"
+
+#~ msgid ""
+#~ "Existing email templates can be modified directly from "
+#~ "the :guilabel:`Template` drop-down menu, if necessary, by clicking "
+#~ "the :icon:`oi-arrow-right` :guilabel:`(Internal link)` icon next to the "
+#~ "template name. Doing so reveals a separate page where users can edit "
+#~ "the :guilabel:`Content`, :guilabel:`Email Configuration`, "
+#~ "and :guilabel:`Settings` of that particular email template."
+#~ msgstr ""
+#~ "Obstoječe predloge e-pošte je po potrebi mogoče spremeniti neposredno iz "
+#~ "spustnega menija :guilabel:`Predloga` tako, da kliknete ikono :icon:`oi-"
+#~ "arrow-right` :guilabel:`(Notranja povezava)` poleg imena predloge. S tem "
+#~ "se prikaže ločena stran, kjer lahko uporabniki "
+#~ "uredijo :guilabel:`Vsebino`, :guilabel:`Konfiguracijo e-pošte` "
+#~ "in :guilabel:`Nastavitve` določene predloge e-pošte."
+
+#~ msgid ""
+#~ "In the :guilabel:`Questions` tab of an event form, users can create "
+#~ "questionnaires to gather information from attendees when registering for "
+#~ "the event."
+#~ msgstr ""
+#~ "Na zavihku :guilabel:`Vprašanja` obrazca dogodka lahko uporabniki "
+#~ "ustvarijo ankete za zbiranje podatkov od udeležencev ob registraciji za "
+#~ "dogodek."
+
+#~ msgid ""
+#~ "By default, Odoo provides three questions in the :guilabel:`Questions` "
+#~ "tab for every event form. The default questions require registrants to "
+#~ "provide their :guilabel:`Name`, :guilabel:`Email`, and an "
+#~ "optional :guilabel:`Phone` number."
+#~ msgstr ""
+#~ "Odoo privzeto zagotavlja tri vprašanja na zavihku :guilabel:`Vprašanja` "
+#~ "za vsak obrazec dogodka. Privzeta vprašanja zahtevajo, da registranti "
+#~ "vnesete svoje :guilabel:`Ime`, :guilabel:`E-pošto` in "
+#~ "neobvezno :guilabel:`Telefonsko` številko."
+
+#~ msgid ""
+#~ "The information gathered from the :guilabel:`Questions` tab can be found "
+#~ "on the :guilabel:`Attendees` dashboard, accessible via the :icon:`fa-"
+#~ "users` :guilabel:`Attendees` smart button. Odoo populates individual "
+#~ "records that contain basic information about the registrants, as well as "
+#~ "their preferences."
+#~ msgstr ""
+#~ "Informacije, zbrane na zavihku :guilabel:`Vprašanja`, so na voljo na "
+#~ "nadzorni plošči :guilabel:`Udeleženci`, dostopni prek pametnega "
+#~ "gumba :icon:`fa-users` :guilabel:`Udeleženci`. Odoo napolni posamezne "
+#~ "zapise, ki vsebujejo osnovne informacije o udeležencih in njihovih željah."
+
+#~ msgid ""
+#~ "To add a question in the :guilabel:`Questions` tab, click :guilabel:`Add "
+#~ "a line`. Doing so reveals an *Add: Question* pop-up window. From here, "
+#~ "users can select previously configured questions or click :guilabel:`New` "
+#~ "to create a new one. Doing so opens a new *Create Question* pop-up window."
+#~ msgstr ""
+#~ "Če želite dodati vprašanje na zavihku :guilabel:`Vprašanja`, "
+#~ "kliknite :guilabel:`Dodaj vrstico`. S tem se prikaže pojavno okno *Dodaj: "
+#~ "Vprašanje*. Od tod lahko uporabniki izberete predhodno konfigurirana "
+#~ "vprašanja ali kliknete :guilabel:`Novo` za ustvarjanje novega. S tem se "
+#~ "odpre novo pojavno okno *Ustvari vprašanje*."
+
+#~ msgid ""
+#~ "Once all the desired configurations have been entered, "
+#~ "click :guilabel:`Save & Close` to save the question and return to "
+#~ "the :guilabel:`Questions` tab on the event form. Or, "
+#~ "click :guilabel:`Save & New` to save the question and configure another. "
+#~ "To cancel, click :guilabel:`Discard`."
+#~ msgstr ""
+#~ "Ko so vse želene konfiguracije vnesene, kliknite :guilabel:`Shrani in "
+#~ "zapri` za shranitev vprašanja in vrnitev na zavihek :guilabel:`Vprašanja` "
+#~ "na obrazcu dogodka. Ali kliknite :guilabel:`Shrani in novo` za shranitev "
+#~ "vprašanja in konfiguracijo drugega. Za preklic "
+#~ "kliknite :guilabel:`Zavrzi`."
+
+#~ msgid ""
+#~ "Users can add as many questions in the :guilabel:`Questions` tab as "
+#~ "needed."
+#~ msgstr ""
+#~ "Uporabniki lahko na zavihku :guilabel:`Vprašanja` dodajo toliko vprašanj, "
+#~ "kolikor je potrebno."
+
+#~ msgid ""
+#~ "In the :guilabel:`Notes & Documents` tab of an event form, users can "
+#~ "leave detailed internal notes and event-related instructions or "
+#~ "information for attendees."
+#~ msgstr ""
+#~ "Na zavihku :guilabel:`Opombe in dokumenti` obrazca dogodka lahko "
+#~ "uporabniki pustijo podrobne interne opombe in navodila ali informacije, "
+#~ "povezane z dogodkom, za udeležence."
+
+#~ msgid ""
+#~ "Once all configurations and modifications are complete on the event form, "
+#~ "it is time to publish the event on the website. Doing so makes the event "
+#~ "visible to website visitors, and makes it possible for people to register "
+#~ "for the event."
+#~ msgstr ""
+#~ "Ko so vse konfiguracije in spremembe na obrazcu dogodka dokončane, je "
+#~ "čas, da objavite dogodek na spletnem mestu. S tem postane dogodek viden "
+#~ "obiskovalcem spletnega mesta in omogoči ljudem, da se registrirajo za "
+#~ "dogodek."
+
+#~ msgid ""
+#~ "To publish an event after all the customizations are complete, click "
+#~ "the :icon:`fa-globe` :guilabel:`Go to Website` smart button at the top of "
+#~ "the event form. Doing so reveals the event's web page, which can be "
+#~ "customized like any other web page on the site, via the :guilabel:`Edit` "
+#~ "button."
+#~ msgstr ""
+#~ "Če želite objaviti dogodek po dokončanju vseh prilagoditev, kliknite "
+#~ "pametni gumb :icon:`fa-globe` :guilabel:`Pojdi na spletno mesto` na vrhu "
+#~ "obrazca dogodka. S tem se prikaže spletna stran dogodka, ki jo je mogoče "
+#~ "prilagoditi kot katero koli drugo spletno stran na mestu, prek "
+#~ "gumba :guilabel:`Uredi`."
+
+#~ msgid ""
+#~ "To send event invites to potential attendees, navigate to the desired "
+#~ "event form, via :menuselection:`Events app --> Events`, and click into "
+#~ "the desired event. Following this, click the :guilabel:`Invite` button in "
+#~ "the upper-left corner of the event form."
+#~ msgstr ""
+#~ "Če želite poslati povabila na dogodek potencialnim udeležencem, se "
+#~ "pomaknite na želeni obrazec dogodka prek :menuselection:`Aplikacija "
+#~ "Events --> Dogodki` in kliknite na želeni dogodek. Nato kliknite "
+#~ "gumb :guilabel:`Povabi` v zgornjem levem kotu obrazca dogodka."
+
+#~ msgid ""
+#~ "Doing so reveals a blank email form to fill out, as desired. To learn "
+#~ "more about how to create and customize emails like this, refer to "
+#~ "the :ref:`Create an email <email_marketing/create_email>` documentation."
+#~ msgstr ""
+#~ "S tem se prikaže prazen obrazec e-pošte, ki ga izpolnite po želji. Če "
+#~ "želite izvedeti več o tem, kako ustvariti in prilagoditi tovrstne e-"
+#~ "poštne sporočila, glejte dokumentacijo :ref:`Ustvari e-pošto "
+#~ "<email_marketing/create_email>`."
+
+#~ msgid ""
+#~ "Proceed to create and customize an email message to send as an invite to "
+#~ "potential attendees. Remember to include a link to the registration page "
+#~ "on the event website, allowing interested recipients to register."
+#~ msgstr ""
+#~ "Nadaljujte z ustvarjanjem in prilagajanjem e-poštnega sporočila, ki ga "
+#~ "boste poslali kot vabilo potencialnim udeležencem. Ne pozabite vključiti "
+#~ "povezave do registracijske strani na spletni strani dogodka, da se lahko "
+#~ "zainteresirani prejemniki registrirajo."
+
+#~ msgid ""
+#~ "To access the *Attendees* reporting page, navigate "
+#~ "to :menuselection:`Events app --> Reporting --> Revenues`."
+#~ msgstr ""
+#~ "Za dostop do strani poročanja *Udeleženci* pojdite "
+#~ "na :menuselection:`Events app --> Reporting --> Revenues`."
+
+#~ msgid ""
+#~ "By default, the :guilabel:`Revenues` reporting page appears as a graph "
+#~ "(a :icon:`fa-line-chart` :guilabel:`(Line Chart)` with :icon:`fa-"
+#~ "database` :guilabel:`(Stacked)` data). The default "
+#~ "filters, :guilabel:`Non-free tickets` and :guilabel:`Event Start Date: "
+#~ "(current year)`, are present in the search bar."
+#~ msgstr ""
+#~ "Privzeto se stran poročanja :guilabel:`Revenues` prikaže kot graf "
+#~ "(:icon:`fa-line-chart` :guilabel:`(Line Chart)` s :icon:`fa-"
+#~ "database` :guilabel:`(Stacked)` podatki). Privzeti filtri :guilabel:`Non-"
+#~ "free tickets` in :guilabel:`Event Start Date: (current year)` so prisotni "
+#~ "v iskalni vrstici."
+
+#~ msgid ""
+#~ "The :guilabel:`Revenues` reporting page can also be viewed as "
+#~ "a :ref:`pivot table <reporting/views/pivot>`, by clicking the :icon:`oi-"
+#~ "view-pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
+#~ msgstr ""
+#~ "Stran poročanja :guilabel:`Revenues` si lahko ogledate tudi "
+#~ "kot :ref:`vrtilno tabelo <reporting/views/pivot>`, tako da kliknete "
+#~ "ikono :icon:`oi-view-pivot` :guilabel:`(Pivot)` v zgornjem desnem kotu."
+
+#~ msgid ""
+#~ "Choosing specific :ref:`Measures <reporting/choosing-measures>` is a "
+#~ "quick way to customize reporting pages."
+#~ msgstr ""
+#~ "Izbira določenih :ref:`mer <reporting/choosing-measures>` je hiter način "
+#~ "za prilagoditev strani poročanja."
+
+#~ msgid ""
+#~ "Regardless of the chosen view, the measures on the :guilabel:`Revenues` "
+#~ "reporting page are as follows: :guilabel:`Revenues`, :guilabel:`Untaxed "
+#~ "Revenues`, and :guilabel:`Count`."
+#~ msgstr ""
+#~ "Ne glede na izbrani pogled so mere na strani "
+#~ "poročanja :guilabel:`Revenues` "
+#~ "naslednje: :guilabel:`Revenues`, :guilabel:`Untaxed Revenues` "
+#~ "in :guilabel:`Count`."
+
+#~ msgid ""
+#~ "In the default graph view of the :guilabel:`Revenues` reporting page, "
+#~ "only the :guilabel:`Revenues` option is set in the :guilabel:`Measures` "
+#~ "drop-down menu."
+#~ msgstr ""
+#~ "V privzetem grafičnem pogledu strani poročanja :guilabel:`Revenues` je v "
+#~ "spustnem meniju :guilabel:`Measures` nastavljena samo "
+#~ "možnost :guilabel:`Revenues`."
+
+#~ msgid ":guilabel:`Revenues`: shows the revenues generated from events."
+#~ msgstr ":guilabel:`Prihodki`: prikazuje prihodke, ustvarjene z dogodki."
+
+#~ msgid ""
+#~ ":guilabel:`Untaxed Revenues`: shows the untaxed revenues generated from "
+#~ "events."
+#~ msgstr ""
+#~ ":guilabel:`Prihodki brez davka`: prikazuje prihodke brez davka, "
+#~ "ustvarjene z dogodkov."
+
+#~ msgid ""
+#~ ":guilabel:`Count`: shows the total amount of registrants who attended "
+#~ "events."
+#~ msgstr ""
+#~ ":guilabel:`Števec`: prikazuje skupno število udeležencev, ki so se "
+#~ "udeležili dogodkov."
+
+#~ msgid ""
+#~ "To reveal a drop-down menu of filter and grouping options to create "
+#~ "custom reports, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` "
+#~ "to the right of the search bar."
+#~ msgstr ""
+#~ "Če želite prikazati spustni meni z možnostmi filtriranja in združevanja "
+#~ "za ustvarjanje poročil po meri, kliknite :icon:`fa-caret-"
+#~ "down` :guilabel:`(puščica navzdol)` desno od iskalne vrstice."
+
+#~ msgid ""
+#~ "Doing so opens a drop-down mega menu of options organized into "
+#~ "columns: :ref:`Filters <search/preconfigured-filters>`, :ref:`Group By "
+#~ "<search/group>`, and :ref:`Favorites <search/favorites>`."
+#~ msgstr ""
+#~ "S tem se odpre spustni mega meni z možnostmi, organiziranimi v "
+#~ "stolpce: :ref:`Filtri <search/preconfigured-filters>`, :ref:`Združi po "
+#~ "<search/group>` in :ref:`Priljubljene <search/favorites>`."
+
+#~ msgid ""
+#~ "In the :guilabel:`Filters` column of the drop-down mega menu, there are "
+#~ "various event-related options that can be utilized to create custom "
+#~ "reports, based on a number of specific criteria."
+#~ msgstr ""
+#~ "V stolpcu :guilabel:`Filtri` spustnega mega menija je na voljo več "
+#~ "možnosti, povezanih z dogodki, ki jih je mogoče uporabiti za ustvarjanje "
+#~ "poročil po meri na podlagi številnih specifičnih meril."
+
+#~ msgid ""
+#~ "Multiple options in the :guilabel:`Filters` column can be selected at "
+#~ "once."
+#~ msgstr "V stolpcu :guilabel:`Filtri` je mogoče hkrati izbrati več možnosti."
+
+#~ msgid ""
+#~ ":guilabel:`Non-free tickets`: event tickets/registrations that were "
+#~ "**not** free."
+#~ msgstr ""
+#~ ":guilabel:`Plačljive vstopnice`: vstopnice/registracije za dogodke, ki "
+#~ "**niso** bile brezplačne."
+
+#~ msgid ":guilabel:`Free`: event tickets/registrations that *were* free."
+#~ msgstr ""
+#~ ":guilabel:`Brezplačno`: vstopnice/registracije za dogodke, ki *so* bile "
+#~ "brezplačne."
+
+#~ msgid ""
+#~ ":guilabel:`Pending payment`: event tickets/registrations that were "
+#~ "purchased, but still have payment pending."
+#~ msgstr ""
+#~ ":guilabel:`Plačilo na čakanju`: vstopnice/registracije za dogodke, ki so "
+#~ "bile kupljene, vendar je plačilo še vedno na čakanju."
+
+#~ msgid ""
+#~ ":guilabel:`Sold`: event tickets/registrations that have been successfully "
+#~ "sold (and paid for)."
+#~ msgstr ""
+#~ ":guilabel:`Prodano`: vstopnice/registracije za dogodke, ki so bile "
+#~ "uspešno prodane (in plačane)."
+
+#~ msgid ""
+#~ ":guilabel:`Registration Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to view a specific "
+#~ "periods of time and see how many registrations happened during that time."
+#~ msgstr ""
+#~ ":guilabel:`Datum registracije`: Kliknite ikono :icon:`fa-caret-"
+#~ "down` :guilabel:`(puščica navzdol)`, da prikažete seznam možnosti za "
+#~ "mesec, četrtletje in leto. Izberite poljubno število teh možnosti za "
+#~ "ogled določenih časovnih obdobij in si oglejte, koliko registracij se je "
+#~ "zgodilo v tem času."
+
+#~ msgid ""
+#~ ":guilabel:`Upcoming/Running`: include revenue-related information for "
+#~ "events that are either currently running or are going to happen in the "
+#~ "future."
+#~ msgstr ""
+#~ ":guilabel:`Prihajajoče/tekoče`: vključite informacije o prihodkih za "
+#~ "dogodke, ki bodisi trenutno potekajo bodisi se bodo zgodili v prihodnosti."
+
+#~ msgid ""
+#~ ":guilabel:`Past Events`: include revenue-related information for events "
+#~ "that have already taken place."
+#~ msgstr ""
+#~ ":guilabel:`Pretekli dogodki`: vključuje informacije o prihodkih za "
+#~ "dogodke, ki so se že zgodili."
+
+#~ msgid ""
+#~ ":guilabel:`Event Start Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to designate event "
+#~ "start dates to use as filters for revenue-related event data."
+#~ msgstr ""
+#~ ":guilabel:`Datum začetka dogodka`: Kliknite ikono :icon:`fa-caret-"
+#~ "down` :guilabel:`(puščica navzdol)`, da se prikaže seznam možnosti "
+#~ "mesecev, četrtletij in let. Izberite poljubno število teh možnosti, da "
+#~ "določite datume začetka dogodkov, ki se uporabijo kot filtri za podatke o "
+#~ "prihodkih dogodkov."
+
+#~ msgid ""
+#~ ":guilabel:`Event End Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to designate event "
+#~ "end dates to use as filters for revenue-related event data."
+#~ msgstr ""
+#~ ":guilabel:`Datum konca dogodka`: Kliknite ikono :icon:`fa-caret-"
+#~ "down` :guilabel:`(puščica navzdol)`, da se prikaže seznam možnosti "
+#~ "mesecev, četrtletij in let. Izberite poljubno število teh možnosti, da "
+#~ "določite datume konca dogodkov, ki se uporabijo kot filtri za podatke o "
+#~ "prihodkih dogodkov."
+
+#~ msgid ""
+#~ ":guilabel:`Published Events`: Select this option to show revenue-related "
+#~ "data for published events."
+#~ msgstr ""
+#~ ":guilabel:`Objavljeni dogodki`: Izberite to možnost za prikaz podatkov o "
+#~ "prihodkih objavljenih dogodkov."
+
+#~ msgid ""
+#~ ":guilabel:`Add Custom Filter`: Create a custom filter to analyze event-"
+#~ "related revenue data. To learn more, refer to the documentation "
+#~ "on :ref:`custom filters <search/custom-filters>`."
+#~ msgstr ""
+#~ ":guilabel:`Dodaj filter po meri`: Ustvarite filter po meri za analizo "
+#~ "podatkov o prihodkih dogodkov. Za več informacij glejte dokumentacijo "
+#~ "o :ref:`filtrih po meri <search/custom-filters>`."
+
+#~ msgid ""
+#~ "In the :guilabel:`Group By` column of the drop-down mega menu, there are "
+#~ "various event-related options to create custom groupings of data."
+#~ msgstr ""
+#~ "V stolpcu :guilabel:`Razvrsti po` spustnega mega menija so na voljo "
+#~ "različne možnosti, povezane z dogodki, za ustvarjanje razvrščanj podatkov "
+#~ "po meri."
+
+#~ msgid ""
+#~ ":guilabel:`Add Custom Group`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a drop-down of grouping "
+#~ "options. To select one, click on the desired option, and Odoo adds it to "
+#~ "the :guilabel:`Group By` column. Multiple selections can be made."
+#~ msgstr ""
+#~ ":guilabel:`Dodaj razvrščanje po meri`: Kliknite ikono :icon:`fa-caret-"
+#~ "down` :guilabel:`(puščica navzdol)`, da se prikaže spustni seznam "
+#~ "možnosti razvrščanja. Za izbiro možnosti kliknite na želeno možnost in "
+#~ "Odoo jo doda v stolpec :guilabel:`Razvrsti po`. Mogoče je izbrati več "
+#~ "možnosti."
+
+#~ msgid ""
+#~ "The following is an example of how various filters and grouping options "
+#~ "can create a useful analytic graph report related to event revenues. In "
+#~ "this case, the configurations present data about sold or free tickets to "
+#~ "published events, with the metrics separated by ticket type and event."
+#~ msgstr ""
+#~ "V nadaljevanju je primer, kako lahko različni filtri in možnosti "
+#~ "razvrščanja ustvarijo uporabno analitično grafično poročilo o prihodkih "
+#~ "dogodkov. V tem primeru konfiguracije predstavljajo podatke o prodanih "
+#~ "ali brezplačnih vstopnicah za objavljene dogodke, pri čemer so meritve "
+#~ "ločene po vrsti vstopnice in dogodku."
+
+#~ msgid ""
+#~ "To create such a report, navigate to :menuselection:`Events app --> "
+#~ "Reporting --> Revenues`. Stay in the default graph view, but remove the "
+#~ "default filters from the search bar."
+#~ msgstr ""
+#~ "Če želite ustvariti takšno poročilo, pojdite na :menuselection:`Dogodki --"
+#~ "> Poročanje --> Prihodki`. Ostanite v privzetem grafičnem pogledu, vendar "
+#~ "odstranite privzete filtre iz iskalne vrstice."
+
+#~ msgid ""
+#~ "Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the "
+#~ "right of the search bar, to reveal the drop-down mega menu of filter and "
+#~ "grouping options."
+#~ msgstr ""
+#~ "Nato kliknite :icon:`fa-caret-down` :guilabel:`(puščica navzdol)` na "
+#~ "desni strani iskalne vrstice, da se prikaže spustni meni s filtri in "
+#~ "možnostmi za združevanje."
+
+#~ msgid ""
+#~ "From here, select :guilabel:`Free` and :guilabel:`Sold` from "
+#~ "the :guilabel:`Filters` column."
+#~ msgstr ""
+#~ "Tukaj izberite :guilabel:`Brezplačno` in :guilabel:`Prodano` iz "
+#~ "stolpca :guilabel:`Filtri`."
+
+#~ msgid ""
+#~ "Then, since it is desired to **only** view data related to already "
+#~ "published events, select the :guilabel:`Published Events` option in "
+#~ "the :guilabel:`Filters` column, as well."
+#~ msgstr ""
+#~ "Nato, ker želite prikazati **samo** podatke, povezane z že objavljenimi "
+#~ "dogodki, izberite tudi možnost :guilabel:`Objavljeni dogodki` v "
+#~ "stolpcu :guilabel:`Filtri`."
+
+#~ msgid ""
+#~ "Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
+#~ "and :guilabel:`Ticket` options, **in that sequential order**. Doing so "
+#~ "first groups the data by event, *then* by ticket type, which provides a "
+#~ "more useful array of data to analyze."
+#~ msgstr ""
+#~ "Nato v stolpcu :guilabel:`Združi po` izberite "
+#~ "možnosti :guilabel:`Dogodek` in :guilabel:`Zahtevek`, **v tem zaporednem "
+#~ "vrstnem redu**. S tem najprej združite podatke po dogodku, *nato* po "
+#~ "vrsti vstopnice, kar zagotavlja uporabnejši nabor podatkov za analizo."
+
+#~ msgid ""
+#~ "The order in which the options are selected in the :guilabel:`Group By` "
+#~ "column directly affects how the data is presented on the report."
+#~ msgstr ""
+#~ "Vrstni red, v katerem so izbrane možnosti v stolpcu :guilabel:`Združi "
+#~ "po`, neposredno vpliva na način prikaza podatkov v poročilu."
+
+#~ msgid ""
+#~ "From there, additional configurations can be added for more detailed "
+#~ "data, if desired."
+#~ msgstr ""
+#~ "Od tam lahko po želji dodate dodatne konfiguracije za podrobnejše podatke."
+
+#~ msgid ""
+#~ "If no additional filters or groupings are added, Odoo presents a "
+#~ "graphical representation of data related to all *free* or *sold* tickets "
+#~ "for *published events*, grouped by *event*, and organized by *ticket* "
+#~ "type."
+#~ msgstr ""
+#~ "Če ne dodate dodatnih filtrov ali združevanj, Odoo prikaže grafični "
+#~ "prikaz podatkov, povezanih z vsemi *brezplačnimi* ali *prodanimi* "
+#~ "vstopnicami za *objavljene dogodke*, združenimi po *dogodku* in "
+#~ "organiziranimi po vrsti *vstopnice*."
+
+#~ msgid ""
+#~ "The following is an example of how various filters and grouping options "
+#~ "can create a useful analytic pivot table report related to event "
+#~ "revenues. In this case, the configurations present data about how much "
+#~ "revenue different event types have generated, in order to gauge which "
+#~ "events are the most profitable."
+#~ msgstr ""
+#~ "Naslednji primer prikazuje, kako lahko različni filtri in možnosti "
+#~ "združevanja ustvarijo uporabno analitično poročilo vrtilne tabele, "
+#~ "povezano s prihodki dogodkov. V tem primeru konfiguracije prikazujejo "
+#~ "podatke o tem, koliko prihodkov so ustvarile različne vrste dogodkov, da "
+#~ "bi ocenili, kateri dogodki so najbolj donosni."
+
+#~ msgid ""
+#~ "First, navigate to :menuselection:`Events app --> Reporting --> "
+#~ "Revenues`, and switch to the pivot table view, by clicking the :icon:`oi-"
+#~ "view-pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
+#~ msgstr ""
+#~ "Najprej pojdite na :menuselection:`Dogodki --> Poročanje --> Prihodki` in "
+#~ "preklopite na pogled vrtilne tabele s klikom na ikono :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Vrtilna tabela)` v zgornjem desnem kotu."
+
+#~ msgid ""
+#~ "Next, open the :guilabel:`Measures` drop-down menu, and deselect the "
+#~ "option for :guilabel:`Count`, because this report is only going to focus "
+#~ "on revenues."
+#~ msgstr ""
+#~ "Nato odprite spustni meni :guilabel:`Mere` in prekličite izbiro "
+#~ "možnosti :guilabel:`Število`, ker se bo to poročilo osredotočalo samo na "
+#~ "prihodke."
+
+#~ msgid ""
+#~ "With these configurations in place, all the revenues generated from the "
+#~ "events (and their corresponding registrations) are displayed, organized "
+#~ "by the event type (presented as expandable columns)."
+#~ msgstr ""
+#~ "S temi konfiguracjami so prikazani vsi prihodki, ustvarjeni iz dogodkov "
+#~ "(in njihovih ustreznih registracij), organizirani po vrsti dogodka "
+#~ "(prikazani kot razširljivi stolpci)."
+
+#~ msgid ""
+#~ "The default stages in the :guilabel:`Kanban` view "
+#~ "are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, :guilabel:`Ended`, "
+#~ "and :guilabel:`Cancelled`. The cards can be dragged-and-dropped into any "
+#~ "stage in the pipeline."
+#~ msgstr ""
+#~ "Privzete faze v pogledu :guilabel:`Kanban` "
+#~ "so :guilabel:`Novo`, :guilabel:`Rezervirano`, :guilabel:`Najavljeno`, :guilabel:`Končano` "
+#~ "in :guilabel:`Preklicano`. Kartice je mogoče povleči in spustiti v katero "
+#~ "koli fazo v cevovodu."
+
+#~ msgid ""
+#~ "The :guilabel:`Ended` and :guilabel:`Cancelled` stages are folded by "
+#~ "default and located to the right of the other stages."
+#~ msgstr ""
+#~ "Fazi :guilabel:`Končano` in :guilabel:`Preklicano` sta privzeto zloženi "
+#~ "in nahajata se desno od drugih faz."
+
+#~ msgid ""
+#~ "To add a new stage, click the :icon:`fa-plus` :guilabel:`Add Stage` "
+#~ "button on the right, enter a name for the stage, then "
+#~ "click :guilabel:`Add`."
+#~ msgstr ""
+#~ "Za dodajanje nove faze kliknite gumb :icon:`fa-plus` :guilabel:`Dodaj "
+#~ "fazo` na desni, vnesite ime faze in kliknite :guilabel:`Dodaj`."
+
+#~ msgid ""
+#~ "At the top of the event form are a series of smart buttons related to "
+#~ "various event metrics. These auto-populate with data once attendees begin "
+#~ "to register, when booths and sponsors sign on for the event, when the "
+#~ "event takes place, and so on. These smart buttons can be clicked to "
+#~ "navigate to the event's related pages to modify any details and/or "
+#~ "perform any desired actions."
+#~ msgstr ""
+#~ "Na vrhu obrazca dogodka je vrsta pametnih gumbov, povezanih z različnimi "
+#~ "metrikami dogodka. Ti se samodejno zapolnijo s podatki, ko se udeleženci "
+#~ "začnejo registrirati, ko se za dogodek prijavijo stojnice in sponzorji, "
+#~ "ko se dogodek zgodi itd. Te pametne gumbe je mogoče klikniti za "
+#~ "navigacijo na povezane strani dogodka za spreminjanje podrobnosti in/ali "
+#~ "izvajanje želenih dejanj."
+
+#~ msgid ""
+#~ ":guilabel:`Exhibition Map`: The image of the event venue map. Click "
+#~ "the :guilabel:`Upload your file` button to upload an image of the event "
+#~ "venue map."
+#~ msgstr ""
+#~ ":guilabel:`Načrt razstave`: Slika načrta prizorišča dogodka. Kliknite "
+#~ "gumb :guilabel:`Naloži datoteko`, da naložite sliko načrta prizorišča "
+#~ "dogodka."
+
+#~ msgid ""
+#~ "Optionally, to create event badges for attendees, fill in the following "
+#~ "fields:"
+#~ msgstr ""
+#~ "Po želji izpolnite naslednja polja, da ustvarite značke dogodkov za "
+#~ "udeležence:"
+
+#~ msgid ""
+#~ ":guilabel:`Badge Dimension`: The desired paper format dimension for the "
+#~ "badges. The options are :guilabel:`A4 foldable`, :guilabel:`A6`, "
+#~ "or :guilabel:`4 per sheet`."
+#~ msgstr ""
+#~ ":guilabel:`Dimenzija značke`: Želena dimenzija papirnega formata za "
+#~ "značke. Možnosti so :guilabel:`A4 zložljiv`, :guilabel:`A6` "
+#~ "ali :guilabel:`4 na list`."
+
+#~ msgid ""
+#~ ":guilabel:`Badge Background`: The custom background image for the badges. "
+#~ "Click the :guilabel:`Upload your file` button to upload an image."
+#~ msgstr ""
+#~ ":guilabel:`Ozadje značke`: Slika ozadja po meri za značke. Kliknite "
+#~ "gumb :guilabel:`Naloži datoteko`, da naložite sliko."
+
+#~ msgid ""
+#~ "Then, tick the checkbox beside :guilabel:`Description` from the resulting "
+#~ "drop-down menu."
+#~ msgstr ""
+#~ "Nato v spustnemu meniju, ki se prikaže, potrdite potrditveno polje "
+#~ "poleg :guilabel:`Opis`."
+
+#~ msgid ""
+#~ "To add a communication in the :guilabel:`Communication` tab, "
+#~ "click :guilabel:`Add a line`. Then, select the desired type of "
+#~ "communication from the first drop-down menu on the :guilabel:`Template` "
+#~ "field. The options "
+#~ "are: :guilabel:`Mail`, :guilabel:`SMS`, :guilabel:`Social Post`, "
+#~ "or :guilabel:`WhatsApp`."
+#~ msgstr ""
+#~ "Za dodajanje komunikacije na zavihku :guilabel:`Komunikacija` "
+#~ "kliknite :guilabel:`Dodaj vrstico`. Nato izberite želeno vrsto "
+#~ "komunikacije iz prvega spustnega menija v polju :guilabel:`Predloga`. "
+#~ "Možnosti so: :guilabel:`Pošta`, :guilabel:`SMS`, :guilabel:`Objava na "
+#~ "družbenih omrežjih` ali :guilabel:`WhatsApp`."
+
+#~ msgid ""
+#~ "Then, select an option from the :guilabel:`Trigger` drop-down menu. The "
+#~ "options are: :guilabel:`After each registration`, :guilabel:`Before the "
+#~ "event`, and :guilabel:`After the event`."
+#~ msgstr ""
+#~ "Nato izberite možnost iz spustnega menija :guilabel:`Sprožilec`. Možnosti "
+#~ "so: :guilabel:`Po vsaki registraciji`, :guilabel:`Pred dogodkom` "
+#~ "in :guilabel:`Po dogodku`."
+
+#~ msgid ""
+#~ "The :guilabel:`Sent` column populates with the number of sent "
+#~ "communications. Next to the number are different icons that appear, "
+#~ "depending on the status of that particular communication. The *Running* "
+#~ "status is represented by a :icon:`fa-cogs` :guilabel:`(three gears)` "
+#~ "icon. The *Sent* status is represented by a :icon:`fa-"
+#~ "check` :guilabel:`(checkmark)` icon. And, the *Scheduled* status is "
+#~ "represented by an :icon:`fa-hourglass-half` :guilabel:`(hourglass)` icon."
+#~ msgstr ""
+#~ "Stolpec :guilabel:`Poslano` se napolni s številom poslanih komunikacij. "
+#~ "Poleg številke se prikažejo različne ikone, odvisno od statusa določene "
+#~ "komunikacije. Status *V teku* je označen z ikono :icon:`fa-"
+#~ "cogs` :guilabel:`(trije zobniki)`. Status *Poslano* je označen z "
+#~ "ikono :icon:`fa-check` :guilabel:`(kljukica)`. Status *Načrtovano* pa je "
+#~ "označen z ikono :icon:`fa-hourglass-half` :guilabel:`(peščena ura)`."
+
+#~ msgid ""
+#~ "To view and manage all email templates, activate :ref:`developer-mode` "
+#~ "and navigate to :menuselection:`Settings --> Technical --> Email: Email "
+#~ "Templates`. Modify with caution as email templates effect all "
+#~ "communications where the template is used."
+#~ msgstr ""
+#~ "Za ogled in upravljanje vseh predlog e-pošte aktivirajte :ref:`developer-"
+#~ "mode` in pojdite na :menuselection:`Nastavitve --> Tehnično --> E-pošta: "
+#~ "Predloge e-pošte`. Spreminjajte previdno, saj predloge e-pošte vplivajo "
+#~ "na vso komunikacijo, kjer se predloga uporablja."
+
+#~ msgid ""
+#~ "In the :guilabel:`Questions` tab of an event form, users can create brief "
+#~ "questionnaires for registrants to interact with, and respond to, after "
+#~ "they register for the event."
+#~ msgstr ""
+#~ "V zavihku :guilabel:`Vprašanja` obrazca dogodka lahko uporabniki "
+#~ "ustvarijo kratke vprašalnike, s katerimi se lahko registrirani udeleženci "
+#~ "ukvarjajo in nanje odgovarjajo po registraciji za dogodek."
+
+#~ msgid ""
+#~ "These questions can be focused on gathering basic information about the "
+#~ "attendee, learning about their preferences, expectations, and other "
+#~ "things of that nature. This information can also be used to create more "
+#~ "detailed reporting metrics, in addition to being utilized to create "
+#~ "specific lead generation rules."
+#~ msgstr ""
+#~ "Ta vprašanja se lahko osredotočijo na zbiranje osnovnih informacij o "
+#~ "udeležencu, spoznavanje njihovih preferenc, pričakovanj in podobnih "
+#~ "stvari. Te informacije se lahko uporabijo tudi za ustvarjanje "
+#~ "podrobnejših metrik poročanja in za ustvarjanje posebnih pravil za "
+#~ "generiranje potencialnih strank."
+
+#~ msgid ""
+#~ "By default, Odoo provides three questions in the :guilabel:`Questions` "
+#~ "tab for every event form. The default questions require one or more "
+#~ "registrants to provide their :guilabel:`Name`, :guilabel:`Email`, and an "
+#~ "optional :guilabel:`Phone` number as well."
+#~ msgstr ""
+#~ "Odoo privzeto zagotavlja tri vprašanja na zavihku :guilabel:`Vprašanja` "
+#~ "za vsak obrazec dogodka. Privzeta vprašanja zahtevajo, da en ali več "
+#~ "udeležencev navede svoje :guilabel:`Ime`, :guilabel:`E-pošto` in izbirno "
+#~ "tudi :guilabel:`Telefon`."
+
+#~ msgid ""
+#~ "To add a question in the :guilabel:`Questions` tab, click :guilabel:`Add "
+#~ "a line`. Doing so reveals a :guilabel:`Create Question` pop-up window. "
+#~ "From here, users can create and configure their question."
+#~ msgstr ""
+#~ "Za dodajanje vprašanja v zavihku :guilabel:`Vprašanja` "
+#~ "kliknite :guilabel:`Dodaj vrstico`. S tem se odpre pojavno "
+#~ "okno :guilabel:`Ustvari vprašanje`. Od tukaj lahko uporabniki ustvarijo "
+#~ "in nastavijo svoje vprašanje."
+
+#~ msgid ""
+#~ "First, enter the question in the field at the top of the form. Then, "
+#~ "decide if the question should require a :guilabel:`Mandatory Answer` and/"
+#~ "or if Odoo should :guilabel:`Ask once per order`, by ticking their "
+#~ "respective boxes, if desired."
+#~ msgstr ""
+#~ "Najprej vnesite vprašanje v polje na vrhu obrazca. Nato se odločite, ali "
+#~ "naj vprašanje zahteva :guilabel:`Obvezen odgovor` in/ali ali naj "
+#~ "Odoo :guilabel:`Vpraša enkrat na naročilo`, tako da po želji označite "
+#~ "ustrezna polja."
+
+#~ msgid ""
+#~ "If the :guilabel:`Ask once per order` checkbox is ticked, the question "
+#~ "will only be asked once, and its value is applied to every attendee in "
+#~ "the order (if multiple tickets are purchased at once). If the checkbox is "
+#~ "**not** ticked for this setting, Odoo presents the question for every "
+#~ "attendee that is connected to that registration."
+#~ msgstr ""
+#~ "Če je označeno potrditveno polje :guilabel:`Vprašaj enkrat na naročilo`, "
+#~ "bo vprašanje postavljeno samo enkrat in njegova vrednost se uporabi za "
+#~ "vse udeležence v naročilu (če je naenkrat kupljenih več vstopnic). Če "
+#~ "potrditveno polje za to nastavitev **ni** označeno, Odoo predstavi "
+#~ "vprašanje za vsakega udeleženca, povezanega s to registracijo."
+
+#~ msgid ""
+#~ "Once all the desired configurations have been entered, either "
+#~ "click :guilabel:`Save & Close` to save the question, and return to "
+#~ "the :guilabel:`Questions` tab on the event form, or click :guilabel:`Save "
+#~ "& New` to save the question and immediately create a new question on a "
+#~ "new :guilabel:`Create Question` pop-up window."
+#~ msgstr ""
+#~ "Ko so vse želene nastavitve vnesene, kliknite :guilabel:`Shrani in "
+#~ "zapri`, da shranite vprašanje in se vrnete v "
+#~ "zavihek :guilabel:`Vprašanja` na obrazcu dogodka, ali "
+#~ "kliknite :guilabel:`Shrani in novo`, da shranite vprašanje in takoj "
+#~ "ustvarite novo vprašanje v novem pojavnem oknu :guilabel:`Ustvari "
+#~ "vprašanje`."
+
+#~ msgid ""
+#~ "As questions are added to the :guilabel:`Questions` tab, the informative "
+#~ "columns showcase the configurations of each question."
+#~ msgstr ""
+#~ "Ko so vprašanja dodana v zavihek :guilabel:`Vprašanja`, informativni "
+#~ "stolpci prikazujejo nastavitve vsakega vprašanja."
+
+#~ msgid "The informative columns are the following:"
+#~ msgstr "Informativni stolpci so naslednji:"
+
+#~ msgid ":guilabel:`Title`"
+#~ msgstr ":guilabel:`Naslov`"
+
+#~ msgid ":guilabel:`Mandatory`"
+#~ msgstr ":guilabel:`Obvezno`"
+
+#~ msgid ":guilabel:`Once per Order`"
+#~ msgstr ":guilabel:`Enkrat na naročilo`"
+
+#~ msgid ":guilabel:`Type`"
+#~ msgstr ":guilabel:`Vrsta`"
+
+#~ msgid ":guilabel:`Answers` (if applicable)"
+#~ msgstr ":guilabel:`Odgovori` (če je primerno)"
+
+#~ msgid ""
+#~ "To delete any question from the :guilabel:`Questions` tab, click "
+#~ "the :icon:`fa-trash-o` :guilabel:`(trash can)` icon on the corresponding "
+#~ "question line."
+#~ msgstr ""
+#~ "Če želite izbrisati katerokoli vprašanje z zavihka :guilabel:`Vprašanja`, "
+#~ "kliknite ikono :icon:`fa-trash-o` :guilabel:`(koš)` v ustrezni vrstici "
+#~ "vprašanja."
+
+#~ msgid ""
+#~ "Any number of questions can be added in the :guilabel:`Questions` tab of "
+#~ "an event form."
+#~ msgstr ""
+#~ "V zavihku :guilabel:`Vprašanja` na obrazcu dogodka je mogoče dodati "
+#~ "poljubno število vprašanj."
+
+#~ msgid "Notes tab"
+#~ msgstr "Zavihek opombe"
+
+#~ msgid ""
+#~ "In the :guilabel:`Notes` tab of an event form, users can leave detailed "
+#~ "internal notes and/or event-related instructions/information for "
+#~ "attendees."
+#~ msgstr ""
+#~ "V zavihku :guilabel:`Opombe` obrazca dogodka lahko uporabniki pustijo "
+#~ "podrobne notranje opombe in/ali navodila/informacije v zvezi z dogodkom "
+#~ "za udeležence."
+
+#~ msgid ""
+#~ "In the :guilabel:`Note` field of the :guilabel:`Notes` tab, users can "
+#~ "leave internal notes for other event employees, like \"to-do\" lists, "
+#~ "contact information, instructions, and so on."
+#~ msgstr ""
+#~ "V polju :guilabel:`Opomba` zavihka :guilabel:`Opombe` lahko uporabniki "
+#~ "pustijo notranje opombe za druge zaposlene pri dogodku, kot so seznami "
+#~ "\"za narediti\", kontaktne informacije, navodila in podobno."
+
+#~ msgid ""
+#~ "In the :guilabel:`Ticket Instructions` field of the :guilabel:`Notes` "
+#~ "tab, users can leave specific instructions for people attending the event "
+#~ "that appear on the attendees ticket."
+#~ msgstr ""
+#~ "V polju :guilabel:`Navodila za zahtevek` zavihka :guilabel:`Opombe` lahko "
+#~ "uporabniki pustijo posebna navodila za osebe, ki se udeležujejo dogodka, "
+#~ "ki se prikažejo na zahtevku udeleženca."
+
+#~ msgid ""
+#~ "Once the event website is ready to be shared, click the "
+#~ "red :guilabel:`Unpublished` toggle switch in the header menu, changing it "
+#~ "to a green :guilabel:`Published` switch. At this point, the event web "
+#~ "page is published and viewable/accessible by all website visitors."
+#~ msgstr ""
+#~ "Ko je spletna stran dogodka pripravljena za objavo, kliknite rdeč "
+#~ "gumb :guilabel:`Neobjavljeno` v meniju glave in ga spremenite v zelen "
+#~ "gumb :guilabel:`Objavljeno`. V tej točki je spletna stran dogodka "
+#~ "objavljena in vidna/dostopna vsem obiskovalcem spletnega mesta."
 
 #~ msgid ""
 #~ "With Odoo *Events*, users can utilize a fully-integrated event website, "

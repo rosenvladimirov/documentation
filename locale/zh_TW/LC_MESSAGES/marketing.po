@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-12 17:31+0000\n"
-"PO-Revision-Date: 2026-06-25 13:54+0000\n"
-"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"POT-Creation-Date: 2026-08-21 17:32+0000\n"
+"PO-Revision-Date: 2026-08-27 17:06+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-19-doc/marketing/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/applications/marketing.rst:5
 msgid "Marketing"
@@ -78,7 +78,7 @@ msgstr "允許收件者取消訂閱並加入黑名單以避免收到未來的郵
 #: ../../content/applications/marketing/email_marketing.rst:29
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:3
 msgid "Lost leads reactivation email"
-msgstr ""
+msgstr "流失潛在客戶重新激活電子郵件"
 
 #: ../../content/applications/marketing/email_marketing.rst:29
 msgid "Target lost leads with Email Marketing."
@@ -2262,7 +2262,7 @@ msgstr ":ref:`郵件活動 <email_marketing/mailing-campaigns>`"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:214
 msgid ":doc:`Manage unsubscriptions <unsubscriptions>`"
-msgstr ""
+msgstr ":doc:`管理取消訂閱 <unsubscriptions>`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:5
 msgid ""
@@ -2270,6 +2270,8 @@ msgid ""
 "still be targeted with the *Email Marketing* application for strategic "
 "campaign purposes, such as lost leads reactivation."
 msgstr ""
+"在 Odoo 中，流失的潛在客戶會從活躍的\\ *客戶關係*\\ 管道中移除，但仍可透過\\ "
+"*電郵推廣*\\ 應用程式進行策略性行銷活動的目標定位，例如流失潛在客戶重新激活。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:8
 msgid ""
@@ -2277,6 +2279,8 @@ msgid ""
 "specific period of time, and uses custom filters and lost reasons to exclude "
 "undesirable leads from the mailing list."
 msgstr ""
+"流失潛在客戶重新激活電子郵件會查看在特定時間段內流失的潛在客戶，並使用自訂篩"
+"選器和流失原因來排除不需要的潛在客戶。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:11
 msgid ""
@@ -2284,6 +2288,8 @@ msgid ""
 "modified and sent to different groups for A/B testing, or saved as a "
 "template for later."
 msgstr ""
+"完成流失潛在客戶重新激活電子郵件後，可以直接傳送、修改後傳送給不同群組進行 A/"
+"B 測試，或儲存為範本以供日後使用。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:15
 msgid ""
@@ -2292,37 +2298,39 @@ msgid ""
 "a lost leads email to reach out to old opportunities that were lost, and "
 "inform them that the limited merchandise is back in stock."
 msgstr ""
+"某倉庫有去年限量商品的剩餘庫存。為了協助清理過剩庫存，倉庫經理建立了一封流失"
+"潛在客戶電子郵件，以聯繫先前流失的商機，並通知他們限量商品已重新上架。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:19
 msgid ""
 "The warehouse manager uses the following filters for a lost leads email:"
-msgstr ""
+msgstr "倉庫經理針對流失潛在客戶電子郵件使用以下篩選器："
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:21
 msgid ":guilabel:`Blacklist` *is* `not set`"
-msgstr ""
+msgstr ":guilabel:`黑名單`\\ *是*\\ `未設定`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:22
 msgid ":guilabel:`Created on` *>=* `01/01/2024 00:00:01`"
-msgstr ""
+msgstr ":guilabel:`建立日期`\\ *>=*\\ `01/01/2024 00:00:01`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:23
 msgid ":guilabel:`Stage` *is not in* `New`, `Qualified`, or `Won`"
-msgstr ""
+msgstr ":guilabel:`階段`\\ *不在*\\ `新建`、`合格`或`贏得`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:24
 msgid ":guilabel:`Lost Reason` *is in* `Not enough stock`"
-msgstr ""
+msgstr ":guilabel:`流失原因`\\ *在*\\ `庫存不足`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:25
 msgid "and either :guilabel:`Active` *is* `set` or `not set`"
-msgstr ""
+msgstr "且:guilabel:`有效`\\ *是*\\ `已設定`或`未設定`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:0
 msgid ""
 "A lost leads reactivation filter list excluding lost reasons like Too "
 "Expensive."
-msgstr ""
+msgstr "流失潛在客戶重新激活篩選器清單，排除「太昂貴」等流失原因。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:32
 msgid ""
@@ -2330,20 +2338,22 @@ msgid ""
 "record(s)` value below the filtering section. This value indicates the total "
 "number of records that match the current criteria."
 msgstr ""
+"加入和移除篩選器時，請注意篩選區段下方的\\ :guilabel:`# 記錄`\\ 值。此值表示"
+"符合目前條件的記錄總數。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:36
 msgid ""
 "To view a list of all matching records, click the :guilabel:`# record(s)` "
 "text."
-msgstr ""
+msgstr "若要檢視所有符合條件的記錄清單，請按一下\\ :guilabel:`# 記錄`\\ 文字。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:0
 msgid "The # record(s) text is located below the list of Recipient filters."
-msgstr ""
+msgstr "「# 記錄」文字位於收件人篩選器清單下方。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:43
 msgid "Minimum requirements"
-msgstr ""
+msgstr "最低需求"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:45
 msgid ""
@@ -2351,18 +2361,22 @@ msgid ""
 "*CRM* and *Email Marketing* applications **must** be :ref:`installed "
 "<general/install>` and configured."
 msgstr ""
+"為了建立和傳送流失潛在客戶重新激活電子郵件行銷活動，**必須**\\ :ref:`安裝 "
+"<general/install>`\\ 和設定\\ *客戶關係*\\ 和\\ *電郵推廣*\\ 應用程式。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:48
 msgid ""
 "Here are the minimum necessary filters that pertain to a lost leads "
 "reactivation mailing campaign:"
-msgstr ""
+msgstr "以下是與流失潛在客戶重新激活郵寄行銷活動相關的最低必要篩選器："
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:50
 msgid ""
 "The :ref:`Recipients <email_marketing/recipients_field>` field **must** be "
 "set to the *Lead/Opportunity* model."
 msgstr ""
+":ref:`收件人 <email_marketing/recipients_field>`\\ 欄位\\ **必須**\\ 設定為\\"
+" *潛在客戶／商機*\\ 模型。"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:52
 msgid ""
@@ -4254,7 +4268,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:145
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:116
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:75
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:68
 msgid "Filter options"
 msgstr "篩選選項"
 
@@ -4269,7 +4283,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:150
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:121
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:82
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:76
 msgid "The :guilabel:`Filters` column has the following options:"
 msgstr ":guilabel:`篩選`\\ 欄位有以下選項："
 
@@ -4312,7 +4326,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:164
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:143
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:108
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:98
 msgid "Group By options"
 msgstr "分組選項"
 
@@ -4327,7 +4341,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:170
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:151
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:115
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:105
 msgid "The :guilabel:`Group By` column has the following options:"
 msgstr "\\ :guilabel:`分組依據`\\ 欄位提供以下選項："
 
@@ -4818,12 +4832,13 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:175
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:378
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:379
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
 
@@ -5838,11 +5853,9 @@ msgstr "收入報表頁面"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:13
 msgid ""
-"To access the *Attendees* reporting page, navigate to :menuselection:`Events "
+"To access the *Revenues* reporting page, navigate to :menuselection:`Events "
 "app --> Reporting --> Revenues`."
 msgstr ""
-"若要存取\\ *參加者*\\ 報表頁面，請導覽至\\ :menuselection:`活動應用程式 ‣ 報"
-"表 ‣ 收入`。"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
 msgid ""
@@ -5850,20 +5863,16 @@ msgid ""
 "application."
 msgstr "Odoo 活動應用程式中收入報表頁面的預設檢視。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:20
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:19
 msgid ""
 "By default, the :guilabel:`Revenues` reporting page appears as a graph "
 "(a :icon:`fa-line-chart` :guilabel:`(Line Chart)` with :icon:`fa-"
 "database` :guilabel:`(Stacked)` data). The default filters, :guilabel:`Non-"
-"free tickets` and :guilabel:`Event Start Date: (current year)`, are present "
+"free tickets` and :guilabel:`Event Start Date: (current year)`, are applied "
 "in the search bar."
 msgstr ""
-"預設情況下，:guilabel:`收入`\\ 報表頁面會顯示為圖表（具有\\ :icon:`fa-"
-"database`\\ :guilabel:`（堆疊）`\\ 資料的\\ :icon:`fa-line-chart`\\ "
-":guilabel:`（折線圖）`）。預設篩選條件\\ :guilabel:`非免費門票`\\ 和\\ "
-":guilabel:`活動開始日期：（本年度）`\\ 會顯示在搜尋列中。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:26
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:25
 msgid ""
 "To learn more about the various graph views (and graph view options), refer "
 "to the :ref:`Graph views <reporting/using-graph>` documentation."
@@ -5871,97 +5880,73 @@ msgstr ""
 "若要深入瞭解各種圖表檢視（和圖表檢視選項），請參閱\\ :ref:`圖表檢視 "
 "<reporting/using-graph>`\\ 使用說明。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:29
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:28
 msgid ""
-"The :guilabel:`Revenues` reporting page can also be viewed as a :ref:`pivot "
-"table <reporting/views/pivot>`, by clicking the :icon:`oi-view-"
+"The *Revenues* reporting page can also be viewed as a :ref:`pivot table "
+"<reporting/views/pivot>`, by clicking the :icon:`oi-view-"
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
-":guilabel:`收入`\\ 報表頁面也可以按一下右上角的\\ :icon:`oi-view-pivot`\\ "
-":guilabel:`（樞紐分析）`\\ 圖示以\\ :ref:`樞紐分析表 <reporting/views/pivot>"
-"`\\ 的形式檢視。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:34
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:32
 msgid "Measures"
 msgstr "量度"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:36
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:34
 msgid ""
-"Choosing specific :ref:`Measures <reporting/choosing-measures>` is a quick "
-"way to customize reporting pages."
+"Choosing specific :ref:`measures <reporting/choosing-measures>` allows users "
+"to customize reporting pages."
 msgstr ""
-"選擇特定的\\ :ref:`量值 <reporting/choosing-measures>`\\ 是自訂報表頁面的快速"
-"方法。"
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:37
+msgid ""
+"Clicking the :guilabel:`Measures` drop-down button reveals the following "
+"options:"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:39
-msgid ""
-"Regardless of the chosen view, the measures on the :guilabel:`Revenues` "
-"reporting page are as follows: :guilabel:`Revenues`, :guilabel:`Untaxed "
-"Revenues`, and :guilabel:`Count`."
+msgid ":guilabel:`Revenues`: Shows the revenues generated from events."
 msgstr ""
-"無論選擇哪種檢視，:guilabel:`收入`\\ 報表頁面上的量值如下：:guilabel:`收"
-"入`、:guilabel:`未稅收入`\\ 和\\ :guilabel:`計數`。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:43
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:40
 msgid ""
-"In the default graph view of the :guilabel:`Revenues` reporting page, only "
-"the :guilabel:`Revenues` option is set in the :guilabel:`Measures` drop-down "
-"menu."
+":guilabel:`Untaxed Revenues`: Shows the untaxed revenues generated from "
+"events."
 msgstr ""
-"在\\ :guilabel:`收入`\\ 報告頁面的預設圖表檢視中，:guilabel:`量測`\\ 下拉式選"
-"單僅設定了\\ :guilabel:`收入`\\ 選項。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:46
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:41
+msgid ""
+":guilabel:`Count`: Shows the total number of registrants who attended events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:44
 msgid ""
 "In graph view, only one of the :guilabel:`Measures` can be selected at a "
 "time."
 msgstr "在圖表檢視中，:guilabel:`量測`\\ 一次只能選擇一個。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:48
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:46
 msgid ""
 "When the pivot option is selected, all :guilabel:`Measures` options are "
 "selected, by default."
 msgstr "選擇樞紐選項時，預設會選擇所有\\ :guilabel:`量測`\\ 選項。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:50
-msgid ":guilabel:`Revenues`: shows the revenues generated from events."
-msgstr ":guilabel:`收入`：顯示活動產生的收入。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:51
-msgid ""
-":guilabel:`Untaxed Revenues`: shows the untaxed revenues generated from "
-"events."
-msgstr ":guilabel:`未稅收入`：顯示活動產生的未稅收入。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:52
-msgid ""
-":guilabel:`Count`: shows the total amount of registrants who attended events."
-msgstr ":guilabel:`計數`：顯示參加活動的報名者總數。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:55
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:49
 msgid "Filters and grouping options"
 msgstr "篩選和分組選項"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:57
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:51
 msgid ""
-"To reveal a drop-down menu of filter and grouping options to create custom "
-"reports, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the "
-"right of the search bar."
+"To reveal a drop-down menu of filter and grouping options, click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` next to the search bar."
 msgstr ""
-"要顯示篩選和分組選項的下拉式選單以建立自訂報表，請按一下搜尋列右側的\\ "
-":icon:`fa-caret-down`:guilabel:`（向下箭頭）`。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:60
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:54
 msgid ""
-"Doing so opens a drop-down mega menu of options organized into "
-"columns: :ref:`Filters <search/preconfigured-filters>`, :ref:`Group By "
-"<search/group>`, and :ref:`Favorites <search/favorites>`."
+"The drop-down menu allows users to set :ref:`Filters <search/preconfigured-"
+"filters>` and :ref:`Group By <search/group>` options."
 msgstr ""
-"這樣做會開啟一個下拉式大型選單，選項分為以下欄位：:ref:`篩選 <search/"
-"preconfigured-filters>`、:ref:`分組依據 <search/group>`\\ 和\\ :ref:`我的最"
-"愛 <search/favorites>`。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:65
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:58
 msgid ""
 "If a time-related option has been selected from the :guilabel:`Filters` "
 "column (e.g. the default :guilabel:`Event Start Date: (year)` filter), "
@@ -5972,189 +5957,187 @@ msgstr ""
 ":guilabel:`活動開始日期：（年）`\\ 篩選），則會出現\\ :guilabel:`比較`\\ 欄位"
 "，其中包含所選時間相關篩選選項的比較選項。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:69
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:62
 msgid ""
 "Only **one** selection can be made from the :guilabel:`Comparison` column at "
 "a time."
 msgstr ":guilabel:`比較`\\ 欄位一次只能選擇**一個**選項。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:72
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:65
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:75
 msgid ":doc:`../../../essentials/search`"
 msgstr ":doc:`../../../essentials/search`"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:77
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:70
 msgid ""
-"In the :guilabel:`Filters` column of the drop-down mega menu, there are "
-"various event-related options that can be utilized to create custom reports, "
-"based on a number of specific criteria."
+"The :guilabel:`Filters` column in the search bar's drop-down menu allows "
+"users to restrict the data to specific criteria."
 msgstr ""
-"在下拉式大型選單的\\ :guilabel:`篩選`\\ 欄位中，有各種與活動相關的選項可用於"
-"根據特定條件建立自訂報表。"
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:73
+msgid ""
+"Multiple options in the :guilabel:`Filters` column can be selected at once. "
+"Options can be applied to any view."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:78
+msgid ""
+":guilabel:`Non-free tickets`: Filter by event tickets/registrations that are "
+"not free."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:79
+msgid ":guilabel:`Free`: Filter by event tickets/registrations that are free."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:80
 msgid ""
-"Multiple options in the :guilabel:`Filters` column can be selected at once."
-msgstr ":guilabel:`篩選`\\ 欄位中可以同時選擇多個選項。"
+":guilabel:`Pending payment`: Filter by event tickets/registrations that are "
+"purchased but are pending payment."
+msgstr ""
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:84
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:82
 msgid ""
-":guilabel:`Non-free tickets`: event tickets/registrations that were **not** "
-"free."
-msgstr ":guilabel:`非免費票券`：**非**免費的活動票券／報名。"
+":guilabel:`Sold`: Filter by event tickets/registrations that are sold and "
+"paid for."
+msgstr ""
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:85
-msgid ":guilabel:`Free`: event tickets/registrations that *were* free."
-msgstr ":guilabel:`免費`：*為*免費的活動票券／報名。"
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:83
+msgid ""
+":guilabel:`Registration Date`: Filter by a specific registration date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:86
-msgid ""
-":guilabel:`Pending payment`: event tickets/registrations that were "
-"purchased, but still have payment pending."
-msgstr ":guilabel:`待付款`：已購買但仍待付款的活動票券／報名。"
+msgid ":guilabel:`Upcoming/Running`: Filter by current or future events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:87
+msgid ":guilabel:`Past Events`: Filter by completed events."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:88
 msgid ""
-":guilabel:`Sold`: event tickets/registrations that have been successfully "
-"sold (and paid for)."
-msgstr ":guilabel:`已售出`：已成功售出（並已付款）的活動票券／報名。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:89
-msgid ""
-":guilabel:`Registration Date`: Click the :icon:`fa-caret-"
-"down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, and "
-"year options. Select any number of these options to view a specific periods "
-"of time and see how many registrations happened during that time."
+":guilabel:`Event Start Date`: Filter by a specific event start date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
 msgstr ""
-":guilabel:`報名日期`：按一下\\ :icon:`fa-caret-down`:guilabel:`（向下箭頭"
-"）`\\ 圖示以顯示月、季和年選項的清單。選擇這些選項中的任意數量以檢視特定時段"
-"，並查看該時段內發生的報名數量。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:92
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:91
 msgid ""
-":guilabel:`Upcoming/Running`: include revenue-related information for events "
-"that are either currently running or are going to happen in the future."
+":guilabel:`Event End Date`: Filter by a specific event end date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
 msgstr ""
-"\\ :guilabel:`即將舉辦/進行中`\\ ：包含目前正在進行或將在未來舉辦的活動之營收"
-"相關資訊。"
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:93
+msgid ":guilabel:`Published Events`: Filter by published events."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:94
 msgid ""
-":guilabel:`Past Events`: include revenue-related information for events that "
-"have already taken place."
-msgstr "\\ :guilabel:`過去的活動`\\ ：包含已經舉辦過的活動之營收相關資訊。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:96
-msgid ""
-":guilabel:`Event Start Date`: Click the :icon:`fa-caret-"
-"down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, and "
-"year options. Select any number of these options to designate event start "
-"dates to use as filters for revenue-related event data."
+":guilabel:`Add Custom Filter`: Create a :ref:`custom filter <search/custom-"
+"filters>` to analyze event-related revenue data."
 msgstr ""
-"\\ :guilabel:`活動開始日期`\\ ：按一下\\ :icon:`fa-caret-down`\\ \\ "
-":guilabel:`（向下箭頭）`\\ 圖示以顯示月、季度和年份選項清單。選取任意數量的選"
-"項，以指定用於篩選活動營收相關資料的活動開始日期。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:99
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:100
 msgid ""
-":guilabel:`Event End Date`: Click the :icon:`fa-caret-down` :guilabel:`(down "
-"arrow)` icon to reveal a list of month, quarter, and year options. Select "
-"any number of these options to designate event end dates to use as filters "
-"for revenue-related event data."
+"The :guilabel:`Group By` column in the search bar's drop-down menu allows "
+"users to group the data by specific criteria."
 msgstr ""
-"\\ :guilabel:`活動結束日期`\\ ：按一下\\ :icon:`fa-caret-down`\\ \\ "
-":guilabel:`（向下箭頭）`\\ 圖示以顯示月、季度和年份選項清單。選取任意數量的選"
-"項，以指定用於篩選活動營收相關資料的活動結束日期。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:102
-msgid ""
-":guilabel:`Published Events`: Select this option to show revenue-related "
-"data for published events."
-msgstr "\\ :guilabel:`已發布的活動`\\ ：選取此選項以顯示已發布活動的營收相關資料。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:104
-msgid ""
-":guilabel:`Add Custom Filter`: Create a custom filter to analyze event-"
-"related revenue data. To learn more, refer to the documentation "
-"on :ref:`custom filters <search/custom-filters>`."
-msgstr ""
-"\\ :guilabel:`加入自訂篩選條件`\\ ：建立自訂篩選條件以分析活動相關的營收資料"
-"。如需更多資訊，請參閱關於\\ :ref:`自訂篩選條件 <search/custom-filters>`\\ 的"
-"使用說明。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:110
-msgid ""
-"In the :guilabel:`Group By` column of the drop-down mega menu, there are "
-"various event-related options to create custom groupings of data."
-msgstr ""
-"在下拉式大型選單的\\ :guilabel:`分組依據`\\ 欄位中，有各種與活動相關的選項可"
-"用於建立自訂資料分組。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:113
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:103
 msgid "Multiple :guilabel:`Group By` options can be selected at once."
 msgstr "可以同時選取多個\\ :guilabel:`分組依據`\\ 選項。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:117
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:107
 msgid ":guilabel:`Event Type`: Group data based on the type of event."
 msgstr "\\ :guilabel:`活動類型`\\ ：根據活動類型分組資料。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:118
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:108
 msgid ""
 ":guilabel:`Event`: Organize data into individual groups, separated by events."
 msgstr "\\ :guilabel:`活動`\\ ：將資料組織為個別群組，按活動分隔。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:119
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:109
 msgid ""
 ":guilabel:`Product`: Group data based on the event registration product."
 msgstr "\\ :guilabel:`產品`\\ ：根據活動報名產品分組資料。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:120
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:110
 msgid ""
 ":guilabel:`Ticket`: Group data based on the type of event ticket purchased "
 "by attendees."
 msgstr "\\ :guilabel:`票券`\\ ：根據參與者購買的活動票券類型分組資料。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:121
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:111
 msgid ""
 ":guilabel:`Registration Status`: Group data based on the status of "
 "registrations."
 msgstr "\\ :guilabel:`報名狀態`\\ ：根據報名狀態分組資料。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:122
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:112
 msgid ""
 ":guilabel:`Sale Order Status`: Group data based on the status of event-"
 "related sales orders."
 msgstr "\\ :guilabel:`銷售單狀態`\\ ：根據活動相關銷售單的狀態分組資料。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:123
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:113
 msgid ":guilabel:`Customer`: Group data based on customer records."
 msgstr "\\ :guilabel:`客戶`\\ ：根據客戶記錄分組資料。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:124
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:114
 msgid ""
-":guilabel:`Add Custom Group`: Click the :icon:`fa-caret-"
+":guilabel:`Add Custom Group`: Create a :ref:`custom group <search/group>` to "
+"organize data by additional fields. Click the :icon:`fa-caret-"
 "down` :guilabel:`(down arrow)` icon to reveal a drop-down of grouping "
-"options. To select one, click on the desired option, and Odoo adds it to "
-"the :guilabel:`Group By` column. Multiple selections can be made."
+"options. Multiple selections can be made."
 msgstr ""
-"\\ :guilabel:`加入自訂分組`\\ ：按一下\\ :icon:`fa-caret-down`\\ \\ "
-":guilabel:`（向下箭頭）`\\ 圖示以顯示分組選項下拉式清單。若要選取一個選項，請"
-"按一下所需的選項，Odoo 會將其加入至\\ :guilabel:`分組依據`\\ 欄位。可以進行多"
-"項選取。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:129
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:119
 msgid "Sample report: event ticket analysis (graph)"
 msgstr "範例報表：活動票券分析（圖表）"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:131
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:121
 msgid ""
 "The following is an example of how various filters and grouping options can "
-"create a useful analytic graph report related to event revenues. In this "
-"case, the configurations present data about sold or free tickets to "
-"published events, with the metrics separated by ticket type and event."
+"be used to compare the distributions of paid tickets and free tickets for "
+"published events, organized by ticket type and event."
 msgstr ""
-"以下範例說明如何運用各種篩選條件和分組選項，建立與活動營收相關的實用分析圖表"
-"報表。在此情況下，配置會呈現已發布活動的已售出或免費票券資料，並按票券類型和"
-"活動區分指標。"
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:125
+msgid ""
+"To create this report, navigate to :menuselection:`Events app --> Reporting "
+"--> Revenues`. Stay in the default graph view but remove the default filters "
+"from the search bar."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:128
+msgid ""
+"Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` next to the "
+"search bar. From here, select :guilabel:`Free` and :guilabel:`Sold` from "
+"the :guilabel:`Filters` column."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:131
+msgid ""
+"To view data related **only** to already published events, select "
+"the :guilabel:`Published Events` option in the :guilabel:`Filters` column."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:134
+msgid ""
+"Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
+"and :guilabel:`Ticket` options, **in that order**. Doing so first groups the "
+"data by event, then by ticket type."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:138
+msgid ""
+"The order in which the options are selected in the :guilabel:`Group By` "
+"column directly affects how the data is grouped and displayed on the report."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
 msgid ""
@@ -6162,108 +6145,24 @@ msgid ""
 "place."
 msgstr "已套用獨特篩選器和分組的活動門票分析範例報告。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:139
-msgid ""
-"To create such a report, navigate to :menuselection:`Events app --> "
-"Reporting --> Revenues`. Stay in the default graph view, but remove the "
-"default filters from the search bar."
-msgstr ""
-"若要建立此類報告，請前往\\ :menuselection:`活動應用程式 --> 報告 --> 收入`。"
-"保持在預設的圖表檢視，但從搜尋列中移除預設篩選器。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:142
-msgid ""
-"Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the right "
-"of the search bar, to reveal the drop-down mega menu of filter and grouping "
-"options."
-msgstr ""
-"然後，按一下搜尋列右側的\\ :icon:`fa-caret-down` :guilabel:`（向下箭頭）`，以"
-"顯示篩選器和分組選項的下拉式大型選單。"
-
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:145
-msgid ""
-"From here, select :guilabel:`Free` and :guilabel:`Sold` from "
-"the :guilabel:`Filters` column."
-msgstr ""
-"從這裡，從\\ :guilabel:`篩選器`\\ 欄中選擇\\ :guilabel:`免費`\\ 和\\ "
-":guilabel:`已售出`。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:147
-msgid ""
-"Then, since it is desired to **only** view data related to already published "
-"events, select the :guilabel:`Published Events` option in "
-"the :guilabel:`Filters` column, as well."
-msgstr ""
-"然後，由於希望**僅**檢視與已發布活動相關的資料，因此也請在\\ :guilabel:`篩選"
-"器`\\ 欄中選擇\\ :guilabel:`已發布的活動`\\ 選項。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:150
-msgid ""
-"Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
-"and :guilabel:`Ticket` options, **in that sequential order**. Doing so first "
-"groups the data by event, *then* by ticket type, which provides a more "
-"useful array of data to analyze."
-msgstr ""
-"接下來，在\\ :guilabel:`分組依據`\\ 欄中，**依照該順序**選擇\\ :guilabel:`活"
-"動`\\ 和\\ :guilabel:`門票`\\ 選項。這樣做首先按活動對資料進行分組，*然後*按"
-"門票類型進行分組，從而提供更有用的資料陣列以進行分析。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:155
-msgid ""
-"The order in which the options are selected in the :guilabel:`Group By` "
-"column directly affects how the data is presented on the report."
-msgstr ""
-"在\\ :guilabel:`分組依據`\\ 欄中選擇選項的順序會直接影響報告上資料的呈現方式"
-"。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:158
-msgid ""
-"From there, additional configurations can be added for more detailed data, "
-"if desired."
-msgstr "從那裡，如果需要，可以加入額外的配置以獲得更詳細的資料。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:160
-msgid ""
-"If no additional filters or groupings are added, Odoo presents a graphical "
-"representation of data related to all *free* or *sold* tickets for "
-"*published events*, grouped by *event*, and organized by *ticket* type."
-msgstr ""
-"如果未加入額外的篩選器或分組，Odoo 會呈現與*已發布活動*的所有*免費*或*已售"
-"出*門票相關的資料的圖形表示，按*活動*分組，並按*門票*類型組織。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:165
 msgid "Sample report: event type analysis (pivot table)"
 msgstr "範例報告：活動類型分析（樞紐分析表）"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:167
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:147
 msgid ""
-"The following is an example of how various filters and grouping options can "
-"create a useful analytic pivot table report related to event revenues. In "
-"this case, the configurations present data about how much revenue different "
-"event types have generated, in order to gauge which events are the most "
-"profitable."
+"The following is an example of how to create a report analyzing revenue by "
+"event type to determine which event types are most profitable."
 msgstr ""
-"以下是如何使用各種篩選器和分組選項來建立與活動收入相關的有用分析樞紐分析表報"
-"告的範例。在這種情況下，配置呈現有關不同活動類型產生了多少收入的資料，以便評"
-"估哪些活動最有利可圖。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:150
 msgid ""
-"The event type analysis sample report with unique filters and groupings in "
-"place."
-msgstr "已套用獨特篩選器和分組的活動類型分析範例報告。"
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:176
-msgid ""
-"First, navigate to :menuselection:`Events app --> Reporting --> Revenues`, "
-"and switch to the pivot table view, by clicking the :icon:`oi-view-"
+"First, navigate to :menuselection:`Events app --> Reporting --> Revenues` "
+"and switch to the pivot table view by clicking the :icon:`oi-view-"
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
-"首先，前往\\ :menuselection:`活動應用程式 --> 報告 --> 收入`，然後按一下右上"
-"角的\\ :icon:`oi-view-pivot` :guilabel:`（樞紐分析）`\\ 圖示，切換到樞紐分析"
-"表檢視。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:180
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:153
 msgid ""
 "Keep the default filters (:guilabel:`Non-free tickets` and :guilabel:`Event "
 "Start Date: (year)`) in the search bar."
@@ -6271,16 +6170,13 @@ msgstr ""
 "在搜尋列中保留預設篩選器（:guilabel:`非免費門票`\\ 和\\ :guilabel:`活動開始日"
 "期：（年）`）。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:183
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:156
 msgid ""
-"Next, open the :guilabel:`Measures` drop-down menu, and deselect the option "
-"for :guilabel:`Count`, because this report is only going to focus on "
-"revenues."
+"Next, open the :guilabel:`Measures` drop-down menu and deselect the option "
+"for :guilabel:`Count` as this report focuses only on revenues."
 msgstr ""
-"接下來，開啟\\ :guilabel:`量值`\\ 下拉式選單，並取消選擇\\ :guilabel:`計數`\\"
-" 選項，因為此報告將僅專注於收入。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:186
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:159
 msgid ""
 "Then, click :icon:`fa-plus-square` :guilabel:`Total` above the column "
 "titles, and select :guilabel:`Event Type` from the resulting drop-down menu."
@@ -6288,14 +6184,17 @@ msgstr ""
 "然後，按一下欄標題上方的\\ :icon:`fa-plus-square` :guilabel:`總計`，並從產生"
 "的下拉式選單中選擇\\ :guilabel:`活動類型`。"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:189
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:162
 msgid ""
-"With these configurations in place, all the revenues generated from the "
-"events (and their corresponding registrations) are displayed, organized by "
-"the event type (presented as expandable columns)."
+"With these configurations, all revenues generated from the events and their "
+"corresponding registrations are organized by the event type."
 msgstr ""
-"有了這些配置，便會顯示從活動（及其相應註冊）產生的所有收入，並按活動類型（顯"
-"示為可展開的欄）進行組織。"
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
+msgid ""
+"The event type analysis sample report with unique filters and groupings in "
+"place."
+msgstr "已套用獨特篩選器和分組的活動類型分析範例報告。"
 
 #: ../../content/applications/marketing/events/event_setup.rst:6
 msgid "Setup"
@@ -6330,16 +6229,12 @@ msgstr "Dashboard"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:18
 msgid ""
-"To create an event, navigate to the :guilabel:`Events app` to land on the "
-"dashboard. By default, the :guilabel:`Events` dashboard uses the :icon:`oi-"
-"view-kanban` :guilabel:`(Kanban)` view, which showcases all events in the "
-"database in their respective pipeline stages. Other views can be set using "
-"the buttons in the upper-right corner."
+"To create an event, navigate to the :menuselection:`Events app` to land on "
+"the dashboard. By default, the :guilabel:`Events` dashboard uses "
+"the :icon:`oi-view-kanban` :guilabel:`(Kanban)` view, which showcases all "
+"events in the database in their respective pipeline stages. Other views can "
+"be set using the buttons at the top."
 msgstr ""
-"若要建立活動，請前往\\ :guilabel:`活動`\\ 應用程式以進入 Dashboard。預設情況"
-"下，\\ :guilabel:`活動`\\ Dashboard 使用\\ :icon:`oi-view-kanban`\\ "
-":guilabel:`（Kanban）`\\ 檢視，該檢視會在各自的管道階段中展示資料庫中的所有活"
-"動。可以使用右上角的按鈕設定其他檢視。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:23
 msgid ""
@@ -6353,21 +6248,16 @@ msgstr ""
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:27
 msgid ""
 "The default stages in the :guilabel:`Kanban` view "
-"are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, :guilabel:`Ended`, "
-"and :guilabel:`Cancelled`. The cards can be dragged-and-dropped into any "
-"stage in the pipeline."
+"are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, "
+"and :guilabel:`Ended`. The cards can be dragged and dropped into any stage "
+"in the pipeline."
 msgstr ""
-":guilabel:`Kanban`\\ 檢視中的預設階段為\\ :guilabel:`新增`、:guilabel:`已預"
-"訂`、:guilabel:`已公告`、:guilabel:`已結束`\\ 和\\ :guilabel:`已取消`。卡片可"
-"以拖放到管道中的任何階段。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:32
 msgid ""
-"The :guilabel:`Ended` and :guilabel:`Cancelled` stages are folded by default "
-"and located to the right of the other stages."
+"The :guilabel:`Ended` stage is folded by default and located at the end of "
+"the dashboard, next to the final stage."
 msgstr ""
-":guilabel:`已結束`\\ 和\\ :guilabel:`已取消`\\ 階段預設為摺疊狀態，位於其他階"
-"段的右側。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Overview of Events dashboard with the Kanban view in Odoo Events."
@@ -6375,47 +6265,36 @@ msgstr "Odoo 活動中 Kanban 檢視的活動 Dashboard 概覽。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:38
 msgid ""
-"To add a new stage, click the :icon:`fa-plus` :guilabel:`Add Stage` button "
-"on the right, enter a name for the stage, then click :guilabel:`Add`."
+"To add a new stage, click the :icon:`fa-angle-double-right` :guilabel:`Add "
+"Stage` button at the end of the dashboard. Enter a name for the stage, then "
+"click :icon:`fa-check` :guilabel:`(Add)` to add the stage or :icon:`fa-"
+"times` :guilabel:`(Remove)` to cancel."
 msgstr ""
-"若要加入新階段，請按一下右側的\\ :icon:`fa-plus`\\ :guilabel:`加入階段`\\ 按"
-"鈕，輸入階段名稱，然後按一下\\ :guilabel:`加入`。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:44
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:45
 msgid "Add a new event"
 msgstr "加入新活動"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:46
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:47
 msgid ""
-"Events can be created by going to the :menuselection:`Events` app, on "
-"the :icon:`oi-view-kanban` :guilabel:`(Kanban)`, :icon:`oi-view-"
-"list` :guilabel:`(List)`, or :icon:`fa-tasks` :guilabel:`(Gantt)` views. "
-"Then, click the :guilabel:`New` button in the upper-left corner of the "
-"dashboard to open up a new event form."
+"Events can be created by opening the :menuselection:`Events app` and "
+"clicking :guilabel:`New`. This opens a new *Events* form."
 msgstr ""
-"可以前往\\ :menuselection:`活動`\\ 應用程式，在\\ :icon:`oi-view-kanban`\\ "
-":guilabel:`（Kanban）`、:icon:`oi-view-list`\\ :guilabel:`（清單）`\\ 或\\ "
-":icon:`fa-tasks`\\ :guilabel:`（甘特圖）`\\ 檢視上建立活動。然後，按一下 "
-"Dashboard 左上角的\\ :guilabel:`新增`\\ 按鈕以開啟新的活動表單。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical event template in the Odoo Events application."
 msgstr "Odoo 活動應用程式中的典型活動範本。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:54
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:53
 msgid ""
-"At the top of the event form are a series of smart buttons related to "
-"various event metrics. These auto-populate with data once attendees begin to "
-"register, when booths and sponsors sign on for the event, when the event "
-"takes place, and so on. These smart buttons can be clicked to navigate to "
-"the event's related pages to modify any details and/or perform any desired "
-"actions."
+"At the top of the event form are a series of clickable smart buttons to view "
+"details about event metrics, including attendee registrations, :doc:`booths "
+"<../promote_monetize/event_booths>`, ticket :doc:`sales <../promote_monetize/"
+"sell_tickets>`, event :doc:`tracks <../attendee_experience/event_tracks>`, "
+"and :doc:`sponsors <../promote_monetize/event_sponsors>`."
 msgstr ""
-"活動表單頂部有一系列智慧按鈕，用於顯示各種活動指標。當參加者開始註冊、攤位和"
-"贊助商簽約、活動舉行等情況發生時，這些按鈕會自動填入資料。可以按一下這些智慧"
-"按鈕，前往活動的相關頁面，以修改任何詳細資訊和/或執行任何所需的動作。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:59
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:58
 msgid ""
 "Beneath the smart buttons is the event form, which contains various fields "
 "and clickable tabs to configure the necessary details of the event."
@@ -6423,18 +6302,18 @@ msgstr ""
 "智慧按鈕下方是活動表單，其中包含各種欄位和可按一下的分頁，用於配置活動的必要"
 "詳細資訊。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:62
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:61
 msgid ""
 "To start, enter some basic information about the event in the following "
 "fields:"
 msgstr "首先，請在以下欄位中輸入關於活動的一些基本資訊："
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:64
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:63
 msgid ""
 ":guilabel:`Event Name`: The title of the event. This field is **required**."
 msgstr ":guilabel:`活動名稱`：活動的標題。此欄位為**必填**。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:65
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:64
 msgid ""
 ":guilabel:`Date`: The scheduled date or date range of the event (expressed "
 "in the local timezone). This field is auto-populated but modifiable and is "
@@ -6443,7 +6322,7 @@ msgstr ""
 ":guilabel:`日期`：活動的預定日期或日期範圍（以當地時區表示）。此欄位會自動填"
 "入但可修改，且為**必填**。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:67
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:66
 msgid ""
 ":guilabel:`Display Timezone`: The timezone in which the event date is "
 "displayed on the website. This field is auto-populated but modifiable and is "
@@ -6452,31 +6331,25 @@ msgstr ""
 ":guilabel:`顯示時區`：活動日期在網站上顯示的時區。此欄位會自動填入但可修改，"
 "且為**必填**。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:69
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:68
 msgid ":guilabel:`Language`: The chosen language for all event communications."
 msgstr ":guilabel:`語言`：所有活動通訊所選的語言。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:72
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:71
 msgid ""
-"To the right of the entered :guilabel:`Event Name`, there is a language "
-"tooltip, represented by an abbreviated language indicator (e.g., `EN`). When "
-"clicked, a :guilabel:`Translate name` pop-up window appears, displaying "
-"various preconfigured language translation options available in the database."
+"Next to the entered :guilabel:`Event Name`, there is a language tooltip, "
+"represented by an abbreviated language indicator (e.g., `EN`). When clicked, "
+"a *Translate: name* pop-up window appears, displaying various preconfigured "
+"language translation options available in the database."
 msgstr ""
-"在已輸入的\\ :guilabel:`活動名稱`\\ 右側，有一個語言提示，以縮寫的語言指示器"
-"表示（例如 `EN`）。按一下後，會出現\\ :guilabel:`翻譯名稱`\\ 彈出視窗，顯示資"
-"料庫中可用的各種預先配置的語言翻譯選項。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:77
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:75
 msgid ""
 "Alternatively, to populate the event form from an event template, select an "
-"option in the :guilabel:`Template` drop-down menu. To learn more, see "
-"the :doc:`event_templates` documentation."
+"option in the :doc:`Template <event_templates>` drop-down menu."
 msgstr ""
-"或者，若要從活動範本填入活動表單，請在\\ :guilabel:`範本`\\ 下拉選單中選擇一"
-"個選項。若要瞭解更多資訊，請參閱\\ :doc:`event_templates`\\ 使用說明。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:80
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:78
 msgid ""
 "Additionally, add any corresponding tags (e.g., `Online`, `Conference`) for "
 "the event in the :guilabel:`Tags` field. Multiple tags can be added per "
@@ -6485,7 +6358,7 @@ msgstr ""
 "此外，在\\ :guilabel:`標籤`\\ 欄位中為活動加入任何相應的標籤（例如 `線"
 "上`、`會議`）。每個活動可以加入多個標籤。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:84
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:82
 msgid ""
 "Tags can be displayed on events that are listed on the website by enabling "
 "the :guilabel:`Show on Website` checkbox from :menuselection:`Events app --> "
@@ -6494,25 +6367,25 @@ msgstr ""
 "透過在\\ :menuselection:`活動應用程式 --> 配置 --> 活動標籤類別`\\ 中啟用\\ "
 ":guilabel:`在網站上顯示`\\ 勾選方格，可以在網站上列出的活動中顯示標籤。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:87
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:85
 msgid ""
 "Continue by entering information such as points of contact and venue "
 "location in the following fields:"
 msgstr "繼續在以下欄位中輸入資訊，例如聯絡人和場地位置："
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:90
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:88
 msgid ""
 ":guilabel:`Organizer`: The organizer of the event (a company, contact, or "
 "employee)."
 msgstr ":guilabel:`主辦單位`：活動的主辦單位（公司、聯絡人或員工）。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:91
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:89
 msgid ""
 ":guilabel:`Responsible`: The specific user responsible for managing the "
 "event in the database."
 msgstr ":guilabel:`負責人`：在資料庫中負責管理活動的特定使用者。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:92
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:90
 msgid ""
 ":guilabel:`Company`: The specific company in the database to which the event "
 "is related. This field **only** appears if working in a multi-company "
@@ -6521,20 +6394,40 @@ msgstr ""
 ":guilabel:`公司`：資料庫中與活動相關的特定公司。此欄位**僅**在多公司環境中工"
 "作時出現。此欄位會自動填入但可修改，且為**必填**。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:95
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:93
 msgid ""
-":guilabel:`Website`: The specific website in the database on which the event "
-"is published. If this field is left blank, the event can be published on "
-"**all** websites in the database. To learn more, refer to the :doc:`Multiple "
-"websites <../../../websites/website/configuration/multi_website>` "
-"documentation."
+":guilabel:`Website`: The specific :doc:`website <../../../websites/website/"
+"configuration/multi_website>` in the database on which the event is "
+"published. If this field is left blank, the event can be published on "
+"**all** websites in the database."
 msgstr ""
-"\\ :guilabel:`網站`\\ ：在資料庫中發佈活動的特定網站。如果此欄位保留空白，該"
-"活動可以在資料庫中的\\ **所有**\\ 網站上發佈。若要瞭解更多資訊，請參閱\\ "
-":doc:`多個網站 <../../../websites/website/configuration/multi_website>`\\ 使"
-"用說明。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:99
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:97
+msgid ""
+":guilabel:`Visibility`: The visibility of the event on the "
+"specified :guilabel:`Website` and in searches. The following options can be "
+"specified:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:100
+msgid ""
+":guilabel:`Public`: The event is searchable and visible to **all** website "
+"visitors."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:101
+msgid ""
+":guilabel:`Via a Link`: The event is visible **only** to visitors with a "
+"direct URL or already-registered participants."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:103
+msgid ""
+":guilabel:`Logged Users`: The event is visible **only** to logged-in "
+"visitors or visitors with a direct URL."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:106
 msgid ""
 ":guilabel:`Venue`: The event venue location. This field pulls information "
 "from the **Contacts** application. Alternatively, the information can be "
@@ -6543,46 +6436,12 @@ msgstr ""
 ":guilabel:`場地`：活動場地位置。此欄位從**聯絡人**應用程式提取資訊。或者，可"
 "以手動輸入資訊。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:101
-msgid ""
-":guilabel:`Exhibition Map`: The image of the event venue map. Click "
-"the :guilabel:`Upload your file` button to upload an image of the event "
-"venue map."
-msgstr ""
-":guilabel:`展覽地圖`：活動場地地圖的圖片。按一下\\ :guilabel:`上傳您的檔案`\\"
-" 按鈕以上傳活動場地地圖的圖片。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:104
-msgid ""
-"To limit the number of registrations for the event, check "
-"the :guilabel:`Limit Registrations` and enter the maximum number of "
-"attendees allowed in the resulting field."
-msgstr ""
-"若要限制活動的註冊數量，請勾選\\ :guilabel:`限制註冊`\\ 並在產生的欄位中輸入"
-"允許的參加者人數上限。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:107
-msgid ""
-"Optionally, to create event badges for attendees, fill in the following "
-"fields:"
-msgstr "或者，若要為參加者建立活動徽章，請填寫以下欄位："
-
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:109
 msgid ""
-":guilabel:`Badge Dimension`: The desired paper format dimension for the "
-"badges. The options are :guilabel:`A4 foldable`, :guilabel:`A6`, "
-"or :guilabel:`4 per sheet`."
+"To limit the number of registrations for the event, select :guilabel:`Limit "
+"Registrations` and enter the maximum number of attendees allowed in the "
+"resulting field."
 msgstr ""
-":guilabel:`徽章尺寸`：徽章所需的紙張格式尺寸。選項為\\ :guilabel:`A4 可折"
-"疊`\\ 、\\ :guilabel:`A6`\\ 或\\ :guilabel:`每張 4 個`\\ 。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:111
-msgid ""
-":guilabel:`Badge Background`: The custom background image for the badges. "
-"Click the :guilabel:`Upload your file` button to upload an image."
-msgstr ""
-":guilabel:`徽章背景`：徽章的自訂背景圖片。按一下\\ :guilabel:`上傳您的檔案`\\"
-" 按鈕以上傳圖片。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:115
 msgid "Additional event configurations"
@@ -6600,9 +6459,9 @@ msgstr "門票分頁"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:125
 msgid ""
-"In the :guilabel:`Tickets` tab of the event form, create custom registration "
-"tickets and ticket tiers for events."
-msgstr "在活動表單的\\ :guilabel:`票券`\\ 分頁中，為活動建立自訂報名票券和票券層級。"
+"In the *Tickets* tab of the event form, create custom registration tickets "
+"and ticket tiers for events."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "A typical tickets tab on an event form in the Odoo Events application."
@@ -6610,135 +6469,107 @@ msgstr "Odoo 活動應用程式中活動表單上的典型門票分頁。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:131
 msgid ""
-"To create a ticket, click :guilabel:`Add a line` in the :guilabel:`Tickets` "
-"tab. In the :guilabel:`Product` field, either select the "
+"To create a ticket, click :guilabel:`Add a line` in the *Tickets* tab. In "
+"the :guilabel:`Product` field, either select the "
 "preconfigured :guilabel:`Event Registration` product, or create a new one by "
 "typing in the name of the new event registration product and then selecting "
 "either :guilabel:`Create` or :guilabel:`Create and edit...` from the "
-"resulting drop-down menu. Then, enter a name for the ticket (e.g. `Basic "
-"Ticket` or `VIP`) in the :guilabel:`Name` field."
+"resulting drop-down menu."
 msgstr ""
-"若要建立票券，請在\\ :guilabel:`票券`\\ 分頁中按一下\\ :guilabel:`加入資料"
-"行`。在\\ :guilabel:`產品`\\ 欄位中，選擇預先配置的\\ :guilabel:`活動報名`\\ "
-"產品，或輸入新活動報名產品的名稱以建立新產品，然後從顯示的下拉式選單中選擇\\ "
-":guilabel:`建立`\\ 或\\ :guilabel:`建立並編輯...`。接著，在\\ :guilabel:`名"
-"稱`\\ 欄位中輸入票券的名稱（例如 `Basic Ticket` 或 `VIP`）。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:138
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:136
 msgid ""
-"In order for an event registration product to be selectable in "
-"the :guilabel:`Tickets` tab, the event registration :guilabel:`Product Type` "
-"**must** be set to :guilabel:`Service` and the :guilabel:`Create on Order` "
-"field **must** be set to :guilabel:`Event Registration`."
+"Then, enter a name for the ticket (e.g., `Basic Ticket` or `VIP`) in "
+"the :guilabel:`Name` field."
 msgstr ""
-"為了讓活動報名產品可在\\ :guilabel:`票券`\\ 分頁中選取，活動報名\\ "
-":guilabel:`產品類型`\\ **必須**設定為\\ :guilabel:`服務`，且\\ :guilabel:`訂"
-"單時建立`\\ 欄位**必須**設定為\\ :guilabel:`活動報名`。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:143
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:139
 msgid ""
-"Existing event registration products can be modified directly from this "
-"field as well by clicking the :icon:`oi-arrow-right` :guilabel:`(right "
-"arrow)` icon located beside the event registration product. Doing so reveals "
+"In order for an event registration product to be selectable in the *Tickets* "
+"tab, the event registration :guilabel:`Product Type` **must** be set "
+"to :guilabel:`Service` and the :guilabel:`Create on Order` field **must** be "
+"set to :guilabel:`Event Registration`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:144
+msgid ""
+"Existing event registration products can be modified directly from "
+"the :guilabel:`Product` field by clicking the :icon:`oi-arrow-"
+"right` :guilabel:`(right arrow)` icon next to the product. Doing so reveals "
 "that product's form. If the **Inventory** application is installed, "
 "additional choices are available to customize for the product."
 msgstr ""
-"現有的活動報名產品也可以直接從此欄位修改，方法是按一下活動報名產品旁邊的\\ "
-":icon:`oi-arrow-right`\\ :guilabel:`（向右箭頭）`\\ 圖示。這樣做會顯示該產品"
-"的表單。如果已安裝**庫存**應用程式，則可提供其他選項來自訂產品。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:148
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:149
 msgid ""
 "Next, set the registration cost of the ticket in the :guilabel:`Price` field."
 msgstr "接下來，在\\ :guilabel:`價格`\\ 欄位中設定門票的註冊費用。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:151
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:152
 msgid ""
-"The :guilabel:`Sales Price` defined on the event registration product's "
-"product form sets the default cost of a ticket. Modifying "
-"the :guilabel:`Price` of a ticket in the :guilabel:`Tickets` tab sets a new "
-"registration cost of the ticket for that event."
+"The :guilabel:`Sales Price` defined on the event registration product's form "
+"sets the default cost of a ticket. Modifying the :guilabel:`Price` of the "
+"event ticket in the *Tickets* tab overrides the ticket's default price with "
+"this new price."
 msgstr ""
-"活動報名產品的產品表單上定義的\\ :guilabel:`銷售價格`\\ 設定票券的預設成本。"
-"在\\ :guilabel:`票券`\\ 分頁中修改票券的\\ :guilabel:`價格`\\ 會為該活動的票"
-"券設定新的報名成本。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:155
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:156
 msgid ""
 "Next, enter the :guilabel:`Sales Start` and :guilabel:`Sales End` dates in "
-"their respective fields. To do that, click into the blank field to reveal a "
-"calendar pop-over. From there, select the desired date and time, then "
+"their respective fields. To do so, click into the blank field to reveal a "
+"calendar pop-over. Then, select the desired date and time and "
 "click :icon:`fa-check` :guilabel:`Apply`."
 msgstr ""
-"接下來，在各自的欄位中輸入\\ :guilabel:`銷售開始`\\ 和\\ :guilabel:`銷售結"
-"束`\\ 日期。若要這樣做，請按一下空白欄位以顯示日曆彈出視窗。從那裡選擇所需的"
-"日期和時間，然後按一下\\ :icon:`fa-check`\\ :guilabel:`套用`。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:159
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:160
 msgid ""
-"Then, if desired, designate a :guilabel:`Maximum` amount of that specific "
-"ticket that can be sold."
-msgstr "然後，如有需要，在\\ :guilabel:`最大值`\\ 中指定該特定門票可售出的數量上限。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:161
-msgid ""
-"The :guilabel:`Registration` column populates with the number of tickets "
-"that are sold."
-msgstr ":guilabel:`報名`\\ 欄會填入已售出的票券數量。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:163
-msgid ""
-"To delete any tickets from the :guilabel:`Tickets` tab, click the :icon:`fa-"
-"trash-o` :guilabel:`(trash can)` icon at the right in the corresponding line "
-"for the ticket that should be deleted."
+"Optionally, designate a :guilabel:`Maximum` amount of the ticket that can be "
+"sold."
 msgstr ""
-"若要從\\ :guilabel:`票券`\\ 分頁中刪除任何票券，請按一下應刪除票券對應資料行"
-"右側的\\ :icon:`fa-trash-o`\\ :guilabel:`（垃圾桶）`\\ 圖示。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:168
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:162
 msgid ""
-"To add an optional :guilabel:`Description` column to the :guilabel:`Tickets` "
-"tab, click the :icon:`oi-settings-adjust` :guilabel:`(additional options)` "
-"drop-down menu, located to the far-right of the column titles."
+"As attendees register, the :guilabel:`Registration` column automatically "
+"populates with the number of tickets sold."
 msgstr ""
-"若要在\\ :guilabel:`門票`\\ 分頁加入選用的\\ :guilabel:`說明`\\ 欄，請按一下"
-"欄標題最右側的\\ :icon:`oi-settings-adjust` :guilabel:`（其他選項）`\\ 下拉式"
-"選單。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:172
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:165
 msgid ""
-"Then, tick the checkbox beside :guilabel:`Description` from the resulting "
-"drop-down menu."
-msgstr "然後，在產生的下拉式選單中勾選\\ :guilabel:`說明`\\ 旁的勾選方格。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:174
-msgid ""
-"When added, the option to add brief descriptions for each event ticket "
-"appears, which can be used to inform attendees of any perks or amenities "
-"that may coincide with specific ticket purchases."
+"To delete any tickets from the *Tickets* tab, click the :icon:`fa-trash-"
+"o` :guilabel:`(trash can)` icon in the ticket's corresponding line."
 msgstr ""
-"加入後，系統會為每張活動門票顯示加入簡短說明的選項，可用來告知參與者特定門票"
-"購買可能附帶的任何福利或設施。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:180
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:169
+msgid ""
+"To add an optional :guilabel:`Description` column to the *Tickets* tab, "
+"click the :icon:`oi-settings-adjust` :guilabel:`(additional options)` drop-"
+"down menu at the end of the column titles."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:173
+msgid ""
+"Then, select the checkbox beside :guilabel:`Description` to add a brief "
+"description for each event ticket, informing registrants about ticket "
+"details."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:179
 msgid "Communication tab"
 msgstr "通訊分頁"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:182
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:181
 msgid ""
-"In the :guilabel:`Communication` tab of an event form, create various "
-"marketing communications that can be scheduled to be sent at specific "
-"intervals leading up to and following the event."
+"In the *Communication* tab of an event form, create various marketing "
+"communications that can be scheduled to be sent at specific intervals "
+"leading up to and following the event."
 msgstr ""
-"在活動表單的\\ :guilabel:`溝通`\\ 分頁中，建立各種行銷溝通，可以排程在活動前"
-"後的特定間隔傳送。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid ""
 "Typical communication tab on an event form in the Odoo Events application."
 msgstr "Odoo 活動應用程式中活動表單的典型通訊分頁。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:189
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:188
 msgid ""
 "By default, Odoo provides three separate preconfigured communications on "
 "every new event form. One is an email sent after each registration to "
@@ -6750,20 +6581,16 @@ msgstr ""
 "名後傳送的電子郵件，用於向參加者確認購買。另外兩個是電子郵件活動提醒，排程在"
 "活動前的不同時間間隔傳送，以提醒收件人即將到來的活動。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:194
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:193
 msgid ""
-"To add a communication in the :guilabel:`Communication` tab, "
-"click :guilabel:`Add a line`. Then, select the desired type of communication "
-"from the first drop-down menu on the :guilabel:`Template` field. The options "
+"To add a communication in the *Communication* tab, click :guilabel:`Add a "
+"line`. Then, select the desired type of communication from the first drop-"
+"down menu in the :guilabel:`Template` column. The options "
 "are: :guilabel:`Mail`, :guilabel:`SMS`, :guilabel:`Social Post`, "
 "or :guilabel:`WhatsApp`."
 msgstr ""
-"若要在\\ :guilabel:`溝通`\\ 分頁中加入溝通，請按一下\\ :guilabel:`加入資料"
-"行`。然後，從\\ :guilabel:`範本`\\ 欄位的第一個下拉式選單中選擇所需的溝通類型"
-"。選項包括：:guilabel:`郵件`、:guilabel:`簡訊`、:guilabel:`社交貼文`\\ 或\\ "
-":guilabel:`WhatsApp`。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:200
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:198
 msgid ""
 "The :guilabel:`Social Post` option only appears if the **Social Marketing** "
 "application is installed. The :guilabel:`WhatsApp` option only appears if "
@@ -6772,7 +6599,7 @@ msgstr ""
 ":guilabel:`社交貼文`\\ 選項僅在已安裝**社交媒體推廣**應用程式時出現"
 "。:guilabel:`WhatsApp`\\ 選項僅在已安裝 **WhatsApp** 模組時出現。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:203
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:201
 msgid ""
 ":doc:`WhatsApp <../../../productivity/whatsapp>` templates **cannot** be "
 "edited during active configuration. A separate approval from *Meta* is "
@@ -6781,7 +6608,7 @@ msgstr ""
 "\\ :doc:`WhatsApp <../../../productivity/whatsapp>`\\ 範本在啟用配置期間\\ "
 "**無法**\\ 編輯。需要經過\\ *Meta*\\ 的單獨核准。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:206
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:204
 msgid ""
 "Then, select an existing email template from the second drop-down menu on "
 "the :guilabel:`Template` field."
@@ -6789,117 +6616,119 @@ msgstr ""
 "然後，從\\ :guilabel:`範本`\\ 欄位的第二個下拉式選單中選擇現有的電子郵件範本"
 "。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:209
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:207
 msgid ""
 "Next, define the :guilabel:`Interval` and :guilabel:`Unit` from their "
-"respective drop-down fields, letting Odoo know when the communication should "
-"be sent. The :guilabel:`Unit` options "
+"respective drop-down fields to specify when the communication should be "
+"sent. The :guilabel:`Unit` options "
 "are: :guilabel:`Immediately`, :guilabel:`Hours`, :guilabel:`Days`, :guilabel:`Weeks`, "
 "and :guilabel:`Months`."
 msgstr ""
-"接下來，從各自的下拉式欄位中定義\\ :guilabel:`間隔`\\ 和\\ :guilabel:`單位`，"
-"讓 Odoo 知道何時應傳送溝通。:guilabel:`單位`\\ 選項包括：:guilabel:`立"
-"即`、:guilabel:`小時`、:guilabel:`天`、:guilabel:`週`\\ 和\\ :guilabel:`月`。"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:212
+msgid ""
+"Then, select one of the following options from the :guilabel:`Trigger` drop-"
+"down menu:"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:214
-msgid ""
-"Then, select an option from the :guilabel:`Trigger` drop-down menu. The "
-"options are: :guilabel:`After each registration`, :guilabel:`Before the "
-"event`, and :guilabel:`After the event`."
+msgid ":guilabel:`After each registration`"
 msgstr ""
-"然後，從\\ :guilabel:`觸發條件`\\ 下拉式選單中選擇一個選項。選項包括"
-"：:guilabel:`每次報名後`、:guilabel:`活動前`\\ 和\\ :guilabel:`活動後`。"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:215
+msgid ":guilabel:`Before the event starts`"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:216
+msgid ":guilabel:`After the event started`"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:217
-msgid ""
-"The :guilabel:`Sent` column populates with the number of sent "
-"communications. Next to the number are different icons that appear, "
-"depending on the status of that particular communication. The *Running* "
-"status is represented by a :icon:`fa-cogs` :guilabel:`(three gears)` icon. "
-"The *Sent* status is represented by a :icon:`fa-"
-"check` :guilabel:`(checkmark)` icon. And, the *Scheduled* status is "
-"represented by an :icon:`fa-hourglass-half` :guilabel:`(hourglass)` icon."
+msgid ":guilabel:`After the event ended`"
 msgstr ""
-":guilabel:`已傳送`\\ 欄會填入已傳送的溝通數量。數字旁邊會顯示不同的圖示，具體"
-"取決於該特定溝通的狀態。*執行中*狀態由\\ :icon:`fa-cogs`\\ :guilabel:`（三個"
-"齒輪）`\\ 圖示表示。*已傳送*狀態由\\ :icon:`fa-check`\\ :guilabel:`（勾選記號"
-"）`\\ 圖示表示。*已排程*狀態由\\ :icon:`fa-hourglass-half`\\ :guilabel:`（沙"
-"漏）`\\ 圖示表示。"
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:218
+msgid ":guilabel:`Before the event ends`"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:220
+msgid ""
+"The :guilabel:`(#) Sent` column populates with the number of sent "
+"communications, along with different icons indicating the status of the "
+"communication:"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:223
 msgid ""
-"Any number of communications can be added in the :guilabel:`Communication` "
-"tab of an event form."
-msgstr "可以在活動表單的\\ :guilabel:`溝通`\\ 分頁中加入任意數量的溝通。"
+":icon:`fa-cogs` :guilabel:`(Running)`: The communication is active and "
+"running."
+msgstr ""
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:226
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:224
+msgid ""
+":icon:`fa-check` :guilabel:`(Sent)`: The communications were sent and are no "
+"longer active."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:225
+msgid ""
+":icon:`fa-hourglass-half` :guilabel:`(Scheduled)`: The communication is "
+"scheduled but has not been deployed."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:228
+msgid ""
+"Any number of communications can be added in the *Communication* tab of an "
+"event form."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:231
 msgid ""
 "To send a confirmation email an hour after an attendee registers for an "
-"event, configure the following communication:"
-msgstr "若要在參與者報名參加活動後一小時傳送確認電子郵件，請配置以下通訊："
+"event, configure the communication as follows:"
+msgstr ""
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:229
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:234
 msgid ":guilabel:`Interval`: `1`"
 msgstr ":guilabel:`間隔`：`1`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:230
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:235
 msgid ":guilabel:`Unit`: :guilabel:`Hours`"
 msgstr ":guilabel:`單位`：:guilabel:`小時`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:231
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:236
 msgid ":guilabel:`Trigger`: :guilabel:`After each registration`"
 msgstr ":guilabel:`觸發條件`：:guilabel:`每次報名後`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:234
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:239
 msgid ""
 "Existing email templates can be modified directly from "
-"the :guilabel:`Template` drop-down menu, if necessary, by clicking "
-"the :icon:`oi-arrow-right` :guilabel:`(Internal link)` icon next to the "
-"template name. Doing so reveals a separate page where users can edit "
+"the :guilabel:`Template` drop-down menu, by clicking the :icon:`oi-arrow-"
+"right` :guilabel:`(Internal link)` icon next to the template name. Doing so "
+"reveals a separate page where users can edit "
 "the :guilabel:`Content`, :guilabel:`Email Configuration`, "
 "and :guilabel:`Settings` of that particular email template."
 msgstr ""
-"如有必要，可以直接從\\ :guilabel:`範本`\\ 下拉式選單修改現有的電子郵件範本，"
-"方法是按一下範本名稱旁邊的\\ :icon:`oi-arrow-right`\\ :guilabel:`（內部連結"
-"）`\\ 圖示。這樣做會顯示一個單獨的頁面，使用者可以在其中編輯該特定電子郵件範"
-"本的\\ :guilabel:`內容`、:guilabel:`電子郵件配置`\\ 和\\ :guilabel:`設定`。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:239
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:244
 msgid ""
 "To view and manage all email templates, activate :ref:`developer-mode` and "
 "navigate to :menuselection:`Settings --> Technical --> Email: Email "
-"Templates`. Modify with caution as email templates effect all communications "
+"Templates`. Modify with caution as email templates affect all communications "
 "where the template is used."
 msgstr ""
-"若要檢視及管理所有電子郵件範本，請啟用\\ :ref:`developer-mode`\\ 並導覽至\\ "
-":menuselection:`設定 --> 技術 --> 電子郵件：電子郵件範本`。請謹慎修改，因為電"
-"子郵件範本會影響使用該範本的所有通訊。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:246
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:251
 #: ../../content/applications/marketing/surveys/create.rst:50
 #: ../../content/applications/marketing/surveys/questions.rst:20
 msgid "Questions tab"
 msgstr "問題分頁"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:248
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:253
 msgid ""
-"In the :guilabel:`Questions` tab of an event form, users can create brief "
-"questionnaires for registrants to interact with, and respond to, after they "
-"register for the event."
+"In the *Questions* tab of an event form, users can create questionnaires to "
+"gather information from attendees when registering for the event."
 msgstr ""
-"在活動表單的\\ :guilabel:`問題`\\ 分頁中，使用者可以建立簡短的問卷，供報名者"
-"在報名參加活動後互動及回應。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:251
-msgid ""
-"These questions can be focused on gathering basic information about the "
-"attendee, learning about their preferences, expectations, and other things "
-"of that nature. This information can also be used to create more detailed "
-"reporting metrics, in addition to being utilized to create specific lead "
-"generation rules."
-msgstr ""
-"這些問題可以聚焦於收集有關參與者的基本資訊、了解其偏好、期望及其他類似事項。"
-"此資訊也可用於建立更詳細的報告指標，並可用於建立特定的潛在客戶產生規則。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical questions tab on an event form in the Odoo Events application."
@@ -6907,36 +6736,28 @@ msgstr "Odoo 活動應用程式中活動表單的典型問題分頁。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:260
 msgid ""
-"By default, Odoo provides three questions in the :guilabel:`Questions` tab "
-"for every event form. The default questions require one or more registrants "
-"to provide their :guilabel:`Name`, :guilabel:`Email`, and an "
-"optional :guilabel:`Phone` number as well."
+"By default, Odoo provides three questions in the *Questions* tab for every "
+"event form. The default questions require registrants to provide "
+"their :guilabel:`Name`, :guilabel:`Email`, and an optional :guilabel:`Phone` "
+"number."
 msgstr ""
-"Odoo 預設會在每個活動表單的\\ :guilabel:`問題`\\ 分頁中提供三個問題。預設問題"
-"要求一位或多位報名者提供其\\ :guilabel:`姓名`\\ 、\\ :guilabel:`電子郵件`\\ "
-"以及選填的\\ :guilabel:`電話`\\ 號碼。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:264
 msgid ""
-"The information gathered from the :guilabel:`Questions` tab can be found on "
-"the :guilabel:`Attendees` dashboard, accessible via the :icon:`fa-"
+"The information gathered from the *Questions* tab can be found on the "
+"*Attendees* dashboard, accessible via the :icon:`fa-"
 "users` :guilabel:`Attendees` smart button. Odoo populates individual records "
 "that contain basic information about the registrants, as well as their "
 "preferences."
 msgstr ""
-":guilabel:`問題`\\ 分頁收集的資訊可在\\ :guilabel:`出席者`\\ Dashboard 中找到"
-"，透過\\ :icon:`fa-users`\\ :guilabel:`出席者`\\ 智慧按鈕即可存取。Odoo 會填"
-"入個別記錄，其中包含報名者的基本資訊及其偏好設定。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:269
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:268
 msgid ""
-"To add a question in the :guilabel:`Questions` tab, click :guilabel:`Add a "
-"line`. Doing so reveals a :guilabel:`Create Question` pop-up window. From "
-"here, users can create and configure their question."
+"To add a question in the *Questions* tab, click :guilabel:`Add a line`. "
+"Doing so reveals an *Add: Question* pop-up window. From here, users can "
+"select previously configured questions or click :guilabel:`New` to create a "
+"new one. Doing so opens a new *Create Question* pop-up window."
 msgstr ""
-"若要在\\ :guilabel:`問題`\\ 分頁中加入問題，請按一下\\ :guilabel:`加入資料"
-"行`。這樣做會顯示\\ :guilabel:`建立問題`\\ 彈出式視窗。使用者可以在此處建立及"
-"配置問題。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid ""
@@ -6946,32 +6767,15 @@ msgstr "Odoo 活動應用程式中出現的「建立問題」彈出式視窗。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:275
 msgid ""
-"First, enter the question in the field at the top of the form. Then, decide "
-"if the question should require a :guilabel:`Mandatory Answer` and/or if Odoo "
-"should :guilabel:`Ask once per order`, by ticking their respective boxes, if "
-"desired."
+"First, enter the question in the field at the top of the form. Then, specify "
+"if the question requires a :guilabel:`Mandatory Answer`."
 msgstr ""
-"首先，在表單頂部的欄位中輸入問題。然後，決定問題是否應要求\\ :guilabel:`必填"
-"答案`\\ 及／或 Odoo 是否應\\ :guilabel:`每筆訂單僅詢問一次`，如有需要可勾選其"
-"各自的方格。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:279
-msgid ""
-"If the :guilabel:`Ask once per order` checkbox is ticked, the question will "
-"only be asked once, and its value is applied to every attendee in the order "
-"(if multiple tickets are purchased at once). If the checkbox is **not** "
-"ticked for this setting, Odoo presents the question for every attendee that "
-"is connected to that registration."
-msgstr ""
-"如果勾選\\ :guilabel:`每筆訂單僅詢問一次`\\ 勾選方塊，該問題僅會詢問一次，其"
-"值將套用至該訂單中的所有出席者（如果一次購買多張票券）。如果此設定的勾選方"
-"塊**未**勾選，Odoo 會針對與該報名相關的每位出席者顯示該問題。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:284
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:278
 msgid "Next, select a :guilabel:`Question Type` option:"
 msgstr "接下來，選擇\\ :guilabel:`問題類型`\\ 選項："
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:286
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:280
 msgid ""
 ":guilabel:`Selection`: Provide answer options to the question for "
 "registrants to choose from. Selectable answer options can be managed in "
@@ -6980,79 +6784,82 @@ msgstr ""
 ":guilabel:`選項`：提供問題的答案選項供報名者選擇。可選擇的答案選項可在彈出視"
 "窗底部的\\ :guilabel:`答案`\\ 欄中管理。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:289
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:283
 msgid ""
 ":guilabel:`Text Input`: Lets the users enter a custom response to the "
 "question in a text field."
 msgstr ":guilabel:`文字輸入`：讓使用者在文字欄位中輸入自訂回應。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:290
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:284
 msgid ""
 ":guilabel:`Name`: Provides registrants with a field for them to enter their "
 "name."
 msgstr ":guilabel:`姓名`：提供報名者輸入姓名的欄位。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:291
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:285
 msgid ""
 ":guilabel:`Email`: Provides registrants with a field for them to enter their "
 "email address."
 msgstr ":guilabel:`電子郵件`：提供報名者輸入電子郵件地址的欄位。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:292
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:286
 msgid ""
 ":guilabel:`Phone`: Provides registrants with a field for them to enter their "
 "phone number."
 msgstr ":guilabel:`電話`：提供報名者輸入電話號碼的欄位。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:293
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:287
 msgid ""
 ":guilabel:`Company`: Provides registrants with a field for them to enter a "
 "company they are associated with."
 msgstr ":guilabel:`公司`：提供報名者輸入其關聯公司的欄位。"
 
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:290
+msgid ""
+"Additionally, select one or more of the following options to configure the "
+"question's visibility and extendability:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:293
+msgid ""
+":guilabel:`Ask once per order`: Ask this question only once for each "
+"registration, applying the answer to every attendee in the order (if "
+"multiple tickets are purchased at once)."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:295
+msgid ""
+":guilabel:`Default question`: Automatically add this question for all new "
+"events."
+msgstr ""
+
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:296
 msgid ""
-"Once all the desired configurations have been entered, either "
-"click :guilabel:`Save & Close` to save the question, and return to "
-"the :guilabel:`Questions` tab on the event form, or click :guilabel:`Save & "
-"New` to save the question and immediately create a new question on a "
-"new :guilabel:`Create Question` pop-up window."
+":guilabel:`Is Reusable`: Allow this question to be reusable for all new "
+"events. If :guilabel:`Default question` is selected, this option is "
+"automatically enabled."
 msgstr ""
-"輸入所有所需配置後，可按一下\\ :guilabel:`儲存並關閉`\\ 以儲存問題並返回活動"
-"表單的\\ :guilabel:`問題`\\ 分頁，或按一下\\ :guilabel:`儲存並新增`\\ 以儲存"
-"問題並立即在新的\\ :guilabel:`建立問題`\\ 彈出式視窗上建立新問題。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:301
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:299
 msgid ""
-"As questions are added to the :guilabel:`Questions` tab, the informative "
-"columns showcase the configurations of each question."
-msgstr "隨著問題加入到\\ :guilabel:`問題`\\ 分頁，資訊欄會顯示每個問題的配置。"
+"If :guilabel:`Selection` was chosen as the :guilabel:`Question Type`, an "
+"*Answers* tab appears. Add any answers to the question under this tab by "
+"clicking :guilabel:`Add a line`."
+msgstr ""
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:304
-msgid "The informative columns are the following:"
-msgstr "資訊欄如下："
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:302
+msgid ""
+"Once all the desired configurations have been entered, click :guilabel:`Save "
+"& Close` to save the question and return to the *Questions* tab on the event "
+"form. Or, click :guilabel:`Save & New` to save the question and configure "
+"another. To cancel, click :guilabel:`Discard`."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:306
-msgid ":guilabel:`Title`"
-msgstr ":guilabel:`標題`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:307
-msgid ":guilabel:`Mandatory`"
-msgstr ":guilabel:`必填`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:308
-msgid ":guilabel:`Once per Order`"
-msgstr ":guilabel:`每張訂單一次`"
+msgid "Users can add as many questions in the *Questions* tab as needed."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:309
-msgid ":guilabel:`Type`"
-msgstr ":guilabel:`類型`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:310
-msgid ":guilabel:`Answers` (if applicable)"
-msgstr ":guilabel:`答案`（如適用）"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:312
 msgid ""
 "For :guilabel:`Selection` and :guilabel:`Text Input` types, a :icon:`fa-bar-"
 "chart` :guilabel:`Stats` button appears on the right side of the question "
@@ -7064,81 +6871,79 @@ msgstr ""
 "一個單獨的頁面，展示該特定問題的回應指標。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:316
-msgid ""
-"To delete any question from the :guilabel:`Questions` tab, click "
-"the :icon:`fa-trash-o` :guilabel:`(trash can)` icon on the corresponding "
-"question line."
+msgid "Notes & Documents tab"
 msgstr ""
-"若要從\\ :guilabel:`問題`\\ 分頁刪除任何問題，請按一下對應問題資料行上的\\ "
-":icon:`fa-trash-o` :guilabel:`（垃圾桶）`\\ 圖示。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:319
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:318
 msgid ""
-"Any number of questions can be added in the :guilabel:`Questions` tab of an "
-"event form."
-msgstr "活動表單的\\ :guilabel:`問題`\\ 分頁中可以加入任意數量的問題。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:324
-msgid "Notes tab"
-msgstr "備註分頁"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:326
-msgid ""
-"In the :guilabel:`Notes` tab of an event form, users can leave detailed "
-"internal notes and/or event-related instructions/information for attendees."
+"In the *Notes & Documents* tab of an event form, users can leave detailed "
+"internal notes and event-related instructions or information for attendees."
 msgstr ""
-"在活動表單的\\ :guilabel:`備註`\\ 分頁中，使用者可以留下詳細的內部備註和／或"
-"活動相關的指示／資訊給參加者。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical notes tab on an event form in the Odoo Events application."
 msgstr "Odoo 活動應用程式中活動表單的典型備註分頁。"
 
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:324
+msgid ""
+"For in-person events, users can specify the venue map and attendee badge "
+"details in the following fields:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:327
+msgid ""
+":guilabel:`Exhibition Map`: Upload an image of the event venue map. Do so by "
+"clicking :guilabel:`Upload your file`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:329
+msgid ""
+":guilabel:`Badge Dimension`: Select the desired paper format dimension for "
+"attendees' event badges. The options are :guilabel:`A4 "
+"foldable`, :guilabel:`A6`, :guilabel:`4 per sheet`, and :guilabel:`96x82mm "
+"(Badge Printer)`."
+msgstr ""
+
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:332
 msgid ""
-"In the :guilabel:`Note` field of the :guilabel:`Notes` tab, users can leave "
-"internal notes for other event employees, like \"to-do\" lists, contact "
-"information, instructions, and so on."
+":guilabel:`Badge Background`: Upload an image of the custom background image "
+"for the badge. Do so by clicking :guilabel:`Upload your file`."
 msgstr ""
-"在\\ :guilabel:`備註`\\ 分頁的\\ :guilabel:`備註`\\ 欄位中，使用者可以為其他"
-"活動員工留下內部備註，例如「待辦事項」清單、聯絡人資訊、指示等。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:335
 msgid ""
-"In the :guilabel:`Ticket Instructions` field of the :guilabel:`Notes` tab, "
-"users can leave specific instructions for people attending the event that "
-"appear on the attendees ticket."
+"In the :guilabel:`Ticket Instructions` field, users can leave specific "
+"instructions for attendees and display them on attendees' tickets."
 msgstr ""
-"在\\ :guilabel:`備註`\\ 分頁的\\ :guilabel:`票券指示`\\ 欄位中，使用者可以為"
-"參加活動的人員留下特定指示，這些指示會顯示在參加者的票券上。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:339
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:338
+msgid ""
+"In the :guilabel:`Note` field, users can leave internal notes for other "
+"event employees, such as \"to-do\" lists, contact information, instructions, "
+"and so on."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:344
 msgid "Publish events"
 msgstr "發布活動"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:341
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:346
 msgid ""
-"Once all configurations and modifications are complete on the event form, it "
-"is time to publish the event on the website. Doing so makes the event "
-"visible to website visitors, and makes it possible for people to register "
-"for the event."
+"Once all configurations and modifications are complete on the event form, "
+"the event can be published on the website. Doing so makes the event visible "
+"to website visitors and allows them to register for the event."
 msgstr ""
-"當活動表單上的所有配置和修改都完成後，就可以在網站上發布活動了。這樣做會使活"
-"動對網站訪客可見，並使人們能夠註冊活動。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:345
-msgid ""
-"To publish an event after all the customizations are complete, click "
-"the :icon:`fa-globe` :guilabel:`Go to Website` smart button at the top of "
-"the event form. Doing so reveals the event's web page, which can be "
-"customized like any other web page on the site, via the :guilabel:`Edit` "
-"button."
-msgstr ""
-"若要在所有自訂完成後發布活動，請按一下活動表單頂部的\\ :icon:`fa-globe` "
-":guilabel:`前往網站`\\ 智慧按鈕。這樣做會顯示活動的網頁，該網頁可以像網站上的"
-"任何其他網頁一樣透過\\ :guilabel:`編輯`\\ 按鈕進行自訂。"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:350
+msgid ""
+"To publish an event, click the :icon:`fa-globe` :guilabel:`Go to Website` "
+"smart button to open the event webpage. Then, toggle "
+"the :guilabel:`Unpublished` button in the header menu, changing it to "
+"a :guilabel:`Published` switch. The event webpage is now published and "
+"accessible by all website visitors."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:356
 msgid ""
 "To learn more about website design functionality and options, consult "
 "the :doc:`Building block <../../../websites/website/web_design/"
@@ -7147,52 +6952,33 @@ msgstr ""
 "若要瞭解更多有關網站設計功能和選項的資訊，請參閱\\ :doc:`建立區塊 <../../../"
 "websites/website/web_design/building_blocks>`\\ 使用說明。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:353
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:359
 msgid ""
 "Once the event website is ready to be shared, click the "
 "red :guilabel:`Unpublished` toggle switch in the header menu, changing it to "
 "a green :guilabel:`Published` switch. At this point, the event web page is "
-"published and viewable/accessible by all website visitors."
+"published and accessible by all website visitors."
 msgstr ""
-"活動網站準備好分享後，按一下頁首選單中的紅色\\ :guilabel:`未發布`\\ 切換開關"
-"，將其變更為綠色\\ :guilabel:`已發布`\\ 開關。此時活動網頁即已發布，所有網站"
-"訪客均可檢視和存取。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:358
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:364
 msgid "Send event invites"
 msgstr "傳送活動邀請"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:360
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:366
 msgid ""
 "To send event invites to potential attendees, navigate to the desired event "
-"form, via :menuselection:`Events app --> Events`, and click into the desired "
-"event. Following this, click the :guilabel:`Invite` button in the upper-left "
-"corner of the event form."
+"form via :menuselection:`Events app --> Events` and click the desired event. "
+"On the event form, click the :guilabel:`Invite` button."
 msgstr ""
-"若要向潛在參加者傳送活動邀請，請透過\\ :menuselection:`活動應用程式 --> 活"
-"動`\\ 前往所需的活動表單，然後按一下所需的活動。接著，按一下活動表單左上角"
-"的\\ :guilabel:`邀請`\\ 按鈕。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:364
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:370
 msgid ""
-"Doing so reveals a blank email form to fill out, as desired. To learn more "
-"about how to create and customize emails like this, refer to "
-"the :ref:`Create an email <email_marketing/create_email>` documentation."
+"Doing so reveals a blank :ref:`email form <email_marketing/create_email>`. "
+"Customize the message by specifying a mailing type, subject, recipients, and "
+"the mail body."
 msgstr ""
-"這樣做會顯示一個空白的電子郵件表單供您填寫。若要進一步了解如何建立和自訂這樣"
-"的電子郵件，請參閱\\ :ref:`建立電子郵件 <email_marketing/create_email>`\\ 使"
-"用說明。"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:368
-msgid ""
-"Proceed to create and customize an email message to send as an invite to "
-"potential attendees. Remember to include a link to the registration page on "
-"the event website, allowing interested recipients to register."
-msgstr ""
-"繼續建立和自訂電子郵件訊息，作為邀請函傳送給潛在出席者。請記得附上活動網站報"
-"名頁面的連結，讓有興趣的收件者可以報名。"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:373
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:374
 msgid ""
 "Sending emails from Odoo is subject to a daily limit, which, by default, is "
 "200. To learn more about daily limits, visit the :ref:`email-issues-outgoing-"
@@ -8037,6 +7823,7 @@ msgstr ""
 "按鈕從特定活動表單存取。"
 
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:235
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:176
 msgid ":doc:`sell_tickets`"
 msgstr ":doc:`sell_tickets`"
 
@@ -8419,6 +8206,328 @@ msgstr ":doc:`event_booths`"
 #: ../../content/applications/marketing/events/promote_monetize/event_sponsors.rst:159
 msgid ":doc:`../attendee_experience/event_tracks`"
 msgstr ":doc:`../attendee_experience/event_tracks`"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:3
+msgid "Generate leads from events"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:5
+msgid ""
+"Odoo **Events** allows users to generate leads from their event attendees "
+"based on customizable criteria. Leads can be generated manually, or "
+"automatically by configuring *lead generation rules*."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:9
+msgid "View lead generation rules"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:11
+msgid ""
+"To view the lead generation rules for an event, navigate "
+"to :menuselection:`Events app --> Configuration --> Lead Generation`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:14
+msgid ""
+"The *Lead Generation Rule* page displays any previously configured rules in "
+"a standard list view with each rule's :guilabel:`Rule Name`, :guilabel:`Lead "
+"Creation Type`, :guilabel:`When` it is triggered, its "
+"associated :guilabel:`Event Templates`, the :guilabel:`Event` it is applied "
+"to, and its related :guilabel:`Company` (if applicable)."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:20
+msgid "Create a lead generation rule"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:22
+msgid ""
+"On the *Lead Generation Rule* dashboard, click :guilabel:`New` to open a "
+"new :guilabel:`Lead Generation Rule` form."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:25
+msgid "Start by entering a :guilabel:`Rule Name`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:27
+msgid ""
+"In the :guilabel:`Create` field, select one of the following options to "
+"specify the lead creation type:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:30
+msgid ":guilabel:`Per Attendee`: Create a single lead for each attendee."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:31
+msgid ""
+":guilabel:`Per Order`: Create a single lead for each :doc:`ticket sale "
+"<sell_tickets>`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:33
+msgid ""
+"In the :guilabel:`When` field, select one of the following options to "
+"specify when the rule is triggered:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:36
+msgid ""
+":guilabel:`Attendees are created`: Create a lead when an attendee record for "
+"an event is created."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:37
+msgid ""
+":guilabel:`Attendees are registered`: Create a lead when an attendee "
+"registers for an event."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:38
+msgid ""
+":guilabel:`Attendees attended`: Create a lead when an attendee's attendance "
+"is confirmed and the registration stage is set to *Done*."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:42
+msgid "Event-specific filters"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:44
+msgid ""
+"In the :guilabel:`For Any Of These Events` section of the form, configure "
+"the following options to restrict the rule to the following criteria:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:47
+msgid ""
+":guilabel:`Event Templates`: Trigger the rule only for events of the "
+"specified :doc:`event template/category <../event_setup/event_templates>`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:49
+msgid ""
+":guilabel:`Company`: Trigger the rule only for events belonging to the "
+"specified company (if working in a :doc:`multi-company <../../../general/"
+"companies/multi_company>` environment)."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:51
+msgid ":guilabel:`Event`: Trigger the rule only for the specified event."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:54
+msgid "Attendee-specific filters"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:56
+msgid ""
+"In the :guilabel:`If The Attendees Meet These Conditions` section of the "
+"form, restrict the rule to attendees fulfilling specific criteria."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:59
+msgid ""
+"By default, this field is set to :guilabel:`Match all records` of attendees "
+"in the database."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:61
+msgid ""
+"To add specific criteria, click the :icon:`fa-plus` :guilabel:`Add "
+"condition` button. Alternatively, click the :icon:`fa-caret-"
+"right` :guilabel:`(right arrow)` icon, then click :guilabel:`New Rule`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:64
+msgid ""
+"Doing so adds a new custom :ref:`filter rule <search/custom-filters>`. Users "
+"can select a *field name* to filter by and choose a *conditional operator* "
+"to compare the *value* to the chosen field. If needed, users can also add a "
+"group of nested conditions that depend on the parent rule by "
+"clicking :icon:`fa-sitemap` :guilabel:`(Add branch)`. For any group of "
+"conditions, users can toggle between matching :guilabel:`all` of the "
+"conditions in the group or :guilabel:`any` of the conditions."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:71
+msgid ""
+"The number of filtered attendee records is displayed at the bottom of the "
+"section. Click :guilabel:`# record(s)` to view the list of attendees that "
+"match the filter rule."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:78
+msgid "Lead default values"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:80
+msgid ""
+"In the :guilabel:`Lead Default Values` section, assign default values to new "
+"leads generated from this rule."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:83
+msgid ""
+"First, in the :guilabel:`Lead Type` field, specify whether this rule creates "
+"a :guilabel:`Lead` or an :guilabel:`Opportunity`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:87
+msgid ""
+"The :guilabel:`Lead Type` field only appears if the **CRM** app is installed "
+"and :doc:`leads <../../../sales/crm/acquire_leads/convert>` are enabled. To "
+"do so, navigate to :menuselection:`CRM app --> Configuration --> Settings`, "
+"then enable the :guilabel:`Leads` feature."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:92
+msgid ""
+"In the :guilabel:`Sales Team` field, select a specific sales team in the "
+"database to which newly created leads are automatically assigned. Similarly, "
+"specify a :guilabel:`Salesperson` to which the leads are automatically "
+"assigned."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:96
+msgid ""
+"Finally, in the :guilabel:`Tags` field, add one or more tags to the created "
+"leads generated from the rule to organize and distinguish leads by specific "
+"identifiers/categories."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:100
+msgid ""
+"A company called *Stealthy Wood* wants to generate leads for every attendee "
+"who bought a *General Admission* ticket to their *Design Fair Los Angeles* "
+"event by clicking a link for tickets from a social media post on *LinkedIn*, "
+"then purchasing the ticket online. Additionally, any new leads generated "
+"should be automatically assigned to their dedicated *Website Sales* team."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:105
+msgid ""
+"To generate these leads, they create a rule called `Social Media Attendees`. "
+"Then, they select :guilabel:`Per Attendee` in the :guilabel:`Create` field "
+"and :guilabel:`Attendees are created` in the :guilabel:`When` field to "
+"trigger the rule every time a new attendee is created."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:109
+msgid ""
+"In the :guilabel:`For Any Of These Events` section, they "
+"select :guilabel:`Exhibition` as the event category in the :guilabel:`Event "
+"Templates` field. Next, they select *Stealthy Wood* as "
+"the :guilabel:`Company` the event is associated with. They also select "
+"*Design Fair Los Angeles* as the specific :guilabel:`Event` the rule should "
+"generate leads for."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:114
+msgid ""
+"In the :guilabel:`If The Attendees Meet These Conditions` section, they "
+"click the :icon:`fa-plus` :guilabel:`Add condition` button to reveal a new, "
+"modifiable condition line."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:117
+msgid ""
+"Next, they click the first field and select :guilabel:`Ticket Type` from the "
+"popover. In the second field, they select `is equal to`. In the third field, "
+"they select the :guilabel:`General Admission` ticket type."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:121
+msgid ""
+"Because the company wants to be even more specific about attendees who "
+"purchased a :guilabel:`General Admission` ticket, they add two more "
+"condition lines by clicking :guilabel:`New Rule`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:125
+msgid ""
+"In the second condition line, they select :guilabel:`Source` in the first "
+"field, choose `is equal to` in the second field, and add the "
+"corresponding :guilabel:`LinkedIn` social media outlet options in the third "
+"field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:129
+msgid ""
+"In the final condition line, they select :guilabel:`Sales Order` :icon:`fa-"
+"angle-right` :guilabel:`Online payment` in the first field. Then, they "
+"select `is set` in the second field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:132
+msgid ""
+"Finally, in the :guilabel:`Lead Default Values` section, they assign these "
+"leads to their *Website Sales* team in the :guilabel:`Sales Team` field. "
+"They also add *Matt* as the lead :guilabel:`Salesperson` responsible for "
+"managing the leads. Finally, for organization purposes, they add a *Design* "
+"tag in the :guilabel:`Tags` field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:0
+msgid "Example lead generation form in Odoo Events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:141
+msgid "Generate leads"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:143
+msgid ""
+"Leads are automatically generated for applicable events whenever a rule is "
+"satisfied. To view generated leads, open the *Events* app and select the "
+"targeted event. A :icon:`fa-star` :guilabel:`Leads` smart button appears at "
+"the top of the chosen event form, displaying the number of leads generated "
+"for this event."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:148
+msgid ""
+"Click the :icon:`fa-star` :guilabel:`Leads` smart button to open a dashboard "
+"of generated leads. By default, the dashboard opens in a :icon:`oi-view-"
+"list` :guilabel:`(List)` view displaying each lead's title, associated "
+"attendee's contact details, assigned salesperson, the expected revenue and "
+"stage of the lead, and the option to either :guilabel:`Email` or send "
+"an :guilabel:`SMS` to the lead."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:154
+msgid ""
+"Leads can also be viewed in the :icon:`oi-view-"
+"kanban` :guilabel:`(Kanban)`, :icon:`fa-area-"
+"chart` :guilabel:`(Graph)`, :icon:`oi-view-"
+"pivot` :guilabel:`(Pivot)`, :icon:`fa-calendar` :guilabel:`(Calendar)`, "
+"and :icon:`fa-clock-o` :guilabel:`(Activity)` views. The search bar's drop-"
+"down menu allows users to :ref:`filter <search/filters>` or :ref:`group "
+"<search/group>` records by specific criteria in each view."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:None
+msgid "Dashboard of generated leads in Odoo Events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:164
+msgid "Manually generate leads"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:166
+msgid ""
+"Leads can also be manually generated from an event form by clicking "
+"the :icon:`fa-cog` :guilabel:`(Actions)` button at the top, then "
+"selecting :guilabel:`Generate Leads`. This allows users to generate (or re-"
+"generate) leads as needed (e.g., after modifying a rule) without duplicating "
+"existing leads."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:None
+msgid "Generate Leads button on an event form in Odoo Events."
+msgstr ""
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:5
 msgid ""
@@ -14208,11 +14317,11 @@ msgstr ""
 "在\\ :guilabel:`Campaigns`\\ Dashboard 上的相同社交媒體推廣活動資訊也可以清單"
 "方式檢視，方法是在右上角搜尋列下方選取\\ :guilabel:`List`\\ 選項。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:57
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:59
 msgid "Create social marketing campaigns"
 msgstr "建立社交媒體推廣活動"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:59
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:61
 msgid ""
 "First, open the :menuselection:`Social Marketing` application, and "
 "select :guilabel:`Campaigns` from the header menu."
@@ -14220,7 +14329,7 @@ msgstr ""
 "首先，開啟\\ :menuselection:`社交媒體推廣`\\ 應用程式，然後從頁首選單中選取\\"
 " :guilabel:`Campaigns`\\ 。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:62
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:64
 msgid ""
 "On the :guilabel:`Campaigns` dashboard, a new campaign can be created by "
 "clicking the quick add :guilabel:`+ (plus sign)` located in the top-right "
@@ -14233,7 +14342,7 @@ msgstr ""
 ":guilabel:`Campaigns`\\ Dashboard 左上角的\\ :guilabel:`Create`\\ 來建立活動"
 "。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:67
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:69
 msgid ""
 "Both options reveal a new campaign detail window directly on "
 "the :guilabel:`Campaigns` dashboard when clicked."
@@ -14245,7 +14354,7 @@ msgstr ""
 msgid "View of the quick add option for campaigns in Odoo Social Marketing."
 msgstr "在 Odoo 社交媒體推廣中檢視活動的快速加入選項。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:74
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:76
 msgid ""
 "Here, the :guilabel:`Campaign Name`, :guilabel:`Responsible`, "
 "and :guilabel:`Tags` can be entered. When all modifications are complete, "
@@ -14255,11 +14364,11 @@ msgstr ""
 " 和\\ :guilabel:`Tags`\\ 。完成所有修改後，按一下\\ :guilabel:`Add`\\ 即可將"
 "活動加入資料庫。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:78
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:80
 msgid "Edit social marketing campaigns"
 msgstr "編輯社交媒體推廣活動"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:80
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:82
 msgid ""
 "In order to edit a campaign in greater detail, and create/send various forms "
 "of communications related to it, the template page for that campaign must be "
@@ -14269,7 +14378,7 @@ msgstr ""
 "若要更詳細地編輯活動，並建立/傳送與其相關的各種溝通形式，必須存取並相應地修改"
 "該活動的範本頁面。存取活動範本頁面有多種方式。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:84
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:86
 msgid ""
 "After entering the pertinent information in the :guilabel:`Quick Add` "
 "campaign drop-down, click :guilabel:`Edit`."
@@ -14277,7 +14386,7 @@ msgstr ""
 "在\\ :guilabel:`Quick Add`\\ 活動下拉式選單中輸入相關資訊後，按一下\\ "
 ":guilabel:`Edit`\\ 。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:86
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:88
 msgid ""
 "Simply select the desired campaign from the :guilabel:`Campaigns` dashboard "
 "in list or kanban view."
@@ -14285,7 +14394,7 @@ msgstr ""
 "只需在清單或看板檢視的\\ :guilabel:`Campaigns`\\ Dashboard 中選取所需的活動即"
 "可。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:88
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:90
 msgid ""
 "On the :guilabel:`Campaigns` dashboard in the kanban view, select "
 "the :guilabel:`⋮ (three dots)` drop-down menu on the desired campaign, and "
@@ -14294,17 +14403,17 @@ msgstr ""
 "在看板檢視的\\ :guilabel:`Campaigns`\\ Dashboard 上，選取所需活動的\\ "
 ":guilabel:`⋮ (three dots)`\\ 下拉式選單，然後選取\\ :guilabel:`Edit`\\ 。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:91
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:93
 msgid ""
 "Any of the above routes will reveal the *Campaign Template* page for that "
 "specific campaign."
 msgstr "上述任何途徑都會顯示該特定活動的*活動範本*頁面。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:94
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:96
 msgid "Social marketing campaign templates"
 msgstr "社交媒體推廣活動範本"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:96
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:98
 msgid ""
 "On a *Campaign Template* page, numerous elements can be customized/modified, "
 "and various forms of communications can be created, modified, and sent or "
@@ -14317,7 +14426,7 @@ msgstr ""
 msgid "View of a sample campaign template page in Odoo Social Marketing."
 msgstr "在 Odoo 社交媒體推廣中檢視範例活動範本頁面。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:105
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:107
 msgid ""
 "In order for the :guilabel:`Send New Mailing` option to appear on campaign "
 "templates, make sure the *Mailing Campaigns* feature is enabled in the "
@@ -14330,7 +14439,7 @@ msgstr ""
 ":menuselection:`Email Marketing --> Configuration --> Settings`\\ ，啟用\\ "
 ":guilabel:`Mailing Campaigns`\\ ，然後按一下\\ :guilabel:`Save`\\ 。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:111
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:113
 msgid ""
 "In order for the :guilabel:`Send SMS` option to appear, the Odoo *SMS "
 "Marketing* application must be installed on the database."
@@ -14338,11 +14447,11 @@ msgstr ""
 "為了讓\\ :guilabel:`Send SMS`\\ 選項出現，必須在資料庫上安裝 Odoo *短訊推"
 "廣*應用程式。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:115
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:117
 msgid "Add content and communications to campaigns"
 msgstr "在活動中加入內容和溝通"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:117
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:119
 msgid ""
 "If the proper settings and applications are installed (as instructed above), "
 "there are four forms of communication/content options that can be added to "
@@ -14352,7 +14461,7 @@ msgstr ""
 "如果已安裝適當的設定和應用程式（如上所述），可以將四種形式的溝通/內容選項加入"
 "行銷活動。這些選項中的每一個都會以按鈕的形式顯示在行銷活動範本頁面的左上角。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:121
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:123
 msgid ""
 ":guilabel:`Send New Mailing`: reveals a blank email template on a separate "
 "page, in which the message can be fully customized in a variety of ways."
@@ -14360,7 +14469,7 @@ msgstr ""
 "\\ :guilabel:`傳送新郵件`\\ ：在另一個頁面上顯示空白的電子郵件範本，可以用多"
 "種方式完全自訂訊息。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:123
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:125
 msgid ""
 ":guilabel:`Send SMS`: reveals a blank SMS template on a separate page, in "
 "which a SMS communication can be created and configured."
@@ -14368,7 +14477,7 @@ msgstr ""
 "\\ :guilabel:`傳送短訊`\\ ：在另一個頁面上顯示空白的短訊範本，可以建立和設定"
 "短訊通訊。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:125
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:127
 msgid ""
 ":guilabel:`Send Social Post`: reveals a blank social post template on a "
 "separate page, in which a post can be created, and applied to social media "
@@ -14377,7 +14486,7 @@ msgstr ""
 "\\ :guilabel:`傳送社交貼文`\\ ：在另一個頁面上顯示空白的社交貼文範本，可以建"
 "立貼文，並套用到已經連線至資料庫的社交媒體帳戶。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:128
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:130
 msgid ""
 ":guilabel:`Push Notification`: reveals a similar blank social post template "
 "on a separate page, however, the :guilabel:`Push Notification` options are "
@@ -14386,7 +14495,7 @@ msgstr ""
 "\\ :guilabel:`推播通知`\\ ：在另一個頁面上顯示類似的空白社交貼文範本，但\\ "
 ":guilabel:`推播通知`\\ 選項已在\\ :guilabel:`發佈至`\\ 欄位中預先選取。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:132
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:134
 msgid ""
 "Whichever form of communication is created, once it's completed, Odoo "
 "returns to the :guilabel:`Campaign Template` page, showcasing that new "
@@ -14398,7 +14507,7 @@ msgstr ""
 "，在其對應的分頁中顯示新內容（例如\\ :guilabel:`郵件`\\ 、\\ :guilabel:`短"
 "訊`\\ 、\\ :guilabel:`社交媒體`\\ 和/或\\ :guilabel:`推播通知`\\ ）。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:137
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:139
 msgid ""
 "As content and communications are added to a campaign, tabs for those "
 "specific mediums appear, along with a variety of analytical smart buttons "
@@ -14408,7 +14517,7 @@ msgstr ""
 "慧按鈕（例如\\ :guilabel:`收入`\\ 、\\ :guilabel:`報價單`\\ 、\\ "
 ":guilabel:`潛在客戶`\\ 等）。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:141
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:143
 msgid ""
 "These smart buttons, located at the top of the template, display different "
 "metrics related to the campaign, and its various communications and content. "
@@ -14420,7 +14529,7 @@ msgstr ""
 "標。按一下任何智慧按鈕都會顯示一個專門針對該行銷活動特定元素的獨立頁面，以便"
 "進行更快速、更有條理的分析。"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:147
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:149
 msgid ""
 "The Odoo *Social Marketing* app is integrated with other Odoo applications, "
 "such as *Sales*, *Invoicing*, *CRM*, and *Website*."
@@ -16055,6 +16164,8 @@ msgid ""
 "depth breakdown, and visual representation, of how it was answered by "
 "participants, beneath the :guilabel:`Results Overview` section."
 msgstr ""
+"問卷調查中的每個問題都會顯示，並在\\ :guilabel:`結果總覽`\\ 部分下方附上詳細"
+"的細分資料與視覺化呈現，顯示參與者如何回答。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:115
 msgid ""
@@ -16063,6 +16174,9 @@ msgid ""
 "visual and data-related results and responses. When clicked again, that "
 "question's visual and data-related results re-appear."
 msgstr ""
+"每個問題都會顯示在其對應的結果上方。問題左側有一個\\ :guilabel:`👁️（眼睛）`\\"
+" 圖示。點擊後，Odoo 會隱藏視覺化與資料相關的結果和回應。再次點擊時，該問題的"
+"視覺化與資料相關結果會重新顯示。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:119
 msgid ""
@@ -16070,12 +16184,14 @@ msgid ""
 "participants :guilabel:`Responded` and how many :guilabel:`Skipped` the "
 "question."
 msgstr ""
+"在問題的最右側，有指標顯示有多少參與者\\ :guilabel:`已回應`\\ 以及有多少人\\ "
+":guilabel:`跳過`\\ 該問題。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "The Responded and Skipped indicators on the 'See results' page in Odoo "
 "Surveys."
-msgstr ""
+msgstr "Odoo 問卷調查「查看結果」頁面上的「已回應」和「跳過」指標。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:126
 msgid ""
@@ -16084,12 +16200,14 @@ msgid ""
 "for example, there is also an indicator to showcase how many users answered "
 "the question :guilabel:`Correct`."
 msgstr ""
+"如果問題要求參與者輸入自己的答案，而沒有任何選項可供選擇，例如輸入特定的數字"
+"或日期，則還會有一個指標顯示有多少使用者\\ :guilabel:`答對`\\ 該問題。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Sample of a 'correct' indicator on the 'See results' page in the Odoo "
 "Surveys application."
-msgstr ""
+msgstr "Odoo 問卷調查應用程式「查看結果」頁面上的「答對」指標範例。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:135
 msgid ""
@@ -16097,12 +16215,14 @@ msgid ""
 "nature, the :guilabel:`Correct` indicator still appears, although, it "
 "displays a `0`."
 msgstr ""
+"即使此類問題沒有設定*正確*回應，:guilabel:`答對`\\ 指標仍會顯示，但會顯示 "
+"`0`。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:138
 msgid ""
 "This would occur for opinion-based questions, like `When would be a good "
 "time to hold another sale?`"
-msgstr ""
+msgstr "這種情況會發生在基於意見的問題上，例如「何時是舉辦另一次促銷的好時機？」"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:141
 msgid ""
@@ -16111,12 +16231,15 @@ msgid ""
 "correct answer is indicated by a :guilabel:`✔️ (checkmark)` icon next to the "
 "correct answer option, in the legend above the graph."
 msgstr ""
+"如果單選題只有一個正確答案，這些結果和回應會以\\ :guilabel:`圓餅圖`\\ 呈現。"
+"正確答案會在圖表上方的圖例中，以正確答案選項旁的\\ :guilabel:`✔️（勾選符號"
+"）`\\ 圖示標示。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical pie graph results on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 問卷調查應用程式「查看結果」頁面上的典型圓餅圖結果。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:149
 msgid ""
@@ -16124,18 +16247,22 @@ msgid ""
 "for a multiple choice question, those results and responses are represented "
 "by a :guilabel:`Bar Graph`."
 msgstr ""
+"如果單選題有多個正確答案選項（或完全沒有正確答案），這些結果和回應會以\\ "
+":guilabel:`長條圖`\\ 呈現。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical bar graph results on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 問卷調查應用程式「查看結果」頁面上的典型長條圖結果。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:156
 msgid ""
 "Each multiple choice question has a :guilabel:`Graph` tab and "
 "an :guilabel:`Data` tab. The graph-related tab is shown by default."
 msgstr ""
+"每個單選題都有一個\\ :guilabel:`圖表`\\ 分頁和一個\\ :guilabel:`資料`\\ 分頁"
+"。預設顯示圖表相關分頁。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:159
 msgid ""
@@ -16143,11 +16270,14 @@ msgid ""
 "for the question. The :guilabel:`User Choice` (with percentages and votes) "
 "along with the :guilabel:`Score` of each option."
 msgstr ""
+":guilabel:`資料`\\ 分頁會顯示該問題提供的所有\\ :guilabel:`答案`\\ 選項、每個"
+"選項的\\ :guilabel:`使用者選擇`\\ （含百分比和票數）以及\\ :guilabel:`分數`\\"
+" 。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical 'Data' tab on the 'See results' page in the Odoo Surveys application."
-msgstr ""
+msgstr "Odoo 問卷調查應用程式「查看結果」頁面上的典型「資料」分頁。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:167
 msgid ""
@@ -16155,30 +16285,34 @@ msgid ""
 "participant to choose from, there is a :guilabel:`Most Common` tab and "
 "an :guilabel:`All Data` tab."
 msgstr ""
+"其他類型的問題（參與者沒有答案選項可供選擇）則會有一個\\ :guilabel:`最常見`\\"
+" 分頁和一個\\ :guilabel:`所有資料`\\ 分頁。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:170
 msgid ""
 "The :guilabel:`Most Common` tab shows the :guilabel:`User Responses`, "
 "the :guilabel:`Occurrence`, and the :guilabel:`Score` (if applicable)."
 msgstr ""
+":guilabel:`最常見`\\ 分頁會顯示\\ :guilabel:`使用者回應`\\ 、:guilabel:`出現"
+"次數`\\ 以及\\ :guilabel:`分數`\\ （如適用）。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical 'Most Common' tab on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 問卷調查應用程式「查看結果」頁面上的典型「最常見」分頁。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:177
 msgid ""
 "The :guilabel:`All Data` tab shows a list of all the submitted responses to "
 "that particular question."
-msgstr ""
+msgstr ":guilabel:`所有資料`\\ 分頁會顯示該特定問題的所有已提交回應清單。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:None
 msgid ""
 "Typical 'All Data' tab on the 'See results' page in the Odoo Surveys "
 "application."
-msgstr ""
+msgstr "Odoo 問卷調查應用程式「查看結果」頁面上的典型「所有資料」分頁。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:184
 msgid ""
@@ -18366,6 +18500,830 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr "徽章在網站網上學習部分外觀的範例。"
+
+#~ msgid ""
+#~ "To create an event, navigate to the :guilabel:`Events app` to land on the "
+#~ "dashboard. By default, the :guilabel:`Events` dashboard uses "
+#~ "the :icon:`oi-view-kanban` :guilabel:`(Kanban)` view, which showcases all "
+#~ "events in the database in their respective pipeline stages. Other views "
+#~ "can be set using the buttons in the upper-right corner."
+#~ msgstr ""
+#~ "若要建立活動，請前往\\ :guilabel:`活動`\\ 應用程式以進入 Dashboard。預設情"
+#~ "況下，\\ :guilabel:`活動`\\ Dashboard 使用\\ :icon:`oi-view-"
+#~ "kanban`\\ :guilabel:`（Kanban）`\\ 檢視，該檢視會在各自的管道階段中展示資"
+#~ "料庫中的所有活動。可以使用右上角的按鈕設定其他檢視。"
+
+#~ msgid ""
+#~ "Events can be created by going to the :menuselection:`Events` app, on "
+#~ "the :icon:`oi-view-kanban` :guilabel:`(Kanban)`, :icon:`oi-view-"
+#~ "list` :guilabel:`(List)`, or :icon:`fa-tasks` :guilabel:`(Gantt)` views. "
+#~ "Then, click the :guilabel:`New` button in the upper-left corner of the "
+#~ "dashboard to open up a new event form."
+#~ msgstr ""
+#~ "可以前往\\ :menuselection:`活動`\\ 應用程式，在\\ :icon:`oi-view-"
+#~ "kanban`\\ :guilabel:`（Kanban）`、:icon:`oi-view-list`\\ :guilabel:`（清"
+#~ "單）`\\ 或\\ :icon:`fa-tasks`\\ :guilabel:`（甘特圖）`\\ 檢視上建立活動。"
+#~ "然後，按一下 Dashboard 左上角的\\ :guilabel:`新增`\\ 按鈕以開啟新的活動表"
+#~ "單。"
+
+#~ msgid ""
+#~ "To the right of the entered :guilabel:`Event Name`, there is a language "
+#~ "tooltip, represented by an abbreviated language indicator (e.g., `EN`). "
+#~ "When clicked, a :guilabel:`Translate name` pop-up window appears, "
+#~ "displaying various preconfigured language translation options available "
+#~ "in the database."
+#~ msgstr ""
+#~ "在已輸入的\\ :guilabel:`活動名稱`\\ 右側，有一個語言提示，以縮寫的語言指示"
+#~ "器表示（例如 `EN`）。按一下後，會出現\\ :guilabel:`翻譯名稱`\\ 彈出視窗，"
+#~ "顯示資料庫中可用的各種預先配置的語言翻譯選項。"
+
+#~ msgid ""
+#~ "Alternatively, to populate the event form from an event template, select "
+#~ "an option in the :guilabel:`Template` drop-down menu. To learn more, see "
+#~ "the :doc:`event_templates` documentation."
+#~ msgstr ""
+#~ "或者，若要從活動範本填入活動表單，請在\\ :guilabel:`範本`\\ 下拉選單中選擇"
+#~ "一個選項。若要瞭解更多資訊，請參閱\\ :doc:`event_templates`\\ 使用說明。"
+
+#~ msgid ""
+#~ ":guilabel:`Website`: The specific website in the database on which the "
+#~ "event is published. If this field is left blank, the event can be "
+#~ "published on **all** websites in the database. To learn more, refer to "
+#~ "the :doc:`Multiple websites <../../../websites/website/configuration/"
+#~ "multi_website>` documentation."
+#~ msgstr ""
+#~ "\\ :guilabel:`網站`\\ ：在資料庫中發佈活動的特定網站。如果此欄位保留空白，"
+#~ "該活動可以在資料庫中的\\ **所有**\\ 網站上發佈。若要瞭解更多資訊，請參閱"
+#~ "\\ :doc:`多個網站 <../../../websites/website/configuration/"
+#~ "multi_website>`\\ 使用說明。"
+
+#~ msgid ""
+#~ "To limit the number of registrations for the event, check "
+#~ "the :guilabel:`Limit Registrations` and enter the maximum number of "
+#~ "attendees allowed in the resulting field."
+#~ msgstr ""
+#~ "若要限制活動的註冊數量，請勾選\\ :guilabel:`限制註冊`\\ 並在產生的欄位中輸"
+#~ "入允許的參加者人數上限。"
+
+#~ msgid ""
+#~ "In the :guilabel:`Tickets` tab of the event form, create custom "
+#~ "registration tickets and ticket tiers for events."
+#~ msgstr ""
+#~ "在活動表單的\\ :guilabel:`票券`\\ 分頁中，為活動建立自訂報名票券和票券層"
+#~ "級。"
+
+#~ msgid ""
+#~ "To create a ticket, click :guilabel:`Add a line` in "
+#~ "the :guilabel:`Tickets` tab. In the :guilabel:`Product` field, either "
+#~ "select the preconfigured :guilabel:`Event Registration` product, or "
+#~ "create a new one by typing in the name of the new event registration "
+#~ "product and then selecting either :guilabel:`Create` or :guilabel:`Create "
+#~ "and edit...` from the resulting drop-down menu. Then, enter a name for "
+#~ "the ticket (e.g. `Basic Ticket` or `VIP`) in the :guilabel:`Name` field."
+#~ msgstr ""
+#~ "若要建立票券，請在\\ :guilabel:`票券`\\ 分頁中按一下\\ :guilabel:`加入資料"
+#~ "行`。在\\ :guilabel:`產品`\\ 欄位中，選擇預先配置的\\ :guilabel:`活動報名"
+#~ "`\\ 產品，或輸入新活動報名產品的名稱以建立新產品，然後從顯示的下拉式選單中"
+#~ "選擇\\ :guilabel:`建立`\\ 或\\ :guilabel:`建立並編輯...`。接著，在"
+#~ "\\ :guilabel:`名稱`\\ 欄位中輸入票券的名稱（例如 `Basic Ticket` 或 "
+#~ "`VIP`）。"
+
+#~ msgid ""
+#~ "In order for an event registration product to be selectable in "
+#~ "the :guilabel:`Tickets` tab, the event registration :guilabel:`Product "
+#~ "Type` **must** be set to :guilabel:`Service` and the :guilabel:`Create on "
+#~ "Order` field **must** be set to :guilabel:`Event Registration`."
+#~ msgstr ""
+#~ "為了讓活動報名產品可在\\ :guilabel:`票券`\\ 分頁中選取，活動報名"
+#~ "\\ :guilabel:`產品類型`\\ **必須**設定為\\ :guilabel:`服務`，且"
+#~ "\\ :guilabel:`訂單時建立`\\ 欄位**必須**設定為\\ :guilabel:`活動報名`。"
+
+#~ msgid ""
+#~ "Existing event registration products can be modified directly from this "
+#~ "field as well by clicking the :icon:`oi-arrow-right` :guilabel:`(right "
+#~ "arrow)` icon located beside the event registration product. Doing so "
+#~ "reveals that product's form. If the **Inventory** application is "
+#~ "installed, additional choices are available to customize for the product."
+#~ msgstr ""
+#~ "現有的活動報名產品也可以直接從此欄位修改，方法是按一下活動報名產品旁邊的"
+#~ "\\ :icon:`oi-arrow-right`\\ :guilabel:`（向右箭頭）`\\ 圖示。這樣做會顯示"
+#~ "該產品的表單。如果已安裝**庫存**應用程式，則可提供其他選項來自訂產品。"
+
+#~ msgid ""
+#~ "The :guilabel:`Sales Price` defined on the event registration product's "
+#~ "product form sets the default cost of a ticket. Modifying "
+#~ "the :guilabel:`Price` of a ticket in the :guilabel:`Tickets` tab sets a "
+#~ "new registration cost of the ticket for that event."
+#~ msgstr ""
+#~ "活動報名產品的產品表單上定義的\\ :guilabel:`銷售價格`\\ 設定票券的預設成"
+#~ "本。在\\ :guilabel:`票券`\\ 分頁中修改票券的\\ :guilabel:`價格`\\ 會為該活"
+#~ "動的票券設定新的報名成本。"
+
+#~ msgid ""
+#~ "Next, enter the :guilabel:`Sales Start` and :guilabel:`Sales End` dates "
+#~ "in their respective fields. To do that, click into the blank field to "
+#~ "reveal a calendar pop-over. From there, select the desired date and time, "
+#~ "then click :icon:`fa-check` :guilabel:`Apply`."
+#~ msgstr ""
+#~ "接下來，在各自的欄位中輸入\\ :guilabel:`銷售開始`\\ 和\\ :guilabel:`銷售結"
+#~ "束`\\ 日期。若要這樣做，請按一下空白欄位以顯示日曆彈出視窗。從那裡選擇所需"
+#~ "的日期和時間，然後按一下\\ :icon:`fa-check`\\ :guilabel:`套用`。"
+
+#~ msgid ""
+#~ "Then, if desired, designate a :guilabel:`Maximum` amount of that specific "
+#~ "ticket that can be sold."
+#~ msgstr ""
+#~ "然後，如有需要，在\\ :guilabel:`最大值`\\ 中指定該特定門票可售出的數量上"
+#~ "限。"
+
+#~ msgid ""
+#~ "The :guilabel:`Registration` column populates with the number of tickets "
+#~ "that are sold."
+#~ msgstr ":guilabel:`報名`\\ 欄會填入已售出的票券數量。"
+
+#~ msgid ""
+#~ "To delete any tickets from the :guilabel:`Tickets` tab, click "
+#~ "the :icon:`fa-trash-o` :guilabel:`(trash can)` icon at the right in the "
+#~ "corresponding line for the ticket that should be deleted."
+#~ msgstr ""
+#~ "若要從\\ :guilabel:`票券`\\ 分頁中刪除任何票券，請按一下應刪除票券對應資料"
+#~ "行右側的\\ :icon:`fa-trash-o`\\ :guilabel:`（垃圾桶）`\\ 圖示。"
+
+#~ msgid ""
+#~ "To add an optional :guilabel:`Description` column to "
+#~ "the :guilabel:`Tickets` tab, click the :icon:`oi-settings-"
+#~ "adjust` :guilabel:`(additional options)` drop-down menu, located to the "
+#~ "far-right of the column titles."
+#~ msgstr ""
+#~ "若要在\\ :guilabel:`門票`\\ 分頁加入選用的\\ :guilabel:`說明`\\ 欄，請按一"
+#~ "下欄標題最右側的\\ :icon:`oi-settings-adjust` :guilabel:`（其他選項）`\\ "
+#~ "下拉式選單。"
+
+#~ msgid ""
+#~ "When added, the option to add brief descriptions for each event ticket "
+#~ "appears, which can be used to inform attendees of any perks or amenities "
+#~ "that may coincide with specific ticket purchases."
+#~ msgstr ""
+#~ "加入後，系統會為每張活動門票顯示加入簡短說明的選項，可用來告知參與者特定門"
+#~ "票購買可能附帶的任何福利或設施。"
+
+#~ msgid ""
+#~ "In the :guilabel:`Communication` tab of an event form, create various "
+#~ "marketing communications that can be scheduled to be sent at specific "
+#~ "intervals leading up to and following the event."
+#~ msgstr ""
+#~ "在活動表單的\\ :guilabel:`溝通`\\ 分頁中，建立各種行銷溝通，可以排程在活動"
+#~ "前後的特定間隔傳送。"
+
+#~ msgid ""
+#~ "Next, define the :guilabel:`Interval` and :guilabel:`Unit` from their "
+#~ "respective drop-down fields, letting Odoo know when the communication "
+#~ "should be sent. The :guilabel:`Unit` options "
+#~ "are: :guilabel:`Immediately`, :guilabel:`Hours`, :guilabel:`Days`, :guilabel:`Weeks`, "
+#~ "and :guilabel:`Months`."
+#~ msgstr ""
+#~ "接下來，從各自的下拉式欄位中定義\\ :guilabel:`間隔`\\ 和\\ :guilabel:`單位"
+#~ "`，讓 Odoo 知道何時應傳送溝通。:guilabel:`單位`\\ 選項包括：:guilabel:`立"
+#~ "即`、:guilabel:`小時`、:guilabel:`天`、:guilabel:`週`\\ 和\\ :guilabel:`月"
+#~ "`。"
+
+#~ msgid ""
+#~ "Any number of communications can be added in "
+#~ "the :guilabel:`Communication` tab of an event form."
+#~ msgstr "可以在活動表單的\\ :guilabel:`溝通`\\ 分頁中加入任意數量的溝通。"
+
+#~ msgid ""
+#~ "To send a confirmation email an hour after an attendee registers for an "
+#~ "event, configure the following communication:"
+#~ msgstr "若要在參與者報名參加活動後一小時傳送確認電子郵件，請配置以下通訊："
+
+#~ msgid ""
+#~ "Existing email templates can be modified directly from "
+#~ "the :guilabel:`Template` drop-down menu, if necessary, by clicking "
+#~ "the :icon:`oi-arrow-right` :guilabel:`(Internal link)` icon next to the "
+#~ "template name. Doing so reveals a separate page where users can edit "
+#~ "the :guilabel:`Content`, :guilabel:`Email Configuration`, "
+#~ "and :guilabel:`Settings` of that particular email template."
+#~ msgstr ""
+#~ "如有必要，可以直接從\\ :guilabel:`範本`\\ 下拉式選單修改現有的電子郵件範"
+#~ "本，方法是按一下範本名稱旁邊的\\ :icon:`oi-arrow-right`\\ :guilabel:`（內"
+#~ "部連結）`\\ 圖示。這樣做會顯示一個單獨的頁面，使用者可以在其中編輯該特定電"
+#~ "子郵件範本的\\ :guilabel:`內容`、:guilabel:`電子郵件配置`\\ 和"
+#~ "\\ :guilabel:`設定`。"
+
+#~ msgid ""
+#~ "The information gathered from the :guilabel:`Questions` tab can be found "
+#~ "on the :guilabel:`Attendees` dashboard, accessible via the :icon:`fa-"
+#~ "users` :guilabel:`Attendees` smart button. Odoo populates individual "
+#~ "records that contain basic information about the registrants, as well as "
+#~ "their preferences."
+#~ msgstr ""
+#~ ":guilabel:`問題`\\ 分頁收集的資訊可在\\ :guilabel:`出席者`\\ Dashboard 中"
+#~ "找到，透過\\ :icon:`fa-users`\\ :guilabel:`出席者`\\ 智慧按鈕即可存取。"
+#~ "Odoo 會填入個別記錄，其中包含報名者的基本資訊及其偏好設定。"
+
+#~ msgid ""
+#~ "Once all configurations and modifications are complete on the event form, "
+#~ "it is time to publish the event on the website. Doing so makes the event "
+#~ "visible to website visitors, and makes it possible for people to register "
+#~ "for the event."
+#~ msgstr ""
+#~ "當活動表單上的所有配置和修改都完成後，就可以在網站上發布活動了。這樣做會使"
+#~ "活動對網站訪客可見，並使人們能夠註冊活動。"
+
+#~ msgid ""
+#~ "To publish an event after all the customizations are complete, click "
+#~ "the :icon:`fa-globe` :guilabel:`Go to Website` smart button at the top of "
+#~ "the event form. Doing so reveals the event's web page, which can be "
+#~ "customized like any other web page on the site, via the :guilabel:`Edit` "
+#~ "button."
+#~ msgstr ""
+#~ "若要在所有自訂完成後發布活動，請按一下活動表單頂部的\\ :icon:`fa-"
+#~ "globe` :guilabel:`前往網站`\\ 智慧按鈕。這樣做會顯示活動的網頁，該網頁可以"
+#~ "像網站上的任何其他網頁一樣透過\\ :guilabel:`編輯`\\ 按鈕進行自訂。"
+
+#~ msgid ""
+#~ "To send event invites to potential attendees, navigate to the desired "
+#~ "event form, via :menuselection:`Events app --> Events`, and click into "
+#~ "the desired event. Following this, click the :guilabel:`Invite` button in "
+#~ "the upper-left corner of the event form."
+#~ msgstr ""
+#~ "若要向潛在參加者傳送活動邀請，請透過\\ :menuselection:`活動應用程式 --> 活"
+#~ "動`\\ 前往所需的活動表單，然後按一下所需的活動。接著，按一下活動表單左上角"
+#~ "的\\ :guilabel:`邀請`\\ 按鈕。"
+
+#~ msgid ""
+#~ "Doing so reveals a blank email form to fill out, as desired. To learn "
+#~ "more about how to create and customize emails like this, refer to "
+#~ "the :ref:`Create an email <email_marketing/create_email>` documentation."
+#~ msgstr ""
+#~ "這樣做會顯示一個空白的電子郵件表單供您填寫。若要進一步了解如何建立和自訂這"
+#~ "樣的電子郵件，請參閱\\ :ref:`建立電子郵件 <email_marketing/"
+#~ "create_email>`\\ 使用說明。"
+
+#~ msgid ""
+#~ "Proceed to create and customize an email message to send as an invite to "
+#~ "potential attendees. Remember to include a link to the registration page "
+#~ "on the event website, allowing interested recipients to register."
+#~ msgstr ""
+#~ "繼續建立和自訂電子郵件訊息，作為邀請函傳送給潛在出席者。請記得附上活動網站"
+#~ "報名頁面的連結，讓有興趣的收件者可以報名。"
+
+#~ msgid ""
+#~ "To access the *Attendees* reporting page, navigate "
+#~ "to :menuselection:`Events app --> Reporting --> Revenues`."
+#~ msgstr ""
+#~ "若要存取\\ *參加者*\\ 報表頁面，請導覽至\\ :menuselection:`活動應用程式 ‣ "
+#~ "報表 ‣ 收入`。"
+
+#~ msgid ""
+#~ "By default, the :guilabel:`Revenues` reporting page appears as a graph "
+#~ "(a :icon:`fa-line-chart` :guilabel:`(Line Chart)` with :icon:`fa-"
+#~ "database` :guilabel:`(Stacked)` data). The default "
+#~ "filters, :guilabel:`Non-free tickets` and :guilabel:`Event Start Date: "
+#~ "(current year)`, are present in the search bar."
+#~ msgstr ""
+#~ "預設情況下，:guilabel:`收入`\\ 報表頁面會顯示為圖表（具有\\ :icon:`fa-"
+#~ "database`\\ :guilabel:`（堆疊）`\\ 資料的\\ :icon:`fa-line-"
+#~ "chart`\\ :guilabel:`（折線圖）`）。預設篩選條件\\ :guilabel:`非免費門票"
+#~ "`\\ 和\\ :guilabel:`活動開始日期：（本年度）`\\ 會顯示在搜尋列中。"
+
+#~ msgid ""
+#~ "The :guilabel:`Revenues` reporting page can also be viewed as "
+#~ "a :ref:`pivot table <reporting/views/pivot>`, by clicking the :icon:`oi-"
+#~ "view-pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
+#~ msgstr ""
+#~ ":guilabel:`收入`\\ 報表頁面也可以按一下右上角的\\ :icon:`oi-view-"
+#~ "pivot`\\ :guilabel:`（樞紐分析）`\\ 圖示以\\ :ref:`樞紐分析表 <reporting/"
+#~ "views/pivot>`\\ 的形式檢視。"
+
+#~ msgid ""
+#~ "Choosing specific :ref:`Measures <reporting/choosing-measures>` is a "
+#~ "quick way to customize reporting pages."
+#~ msgstr ""
+#~ "選擇特定的\\ :ref:`量值 <reporting/choosing-measures>`\\ 是自訂報表頁面的"
+#~ "快速方法。"
+
+#~ msgid ""
+#~ "Regardless of the chosen view, the measures on the :guilabel:`Revenues` "
+#~ "reporting page are as follows: :guilabel:`Revenues`, :guilabel:`Untaxed "
+#~ "Revenues`, and :guilabel:`Count`."
+#~ msgstr ""
+#~ "無論選擇哪種檢視，:guilabel:`收入`\\ 報表頁面上的量值如下：:guilabel:`收入"
+#~ "`、:guilabel:`未稅收入`\\ 和\\ :guilabel:`計數`。"
+
+#~ msgid ""
+#~ "In the default graph view of the :guilabel:`Revenues` reporting page, "
+#~ "only the :guilabel:`Revenues` option is set in the :guilabel:`Measures` "
+#~ "drop-down menu."
+#~ msgstr ""
+#~ "在\\ :guilabel:`收入`\\ 報告頁面的預設圖表檢視中，:guilabel:`量測`\\ 下拉"
+#~ "式選單僅設定了\\ :guilabel:`收入`\\ 選項。"
+
+#~ msgid ":guilabel:`Revenues`: shows the revenues generated from events."
+#~ msgstr ":guilabel:`收入`：顯示活動產生的收入。"
+
+#~ msgid ""
+#~ ":guilabel:`Untaxed Revenues`: shows the untaxed revenues generated from "
+#~ "events."
+#~ msgstr ":guilabel:`未稅收入`：顯示活動產生的未稅收入。"
+
+#~ msgid ""
+#~ ":guilabel:`Count`: shows the total amount of registrants who attended "
+#~ "events."
+#~ msgstr ":guilabel:`計數`：顯示參加活動的報名者總數。"
+
+#~ msgid ""
+#~ "To reveal a drop-down menu of filter and grouping options to create "
+#~ "custom reports, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` "
+#~ "to the right of the search bar."
+#~ msgstr ""
+#~ "要顯示篩選和分組選項的下拉式選單以建立自訂報表，請按一下搜尋列右側的"
+#~ "\\ :icon:`fa-caret-down`:guilabel:`（向下箭頭）`。"
+
+#~ msgid ""
+#~ "Doing so opens a drop-down mega menu of options organized into "
+#~ "columns: :ref:`Filters <search/preconfigured-filters>`, :ref:`Group By "
+#~ "<search/group>`, and :ref:`Favorites <search/favorites>`."
+#~ msgstr ""
+#~ "這樣做會開啟一個下拉式大型選單，選項分為以下欄位：:ref:`篩選 <search/"
+#~ "preconfigured-filters>`、:ref:`分組依據 <search/group>`\\ 和\\ :ref:`我的"
+#~ "最愛 <search/favorites>`。"
+
+#~ msgid ""
+#~ "In the :guilabel:`Filters` column of the drop-down mega menu, there are "
+#~ "various event-related options that can be utilized to create custom "
+#~ "reports, based on a number of specific criteria."
+#~ msgstr ""
+#~ "在下拉式大型選單的\\ :guilabel:`篩選`\\ 欄位中，有各種與活動相關的選項可用"
+#~ "於根據特定條件建立自訂報表。"
+
+#~ msgid ""
+#~ "Multiple options in the :guilabel:`Filters` column can be selected at "
+#~ "once."
+#~ msgstr ":guilabel:`篩選`\\ 欄位中可以同時選擇多個選項。"
+
+#~ msgid ""
+#~ ":guilabel:`Non-free tickets`: event tickets/registrations that were "
+#~ "**not** free."
+#~ msgstr ":guilabel:`非免費票券`：**非**免費的活動票券／報名。"
+
+#~ msgid ":guilabel:`Free`: event tickets/registrations that *were* free."
+#~ msgstr ":guilabel:`免費`：*為*免費的活動票券／報名。"
+
+#~ msgid ""
+#~ ":guilabel:`Pending payment`: event tickets/registrations that were "
+#~ "purchased, but still have payment pending."
+#~ msgstr ":guilabel:`待付款`：已購買但仍待付款的活動票券／報名。"
+
+#~ msgid ""
+#~ ":guilabel:`Sold`: event tickets/registrations that have been successfully "
+#~ "sold (and paid for)."
+#~ msgstr ":guilabel:`已售出`：已成功售出（並已付款）的活動票券／報名。"
+
+#~ msgid ""
+#~ ":guilabel:`Registration Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to view a specific "
+#~ "periods of time and see how many registrations happened during that time."
+#~ msgstr ""
+#~ ":guilabel:`報名日期`：按一下\\ :icon:`fa-caret-down`:guilabel:`（向下箭"
+#~ "頭）`\\ 圖示以顯示月、季和年選項的清單。選擇這些選項中的任意數量以檢視特定"
+#~ "時段，並查看該時段內發生的報名數量。"
+
+#~ msgid ""
+#~ ":guilabel:`Upcoming/Running`: include revenue-related information for "
+#~ "events that are either currently running or are going to happen in the "
+#~ "future."
+#~ msgstr ""
+#~ "\\ :guilabel:`即將舉辦/進行中`\\ ：包含目前正在進行或將在未來舉辦的活動之"
+#~ "營收相關資訊。"
+
+#~ msgid ""
+#~ ":guilabel:`Past Events`: include revenue-related information for events "
+#~ "that have already taken place."
+#~ msgstr "\\ :guilabel:`過去的活動`\\ ：包含已經舉辦過的活動之營收相關資訊。"
+
+#~ msgid ""
+#~ ":guilabel:`Event Start Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to designate event "
+#~ "start dates to use as filters for revenue-related event data."
+#~ msgstr ""
+#~ "\\ :guilabel:`活動開始日期`\\ ：按一下\\ :icon:`fa-caret-down`\\ "
+#~ "\\ :guilabel:`（向下箭頭）`\\ 圖示以顯示月、季度和年份選項清單。選取任意數"
+#~ "量的選項，以指定用於篩選活動營收相關資料的活動開始日期。"
+
+#~ msgid ""
+#~ ":guilabel:`Event End Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to designate event "
+#~ "end dates to use as filters for revenue-related event data."
+#~ msgstr ""
+#~ "\\ :guilabel:`活動結束日期`\\ ：按一下\\ :icon:`fa-caret-down`\\ "
+#~ "\\ :guilabel:`（向下箭頭）`\\ 圖示以顯示月、季度和年份選項清單。選取任意數"
+#~ "量的選項，以指定用於篩選活動營收相關資料的活動結束日期。"
+
+#~ msgid ""
+#~ ":guilabel:`Published Events`: Select this option to show revenue-related "
+#~ "data for published events."
+#~ msgstr ""
+#~ "\\ :guilabel:`已發布的活動`\\ ：選取此選項以顯示已發布活動的營收相關資料。"
+
+#~ msgid ""
+#~ ":guilabel:`Add Custom Filter`: Create a custom filter to analyze event-"
+#~ "related revenue data. To learn more, refer to the documentation "
+#~ "on :ref:`custom filters <search/custom-filters>`."
+#~ msgstr ""
+#~ "\\ :guilabel:`加入自訂篩選條件`\\ ：建立自訂篩選條件以分析活動相關的營收資"
+#~ "料。如需更多資訊，請參閱關於\\ :ref:`自訂篩選條件 <search/custom-"
+#~ "filters>`\\ 的使用說明。"
+
+#~ msgid ""
+#~ "In the :guilabel:`Group By` column of the drop-down mega menu, there are "
+#~ "various event-related options to create custom groupings of data."
+#~ msgstr ""
+#~ "在下拉式大型選單的\\ :guilabel:`分組依據`\\ 欄位中，有各種與活動相關的選項"
+#~ "可用於建立自訂資料分組。"
+
+#~ msgid ""
+#~ ":guilabel:`Add Custom Group`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a drop-down of grouping "
+#~ "options. To select one, click on the desired option, and Odoo adds it to "
+#~ "the :guilabel:`Group By` column. Multiple selections can be made."
+#~ msgstr ""
+#~ "\\ :guilabel:`加入自訂分組`\\ ：按一下\\ :icon:`fa-caret-down`\\ "
+#~ "\\ :guilabel:`（向下箭頭）`\\ 圖示以顯示分組選項下拉式清單。若要選取一個選"
+#~ "項，請按一下所需的選項，Odoo 會將其加入至\\ :guilabel:`分組依據`\\ 欄位。"
+#~ "可以進行多項選取。"
+
+#~ msgid ""
+#~ "The following is an example of how various filters and grouping options "
+#~ "can create a useful analytic graph report related to event revenues. In "
+#~ "this case, the configurations present data about sold or free tickets to "
+#~ "published events, with the metrics separated by ticket type and event."
+#~ msgstr ""
+#~ "以下範例說明如何運用各種篩選條件和分組選項，建立與活動營收相關的實用分析圖"
+#~ "表報表。在此情況下，配置會呈現已發布活動的已售出或免費票券資料，並按票券類"
+#~ "型和活動區分指標。"
+
+#~ msgid ""
+#~ "To create such a report, navigate to :menuselection:`Events app --> "
+#~ "Reporting --> Revenues`. Stay in the default graph view, but remove the "
+#~ "default filters from the search bar."
+#~ msgstr ""
+#~ "若要建立此類報告，請前往\\ :menuselection:`活動應用程式 --> 報告 --> 收入"
+#~ "`。保持在預設的圖表檢視，但從搜尋列中移除預設篩選器。"
+
+#~ msgid ""
+#~ "Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the "
+#~ "right of the search bar, to reveal the drop-down mega menu of filter and "
+#~ "grouping options."
+#~ msgstr ""
+#~ "然後，按一下搜尋列右側的\\ :icon:`fa-caret-down` :guilabel:`（向下箭頭）"
+#~ "`，以顯示篩選器和分組選項的下拉式大型選單。"
+
+#~ msgid ""
+#~ "From here, select :guilabel:`Free` and :guilabel:`Sold` from "
+#~ "the :guilabel:`Filters` column."
+#~ msgstr ""
+#~ "從這裡，從\\ :guilabel:`篩選器`\\ 欄中選擇\\ :guilabel:`免費`\\ 和"
+#~ "\\ :guilabel:`已售出`。"
+
+#~ msgid ""
+#~ "Then, since it is desired to **only** view data related to already "
+#~ "published events, select the :guilabel:`Published Events` option in "
+#~ "the :guilabel:`Filters` column, as well."
+#~ msgstr ""
+#~ "然後，由於希望**僅**檢視與已發布活動相關的資料，因此也請在\\ :guilabel:`篩"
+#~ "選器`\\ 欄中選擇\\ :guilabel:`已發布的活動`\\ 選項。"
+
+#~ msgid ""
+#~ "Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
+#~ "and :guilabel:`Ticket` options, **in that sequential order**. Doing so "
+#~ "first groups the data by event, *then* by ticket type, which provides a "
+#~ "more useful array of data to analyze."
+#~ msgstr ""
+#~ "接下來，在\\ :guilabel:`分組依據`\\ 欄中，**依照該順序**選擇\\ :guilabel:`"
+#~ "活動`\\ 和\\ :guilabel:`門票`\\ 選項。這樣做首先按活動對資料進行分組，*然"
+#~ "後*按門票類型進行分組，從而提供更有用的資料陣列以進行分析。"
+
+#~ msgid ""
+#~ "The order in which the options are selected in the :guilabel:`Group By` "
+#~ "column directly affects how the data is presented on the report."
+#~ msgstr ""
+#~ "在\\ :guilabel:`分組依據`\\ 欄中選擇選項的順序會直接影響報告上資料的呈現方"
+#~ "式。"
+
+#~ msgid ""
+#~ "From there, additional configurations can be added for more detailed "
+#~ "data, if desired."
+#~ msgstr "從那裡，如果需要，可以加入額外的配置以獲得更詳細的資料。"
+
+#~ msgid ""
+#~ "If no additional filters or groupings are added, Odoo presents a "
+#~ "graphical representation of data related to all *free* or *sold* tickets "
+#~ "for *published events*, grouped by *event*, and organized by *ticket* "
+#~ "type."
+#~ msgstr ""
+#~ "如果未加入額外的篩選器或分組，Odoo 會呈現與*已發布活動*的所有*免費*或*已售"
+#~ "出*門票相關的資料的圖形表示，按*活動*分組，並按*門票*類型組織。"
+
+#~ msgid ""
+#~ "The following is an example of how various filters and grouping options "
+#~ "can create a useful analytic pivot table report related to event "
+#~ "revenues. In this case, the configurations present data about how much "
+#~ "revenue different event types have generated, in order to gauge which "
+#~ "events are the most profitable."
+#~ msgstr ""
+#~ "以下是如何使用各種篩選器和分組選項來建立與活動收入相關的有用分析樞紐分析表"
+#~ "報告的範例。在這種情況下，配置呈現有關不同活動類型產生了多少收入的資料，以"
+#~ "便評估哪些活動最有利可圖。"
+
+#~ msgid ""
+#~ "First, navigate to :menuselection:`Events app --> Reporting --> "
+#~ "Revenues`, and switch to the pivot table view, by clicking the :icon:`oi-"
+#~ "view-pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
+#~ msgstr ""
+#~ "首先，前往\\ :menuselection:`活動應用程式 --> 報告 --> 收入`，然後按一下右"
+#~ "上角的\\ :icon:`oi-view-pivot` :guilabel:`（樞紐分析）`\\ 圖示，切換到樞紐"
+#~ "分析表檢視。"
+
+#~ msgid ""
+#~ "Next, open the :guilabel:`Measures` drop-down menu, and deselect the "
+#~ "option for :guilabel:`Count`, because this report is only going to focus "
+#~ "on revenues."
+#~ msgstr ""
+#~ "接下來，開啟\\ :guilabel:`量值`\\ 下拉式選單，並取消選擇\\ :guilabel:`計數"
+#~ "`\\ 選項，因為此報告將僅專注於收入。"
+
+#~ msgid ""
+#~ "With these configurations in place, all the revenues generated from the "
+#~ "events (and their corresponding registrations) are displayed, organized "
+#~ "by the event type (presented as expandable columns)."
+#~ msgstr ""
+#~ "有了這些配置，便會顯示從活動（及其相應註冊）產生的所有收入，並按活動類型"
+#~ "（顯示為可展開的欄）進行組織。"
+
+#~ msgid ""
+#~ "The default stages in the :guilabel:`Kanban` view "
+#~ "are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, :guilabel:`Ended`, "
+#~ "and :guilabel:`Cancelled`. The cards can be dragged-and-dropped into any "
+#~ "stage in the pipeline."
+#~ msgstr ""
+#~ ":guilabel:`Kanban`\\ 檢視中的預設階段為\\ :guilabel:`新增`、:guilabel:`已"
+#~ "預訂`、:guilabel:`已公告`、:guilabel:`已結束`\\ 和\\ :guilabel:`已取消`。"
+#~ "卡片可以拖放到管道中的任何階段。"
+
+#~ msgid ""
+#~ "The :guilabel:`Ended` and :guilabel:`Cancelled` stages are folded by "
+#~ "default and located to the right of the other stages."
+#~ msgstr ""
+#~ ":guilabel:`已結束`\\ 和\\ :guilabel:`已取消`\\ 階段預設為摺疊狀態，位於其"
+#~ "他階段的右側。"
+
+#~ msgid ""
+#~ "To add a new stage, click the :icon:`fa-plus` :guilabel:`Add Stage` "
+#~ "button on the right, enter a name for the stage, then "
+#~ "click :guilabel:`Add`."
+#~ msgstr ""
+#~ "若要加入新階段，請按一下右側的\\ :icon:`fa-plus`\\ :guilabel:`加入階段`\\ "
+#~ "按鈕，輸入階段名稱，然後按一下\\ :guilabel:`加入`。"
+
+#~ msgid ""
+#~ "At the top of the event form are a series of smart buttons related to "
+#~ "various event metrics. These auto-populate with data once attendees begin "
+#~ "to register, when booths and sponsors sign on for the event, when the "
+#~ "event takes place, and so on. These smart buttons can be clicked to "
+#~ "navigate to the event's related pages to modify any details and/or "
+#~ "perform any desired actions."
+#~ msgstr ""
+#~ "活動表單頂部有一系列智慧按鈕，用於顯示各種活動指標。當參加者開始註冊、攤位"
+#~ "和贊助商簽約、活動舉行等情況發生時，這些按鈕會自動填入資料。可以按一下這些"
+#~ "智慧按鈕，前往活動的相關頁面，以修改任何詳細資訊和/或執行任何所需的動作。"
+
+#~ msgid ""
+#~ ":guilabel:`Exhibition Map`: The image of the event venue map. Click "
+#~ "the :guilabel:`Upload your file` button to upload an image of the event "
+#~ "venue map."
+#~ msgstr ""
+#~ ":guilabel:`展覽地圖`：活動場地地圖的圖片。按一下\\ :guilabel:`上傳您的檔案"
+#~ "`\\ 按鈕以上傳活動場地地圖的圖片。"
+
+#~ msgid ""
+#~ "Optionally, to create event badges for attendees, fill in the following "
+#~ "fields:"
+#~ msgstr "或者，若要為參加者建立活動徽章，請填寫以下欄位："
+
+#~ msgid ""
+#~ ":guilabel:`Badge Dimension`: The desired paper format dimension for the "
+#~ "badges. The options are :guilabel:`A4 foldable`, :guilabel:`A6`, "
+#~ "or :guilabel:`4 per sheet`."
+#~ msgstr ""
+#~ ":guilabel:`徽章尺寸`：徽章所需的紙張格式尺寸。選項為\\ :guilabel:`A4 可折"
+#~ "疊`\\ 、\\ :guilabel:`A6`\\ 或\\ :guilabel:`每張 4 個`\\ 。"
+
+#~ msgid ""
+#~ ":guilabel:`Badge Background`: The custom background image for the badges. "
+#~ "Click the :guilabel:`Upload your file` button to upload an image."
+#~ msgstr ""
+#~ ":guilabel:`徽章背景`：徽章的自訂背景圖片。按一下\\ :guilabel:`上傳您的檔案"
+#~ "`\\ 按鈕以上傳圖片。"
+
+#~ msgid ""
+#~ "Then, tick the checkbox beside :guilabel:`Description` from the resulting "
+#~ "drop-down menu."
+#~ msgstr "然後，在產生的下拉式選單中勾選\\ :guilabel:`說明`\\ 旁的勾選方格。"
+
+#~ msgid ""
+#~ "To add a communication in the :guilabel:`Communication` tab, "
+#~ "click :guilabel:`Add a line`. Then, select the desired type of "
+#~ "communication from the first drop-down menu on the :guilabel:`Template` "
+#~ "field. The options "
+#~ "are: :guilabel:`Mail`, :guilabel:`SMS`, :guilabel:`Social Post`, "
+#~ "or :guilabel:`WhatsApp`."
+#~ msgstr ""
+#~ "若要在\\ :guilabel:`溝通`\\ 分頁中加入溝通，請按一下\\ :guilabel:`加入資料"
+#~ "行`。然後，從\\ :guilabel:`範本`\\ 欄位的第一個下拉式選單中選擇所需的溝通"
+#~ "類型。選項包括：:guilabel:`郵件`、:guilabel:`簡訊`、:guilabel:`社交貼文"
+#~ "`\\ 或\\ :guilabel:`WhatsApp`。"
+
+#~ msgid ""
+#~ "Then, select an option from the :guilabel:`Trigger` drop-down menu. The "
+#~ "options are: :guilabel:`After each registration`, :guilabel:`Before the "
+#~ "event`, and :guilabel:`After the event`."
+#~ msgstr ""
+#~ "然後，從\\ :guilabel:`觸發條件`\\ 下拉式選單中選擇一個選項。選項包"
+#~ "括：:guilabel:`每次報名後`、:guilabel:`活動前`\\ 和\\ :guilabel:`活動後`。"
+
+#~ msgid ""
+#~ "The :guilabel:`Sent` column populates with the number of sent "
+#~ "communications. Next to the number are different icons that appear, "
+#~ "depending on the status of that particular communication. The *Running* "
+#~ "status is represented by a :icon:`fa-cogs` :guilabel:`(three gears)` "
+#~ "icon. The *Sent* status is represented by a :icon:`fa-"
+#~ "check` :guilabel:`(checkmark)` icon. And, the *Scheduled* status is "
+#~ "represented by an :icon:`fa-hourglass-half` :guilabel:`(hourglass)` icon."
+#~ msgstr ""
+#~ ":guilabel:`已傳送`\\ 欄會填入已傳送的溝通數量。數字旁邊會顯示不同的圖示，"
+#~ "具體取決於該特定溝通的狀態。*執行中*狀態由\\ :icon:`fa-cogs`\\ :guilabel:`"
+#~ "（三個齒輪）`\\ 圖示表示。*已傳送*狀態由\\ :icon:`fa-check`\\ :guilabel:`"
+#~ "（勾選記號）`\\ 圖示表示。*已排程*狀態由\\ :icon:`fa-hourglass-"
+#~ "half`\\ :guilabel:`（沙漏）`\\ 圖示表示。"
+
+#~ msgid ""
+#~ "To view and manage all email templates, activate :ref:`developer-mode` "
+#~ "and navigate to :menuselection:`Settings --> Technical --> Email: Email "
+#~ "Templates`. Modify with caution as email templates effect all "
+#~ "communications where the template is used."
+#~ msgstr ""
+#~ "若要檢視及管理所有電子郵件範本，請啟用\\ :ref:`developer-mode`\\ 並導覽至"
+#~ "\\ :menuselection:`設定 --> 技術 --> 電子郵件：電子郵件範本`。請謹慎修改，"
+#~ "因為電子郵件範本會影響使用該範本的所有通訊。"
+
+#~ msgid ""
+#~ "In the :guilabel:`Questions` tab of an event form, users can create brief "
+#~ "questionnaires for registrants to interact with, and respond to, after "
+#~ "they register for the event."
+#~ msgstr ""
+#~ "在活動表單的\\ :guilabel:`問題`\\ 分頁中，使用者可以建立簡短的問卷，供報名"
+#~ "者在報名參加活動後互動及回應。"
+
+#~ msgid ""
+#~ "These questions can be focused on gathering basic information about the "
+#~ "attendee, learning about their preferences, expectations, and other "
+#~ "things of that nature. This information can also be used to create more "
+#~ "detailed reporting metrics, in addition to being utilized to create "
+#~ "specific lead generation rules."
+#~ msgstr ""
+#~ "這些問題可以聚焦於收集有關參與者的基本資訊、了解其偏好、期望及其他類似事"
+#~ "項。此資訊也可用於建立更詳細的報告指標，並可用於建立特定的潛在客戶產生規"
+#~ "則。"
+
+#~ msgid ""
+#~ "By default, Odoo provides three questions in the :guilabel:`Questions` "
+#~ "tab for every event form. The default questions require one or more "
+#~ "registrants to provide their :guilabel:`Name`, :guilabel:`Email`, and an "
+#~ "optional :guilabel:`Phone` number as well."
+#~ msgstr ""
+#~ "Odoo 預設會在每個活動表單的\\ :guilabel:`問題`\\ 分頁中提供三個問題。預設"
+#~ "問題要求一位或多位報名者提供其\\ :guilabel:`姓名`\\ 、\\ :guilabel:`電子郵"
+#~ "件`\\ 以及選填的\\ :guilabel:`電話`\\ 號碼。"
+
+#~ msgid ""
+#~ "To add a question in the :guilabel:`Questions` tab, click :guilabel:`Add "
+#~ "a line`. Doing so reveals a :guilabel:`Create Question` pop-up window. "
+#~ "From here, users can create and configure their question."
+#~ msgstr ""
+#~ "若要在\\ :guilabel:`問題`\\ 分頁中加入問題，請按一下\\ :guilabel:`加入資料"
+#~ "行`。這樣做會顯示\\ :guilabel:`建立問題`\\ 彈出式視窗。使用者可以在此處建"
+#~ "立及配置問題。"
+
+#~ msgid ""
+#~ "First, enter the question in the field at the top of the form. Then, "
+#~ "decide if the question should require a :guilabel:`Mandatory Answer` and/"
+#~ "or if Odoo should :guilabel:`Ask once per order`, by ticking their "
+#~ "respective boxes, if desired."
+#~ msgstr ""
+#~ "首先，在表單頂部的欄位中輸入問題。然後，決定問題是否應要求\\ :guilabel:`必"
+#~ "填答案`\\ 及／或 Odoo 是否應\\ :guilabel:`每筆訂單僅詢問一次`，如有需要可"
+#~ "勾選其各自的方格。"
+
+#~ msgid ""
+#~ "If the :guilabel:`Ask once per order` checkbox is ticked, the question "
+#~ "will only be asked once, and its value is applied to every attendee in "
+#~ "the order (if multiple tickets are purchased at once). If the checkbox is "
+#~ "**not** ticked for this setting, Odoo presents the question for every "
+#~ "attendee that is connected to that registration."
+#~ msgstr ""
+#~ "如果勾選\\ :guilabel:`每筆訂單僅詢問一次`\\ 勾選方塊，該問題僅會詢問一次，"
+#~ "其值將套用至該訂單中的所有出席者（如果一次購買多張票券）。如果此設定的勾選"
+#~ "方塊**未**勾選，Odoo 會針對與該報名相關的每位出席者顯示該問題。"
+
+#~ msgid ""
+#~ "Once all the desired configurations have been entered, either "
+#~ "click :guilabel:`Save & Close` to save the question, and return to "
+#~ "the :guilabel:`Questions` tab on the event form, or click :guilabel:`Save "
+#~ "& New` to save the question and immediately create a new question on a "
+#~ "new :guilabel:`Create Question` pop-up window."
+#~ msgstr ""
+#~ "輸入所有所需配置後，可按一下\\ :guilabel:`儲存並關閉`\\ 以儲存問題並返回活"
+#~ "動表單的\\ :guilabel:`問題`\\ 分頁，或按一下\\ :guilabel:`儲存並新增`\\ 以"
+#~ "儲存問題並立即在新的\\ :guilabel:`建立問題`\\ 彈出式視窗上建立新問題。"
+
+#~ msgid ""
+#~ "As questions are added to the :guilabel:`Questions` tab, the informative "
+#~ "columns showcase the configurations of each question."
+#~ msgstr ""
+#~ "隨著問題加入到\\ :guilabel:`問題`\\ 分頁，資訊欄會顯示每個問題的配置。"
+
+#~ msgid "The informative columns are the following:"
+#~ msgstr "資訊欄如下："
+
+#~ msgid ":guilabel:`Title`"
+#~ msgstr ":guilabel:`標題`"
+
+#~ msgid ":guilabel:`Mandatory`"
+#~ msgstr ":guilabel:`必填`"
+
+#~ msgid ":guilabel:`Once per Order`"
+#~ msgstr ":guilabel:`每張訂單一次`"
+
+#~ msgid ":guilabel:`Type`"
+#~ msgstr ":guilabel:`類型`"
+
+#~ msgid ":guilabel:`Answers` (if applicable)"
+#~ msgstr ":guilabel:`答案`（如適用）"
+
+#~ msgid ""
+#~ "To delete any question from the :guilabel:`Questions` tab, click "
+#~ "the :icon:`fa-trash-o` :guilabel:`(trash can)` icon on the corresponding "
+#~ "question line."
+#~ msgstr ""
+#~ "若要從\\ :guilabel:`問題`\\ 分頁刪除任何問題，請按一下對應問題資料行上的"
+#~ "\\ :icon:`fa-trash-o` :guilabel:`（垃圾桶）`\\ 圖示。"
+
+#~ msgid ""
+#~ "Any number of questions can be added in the :guilabel:`Questions` tab of "
+#~ "an event form."
+#~ msgstr "活動表單的\\ :guilabel:`問題`\\ 分頁中可以加入任意數量的問題。"
+
+#~ msgid "Notes tab"
+#~ msgstr "備註分頁"
+
+#~ msgid ""
+#~ "In the :guilabel:`Notes` tab of an event form, users can leave detailed "
+#~ "internal notes and/or event-related instructions/information for "
+#~ "attendees."
+#~ msgstr ""
+#~ "在活動表單的\\ :guilabel:`備註`\\ 分頁中，使用者可以留下詳細的內部備註和／"
+#~ "或活動相關的指示／資訊給參加者。"
+
+#~ msgid ""
+#~ "In the :guilabel:`Note` field of the :guilabel:`Notes` tab, users can "
+#~ "leave internal notes for other event employees, like \"to-do\" lists, "
+#~ "contact information, instructions, and so on."
+#~ msgstr ""
+#~ "在\\ :guilabel:`備註`\\ 分頁的\\ :guilabel:`備註`\\ 欄位中，使用者可以為其"
+#~ "他活動員工留下內部備註，例如「待辦事項」清單、聯絡人資訊、指示等。"
+
+#~ msgid ""
+#~ "In the :guilabel:`Ticket Instructions` field of the :guilabel:`Notes` "
+#~ "tab, users can leave specific instructions for people attending the event "
+#~ "that appear on the attendees ticket."
+#~ msgstr ""
+#~ "在\\ :guilabel:`備註`\\ 分頁的\\ :guilabel:`票券指示`\\ 欄位中，使用者可以"
+#~ "為參加活動的人員留下特定指示，這些指示會顯示在參加者的票券上。"
+
+#~ msgid ""
+#~ "Once the event website is ready to be shared, click the "
+#~ "red :guilabel:`Unpublished` toggle switch in the header menu, changing it "
+#~ "to a green :guilabel:`Published` switch. At this point, the event web "
+#~ "page is published and viewable/accessible by all website visitors."
+#~ msgstr ""
+#~ "活動網站準備好分享後，按一下頁首選單中的紅色\\ :guilabel:`未發布`\\ 切換開"
+#~ "關，將其變更為綠色\\ :guilabel:`已發布`\\ 開關。此時活動網頁即已發布，所有"
+#~ "網站訪客均可檢視和存取。"
 
 #~ msgid ""
 #~ "With Odoo *Events*, users can utilize a fully-integrated event website, "

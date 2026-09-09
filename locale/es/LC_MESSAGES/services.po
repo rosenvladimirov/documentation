@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-15 17:30+0000\n"
-"PO-Revision-Date: 2026-06-25 14:31+0000\n"
+"PO-Revision-Date: 2026-08-27 15:06+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19-doc/"
 "services/es/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/applications/services.rst:5
 msgid "Services"
@@ -621,7 +621,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk.rst:6
 msgid "Helpdesk"
-msgstr "Servicio de asistencia"
+msgstr "Soporte"
 
 #: ../../content/applications/services/helpdesk.rst:8
 msgid ""
@@ -7211,9 +7211,9 @@ msgid ""
 "</applications/essentials/reporting>` on the status of the project’s tasks "
 "over time."
 msgstr ""
-":guilabel:`Gráfico de quemado`: haz clic en el botón inteligente para "
-"acceder a un :doc:`informe </applications/essentials/reporting>` sobre el "
-"estado de las tareas del proyecto a lo largo del tiempo."
+":guilabel:`Gráfico de trabajo pendiente`: haz clic en el botón inteligente "
+"para acceder a un :doc:`informe </applications/essentials/reporting>` sobre "
+"el estado de las tareas del proyecto a lo largo del tiempo."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:54
 msgid ""

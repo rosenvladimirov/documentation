@@ -199,12 +199,12 @@ models. Once set, the property is shared by all records that are linked to the s
          - :ref:`Task <task_creation/task-configuration>`
          - :ref:`Project <project_management/configuration>`
        * - :guilabel:`Recruitment`
-         - :ref:`Applicant <recruitment/quick-add-applicant>`
+         - :ref:`Applicant <recruitment/add_applicants/quick-add-applicant>`
 
-           :ref:`Job Position <recruitment/new_job_position/edit>`
+           :ref:`Job Position <recruitment/new_job/configure-job-position>`
 
            Candidate
-         - :ref:`Job position <job-position/create-job-position>`
+         - :ref:`Job position <recruitment/new_job/create-job-position>`
 
            :ref:`Company <general/companies/company>`
 

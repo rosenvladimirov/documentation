@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-12 17:31+0000\n"
-"PO-Revision-Date: 2026-06-25 13:33+0000\n"
+"POT-Creation-Date: 2026-08-21 17:32+0000\n"
+"PO-Revision-Date: 2026-08-27 16:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-19-doc/"
 "marketing/fr/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/applications/marketing.rst:5
 msgid "Marketing"
@@ -4928,7 +4928,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:145
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:116
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:75
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:68
 msgid "Filter options"
 msgstr "Options de filtres"
 
@@ -4945,7 +4945,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:150
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:121
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:82
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:76
 msgid "The :guilabel:`Filters` column has the following options:"
 msgstr "La colonne :guilabel:`Filtres` propose les options suivantes :"
 
@@ -4993,7 +4993,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:164
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:143
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:108
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:98
 msgid "Group By options"
 msgstr "Options Grouper par"
 
@@ -5010,7 +5010,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:170
 #: ../../content/applications/marketing/events/event_reporting/attendees_report.rst:151
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:115
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:105
 msgid "The :guilabel:`Group By` column has the following options:"
 msgstr "La colonne :guilabel:`Grouper par` dispose des options suivantes :"
 
@@ -5576,12 +5576,13 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:383
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:234
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:175
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:152
 msgid ":doc:`../event_setup/create_events`"
 msgstr ":doc:`../event_setup/create_events`"
 
 #: ../../content/applications/marketing/events/attendee_experience/event_tracks.rst:384
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:378
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:379
 msgid ":doc:`../attendee_experience/track_manage_talks`"
 msgstr ":doc:`../attendee_experience/track_manage_talks`"
 
@@ -6761,11 +6762,9 @@ msgstr "Page de rapport des revenus"
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:13
 msgid ""
-"To access the *Attendees* reporting page, navigate to :menuselection:`Events "
+"To access the *Revenues* reporting page, navigate to :menuselection:`Events "
 "app --> Reporting --> Revenues`."
 msgstr ""
-"Pour accéder à la page de rapport des *Participants*, aller à "
-":menuselection:`Application Événements --> Rapport --> Revenus`."
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
 msgid ""
@@ -6775,21 +6774,16 @@ msgstr ""
 "La vue par défaut de la page de rapport des revenus dans l'application Odoo "
 "Événements."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:20
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:19
 msgid ""
 "By default, the :guilabel:`Revenues` reporting page appears as a graph "
 "(a :icon:`fa-line-chart` :guilabel:`(Line Chart)` with :icon:`fa-"
 "database` :guilabel:`(Stacked)` data). The default filters, :guilabel:`Non-"
-"free tickets` and :guilabel:`Event Start Date: (current year)`, are present "
+"free tickets` and :guilabel:`Event Start Date: (current year)`, are applied "
 "in the search bar."
 msgstr ""
-"Par défaut, la page de rapport :guilabel:`Revenus` apparaît sous forme de "
-"graphique (un :icon:`fa-line-chart` :guilabel:`graphique linéaire` avec des "
-"données :icon:`fa-database` :guilabel:`empilées`). Les filtres par défaut, "
-":guilabel:`Billets non gratuits` et :guilabel:`Date de début d'événement : "
-"(année en cours)`, sont présents dans la barre de recherche."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:26
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:25
 msgid ""
 "To learn more about the various graph views (and graph view options), refer "
 "to the :ref:`Graph views <reporting/using-graph>` documentation."
@@ -6798,50 +6792,45 @@ msgstr ""
 "graphique), consulter la documentation :ref:`Vues graphiques <reporting/"
 "using-graph>`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:29
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:28
 msgid ""
-"The :guilabel:`Revenues` reporting page can also be viewed as a :ref:`pivot "
-"table <reporting/views/pivot>`, by clicking the :icon:`oi-view-"
+"The *Revenues* reporting page can also be viewed as a :ref:`pivot table "
+"<reporting/views/pivot>`, by clicking the :icon:`oi-view-"
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
-"La page de rapport :guilabel:`Revenus` peut également être affichée sous "
-"forme de :ref:`tableau croisé dynamique <reporting/views/pivot>`, en "
-"cliquant sur l'icône :icon:`oi-view-pivot` :guilabel:`tableau croisé "
-"dynamique` dans le coin supérieur droit."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:34
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:32
 msgid "Measures"
 msgstr "Mesures"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:36
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:34
 msgid ""
-"Choosing specific :ref:`Measures <reporting/choosing-measures>` is a quick "
-"way to customize reporting pages."
+"Choosing specific :ref:`measures <reporting/choosing-measures>` allows users "
+"to customize reporting pages."
 msgstr ""
-"Choisir des :ref:`mesures <reporting/choosing-measures>` spécifiques est un "
-"moyen rapide de personnaliser les pages de rapport."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:37
+msgid ""
+"Clicking the :guilabel:`Measures` drop-down button reveals the following "
+"options:"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:39
-msgid ""
-"Regardless of the chosen view, the measures on the :guilabel:`Revenues` "
-"reporting page are as follows: :guilabel:`Revenues`, :guilabel:`Untaxed "
-"Revenues`, and :guilabel:`Count`."
+msgid ":guilabel:`Revenues`: Shows the revenues generated from events."
 msgstr ""
-"Quelle que soit la vue choisie, les mesures de la page de rapport "
-":guilabel:`Revenus` sont les suivantes : :guilabel:`Revenus`, "
-":guilabel:`Revenus hors taxes` et :guilabel:`Nombre`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:43
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:40
 msgid ""
-"In the default graph view of the :guilabel:`Revenues` reporting page, only "
-"the :guilabel:`Revenues` option is set in the :guilabel:`Measures` drop-down "
-"menu."
+":guilabel:`Untaxed Revenues`: Shows the untaxed revenues generated from "
+"events."
 msgstr ""
-"Dans la vue graphique par défaut de la page de rapport :guilabel:`Revenus`, "
-"seule l'option :guilabel:`Revenus` est définie dans le menu déroulant "
-":guilabel:`Mesures`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:46
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:41
+msgid ""
+":guilabel:`Count`: Shows the total number of registrants who attended events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:44
 msgid ""
 "In graph view, only one of the :guilabel:`Measures` can be selected at a "
 "time."
@@ -6849,7 +6838,7 @@ msgstr ""
 "En vue graphique, une seule des :guilabel:`Mesures` peut être sélectionnée à "
 "la fois."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:48
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:46
 msgid ""
 "When the pivot option is selected, all :guilabel:`Measures` options are "
 "selected, by default."
@@ -6857,50 +6846,23 @@ msgstr ""
 "Lorsque l'option tableau croisé dynamique est sélectionnée, toutes les "
 "options :guilabel:`Mesures` sont sélectionnées par défaut."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:50
-msgid ":guilabel:`Revenues`: shows the revenues generated from events."
-msgstr ":guilabel:`Revenus` : affiche les revenus générés par les événements."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:51
-msgid ""
-":guilabel:`Untaxed Revenues`: shows the untaxed revenues generated from "
-"events."
-msgstr ""
-":guilabel:`Revenus hors taxes` : affiche les revenus hors taxes générés par "
-"les événements."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:52
-msgid ""
-":guilabel:`Count`: shows the total amount of registrants who attended events."
-msgstr ""
-":guilabel:`Compte` : affiche le nombre total d'inscrits ayant assisté aux "
-"événements."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:55
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:49
 msgid "Filters and grouping options"
 msgstr "Options de filtres et de regroupement"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:57
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:51
 msgid ""
-"To reveal a drop-down menu of filter and grouping options to create custom "
-"reports, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the "
-"right of the search bar."
+"To reveal a drop-down menu of filter and grouping options, click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` next to the search bar."
 msgstr ""
-"Pour afficher un menu déroulant d'options de filtres et de regroupement "
-"permettant de créer des rapports personnalisés, cliquer sur :icon:`fa-caret-"
-"down` :guilabel:`(flèche vers le bas)` à droite de la barre de recherche."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:60
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:54
 msgid ""
-"Doing so opens a drop-down mega menu of options organized into "
-"columns: :ref:`Filters <search/preconfigured-filters>`, :ref:`Group By "
-"<search/group>`, and :ref:`Favorites <search/favorites>`."
+"The drop-down menu allows users to set :ref:`Filters <search/preconfigured-"
+"filters>` and :ref:`Group By <search/group>` options."
 msgstr ""
-"Cela ouvre un méga menu déroulant d'options organisées en colonnes : "
-":ref:`Filtres <search/preconfigured-filters>`, :ref:`Regrouper par <search/"
-"group>` et :ref:`Favoris <search/favorites>`."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:65
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:58
 msgid ""
 "If a time-related option has been selected from the :guilabel:`Filters` "
 "column (e.g. the default :guilabel:`Event Start Date: (year)` filter), "
@@ -6913,7 +6875,7 @@ msgstr ""
 "apparaît, avec des options de comparaison pour l'option de filtre liée au "
 "temps correspondante sélectionnée."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:69
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:62
 msgid ""
 "Only **one** selection can be made from the :guilabel:`Comparison` column at "
 "a time."
@@ -6921,168 +6883,117 @@ msgstr ""
 "Une seule sélection peut être effectuée dans la colonne "
 ":guilabel:`Comparaison` à la fois."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:72
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:65
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:75
 msgid ":doc:`../../../essentials/search`"
 msgstr ":doc:`../../../essentials/search`"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:77
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:70
 msgid ""
-"In the :guilabel:`Filters` column of the drop-down mega menu, there are "
-"various event-related options that can be utilized to create custom reports, "
-"based on a number of specific criteria."
+"The :guilabel:`Filters` column in the search bar's drop-down menu allows "
+"users to restrict the data to specific criteria."
 msgstr ""
-"Dans la colonne :guilabel:`Filtres` du méga menu déroulant, diverses options "
-"liées aux événements peuvent être utilisées pour créer des rapports "
-"personnalisés, basés sur un nombre de critères spécifiques."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:73
+msgid ""
+"Multiple options in the :guilabel:`Filters` column can be selected at once. "
+"Options can be applied to any view."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:78
+msgid ""
+":guilabel:`Non-free tickets`: Filter by event tickets/registrations that are "
+"not free."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:79
+msgid ":guilabel:`Free`: Filter by event tickets/registrations that are free."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:80
 msgid ""
-"Multiple options in the :guilabel:`Filters` column can be selected at once."
+":guilabel:`Pending payment`: Filter by event tickets/registrations that are "
+"purchased but are pending payment."
 msgstr ""
-"Plusieurs options de la colonne :guilabel:`Filtres` peuvent être "
-"sélectionnées simultanément."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:84
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:82
 msgid ""
-":guilabel:`Non-free tickets`: event tickets/registrations that were **not** "
-"free."
+":guilabel:`Sold`: Filter by event tickets/registrations that are sold and "
+"paid for."
 msgstr ""
-":guilabel:`Billets payants` : billets/inscriptions d'événement qui n'étaient "
-"**pas** gratuits."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:85
-msgid ":guilabel:`Free`: event tickets/registrations that *were* free."
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:83
+msgid ""
+":guilabel:`Registration Date`: Filter by a specific registration date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
 msgstr ""
-":guilabel:`Gratuit` : billets/inscriptions d'événement qui *étaient* "
-"gratuits."
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:86
-msgid ""
-":guilabel:`Pending payment`: event tickets/registrations that were "
-"purchased, but still have payment pending."
+msgid ":guilabel:`Upcoming/Running`: Filter by current or future events."
 msgstr ""
-":guilabel:`Paiement en attente` : billets/inscriptions d'événement qui ont "
-"été achetés, mais dont le paiement est toujours en attente."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:87
+msgid ":guilabel:`Past Events`: Filter by completed events."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:88
 msgid ""
-":guilabel:`Sold`: event tickets/registrations that have been successfully "
-"sold (and paid for)."
+":guilabel:`Event Start Date`: Filter by a specific event start date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
 msgstr ""
-":guilabel:`Vendu` : billets/inscriptions d'événement qui ont été vendus avec "
-"succès (et payés)."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:89
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:91
 msgid ""
-":guilabel:`Registration Date`: Click the :icon:`fa-caret-"
-"down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, and "
-"year options. Select any number of these options to view a specific periods "
-"of time and see how many registrations happened during that time."
+":guilabel:`Event End Date`: Filter by a specific event end date. Click "
+"the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon to reveal a list of "
+"month, quarter, and year options."
 msgstr ""
-":guilabel:`Date d'inscription` : Cliquer sur l'icône :icon:`fa-caret-down` "
-":guilabel:`(flèche vers le bas)` pour afficher une liste d'options par mois, "
-"trimestre et année. Sélectionner un nombre quelconque de ces options pour "
-"visualiser des périodes spécifiques et voir combien d'inscriptions ont eu "
-"lieu pendant cette période."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:92
-msgid ""
-":guilabel:`Upcoming/Running`: include revenue-related information for events "
-"that are either currently running or are going to happen in the future."
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:93
+msgid ":guilabel:`Published Events`: Filter by published events."
 msgstr ""
-":guilabel:`À venir/En cours` : inclure les informations liées aux revenus "
-"pour les événements qui sont actuellement en cours ou qui vont se dérouler "
-"dans le futur."
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:94
 msgid ""
-":guilabel:`Past Events`: include revenue-related information for events that "
-"have already taken place."
+":guilabel:`Add Custom Filter`: Create a :ref:`custom filter <search/custom-"
+"filters>` to analyze event-related revenue data."
 msgstr ""
-":guilabel:`Événements passés` : inclure les informations relatives aux "
-"revenus pour les événements qui ont déjà eu lieu."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:96
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:100
 msgid ""
-":guilabel:`Event Start Date`: Click the :icon:`fa-caret-"
-"down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, and "
-"year options. Select any number of these options to designate event start "
-"dates to use as filters for revenue-related event data."
+"The :guilabel:`Group By` column in the search bar's drop-down menu allows "
+"users to group the data by specific criteria."
 msgstr ""
-":guilabel:`Date de début de l'événement` : cliquer sur l'icône :icon:`fa-"
-"caret-down` :guilabel:`(flèche vers le bas)` pour afficher une liste "
-"d'options de mois, trimestre et année. Sélectionner un nombre quelconque de "
-"ces options pour désigner les dates de début d'événement à utiliser comme "
-"filtres pour les données de revenus liées aux événements."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:99
-msgid ""
-":guilabel:`Event End Date`: Click the :icon:`fa-caret-down` :guilabel:`(down "
-"arrow)` icon to reveal a list of month, quarter, and year options. Select "
-"any number of these options to designate event end dates to use as filters "
-"for revenue-related event data."
-msgstr ""
-":guilabel:`Date de fin de l'événement` : cliquer sur l'icône :icon:`fa-caret-"
-"down` :guilabel:`(flèche vers le bas)` pour afficher une liste d'options de "
-"mois, trimestre et année. Sélectionner un nombre quelconque de ces options "
-"pour désigner les dates de fin d'événement à utiliser comme filtres pour les "
-"données de revenus liées aux événements."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:102
-msgid ""
-":guilabel:`Published Events`: Select this option to show revenue-related "
-"data for published events."
-msgstr ""
-":guilabel:`Événements publiés` : sélectionner cette option pour afficher les "
-"données de revenus pour les événements publiés."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:104
-msgid ""
-":guilabel:`Add Custom Filter`: Create a custom filter to analyze event-"
-"related revenue data. To learn more, refer to the documentation "
-"on :ref:`custom filters <search/custom-filters>`."
-msgstr ""
-":guilabel:`Ajouter un filtre personnalisé` : créer un filtre personnalisé "
-"pour analyser les données de revenus liées aux événements. Pour en savoir "
-"plus, consulter la documentation sur les :ref:`filtres personnalisés <search/"
-"custom-filters>`."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:110
-msgid ""
-"In the :guilabel:`Group By` column of the drop-down mega menu, there are "
-"various event-related options to create custom groupings of data."
-msgstr ""
-"Dans la colonne :guilabel:`Grouper par` du menu déroulant, plusieurs options "
-"liées aux événements permettent de créer des groupements de données "
-"personnalisés."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:113
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:103
 msgid "Multiple :guilabel:`Group By` options can be selected at once."
 msgstr ""
 "Plusieurs options :guilabel:`Grouper par` peuvent être sélectionnées "
 "simultanément."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:117
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:107
 msgid ":guilabel:`Event Type`: Group data based on the type of event."
 msgstr ""
 ":guilabel:`Type d'événement` : regrouper les données selon le type "
 "d'événement."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:118
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:108
 msgid ""
 ":guilabel:`Event`: Organize data into individual groups, separated by events."
 msgstr ""
 ":guilabel:`Événement` : organiser les données en groupes individuels, "
 "séparés par événements."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:119
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:109
 msgid ""
 ":guilabel:`Product`: Group data based on the event registration product."
 msgstr ""
 ":guilabel:`Article` : regrouper les données selon l'article d'inscription à "
 "l'événement."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:120
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:110
 msgid ""
 ":guilabel:`Ticket`: Group data based on the type of event ticket purchased "
 "by attendees."
@@ -7090,7 +7001,7 @@ msgstr ""
 ":guilabel:`Billet` : regrouper les données selon le type de billet "
 "d'événement acheté par les participants."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:121
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:111
 msgid ""
 ":guilabel:`Registration Status`: Group data based on the status of "
 "registrations."
@@ -7098,7 +7009,7 @@ msgstr ""
 ":guilabel:`Statut d'inscription` : regrouper les données selon le statut des "
 "inscriptions."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:122
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:112
 msgid ""
 ":guilabel:`Sale Order Status`: Group data based on the status of event-"
 "related sales orders."
@@ -7106,39 +7017,61 @@ msgstr ""
 ":guilabel:`Statut de commande client` : regrouper les données selon le "
 "statut des commandes clients liées aux événements."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:123
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:113
 msgid ":guilabel:`Customer`: Group data based on customer records."
 msgstr ":guilabel:`Client` : regrouper les données selon les fiches clients."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:124
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:114
 msgid ""
-":guilabel:`Add Custom Group`: Click the :icon:`fa-caret-"
+":guilabel:`Add Custom Group`: Create a :ref:`custom group <search/group>` to "
+"organize data by additional fields. Click the :icon:`fa-caret-"
 "down` :guilabel:`(down arrow)` icon to reveal a drop-down of grouping "
-"options. To select one, click on the desired option, and Odoo adds it to "
-"the :guilabel:`Group By` column. Multiple selections can be made."
+"options. Multiple selections can be made."
 msgstr ""
-":guilabel:`Ajouter un regroupement personnalisé` : cliquer sur l'icône "
-":icon:`fa-caret-down` :guilabel:`(flèche vers le bas)` pour afficher une "
-"liste déroulante d'options de regroupement. Pour en sélectionner une, "
-"cliquer sur l'option souhaitée et Odoo l'ajoute à la colonne "
-":guilabel:`Grouper par`. Plusieurs sélections peuvent être effectuées."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:129
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:119
 msgid "Sample report: event ticket analysis (graph)"
 msgstr "Exemple de rapport : analyse des billets d'événement (graphique)"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:131
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:121
 msgid ""
 "The following is an example of how various filters and grouping options can "
-"create a useful analytic graph report related to event revenues. In this "
-"case, the configurations present data about sold or free tickets to "
-"published events, with the metrics separated by ticket type and event."
+"be used to compare the distributions of paid tickets and free tickets for "
+"published events, organized by ticket type and event."
 msgstr ""
-"Voici un exemple montrant comment divers filtres et options de regroupement "
-"peuvent créer un rapport graphique analytique utile relatif aux revenus "
-"d'événements. Dans ce cas, les configurations présentent des données sur les "
-"billets vendus ou gratuits pour les événements publiés, avec les indicateurs "
-"séparés par type de billet et par événement."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:125
+msgid ""
+"To create this report, navigate to :menuselection:`Events app --> Reporting "
+"--> Revenues`. Stay in the default graph view but remove the default filters "
+"from the search bar."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:128
+msgid ""
+"Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` next to the "
+"search bar. From here, select :guilabel:`Free` and :guilabel:`Sold` from "
+"the :guilabel:`Filters` column."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:131
+msgid ""
+"To view data related **only** to already published events, select "
+"the :guilabel:`Published Events` option in the :guilabel:`Filters` column."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:134
+msgid ""
+"Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
+"and :guilabel:`Ticket` options, **in that order**. Doing so first groups the "
+"data by event, then by ticket type."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:138
+msgid ""
+"The order in which the options are selected in the :guilabel:`Group By` "
+"column directly affects how the data is grouped and displayed on the report."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
 msgid ""
@@ -7148,122 +7081,24 @@ msgstr ""
 "L'exemple de rapport d'analyse des billets d'événement avec des filtres et "
 "regroupements uniques en place."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:139
-msgid ""
-"To create such a report, navigate to :menuselection:`Events app --> "
-"Reporting --> Revenues`. Stay in the default graph view, but remove the "
-"default filters from the search bar."
-msgstr ""
-"Pour créer un tel rapport, aller à :menuselection:`Application "
-"Événements --> Rapports --> Revenus`. Rester dans la vue graphique par "
-"défaut, mais supprimer les filtres par défaut de la barre de recherche."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:142
-msgid ""
-"Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the right "
-"of the search bar, to reveal the drop-down mega menu of filter and grouping "
-"options."
-msgstr ""
-"Cliquer ensuite sur :icon:`fa-caret-down` :guilabel:`(flèche vers le bas)` à "
-"droite de la barre de recherche, pour révéler le menu déroulant des options "
-"de filtrage et de regroupement."
-
 #: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:145
-msgid ""
-"From here, select :guilabel:`Free` and :guilabel:`Sold` from "
-"the :guilabel:`Filters` column."
-msgstr ""
-"Sélectionner ici :guilabel:`Gratuit` et :guilabel:`Vendu` dans la colonne "
-":guilabel:`Filtres`."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:147
-msgid ""
-"Then, since it is desired to **only** view data related to already published "
-"events, select the :guilabel:`Published Events` option in "
-"the :guilabel:`Filters` column, as well."
-msgstr ""
-"Ensuite, puisqu'il est souhaité de **uniquement** afficher les données "
-"relatives aux événements déjà publiés, sélectionner également l'option "
-":guilabel:`Événements publiés` dans la colonne :guilabel:`Filtres`."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:150
-msgid ""
-"Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
-"and :guilabel:`Ticket` options, **in that sequential order**. Doing so first "
-"groups the data by event, *then* by ticket type, which provides a more "
-"useful array of data to analyze."
-msgstr ""
-"Ensuite, dans la colonne :guilabel:`Regrouper par`, sélectionner les options "
-":guilabel:`Événement` et :guilabel:`Billet`, **dans cet ordre séquentiel**. "
-"Cela regroupe d'abord les données par événement, *puis* par type de billet, "
-"ce qui fournit un ensemble de données plus utile à analyser."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:155
-msgid ""
-"The order in which the options are selected in the :guilabel:`Group By` "
-"column directly affects how the data is presented on the report."
-msgstr ""
-"L'ordre dans lequel les options sont sélectionnées dans la colonne "
-":guilabel:`Regrouper par` affecte directement la façon dont les données sont "
-"présentées dans le rapport."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:158
-msgid ""
-"From there, additional configurations can be added for more detailed data, "
-"if desired."
-msgstr ""
-"À partir de là, des configurations supplémentaires peuvent être ajoutées "
-"pour obtenir des données plus détaillées, si souhaité."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:160
-msgid ""
-"If no additional filters or groupings are added, Odoo presents a graphical "
-"representation of data related to all *free* or *sold* tickets for "
-"*published events*, grouped by *event*, and organized by *ticket* type."
-msgstr ""
-"Si aucun filtre ou regroupement supplémentaire n'est ajouté, Odoo présente "
-"une représentation graphique des données relatives à tous les billets "
-"*gratuits* ou *vendus* pour les *événements publiés*, regroupés par "
-"*événement*, et organisés par type de *billet*."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:165
 msgid "Sample report: event type analysis (pivot table)"
 msgstr "Exemple de rapport : analyse par type d'événement (tableau croisé)"
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:167
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:147
 msgid ""
-"The following is an example of how various filters and grouping options can "
-"create a useful analytic pivot table report related to event revenues. In "
-"this case, the configurations present data about how much revenue different "
-"event types have generated, in order to gauge which events are the most "
-"profitable."
+"The following is an example of how to create a report analyzing revenue by "
+"event type to determine which event types are most profitable."
 msgstr ""
-"Voici un exemple de la façon dont divers filtres et options de regroupement "
-"peuvent créer un rapport de tableau croisé analytique utile relatif aux "
-"revenus des événements. Dans ce cas, les configurations présentent des "
-"données sur les revenus générés par différents types d'événements, afin "
-"d'évaluer quels événements sont les plus rentables."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:150
 msgid ""
-"The event type analysis sample report with unique filters and groupings in "
-"place."
-msgstr ""
-"L'exemple de rapport d'analyse par type d'événement avec des filtres et "
-"regroupements uniques en place."
-
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:176
-msgid ""
-"First, navigate to :menuselection:`Events app --> Reporting --> Revenues`, "
-"and switch to the pivot table view, by clicking the :icon:`oi-view-"
+"First, navigate to :menuselection:`Events app --> Reporting --> Revenues` "
+"and switch to the pivot table view by clicking the :icon:`oi-view-"
 "pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
-"D'abord, aller à :menuselection:`Application Événements --> Rapports --> "
-"Revenus`, et passer à la vue tableau croisé, en cliquant sur l'icône "
-":icon:`oi-view-pivot` :guilabel:`(Tableau croisé)` dans le coin supérieur "
-"droit."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:180
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:153
 msgid ""
 "Keep the default filters (:guilabel:`Non-free tickets` and :guilabel:`Event "
 "Start Date: (year)`) in the search bar."
@@ -7272,17 +7107,13 @@ msgstr ""
 ":guilabel:`Date de début de l'événement : (année)`) dans la barre de "
 "recherche."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:183
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:156
 msgid ""
-"Next, open the :guilabel:`Measures` drop-down menu, and deselect the option "
-"for :guilabel:`Count`, because this report is only going to focus on "
-"revenues."
+"Next, open the :guilabel:`Measures` drop-down menu and deselect the option "
+"for :guilabel:`Count` as this report focuses only on revenues."
 msgstr ""
-"Ensuite, ouvrir le menu déroulant :guilabel:`Mesures`, et désélectionner "
-"l'option pour :guilabel:`Nombre`, car ce rapport se concentrera uniquement "
-"sur les revenus."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:186
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:159
 msgid ""
 "Then, click :icon:`fa-plus-square` :guilabel:`Total` above the column "
 "titles, and select :guilabel:`Event Type` from the resulting drop-down menu."
@@ -7291,15 +7122,19 @@ msgstr ""
 "titres de colonne, et sélectionner :guilabel:`Type d'événement` dans le menu "
 "déroulant résultant."
 
-#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:189
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:162
 msgid ""
-"With these configurations in place, all the revenues generated from the "
-"events (and their corresponding registrations) are displayed, organized by "
-"the event type (presented as expandable columns)."
+"With these configurations, all revenues generated from the events and their "
+"corresponding registrations are organized by the event type."
 msgstr ""
-"Avec ces configurations en place, tous les revenus générés par les "
-"événements (et leurs inscriptions correspondantes) sont affichés, organisés "
-"par type d'événement (présentés sous forme de colonnes extensibles)."
+
+#: ../../content/applications/marketing/events/event_reporting/revenues_report.rst:None
+msgid ""
+"The event type analysis sample report with unique filters and groupings in "
+"place."
+msgstr ""
+"L'exemple de rapport d'analyse par type d'événement avec des filtres et "
+"regroupements uniques en place."
 
 #: ../../content/applications/marketing/events/event_setup.rst:6
 msgid "Setup"
@@ -7339,18 +7174,12 @@ msgstr "Tableau de bord"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:18
 msgid ""
-"To create an event, navigate to the :guilabel:`Events app` to land on the "
-"dashboard. By default, the :guilabel:`Events` dashboard uses the :icon:`oi-"
-"view-kanban` :guilabel:`(Kanban)` view, which showcases all events in the "
-"database in their respective pipeline stages. Other views can be set using "
-"the buttons in the upper-right corner."
+"To create an event, navigate to the :menuselection:`Events app` to land on "
+"the dashboard. By default, the :guilabel:`Events` dashboard uses "
+"the :icon:`oi-view-kanban` :guilabel:`(Kanban)` view, which showcases all "
+"events in the database in their respective pipeline stages. Other views can "
+"be set using the buttons at the top."
 msgstr ""
-"Pour créer un événement, accéder à l'application :guilabel:`Événements` pour "
-"arriver sur le tableau de bord. Par défaut, le tableau de bord "
-":guilabel:`Événements` utilise la vue :icon:`oi-view-kanban` :guilabel:`"
-"(Kanban)`, qui présente tous les événements de la base de données dans leurs "
-"étapes de pipeline respectives. D'autres vues peuvent être définies à l'aide "
-"des boutons dans le coin supérieur droit."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:23
 msgid ""
@@ -7365,22 +7194,16 @@ msgstr ""
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:27
 msgid ""
 "The default stages in the :guilabel:`Kanban` view "
-"are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, :guilabel:`Ended`, "
-"and :guilabel:`Cancelled`. The cards can be dragged-and-dropped into any "
-"stage in the pipeline."
+"are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, "
+"and :guilabel:`Ended`. The cards can be dragged and dropped into any stage "
+"in the pipeline."
 msgstr ""
-"Les étapes par défaut dans la vue :guilabel:`Kanban` sont "
-":guilabel:`Nouveau`, :guilabel:`Réservé`, :guilabel:`Annoncé`, "
-":guilabel:`Terminé` et :guilabel:`Annulé`. Les cartes peuvent être glissées-"
-"déposées dans n'importe quelle étape du pipeline."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:32
 msgid ""
-"The :guilabel:`Ended` and :guilabel:`Cancelled` stages are folded by default "
-"and located to the right of the other stages."
+"The :guilabel:`Ended` stage is folded by default and located at the end of "
+"the dashboard, next to the final stage."
 msgstr ""
-"Les étapes :guilabel:`Terminé` et :guilabel:`Annulé` sont repliées par "
-"défaut et situées à droite des autres étapes."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Overview of Events dashboard with the Kanban view in Odoo Events."
@@ -7389,54 +7212,36 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:38
 msgid ""
-"To add a new stage, click the :icon:`fa-plus` :guilabel:`Add Stage` button "
-"on the right, enter a name for the stage, then click :guilabel:`Add`."
+"To add a new stage, click the :icon:`fa-angle-double-right` :guilabel:`Add "
+"Stage` button at the end of the dashboard. Enter a name for the stage, then "
+"click :icon:`fa-check` :guilabel:`(Add)` to add the stage or :icon:`fa-"
+"times` :guilabel:`(Remove)` to cancel."
 msgstr ""
-"Pour ajouter une nouvelle étape, cliquer sur le bouton :icon:`fa-plus` "
-":guilabel:`Ajouter une étape` à droite, saisir un nom pour l'étape, puis "
-"cliquer sur :guilabel:`Ajouter`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:44
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:45
 msgid "Add a new event"
 msgstr "Ajouter un nouvel événement"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:46
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:47
 msgid ""
-"Events can be created by going to the :menuselection:`Events` app, on "
-"the :icon:`oi-view-kanban` :guilabel:`(Kanban)`, :icon:`oi-view-"
-"list` :guilabel:`(List)`, or :icon:`fa-tasks` :guilabel:`(Gantt)` views. "
-"Then, click the :guilabel:`New` button in the upper-left corner of the "
-"dashboard to open up a new event form."
+"Events can be created by opening the :menuselection:`Events app` and "
+"clicking :guilabel:`New`. This opens a new *Events* form."
 msgstr ""
-"Les événements peuvent être créés en accédant à l'application "
-":menuselection:`Événements`, sur les vues :icon:`oi-view-kanban` :guilabel:`"
-"(Kanban)`, :icon:`oi-view-list` :guilabel:`(Liste)` ou :icon:`fa-tasks` "
-":guilabel:`(Gantt)`. Ensuite, cliquer sur le bouton :guilabel:`Nouveau` dans "
-"le coin supérieur gauche du tableau de bord pour ouvrir un nouveau "
-"formulaire d'événement."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical event template in the Odoo Events application."
 msgstr "Modèle d'événement type dans l'application Événements d'Odoo."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:54
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:53
 msgid ""
-"At the top of the event form are a series of smart buttons related to "
-"various event metrics. These auto-populate with data once attendees begin to "
-"register, when booths and sponsors sign on for the event, when the event "
-"takes place, and so on. These smart buttons can be clicked to navigate to "
-"the event's related pages to modify any details and/or perform any desired "
-"actions."
+"At the top of the event form are a series of clickable smart buttons to view "
+"details about event metrics, including attendee registrations, :doc:`booths "
+"<../promote_monetize/event_booths>`, ticket :doc:`sales <../promote_monetize/"
+"sell_tickets>`, event :doc:`tracks <../attendee_experience/event_tracks>`, "
+"and :doc:`sponsors <../promote_monetize/event_sponsors>`."
 msgstr ""
-"En haut du formulaire d'événement se trouve une série de boutons "
-"intelligents liés à diverses métriques d'événement. Ceux-ci se remplissent "
-"automatiquement avec des données une fois que les participants commencent à "
-"s'inscrire, lorsque les stands et les sponsors s'inscrivent pour "
-"l'événement, lorsque l'événement a lieu, etc. Ces boutons intelligents "
-"peuvent être cliqués pour naviguer vers les pages associées de l'événement "
-"afin de modifier les détails et/ou d'effectuer les actions souhaitées."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:59
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:58
 msgid ""
 "Beneath the smart buttons is the event form, which contains various fields "
 "and clickable tabs to configure the necessary details of the event."
@@ -7445,7 +7250,7 @@ msgstr ""
 "contient divers champs et onglets cliquables pour configurer les détails "
 "nécessaires de l'événement."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:62
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:61
 msgid ""
 "To start, enter some basic information about the event in the following "
 "fields:"
@@ -7453,14 +7258,14 @@ msgstr ""
 "Pour commencer, saisir quelques informations de base sur l'événement dans "
 "les champs suivants :"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:64
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:63
 msgid ""
 ":guilabel:`Event Name`: The title of the event. This field is **required**."
 msgstr ""
 ":guilabel:`Nom de l'événement` : Le titre de l'événement. Ce champ est "
 "**obligatoire**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:65
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:64
 msgid ""
 ":guilabel:`Date`: The scheduled date or date range of the event (expressed "
 "in the local timezone). This field is auto-populated but modifiable and is "
@@ -7470,7 +7275,7 @@ msgstr ""
 "(exprimée dans le fuseau horaire local). Ce champ est pré-rempli mais "
 "modifiable et est **obligatoire**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:67
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:66
 msgid ""
 ":guilabel:`Display Timezone`: The timezone in which the event date is "
 "displayed on the website. This field is auto-populated but modifiable and is "
@@ -7480,37 +7285,27 @@ msgstr ""
 "date de l'événement est affichée sur le site web. Ce champ est pré-rempli "
 "mais modifiable et est **obligatoire**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:69
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:68
 msgid ":guilabel:`Language`: The chosen language for all event communications."
 msgstr ""
 ":guilabel:`Langue` : La langue choisie pour toutes les communications de "
 "l'événement."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:72
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:71
 msgid ""
-"To the right of the entered :guilabel:`Event Name`, there is a language "
-"tooltip, represented by an abbreviated language indicator (e.g., `EN`). When "
-"clicked, a :guilabel:`Translate name` pop-up window appears, displaying "
-"various preconfigured language translation options available in the database."
+"Next to the entered :guilabel:`Event Name`, there is a language tooltip, "
+"represented by an abbreviated language indicator (e.g., `EN`). When clicked, "
+"a *Translate: name* pop-up window appears, displaying various preconfigured "
+"language translation options available in the database."
 msgstr ""
-"À droite du :guilabel:`nom de l'événement` saisi, il y a une infobulle de "
-"langue, représentée par un indicateur de langue abrégé (par exemple, `FR`). "
-"Lorsqu'on clique dessus, une fenêtre contextuelle :guilabel:`Traduire le "
-"nom` apparaît, affichant diverses options de traduction linguistique "
-"préconfigurées disponibles dans la base de données."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:77
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:75
 msgid ""
 "Alternatively, to populate the event form from an event template, select an "
-"option in the :guilabel:`Template` drop-down menu. To learn more, see "
-"the :doc:`event_templates` documentation."
+"option in the :doc:`Template <event_templates>` drop-down menu."
 msgstr ""
-"Alternativement, pour remplir le formulaire d'événement à partir d'un modèle "
-"d'événement, sélectionner une option dans le menu déroulant "
-":guilabel:`Modèle`. Pour en savoir plus, consulter la documentation "
-":doc:`event_templates`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:80
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:78
 msgid ""
 "Additionally, add any corresponding tags (e.g., `Online`, `Conference`) for "
 "the event in the :guilabel:`Tags` field. Multiple tags can be added per "
@@ -7520,7 +7315,7 @@ msgstr ""
 "`Conférence`) pour l'événement dans le champ :guilabel:`Étiquettes`. "
 "Plusieurs étiquettes peuvent être ajoutées par événement."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:84
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:82
 msgid ""
 "Tags can be displayed on events that are listed on the website by enabling "
 "the :guilabel:`Show on Website` checkbox from :menuselection:`Events app --> "
@@ -7531,7 +7326,7 @@ msgstr ""
 ":menuselection:`Application Événements --> Configuration --> Catégories "
 "d'étiquettes d'événement`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:87
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:85
 msgid ""
 "Continue by entering information such as points of contact and venue "
 "location in the following fields:"
@@ -7539,7 +7334,7 @@ msgstr ""
 "Continuer en saisissant des informations telles que les points de contact et "
 "le lieu de l'événement dans les champs suivants :"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:90
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:88
 msgid ""
 ":guilabel:`Organizer`: The organizer of the event (a company, contact, or "
 "employee)."
@@ -7547,7 +7342,7 @@ msgstr ""
 ":guilabel:`Organisateur` : l'organisateur de l'événement (une entreprise, un "
 "contact ou un employé)."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:91
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:89
 msgid ""
 ":guilabel:`Responsible`: The specific user responsible for managing the "
 "event in the database."
@@ -7555,7 +7350,7 @@ msgstr ""
 ":guilabel:`Responsable` : l'utilisateur spécifique responsable de la gestion "
 "de l'événement dans la base de données."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:92
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:90
 msgid ""
 ":guilabel:`Company`: The specific company in the database to which the event "
 "is related. This field **only** appears if working in a multi-company "
@@ -7566,21 +7361,40 @@ msgstr ""
 "environnement multi-sociétés. Ce champ est rempli automatiquement mais "
 "modifiable. Il est **obligatoire**."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:95
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:93
 msgid ""
-":guilabel:`Website`: The specific website in the database on which the event "
-"is published. If this field is left blank, the event can be published on "
-"**all** websites in the database. To learn more, refer to the :doc:`Multiple "
-"websites <../../../websites/website/configuration/multi_website>` "
-"documentation."
+":guilabel:`Website`: The specific :doc:`website <../../../websites/website/"
+"configuration/multi_website>` in the database on which the event is "
+"published. If this field is left blank, the event can be published on "
+"**all** websites in the database."
 msgstr ""
-":guilabel:`Site Web` : Le site web spécifique dans la base de données sur "
-"lequel l'événement est publié. Si ce champ est laissé vide, l'événement peut "
-"être publié sur **tous** les sites web de la base de données. Pour en savoir "
-"plus, consulter la documentation :doc:`Sites web multiples <../../../"
-"websites/website/configuration/multi_website>`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:99
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:97
+msgid ""
+":guilabel:`Visibility`: The visibility of the event on the "
+"specified :guilabel:`Website` and in searches. The following options can be "
+"specified:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:100
+msgid ""
+":guilabel:`Public`: The event is searchable and visible to **all** website "
+"visitors."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:101
+msgid ""
+":guilabel:`Via a Link`: The event is visible **only** to visitors with a "
+"direct URL or already-registered participants."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:103
+msgid ""
+":guilabel:`Logged Users`: The event is visible **only** to logged-in "
+"visitors or visitors with a direct URL."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:106
 msgid ""
 ":guilabel:`Venue`: The event venue location. This field pulls information "
 "from the **Contacts** application. Alternatively, the information can be "
@@ -7590,52 +7404,12 @@ msgstr ""
 "informations de l'application **Contacts**. Alternativement, les "
 "informations peuvent être saisies manuellement."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:101
-msgid ""
-":guilabel:`Exhibition Map`: The image of the event venue map. Click "
-"the :guilabel:`Upload your file` button to upload an image of the event "
-"venue map."
-msgstr ""
-":guilabel:`Plan de l'exposition` : l'image du plan du lieu de l'événement. "
-"Cliquer sur le bouton :guilabel:`Téléverser votre fichier` pour téléverser "
-"une image du plan du lieu de l'événement."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:104
-msgid ""
-"To limit the number of registrations for the event, check "
-"the :guilabel:`Limit Registrations` and enter the maximum number of "
-"attendees allowed in the resulting field."
-msgstr ""
-"Pour limiter le nombre d'inscriptions pour l'événement, cocher "
-":guilabel:`Limiter les inscriptions` et saisir le nombre maximum de "
-"participants autorisés dans le champ qui apparaît."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:107
-msgid ""
-"Optionally, to create event badges for attendees, fill in the following "
-"fields:"
-msgstr ""
-"En option, pour créer des badges d'événement pour les participants, remplir "
-"les champs suivants :"
-
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:109
 msgid ""
-":guilabel:`Badge Dimension`: The desired paper format dimension for the "
-"badges. The options are :guilabel:`A4 foldable`, :guilabel:`A6`, "
-"or :guilabel:`4 per sheet`."
+"To limit the number of registrations for the event, select :guilabel:`Limit "
+"Registrations` and enter the maximum number of attendees allowed in the "
+"resulting field."
 msgstr ""
-":guilabel:`Dimension du badge` : le format de papier souhaité pour les "
-"badges. Les options sont :guilabel:`A4 pliable`, :guilabel:`A6` ou "
-":guilabel:`4 par feuille`."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:111
-msgid ""
-":guilabel:`Badge Background`: The custom background image for the badges. "
-"Click the :guilabel:`Upload your file` button to upload an image."
-msgstr ""
-":guilabel:`Arrière-plan du badge` : l'image d'arrière-plan personnalisée "
-"pour les badges. Cliquer sur le bouton :guilabel:`Téléverser votre fichier` "
-"pour téléverser une image."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:115
 msgid "Additional event configurations"
@@ -7655,12 +7429,9 @@ msgstr "Onglet billets"
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:125
 msgid ""
-"In the :guilabel:`Tickets` tab of the event form, create custom registration "
-"tickets and ticket tiers for events."
+"In the *Tickets* tab of the event form, create custom registration tickets "
+"and ticket tiers for events."
 msgstr ""
-"Dans l'onglet :guilabel:`Billets` du formulaire d'événement, créer des "
-"billets d'inscription personnalisés et des catégories de billets pour les "
-"événements."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "A typical tickets tab on an event form in the Odoo Events application."
@@ -7670,152 +7441,102 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:131
 msgid ""
-"To create a ticket, click :guilabel:`Add a line` in the :guilabel:`Tickets` "
-"tab. In the :guilabel:`Product` field, either select the "
+"To create a ticket, click :guilabel:`Add a line` in the *Tickets* tab. In "
+"the :guilabel:`Product` field, either select the "
 "preconfigured :guilabel:`Event Registration` product, or create a new one by "
 "typing in the name of the new event registration product and then selecting "
 "either :guilabel:`Create` or :guilabel:`Create and edit...` from the "
-"resulting drop-down menu. Then, enter a name for the ticket (e.g. `Basic "
-"Ticket` or `VIP`) in the :guilabel:`Name` field."
+"resulting drop-down menu."
 msgstr ""
-"Pour créer un billet, cliquer sur :guilabel:`Ajouter une ligne` dans "
-"l'onglet :guilabel:`Billets`. Dans le champ :guilabel:`Article`, soit "
-"sélectionner l'article préconfiguré :guilabel:`Inscription à un événement`, "
-"soit en créer un nouveau en saisissant le nom du nouvel article "
-"d'inscription à un événement, puis en sélectionnant soit :guilabel:`Créer`, "
-"soit :guilabel:`Créer et modifier...` dans le menu déroulant qui apparaît. "
-"Ensuite, saisir un nom pour le billet (par exemple, `Billet basique` ou "
-"`VIP`) dans le champ :guilabel:`Nom`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:138
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:136
 msgid ""
-"In order for an event registration product to be selectable in "
-"the :guilabel:`Tickets` tab, the event registration :guilabel:`Product Type` "
-"**must** be set to :guilabel:`Service` and the :guilabel:`Create on Order` "
-"field **must** be set to :guilabel:`Event Registration`."
+"Then, enter a name for the ticket (e.g., `Basic Ticket` or `VIP`) in "
+"the :guilabel:`Name` field."
 msgstr ""
-"Pour qu'un article d'inscription à un événement soit sélectionnable dans "
-"l'onglet :guilabel:`Billets`, le :guilabel:`type d'article` d'inscription à "
-"un événement **doit** être défini sur :guilabel:`Service` et le champ "
-":guilabel:`Créer à la commande` **doit** être défini sur "
-":guilabel:`Inscription à un événement`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:143
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:139
 msgid ""
-"Existing event registration products can be modified directly from this "
-"field as well by clicking the :icon:`oi-arrow-right` :guilabel:`(right "
-"arrow)` icon located beside the event registration product. Doing so reveals "
+"In order for an event registration product to be selectable in the *Tickets* "
+"tab, the event registration :guilabel:`Product Type` **must** be set "
+"to :guilabel:`Service` and the :guilabel:`Create on Order` field **must** be "
+"set to :guilabel:`Event Registration`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:144
+msgid ""
+"Existing event registration products can be modified directly from "
+"the :guilabel:`Product` field by clicking the :icon:`oi-arrow-"
+"right` :guilabel:`(right arrow)` icon next to the product. Doing so reveals "
 "that product's form. If the **Inventory** application is installed, "
 "additional choices are available to customize for the product."
 msgstr ""
-"Les articles d'inscription à un événement existants peuvent également être "
-"modifiés directement depuis ce champ en cliquant sur l'icône :icon:`oi-arrow-"
-"right` :guilabel:`(flèche droite)` située à côté de l'article d'inscription "
-"à un événement. Cela fait apparaître le formulaire de cet article. Si "
-"l'application **Inventaire** est installée, des choix supplémentaires sont "
-"disponibles pour personnaliser l'article."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:148
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:149
 msgid ""
 "Next, set the registration cost of the ticket in the :guilabel:`Price` field."
 msgstr ""
 "Ensuite, définir le coût d'inscription du billet dans le champ "
 ":guilabel:`Price`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:151
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:152
 msgid ""
-"The :guilabel:`Sales Price` defined on the event registration product's "
-"product form sets the default cost of a ticket. Modifying "
-"the :guilabel:`Price` of a ticket in the :guilabel:`Tickets` tab sets a new "
-"registration cost of the ticket for that event."
+"The :guilabel:`Sales Price` defined on the event registration product's form "
+"sets the default cost of a ticket. Modifying the :guilabel:`Price` of the "
+"event ticket in the *Tickets* tab overrides the ticket's default price with "
+"this new price."
 msgstr ""
-"Le :guilabel:`Prix de vente` défini sur la fiche produit du produit "
-"d'inscription à l'événement définit le coût par défaut d'un billet. Modifier "
-"le :guilabel:`Prix` d'un billet dans l'onglet :guilabel:`Billets` définit un "
-"nouveau coût d'inscription du billet pour cet événement."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:155
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:156
 msgid ""
 "Next, enter the :guilabel:`Sales Start` and :guilabel:`Sales End` dates in "
-"their respective fields. To do that, click into the blank field to reveal a "
-"calendar pop-over. From there, select the desired date and time, then "
+"their respective fields. To do so, click into the blank field to reveal a "
+"calendar pop-over. Then, select the desired date and time and "
 "click :icon:`fa-check` :guilabel:`Apply`."
 msgstr ""
-"Ensuite, saisir les dates de :guilabel:`Début des ventes` et de "
-":guilabel:`Fin des ventes` dans leurs champs respectifs. Pour ce faire, "
-"cliquer dans le champ vide pour afficher un calendrier contextuel. De là, "
-"sélectionner la date et l'heure souhaitées, puis cliquer sur :icon:`fa-"
-"check` :guilabel:`Appliquer`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:159
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:160
 msgid ""
-"Then, if desired, designate a :guilabel:`Maximum` amount of that specific "
-"ticket that can be sold."
+"Optionally, designate a :guilabel:`Maximum` amount of the ticket that can be "
+"sold."
 msgstr ""
-"Puis, si souhaité, désigner un montant :guilabel:`Maximum` de ce billet "
-"spécifique pouvant être vendu."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:161
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:162
 msgid ""
-"The :guilabel:`Registration` column populates with the number of tickets "
-"that are sold."
+"As attendees register, the :guilabel:`Registration` column automatically "
+"populates with the number of tickets sold."
 msgstr ""
-"La colonne :guilabel:`Inscription` se remplit avec le nombre de billets "
-"vendus."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:163
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:165
 msgid ""
-"To delete any tickets from the :guilabel:`Tickets` tab, click the :icon:`fa-"
-"trash-o` :guilabel:`(trash can)` icon at the right in the corresponding line "
-"for the ticket that should be deleted."
+"To delete any tickets from the *Tickets* tab, click the :icon:`fa-trash-"
+"o` :guilabel:`(trash can)` icon in the ticket's corresponding line."
 msgstr ""
-"Pour supprimer des billets de l'onglet :guilabel:`Billets`, cliquer sur "
-"l'icône :icon:`fa-trash-o` :guilabel:`(corbeille)` à droite sur la ligne "
-"correspondant au billet à supprimer."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:168
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:169
 msgid ""
-"To add an optional :guilabel:`Description` column to the :guilabel:`Tickets` "
-"tab, click the :icon:`oi-settings-adjust` :guilabel:`(additional options)` "
-"drop-down menu, located to the far-right of the column titles."
+"To add an optional :guilabel:`Description` column to the *Tickets* tab, "
+"click the :icon:`oi-settings-adjust` :guilabel:`(additional options)` drop-"
+"down menu at the end of the column titles."
 msgstr ""
-"Pour ajouter une colonne :guilabel:`Description` optionnelle à l'onglet "
-":guilabel:`Tickets`, cliquer sur le menu déroulant :icon:`oi-settings-"
-"adjust` :guilabel:`(additional options)`, situé à l'extrême droite des "
-"titres de colonnes."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:172
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:173
 msgid ""
-"Then, tick the checkbox beside :guilabel:`Description` from the resulting "
-"drop-down menu."
+"Then, select the checkbox beside :guilabel:`Description` to add a brief "
+"description for each event ticket, informing registrants about ticket "
+"details."
 msgstr ""
-"Ensuite, cocher la case à côté de :guilabel:`Description` dans le menu "
-"déroulant résultant."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:174
-msgid ""
-"When added, the option to add brief descriptions for each event ticket "
-"appears, which can be used to inform attendees of any perks or amenities "
-"that may coincide with specific ticket purchases."
-msgstr ""
-"Lorsqu'elle est ajoutée, l'option permettant d'ajouter de brèves "
-"descriptions pour chaque billet d'événement apparaît, ce qui peut être "
-"utilisé pour informer les participants de tout avantage ou commodité pouvant "
-"coïncider avec des achats de billets spécifiques."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:180
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:179
 msgid "Communication tab"
 msgstr "Onglet communication"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:182
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:181
 msgid ""
-"In the :guilabel:`Communication` tab of an event form, create various "
-"marketing communications that can be scheduled to be sent at specific "
-"intervals leading up to and following the event."
+"In the *Communication* tab of an event form, create various marketing "
+"communications that can be scheduled to be sent at specific intervals "
+"leading up to and following the event."
 msgstr ""
-"Dans l'onglet :guilabel:`Communication` d'une fiche événement, créer "
-"diverses communications marketing pouvant être programmées pour être "
-"envoyées à des intervalles spécifiques avant et après l'événement."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid ""
@@ -7824,7 +7545,7 @@ msgstr ""
 "Onglet communication typique sur un formulaire d'événement dans "
 "l'application Événements d'Odoo."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:189
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:188
 msgid ""
 "By default, Odoo provides three separate preconfigured communications on "
 "every new event form. One is an email sent after each registration to "
@@ -7839,21 +7560,16 @@ msgstr ""
 "différents intervalles avant l'événement pour rappeler au destinataire "
 "l'événement à venir."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:194
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:193
 msgid ""
-"To add a communication in the :guilabel:`Communication` tab, "
-"click :guilabel:`Add a line`. Then, select the desired type of communication "
-"from the first drop-down menu on the :guilabel:`Template` field. The options "
+"To add a communication in the *Communication* tab, click :guilabel:`Add a "
+"line`. Then, select the desired type of communication from the first drop-"
+"down menu in the :guilabel:`Template` column. The options "
 "are: :guilabel:`Mail`, :guilabel:`SMS`, :guilabel:`Social Post`, "
 "or :guilabel:`WhatsApp`."
 msgstr ""
-"Pour ajouter une communication dans l'onglet :guilabel:`Communication`, "
-"cliquer sur :guilabel:`Ajouter une ligne`. Ensuite, sélectionner le type de "
-"communication souhaité dans le premier menu déroulant du champ "
-":guilabel:`Modèle`. Les options sont : :guilabel:`Mail`, :guilabel:`SMS`, "
-":guilabel:`Publication sociale`, ou :guilabel:`WhatsApp`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:200
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:198
 msgid ""
 "The :guilabel:`Social Post` option only appears if the **Social Marketing** "
 "application is installed. The :guilabel:`WhatsApp` option only appears if "
@@ -7863,7 +7579,7 @@ msgstr ""
 "**Marketing social** est installée. L'option :guilabel:`WhatsApp` n'apparaît "
 "que si le module **WhatsApp** est installé."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:203
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:201
 msgid ""
 ":doc:`WhatsApp <../../../productivity/whatsapp>` templates **cannot** be "
 "edited during active configuration. A separate approval from *Meta* is "
@@ -7873,7 +7589,7 @@ msgstr ""
 "pas** être modifiés pendant la configuration active. Une approbation séparée "
 "de *Meta* est requise."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:206
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:204
 msgid ""
 "Then, select an existing email template from the second drop-down menu on "
 "the :guilabel:`Template` field."
@@ -7881,134 +7597,119 @@ msgstr ""
 "Ensuite, sélectionner un modèle d'e-mail existant dans le deuxième menu "
 "déroulant du champ :guilabel:`Modèle`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:209
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:207
 msgid ""
 "Next, define the :guilabel:`Interval` and :guilabel:`Unit` from their "
-"respective drop-down fields, letting Odoo know when the communication should "
-"be sent. The :guilabel:`Unit` options "
+"respective drop-down fields to specify when the communication should be "
+"sent. The :guilabel:`Unit` options "
 "are: :guilabel:`Immediately`, :guilabel:`Hours`, :guilabel:`Days`, :guilabel:`Weeks`, "
 "and :guilabel:`Months`."
 msgstr ""
-"Ensuite, définir l':guilabel:`Intervalle` et l':guilabel:`Unité` à partir de "
-"leurs champs déroulants respectifs, indiquant à Odoo quand la communication "
-"doit être envoyée. Les options d':guilabel:`Unité` sont : "
-":guilabel:`Immédiatement`, :guilabel:`Heures`, :guilabel:`Jours`, "
-":guilabel:`Semaines`, et :guilabel:`Mois`."
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:212
+msgid ""
+"Then, select one of the following options from the :guilabel:`Trigger` drop-"
+"down menu:"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:214
-msgid ""
-"Then, select an option from the :guilabel:`Trigger` drop-down menu. The "
-"options are: :guilabel:`After each registration`, :guilabel:`Before the "
-"event`, and :guilabel:`After the event`."
+msgid ":guilabel:`After each registration`"
 msgstr ""
-"Ensuite, sélectionner une option dans le menu déroulant "
-":guilabel:`Déclencheur`. Les options sont : :guilabel:`Après chaque "
-"inscription`, :guilabel:`Avant l'événement` et :guilabel:`Après l'événement`."
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:215
+msgid ":guilabel:`Before the event starts`"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:216
+msgid ":guilabel:`After the event started`"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:217
-msgid ""
-"The :guilabel:`Sent` column populates with the number of sent "
-"communications. Next to the number are different icons that appear, "
-"depending on the status of that particular communication. The *Running* "
-"status is represented by a :icon:`fa-cogs` :guilabel:`(three gears)` icon. "
-"The *Sent* status is represented by a :icon:`fa-"
-"check` :guilabel:`(checkmark)` icon. And, the *Scheduled* status is "
-"represented by an :icon:`fa-hourglass-half` :guilabel:`(hourglass)` icon."
+msgid ":guilabel:`After the event ended`"
 msgstr ""
-"La colonne :guilabel:`Envoyé` se remplit avec le nombre de communications "
-"envoyées. À côté du nombre apparaissent différentes icônes, selon le statut "
-"de cette communication particulière. Le statut *En cours* est représenté par "
-"une icône :icon:`fa-cogs` :guilabel:`(trois engrenages)`. Le statut *Envoyé* "
-"est représenté par une icône :icon:`fa-check` :guilabel:`(coche)`. Et le "
-"statut *Programmé* est représenté par une icône :icon:`fa-hourglass-half` "
-":guilabel:`(sablier)`."
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:218
+msgid ":guilabel:`Before the event ends`"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:220
+msgid ""
+"The :guilabel:`(#) Sent` column populates with the number of sent "
+"communications, along with different icons indicating the status of the "
+"communication:"
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:223
 msgid ""
-"Any number of communications can be added in the :guilabel:`Communication` "
-"tab of an event form."
+":icon:`fa-cogs` :guilabel:`(Running)`: The communication is active and "
+"running."
 msgstr ""
-"Un nombre quelconque de communications peut être ajouté dans l'onglet "
-":guilabel:`Communication` d'une fiche événement."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:226
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:224
+msgid ""
+":icon:`fa-check` :guilabel:`(Sent)`: The communications were sent and are no "
+"longer active."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:225
+msgid ""
+":icon:`fa-hourglass-half` :guilabel:`(Scheduled)`: The communication is "
+"scheduled but has not been deployed."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:228
+msgid ""
+"Any number of communications can be added in the *Communication* tab of an "
+"event form."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:231
 msgid ""
 "To send a confirmation email an hour after an attendee registers for an "
-"event, configure the following communication:"
+"event, configure the communication as follows:"
 msgstr ""
-"Pour envoyer un e-mail de confirmation une heure après l'inscription d'un "
-"participant à un événement, configurer la communication suivante :"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:229
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:234
 msgid ":guilabel:`Interval`: `1`"
 msgstr ":guilabel:`Intervalle` : `1`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:230
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:235
 msgid ":guilabel:`Unit`: :guilabel:`Hours`"
 msgstr ":guilabel:`Unité` : :guilabel:`Heures`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:231
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:236
 msgid ":guilabel:`Trigger`: :guilabel:`After each registration`"
 msgstr ":guilabel:`Déclencheur` : :guilabel:`Après chaque inscription`"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:234
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:239
 msgid ""
 "Existing email templates can be modified directly from "
-"the :guilabel:`Template` drop-down menu, if necessary, by clicking "
-"the :icon:`oi-arrow-right` :guilabel:`(Internal link)` icon next to the "
-"template name. Doing so reveals a separate page where users can edit "
+"the :guilabel:`Template` drop-down menu, by clicking the :icon:`oi-arrow-"
+"right` :guilabel:`(Internal link)` icon next to the template name. Doing so "
+"reveals a separate page where users can edit "
 "the :guilabel:`Content`, :guilabel:`Email Configuration`, "
 "and :guilabel:`Settings` of that particular email template."
 msgstr ""
-"Les modèles d'e-mails existants peuvent être modifiés directement depuis le "
-"menu déroulant :guilabel:`Modèle`, si nécessaire, en cliquant sur l'icône "
-":icon:`oi-arrow-right` :guilabel:`(Lien interne)` à côté du nom du modèle. "
-"Cela affiche une page distincte où les utilisateurs peuvent modifier le "
-":guilabel:`Contenu`, la :guilabel:`Configuration de l'e-mail`, et les "
-":guilabel:`Paramètres` de ce modèle d'e-mail particulier."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:239
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:244
 msgid ""
 "To view and manage all email templates, activate :ref:`developer-mode` and "
 "navigate to :menuselection:`Settings --> Technical --> Email: Email "
-"Templates`. Modify with caution as email templates effect all communications "
+"Templates`. Modify with caution as email templates affect all communications "
 "where the template is used."
 msgstr ""
-"Pour afficher et gérer tous les modèles d'e-mail, activer :ref:`developer-"
-"mode` et aller à :menuselection:`Paramètres --> Technique --> E-mail : "
-"Modèles d'e-mail`. Modifier avec prudence car les modèles d'e-mail affectent "
-"toutes les communications où le modèle est utilisé."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:246
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:251
 #: ../../content/applications/marketing/surveys/create.rst:50
 #: ../../content/applications/marketing/surveys/questions.rst:20
 msgid "Questions tab"
 msgstr "Onglet Questions"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:248
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:253
 msgid ""
-"In the :guilabel:`Questions` tab of an event form, users can create brief "
-"questionnaires for registrants to interact with, and respond to, after they "
-"register for the event."
+"In the *Questions* tab of an event form, users can create questionnaires to "
+"gather information from attendees when registering for the event."
 msgstr ""
-"Dans l'onglet :guilabel:`Questions` d'un formulaire d'événement, les "
-"utilisateurs peuvent créer de brefs questionnaires avec lesquels les "
-"inscrits peuvent interagir et auxquels ils peuvent répondre après leur "
-"inscription à l'événement."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:251
-msgid ""
-"These questions can be focused on gathering basic information about the "
-"attendee, learning about their preferences, expectations, and other things "
-"of that nature. This information can also be used to create more detailed "
-"reporting metrics, in addition to being utilized to create specific lead "
-"generation rules."
-msgstr ""
-"Ces questions peuvent porter sur la collecte d'informations de base sur le "
-"participant, la connaissance de ses préférences, de ses attentes et d'autres "
-"choses de cette nature. Ces informations peuvent également être utilisées "
-"pour créer des statistiques de reporting plus détaillées, en plus d'être "
-"utilisées pour créer des règles spécifiques de génération de prospects."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical questions tab on an event form in the Odoo Events application."
@@ -8018,40 +7719,28 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:260
 msgid ""
-"By default, Odoo provides three questions in the :guilabel:`Questions` tab "
-"for every event form. The default questions require one or more registrants "
-"to provide their :guilabel:`Name`, :guilabel:`Email`, and an "
-"optional :guilabel:`Phone` number as well."
+"By default, Odoo provides three questions in the *Questions* tab for every "
+"event form. The default questions require registrants to provide "
+"their :guilabel:`Name`, :guilabel:`Email`, and an optional :guilabel:`Phone` "
+"number."
 msgstr ""
-"Par défaut, Odoo fournit trois questions dans l'onglet :guilabel:`Questions` "
-"pour chaque fiche événement. Les questions par défaut exigent qu'un ou "
-"plusieurs inscrits fournissent leur :guilabel:`Nom`, leur :guilabel:`E-"
-"mail`, et un numéro de :guilabel:`Téléphone` optionnel également."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:264
 msgid ""
-"The information gathered from the :guilabel:`Questions` tab can be found on "
-"the :guilabel:`Attendees` dashboard, accessible via the :icon:`fa-"
+"The information gathered from the *Questions* tab can be found on the "
+"*Attendees* dashboard, accessible via the :icon:`fa-"
 "users` :guilabel:`Attendees` smart button. Odoo populates individual records "
 "that contain basic information about the registrants, as well as their "
 "preferences."
 msgstr ""
-"Les informations collectées dans l'onglet :guilabel:`Questions` se trouvent "
-"sur le tableau de bord :guilabel:`Participants`, accessible via le bouton "
-"intelligent :icon:`fa-users` :guilabel:`Participants`. Odoo remplit des "
-"fiches individuelles contenant des informations de base sur les inscrits, "
-"ainsi que leurs préférences."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:269
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:268
 msgid ""
-"To add a question in the :guilabel:`Questions` tab, click :guilabel:`Add a "
-"line`. Doing so reveals a :guilabel:`Create Question` pop-up window. From "
-"here, users can create and configure their question."
+"To add a question in the *Questions* tab, click :guilabel:`Add a line`. "
+"Doing so reveals an *Add: Question* pop-up window. From here, users can "
+"select previously configured questions or click :guilabel:`New` to create a "
+"new one. Doing so opens a new *Create Question* pop-up window."
 msgstr ""
-"Pour ajouter une question dans l'onglet :guilabel:`Questions`, cliquer sur "
-":guilabel:`Ajouter une ligne`. Cette action fait apparaître une fenêtre "
-"contextuelle :guilabel:`Créer une question`. À partir de là, les "
-"utilisateurs peuvent créer et configurer leur question."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid ""
@@ -8063,35 +7752,15 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:275
 msgid ""
-"First, enter the question in the field at the top of the form. Then, decide "
-"if the question should require a :guilabel:`Mandatory Answer` and/or if Odoo "
-"should :guilabel:`Ask once per order`, by ticking their respective boxes, if "
-"desired."
+"First, enter the question in the field at the top of the form. Then, specify "
+"if the question requires a :guilabel:`Mandatory Answer`."
 msgstr ""
-"D'abord, saisir la question dans le champ en haut du formulaire. Ensuite, "
-"décider si la question doit nécessiter une :guilabel:`Réponse obligatoire` "
-"et/ou si Odoo doit :guilabel:`Demander une fois par commande`, en cochant "
-"leurs cases respectives, si souhaité."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:279
-msgid ""
-"If the :guilabel:`Ask once per order` checkbox is ticked, the question will "
-"only be asked once, and its value is applied to every attendee in the order "
-"(if multiple tickets are purchased at once). If the checkbox is **not** "
-"ticked for this setting, Odoo presents the question for every attendee that "
-"is connected to that registration."
-msgstr ""
-"Si la case :guilabel:`Demander une fois par commande` est cochée, la "
-"question ne sera posée qu'une seule fois, et sa valeur est appliquée à "
-"chaque participant de la commande (si plusieurs billets sont achetés en une "
-"fois). Si la case n'est **pas** cochée pour ce paramètre, Odoo présente la "
-"question pour chaque participant connecté à cette inscription."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:284
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:278
 msgid "Next, select a :guilabel:`Question Type` option:"
 msgstr "Ensuite, sélectionner une option :guilabel:`Type de question` :"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:286
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:280
 msgid ""
 ":guilabel:`Selection`: Provide answer options to the question for "
 "registrants to choose from. Selectable answer options can be managed in "
@@ -8102,7 +7771,7 @@ msgstr ""
 "être gérées dans la colonne :guilabel:`Réponses` en bas de la fenêtre "
 "contextuelle."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:289
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:283
 msgid ""
 ":guilabel:`Text Input`: Lets the users enter a custom response to the "
 "question in a text field."
@@ -8110,7 +7779,7 @@ msgstr ""
 ":guilabel:`Saisie de texte` : permet aux utilisateurs de saisir une réponse "
 "personnalisée à la question dans un champ de texte."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:290
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:284
 msgid ""
 ":guilabel:`Name`: Provides registrants with a field for them to enter their "
 "name."
@@ -8118,7 +7787,7 @@ msgstr ""
 ":guilabel:`Nom` : fournit aux inscrits un champ pour qu'ils saisissent leur "
 "nom."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:291
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:285
 msgid ""
 ":guilabel:`Email`: Provides registrants with a field for them to enter their "
 "email address."
@@ -8126,7 +7795,7 @@ msgstr ""
 ":guilabel:`E-mail` : fournit aux inscrits un champ pour qu'ils saisissent "
 "leur adresse e-mail."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:292
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:286
 msgid ""
 ":guilabel:`Phone`: Provides registrants with a field for them to enter their "
 "phone number."
@@ -8134,7 +7803,7 @@ msgstr ""
 ":guilabel:`Téléphone` : Fournit aux participants un champ pour saisir leur "
 "numéro de téléphone."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:293
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:287
 msgid ""
 ":guilabel:`Company`: Provides registrants with a field for them to enter a "
 "company they are associated with."
@@ -8142,55 +7811,52 @@ msgstr ""
 ":guilabel:`Société` : Fournit aux participants un champ pour saisir une "
 "société à laquelle ils sont associés."
 
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:290
+msgid ""
+"Additionally, select one or more of the following options to configure the "
+"question's visibility and extendability:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:293
+msgid ""
+":guilabel:`Ask once per order`: Ask this question only once for each "
+"registration, applying the answer to every attendee in the order (if "
+"multiple tickets are purchased at once)."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:295
+msgid ""
+":guilabel:`Default question`: Automatically add this question for all new "
+"events."
+msgstr ""
+
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:296
 msgid ""
-"Once all the desired configurations have been entered, either "
-"click :guilabel:`Save & Close` to save the question, and return to "
-"the :guilabel:`Questions` tab on the event form, or click :guilabel:`Save & "
-"New` to save the question and immediately create a new question on a "
-"new :guilabel:`Create Question` pop-up window."
+":guilabel:`Is Reusable`: Allow this question to be reusable for all new "
+"events. If :guilabel:`Default question` is selected, this option is "
+"automatically enabled."
 msgstr ""
-"Une fois toutes les configurations souhaitées saisies, cliquer sur "
-":guilabel:`Enregistrer et fermer` pour enregistrer la question et revenir à "
-"l'onglet :guilabel:`Questions` du formulaire d'événement, ou cliquer sur "
-":guilabel:`Enregistrer et nouveau` pour enregistrer la question et créer "
-"immédiatement une nouvelle question sur une nouvelle fenêtre contextuelle "
-":guilabel:`Créer une question`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:301
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:299
 msgid ""
-"As questions are added to the :guilabel:`Questions` tab, the informative "
-"columns showcase the configurations of each question."
+"If :guilabel:`Selection` was chosen as the :guilabel:`Question Type`, an "
+"*Answers* tab appears. Add any answers to the question under this tab by "
+"clicking :guilabel:`Add a line`."
 msgstr ""
-"Au fur et à mesure que des questions sont ajoutées à l'onglet "
-":guilabel:`Questions`, les colonnes informatives affichent les "
-"configurations de chaque question."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:304
-msgid "The informative columns are the following:"
-msgstr "Les colonnes informatives sont les suivantes :"
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:302
+msgid ""
+"Once all the desired configurations have been entered, click :guilabel:`Save "
+"& Close` to save the question and return to the *Questions* tab on the event "
+"form. Or, click :guilabel:`Save & New` to save the question and configure "
+"another. To cancel, click :guilabel:`Discard`."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:306
-msgid ":guilabel:`Title`"
-msgstr ":guilabel:`Titre`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:307
-msgid ":guilabel:`Mandatory`"
-msgstr ":guilabel:`Obligatoire`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:308
-msgid ":guilabel:`Once per Order`"
-msgstr ":guilabel:`Une fois par commande`"
+msgid "Users can add as many questions in the *Questions* tab as needed."
+msgstr ""
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:309
-msgid ":guilabel:`Type`"
-msgstr ":guilabel:`Type`"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:310
-msgid ":guilabel:`Answers` (if applicable)"
-msgstr ":guilabel:`Réponses` (si applicable)"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:312
 msgid ""
 "For :guilabel:`Selection` and :guilabel:`Text Input` types, a :icon:`fa-bar-"
 "chart` :guilabel:`Stats` button appears on the right side of the question "
@@ -8203,35 +7869,14 @@ msgstr ""
 "les métriques de réponse à cette question spécifique."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:316
-msgid ""
-"To delete any question from the :guilabel:`Questions` tab, click "
-"the :icon:`fa-trash-o` :guilabel:`(trash can)` icon on the corresponding "
-"question line."
+msgid "Notes & Documents tab"
 msgstr ""
-"Pour supprimer une question de l'onglet :guilabel:`Questions`, cliquer sur "
-"l'icône :icon:`fa-trash-o` :guilabel:`(corbeille)` sur la ligne de question "
-"correspondante."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:319
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:318
 msgid ""
-"Any number of questions can be added in the :guilabel:`Questions` tab of an "
-"event form."
+"In the *Notes & Documents* tab of an event form, users can leave detailed "
+"internal notes and event-related instructions or information for attendees."
 msgstr ""
-"Un nombre illimité de questions peut être ajouté dans l'onglet "
-":guilabel:`Questions` d'un formulaire d'événement."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:324
-msgid "Notes tab"
-msgstr "Onglet notes"
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:326
-msgid ""
-"In the :guilabel:`Notes` tab of an event form, users can leave detailed "
-"internal notes and/or event-related instructions/information for attendees."
-msgstr ""
-"Dans l'onglet :guilabel:`Notes` d'un formulaire d'événement, les "
-"utilisateurs peuvent laisser des notes internes détaillées et/ou des "
-"instructions/informations liées à l'événement pour les participants."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:None
 msgid "Typical notes tab on an event form in the Odoo Events application."
@@ -8239,59 +7884,66 @@ msgstr ""
 "Onglet notes typique sur un formulaire d'événement dans l'application "
 "Événements d'Odoo."
 
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:324
+msgid ""
+"For in-person events, users can specify the venue map and attendee badge "
+"details in the following fields:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:327
+msgid ""
+":guilabel:`Exhibition Map`: Upload an image of the event venue map. Do so by "
+"clicking :guilabel:`Upload your file`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:329
+msgid ""
+":guilabel:`Badge Dimension`: Select the desired paper format dimension for "
+"attendees' event badges. The options are :guilabel:`A4 "
+"foldable`, :guilabel:`A6`, :guilabel:`4 per sheet`, and :guilabel:`96x82mm "
+"(Badge Printer)`."
+msgstr ""
+
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:332
 msgid ""
-"In the :guilabel:`Note` field of the :guilabel:`Notes` tab, users can leave "
-"internal notes for other event employees, like \"to-do\" lists, contact "
-"information, instructions, and so on."
+":guilabel:`Badge Background`: Upload an image of the custom background image "
+"for the badge. Do so by clicking :guilabel:`Upload your file`."
 msgstr ""
-"Dans le champ :guilabel:`Note` de l'onglet :guilabel:`Notes`, les "
-"utilisateurs peuvent laisser des notes internes pour d'autres employés "
-"travaillant sur l'événement, comme des listes de tâches, des coordonnées, "
-"des instructions, etc."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:335
 msgid ""
-"In the :guilabel:`Ticket Instructions` field of the :guilabel:`Notes` tab, "
-"users can leave specific instructions for people attending the event that "
-"appear on the attendees ticket."
+"In the :guilabel:`Ticket Instructions` field, users can leave specific "
+"instructions for attendees and display them on attendees' tickets."
 msgstr ""
-"Dans le champ :guilabel:`Instructions du billet` de l'onglet "
-":guilabel:`Notes`, les utilisateurs peuvent laisser des instructions "
-"spécifiques pour les personnes assistant à l'événement qui apparaîtront sur "
-"le billet des participants."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:339
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:338
+msgid ""
+"In the :guilabel:`Note` field, users can leave internal notes for other "
+"event employees, such as \"to-do\" lists, contact information, instructions, "
+"and so on."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:344
 msgid "Publish events"
 msgstr "Publier des événements"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:341
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:346
 msgid ""
-"Once all configurations and modifications are complete on the event form, it "
-"is time to publish the event on the website. Doing so makes the event "
-"visible to website visitors, and makes it possible for people to register "
-"for the event."
+"Once all configurations and modifications are complete on the event form, "
+"the event can be published on the website. Doing so makes the event visible "
+"to website visitors and allows them to register for the event."
 msgstr ""
-"Une fois toutes les configurations et modifications terminées sur le "
-"formulaire d'événement, il est temps de publier l'événement sur le site web. "
-"Cela rend l'événement visible aux visiteurs du site et permet aux personnes "
-"de s'inscrire à l'événement."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:345
-msgid ""
-"To publish an event after all the customizations are complete, click "
-"the :icon:`fa-globe` :guilabel:`Go to Website` smart button at the top of "
-"the event form. Doing so reveals the event's web page, which can be "
-"customized like any other web page on the site, via the :guilabel:`Edit` "
-"button."
-msgstr ""
-"Pour publier un événement après avoir terminé toutes les personnalisations, "
-"cliquer sur le bouton intelligent :icon:`fa-globe` :guilabel:`Aller au site "
-"web` en haut du formulaire d'événement. Cela affiche la page web de "
-"l'événement, qui peut être personnalisée comme n'importe quelle autre page "
-"du site, via le bouton :guilabel:`Modifier`."
 
 #: ../../content/applications/marketing/events/event_setup/create_events.rst:350
+msgid ""
+"To publish an event, click the :icon:`fa-globe` :guilabel:`Go to Website` "
+"smart button to open the event webpage. Then, toggle "
+"the :guilabel:`Unpublished` button in the header menu, changing it to "
+"a :guilabel:`Published` switch. The event webpage is now published and "
+"accessible by all website visitors."
+msgstr ""
+
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:356
 msgid ""
 "To learn more about website design functionality and options, consult "
 "the :doc:`Building block <../../../websites/website/web_design/"
@@ -8301,59 +7953,33 @@ msgstr ""
 "web, consulter la documentation :doc:`Blocs de construction <../../../"
 "websites/website/web_design/building_blocks>`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:353
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:359
 msgid ""
 "Once the event website is ready to be shared, click the "
 "red :guilabel:`Unpublished` toggle switch in the header menu, changing it to "
 "a green :guilabel:`Published` switch. At this point, the event web page is "
-"published and viewable/accessible by all website visitors."
+"published and accessible by all website visitors."
 msgstr ""
-"Une fois que le site web de l'événement est prêt à être partagé, cliquer sur "
-"le bouton rouge :guilabel:`Non publié` dans le menu d'en-tête, le "
-"transformant en bouton vert :guilabel:`Publié`. À ce stade, la page web de "
-"l'événement est publiée et visible/accessible par tous les visiteurs du site "
-"web."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:358
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:364
 msgid "Send event invites"
 msgstr "Envoyer des invitations à l'événement"
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:360
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:366
 msgid ""
 "To send event invites to potential attendees, navigate to the desired event "
-"form, via :menuselection:`Events app --> Events`, and click into the desired "
-"event. Following this, click the :guilabel:`Invite` button in the upper-left "
-"corner of the event form."
+"form via :menuselection:`Events app --> Events` and click the desired event. "
+"On the event form, click the :guilabel:`Invite` button."
 msgstr ""
-"Pour envoyer des invitations à l'événement aux participants potentiels, "
-"accéder au formulaire d'événement souhaité via :menuselection:`Application "
-"Événements --> Événements`, puis cliquer sur l'événement souhaité. Ensuite, "
-"cliquer sur le bouton :guilabel:`Inviter` dans le coin supérieur gauche du "
-"formulaire d'événement."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:364
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:370
 msgid ""
-"Doing so reveals a blank email form to fill out, as desired. To learn more "
-"about how to create and customize emails like this, refer to "
-"the :ref:`Create an email <email_marketing/create_email>` documentation."
+"Doing so reveals a blank :ref:`email form <email_marketing/create_email>`. "
+"Customize the message by specifying a mailing type, subject, recipients, and "
+"the mail body."
 msgstr ""
-"Cela affiche un formulaire d'e-mail vierge à remplir comme souhaité. Pour en "
-"savoir plus sur la création et la personnalisation d'e-mails comme celui-ci, "
-"consulter la documentation :ref:`Créer un e-mail <email_marketing/"
-"create_email>`."
 
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:368
-msgid ""
-"Proceed to create and customize an email message to send as an invite to "
-"potential attendees. Remember to include a link to the registration page on "
-"the event website, allowing interested recipients to register."
-msgstr ""
-"Créer et personnaliser un message électronique à envoyer comme invitation "
-"aux participants potentiels. Inclure un lien vers la page d'inscription sur "
-"le site web de l'événement, permettant aux destinataires intéressés de "
-"s'inscrire."
-
-#: ../../content/applications/marketing/events/event_setup/create_events.rst:373
+#: ../../content/applications/marketing/events/event_setup/create_events.rst:374
 msgid ""
 "Sending emails from Odoo is subject to a daily limit, which, by default, is "
 "200. To learn more about daily limits, visit the :ref:`email-issues-outgoing-"
@@ -9333,6 +8959,7 @@ msgstr ""
 "apparaissent en haut du formulaire."
 
 #: ../../content/applications/marketing/events/promote_monetize/event_booths.rst:235
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:176
 msgid ":doc:`sell_tickets`"
 msgstr ":doc:`sell_tickets`"
 
@@ -9762,6 +9389,328 @@ msgstr ":doc:`event_booths`"
 #: ../../content/applications/marketing/events/promote_monetize/event_sponsors.rst:159
 msgid ":doc:`../attendee_experience/event_tracks`"
 msgstr ":doc:`../attendee_experience/event_tracks`"
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:3
+msgid "Generate leads from events"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:5
+msgid ""
+"Odoo **Events** allows users to generate leads from their event attendees "
+"based on customizable criteria. Leads can be generated manually, or "
+"automatically by configuring *lead generation rules*."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:9
+msgid "View lead generation rules"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:11
+msgid ""
+"To view the lead generation rules for an event, navigate "
+"to :menuselection:`Events app --> Configuration --> Lead Generation`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:14
+msgid ""
+"The *Lead Generation Rule* page displays any previously configured rules in "
+"a standard list view with each rule's :guilabel:`Rule Name`, :guilabel:`Lead "
+"Creation Type`, :guilabel:`When` it is triggered, its "
+"associated :guilabel:`Event Templates`, the :guilabel:`Event` it is applied "
+"to, and its related :guilabel:`Company` (if applicable)."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:20
+msgid "Create a lead generation rule"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:22
+msgid ""
+"On the *Lead Generation Rule* dashboard, click :guilabel:`New` to open a "
+"new :guilabel:`Lead Generation Rule` form."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:25
+msgid "Start by entering a :guilabel:`Rule Name`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:27
+msgid ""
+"In the :guilabel:`Create` field, select one of the following options to "
+"specify the lead creation type:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:30
+msgid ":guilabel:`Per Attendee`: Create a single lead for each attendee."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:31
+msgid ""
+":guilabel:`Per Order`: Create a single lead for each :doc:`ticket sale "
+"<sell_tickets>`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:33
+msgid ""
+"In the :guilabel:`When` field, select one of the following options to "
+"specify when the rule is triggered:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:36
+msgid ""
+":guilabel:`Attendees are created`: Create a lead when an attendee record for "
+"an event is created."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:37
+msgid ""
+":guilabel:`Attendees are registered`: Create a lead when an attendee "
+"registers for an event."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:38
+msgid ""
+":guilabel:`Attendees attended`: Create a lead when an attendee's attendance "
+"is confirmed and the registration stage is set to *Done*."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:42
+msgid "Event-specific filters"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:44
+msgid ""
+"In the :guilabel:`For Any Of These Events` section of the form, configure "
+"the following options to restrict the rule to the following criteria:"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:47
+msgid ""
+":guilabel:`Event Templates`: Trigger the rule only for events of the "
+"specified :doc:`event template/category <../event_setup/event_templates>`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:49
+msgid ""
+":guilabel:`Company`: Trigger the rule only for events belonging to the "
+"specified company (if working in a :doc:`multi-company <../../../general/"
+"companies/multi_company>` environment)."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:51
+msgid ":guilabel:`Event`: Trigger the rule only for the specified event."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:54
+msgid "Attendee-specific filters"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:56
+msgid ""
+"In the :guilabel:`If The Attendees Meet These Conditions` section of the "
+"form, restrict the rule to attendees fulfilling specific criteria."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:59
+msgid ""
+"By default, this field is set to :guilabel:`Match all records` of attendees "
+"in the database."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:61
+msgid ""
+"To add specific criteria, click the :icon:`fa-plus` :guilabel:`Add "
+"condition` button. Alternatively, click the :icon:`fa-caret-"
+"right` :guilabel:`(right arrow)` icon, then click :guilabel:`New Rule`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:64
+msgid ""
+"Doing so adds a new custom :ref:`filter rule <search/custom-filters>`. Users "
+"can select a *field name* to filter by and choose a *conditional operator* "
+"to compare the *value* to the chosen field. If needed, users can also add a "
+"group of nested conditions that depend on the parent rule by "
+"clicking :icon:`fa-sitemap` :guilabel:`(Add branch)`. For any group of "
+"conditions, users can toggle between matching :guilabel:`all` of the "
+"conditions in the group or :guilabel:`any` of the conditions."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:71
+msgid ""
+"The number of filtered attendee records is displayed at the bottom of the "
+"section. Click :guilabel:`# record(s)` to view the list of attendees that "
+"match the filter rule."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:78
+msgid "Lead default values"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:80
+msgid ""
+"In the :guilabel:`Lead Default Values` section, assign default values to new "
+"leads generated from this rule."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:83
+msgid ""
+"First, in the :guilabel:`Lead Type` field, specify whether this rule creates "
+"a :guilabel:`Lead` or an :guilabel:`Opportunity`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:87
+msgid ""
+"The :guilabel:`Lead Type` field only appears if the **CRM** app is installed "
+"and :doc:`leads <../../../sales/crm/acquire_leads/convert>` are enabled. To "
+"do so, navigate to :menuselection:`CRM app --> Configuration --> Settings`, "
+"then enable the :guilabel:`Leads` feature."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:92
+msgid ""
+"In the :guilabel:`Sales Team` field, select a specific sales team in the "
+"database to which newly created leads are automatically assigned. Similarly, "
+"specify a :guilabel:`Salesperson` to which the leads are automatically "
+"assigned."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:96
+msgid ""
+"Finally, in the :guilabel:`Tags` field, add one or more tags to the created "
+"leads generated from the rule to organize and distinguish leads by specific "
+"identifiers/categories."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:100
+msgid ""
+"A company called *Stealthy Wood* wants to generate leads for every attendee "
+"who bought a *General Admission* ticket to their *Design Fair Los Angeles* "
+"event by clicking a link for tickets from a social media post on *LinkedIn*, "
+"then purchasing the ticket online. Additionally, any new leads generated "
+"should be automatically assigned to their dedicated *Website Sales* team."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:105
+msgid ""
+"To generate these leads, they create a rule called `Social Media Attendees`. "
+"Then, they select :guilabel:`Per Attendee` in the :guilabel:`Create` field "
+"and :guilabel:`Attendees are created` in the :guilabel:`When` field to "
+"trigger the rule every time a new attendee is created."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:109
+msgid ""
+"In the :guilabel:`For Any Of These Events` section, they "
+"select :guilabel:`Exhibition` as the event category in the :guilabel:`Event "
+"Templates` field. Next, they select *Stealthy Wood* as "
+"the :guilabel:`Company` the event is associated with. They also select "
+"*Design Fair Los Angeles* as the specific :guilabel:`Event` the rule should "
+"generate leads for."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:114
+msgid ""
+"In the :guilabel:`If The Attendees Meet These Conditions` section, they "
+"click the :icon:`fa-plus` :guilabel:`Add condition` button to reveal a new, "
+"modifiable condition line."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:117
+msgid ""
+"Next, they click the first field and select :guilabel:`Ticket Type` from the "
+"popover. In the second field, they select `is equal to`. In the third field, "
+"they select the :guilabel:`General Admission` ticket type."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:121
+msgid ""
+"Because the company wants to be even more specific about attendees who "
+"purchased a :guilabel:`General Admission` ticket, they add two more "
+"condition lines by clicking :guilabel:`New Rule`."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:125
+msgid ""
+"In the second condition line, they select :guilabel:`Source` in the first "
+"field, choose `is equal to` in the second field, and add the "
+"corresponding :guilabel:`LinkedIn` social media outlet options in the third "
+"field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:129
+msgid ""
+"In the final condition line, they select :guilabel:`Sales Order` :icon:`fa-"
+"angle-right` :guilabel:`Online payment` in the first field. Then, they "
+"select `is set` in the second field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:132
+msgid ""
+"Finally, in the :guilabel:`Lead Default Values` section, they assign these "
+"leads to their *Website Sales* team in the :guilabel:`Sales Team` field. "
+"They also add *Matt* as the lead :guilabel:`Salesperson` responsible for "
+"managing the leads. Finally, for organization purposes, they add a *Design* "
+"tag in the :guilabel:`Tags` field."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:0
+msgid "Example lead generation form in Odoo Events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:141
+msgid "Generate leads"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:143
+msgid ""
+"Leads are automatically generated for applicable events whenever a rule is "
+"satisfied. To view generated leads, open the *Events* app and select the "
+"targeted event. A :icon:`fa-star` :guilabel:`Leads` smart button appears at "
+"the top of the chosen event form, displaying the number of leads generated "
+"for this event."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:148
+msgid ""
+"Click the :icon:`fa-star` :guilabel:`Leads` smart button to open a dashboard "
+"of generated leads. By default, the dashboard opens in a :icon:`oi-view-"
+"list` :guilabel:`(List)` view displaying each lead's title, associated "
+"attendee's contact details, assigned salesperson, the expected revenue and "
+"stage of the lead, and the option to either :guilabel:`Email` or send "
+"an :guilabel:`SMS` to the lead."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:154
+msgid ""
+"Leads can also be viewed in the :icon:`oi-view-"
+"kanban` :guilabel:`(Kanban)`, :icon:`fa-area-"
+"chart` :guilabel:`(Graph)`, :icon:`oi-view-"
+"pivot` :guilabel:`(Pivot)`, :icon:`fa-calendar` :guilabel:`(Calendar)`, "
+"and :icon:`fa-clock-o` :guilabel:`(Activity)` views. The search bar's drop-"
+"down menu allows users to :ref:`filter <search/filters>` or :ref:`group "
+"<search/group>` records by specific criteria in each view."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:None
+msgid "Dashboard of generated leads in Odoo Events."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:164
+msgid "Manually generate leads"
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:166
+msgid ""
+"Leads can also be manually generated from an event form by clicking "
+"the :icon:`fa-cog` :guilabel:`(Actions)` button at the top, then "
+"selecting :guilabel:`Generate Leads`. This allows users to generate (or re-"
+"generate) leads as needed (e.g., after modifying a rule) without duplicating "
+"existing leads."
+msgstr ""
+
+#: ../../content/applications/marketing/events/promote_monetize/lead_generation.rst:None
+msgid "Generate Leads button on an event form in Odoo Events."
+msgstr ""
 
 #: ../../content/applications/marketing/events/promote_monetize/sell_tickets.rst:5
 msgid ""
@@ -16412,11 +16361,11 @@ msgstr ""
 "sous forme de liste en sélectionnant l'option :guilabel:`Liste` située sous "
 "la barre de recherche, dans le coin supérieur droit."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:57
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:59
 msgid "Create social marketing campaigns"
 msgstr "Créer des campagnes de marketing social"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:59
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:61
 msgid ""
 "First, open the :menuselection:`Social Marketing` application, and "
 "select :guilabel:`Campaigns` from the header menu."
@@ -16424,7 +16373,7 @@ msgstr ""
 "Tout d'abord, ouvrez l'application :menuselection:`Marketing social` et "
 "sélectionnez :guilabel:`Campagnes` dans le menu d'en-tête."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:62
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:64
 msgid ""
 "On the :guilabel:`Campaigns` dashboard, a new campaign can be created by "
 "clicking the quick add :guilabel:`+ (plus sign)` located in the top-right "
@@ -16439,7 +16388,7 @@ msgstr ""
 ":guilabel:`Créer` dans le coin supérieur gauche du tableau de bord des "
 ":guilabel:`Campagnes`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:67
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:69
 msgid ""
 "Both options reveal a new campaign detail window directly on "
 "the :guilabel:`Campaigns` dashboard when clicked."
@@ -16453,7 +16402,7 @@ msgid "View of the quick add option for campaigns in Odoo Social Marketing."
 msgstr ""
 "Vue de l'option d'ajout rapide pour les campagnes dans Odoo Marketing social."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:74
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:76
 msgid ""
 "Here, the :guilabel:`Campaign Name`, :guilabel:`Responsible`, "
 "and :guilabel:`Tags` can be entered. When all modifications are complete, "
@@ -16464,11 +16413,11 @@ msgstr ""
 "modifications sont effectuées, cliquer sur :guilabel:`Ajouter` pour ajouter "
 "la campagne à la base de données."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:78
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:80
 msgid "Edit social marketing campaigns"
 msgstr "Modifier les campagnes de marketing social"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:80
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:82
 msgid ""
 "In order to edit a campaign in greater detail, and create/send various forms "
 "of communications related to it, the template page for that campaign must be "
@@ -16480,7 +16429,7 @@ msgstr ""
 "campagne et le modifier en conséquence. Il existe plusieurs façons d'accéder "
 "au modèle d'une campagne."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:84
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:86
 msgid ""
 "After entering the pertinent information in the :guilabel:`Quick Add` "
 "campaign drop-down, click :guilabel:`Edit`."
@@ -16488,7 +16437,7 @@ msgstr ""
 "Après avoir saisi les informations pertinentes dans le menu déroulant de "
 "l':guilabel:`Ajout rapide`, cliquez sur :guilabel:`Modifier`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:86
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:88
 msgid ""
 "Simply select the desired campaign from the :guilabel:`Campaigns` dashboard "
 "in list or kanban view."
@@ -16496,7 +16445,7 @@ msgstr ""
 "Sélectionnez simplement la campagne souhaitée dans le tableau de bord des "
 ":guilabel:`Campagnes` en vue liste ou kanban."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:88
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:90
 msgid ""
 "On the :guilabel:`Campaigns` dashboard in the kanban view, select "
 "the :guilabel:`⋮ (three dots)` drop-down menu on the desired campaign, and "
@@ -16506,7 +16455,7 @@ msgstr ""
 "sélectionnez le menu déroulant :guilabel:`⋮ (trois points)` sur la campagne "
 "souhaitée et cliquez sur :guilabel:`Modifier`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:91
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:93
 msgid ""
 "Any of the above routes will reveal the *Campaign Template* page for that "
 "specific campaign."
@@ -16514,11 +16463,11 @@ msgstr ""
 "L'une ou l'autre des options susmentionnées permet d'accéder à la page de "
 "*Modèle de campagne* pour cette campagne spécifique."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:94
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:96
 msgid "Social marketing campaign templates"
 msgstr "Modèles de campagne de marketing social"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:96
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:98
 msgid ""
 "On a *Campaign Template* page, numerous elements can be customized/modified, "
 "and various forms of communications can be created, modified, and sent or "
@@ -16533,7 +16482,7 @@ msgstr ""
 msgid "View of a sample campaign template page in Odoo Social Marketing."
 msgstr "Vue d'un exemple de modèle de campagne dans Odoo Marketing social."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:105
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:107
 msgid ""
 "In order for the :guilabel:`Send New Mailing` option to appear on campaign "
 "templates, make sure the *Mailing Campaigns* feature is enabled in the "
@@ -16547,7 +16496,7 @@ msgstr ""
 ":menuselection:`E-mail Marketing --> Configuration --> Paramètres`, activez "
 ":guilabel:`Campagnes d'e-mail` et cliquez sur :guilabel:`Enregistrer`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:111
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:113
 msgid ""
 "In order for the :guilabel:`Send SMS` option to appear, the Odoo *SMS "
 "Marketing* application must be installed on the database."
@@ -16555,11 +16504,11 @@ msgstr ""
 "Pour que l'option :guilabel:`Envoyer un SMS` apparaisse, l'application *SMS "
 "Marketing* d'Odoo doit être installée sur la base de données."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:115
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:117
 msgid "Add content and communications to campaigns"
 msgstr "Ajouter du contenu et des communications aux campagnes"
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:117
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:119
 msgid ""
 "If the proper settings and applications are installed (as instructed above), "
 "there are four forms of communication/content options that can be added to "
@@ -16571,7 +16520,7 @@ msgstr ""
 "être ajoutées aux campagnes. Chacune de ces options est affichée sous forme "
 "de boutons dans le coin supérieur gauche du modèle de campagne."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:121
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:123
 msgid ""
 ":guilabel:`Send New Mailing`: reveals a blank email template on a separate "
 "page, in which the message can be fully customized in a variety of ways."
@@ -16580,7 +16529,7 @@ msgstr ""
 "vierge sur une page séparée, permettant d'entièrement personnaliser le "
 "message de diverses manières."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:123
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:125
 msgid ""
 ":guilabel:`Send SMS`: reveals a blank SMS template on a separate page, in "
 "which a SMS communication can be created and configured."
@@ -16588,7 +16537,7 @@ msgstr ""
 ":guilabel:`Envoyer un SMS` : fait apparaître un modèle de SMS vierge sur une "
 "page séparée, permettant de créer et de configurer une communication par SMS."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:125
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:127
 msgid ""
 ":guilabel:`Send Social Post`: reveals a blank social post template on a "
 "separate page, in which a post can be created, and applied to social media "
@@ -16599,7 +16548,7 @@ msgstr ""
 "l'appliquer aux comptes de réseaux sociaux qui sont déjà connectés à la base "
 "de données."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:128
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:130
 msgid ""
 ":guilabel:`Push Notification`: reveals a similar blank social post template "
 "on a separate page, however, the :guilabel:`Push Notification` options are "
@@ -16610,7 +16559,7 @@ msgstr ""
 ":guilabel:`Notification push` sont déjà présélectionnées dans le champ "
 ":guilabel:`Publier sur`."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:132
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:134
 msgid ""
 "Whichever form of communication is created, once it's completed, Odoo "
 "returns to the :guilabel:`Campaign Template` page, showcasing that new "
@@ -16624,7 +16573,7 @@ msgstr ""
 ":guilabel:`Emails`, :guilabel:`SMS`, :guilabel:`Réseaux sociaux` et/ou "
 ":guilabel:`Notifications push`)."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:137
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:139
 msgid ""
 "As content and communications are added to a campaign, tabs for those "
 "specific mediums appear, along with a variety of analytical smart buttons "
@@ -16635,7 +16584,7 @@ msgstr ""
 "qu'une variété de boutons intelligents analytiques (par ex. "
 ":guilabel:`Revenus`, :guilabel:`Devis`, :guilabel:`Pistes`, etc.)."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:141
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:143
 msgid ""
 "These smart buttons, located at the top of the template, display different "
 "metrics related to the campaign, and its various communications and content. "
@@ -16649,7 +16598,7 @@ msgstr ""
 "dédiée à cet élément particulier de la campagne, permettant une analyse plus "
 "rapide et plus organisée."
 
-#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:147
+#: ../../content/applications/marketing/social_marketing/social_campaigns.rst:149
 msgid ""
 "The Odoo *Social Marketing* app is integrated with other Odoo applications, "
 "such as *Sales*, *Invoicing*, *CRM*, and *Website*."
@@ -21242,6 +21191,981 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/scoring.rst:None
 msgid "Example of how a badge looks on the eLearning portion of the website."
 msgstr "Exemple de présentation d'un badge sur la partie eLearning du site web."
+
+#~ msgid ""
+#~ "To create an event, navigate to the :guilabel:`Events app` to land on the "
+#~ "dashboard. By default, the :guilabel:`Events` dashboard uses "
+#~ "the :icon:`oi-view-kanban` :guilabel:`(Kanban)` view, which showcases all "
+#~ "events in the database in their respective pipeline stages. Other views "
+#~ "can be set using the buttons in the upper-right corner."
+#~ msgstr ""
+#~ "Pour créer un événement, accéder à l'application :guilabel:`Événements` "
+#~ "pour arriver sur le tableau de bord. Par défaut, le tableau de "
+#~ "bord :guilabel:`Événements` utilise la vue :icon:`oi-view-"
+#~ "kanban` :guilabel:`(Kanban)`, qui présente tous les événements de la base "
+#~ "de données dans leurs étapes de pipeline respectives. D'autres vues "
+#~ "peuvent être définies à l'aide des boutons dans le coin supérieur droit."
+
+#~ msgid ""
+#~ "Events can be created by going to the :menuselection:`Events` app, on "
+#~ "the :icon:`oi-view-kanban` :guilabel:`(Kanban)`, :icon:`oi-view-"
+#~ "list` :guilabel:`(List)`, or :icon:`fa-tasks` :guilabel:`(Gantt)` views. "
+#~ "Then, click the :guilabel:`New` button in the upper-left corner of the "
+#~ "dashboard to open up a new event form."
+#~ msgstr ""
+#~ "Les événements peuvent être créés en accédant à "
+#~ "l'application :menuselection:`Événements`, sur les vues :icon:`oi-view-"
+#~ "kanban` :guilabel:`(Kanban)`, :icon:`oi-view-list` :guilabel:`(Liste)` "
+#~ "ou :icon:`fa-tasks` :guilabel:`(Gantt)`. Ensuite, cliquer sur le "
+#~ "bouton :guilabel:`Nouveau` dans le coin supérieur gauche du tableau de "
+#~ "bord pour ouvrir un nouveau formulaire d'événement."
+
+#~ msgid ""
+#~ "To the right of the entered :guilabel:`Event Name`, there is a language "
+#~ "tooltip, represented by an abbreviated language indicator (e.g., `EN`). "
+#~ "When clicked, a :guilabel:`Translate name` pop-up window appears, "
+#~ "displaying various preconfigured language translation options available "
+#~ "in the database."
+#~ msgstr ""
+#~ "À droite du :guilabel:`nom de l'événement` saisi, il y a une infobulle de "
+#~ "langue, représentée par un indicateur de langue abrégé (par exemple, "
+#~ "`FR`). Lorsqu'on clique dessus, une fenêtre "
+#~ "contextuelle :guilabel:`Traduire le nom` apparaît, affichant diverses "
+#~ "options de traduction linguistique préconfigurées disponibles dans la "
+#~ "base de données."
+
+#~ msgid ""
+#~ "Alternatively, to populate the event form from an event template, select "
+#~ "an option in the :guilabel:`Template` drop-down menu. To learn more, see "
+#~ "the :doc:`event_templates` documentation."
+#~ msgstr ""
+#~ "Alternativement, pour remplir le formulaire d'événement à partir d'un "
+#~ "modèle d'événement, sélectionner une option dans le menu "
+#~ "déroulant :guilabel:`Modèle`. Pour en savoir plus, consulter la "
+#~ "documentation :doc:`event_templates`."
+
+#~ msgid ""
+#~ ":guilabel:`Website`: The specific website in the database on which the "
+#~ "event is published. If this field is left blank, the event can be "
+#~ "published on **all** websites in the database. To learn more, refer to "
+#~ "the :doc:`Multiple websites <../../../websites/website/configuration/"
+#~ "multi_website>` documentation."
+#~ msgstr ""
+#~ ":guilabel:`Site Web` : Le site web spécifique dans la base de données sur "
+#~ "lequel l'événement est publié. Si ce champ est laissé vide, l'événement "
+#~ "peut être publié sur **tous** les sites web de la base de données. Pour "
+#~ "en savoir plus, consulter la documentation :doc:`Sites web multiples "
+#~ "<../../../websites/website/configuration/multi_website>`."
+
+#~ msgid ""
+#~ "To limit the number of registrations for the event, check "
+#~ "the :guilabel:`Limit Registrations` and enter the maximum number of "
+#~ "attendees allowed in the resulting field."
+#~ msgstr ""
+#~ "Pour limiter le nombre d'inscriptions pour l'événement, "
+#~ "cocher :guilabel:`Limiter les inscriptions` et saisir le nombre maximum "
+#~ "de participants autorisés dans le champ qui apparaît."
+
+#~ msgid ""
+#~ "In the :guilabel:`Tickets` tab of the event form, create custom "
+#~ "registration tickets and ticket tiers for events."
+#~ msgstr ""
+#~ "Dans l'onglet :guilabel:`Billets` du formulaire d'événement, créer des "
+#~ "billets d'inscription personnalisés et des catégories de billets pour les "
+#~ "événements."
+
+#~ msgid ""
+#~ "To create a ticket, click :guilabel:`Add a line` in "
+#~ "the :guilabel:`Tickets` tab. In the :guilabel:`Product` field, either "
+#~ "select the preconfigured :guilabel:`Event Registration` product, or "
+#~ "create a new one by typing in the name of the new event registration "
+#~ "product and then selecting either :guilabel:`Create` or :guilabel:`Create "
+#~ "and edit...` from the resulting drop-down menu. Then, enter a name for "
+#~ "the ticket (e.g. `Basic Ticket` or `VIP`) in the :guilabel:`Name` field."
+#~ msgstr ""
+#~ "Pour créer un billet, cliquer sur :guilabel:`Ajouter une ligne` dans "
+#~ "l'onglet :guilabel:`Billets`. Dans le champ :guilabel:`Article`, soit "
+#~ "sélectionner l'article préconfiguré :guilabel:`Inscription à un "
+#~ "événement`, soit en créer un nouveau en saisissant le nom du nouvel "
+#~ "article d'inscription à un événement, puis en sélectionnant "
+#~ "soit :guilabel:`Créer`, soit :guilabel:`Créer et modifier...` dans le "
+#~ "menu déroulant qui apparaît. Ensuite, saisir un nom pour le billet (par "
+#~ "exemple, `Billet basique` ou `VIP`) dans le champ :guilabel:`Nom`."
+
+#~ msgid ""
+#~ "In order for an event registration product to be selectable in "
+#~ "the :guilabel:`Tickets` tab, the event registration :guilabel:`Product "
+#~ "Type` **must** be set to :guilabel:`Service` and the :guilabel:`Create on "
+#~ "Order` field **must** be set to :guilabel:`Event Registration`."
+#~ msgstr ""
+#~ "Pour qu'un article d'inscription à un événement soit sélectionnable dans "
+#~ "l'onglet :guilabel:`Billets`, le :guilabel:`type d'article` d'inscription "
+#~ "à un événement **doit** être défini sur :guilabel:`Service` et le "
+#~ "champ :guilabel:`Créer à la commande` **doit** être défini "
+#~ "sur :guilabel:`Inscription à un événement`."
+
+#~ msgid ""
+#~ "Existing event registration products can be modified directly from this "
+#~ "field as well by clicking the :icon:`oi-arrow-right` :guilabel:`(right "
+#~ "arrow)` icon located beside the event registration product. Doing so "
+#~ "reveals that product's form. If the **Inventory** application is "
+#~ "installed, additional choices are available to customize for the product."
+#~ msgstr ""
+#~ "Les articles d'inscription à un événement existants peuvent également "
+#~ "être modifiés directement depuis ce champ en cliquant sur "
+#~ "l'icône :icon:`oi-arrow-right` :guilabel:`(flèche droite)` située à côté "
+#~ "de l'article d'inscription à un événement. Cela fait apparaître le "
+#~ "formulaire de cet article. Si l'application **Inventaire** est installée, "
+#~ "des choix supplémentaires sont disponibles pour personnaliser l'article."
+
+#~ msgid ""
+#~ "The :guilabel:`Sales Price` defined on the event registration product's "
+#~ "product form sets the default cost of a ticket. Modifying "
+#~ "the :guilabel:`Price` of a ticket in the :guilabel:`Tickets` tab sets a "
+#~ "new registration cost of the ticket for that event."
+#~ msgstr ""
+#~ "Le :guilabel:`Prix de vente` défini sur la fiche produit du produit "
+#~ "d'inscription à l'événement définit le coût par défaut d'un billet. "
+#~ "Modifier le :guilabel:`Prix` d'un billet dans "
+#~ "l'onglet :guilabel:`Billets` définit un nouveau coût d'inscription du "
+#~ "billet pour cet événement."
+
+#~ msgid ""
+#~ "Next, enter the :guilabel:`Sales Start` and :guilabel:`Sales End` dates "
+#~ "in their respective fields. To do that, click into the blank field to "
+#~ "reveal a calendar pop-over. From there, select the desired date and time, "
+#~ "then click :icon:`fa-check` :guilabel:`Apply`."
+#~ msgstr ""
+#~ "Ensuite, saisir les dates de :guilabel:`Début des ventes` et "
+#~ "de :guilabel:`Fin des ventes` dans leurs champs respectifs. Pour ce "
+#~ "faire, cliquer dans le champ vide pour afficher un calendrier contextuel. "
+#~ "De là, sélectionner la date et l'heure souhaitées, puis cliquer "
+#~ "sur :icon:`fa-check` :guilabel:`Appliquer`."
+
+#~ msgid ""
+#~ "Then, if desired, designate a :guilabel:`Maximum` amount of that specific "
+#~ "ticket that can be sold."
+#~ msgstr ""
+#~ "Puis, si souhaité, désigner un montant :guilabel:`Maximum` de ce billet "
+#~ "spécifique pouvant être vendu."
+
+#~ msgid ""
+#~ "The :guilabel:`Registration` column populates with the number of tickets "
+#~ "that are sold."
+#~ msgstr ""
+#~ "La colonne :guilabel:`Inscription` se remplit avec le nombre de billets "
+#~ "vendus."
+
+#~ msgid ""
+#~ "To delete any tickets from the :guilabel:`Tickets` tab, click "
+#~ "the :icon:`fa-trash-o` :guilabel:`(trash can)` icon at the right in the "
+#~ "corresponding line for the ticket that should be deleted."
+#~ msgstr ""
+#~ "Pour supprimer des billets de l'onglet :guilabel:`Billets`, cliquer sur "
+#~ "l'icône :icon:`fa-trash-o` :guilabel:`(corbeille)` à droite sur la ligne "
+#~ "correspondant au billet à supprimer."
+
+#~ msgid ""
+#~ "To add an optional :guilabel:`Description` column to "
+#~ "the :guilabel:`Tickets` tab, click the :icon:`oi-settings-"
+#~ "adjust` :guilabel:`(additional options)` drop-down menu, located to the "
+#~ "far-right of the column titles."
+#~ msgstr ""
+#~ "Pour ajouter une colonne :guilabel:`Description` optionnelle à "
+#~ "l'onglet :guilabel:`Tickets`, cliquer sur le menu déroulant :icon:`oi-"
+#~ "settings-adjust` :guilabel:`(additional options)`, situé à l'extrême "
+#~ "droite des titres de colonnes."
+
+#~ msgid ""
+#~ "When added, the option to add brief descriptions for each event ticket "
+#~ "appears, which can be used to inform attendees of any perks or amenities "
+#~ "that may coincide with specific ticket purchases."
+#~ msgstr ""
+#~ "Lorsqu'elle est ajoutée, l'option permettant d'ajouter de brèves "
+#~ "descriptions pour chaque billet d'événement apparaît, ce qui peut être "
+#~ "utilisé pour informer les participants de tout avantage ou commodité "
+#~ "pouvant coïncider avec des achats de billets spécifiques."
+
+#~ msgid ""
+#~ "In the :guilabel:`Communication` tab of an event form, create various "
+#~ "marketing communications that can be scheduled to be sent at specific "
+#~ "intervals leading up to and following the event."
+#~ msgstr ""
+#~ "Dans l'onglet :guilabel:`Communication` d'une fiche événement, créer "
+#~ "diverses communications marketing pouvant être programmées pour être "
+#~ "envoyées à des intervalles spécifiques avant et après l'événement."
+
+#~ msgid ""
+#~ "Next, define the :guilabel:`Interval` and :guilabel:`Unit` from their "
+#~ "respective drop-down fields, letting Odoo know when the communication "
+#~ "should be sent. The :guilabel:`Unit` options "
+#~ "are: :guilabel:`Immediately`, :guilabel:`Hours`, :guilabel:`Days`, :guilabel:`Weeks`, "
+#~ "and :guilabel:`Months`."
+#~ msgstr ""
+#~ "Ensuite, définir l':guilabel:`Intervalle` et l':guilabel:`Unité` à partir "
+#~ "de leurs champs déroulants respectifs, indiquant à Odoo quand la "
+#~ "communication doit être envoyée. Les options d':guilabel:`Unité` "
+#~ "sont : :guilabel:`Immédiatement`, :guilabel:`Heures`, :guilabel:`Jours`, :guilabel:`Semaines`, "
+#~ "et :guilabel:`Mois`."
+
+#~ msgid ""
+#~ "Any number of communications can be added in "
+#~ "the :guilabel:`Communication` tab of an event form."
+#~ msgstr ""
+#~ "Un nombre quelconque de communications peut être ajouté dans "
+#~ "l'onglet :guilabel:`Communication` d'une fiche événement."
+
+#~ msgid ""
+#~ "To send a confirmation email an hour after an attendee registers for an "
+#~ "event, configure the following communication:"
+#~ msgstr ""
+#~ "Pour envoyer un e-mail de confirmation une heure après l'inscription d'un "
+#~ "participant à un événement, configurer la communication suivante :"
+
+#~ msgid ""
+#~ "Existing email templates can be modified directly from "
+#~ "the :guilabel:`Template` drop-down menu, if necessary, by clicking "
+#~ "the :icon:`oi-arrow-right` :guilabel:`(Internal link)` icon next to the "
+#~ "template name. Doing so reveals a separate page where users can edit "
+#~ "the :guilabel:`Content`, :guilabel:`Email Configuration`, "
+#~ "and :guilabel:`Settings` of that particular email template."
+#~ msgstr ""
+#~ "Les modèles d'e-mails existants peuvent être modifiés directement depuis "
+#~ "le menu déroulant :guilabel:`Modèle`, si nécessaire, en cliquant sur "
+#~ "l'icône :icon:`oi-arrow-right` :guilabel:`(Lien interne)` à côté du nom "
+#~ "du modèle. Cela affiche une page distincte où les utilisateurs peuvent "
+#~ "modifier le :guilabel:`Contenu`, la :guilabel:`Configuration de l'e-"
+#~ "mail`, et les :guilabel:`Paramètres` de ce modèle d'e-mail particulier."
+
+#~ msgid ""
+#~ "The information gathered from the :guilabel:`Questions` tab can be found "
+#~ "on the :guilabel:`Attendees` dashboard, accessible via the :icon:`fa-"
+#~ "users` :guilabel:`Attendees` smart button. Odoo populates individual "
+#~ "records that contain basic information about the registrants, as well as "
+#~ "their preferences."
+#~ msgstr ""
+#~ "Les informations collectées dans l'onglet :guilabel:`Questions` se "
+#~ "trouvent sur le tableau de bord :guilabel:`Participants`, accessible via "
+#~ "le bouton intelligent :icon:`fa-users` :guilabel:`Participants`. Odoo "
+#~ "remplit des fiches individuelles contenant des informations de base sur "
+#~ "les inscrits, ainsi que leurs préférences."
+
+#~ msgid ""
+#~ "Once all configurations and modifications are complete on the event form, "
+#~ "it is time to publish the event on the website. Doing so makes the event "
+#~ "visible to website visitors, and makes it possible for people to register "
+#~ "for the event."
+#~ msgstr ""
+#~ "Une fois toutes les configurations et modifications terminées sur le "
+#~ "formulaire d'événement, il est temps de publier l'événement sur le site "
+#~ "web. Cela rend l'événement visible aux visiteurs du site et permet aux "
+#~ "personnes de s'inscrire à l'événement."
+
+#~ msgid ""
+#~ "To publish an event after all the customizations are complete, click "
+#~ "the :icon:`fa-globe` :guilabel:`Go to Website` smart button at the top of "
+#~ "the event form. Doing so reveals the event's web page, which can be "
+#~ "customized like any other web page on the site, via the :guilabel:`Edit` "
+#~ "button."
+#~ msgstr ""
+#~ "Pour publier un événement après avoir terminé toutes les "
+#~ "personnalisations, cliquer sur le bouton intelligent :icon:`fa-"
+#~ "globe` :guilabel:`Aller au site web` en haut du formulaire d'événement. "
+#~ "Cela affiche la page web de l'événement, qui peut être personnalisée "
+#~ "comme n'importe quelle autre page du site, via le "
+#~ "bouton :guilabel:`Modifier`."
+
+#~ msgid ""
+#~ "To send event invites to potential attendees, navigate to the desired "
+#~ "event form, via :menuselection:`Events app --> Events`, and click into "
+#~ "the desired event. Following this, click the :guilabel:`Invite` button in "
+#~ "the upper-left corner of the event form."
+#~ msgstr ""
+#~ "Pour envoyer des invitations à l'événement aux participants potentiels, "
+#~ "accéder au formulaire d'événement souhaité "
+#~ "via :menuselection:`Application Événements --> Événements`, puis cliquer "
+#~ "sur l'événement souhaité. Ensuite, cliquer sur le "
+#~ "bouton :guilabel:`Inviter` dans le coin supérieur gauche du formulaire "
+#~ "d'événement."
+
+#~ msgid ""
+#~ "Doing so reveals a blank email form to fill out, as desired. To learn "
+#~ "more about how to create and customize emails like this, refer to "
+#~ "the :ref:`Create an email <email_marketing/create_email>` documentation."
+#~ msgstr ""
+#~ "Cela affiche un formulaire d'e-mail vierge à remplir comme souhaité. Pour "
+#~ "en savoir plus sur la création et la personnalisation d'e-mails comme "
+#~ "celui-ci, consulter la documentation :ref:`Créer un e-mail "
+#~ "<email_marketing/create_email>`."
+
+#~ msgid ""
+#~ "Proceed to create and customize an email message to send as an invite to "
+#~ "potential attendees. Remember to include a link to the registration page "
+#~ "on the event website, allowing interested recipients to register."
+#~ msgstr ""
+#~ "Créer et personnaliser un message électronique à envoyer comme invitation "
+#~ "aux participants potentiels. Inclure un lien vers la page d'inscription "
+#~ "sur le site web de l'événement, permettant aux destinataires intéressés "
+#~ "de s'inscrire."
+
+#~ msgid ""
+#~ "To access the *Attendees* reporting page, navigate "
+#~ "to :menuselection:`Events app --> Reporting --> Revenues`."
+#~ msgstr ""
+#~ "Pour accéder à la page de rapport des *Participants*, aller "
+#~ "à :menuselection:`Application Événements --> Rapport --> Revenus`."
+
+#~ msgid ""
+#~ "By default, the :guilabel:`Revenues` reporting page appears as a graph "
+#~ "(a :icon:`fa-line-chart` :guilabel:`(Line Chart)` with :icon:`fa-"
+#~ "database` :guilabel:`(Stacked)` data). The default "
+#~ "filters, :guilabel:`Non-free tickets` and :guilabel:`Event Start Date: "
+#~ "(current year)`, are present in the search bar."
+#~ msgstr ""
+#~ "Par défaut, la page de rapport :guilabel:`Revenus` apparaît sous forme de "
+#~ "graphique (un :icon:`fa-line-chart` :guilabel:`graphique linéaire` avec "
+#~ "des données :icon:`fa-database` :guilabel:`empilées`). Les filtres par "
+#~ "défaut, :guilabel:`Billets non gratuits` et :guilabel:`Date de début "
+#~ "d'événement : (année en cours)`, sont présents dans la barre de recherche."
+
+#~ msgid ""
+#~ "The :guilabel:`Revenues` reporting page can also be viewed as "
+#~ "a :ref:`pivot table <reporting/views/pivot>`, by clicking the :icon:`oi-"
+#~ "view-pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
+#~ msgstr ""
+#~ "La page de rapport :guilabel:`Revenus` peut également être affichée sous "
+#~ "forme de :ref:`tableau croisé dynamique <reporting/views/pivot>`, en "
+#~ "cliquant sur l'icône :icon:`oi-view-pivot` :guilabel:`tableau croisé "
+#~ "dynamique` dans le coin supérieur droit."
+
+#~ msgid ""
+#~ "Choosing specific :ref:`Measures <reporting/choosing-measures>` is a "
+#~ "quick way to customize reporting pages."
+#~ msgstr ""
+#~ "Choisir des :ref:`mesures <reporting/choosing-measures>` spécifiques est "
+#~ "un moyen rapide de personnaliser les pages de rapport."
+
+#~ msgid ""
+#~ "Regardless of the chosen view, the measures on the :guilabel:`Revenues` "
+#~ "reporting page are as follows: :guilabel:`Revenues`, :guilabel:`Untaxed "
+#~ "Revenues`, and :guilabel:`Count`."
+#~ msgstr ""
+#~ "Quelle que soit la vue choisie, les mesures de la page de "
+#~ "rapport :guilabel:`Revenus` sont les "
+#~ "suivantes : :guilabel:`Revenus`, :guilabel:`Revenus hors taxes` "
+#~ "et :guilabel:`Nombre`."
+
+#~ msgid ""
+#~ "In the default graph view of the :guilabel:`Revenues` reporting page, "
+#~ "only the :guilabel:`Revenues` option is set in the :guilabel:`Measures` "
+#~ "drop-down menu."
+#~ msgstr ""
+#~ "Dans la vue graphique par défaut de la page de "
+#~ "rapport :guilabel:`Revenus`, seule l'option :guilabel:`Revenus` est "
+#~ "définie dans le menu déroulant :guilabel:`Mesures`."
+
+#~ msgid ":guilabel:`Revenues`: shows the revenues generated from events."
+#~ msgstr ""
+#~ ":guilabel:`Revenus` : affiche les revenus générés par les événements."
+
+#~ msgid ""
+#~ ":guilabel:`Untaxed Revenues`: shows the untaxed revenues generated from "
+#~ "events."
+#~ msgstr ""
+#~ ":guilabel:`Revenus hors taxes` : affiche les revenus hors taxes générés "
+#~ "par les événements."
+
+#~ msgid ""
+#~ ":guilabel:`Count`: shows the total amount of registrants who attended "
+#~ "events."
+#~ msgstr ""
+#~ ":guilabel:`Compte` : affiche le nombre total d'inscrits ayant assisté aux "
+#~ "événements."
+
+#~ msgid ""
+#~ "To reveal a drop-down menu of filter and grouping options to create "
+#~ "custom reports, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` "
+#~ "to the right of the search bar."
+#~ msgstr ""
+#~ "Pour afficher un menu déroulant d'options de filtres et de regroupement "
+#~ "permettant de créer des rapports personnalisés, cliquer sur :icon:`fa-"
+#~ "caret-down` :guilabel:`(flèche vers le bas)` à droite de la barre de "
+#~ "recherche."
+
+#~ msgid ""
+#~ "Doing so opens a drop-down mega menu of options organized into "
+#~ "columns: :ref:`Filters <search/preconfigured-filters>`, :ref:`Group By "
+#~ "<search/group>`, and :ref:`Favorites <search/favorites>`."
+#~ msgstr ""
+#~ "Cela ouvre un méga menu déroulant d'options organisées en "
+#~ "colonnes : :ref:`Filtres <search/preconfigured-filters>`, :ref:`Regrouper "
+#~ "par <search/group>` et :ref:`Favoris <search/favorites>`."
+
+#~ msgid ""
+#~ "In the :guilabel:`Filters` column of the drop-down mega menu, there are "
+#~ "various event-related options that can be utilized to create custom "
+#~ "reports, based on a number of specific criteria."
+#~ msgstr ""
+#~ "Dans la colonne :guilabel:`Filtres` du méga menu déroulant, diverses "
+#~ "options liées aux événements peuvent être utilisées pour créer des "
+#~ "rapports personnalisés, basés sur un nombre de critères spécifiques."
+
+#~ msgid ""
+#~ "Multiple options in the :guilabel:`Filters` column can be selected at "
+#~ "once."
+#~ msgstr ""
+#~ "Plusieurs options de la colonne :guilabel:`Filtres` peuvent être "
+#~ "sélectionnées simultanément."
+
+#~ msgid ""
+#~ ":guilabel:`Non-free tickets`: event tickets/registrations that were "
+#~ "**not** free."
+#~ msgstr ""
+#~ ":guilabel:`Billets payants` : billets/inscriptions d'événement qui "
+#~ "n'étaient **pas** gratuits."
+
+#~ msgid ":guilabel:`Free`: event tickets/registrations that *were* free."
+#~ msgstr ""
+#~ ":guilabel:`Gratuit` : billets/inscriptions d'événement qui *étaient* "
+#~ "gratuits."
+
+#~ msgid ""
+#~ ":guilabel:`Pending payment`: event tickets/registrations that were "
+#~ "purchased, but still have payment pending."
+#~ msgstr ""
+#~ ":guilabel:`Paiement en attente` : billets/inscriptions d'événement qui "
+#~ "ont été achetés, mais dont le paiement est toujours en attente."
+
+#~ msgid ""
+#~ ":guilabel:`Sold`: event tickets/registrations that have been successfully "
+#~ "sold (and paid for)."
+#~ msgstr ""
+#~ ":guilabel:`Vendu` : billets/inscriptions d'événement qui ont été vendus "
+#~ "avec succès (et payés)."
+
+#~ msgid ""
+#~ ":guilabel:`Registration Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to view a specific "
+#~ "periods of time and see how many registrations happened during that time."
+#~ msgstr ""
+#~ ":guilabel:`Date d'inscription` : Cliquer sur l'icône :icon:`fa-caret-"
+#~ "down` :guilabel:`(flèche vers le bas)` pour afficher une liste d'options "
+#~ "par mois, trimestre et année. Sélectionner un nombre quelconque de ces "
+#~ "options pour visualiser des périodes spécifiques et voir combien "
+#~ "d'inscriptions ont eu lieu pendant cette période."
+
+#~ msgid ""
+#~ ":guilabel:`Upcoming/Running`: include revenue-related information for "
+#~ "events that are either currently running or are going to happen in the "
+#~ "future."
+#~ msgstr ""
+#~ ":guilabel:`À venir/En cours` : inclure les informations liées aux revenus "
+#~ "pour les événements qui sont actuellement en cours ou qui vont se "
+#~ "dérouler dans le futur."
+
+#~ msgid ""
+#~ ":guilabel:`Past Events`: include revenue-related information for events "
+#~ "that have already taken place."
+#~ msgstr ""
+#~ ":guilabel:`Événements passés` : inclure les informations relatives aux "
+#~ "revenus pour les événements qui ont déjà eu lieu."
+
+#~ msgid ""
+#~ ":guilabel:`Event Start Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to designate event "
+#~ "start dates to use as filters for revenue-related event data."
+#~ msgstr ""
+#~ ":guilabel:`Date de début de l'événement` : cliquer sur l'icône :icon:`fa-"
+#~ "caret-down` :guilabel:`(flèche vers le bas)` pour afficher une liste "
+#~ "d'options de mois, trimestre et année. Sélectionner un nombre quelconque "
+#~ "de ces options pour désigner les dates de début d'événement à utiliser "
+#~ "comme filtres pour les données de revenus liées aux événements."
+
+#~ msgid ""
+#~ ":guilabel:`Event End Date`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a list of month, quarter, "
+#~ "and year options. Select any number of these options to designate event "
+#~ "end dates to use as filters for revenue-related event data."
+#~ msgstr ""
+#~ ":guilabel:`Date de fin de l'événement` : cliquer sur l'icône :icon:`fa-"
+#~ "caret-down` :guilabel:`(flèche vers le bas)` pour afficher une liste "
+#~ "d'options de mois, trimestre et année. Sélectionner un nombre quelconque "
+#~ "de ces options pour désigner les dates de fin d'événement à utiliser "
+#~ "comme filtres pour les données de revenus liées aux événements."
+
+#~ msgid ""
+#~ ":guilabel:`Published Events`: Select this option to show revenue-related "
+#~ "data for published events."
+#~ msgstr ""
+#~ ":guilabel:`Événements publiés` : sélectionner cette option pour afficher "
+#~ "les données de revenus pour les événements publiés."
+
+#~ msgid ""
+#~ ":guilabel:`Add Custom Filter`: Create a custom filter to analyze event-"
+#~ "related revenue data. To learn more, refer to the documentation "
+#~ "on :ref:`custom filters <search/custom-filters>`."
+#~ msgstr ""
+#~ ":guilabel:`Ajouter un filtre personnalisé` : créer un filtre personnalisé "
+#~ "pour analyser les données de revenus liées aux événements. Pour en savoir "
+#~ "plus, consulter la documentation sur les :ref:`filtres personnalisés "
+#~ "<search/custom-filters>`."
+
+#~ msgid ""
+#~ "In the :guilabel:`Group By` column of the drop-down mega menu, there are "
+#~ "various event-related options to create custom groupings of data."
+#~ msgstr ""
+#~ "Dans la colonne :guilabel:`Grouper par` du menu déroulant, plusieurs "
+#~ "options liées aux événements permettent de créer des groupements de "
+#~ "données personnalisés."
+
+#~ msgid ""
+#~ ":guilabel:`Add Custom Group`: Click the :icon:`fa-caret-"
+#~ "down` :guilabel:`(down arrow)` icon to reveal a drop-down of grouping "
+#~ "options. To select one, click on the desired option, and Odoo adds it to "
+#~ "the :guilabel:`Group By` column. Multiple selections can be made."
+#~ msgstr ""
+#~ ":guilabel:`Ajouter un regroupement personnalisé` : cliquer sur "
+#~ "l'icône :icon:`fa-caret-down` :guilabel:`(flèche vers le bas)` pour "
+#~ "afficher une liste déroulante d'options de regroupement. Pour en "
+#~ "sélectionner une, cliquer sur l'option souhaitée et Odoo l'ajoute à la "
+#~ "colonne :guilabel:`Grouper par`. Plusieurs sélections peuvent être "
+#~ "effectuées."
+
+#~ msgid ""
+#~ "The following is an example of how various filters and grouping options "
+#~ "can create a useful analytic graph report related to event revenues. In "
+#~ "this case, the configurations present data about sold or free tickets to "
+#~ "published events, with the metrics separated by ticket type and event."
+#~ msgstr ""
+#~ "Voici un exemple montrant comment divers filtres et options de "
+#~ "regroupement peuvent créer un rapport graphique analytique utile relatif "
+#~ "aux revenus d'événements. Dans ce cas, les configurations présentent des "
+#~ "données sur les billets vendus ou gratuits pour les événements publiés, "
+#~ "avec les indicateurs séparés par type de billet et par événement."
+
+#~ msgid ""
+#~ "To create such a report, navigate to :menuselection:`Events app --> "
+#~ "Reporting --> Revenues`. Stay in the default graph view, but remove the "
+#~ "default filters from the search bar."
+#~ msgstr ""
+#~ "Pour créer un tel rapport, aller à :menuselection:`Application Événements "
+#~ "--> Rapports --> Revenus`. Rester dans la vue graphique par défaut, mais "
+#~ "supprimer les filtres par défaut de la barre de recherche."
+
+#~ msgid ""
+#~ "Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the "
+#~ "right of the search bar, to reveal the drop-down mega menu of filter and "
+#~ "grouping options."
+#~ msgstr ""
+#~ "Cliquer ensuite sur :icon:`fa-caret-down` :guilabel:`(flèche vers le "
+#~ "bas)` à droite de la barre de recherche, pour révéler le menu déroulant "
+#~ "des options de filtrage et de regroupement."
+
+#~ msgid ""
+#~ "From here, select :guilabel:`Free` and :guilabel:`Sold` from "
+#~ "the :guilabel:`Filters` column."
+#~ msgstr ""
+#~ "Sélectionner ici :guilabel:`Gratuit` et :guilabel:`Vendu` dans la "
+#~ "colonne :guilabel:`Filtres`."
+
+#~ msgid ""
+#~ "Then, since it is desired to **only** view data related to already "
+#~ "published events, select the :guilabel:`Published Events` option in "
+#~ "the :guilabel:`Filters` column, as well."
+#~ msgstr ""
+#~ "Ensuite, puisqu'il est souhaité de **uniquement** afficher les données "
+#~ "relatives aux événements déjà publiés, sélectionner également "
+#~ "l'option :guilabel:`Événements publiés` dans la "
+#~ "colonne :guilabel:`Filtres`."
+
+#~ msgid ""
+#~ "Next, in the :guilabel:`Group By` column, select the :guilabel:`Event` "
+#~ "and :guilabel:`Ticket` options, **in that sequential order**. Doing so "
+#~ "first groups the data by event, *then* by ticket type, which provides a "
+#~ "more useful array of data to analyze."
+#~ msgstr ""
+#~ "Ensuite, dans la colonne :guilabel:`Regrouper par`, sélectionner les "
+#~ "options :guilabel:`Événement` et :guilabel:`Billet`, **dans cet ordre "
+#~ "séquentiel**. Cela regroupe d'abord les données par événement, *puis* par "
+#~ "type de billet, ce qui fournit un ensemble de données plus utile à "
+#~ "analyser."
+
+#~ msgid ""
+#~ "The order in which the options are selected in the :guilabel:`Group By` "
+#~ "column directly affects how the data is presented on the report."
+#~ msgstr ""
+#~ "L'ordre dans lequel les options sont sélectionnées dans la "
+#~ "colonne :guilabel:`Regrouper par` affecte directement la façon dont les "
+#~ "données sont présentées dans le rapport."
+
+#~ msgid ""
+#~ "From there, additional configurations can be added for more detailed "
+#~ "data, if desired."
+#~ msgstr ""
+#~ "À partir de là, des configurations supplémentaires peuvent être ajoutées "
+#~ "pour obtenir des données plus détaillées, si souhaité."
+
+#~ msgid ""
+#~ "If no additional filters or groupings are added, Odoo presents a "
+#~ "graphical representation of data related to all *free* or *sold* tickets "
+#~ "for *published events*, grouped by *event*, and organized by *ticket* "
+#~ "type."
+#~ msgstr ""
+#~ "Si aucun filtre ou regroupement supplémentaire n'est ajouté, Odoo "
+#~ "présente une représentation graphique des données relatives à tous les "
+#~ "billets *gratuits* ou *vendus* pour les *événements publiés*, regroupés "
+#~ "par *événement*, et organisés par type de *billet*."
+
+#~ msgid ""
+#~ "The following is an example of how various filters and grouping options "
+#~ "can create a useful analytic pivot table report related to event "
+#~ "revenues. In this case, the configurations present data about how much "
+#~ "revenue different event types have generated, in order to gauge which "
+#~ "events are the most profitable."
+#~ msgstr ""
+#~ "Voici un exemple de la façon dont divers filtres et options de "
+#~ "regroupement peuvent créer un rapport de tableau croisé analytique utile "
+#~ "relatif aux revenus des événements. Dans ce cas, les configurations "
+#~ "présentent des données sur les revenus générés par différents types "
+#~ "d'événements, afin d'évaluer quels événements sont les plus rentables."
+
+#~ msgid ""
+#~ "First, navigate to :menuselection:`Events app --> Reporting --> "
+#~ "Revenues`, and switch to the pivot table view, by clicking the :icon:`oi-"
+#~ "view-pivot` :guilabel:`(Pivot)` icon in the upper-right corner."
+#~ msgstr ""
+#~ "D'abord, aller à :menuselection:`Application Événements --> Rapports --> "
+#~ "Revenus`, et passer à la vue tableau croisé, en cliquant sur "
+#~ "l'icône :icon:`oi-view-pivot` :guilabel:`(Tableau croisé)` dans le coin "
+#~ "supérieur droit."
+
+#~ msgid ""
+#~ "Next, open the :guilabel:`Measures` drop-down menu, and deselect the "
+#~ "option for :guilabel:`Count`, because this report is only going to focus "
+#~ "on revenues."
+#~ msgstr ""
+#~ "Ensuite, ouvrir le menu déroulant :guilabel:`Mesures`, et désélectionner "
+#~ "l'option pour :guilabel:`Nombre`, car ce rapport se concentrera "
+#~ "uniquement sur les revenus."
+
+#~ msgid ""
+#~ "With these configurations in place, all the revenues generated from the "
+#~ "events (and their corresponding registrations) are displayed, organized "
+#~ "by the event type (presented as expandable columns)."
+#~ msgstr ""
+#~ "Avec ces configurations en place, tous les revenus générés par les "
+#~ "événements (et leurs inscriptions correspondantes) sont affichés, "
+#~ "organisés par type d'événement (présentés sous forme de colonnes "
+#~ "extensibles)."
+
+#~ msgid ""
+#~ "The default stages in the :guilabel:`Kanban` view "
+#~ "are :guilabel:`New`, :guilabel:`Booked`, :guilabel:`Announced`, :guilabel:`Ended`, "
+#~ "and :guilabel:`Cancelled`. The cards can be dragged-and-dropped into any "
+#~ "stage in the pipeline."
+#~ msgstr ""
+#~ "Les étapes par défaut dans la vue :guilabel:`Kanban` "
+#~ "sont :guilabel:`Nouveau`, :guilabel:`Réservé`, :guilabel:`Annoncé`, :guilabel:`Terminé` "
+#~ "et :guilabel:`Annulé`. Les cartes peuvent être glissées-déposées dans "
+#~ "n'importe quelle étape du pipeline."
+
+#~ msgid ""
+#~ "The :guilabel:`Ended` and :guilabel:`Cancelled` stages are folded by "
+#~ "default and located to the right of the other stages."
+#~ msgstr ""
+#~ "Les étapes :guilabel:`Terminé` et :guilabel:`Annulé` sont repliées par "
+#~ "défaut et situées à droite des autres étapes."
+
+#~ msgid ""
+#~ "To add a new stage, click the :icon:`fa-plus` :guilabel:`Add Stage` "
+#~ "button on the right, enter a name for the stage, then "
+#~ "click :guilabel:`Add`."
+#~ msgstr ""
+#~ "Pour ajouter une nouvelle étape, cliquer sur le bouton :icon:`fa-"
+#~ "plus` :guilabel:`Ajouter une étape` à droite, saisir un nom pour l'étape, "
+#~ "puis cliquer sur :guilabel:`Ajouter`."
+
+#~ msgid ""
+#~ "At the top of the event form are a series of smart buttons related to "
+#~ "various event metrics. These auto-populate with data once attendees begin "
+#~ "to register, when booths and sponsors sign on for the event, when the "
+#~ "event takes place, and so on. These smart buttons can be clicked to "
+#~ "navigate to the event's related pages to modify any details and/or "
+#~ "perform any desired actions."
+#~ msgstr ""
+#~ "En haut du formulaire d'événement se trouve une série de boutons "
+#~ "intelligents liés à diverses métriques d'événement. Ceux-ci se "
+#~ "remplissent automatiquement avec des données une fois que les "
+#~ "participants commencent à s'inscrire, lorsque les stands et les sponsors "
+#~ "s'inscrivent pour l'événement, lorsque l'événement a lieu, etc. Ces "
+#~ "boutons intelligents peuvent être cliqués pour naviguer vers les pages "
+#~ "associées de l'événement afin de modifier les détails et/ou d'effectuer "
+#~ "les actions souhaitées."
+
+#~ msgid ""
+#~ ":guilabel:`Exhibition Map`: The image of the event venue map. Click "
+#~ "the :guilabel:`Upload your file` button to upload an image of the event "
+#~ "venue map."
+#~ msgstr ""
+#~ ":guilabel:`Plan de l'exposition` : l'image du plan du lieu de "
+#~ "l'événement. Cliquer sur le bouton :guilabel:`Téléverser votre fichier` "
+#~ "pour téléverser une image du plan du lieu de l'événement."
+
+#~ msgid ""
+#~ "Optionally, to create event badges for attendees, fill in the following "
+#~ "fields:"
+#~ msgstr ""
+#~ "En option, pour créer des badges d'événement pour les participants, "
+#~ "remplir les champs suivants :"
+
+#~ msgid ""
+#~ ":guilabel:`Badge Dimension`: The desired paper format dimension for the "
+#~ "badges. The options are :guilabel:`A4 foldable`, :guilabel:`A6`, "
+#~ "or :guilabel:`4 per sheet`."
+#~ msgstr ""
+#~ ":guilabel:`Dimension du badge` : le format de papier souhaité pour les "
+#~ "badges. Les options sont :guilabel:`A4 pliable`, :guilabel:`A6` "
+#~ "ou :guilabel:`4 par feuille`."
+
+#~ msgid ""
+#~ ":guilabel:`Badge Background`: The custom background image for the badges. "
+#~ "Click the :guilabel:`Upload your file` button to upload an image."
+#~ msgstr ""
+#~ ":guilabel:`Arrière-plan du badge` : l'image d'arrière-plan personnalisée "
+#~ "pour les badges. Cliquer sur le bouton :guilabel:`Téléverser votre "
+#~ "fichier` pour téléverser une image."
+
+#~ msgid ""
+#~ "Then, tick the checkbox beside :guilabel:`Description` from the resulting "
+#~ "drop-down menu."
+#~ msgstr ""
+#~ "Ensuite, cocher la case à côté de :guilabel:`Description` dans le menu "
+#~ "déroulant résultant."
+
+#~ msgid ""
+#~ "To add a communication in the :guilabel:`Communication` tab, "
+#~ "click :guilabel:`Add a line`. Then, select the desired type of "
+#~ "communication from the first drop-down menu on the :guilabel:`Template` "
+#~ "field. The options "
+#~ "are: :guilabel:`Mail`, :guilabel:`SMS`, :guilabel:`Social Post`, "
+#~ "or :guilabel:`WhatsApp`."
+#~ msgstr ""
+#~ "Pour ajouter une communication dans l'onglet :guilabel:`Communication`, "
+#~ "cliquer sur :guilabel:`Ajouter une ligne`. Ensuite, sélectionner le type "
+#~ "de communication souhaité dans le premier menu déroulant du "
+#~ "champ :guilabel:`Modèle`. Les options "
+#~ "sont : :guilabel:`Mail`, :guilabel:`SMS`, :guilabel:`Publication "
+#~ "sociale`, ou :guilabel:`WhatsApp`."
+
+#~ msgid ""
+#~ "Then, select an option from the :guilabel:`Trigger` drop-down menu. The "
+#~ "options are: :guilabel:`After each registration`, :guilabel:`Before the "
+#~ "event`, and :guilabel:`After the event`."
+#~ msgstr ""
+#~ "Ensuite, sélectionner une option dans le menu "
+#~ "déroulant :guilabel:`Déclencheur`. Les options sont : :guilabel:`Après "
+#~ "chaque inscription`, :guilabel:`Avant l'événement` et :guilabel:`Après "
+#~ "l'événement`."
+
+#~ msgid ""
+#~ "The :guilabel:`Sent` column populates with the number of sent "
+#~ "communications. Next to the number are different icons that appear, "
+#~ "depending on the status of that particular communication. The *Running* "
+#~ "status is represented by a :icon:`fa-cogs` :guilabel:`(three gears)` "
+#~ "icon. The *Sent* status is represented by a :icon:`fa-"
+#~ "check` :guilabel:`(checkmark)` icon. And, the *Scheduled* status is "
+#~ "represented by an :icon:`fa-hourglass-half` :guilabel:`(hourglass)` icon."
+#~ msgstr ""
+#~ "La colonne :guilabel:`Envoyé` se remplit avec le nombre de communications "
+#~ "envoyées. À côté du nombre apparaissent différentes icônes, selon le "
+#~ "statut de cette communication particulière. Le statut *En cours* est "
+#~ "représenté par une icône :icon:`fa-cogs` :guilabel:`(trois engrenages)`. "
+#~ "Le statut *Envoyé* est représenté par une icône :icon:`fa-"
+#~ "check` :guilabel:`(coche)`. Et le statut *Programmé* est représenté par "
+#~ "une icône :icon:`fa-hourglass-half` :guilabel:`(sablier)`."
+
+#~ msgid ""
+#~ "To view and manage all email templates, activate :ref:`developer-mode` "
+#~ "and navigate to :menuselection:`Settings --> Technical --> Email: Email "
+#~ "Templates`. Modify with caution as email templates effect all "
+#~ "communications where the template is used."
+#~ msgstr ""
+#~ "Pour afficher et gérer tous les modèles d'e-mail, activer :ref:`developer-"
+#~ "mode` et aller à :menuselection:`Paramètres --> Technique --> E-mail : "
+#~ "Modèles d'e-mail`. Modifier avec prudence car les modèles d'e-mail "
+#~ "affectent toutes les communications où le modèle est utilisé."
+
+#~ msgid ""
+#~ "In the :guilabel:`Questions` tab of an event form, users can create brief "
+#~ "questionnaires for registrants to interact with, and respond to, after "
+#~ "they register for the event."
+#~ msgstr ""
+#~ "Dans l'onglet :guilabel:`Questions` d'un formulaire d'événement, les "
+#~ "utilisateurs peuvent créer de brefs questionnaires avec lesquels les "
+#~ "inscrits peuvent interagir et auxquels ils peuvent répondre après leur "
+#~ "inscription à l'événement."
+
+#~ msgid ""
+#~ "These questions can be focused on gathering basic information about the "
+#~ "attendee, learning about their preferences, expectations, and other "
+#~ "things of that nature. This information can also be used to create more "
+#~ "detailed reporting metrics, in addition to being utilized to create "
+#~ "specific lead generation rules."
+#~ msgstr ""
+#~ "Ces questions peuvent porter sur la collecte d'informations de base sur "
+#~ "le participant, la connaissance de ses préférences, de ses attentes et "
+#~ "d'autres choses de cette nature. Ces informations peuvent également être "
+#~ "utilisées pour créer des statistiques de reporting plus détaillées, en "
+#~ "plus d'être utilisées pour créer des règles spécifiques de génération de "
+#~ "prospects."
+
+#~ msgid ""
+#~ "By default, Odoo provides three questions in the :guilabel:`Questions` "
+#~ "tab for every event form. The default questions require one or more "
+#~ "registrants to provide their :guilabel:`Name`, :guilabel:`Email`, and an "
+#~ "optional :guilabel:`Phone` number as well."
+#~ msgstr ""
+#~ "Par défaut, Odoo fournit trois questions dans "
+#~ "l'onglet :guilabel:`Questions` pour chaque fiche événement. Les questions "
+#~ "par défaut exigent qu'un ou plusieurs inscrits fournissent "
+#~ "leur :guilabel:`Nom`, leur :guilabel:`E-mail`, et un numéro "
+#~ "de :guilabel:`Téléphone` optionnel également."
+
+#~ msgid ""
+#~ "To add a question in the :guilabel:`Questions` tab, click :guilabel:`Add "
+#~ "a line`. Doing so reveals a :guilabel:`Create Question` pop-up window. "
+#~ "From here, users can create and configure their question."
+#~ msgstr ""
+#~ "Pour ajouter une question dans l'onglet :guilabel:`Questions`, cliquer "
+#~ "sur :guilabel:`Ajouter une ligne`. Cette action fait apparaître une "
+#~ "fenêtre contextuelle :guilabel:`Créer une question`. À partir de là, les "
+#~ "utilisateurs peuvent créer et configurer leur question."
+
+#~ msgid ""
+#~ "First, enter the question in the field at the top of the form. Then, "
+#~ "decide if the question should require a :guilabel:`Mandatory Answer` and/"
+#~ "or if Odoo should :guilabel:`Ask once per order`, by ticking their "
+#~ "respective boxes, if desired."
+#~ msgstr ""
+#~ "D'abord, saisir la question dans le champ en haut du formulaire. Ensuite, "
+#~ "décider si la question doit nécessiter une :guilabel:`Réponse "
+#~ "obligatoire` et/ou si Odoo doit :guilabel:`Demander une fois par "
+#~ "commande`, en cochant leurs cases respectives, si souhaité."
+
+#~ msgid ""
+#~ "If the :guilabel:`Ask once per order` checkbox is ticked, the question "
+#~ "will only be asked once, and its value is applied to every attendee in "
+#~ "the order (if multiple tickets are purchased at once). If the checkbox is "
+#~ "**not** ticked for this setting, Odoo presents the question for every "
+#~ "attendee that is connected to that registration."
+#~ msgstr ""
+#~ "Si la case :guilabel:`Demander une fois par commande` est cochée, la "
+#~ "question ne sera posée qu'une seule fois, et sa valeur est appliquée à "
+#~ "chaque participant de la commande (si plusieurs billets sont achetés en "
+#~ "une fois). Si la case n'est **pas** cochée pour ce paramètre, Odoo "
+#~ "présente la question pour chaque participant connecté à cette inscription."
+
+#~ msgid ""
+#~ "Once all the desired configurations have been entered, either "
+#~ "click :guilabel:`Save & Close` to save the question, and return to "
+#~ "the :guilabel:`Questions` tab on the event form, or click :guilabel:`Save "
+#~ "& New` to save the question and immediately create a new question on a "
+#~ "new :guilabel:`Create Question` pop-up window."
+#~ msgstr ""
+#~ "Une fois toutes les configurations souhaitées saisies, cliquer "
+#~ "sur :guilabel:`Enregistrer et fermer` pour enregistrer la question et "
+#~ "revenir à l'onglet :guilabel:`Questions` du formulaire d'événement, ou "
+#~ "cliquer sur :guilabel:`Enregistrer et nouveau` pour enregistrer la "
+#~ "question et créer immédiatement une nouvelle question sur une nouvelle "
+#~ "fenêtre contextuelle :guilabel:`Créer une question`."
+
+#~ msgid ""
+#~ "As questions are added to the :guilabel:`Questions` tab, the informative "
+#~ "columns showcase the configurations of each question."
+#~ msgstr ""
+#~ "Au fur et à mesure que des questions sont ajoutées à "
+#~ "l'onglet :guilabel:`Questions`, les colonnes informatives affichent les "
+#~ "configurations de chaque question."
+
+#~ msgid "The informative columns are the following:"
+#~ msgstr "Les colonnes informatives sont les suivantes :"
+
+#~ msgid ":guilabel:`Title`"
+#~ msgstr ":guilabel:`Titre`"
+
+#~ msgid ":guilabel:`Mandatory`"
+#~ msgstr ":guilabel:`Obligatoire`"
+
+#~ msgid ":guilabel:`Once per Order`"
+#~ msgstr ":guilabel:`Une fois par commande`"
+
+#~ msgid ":guilabel:`Type`"
+#~ msgstr ":guilabel:`Type`"
+
+#~ msgid ":guilabel:`Answers` (if applicable)"
+#~ msgstr ":guilabel:`Réponses` (si applicable)"
+
+#~ msgid ""
+#~ "To delete any question from the :guilabel:`Questions` tab, click "
+#~ "the :icon:`fa-trash-o` :guilabel:`(trash can)` icon on the corresponding "
+#~ "question line."
+#~ msgstr ""
+#~ "Pour supprimer une question de l'onglet :guilabel:`Questions`, cliquer "
+#~ "sur l'icône :icon:`fa-trash-o` :guilabel:`(corbeille)` sur la ligne de "
+#~ "question correspondante."
+
+#~ msgid ""
+#~ "Any number of questions can be added in the :guilabel:`Questions` tab of "
+#~ "an event form."
+#~ msgstr ""
+#~ "Un nombre illimité de questions peut être ajouté dans "
+#~ "l'onglet :guilabel:`Questions` d'un formulaire d'événement."
+
+#~ msgid "Notes tab"
+#~ msgstr "Onglet notes"
+
+#~ msgid ""
+#~ "In the :guilabel:`Notes` tab of an event form, users can leave detailed "
+#~ "internal notes and/or event-related instructions/information for "
+#~ "attendees."
+#~ msgstr ""
+#~ "Dans l'onglet :guilabel:`Notes` d'un formulaire d'événement, les "
+#~ "utilisateurs peuvent laisser des notes internes détaillées et/ou des "
+#~ "instructions/informations liées à l'événement pour les participants."
+
+#~ msgid ""
+#~ "In the :guilabel:`Note` field of the :guilabel:`Notes` tab, users can "
+#~ "leave internal notes for other event employees, like \"to-do\" lists, "
+#~ "contact information, instructions, and so on."
+#~ msgstr ""
+#~ "Dans le champ :guilabel:`Note` de l'onglet :guilabel:`Notes`, les "
+#~ "utilisateurs peuvent laisser des notes internes pour d'autres employés "
+#~ "travaillant sur l'événement, comme des listes de tâches, des coordonnées, "
+#~ "des instructions, etc."
+
+#~ msgid ""
+#~ "In the :guilabel:`Ticket Instructions` field of the :guilabel:`Notes` "
+#~ "tab, users can leave specific instructions for people attending the event "
+#~ "that appear on the attendees ticket."
+#~ msgstr ""
+#~ "Dans le champ :guilabel:`Instructions du billet` de "
+#~ "l'onglet :guilabel:`Notes`, les utilisateurs peuvent laisser des "
+#~ "instructions spécifiques pour les personnes assistant à l'événement qui "
+#~ "apparaîtront sur le billet des participants."
+
+#~ msgid ""
+#~ "Once the event website is ready to be shared, click the "
+#~ "red :guilabel:`Unpublished` toggle switch in the header menu, changing it "
+#~ "to a green :guilabel:`Published` switch. At this point, the event web "
+#~ "page is published and viewable/accessible by all website visitors."
+#~ msgstr ""
+#~ "Une fois que le site web de l'événement est prêt à être partagé, cliquer "
+#~ "sur le bouton rouge :guilabel:`Non publié` dans le menu d'en-tête, le "
+#~ "transformant en bouton vert :guilabel:`Publié`. À ce stade, la page web "
+#~ "de l'événement est publiée et visible/accessible par tous les visiteurs "
+#~ "du site web."
 
 #~ msgid ""
 #~ "With Odoo *Events*, users can utilize a fully-integrated event website, "

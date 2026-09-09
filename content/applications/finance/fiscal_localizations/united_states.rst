@@ -43,11 +43,13 @@ localization for the Odoo **Accounting** app.
 .. image:: united_states/us-l10n-package.png
    :alt: The Package field with the United States package selected.
 
-Optional modules
-----------------
+.. _l10n_us/optional-modules:
 
-The following modules may be :ref:`installed <general/install>` for additional functionality
-specific to the US fiscal localization:
+Modules installation
+--------------------
+
+:ref:`Install <general/install>` the following modules to get all the features of the United States
+localization:
 
 .. list-table::
    :header-rows: 1
@@ -84,7 +86,7 @@ specific to the US fiscal localization:
    * - :ref:`Avatax <l10n_us/taxes-avatax>`
      - `account_avatax`
      - Module for the :doc:`AvaTax integration <../accounting/taxes/avatax>` with Odoo.
-   * - :ref:`United States - Payroll <l10n_us/payroll>`
+   * - :doc:`United States - Payroll <../../hr/payroll/payroll_localizations/united_states>`
      - `l10n_us_hr_payroll`
      - Includes the necessary rules for United States payroll, including:
 
@@ -96,12 +98,15 @@ specific to the US fiscal localization:
        - Employee Payslip
        - Integration with Leaves Management
 
-   * - :ref:`United States - Payroll with Accounting <l10n_us/payroll>`
+   * - :guilabel:`United States - Payroll with Accounting`
      - `l10n_us_hr_payroll_account`
      - Contains the necessary accounting data for the United States payroll rules.
-   * - :ref:`United States - Payroll - Export to ADP <l10n_us/adp>`
+   * - :ref:`United States - Payroll - Export to ADP <payroll/united_states/adp>`
      - `l10n_us_hr_payroll_adp`
      - Export Work Entries to the ADP payroll software.
+
+.. seealso::
+   :doc:`United States payroll localization <../../hr/payroll/payroll_localizations/united_states>`
 
 .. _l10n_us/coa:
 
@@ -178,13 +183,11 @@ View, edit, and sort accounts
 -----------------------------
 
 Access the *Chart of Accounts* dashboard in Odoo by navigating to :menuselection:`Accounting app -->
-Configuration --> Accounting: Chart of Accounts`.
-
-From the :guilabel:`Chart of Accounts` dashboard, create new accounts by clicking the
-:guilabel:`New` button in the top-left corner of the dashboard and :ref:`filling in the
-corresponding form <chart-of-account/create>`. Search and sort through existing accounts by using
-specific :guilabel:`Filters` and :guilabel:`Group By` criteria, which are available in the search
-drop-down menu.
+Configuration --> Accounting: Chart of Accounts`. From the :guilabel:`Chart of Accounts` dashboard,
+create new accounts by clicking the :guilabel:`New` button in the top-left corner of the dashboard
+and :ref:`filling in the corresponding form <chart-of-account/create>`. Search and sort through
+existing accounts by using specific :guilabel:`Filters` and :guilabel:`Group By` criteria, which are
+available in the search drop-down menu.
 
 To filter accounts by category, click the :icon:`fa-caret-down` :guilabel:`(dropdown)` icon to
 access the drop-down menu and look under the :guilabel:`Filters` column for individual selections.
@@ -262,76 +265,27 @@ tax calculations when items are sold, purchased, and invoiced in the database.
 Reports
 =======
 
-A number of :doc:`report selections <../accounting/reporting>` are readily available for the US
-localization, under the :menuselection:`Accounting app --> Reporting` drop-down menu:
+In addition to the :doc:`generic reports <../accounting/reporting>`, the following reports are
+available for the US localization under the :menuselection:`Accounting --> Reporting` menu:
 
-- :ref:`Balance Sheet <accounting/reporting/balance-sheet>`: A "snapshot" of a company's financial
-  position at a specific point in time, which contains an overview of a company's assets,
-  liabilities, and equity.
-- :ref:`Profit and Loss (P&L) <l10n_us/profit-loss-statement>`: Provides a summary of a company's
-  revenues, expenses, and profits/losses over a given period of time. Also known as a *P&L
-  statement* or *income statement*.
-- :ref:`Cash Flow Statement <l10n_us/cash-flow-statement>`: Shows how much cash and cash equivalents
-  a company has received and spent in a given period.
-- :ref:`Executive Summary <accounting/reporting/executive-summary>`: An overview report that covers
-  the key performance indicators of a company's financial position, such as revenue, profit, and
-  debt.
-- :ref:`Tax Report <accounting/reporting/tax-report>`: An official form filed for a tax authority
-  that reports income, expenses, and other pertinent tax information. Tax reports allow taxpayers to
-  calculate their tax liability, schedule tax payments, or request refunds for the overpayment of
-  taxes. In Odoo, the tax report can be made monthly, every two months, quarterly, every 4 months,
-  semi-annually, and annually.
-- :guilabel:`Check Register`: A report that displays cash transactions (regardless of the journal)
-  with their running balance after the transaction. Only visible with the *US - Accounting Reports*
-  (`l10n_us_reports`) module installed.
+- :ref:`Check Register <l10n_us/optional-modules>`: A report displaying cash transactions
+  (regardless of the journal) with their running balance after the transaction.
 - :ref:`1099 Report <l10n_us/1099-report>`: A CSV download of payments made to non-employees in a
-  period to file electronically in a third-party service. Only visible with the *1099 Reporting*
-  (`l10n_us_1099`) module installed.
-
-.. _l10n_us/report-filters:
-
-Depending on the type of report, certain filters are available at the top of the dashboard:
-
-- A *date* filter, indicated by a :icon:`fa-calendar` :guilabel:`(calendar)` icon that precedes a
-  date in *MM/DD/YYYY* format. Use this to select a specific date or date range for the report.
-- A :icon:`fa-bar-chart` :guilabel:`Comparison` filter, to compare reporting periods against each
-  other
-- A *journal* filter, as indicated by a :icon:`fa-book` :guilabel:`(book)` icon and the default
-  setting of :guilabel:`All Journals`. Use this filter to specify which journals should be included
-  in the report.
-- An *entries type* filter, as indicated by a :icon:`fa-filter` :guilabel:`(filter)` icon, with the
-  default setting of :guilabel:`Posted Entries Only, Accrual Basis`. Use this filter to determine
-  which type of journal entries should be included in the report (e.g. posted or draft), along with
-  the type of accounting method (e.g. accrual or cash basis).
-
-  - There are view options in this filter, as well, one that will :guilabel:`Hide lines at 0` for
-    more relevant viewing, along with a :guilabel:`Split Horizontally` option to keep the report
-    above the screen's fold, removing the need to scroll.
-
-    .. image:: united_states/us-l1on-accounting-method-reporting-menu.png
-       :alt: Accounting method filter menu for reports, covering accrual vs. cash basis methods.
-
-- A *decimal* filter, that by default, includes figures with cents, as indicated by the
-  :guilabel:`In .$` setting. Use the other options in the drop-down menu to change figures in the
-  report to whole numbers (:guilabel:`In $`), thousands (:guilabel:`In K$`), or millions
-  (:guilabel:`In M$`) formats.
-- A report *customization* filter, indicated by the :icon:`fa-cogs` :guilabel:`(gears)` icon. Use
-  this filter to customize the current report's sections and line items, or build new reports, as
-  desired.
+  period to file electronically in a third-party service.
 
 .. seealso::
    - :doc:`Accounting reporting <../accounting/reporting>`
    - :doc:`../../essentials/search`
+   - :ref:`Cash basis reporting <accounting/cash-basis/report-filter>`
 
 .. _l10n_us/1099-report:
 
 1099 report
 -----------
 
-The 1099 report, available by :ref:`installing <general/install>` the *1099 Reporting*
-(`l10n_us_1099`) module, includes payments that are made to non-employees across a given reporting
-period. Use the available CSV download from the report in Odoo to file 1099 payments electronically
-via a third-party service.
+The :ref:`1099 report <l10n_us/optional-modules>` includes payments that are made to non-employees
+across a given reporting period. Use the available CSV download from the report in Odoo to file 1099
+payments electronically via a third-party service.
 
 To generate a 1099 report, navigate to :menuselection:`Accounting app --> Reporting --> Management:
 1099 Report` to open a :guilabel:`1099 Report` wizard.
@@ -354,7 +308,7 @@ Cash flow statement
 
 Navigate to the *Cash Flow Statement* (CFS) dashboard by going to :menuselection:`Accounting app -->
 Reporting --> Statement Reports: Cash Flow Statement`. From here, |CFS| reports can be generated
-using the various :ref:`filters <l10n_us/report-filters>` that are available at the top of the
+using the various :ref:`filters <accounting/reporting/filters>` that are available at the top of the
 dashboard.
 
 Odoo uses the *direct* cash flow method to compile cash flow statements, which measures actual cash
@@ -451,14 +405,14 @@ payment term can be set up with a cash discount and reduced tax.
 Writing checks
 ==============
 
-Using checks is still a common payment practice in the US. Be sure the *US Checks Layout*
-(`l10n_us_check_printing`) module for the US localization is :ref:`installed <general/install>`.
+.. note::
+   Be sure the :guilabel:`US Checks Layout` (`l10n_us_check_printing`) module for the US
+   localization is :ref:`installed <general/install>`.
 
-To enable check printing from Odoo, navigate to :menuselection:`Accounting --> Configuration -->
-Settings` and find the :guilabel:`Vendor Payments` section. From here, tick the :guilabel:`Checks`
-checkbox to reveal several fields for check configuration.
+To print checks in Odoo, :doc:`enable and configure checks <../accounting/payments/pay_checks>`.
 
-Select a pre-printed or blank :guilabel:`Check Layout` from the drop-down menu:
+In the :guilabel:`Check Layout` field, select one of the available pre-printed or blank check
+layouts from the drop-down menu:
 
 - :guilabel:`Print Check (Top) - US`
 - :guilabel:`Print Check (Middle) - US`
@@ -467,202 +421,11 @@ Select a pre-printed or blank :guilabel:`Check Layout` from the drop-down menu:
 - :guilabel:`Print Blank Check (Middle) - US`
 - :guilabel:`Print Blank Check (Bottom) - US`
 
-Next, choose whether or not to enable the :guilabel:`Multi-Pages Check Stub` checkbox.
-
-Optionally set a :guilabel:`Check Top Margin` and :guilabel:`Check Left Margin`, if required.
-
-Once all check configurations are complete, :guilabel:`Save` the settings.
-
 .. tip::
-   Pre-printed check formats (non-blank checks) require pre-printed paper from a third-party vendor.
-   `Pre-printed checks from checkdepot.net <https://checkdepot.net/collections/odoo-checks>`_ are
-   recommended.
-
-.. important::
-
-   Use one of the blank check formats to print the information of the check ad-hoc when needed. This
-   requires the use of both :abbr:`MICR (Magnetic Ink Character Recognition)` ink or toner complying
-   with the standards for check printing, as well as `check quality paper
-   <https://checkdepot.net/collections/blank-check-paper/products/top-format-blank-check-paper-cdt164>`_.
-   Other information, such as the company name, bank account, and check number, is printed when
-   creating the blank check.
-
-.. seealso::
-   :doc:`../accounting/payments/pay_checks`
-
-.. _l10n_us/payroll:
-
-Payroll
-=======
-
-The **Payroll** app is responsible for calculating an employee's pay, taking into account all work,
-vacation, and sick time, benefits, and deductions. The **Payroll** app pulls information from the
-**Attendances**, **Timesheets**, **Time Off**, **Employees** and **Expenses** apps, to calculate the
-worked hours and compensation for each employee.
-
-When using an external payroll provider, such as *ADP*, it is necessary to export the various
-payroll-related data, such as work entries, repayment of expenses, taxes, commissions, and any other
-relevant data, so the data can be uploaded into the payroll provider, who then issues the actual
-paychecks or directly deposits the funds into an employee's bank account.
-
-In order to export the payroll data, the work entries must first be validated and correct. Refer to
-the :doc:`work entries <../../hr/payroll/work_entries>` documentation for more information regarding
-validating work entries.
-
-Once work entries are validated, the information can be :ref:`exported to ADP <l10n_us/adp>`.
-
-After payments have been issued to employees, payslips can be processed into batches, validated, and
-posted to the corresponding accounting journals to keep all financial records in Odoo current.
-
-Required information
---------------------
-
-It is important to have the **Employees** app installed, and all employee information populated.
-Several fields in both the :ref:`employee records <l10n_us/payroll-employee-records>`, as well as in
-an :ref:`employee contracts <l10n_us/payroll-employee-contracts>`, are necessary to properly process
-the employee's pay. Ensure the following fields are filled out in their respective places.
-
-.. _l10n_us/payroll-employee-records:
-
-Employee records
-~~~~~~~~~~~~~~~~
-
-In each employee record, there is various information the **Payroll** app requires to properly
-process payslips, including various banking, tax, and work information.
-
-Navigate to the :menuselection:`Employees app` and select an employee record to view the sections of
-the employee form that directly affect *Payroll*:
-
-- :guilabel:`Work Information` tab:
-
-  - :guilabel:`Work Address`: indicates where the employee is located, including the state, which
-    affects the tax calculations.
-  - :guilabel:`Working Hours`: determines how pay is calculated, and determines if an employee earns
-    overtime.
-
-- :guilabel:`Private Information` tab:
-
-  - :guilabel:`SSN No`: the last four digits of the employee's Social Security Number (SSN) appears
-    on payslips.
-  - :guilabel:`Bank Account Number`: the bank account associated with the NACHA payment file.
-
-- :guilabel:`HR Settings` tab:
-
-  - :guilabel:`Federal Tax Filing Status`: the tax status an employee uses for Payroll tax
-    calculations, which can be different from their state status.
-  - :guilabel:`State Tax Filing Status`: the tax status an employee uses for their state portion of
-    the Payroll tax calculation.
-  - :guilabel:`W-2 Form`: a US tax form indicating the summary of wages, taxes, and benefits paid to
-    an employee during a tax period (typically one year).
-  - :guilabel:`W-4 Form`: an IRS form that helps outline the amount of federal taxes to withhold for
-    an employee, which is paid to the IRS by the company.
-
-.. _l10n_us/payroll-employee-contracts:
-
-Employee contracts
-~~~~~~~~~~~~~~~~~~
-
-Additionally, there is information that is found in an employee contract that also affects the
-**Payroll** app.
-
-Navigate to the :menuselection:`Employees app --> Employees --> Contracts` and select a contract
-record to view the sections of a contract that directly affect *Payroll*:
-
-- :guilabel:`General Information`:
-
-  - :guilabel:`Salary Structure Type: United States: Employee`: defines when the employee is paid,
-    their working schedule, and the work entry type.
-  - :guilabel:`Work Entry source`: determines how work entries are calculated.
-
-- :guilabel:`Salary Information` tab:
-
-  - :guilabel:`SSN No`: the last four digits of the employee's Social Security Number (SSN) appears
-    on payslips.
-  - :guilabel:`Wage type`: determines how the employee is paid, wether a Fixed wage (salary) or
-    Hourly wage.
-  - :guilabel:`Schedule Pay`: defines how often the employee is paid, either :guilabel:`Annually`,
-    :guilabel:`Semi-annually`, :guilabel:`Quarterly`, :guilabel:`Bi-monthly`, :guilabel:`Monthly`,
-    :guilabel:`Semi-monthly`, :guilabel:`Bi-weekly`, :guilabel:`Weekly`, or :guilabel:`Daily`. In
-    the US, Semi-monthly (24 payments a year) or bi-weekly (26 payments a year) are the most common.
-  - :guilabel:`Wage, Yearly, and Monthly cost`: used to show the total cost of an employee. It is
-    recommended to populate the :guilabel:`Yearly` wage first, as it auto-populates the other
-    fields.
-  - :guilabel:`Pre-tax benefits`: populate this section according to the employee's selections.
-    Pre-tax benefits decrease the gross wage, which lowers the base amount that is taxed. These are
-    displayed at the beginning of the payslip.
-  - :guilabel:`Post-tax benefits`: these benefits are deductions made *after* taxes are calculated.
-    These appear towards the end of the payslip before the net amount is displayed.
-
-.. seealso::
-   :doc:`Employees documentation <../../hr/employees/new_employee>`
-
-.. _l10n_us/adp:
-
-Export work entries to ADP
---------------------------
-
-Requirements
-~~~~~~~~~~~~
-
-In order to create a report that can be uploaded to ADP, there are some initial configuration steps
-that must be completed first.
-
-First, ensure the *United States - Payroll - Export to ADP* (`l10n_us_hr_payroll_adp`) module is
-:ref:`installed <general/install>`.
-
-Then, the company **must** have an *ADP Code* entered in the company settings. To do so, navigate to
-:menuselection:`Payroll app --> Configuration --> Settings`. Enter the :guilabel:`ADP Code` in the
-:guilabel:`US Localization` section.
-
-Next, work entry types **must** have the correct ADP code listed in the *External Code* field for
-each work entry type that is being referenced.
-
-Lastly, every employee **must** have an *ADP Code* entered on their employee form. To do so,
-navigate to :menuselection:`Employees app`, select an employee record, and open the :guilabel:`HR
-Settings` tab. Enter the :guilabel:`ADP Code` in the :guilabel:`ADP Information` section.
-
-The :guilabel:`ADP Code` code is how ADP identifies that particular employee, and is typically a
-six-digit number.
-
-.. seealso::
-   - :ref:`payroll/new-work-entry`
-   - :doc:`../../hr/employees/new_employee`
-
-Export data
-~~~~~~~~~~~
-
-Once :doc:`work entries <../../hr/payroll/work_entries>` have been verified, the information can be
-exported to a CSV file, which can then be uploaded into ADP.
-
-To export the data, navigate to :menuselection:`Payroll app --> Reporting --> United States: ADP
-Export`, then click :guilabel:`New`. Next, enter the :guilabel:`Start Date` and :guilabel:`End Date`
-for the work entries using the calendar pop-over.
-
-Then, enter a :guilabel:`Batch ID` in the corresponding field. The recommendation for this field is
-to enter the date in a `YY-MM-DD` format, followed by any other characters to distinguish that
-specific batch, such as a department name, or any other defining characteristics for the batch.
-
-Enter a :guilabel:`Batch Description` in the corresponding field. This should be short and
-descriptive, but distinct from the :guilabel:`Batch Name`.
-
-Ensure the correct company populates the :guilabel:`Company` field. Change the selected company with
-the drop-down menu, if needed.
-
-Lastly, add the employee's work entry information to the list. Click :guilabel:`Add a line` and an
-:guilabel:`Add: Employee` pop-up window loads. The list can be :doc:`filtered
-<../../essentials/search>` to find the employees to add to the list.
-
-.. tip::
-   Process the data export in multiple groups instead of in one large group that contains all
-   employees. This helps to meaningfully differentiate the batches and makes processing more
-   tenable, overall. The most common ways to group employees is by department, or by wage type
-   (hourly or salaried).
-
-Select the employees to add to the list by ticking the box to the left of their name. Once all
-desired employees have been selected, click the :guilabel:`Select` button in the lower-left corner,
-and the employees appear in the list.
-
-To create the CSV file, click the :guilabel:`Generate` button in the top-left corner.
+   - For pre-printed layouts, we recommend using `pre-printed checks from checkdepot.net
+     <https://checkdepot.net/collections/odoo-checks>`_.
+   - For blank layouts, high-security check paper is required, such as `blank checks from
+     checkdepot.net <https://checkdepot.net/collections/blank-check-paper>`_.
 
 .. _l10n_us/ach-electronic-transfers:
 
@@ -792,7 +555,7 @@ a new |NACHA| |ACH| file.
 
 .. seealso::
    - :doc:`../accounting/payments/batch`
-   - :doc:`Europe's direct debiting <../accounting/payments/batch_sdd>`
+   - :doc:`Europe's direct debiting <../accounting/payments/sepa_payments>`
 
 .. |API| replace:: :abbr:`API (Application Programming Interface)`
 
@@ -895,8 +658,8 @@ detailed below:
       .. important::
          To avoid errors when initiating payments to the vendor, ensure the following:
 
-         - Verify the destination bank account with the vendor, then mark it as :doc:`Trusted
-           <../accounting/payments/trusted_accounts>`.
+         - Verify the destination bank account with the vendor, then mark it as :ref:`Trusted
+           <accounting/batch/bank-accounts>`.
          - Select the correct :guilabel:`Bank Account Type` (checking or savings).
          - Select the preferred :guilabel:`Direct Deposit Transfer Type` for the vendor/destination
            account. Pricing can be verified directly in Wise.
@@ -1130,3 +893,5 @@ etc.) are valid. The list of payments appears inside the file. Review and confir
 then click `Approve` or `Submit`.
 
 The bank processes each payment in the file and transfers the funds to the recipients.
+
+   - :doc:`Europe's direct debiting <../accounting/payments/sepa_payments>`

@@ -169,10 +169,10 @@ Inside the job application, the Kanban stages appear, with all the applicants po
 respective columns, indicating what stage they are currently in. In Odoo, six default stages are
 configured:
 
-- :ref:`New <recruitment/new>`
-- :ref:`Initial Qualification <recruitment/initial-qualification>`
-- :ref:`First Interview <recruitment/first-interview>`
-- :ref:`Second Interview <recruitment/second-interview>`
+- :ref:`New <recruitment/recruitment_flow/new>`
+- :ref:`Initial Qualification <recruitment/recruitment_flow/initial-qualification>`
+- :ref:`First Interview <recruitment/recruitment_flow/first-interview>`
+- :ref:`Second Interview <recruitment/recruitment_flow/second-interview>`
 - :doc:`Contract Proposal <recruitment/offer_job_positions>`
 - :ref:`Contract Signed <recruitment/offer_job_positions/contract-signed>`
 
@@ -363,11 +363,12 @@ appears in the chatter.
 .. seealso::
    - :doc:`recruitment/new_job`
    - :doc:`recruitment/post_job`
-   - :doc:`recruitment/add-new-applicants`
+   - :doc:`recruitment/recruitment_flow`
+   - :doc:`recruitment/add_applicants`
    - :doc:`recruitment/schedule_interviews`
    - :doc:`recruitment/offer_job_positions`
    - :doc:`recruitment/refuse_applicant`
-   - :doc:`recruitment/applicant_analysis`
+   - :doc:`recruitment/application_analysis`
    - :doc:`recruitment/source_analysis`
    - :doc:`recruitment/velocity_analysis`
    - :doc:`recruitment/team_performance`
@@ -377,12 +378,12 @@ appears in the chatter.
 
    recruitment/new_job
    recruitment/post_job
-   recruitment/recruitment-flow
-   recruitment/add-new-applicants
+   recruitment/recruitment_flow
+   recruitment/add_applicants
    recruitment/schedule_interviews
    recruitment/offer_job_positions
    recruitment/refuse_applicant
-   recruitment/applicant_analysis
+   recruitment/application_analysis
    recruitment/source_analysis
    recruitment/velocity_analysis
    recruitment/team_performance

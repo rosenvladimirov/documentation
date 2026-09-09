@@ -18,7 +18,7 @@ as standard financial reports, bank reconciliation, budgets, asset management, a
       :target: accounting/get_started
       :large:
 
-      Basic concepts of accounting and initial setup of your accounting
+      Detailed instructions for the initial setup of your accounting
 
    .. card:: Taxes
       :target: accounting/taxes
@@ -281,6 +281,7 @@ Both periodic (manual) and perpetual (automated) inventory valuations are suppor
 available methods are Standard Price, Average Cost (AVCO), and First In First Out (FIFO).
 
 .. seealso::
+   :doc:`Inventory valuation <accounting/get_started/inventory_valuation>`
    :doc:`../inventory_and_mrp/inventory/inventory_valuation/cheat_sheet`
 
 .. _accounting/retained-earnings:

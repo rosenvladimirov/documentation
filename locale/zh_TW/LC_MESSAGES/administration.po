@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-12 17:31+0000\n"
-"PO-Revision-Date: 2026-06-25 13:34+0000\n"
+"POT-Creation-Date: 2026-08-21 17:32+0000\n"
+"PO-Revision-Date: 2026-09-07 16:11+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-19-doc/administration/zh_Hant/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/administration.rst:8
 msgid "Database management"
@@ -135,12 +135,12 @@ msgid "Transferring an on-premise database"
 msgstr "傳輸本地資料庫"
 
 #: ../../content/administration/hosting.rst:17
-#: ../../content/administration/hosting.rst:92
+#: ../../content/administration/hosting.rst:106
 msgid "To Odoo Online"
 msgstr "到Odoo線上"
 
 #: ../../content/administration/hosting.rst:20
-#: ../../content/administration/hosting.rst:95
+#: ../../content/administration/hosting.rst:109
 msgid "Odoo Online is *not* compatible with **non-standard apps**."
 msgstr "Odoo線上*不*與**非標準應用程式**相容。"
 
@@ -163,32 +163,71 @@ msgid "Use the database manager to grab a *dump with filestore*."
 msgstr "使用資料庫管理員取得*帶有檔案儲存的轉儲*。"
 
 #: ../../content/administration/hosting.rst:26
-#: ../../content/administration/hosting.rst:98
+#: ../../content/administration/hosting.rst:112
 msgid ""
 "`Create a support ticket <https://www.odoo.com/help-form>`_ including the "
 "following:"
 msgstr "在`建立支援問題單 <https://www.odoo.com/help-form>`_時包含以下資訊："
 
 #: ../../content/administration/hosting.rst:28
-#: ../../content/administration/hosting.rst:100
+#: ../../content/administration/hosting.rst:114
 msgid "your **subscription number**,"
 msgstr "你的**訂閱號碼**，"
 
 #: ../../content/administration/hosting.rst:29
+#: ../../content/administration/hosting.rst:115
 msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`), and"
-msgstr "你想要用於資料庫的 **URL**（例如，`company.odoo.com`），以及"
+"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
+msgstr "您希望用於資料庫的**網址**（例如，`company.odoo.com`），"
 
 #: ../../content/administration/hosting.rst:30
 msgid ""
 "the **dump** as an attachment or as a link to the file (required for 60 MB+ "
-"files)."
-msgstr ""
-"作為附件的**轉儲**或含有**轉儲**的文件連結（60 MB 以上的文件有需要使用文件連"
-"結方式）。"
+"files),"
+msgstr "將\\ **備份檔案**\\ 作為附件或檔案連結（60 MB 以上檔案必須使用連結）、"
 
-#: ../../content/administration/hosting.rst:32
-#: ../../content/administration/hosting.rst:107
+#: ../../content/administration/hosting.rst:31
+msgid "the **region** you wish to be hosted in,"
+msgstr "您希望託管的\\ **地區**\\ 、"
+
+#: ../../content/administration/hosting.rst:34
+msgid ""
+"The list of available regions is available in `our privacy policy <https://"
+"www.odoo.com/privacy#data-transfer>`_."
+msgstr ""
+"可用地區清單請參閱\\ `我們的隱私權政策<https://www.odoo.com/privacy#data-"
+"transfer>`_\\ 。"
+
+#: ../../content/administration/hosting.rst:36
+msgid "the **name** you want for the database,"
+msgstr "您希望資料庫使用的\\ **名稱**\\ 、"
+
+#: ../../content/administration/hosting.rst:37
+msgid "what **version** the database is in,"
+msgstr "資料庫所在的\\ **版本**\\ 、"
+
+#: ../../content/administration/hosting.rst:38
+msgid "the login (email) of the **administrator** user,"
+msgstr "**管理員**\\ 使用者的登入電子郵件地址、"
+
+#: ../../content/administration/hosting.rst:39
+msgid "whether you wish to have a first **test** deployment, and"
+msgstr "您是否希望先進行\\ **測試**\\ 部署，以及"
+
+#: ../../content/administration/hosting.rst:42
+msgid ""
+"This is strongly recommended, especially if you have ever installed third-"
+"party apps."
+msgstr "強烈建議這樣做，特別是如果您曾經安裝過第三方應用程式。"
+
+#: ../../content/administration/hosting.rst:44
+msgid ""
+"**when** you will want the production database to be put online (day, time "
+"of day, and your timezone)."
+msgstr "您希望正式資料庫上線的\\ **時間**\\ （日期、時段及您的時區）。"
+
+#: ../../content/administration/hosting.rst:46
+#: ../../content/administration/hosting.rst:121
 msgid ""
 "Odoo then makes sure the database is compatible before putting it online. In "
 "case of technical issues during the process, Odoo might contact you."
@@ -196,8 +235,8 @@ msgstr ""
 "Odoo 會在將資料庫上線之前確保其相容。如果在此過程中出現技術問題，Odoo 可能會"
 "與你聯絡。"
 
-#: ../../content/administration/hosting.rst:36
-#: ../../content/administration/hosting.rst:111
+#: ../../content/administration/hosting.rst:50
+#: ../../content/administration/hosting.rst:125
 msgid ""
 "If you have time constraints, `create a support ticket <https://www.odoo.com/"
 "help-form>`_ as soon as possible to schedule the transfer."
@@ -205,13 +244,13 @@ msgstr ""
 "如果您有時間限制，請儘快`建立支援問題單 <https://www.odoo.com/help-form>`_以"
 "安排轉移。"
 
-#: ../../content/administration/hosting.rst:40
-#: ../../content/administration/hosting.rst:78
+#: ../../content/administration/hosting.rst:54
+#: ../../content/administration/hosting.rst:92
 msgid "To Odoo.sh"
 msgstr "轉移至 Odoo.sh"
 
-#: ../../content/administration/hosting.rst:42
-#: ../../content/administration/hosting.rst:85
+#: ../../content/administration/hosting.rst:56
+#: ../../content/administration/hosting.rst:99
 msgid ""
 "Follow the instructions found in :ref:`the Import a database section <odoo-"
 "sh/create/import>` of the Odoo.sh *Create a project* documentation."
@@ -219,11 +258,11 @@ msgstr ""
 "請遵循 Odoo.sh *建立專案*使用說明的:ref:`匯入資料庫章節 <odoo-sh/create/"
 "import>`中的指示。"
 
-#: ../../content/administration/hosting.rst:46
+#: ../../content/administration/hosting.rst:60
 msgid "Transferring an Odoo Online database"
 msgstr "轉移 Odoo 雲端版資料庫"
 
-#: ../../content/administration/hosting.rst:49
+#: ../../content/administration/hosting.rst:63
 msgid ""
 "Odoo Online's :doc:`intermediary versions <standard_extended_support>` are "
 "not supported by Odoo.sh or on-premise. Therefore, if the database to "
@@ -235,13 +274,13 @@ msgstr ""
 "裝支援。因此，如果要轉移的資料庫執行的是中間版本，則必須先升級到下一"
 "個:doc:`主要版本 <standard_extended_support>`，必要時等待其發布。"
 
-#: ../../content/administration/hosting.rst:55
+#: ../../content/administration/hosting.rst:69
 msgid ""
 "Transferring an online database running on Odoo 16.3 would require first "
 "upgrading it to Odoo 17.0."
 msgstr "轉移運行在 Odoo 16.3 的雲端版資料庫需要先將其升級至 Odoo 17.0。"
 
-#: ../../content/administration/hosting.rst:59
+#: ../../content/administration/hosting.rst:73
 msgid ""
 "Click the :icon:`fa-gear` (:guilabel:`gear`) button next to the database "
 "name on the `Odoo Online database manager <https://www.odoo.com/my/databases/"
@@ -250,7 +289,7 @@ msgstr ""
 "在 `Odoo 雲端版資料庫管理器 <https://www.odoo.com/my/databases/>`_中，按一下"
 "資料庫名稱旁邊的 :icon:`fa-gear`（:guilabel:`齒輪`）按鈕以顯示其版本號碼。"
 
-#: ../../content/administration/hosting.rst:63
+#: ../../content/administration/hosting.rst:77
 msgid ""
 "If there is an active Odoo subscription linked to the database being "
 "migrated, reach out to the Customer Service Manager or `contact Odoo support "
@@ -259,13 +298,13 @@ msgstr ""
 "如果有活躍的 Odoo 訂閱與正在遷移的資料庫相連結，請聯絡客戶服務經理或`聯絡 "
 "Odoo 支援 <https://www.odoo.com/help>`_以完成訂閱轉移。"
 
-#: ../../content/administration/hosting.rst:68
-#: ../../content/administration/hosting.rst:120
+#: ../../content/administration/hosting.rst:82
+#: ../../content/administration/hosting.rst:134
 msgid "To on-premise"
 msgstr "轉移至離線安裝"
 
-#: ../../content/administration/hosting.rst:70
-#: ../../content/administration/hosting.rst:80
+#: ../../content/administration/hosting.rst:84
+#: ../../content/administration/hosting.rst:94
 msgid ""
 "Download a database backup by signing in to `the Odoo Online database "
 "manager <https://www.odoo.com/my/databases/>`_, clicking the :icon:`fa-gear` "
@@ -279,56 +318,51 @@ msgstr ""
 "cloud-download` :guilabel:`下載`，以下載資料庫備份。如果因檔案過大導致下載失"
 "敗，請`聯絡 Odoo 支援 <https://www.odoo.com/help>`_。"
 
-#: ../../content/administration/hosting.rst:75
-#: ../../content/administration/hosting.rst:123
+#: ../../content/administration/hosting.rst:89
+#: ../../content/administration/hosting.rst:137
 msgid ""
 "Restore the database from the database manager on your local server using "
 "the backup."
 msgstr "使用備份從本地伺服器上的資料庫管理器還原資料庫。"
 
-#: ../../content/administration/hosting.rst:89
+#: ../../content/administration/hosting.rst:103
 msgid "Transferring an Odoo.sh database"
 msgstr "轉移 Odoo.sh 資料庫"
 
-#: ../../content/administration/hosting.rst:97
+#: ../../content/administration/hosting.rst:111
 msgid ""
 "Uninstall all **non-standard apps** in a staging build before doing it in "
 "the production build."
 msgstr "在生產環境分支中執行之前，先在臨時環境分支中解除安裝所有**非標準應用程式**。"
 
-#: ../../content/administration/hosting.rst:101
-msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
-msgstr "您希望用於資料庫的**網址**（例如，`company.odoo.com`），"
-
-#: ../../content/administration/hosting.rst:102
+#: ../../content/administration/hosting.rst:116
 msgid "which **branch** should be migrated,"
 msgstr "應遷移哪個**分支**，"
 
-#: ../../content/administration/hosting.rst:103
+#: ../../content/administration/hosting.rst:117
 msgid ""
 "in which **region** you want the database to be hosted (Americas, Europe, or "
 "Asia),"
 msgstr "您希望資料庫託管在哪個**地區**（美洲、歐洲或亞洲），"
 
-#: ../../content/administration/hosting.rst:104
+#: ../../content/administration/hosting.rst:118
 msgid "which user(s) will be the **administrator(s)**, and"
 msgstr "哪些使用者將成為**管理員**，以及"
 
-#: ../../content/administration/hosting.rst:105
+#: ../../content/administration/hosting.rst:119
 msgid ""
 "**when** (and in which timezone) you want the database to be up and running."
 msgstr "您希望資料庫上線運行的**時間**（以及時區）。"
 
-#: ../../content/administration/hosting.rst:113
+#: ../../content/administration/hosting.rst:127
 msgid "Select the **region** closest to most of your users to reduce latency."
 msgstr "選擇距離大多數使用者最近的**地區**以減少延遲。"
 
-#: ../../content/administration/hosting.rst:114
+#: ../../content/administration/hosting.rst:128
 msgid "Future **administrator(s)** must have an Odoo.com account."
 msgstr "未來的**管理員**必須擁有 Odoo.com 帳戶。"
 
-#: ../../content/administration/hosting.rst:115
+#: ../../content/administration/hosting.rst:129
 msgid ""
 "The **date and time** you want the database to be up and running are helpful "
 "to organize the switch from the Odoo.sh server to the Odoo Online servers."
@@ -336,11 +370,11 @@ msgstr ""
 "您希望資料庫上線運行的**日期和時間**有助於組織從 Odoo.sh 伺服器切換至 Odoo 雲"
 "端版伺服器。"
 
-#: ../../content/administration/hosting.rst:117
+#: ../../content/administration/hosting.rst:131
 msgid "Databases are **not reachable** during their migration."
 msgstr "資料庫在遷移期間**無法存取**。"
 
-#: ../../content/administration/hosting.rst:122
+#: ../../content/administration/hosting.rst:136
 msgid ""
 "Download a :ref:`backup of your Odoo.sh production database <odoo-sh/"
 "branches/tabs/backups>`."
@@ -1039,7 +1073,6 @@ msgstr "容器"
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:7
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:9
-#: ../../content/administration/odoo_sh/first_module.rst:6
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:14
 msgid "Overview"
 msgstr "概覽"
@@ -1565,8 +1598,6 @@ msgstr "然後，使用以下指令加入子模組："
 
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:82
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:94
-#: ../../content/administration/odoo_sh/first_module.rst:359
-#: ../../content/administration/odoo_sh/first_module.rst:498
 msgid "Replace"
 msgstr "更換"
 
@@ -1635,672 +1666,568 @@ msgstr ""
 "自動安裝。為此，您可以在子模組資料夾前加上 :code:`.`。平台將忽略此資料夾，您"
 "可以從另一個資料夾建立符號連結來手動選擇模組。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:3
-msgid "Your first module"
-msgstr "您的第一個模組"
+#: ../../content/administration/odoo_sh/create_module.rst:3
+msgid "Create a module"
+msgstr "建立模組"
 
-#: ../../content/administration/odoo_sh/first_module.rst:8
+#: ../../content/administration/odoo_sh/create_module.rst:5
 msgid ""
-"This chapter helps you to create your first Odoo module and deploy it in "
-"your Odoo.sh project."
-msgstr "本章節協助您建立第一個 Odoo 模組並將其部署到 Odoo.sh 專案中。"
+"Before creating your first module, it is necessary to :doc:`create an "
+"Odoo.sh project <getting_started/create>` and knowing your GitHub "
+"repository's URL."
+msgstr ""
+"建立第一個模組之前，必須先\\ :doc:`建立 Odoo.sh 專案 <getting_started/create>"
+"`\\ ，並知道您的 GitHub 儲存庫網址。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:10
+#: ../../content/administration/odoo_sh/create_module.rst:8
+msgid "Glossary"
+msgstr "詞彙表"
+
+#: ../../content/administration/odoo_sh/create_module.rst:10
 msgid ""
-"This tutorial requires you created a project on Odoo.sh, and you know your "
-"Github repository's URL."
-msgstr "本教學要求您已在 Odoo.sh 上建立專案，並且知道您的 Github 儲存庫網址。"
+"`~/src` is the directory where the Git repositories related to your Odoo "
+"projects are located."
+msgstr "`~/src`\\ 是存放與您 Odoo 專案相關的 Git 儲存庫的目錄。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:13
-msgid "Basic use of Git and Github is explained."
-msgstr "說明 Git 和 Github 的基本使用方式。"
+#: ../../content/administration/odoo_sh/create_module.rst:11
+msgid "`odoo` is the GitHub user."
+msgstr "`odoo`\\ 是 GitHub 使用者。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:15
-msgid "The below assumptions are made:"
-msgstr "以下為前提假設："
+#: ../../content/administration/odoo_sh/create_module.rst:12
+msgid "`odoo-addons` is the GitHub repository."
+msgstr "`odoo-addons`\\ 是 GitHub 儲存庫。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:17
-msgid ""
-"*~/src* is the directory where are located the Git repositories related to "
-"your Odoo projects,"
-msgstr "*~/src* 是存放與 Odoo 專案相關 Git 儲存庫的目錄，"
+#: ../../content/administration/odoo_sh/create_module.rst:13
+msgid "`feature-1` is the name of a development branch."
+msgstr "`feature-1`\\ 是開發分支的名稱。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:18
-msgid "*odoo* is the Github user,"
-msgstr "*odoo* 是 Github 使用者，"
+#: ../../content/administration/odoo_sh/create_module.rst:14
+msgid "`main` is the name of the production branch."
+msgstr "`main`\\ 是正式分支的名稱。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:19
-msgid "*odoo-addons* is the Github repository,"
-msgstr "*odoo-addons* 是 Github 儲存庫，"
+#: ../../content/administration/odoo_sh/create_module.rst:15
+msgid "`my_module` is the name of the module."
+msgstr "`my_module`\\ 是模組的名稱。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:20
-msgid "*feature-1* is the name of a development branch,"
-msgstr "*feature-1* 是開發分支的名稱，"
+#: ../../content/administration/odoo_sh/create_module.rst:17
+msgid "Replace these as necessary."
+msgstr "請視需要替換這些內容。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:21
-msgid "*master* is the name of the production branch,"
-msgstr "*master* 是正式分支的名稱，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:22
-msgid "*my_module* is the name of the module."
-msgstr "*my_module* 是模組的名稱。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:24
-msgid "Replace these by the values of your choice."
-msgstr "請將這些替換為您選擇的值。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:27
+#: ../../content/administration/odoo_sh/create_module.rst:22
 msgid "Create the development branch"
 msgstr "建立開發分支"
 
-#: ../../content/administration/odoo_sh/first_module.rst:30
-msgid "From Odoo.sh"
-msgstr "從 Odoo.sh"
+#: ../../content/administration/odoo_sh/create_module.rst:26
+#: ../../content/administration/odoo_sh/create_module.rst:73
+#: ../../content/administration/odoo_sh/create_module.rst:165
+msgid "On Odoo.sh"
+msgstr "在 Odoo.sh 上"
 
-#: ../../content/administration/odoo_sh/first_module.rst:32
-msgid "In the branches view:"
-msgstr "在分支檢視中："
+#: ../../content/administration/odoo_sh/create_module.rst:28
+msgid "From the :doc:`Branches view <getting_started/branches>`:"
+msgstr "從\\ :doc:`分支檢視 <getting_started/branches>`\\ ："
 
-#: ../../content/administration/odoo_sh/first_module.rst:34
-msgid "hit the :code:`+` button next to the development stage,"
-msgstr "點擊開發階段旁邊的 :code:`+` 按鈕，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:35
-msgid "choose the branch *master* in the *Fork* selection,"
-msgstr "在 *Fork* 選擇中選擇分支 *master*，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:36
-msgid "type *feature-1* in the *To* input."
-msgstr "在 *To* 輸入欄位中輸入 *feature-1*。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:38
-msgid "|pic1|  |pic2|"
-msgstr "|pic1|  |pic2|"
-
-#: ../../content/administration/odoo_sh/first_module.rst:40
-msgid "pic1"
-msgstr "pic1"
-
-#: ../../content/administration/odoo_sh/first_module.rst:43
-msgid "pic2"
-msgstr "pic2"
-
-#: ../../content/administration/odoo_sh/first_module.rst:46
+#: ../../content/administration/odoo_sh/create_module.rst:30
 msgid ""
-"Once the build created, you can access the editor and browse to the folder "
-"*~/src/user* to access to the code of your development branch."
+"In the branches navigation panel, click the ＋ (:guilabel:`New development "
+"branch`) button next to :guilabel:`Development`."
 msgstr ""
-"建立建置後，您可以存取編輯器並瀏覽到資料夾 *~/src/user*，以存取您開發分支的程"
-"式碼。"
+"在分支導覽面板中，按一下\\ :guilabel:`開發`\\ 旁的 ＋（:guilabel:`新開發分"
+"支`）按鈕。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:56
-msgid "From your computer"
-msgstr "從您的電腦"
+#: ../../content/administration/odoo_sh/create_module.rst:32
+msgid "Under :guilabel:`Fork`, select the `main` branch."
+msgstr "在\\ :guilabel:`Fork`\\ 下，選擇 `main` 分支。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:58
-msgid "Clone your Github repository on your computer:"
-msgstr "將您的 Github 儲存庫複製到您的電腦："
+#: ../../content/administration/odoo_sh/create_module.rst:33
+msgid "Under :guilabel:`To`, enter `feature-1`."
+msgstr "在\\ :guilabel:`To`\\ 下，輸入 `feature-1`。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:67
-msgid "Create a new branch:"
-msgstr "建立新分支："
+#: ../../content/administration/odoo_sh/create_module.rst:0
+msgid "Forking the production branch to create a development branch on Odoo.sh"
+msgstr "分支 Odoo.sh 上的生產分支以建立開發分支"
 
-#: ../../content/administration/odoo_sh/first_module.rst:74
+#: ../../content/administration/odoo_sh/create_module.rst:38
+msgid ""
+"Once the build is ready, you can access the :doc:`editor <getting_started/"
+"online_editor>` and the code of your development branch from the folder `~/"
+"src/user` folder."
+msgstr ""
+"建置準備好之後，您可以從 `~/src/user` 資料夾存取\\ :doc:`編輯器 "
+"<getting_started/online_editor>`\\ 和開發分支的程式碼。"
+
+#: ../../content/administration/odoo_sh/create_module.rst:41
+#: ../../content/administration/odoo_sh/create_module.rst:81
+#: ../../content/administration/odoo_sh/create_module.rst:177
+msgid "On a computer"
+msgstr "在電腦上"
+
+#: ../../content/administration/odoo_sh/create_module.rst:43
+msgid ""
+"Clone your GitHub repository on your computer by running the following "
+"commands:"
+msgstr "透過執行以下指令在電腦上複製您的 GitHub 儲存庫："
+
+#: ../../content/administration/odoo_sh/create_module.rst:52
+msgid "Create a new branch by running:"
+msgstr "透過執行以下指令建立新分支："
+
+#: ../../content/administration/odoo_sh/create_module.rst:61
 msgid "Create the module structure"
 msgstr "建立模組結構"
 
-#: ../../content/administration/odoo_sh/first_module.rst:77
-msgid "Scaffolding the module"
-msgstr "建立模組架構"
+#: ../../content/administration/odoo_sh/create_module.rst:66
+msgid "Scaffolding"
+msgstr "腳手架"
 
-#: ../../content/administration/odoo_sh/first_module.rst:79
+#: ../../content/administration/odoo_sh/create_module.rst:68
 msgid ""
-"While not necessary, scaffolding avoids the tedium of setting the basic Odoo "
-"module structure. You can scaffold a new module using the executable *odoo-"
-"bin*."
+"While it is not required, scaffolding avoids the tedium of setting the basic "
+"Odoo module structure. You can scaffold a new module using the `odoo-bin` "
+"executable."
 msgstr ""
-"雖然不是必要的，但建立架構可以避免設定基本 Odoo 模組結構的繁瑣工作。您可以使"
-"用可執行檔 *odoo-bin* 來建立新模組的架構。"
+"雖然不是必需的，但腳手架可避免設定基本 Odoo 模組結構的繁瑣工作。您可以使用 "
+"`odoo-bin` 可執行檔腳手架新模組。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:82
-msgid "From the Odoo.sh editor, in a terminal:"
-msgstr "從 Odoo.sh 編輯器，在終端機中："
+#: ../../content/administration/odoo_sh/create_module.rst:75
+#: ../../content/administration/odoo_sh/create_module.rst:167
+msgid "From the :doc:`editor <getting_started/online_editor>` terminal, run:"
+msgstr "從\\ :doc:`編輯器 <getting_started/online_editor>`\\ 終端機執行："
 
-#: ../../content/administration/odoo_sh/first_module.rst:88
-msgid "Or, from your computer, if you have an installation of Odoo:"
-msgstr "或者，如果您的電腦上已安裝 Odoo："
-
-#: ../../content/administration/odoo_sh/first_module.rst:94
+#: ../../content/administration/odoo_sh/create_module.rst:83
 msgid ""
-"If you do not want to bother installing Odoo on your computer, you can "
-"also :download:`download this module structure template <first_module/"
-"my_module.zip>` in which you replace every occurrences of *my_module* to the "
-"name of your choice."
-msgstr ""
-"如果您不想在電腦上安裝 Odoo，您也可以:download:`下載此模組結構範本 "
-"<first_module/my_module.zip>`，並將其中所有出現的 *my_module* 替換為您選擇的"
-"名稱。"
+"With :doc:`Odoo installed <../on_premise/source>` on your computer, run:"
+msgstr "在電腦上\\ :doc:`安裝 Odoo <../on_premise/source>`\\ 後，執行："
 
-#: ../../content/administration/odoo_sh/first_module.rst:98
-msgid "The below structure will be generated:"
+#: ../../content/administration/odoo_sh/create_module.rst:90
+msgid ""
+"If you do not want to install Odoo on your computer, you can "
+"also :download:`download this module structure template <create_module/"
+"my_module.zip>`. Replace every occurrence of `my_module` with the name of "
+"your choice."
+msgstr ""
+"如果您不想在電腦上安裝 Odoo，也可以\\ :download:`下載此模組結構範本 "
+"<create_module/my_module.zip>`\\ 。將所有出現的 `my_module` 替換為您選擇的名"
+"稱。"
+
+#: ../../content/administration/odoo_sh/create_module.rst:94
+msgid "The structure below will be generated:"
 msgstr "將產生以下結構："
 
-#: ../../content/administration/odoo_sh/first_module.rst:121
+#: ../../content/administration/odoo_sh/create_module.rst:117
 msgid ""
-"Do not use special characters other than the underscore ( _ ) for your "
-"module name, not even an hyphen ( - ). This name is used for the Python "
-"classes of your module, and having classes name with special characters "
-"other than the underscore is not valid in Python."
+"Only use alphanumeric characters (`a-z`, `0-9`) or underscores (`_`) when "
+"naming your module, as its name is used for Python classes, and class names "
+"containing special characters other than underscores are not valid in Python."
 msgstr ""
-"除了底線（_）之外，不要在模組名稱中使用特殊字元，連連字號（-）也不行。此名稱"
-"用於模組的 Python 類別，而在 Python 中，類別名稱包含底線以外的特殊字元是無效"
-"的。"
+"為模組命名時，僅使用英數字元（`a-z`、`0-9`）或底線（`_`），因為其名稱用於 "
+"Python 類別，而包含底線以外特殊字元的類別名稱在 Python 中無效。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:125
-msgid "Uncomment the content of the files:"
-msgstr "取消註解檔案的內容："
+#: ../../content/administration/odoo_sh/create_module.rst:121
+msgid "Uncomment the following files:"
+msgstr "取消註解以下檔案："
 
-#: ../../content/administration/odoo_sh/first_module.rst:127
-msgid "*models/models.py*, an example of model with its fields,"
-msgstr "*models/models.py*，包含欄位的模型範例，"
+#: ../../content/administration/odoo_sh/create_module.rst:123
+msgid ":file:`models/models.py` an example of a model with its fields"
+msgstr ":file:`models/models.py`：模型範例及其欄位"
 
-#: ../../content/administration/odoo_sh/first_module.rst:129
-msgid "*views/views.xml*, a tree and a form view, with the menus opening them,"
-msgstr "*views/views.xml*，樹狀檢視和表單檢視，以及開啟它們的選單，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:131
-msgid "*demo/demo.xml*, demo records for the above example model,"
-msgstr "*demo/demo.xml*，上述範例模型的示範記錄，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:133
+#: ../../content/administration/odoo_sh/create_module.rst:124
 msgid ""
-"*controllers/controllers.py*, an example of controller implementing some "
-"routes,"
-msgstr "*controllers/controllers.py*，實作某些路由的控制器範例，"
+":file:`views/views.xml` a tree and a form view, with the menus opening them"
+msgstr ":file:`views/views.xml`：樹狀檢視和表單檢視，以及開啟它們的選單"
 
-#: ../../content/administration/odoo_sh/first_module.rst:135
-msgid ""
-"*views/templates.xml*, two example qweb views used by the above controller "
-"routes,"
-msgstr "*views/templates.xml*，上述控制器路由使用的兩個 qweb 檢視範例，"
+#: ../../content/administration/odoo_sh/create_module.rst:125
+msgid ":file:`demo/demo.xml` demo records for the example model"
+msgstr ":file:`demo/demo.xml`：範例模型的示範記錄"
 
-#: ../../content/administration/odoo_sh/first_module.rst:137
+#: ../../content/administration/odoo_sh/create_module.rst:126
 msgid ""
-"*__manifest__.py*, the manifest of your module, including for instance its "
-"title, description and data files to load. You just need to uncomment the "
-"access control list data file:"
+":file:`controllers/controllers.py` an example of a controller implementing "
+"some routes"
+msgstr "\\ :file:`controllers/controllers.py`\\ 是實作某些路由的控制器範例"
+
+#: ../../content/administration/odoo_sh/create_module.rst:127
+msgid ""
+":file:`views/templates.xml` two example qweb views used by the controller "
+"routes"
+msgstr "\\ :file:`views/templates.xml`\\ 是控制器路由使用的兩個 qweb 檢視範例"
+
+#: ../../content/administration/odoo_sh/create_module.rst:128
+msgid ""
+":file:`__manifest__.py` the manifest of your module, including its title, "
+"description and data files to load. Uncomment the access control list data "
+"file:"
 msgstr ""
-"*__manifest__.py*，模組的資訊清單，包括標題、描述和要載入的資料檔案等。您只需"
-"要取消註解存取控制清單資料檔案："
+"\\ :file:`__manifest__.py`\\ 是您模組的清單檔，包括其標題、描述和要載入的資料"
+"檔案。取消註解存取控制清單資料檔案："
 
-#: ../../content/administration/odoo_sh/first_module.rst:146
+#: ../../content/administration/odoo_sh/create_module.rst:138
 msgid "Manually"
 msgstr "手工"
 
-#: ../../content/administration/odoo_sh/first_module.rst:148
+#: ../../content/administration/odoo_sh/create_module.rst:140
 msgid ""
-"If you want to create your module structure manually, you can follow "
-"the :doc:`/developer/tutorials/server_framework_101` tutorial to understand "
-"the structure of a module and the content of each file."
+"To create your module structure manually, follow the :doc:`/developer/"
+"tutorials/server_framework_101` tutorial to understand the structure of a "
+"module and the content of each file."
 msgstr ""
-"如果您想手動建立模組結構，可以參考:doc:`/developer/tutorials/"
-"server_framework_101`教學，以了解模組的結構和各檔案的內容。"
+"若要手動建立模組結構，請依照\\ :doc:`/developer/tutorials/"
+"server_framework_101`\\ 教學課程，以了解模組結構和每個檔案的內容。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:153
-msgid "Push the development branch"
-msgstr "推送開發分支"
+#: ../../content/administration/odoo_sh/create_module.rst:147
+msgid "Push on the development branch"
+msgstr "推送至開發分支"
 
-#: ../../content/administration/odoo_sh/first_module.rst:155
-msgid "Stage the changes to be committed"
-msgstr "暫存要提交的變更"
+#: ../../content/administration/odoo_sh/create_module.rst:149
+msgid "Stage the changes to be committed by running:"
+msgstr "執行以下命令來暫存要提交的變更："
 
-#: ../../content/administration/odoo_sh/first_module.rst:161
-#: ../../content/administration/odoo_sh/first_module.rst:394
-msgid "Commit your changes"
-msgstr "提交您的變更"
+#: ../../content/administration/odoo_sh/create_module.rst:155
+msgid "Commit your changes by running:"
+msgstr "執行以下命令來提交變更："
 
-#: ../../content/administration/odoo_sh/first_module.rst:167
-msgid "Push your changes to your remote repository"
-msgstr "將變更推送到遠端儲存庫"
+#: ../../content/administration/odoo_sh/create_module.rst:161
+msgid "Push your changes to your remote repository by running:"
+msgstr "執行以下命令將變更推送至遠端儲存庫："
 
-#: ../../content/administration/odoo_sh/first_module.rst:169
-msgid "From an Odoo.sh editor terminal:"
-msgstr "從 Odoo.sh 編輯器終端機："
-
-#: ../../content/administration/odoo_sh/first_module.rst:175
+#: ../../content/administration/odoo_sh/create_module.rst:174
 msgid ""
-"The above command is explained in the section :ref:`Commit and push changes "
-"<odoo-sh/editor/commit>` of the :doc:`Online editor page <getting_started/"
-"online_editor>`. It includes the explanation regarding the fact you will be "
-"prompted to type your username and password, and what to do if you use the "
-"two-factor authentication."
+":ref:`Online editor documentation: committing and pushing changes <odoo-sh/"
+"editor/commit>`"
+msgstr "\\ :ref:`線上編輯器使用說明：提交與推送變更 <odoo-sh/editor/commit>`"
+
+#: ../../content/administration/odoo_sh/create_module.rst:179
+msgid "Run:"
+msgstr "執行："
+
+#: ../../content/administration/odoo_sh/create_module.rst:185
+msgid ""
+"It is only necessary to specify `-u origin feature-1` the first time you "
+"push. After that, run:"
+msgstr "僅第一次推送時需要指定 `-u origin feature-1`。之後執行："
+
+#: ../../content/administration/odoo_sh/create_module.rst:195
+msgid "Test the module"
+msgstr "測試模組"
+
+#: ../../content/administration/odoo_sh/create_module.rst:197
+msgid ""
+"The branch should appear under the :guilabel:`Development` section of "
+"the :doc:`Branches view <getting_started/branches>` navigation panel."
 msgstr ""
-"上述命令在 :doc:`線上編輯器頁面 <getting_started/online_editor>`的 :ref:`提交"
-"和推送變更 <odoo-sh/editor/commit>`章節中說明。其中包括關於您將被提示輸入使用"
-"者名稱和密碼的說明，以及如果您使用雙重驗證時該怎麼做。"
+"該分支應會出現在\\ :guilabel:`開發`\\ 區段下的\\ :doc:`分支檢視 "
+"<getting_started/branches>`\\ 導覽面板中。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:180
-#: ../../content/administration/odoo_sh/first_module.rst:382
-#: ../../content/administration/odoo_sh/first_module.rst:408
-msgid "Or, from your computer terminal:"
-msgstr "或者，從您的電腦終端機："
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "Example of a development branch"
+msgstr "開發分支範例"
 
-#: ../../content/administration/odoo_sh/first_module.rst:186
+#: ../../content/administration/odoo_sh/create_module.rst:203
 msgid ""
-"You need to specify *-u origin feature-1* for the first push only. From that "
-"point, to push your future changes from your computer, you can simply use"
+"Click the branch name to view its history, including the changes you just "
+"pushed. Once the database is ready, click :guilabel:`Connect` to access it."
 msgstr ""
-"您只需要在第一次推送時指定 *-u origin feature-1*。之後，要從電腦推送未來的變"
-"更，您只需使用"
+"按一下分支名稱即可檢視其歷程記錄，包括您剛剛推送的變更。資料庫準備就緒後，按"
+"一下\\ :guilabel:`連線`\\ 即可存取。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:194
-msgid "Test your module"
-msgstr "測試您的模組"
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "The connect button to access a database"
+msgstr "連線按鈕以存取資料庫"
 
-#: ../../content/administration/odoo_sh/first_module.rst:196
-msgid "Your branch should appear in your development branches in your project."
-msgstr "您的分支應該會出現在專案的開發分支中。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:201
+#: ../../content/administration/odoo_sh/create_module.rst:209
 msgid ""
-"In the branches view of your project, you can click on your branch name in "
-"the left navigation panel to access its history."
-msgstr "在專案的分支檢視中，您可以在左側導覽面板中按一下分支名稱，以存取其歷史記錄。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:207
-msgid ""
-"You can see here the changes you just pushed, including the comment you set. "
-"Once the database ready, you can access it by clicking the *Connect* button."
+"If your Odoo.sh project is configured to automatically install the module, "
+"it will appear directly on the database dashboard. Otherwise, it will be "
+"available for installation under the :guilabel:`Apps` app."
 msgstr ""
-"您可以在此處看到剛才推送的變更，包括您設定的註解。資料庫準備就緒後，您可以按"
-"一下 *連線* 按鈕來存取它。"
+"如果您的 Odoo.sh 專案已設定為自動安裝此模組，它將直接出現在資料庫 Dashboard "
+"上。否則，它將可在\\ :guilabel:`應用程式`\\ 應用程式下安裝。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:213
-msgid ""
-"If your Odoo.sh project is configured to install your module automatically, "
-"you will directly see it amongst the database apps. Otherwise, it will be "
-"available in the apps to install."
-msgstr ""
-"如果您的 Odoo.sh 專案已設定為自動安裝您的模組，您將直接在資料庫應用程式中看到"
-"它。否則，它將在可安裝的應用程式中可用。"
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "The new module on the database dashboard"
+msgstr "資料庫 Dashboard 上的新模組"
 
-#: ../../content/administration/odoo_sh/first_module.rst:217
-msgid ""
-"You can then play around with your module, create new records and test your "
-"features and buttons."
-msgstr "接著您可以試用您的模組，建立新記錄並測試您的功能和按鈕。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:220
+#: ../../content/administration/odoo_sh/create_module.rst:219
 msgid "Test with the production data"
 msgstr "使用正式資料進行測試"
 
-#: ../../content/administration/odoo_sh/first_module.rst:222
+#: ../../content/administration/odoo_sh/create_module.rst:222
 msgid ""
-"You need to have a production database for this step. You can create it if "
-"you do not have it yet."
-msgstr "您需要有正式資料庫才能執行此步驟。如果您尚未擁有，可以建立一個。"
+"A production database is required for this step. If you do not have one yet, "
+"create it."
+msgstr "此步驟需要正式資料庫。如果您尚未擁有，請建立一個。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:224
+#: ../../content/administration/odoo_sh/create_module.rst:224
 msgid ""
-"Once you tested your module in a development build with the demo data and "
-"believe it is ready, you can test it with the production data using a "
+"Once you have tested the module in a development build with the demo data "
+"and believe it is ready, you can test it with the production data using a "
 "staging branch."
 msgstr ""
-"在使用示範資料的開發建置中測試您的模組並認為已準備就緒後，您可以使用預備分支"
-"以正式資料進行測試。"
+"在開發版本中使用示範資料測試模組並確認準備就緒後，您可以使用預備分支以正式資"
+"料測試。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:227
-msgid "You can either:"
-msgstr "你可選擇其中一項："
+#: ../../content/administration/odoo_sh/create_module.rst:227
+msgid "You can:"
+msgstr "您可以："
 
-#: ../../content/administration/odoo_sh/first_module.rst:229
+#: ../../content/administration/odoo_sh/create_module.rst:229
 msgid ""
-"Make your development branch a staging branch, by drag and dropping it onto "
-"the *staging* section title."
-msgstr "將您的開發分支設為預備分支，方法是將其拖放至 *staging* 區段標題上。"
+"Convert your development branch to a staging branch by dragging and dropping "
+"it into the :guilabel:`Staging` section."
+msgstr "將您的開發分支轉換為預備分支，只需拖放至\\ :guilabel:`預備`\\ 區段即可。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:235
+#: ../../content/administration/odoo_sh/create_module.rst:231
 msgid ""
-"Merge it in an existing staging branch, by drag and dropping it onto the "
-"given staging branch."
-msgstr "將它合併到現有的預備分支中，方法是將其拖放至指定的預備分支上。"
+"Merge it into an existing staging branch by dragging and dropping it onto "
+"that branch."
+msgstr "將其合併至現有的預備分支，只需拖放至該分支上即可。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:240
-#: ../../content/administration/odoo_sh/first_module.rst:286
-msgid "You can also use the :code:`git merge` command to merge your branches."
-msgstr "您也可以使用 :code:`git merge` 指令來合併您的分支。"
+#: ../../content/administration/odoo_sh/create_module.rst:232
+msgid "Use the `git merge` command to merge your branches."
+msgstr "使用\\ `git merge`\\ 命令來合併您的分支。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:242
+#: ../../content/administration/odoo_sh/create_module.rst:234
 msgid ""
-"This will create a new staging build, which will duplicate the production "
-"database and make it run using a server updated with your latest changes of "
-"your branch."
+"This creates a new staging build that duplicates the production database and "
+"runs it on a server updated with your branch’s latest changes."
 msgstr ""
-"這將建立新的預備建置，它會複製正式資料庫，並使用以您分支最新變更更新的伺服器"
-"來執行它。"
+"這會建立一個新的預備組建，複製正式資料庫並在已更新為您分支最新變更的伺服器上"
+"執行。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:248
-#: ../../content/administration/odoo_sh/first_module.rst:294
-msgid "Once the database ready, you can access it using the *Connect* button."
-msgstr "資料庫準備就緒後，您可以使用 *連線* 按鈕來存取它。"
+#: ../../content/administration/odoo_sh/create_module.rst:237
+msgid "Once the database is ready, click :guilabel:`Connect` to access it."
+msgstr "資料庫準備就緒後，按一下\\ :guilabel:`連線`\\ 即可存取。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:253
-#: ../../content/administration/odoo_sh/first_module.rst:297
-msgid "Install your module"
-msgstr "安裝您的模組"
+#: ../../content/administration/odoo_sh/create_module.rst:242
+#: ../../content/administration/odoo_sh/create_module.rst:272
+msgid "Install the module"
+msgstr "安裝模組"
 
-#: ../../content/administration/odoo_sh/first_module.rst:255
+#: ../../content/administration/odoo_sh/create_module.rst:244
+#: ../../content/administration/odoo_sh/create_module.rst:274
 msgid ""
-"Your module will not be installed automatically, you have to install it from "
-"the apps menu. Indeed, the purpose of the staging build is to test the "
-"behavior of your changes as it would be on your production, and on your "
-"production you would not like your module to be installed automatically, but "
-"on demand."
+"Install the module from the :guilabel:`Apps` app. As the module may not "
+"appear directly in the list of apps, update the list of apps by activating "
+"the :ref:`developer mode <developer-mode>` and "
+"clicking :menuselection:`Update Apps List --> Update`."
 msgstr ""
-"您的模組不會自動安裝，您必須從應用程式選單安裝它。事實上，預備建置的目的是測"
-"試您的變更在正式環境中的行為，而在正式環境中，您不希望模組自動安裝，而是按需"
-"安裝。"
+"從\\ :guilabel:`應用程式`\\ 應用程式安裝模組。由於模組可能不會直接顯示在應用"
+"程式清單中，請啟用\\ :ref:`開發者模式 <developer-mode>`\\ 並按一下\\ "
+":menuselection:`更新應用程式清單 --> 更新`\\ 來更新應用程式清單。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:260
+#: ../../content/administration/odoo_sh/create_module.rst:249
 msgid ""
-"Your module may not appear directly in your apps to install either, you need "
-"to update your apps list first:"
-msgstr "您的模組可能也不會直接出現在可安裝的應用程式中，您需要先更新應用程式清單："
+"The module is not installed automatically, as the purpose of the staging "
+"build is to test the behavior of your changes as they would be on the "
+"production database, so you would not want a module installed automatically."
+msgstr ""
+"模組不會自動安裝，因為預備組建的目的是測試您的變更在正式資料庫上的行為，因此"
+"您不會希望模組自動安裝。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:263
-msgid "Activate the :ref:`developer mode <developer-mode>`"
-msgstr "啟用:ref:`開發者模式 <developer-mode>`"
-
-#: ../../content/administration/odoo_sh/first_module.rst:264
-msgid "in the apps menu, click the *Update Apps List* button,"
-msgstr "在應用程式選單中，按一下 *更新應用程式清單* 按鈕，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:265
-msgid "in the dialog that appears, click the *Update* button."
-msgstr "在出現的對話方塊中，按一下 *更新* 按鈕。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:270
-msgid "Your module will then appear in the list of available apps."
-msgstr "您的模組將出現在可用應用程式清單中。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:276
+#: ../../content/administration/odoo_sh/create_module.rst:256
 msgid "Deploy in production"
 msgstr "部署至正式環境"
 
-#: ../../content/administration/odoo_sh/first_module.rst:278
+#: ../../content/administration/odoo_sh/create_module.rst:258
 msgid ""
-"Once you tested your module in a staging branch with your production data, "
-"and believe it is ready for production, you can merge your branch in the "
-"production branch."
+"Once you have tested the module in a staging branch with the production data "
+"and believe it is ready for production, you can merge your branch into the "
+"production branch by:"
 msgstr ""
-"在將您的模組在預備分支中使用生產資料測試後，並確信已準備好投入生產時，您可以"
-"將您的分支合併到生產分支中。"
+"在預備分支中使用正式資料測試模組後，如果您認為已準備好用於正式環境，可以透過"
+"以下方式將分支合併至正式分支："
 
-#: ../../content/administration/odoo_sh/first_module.rst:281
-msgid "Drag and drop your staging branch on the production branch."
-msgstr "將您的預備分支拖放到生產分支上。"
+#: ../../content/administration/odoo_sh/create_module.rst:261
+msgid "Dragging and dropping the staging branch onto the production branch."
+msgstr "將預備分支拖放至正式分支上。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:288
+#: ../../content/administration/odoo_sh/create_module.rst:262
+msgid "Using the `git merge` command to merge your branches."
+msgstr "使用\\ `git merge`\\ 命令來合併您的分支。"
+
+#: ../../content/administration/odoo_sh/create_module.rst:264
 msgid ""
-"This will merge the latest changes of your staging branch in the production "
-"branch, and update your production server with these latest changes."
-msgstr ""
-"這將把您預備分支的最新變更合併到生產分支中，並使用這些最新變更更新您的生產伺"
-"服器。"
+"This merges the latest changes from the staging branch into the production "
+"branch and updates the production server with them."
+msgstr "這會將預備分支的最新變更合併至正式分支，並以這些變更更新正式伺服器。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:299
-msgid ""
-"Your module will not be installed automatically, you have to install it "
-"manually as explained in the :ref:`above section about installing your "
-"module in staging databases <odoosh-gettingstarted-firstmodule-"
-"productiondata-install>`."
-msgstr ""
-"您的模組不會自動安裝，您必須手動安裝，如:ref:`上述關於在預備資料庫中安裝模組"
-"的章節 <odoosh-gettingstarted-firstmodule-productiondata-install>`所述。"
+#: ../../content/administration/odoo_sh/create_module.rst:267
+msgid "Once the database is ready,  click :guilabel:`Connect` to access it."
+msgstr "資料庫準備就緒後，按一下\\ :guilabel:`連線`\\ 即可存取。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:307
+#: ../../content/administration/odoo_sh/create_module.rst:281
 msgid "Add a change"
 msgstr "加入變更"
 
-#: ../../content/administration/odoo_sh/first_module.rst:309
+#: ../../content/administration/odoo_sh/create_module.rst:283
 msgid ""
 "This section explains how to add a change in your module by adding a new "
-"field in a model and deploy it."
-msgstr "本節說明如何透過在模型中加入新欄位來為您的模組加入變更並部署。"
+"field in a model and deploying it."
+msgstr "本節說明如何在模型中加入新欄位來加入模組變更並部署。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:314
-msgid "From the Odoo.sh editor,"
-msgstr "從 Odoo.sh 編輯器，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:313
-msgid "browse to your module folder *~/src/user/my_module*,"
-msgstr "瀏覽至您的模組資料夾 *~/src/user/my_module*，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:314
-msgid "then, open the file *models/models.py*."
-msgstr "然後開啟檔案 *models/models.py*。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:320
-msgid "Or, from your computer,"
-msgstr "或者，從您的電腦，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:317
+#: ../../content/administration/odoo_sh/create_module.rst:286
 msgid ""
-"use the file browser of your choice to browse to your module folder *~/src/"
-"odoo-addons/my_module*,"
-msgstr "使用您選擇的檔案瀏覽器瀏覽至您的模組資料夾 *~/src/odoo-addons/my_module*，"
-
-#: ../../content/administration/odoo_sh/first_module.rst:319
-msgid ""
-"then, open the file *models/models.py* using the editor of your choice, such "
-"as *Atom*, *Sublime Text*, *PyCharm*, *vim*, ..."
+"From the :doc:`editor <getting_started/online_editor>` or from your "
+"computer, open the module folder :file:`~/src/odoo-addons/my_module`, then "
+"open the :file:`models/models.py` file to edit it. After the description "
+"field:"
 msgstr ""
-"然後使用您選擇的編輯器開啟檔案 *models/models.py*，例如 *Atom*、*Sublime "
-"Text*、*PyCharm*、*vim* 等。"
+"從\\ :doc:`編輯器 <getting_started/online_editor>`\\ 或從您的電腦開啟模組資料"
+"夾\\ :file:`~/src/odoo-addons/my_module`\\ ，然後開啟\\ :file:`models/"
+"models.py`\\ 檔案進行編輯。在描述欄位之後："
 
-#: ../../content/administration/odoo_sh/first_module.rst:322
-msgid "Then, after the description field"
-msgstr "然後，在描述欄位之後"
+#: ../../content/administration/odoo_sh/create_module.rst:294
+msgid "add a datetime field:"
+msgstr "加入日期時間欄位："
 
-#: ../../content/administration/odoo_sh/first_module.rst:328
-msgid "Add a datetime field"
-msgstr "加入日期時間欄位"
+#: ../../content/administration/odoo_sh/create_module.rst:300
+msgid "Open the :file:`views/views.xml` file and after:"
+msgstr "開啟\\ :file:`views/views.xml`\\ 檔案，在以下內容之後："
 
-#: ../../content/administration/odoo_sh/first_module.rst:334
-msgid "Then, open the file *views/views.xml*."
-msgstr "然後開啟檔案 *views/views.xml*。"
+#: ../../content/administration/odoo_sh/create_module.rst:306
+#: ../../content/administration/odoo_sh/create_module.rst:377
+#: ../../content/administration/odoo_sh/create_module.rst:389
+msgid "add:"
+msgstr "加入："
 
-#: ../../content/administration/odoo_sh/first_module.rst:336
-#: ../../content/administration/odoo_sh/first_module.rst:472
-msgid "After"
-msgstr "之後"
-
-#: ../../content/administration/odoo_sh/first_module.rst:342
-#: ../../content/administration/odoo_sh/first_module.rst:449
-#: ../../content/administration/odoo_sh/first_module.rst:466
-#: ../../content/administration/odoo_sh/first_module.rst:478
-msgid "Add"
-msgstr "加入"
-
-#: ../../content/administration/odoo_sh/first_module.rst:348
+#: ../../content/administration/odoo_sh/create_module.rst:314
 msgid ""
-"These changes alter the database structure by adding a column in a table, "
-"and modify a view stored in database."
-msgstr "這些變更透過在表格中加入欄來改變資料庫結構，並修改儲存在資料庫中的檢視。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:351
-msgid ""
-"In order to be applied in existing databases, such as your production "
-"database, these changes requires the module to be updated."
-msgstr "為了套用於現有資料庫(例如您的生產資料庫)，這些變更需要更新模組。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:354
-msgid ""
-"If you would like the update to be performed automatically by the Odoo.sh "
-"platform when you push your changes, increase your module version in its "
-"manifest."
+"These changes alter the database structure by adding a column to a table and "
+"modifying a view. To be applied to an existing database, such as your "
+"production database, these changes require the module to be updated. If you "
+"would like the update to be performed automatically by the Odoo.sh platform "
+"when you push your changes, increase the module's version in its manifest by "
+"opening :file:`__manifest__.py` and replacing:"
 msgstr ""
-"如果您希望在推送變更時由 Odoo.sh 平台自動執行更新，請在模組清單中提高模組版本"
-"。"
+"這些變更會透過在表格中加入欄並修改檢視來改變資料庫結構。若要套用至現有資料庫"
+"（例如您的正式資料庫），這些變更需要更新模組。如果您希望在推送變更時由 "
+"Odoo.sh 平台自動執行更新，請開啟\\ :file:`__manifest__.py`\\ 並取代下列內容，"
+"以提高模組資訊清單中的版本："
 
-#: ../../content/administration/odoo_sh/first_module.rst:357
-msgid "Open the module manifest *__manifest__.py*."
-msgstr "開啟模組清單 *__manifest__.py*。"
+#: ../../content/administration/odoo_sh/create_module.rst:324
+msgid "with:"
+msgstr "包含："
 
-#: ../../content/administration/odoo_sh/first_module.rst:365
-#: ../../content/administration/odoo_sh/first_module.rst:504
-msgid "with"
-msgstr "與"
-
-#: ../../content/administration/odoo_sh/first_module.rst:371
+#: ../../content/administration/odoo_sh/create_module.rst:330
 msgid ""
-"The platform will detect the change of version and trigger the update of the "
-"module upon the new revision deployment."
-msgstr "平台將偵測版本變更，並在新修訂版本部署時觸發模組更新。"
+"The platform will detect a version change and trigger the module update upon "
+"deployment of the new revision."
+msgstr "平台會偵測版本變更，並在部署新修訂版時觸發模組更新。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:374
-msgid "Browse to your Git folder."
-msgstr "瀏覽至您的 Git 資料夾。"
+#: ../../content/administration/odoo_sh/create_module.rst:333
+msgid "Next, :ref:`push the changes <odoo-sh/module/push-development>`."
+msgstr "接下來，\\ :ref:`推送變更 <odoo-sh/module/push-development>`\\ 。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:376
-msgid "Then, from an Odoo.sh terminal:"
-msgstr "然後，從 Odoo.sh 終端機："
-
-#: ../../content/administration/odoo_sh/first_module.rst:388
-msgid "Then, stage your changes to be committed"
-msgstr "然後，暫存您的變更以便提交"
-
-#: ../../content/administration/odoo_sh/first_module.rst:400
-msgid "Push your changes:"
-msgstr "推送您的變更："
-
-#: ../../content/administration/odoo_sh/first_module.rst:402
-msgid "From an Odoo.sh terminal:"
-msgstr "從 Odoo.sh 終端機："
-
-#: ../../content/administration/odoo_sh/first_module.rst:414
-msgid "The platform will then create a new build for the branch *feature-1*."
-msgstr "平台將為分支 *feature-1* 建立新的建置。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:419
+#: ../../content/administration/odoo_sh/create_module.rst:335
 msgid ""
-"Once you tested your changes, you can merge your changes in the production "
-"branch, for instance by drag-and-dropping the branch on the production "
-"branch in the Odoo.sh interface. As you increased the module version in the "
-"manifest, the platform will update the module automatically and your new "
-"field will be directly available. Otherwise you can manually update the "
-"module within the apps list."
+"Once you have :ref:`tested your changes <odoo-sh/module/test-module>`, you "
+"can merge them into the production branch, for instance, by dragging and "
+"dropping the branch onto the production branch in the Odoo.sh interface. "
+"Since you increased the module version in the manifest, the platform will "
+"automatically update the module, and your new field will be available "
+"immediately. Otherwise, you can manually :ref:`update the module <odoo-sh/"
+"module/deploy/install>` within the apps list."
 msgstr ""
-"測試變更後，您可以將變更合併到生產分支，例如在 Odoo.sh 介面中將分支拖放到生產"
-"分支上。由於您在清單中增加了模組版本，平台將自動更新模組，新欄位將直接可用。"
-"否則，您可以在應用程式清單中手動更新模組。"
+"在您\\ :ref:`測試變更 <odoo-sh/module/test-module>`\\ 後，您可以將它們合併到"
+"正式環境分支，例如在 Odoo.sh 介面中將分支拖放到正式環境分支。由於您在資訊清單"
+"中增加了模組版本，平台會自動更新模組，您的新欄位將立即可用。否則，您可以在應"
+"用程式清單中手動\\ :ref:`更新模組 <odoo-sh/module/deploy/install>`\\ 。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:425
+#: ../../content/administration/odoo_sh/create_module.rst:343
 msgid "Use an external Python library"
 msgstr "使用外部 Python 程式庫"
 
-#: ../../content/administration/odoo_sh/first_module.rst:427
+#: ../../content/administration/odoo_sh/create_module.rst:345
 msgid ""
-"If you would like to use an external Python library which is not installed "
-"by default, you can define a *requirements.txt* file listing the external "
-"libraries your modules depends on."
+"If you would like to use an external Python library that is not installed by "
+"default, you can define a :file:`requirements.txt` file listing the external "
+"libraries your modules depend on. The platform will use this file to "
+"automatically install the Python libraries your project needs."
 msgstr ""
-"如果您想使用預設未安裝的外部 Python 程式庫，可以定義 *requirements.txt* 檔案"
-"，列出模組所依賴的外部程式庫。"
+"如果您想使用預設未安裝的外部 Python 函式庫，可以定義一個\\ "
+":file:`requirements.txt`\\ 檔案，列出您的模組所依賴的外部函式庫。平台會使用此"
+"檔案自動安裝您專案所需的 Python 函式庫。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:431
+#: ../../content/administration/odoo_sh/create_module.rst:350
 msgid ""
-"It is not possible to install or upgrade system packages on an Odoo.sh "
-"database (e.g., apt packages). However, under specific conditions, packages "
-"can be considered for installation. This also applies to **Python modules** "
-"requiring system packages for their compilation, and **third-party Odoo "
-"modules**."
+"It is not possible to install or upgrade system packages on Odoo.sh "
+"databases (e.g., apt packages). However, under specific conditions, "
+"`packages can be considered for installation <https://www.odoo.sh/"
+"faq#install_dependencies>`_. This also applies to Python modules that "
+"require system packages for compilation and to third-party Odoo modules."
 msgstr ""
-"無法在 Odoo.sh 資料庫上安裝或升級系統套件（例如 apt 套件）。但在特定條件下，"
-"可以考慮安裝套件。這也適用於需要系統套件進行編譯的 **Python 模組**，以及**第"
-"三方 Odoo 模組**。"
+"無法在 Odoo.sh 資料庫上安裝或升級系統套件（例如 apt 套件）。但在特定條件下"
+"，`可以考慮安裝套件<https://www.odoo.sh/faq#install_dependencies>`_。這也適用"
+"於需要系統套件進行編譯的 Python 模組以及第三方 Odoo 模組。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:435
-msgid "**PostgreSQL extensions** are not supported on Odoo.sh."
-msgstr "Odoo.sh 不支援 **PostgreSQL 擴充功能**。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:436
+#: ../../content/administration/odoo_sh/create_module.rst:354
 msgid ""
-"For more information, consult our `FAQ <https://www.odoo.sh/"
-"faq#install_dependencies>`_."
+"PostgreSQL extensions are not supported on Odoo.sh hence it is not possible "
+"to install extensions (such as PostGIS, ltree, ...) in Odoo.sh databases."
 msgstr ""
-"如需更多資訊，請參閱我們的`常見問題 <https://www.odoo.sh/"
-"faq#install_dependencies>`_。"
+"Odoo.sh 不支援 PostgreSQL 擴充功能，因此無法在 Odoo.sh 資料庫中安裝擴充功能（"
+"例如 PostGIS、ltree 等）。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:438
+#: ../../content/administration/odoo_sh/create_module.rst:357
 msgid ""
-"The platform will use this file to automatically install the Python "
-"libraries your project needs."
-msgstr "平台將使用此檔案自動安裝專案所需的 Python 程式庫。"
-
-#: ../../content/administration/odoo_sh/first_module.rst:440
-msgid ""
-"The feature is explained in this section by using the `Unidecode library "
-"<https://pypi.python.org/pypi/Unidecode>`_ in your module."
+"For example, to use the `Unidecode library <https://pypi.org/project/"
+"Unidecode>`_ in your module:"
 msgstr ""
-"本節使用在模組中使用 `Unidecode 程式庫 <https://pypi.python.org/pypi/"
-"Unidecode>`_ 來說明此功能。"
+"例如，要在您的模組中使用 `Unidecode 函式庫<https://pypi.org/project/"
+"Unidecode>`_："
 
-#: ../../content/administration/odoo_sh/first_module.rst:443
-msgid "Create a file *requirements.txt* in the root folder of your repository"
-msgstr "在儲存庫的根資料夾中建立 *requirements.txt* 檔案"
-
-#: ../../content/administration/odoo_sh/first_module.rst:445
+#: ../../content/administration/odoo_sh/create_module.rst:359
 msgid ""
-"From the Odoo.sh editor, create and open the file ~/src/user/"
-"requirements.txt."
-msgstr "從 Odoo.sh 編輯器，建立並開啟檔案 ~/src/user/requirements.txt。"
+"Create a file :file:`requirements.txt` in the root folder of your repository:"
+msgstr "在您的儲存庫根資料夾中建立檔案\\ :file:`requirements.txt`\\ ："
 
-#: ../../content/administration/odoo_sh/first_module.rst:447
+#: ../../content/administration/odoo_sh/create_module.rst:361
 msgid ""
-"Or, from your computer, create and open the file ~/src/odoo-addons/"
-"requirements.txt."
-msgstr "或者，從您的電腦建立並開啟檔案 ~/src/odoo-addons/requirements.txt。"
+"From the Odoo.sh editor, create and open the file :file:`~/src/user/"
+"requirements.txt`."
+msgstr "從 Odoo.sh 編輯器建立並開啟檔案\\ :file:`~/src/user/requirements.txt`\\ 。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:455
+#: ../../content/administration/odoo_sh/create_module.rst:362
 msgid ""
-"Then use the library in your module, for instance to remove accents from "
-"characters in the name field of your model."
-msgstr "然後在模組中使用該程式庫，例如從模型的 name 欄位中移除字元的重音符號。"
+"From your computer, create nd open the file :file:`~/src/odoo-addons/"
+"requirements.txt`."
+msgstr "從您的電腦建立並開啟檔案\\ :file:`~/src/odoo-addons/requirements.txt`\\ 。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:458
-msgid "Open the file *models/models.py*."
-msgstr "開啟檔案 *models/models.py*。"
+#: ../../content/administration/odoo_sh/create_module.rst:364
+msgid "Add to the file:"
+msgstr "將以下內容加入檔案："
 
-#: ../../content/administration/odoo_sh/first_module.rst:460
-msgid "Before"
-msgstr "在之前"
-
-#: ../../content/administration/odoo_sh/first_module.rst:494
+#: ../../content/administration/odoo_sh/create_module.rst:370
 msgid ""
-"Adding a Python dependency requires a module version increase for the "
-"platform to install it."
-msgstr "加入 Python 相依性需要增加模組版本，平台才能安裝。"
+"You can now use the library in your module, for instance, to remove accents "
+"from characters in the name field of your model. To do so, open "
+"the :file:`models/models.py` file and before:"
+msgstr ""
+"您現在可以在模組中使用此函式庫，例如移除模型名稱欄位中字元的重音符號。若要執"
+"行此操作，開啟\\ :file:`models/models.py`\\ 檔案，在以下程式碼之前："
 
-#: ../../content/administration/odoo_sh/first_module.rst:496
-msgid "Edit the module manifest *__manifest__.py*"
-msgstr "編輯模組清單 *__manifest__.py*"
+#: ../../content/administration/odoo_sh/create_module.rst:383
+msgid "After:"
+msgstr "之後："
 
-#: ../../content/administration/odoo_sh/first_module.rst:510
-msgid "Stage and commit your changes:"
-msgstr "暫存並提交您的變更："
+#: ../../content/administration/odoo_sh/create_module.rst:404
+msgid ""
+"Increase the module version to install the Python dependency by editing "
+"the :ref:`module's manifest <odoo-sh/module/add/"
+"manifest>` :file:`__manifest__.py`."
+msgstr ""
+"透過編輯\\ :ref:`模組的資訊清單 <odoo-sh/module/add/manifest>`\\ "
+":file:`__manifest__.py`\\ 來增加模組版本以安裝 Python 相依項目。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:518
-msgid "Then, push your changes:"
-msgstr "然後，推送您的變更："
+#: ../../content/administration/odoo_sh/create_module.rst:407
+msgid "Then, :ref:`push the changes <odoo-sh/module/push-development>`."
+msgstr "然後，\\ :ref:`推送變更 <odoo-sh/module/push-development>`\\ 。"
 
-#: ../../content/administration/odoo_sh/first_module.rst:520
-msgid "In an Odoo.sh terminal:"
-msgstr "在 Odoo.sh 終端機中："
-
-#: ../../content/administration/odoo_sh/first_module.rst:526
-msgid "In your computer terminal:"
-msgstr "在您的電腦終端機中："
+#: ../../content/administration/odoo_sh/create_module.rst:410
+msgid ""
+"Stage the :file:`requirements.txt` file by running `git add "
+"requirements.txt`."
+msgstr "執行 `git add requirements.txt` 來暫存\\ :file:`requirements.txt`\\ 檔案。"
 
 #: ../../content/administration/odoo_sh/getting_started.rst:5
 msgid "Getting started"
@@ -3421,10 +3348,10 @@ msgstr ""
 msgid ""
 "The purpose of manual backups is to create a specific snapshot of production "
 "or staging databases (not available for development). These remain available "
-"for seven days. However, there is a limit of five daily manual backups."
+"for three days. However, there is a limit of five daily manual backups."
 msgstr ""
-"手動備份的目的是建立生產或預備資料庫的特定快照（不適用於開發）。這些備份可保"
-"留七天。但是，每日手動備份的限制為五個。"
+"手動備份的目的是為正式環境或測試環境的資料庫建立特定快照（開發環境不可用）。"
+"這些備份會保留三天。但是，每天最多只能建立五次手動備份。"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:500
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:49
@@ -4656,69 +4583,33 @@ msgstr ""
 "用連接埠 **465** 或 **587**。"
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:164
-msgid "Check scheduled actions"
-msgstr "檢查排程動作"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:166
-msgid ""
-"Scheduled actions are **disabled by default** after importing your database. "
-"This prevents your newly imported database from performing potentially "
-"disruptive operations such as:"
-msgstr ""
-"匯入資料庫後，排程動作**預設為停用**。這可防止新匯入的資料庫執行可能造成干擾"
-"的操作，例如："
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:169
-msgid "sending queued emails,"
-msgstr "傳送隊列中的電子郵件、"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:170
-msgid "triggering mass mailings, or"
-msgstr "觸發大量郵件，或"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:171
-msgid "syncing with third-party services (e.g., calendars, cloud storage)."
-msgstr "與第三方服務同步（例如日曆、雲端儲存）。"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:173
-msgid ""
-"If you intend to use this imported database in production, **re-enable** "
-"only the scheduled actions you need by enabling :ref:`developer mode "
-"<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
-"Automation: Scheduled Actions`."
-msgstr ""
-"如果您打算在生產環境中使用此匯入的資料庫，請啟用\\ :ref:`開發者模式 "
-"<developer-mode>`\\ 並前往\\ :menuselection:`設定 --> 技術 --> 自動化：排程動"
-"作`\\ ，僅**重新啟用**您需要的排程動作。"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:178
 msgid "Register the subscription"
 msgstr "註冊訂閱"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:180
+#: ../../content/administration/odoo_sh/getting_started/create.rst:166
 msgid ""
 "After import, the database is considered a **duplicate** and will be "
 "unlinked from your enterprise subscription."
 msgstr "匯入後，資料庫會被視為**副本**，並將從您的企業版訂閱中取消連結。"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:184
+#: ../../content/administration/odoo_sh/getting_started/create.rst:170
 msgid "You are allowed only one active database per subscription."
 msgstr "每個訂閱僅允許一個作用中的資料庫。"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:186
+#: ../../content/administration/odoo_sh/getting_started/create.rst:172
 msgid ""
 "If you intend to make the imported database your production environment:"
 msgstr "如果您打算將匯入的資料庫作為生產環境："
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:188
+#: ../../content/administration/odoo_sh/getting_started/create.rst:174
 msgid "Unlink your previous database from the subscription."
 msgstr "從訂閱中取消連結先前的資料庫。"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:189
+#: ../../content/administration/odoo_sh/getting_started/create.rst:175
 msgid "Register the new one."
 msgstr "註冊新的資料庫。"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:191
+#: ../../content/administration/odoo_sh/getting_started/create.rst:177
 msgid ""
 "Refer to the :doc:`database registration documentation <../../on_premise>` "
 "for step-by-step instructions."
@@ -5051,13 +4942,14 @@ msgstr "專案名稱"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:12
 msgid ""
-"The name of your project defines the address used to access your production "
-"database. The addresses of your staging and development builds are "
-"automatically derived from this name. If you change the project name, only "
-"future builds will use the new name."
+"The project name defines your production database address, as well as the "
+"derived URLs for staging and development. Upon saving, the new name is "
+"applied directly to the production branch. However, for staging and "
+"development URLs, the change will only reflect after a rebuild."
 msgstr ""
-"專案名稱定義了用於存取正式資料庫的網址。預備和開發建置的網址會自動從此名稱衍"
-"生。如果您變更專案名稱,只有未來的建置會使用新名稱。"
+"專案名稱定義了您的正式環境資料庫位址，以及衍生的預備和開發環境網址。儲存後，"
+"新名稱會直接套用到正式環境分支。但對於預備和開發環境網址，變更僅會在重新建置"
+"後反映。"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:None
 msgid "The project name setting"
@@ -5205,15 +5097,15 @@ msgstr "連線 + / 連線身分"
 #: ../../content/administration/standard_extended_support.rst:36
 #: ../../content/administration/standard_extended_support.rst:42
 #: ../../content/administration/standard_extended_support.rst:48
-#: ../../content/administration/standard_extended_support.rst:54
-#: ../../content/administration/standard_extended_support.rst:55
-#: ../../content/administration/standard_extended_support.rst:56
-#: ../../content/administration/standard_extended_support.rst:78
-#: ../../content/administration/standard_extended_support.rst:79
-#: ../../content/administration/standard_extended_support.rst:80
+#: ../../content/administration/standard_extended_support.rst:60
+#: ../../content/administration/standard_extended_support.rst:61
+#: ../../content/administration/standard_extended_support.rst:62
 #: ../../content/administration/standard_extended_support.rst:84
 #: ../../content/administration/standard_extended_support.rst:85
 #: ../../content/administration/standard_extended_support.rst:86
+#: ../../content/administration/standard_extended_support.rst:90
+#: ../../content/administration/standard_extended_support.rst:91
+#: ../../content/administration/standard_extended_support.rst:92
 msgid "|green|"
 msgstr "|green|"
 
@@ -5288,14 +5180,15 @@ msgstr "狀態"
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:187
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:191
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:192
-#: ../../content/administration/standard_extended_support.rst:60
+#: ../../content/administration/standard_extended_support.rst:54
 #: ../../content/administration/standard_extended_support.rst:66
 #: ../../content/administration/standard_extended_support.rst:72
-#: ../../content/administration/standard_extended_support.rst:90
+#: ../../content/administration/standard_extended_support.rst:78
 #: ../../content/administration/standard_extended_support.rst:96
 #: ../../content/administration/standard_extended_support.rst:102
 #: ../../content/administration/standard_extended_support.rst:108
-#: ../../content/administration/standard_extended_support.rst:109
+#: ../../content/administration/standard_extended_support.rst:114
+#: ../../content/administration/standard_extended_support.rst:115
 msgid "|red|"
 msgstr "|red|"
 
@@ -5309,7 +5202,7 @@ msgid ":ref:`Backups <odoo-sh/branches/tabs/backups>`"
 msgstr ":ref:`備份 <odoo-sh/branches/tabs/backups>`"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:200
-#: ../../content/administration/standard_extended_support.rst:114
+#: ../../content/administration/standard_extended_support.rst:120
 msgid "Legend"
 msgstr "圖例"
 
@@ -8838,8 +8731,8 @@ msgid "End of standard support"
 msgstr "標準支援結束"
 
 #: ../../content/administration/standard_extended_support.rst:35
-msgid "Odoo SaaS 19.3"
-msgstr "Odoo SaaS 19.3"
+msgid "Odoo SaaS 19.4"
+msgstr "Odoo SaaS 19.4"
 
 #: ../../content/administration/standard_extended_support.rst:37
 #: ../../content/administration/standard_extended_support.rst:38
@@ -8847,154 +8740,164 @@ msgstr "Odoo SaaS 19.3"
 #: ../../content/administration/standard_extended_support.rst:44
 #: ../../content/administration/standard_extended_support.rst:49
 #: ../../content/administration/standard_extended_support.rst:50
-#: ../../content/administration/standard_extended_support.rst:61
-#: ../../content/administration/standard_extended_support.rst:62
+#: ../../content/administration/standard_extended_support.rst:55
+#: ../../content/administration/standard_extended_support.rst:56
 #: ../../content/administration/standard_extended_support.rst:67
 #: ../../content/administration/standard_extended_support.rst:68
 #: ../../content/administration/standard_extended_support.rst:73
 #: ../../content/administration/standard_extended_support.rst:74
+#: ../../content/administration/standard_extended_support.rst:79
+#: ../../content/administration/standard_extended_support.rst:80
 msgid "N/A"
 msgstr "不適用"
 
 #: ../../content/administration/standard_extended_support.rst:39
+msgid "July 2026"
+msgstr "2026 年 7 月"
+
+#: ../../content/administration/standard_extended_support.rst:41
+msgid "Odoo SaaS 19.3"
+msgstr "Odoo SaaS 19.3"
+
+#: ../../content/administration/standard_extended_support.rst:45
 msgid "May 2026"
 msgstr "2026 年 5 月"
 
-#: ../../content/administration/standard_extended_support.rst:41
+#: ../../content/administration/standard_extended_support.rst:47
 msgid "Odoo SaaS 19.2"
 msgstr "Odoo SaaS 19.2"
 
-#: ../../content/administration/standard_extended_support.rst:45
+#: ../../content/administration/standard_extended_support.rst:51
 msgid "March 2026"
 msgstr "2026 年 3 月"
 
-#: ../../content/administration/standard_extended_support.rst:47
+#: ../../content/administration/standard_extended_support.rst:53
 msgid "Odoo SaaS 19.1"
 msgstr "Odoo SaaS 19.1"
 
-#: ../../content/administration/standard_extended_support.rst:51
+#: ../../content/administration/standard_extended_support.rst:57
 msgid "January 2026"
 msgstr "2026 年 1 月"
 
-#: ../../content/administration/standard_extended_support.rst:53
+#: ../../content/administration/standard_extended_support.rst:59
 msgid "**Odoo 19.0**"
 msgstr "**Odoo 19.0**"
 
-#: ../../content/administration/standard_extended_support.rst:57
-#: ../../content/administration/standard_extended_support.rst:94
+#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:100
 msgid "September 2025"
 msgstr "2025 年 9 月"
 
-#: ../../content/administration/standard_extended_support.rst:58
+#: ../../content/administration/standard_extended_support.rst:64
 msgid "September 2028 (planned)"
 msgstr "2028 年 9 月（計劃）"
 
-#: ../../content/administration/standard_extended_support.rst:59
+#: ../../content/administration/standard_extended_support.rst:65
 msgid "Odoo SaaS 18.4"
 msgstr "Odoo SaaS 18.4"
 
-#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:69
 msgid "July 2025"
 msgstr "2025 年 7 月"
 
-#: ../../content/administration/standard_extended_support.rst:65
+#: ../../content/administration/standard_extended_support.rst:71
 msgid "Odoo SaaS 18.3"
 msgstr "Odoo SaaS 18.3"
 
-#: ../../content/administration/standard_extended_support.rst:69
+#: ../../content/administration/standard_extended_support.rst:75
 msgid "May 2025"
 msgstr "2025 年 5 月"
 
-#: ../../content/administration/standard_extended_support.rst:71
+#: ../../content/administration/standard_extended_support.rst:77
 msgid "Odoo SaaS 18.2"
 msgstr "Odoo SaaS 18.2"
 
-#: ../../content/administration/standard_extended_support.rst:75
+#: ../../content/administration/standard_extended_support.rst:81
 msgid "March 2025"
 msgstr "2025 年 3 月"
 
-#: ../../content/administration/standard_extended_support.rst:77
+#: ../../content/administration/standard_extended_support.rst:83
 msgid "**Odoo 18.0**"
 msgstr "**Odoo 18.0**"
 
-#: ../../content/administration/standard_extended_support.rst:81
-#: ../../content/administration/standard_extended_support.rst:100
+#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:106
 msgid "October 2024"
 msgstr "2024 年 10 月"
 
-#: ../../content/administration/standard_extended_support.rst:82
+#: ../../content/administration/standard_extended_support.rst:88
 msgid "September 2027 (planned)"
 msgstr "2027 年 9 月（計劃中）"
 
-#: ../../content/administration/standard_extended_support.rst:83
+#: ../../content/administration/standard_extended_support.rst:89
 msgid "**Odoo 17.0**"
 msgstr "**Odoo 17.0**"
 
-#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:93
 msgid "November 2023"
 msgstr "2023 年 11 月"
 
-#: ../../content/administration/standard_extended_support.rst:88
+#: ../../content/administration/standard_extended_support.rst:94
 msgid "September 2026 (planned)"
 msgstr "2026 年 9 月（計劃中）"
 
-#: ../../content/administration/standard_extended_support.rst:89
+#: ../../content/administration/standard_extended_support.rst:95
 msgid "**Odoo 16.0**"
 msgstr "**Odoo 16.0**"
 
-#: ../../content/administration/standard_extended_support.rst:91
-#: ../../content/administration/standard_extended_support.rst:92
 #: ../../content/administration/standard_extended_support.rst:97
 #: ../../content/administration/standard_extended_support.rst:98
 #: ../../content/administration/standard_extended_support.rst:103
 #: ../../content/administration/standard_extended_support.rst:104
+#: ../../content/administration/standard_extended_support.rst:109
 #: ../../content/administration/standard_extended_support.rst:110
+#: ../../content/administration/standard_extended_support.rst:116
 msgid "|orange|"
 msgstr "|orange|"
 
-#: ../../content/administration/standard_extended_support.rst:93
+#: ../../content/administration/standard_extended_support.rst:99
 msgid "October 2022"
 msgstr "2022 年 10 月"
 
-#: ../../content/administration/standard_extended_support.rst:95
+#: ../../content/administration/standard_extended_support.rst:101
 msgid "**Odoo 15.0**"
 msgstr "**Odoo 15.0**"
 
-#: ../../content/administration/standard_extended_support.rst:99
+#: ../../content/administration/standard_extended_support.rst:105
 msgid "October 2021"
 msgstr "2021 年 10 月"
 
-#: ../../content/administration/standard_extended_support.rst:101
+#: ../../content/administration/standard_extended_support.rst:107
 msgid "**Odoo 14.0**"
 msgstr "**Odoo 14.0**"
 
-#: ../../content/administration/standard_extended_support.rst:105
 #: ../../content/administration/standard_extended_support.rst:111
+#: ../../content/administration/standard_extended_support.rst:117
 msgid "Before 2021"
 msgstr "2021 年之前"
 
-#: ../../content/administration/standard_extended_support.rst:106
 #: ../../content/administration/standard_extended_support.rst:112
+#: ../../content/administration/standard_extended_support.rst:118
 msgid "Before 2024"
 msgstr "2024 年之前"
 
-#: ../../content/administration/standard_extended_support.rst:107
+#: ../../content/administration/standard_extended_support.rst:113
 msgid "Older versions"
 msgstr "較舊版本"
 
-#: ../../content/administration/standard_extended_support.rst:116
+#: ../../content/administration/standard_extended_support.rst:122
 msgid "|green| : Standard support"
 msgstr "|green|：標準支援"
 
-#: ../../content/administration/standard_extended_support.rst:118
+#: ../../content/administration/standard_extended_support.rst:124
 msgid "|orange| : Extended support (mandatory extra fee)"
 msgstr "|orange|:延伸支援(需支付額外強制費用)"
 
-#: ../../content/administration/standard_extended_support.rst:120
+#: ../../content/administration/standard_extended_support.rst:126
 msgid "|red| : Not supported"
 msgstr "|red|:不支援"
 
-#: ../../content/administration/standard_extended_support.rst:122
+#: ../../content/administration/standard_extended_support.rst:128
 msgid "N/A : Never released for this platform"
 msgstr "N/A：此平台從未發布"
 
@@ -9947,6 +9850,595 @@ msgstr ":doc:`Odoo.sh 使用說明 <odoo_sh>`"
 #: ../../content/administration/upgrade.rst:432
 msgid ":doc:`Supported Odoo versions <standard_extended_support>`"
 msgstr ":doc:`受支援的 Odoo 版本 <standard_extended_support>`"
+
+#~ msgid ""
+#~ "The purpose of manual backups is to create a specific snapshot of "
+#~ "production or staging databases (not available for development). These "
+#~ "remain available for seven days. However, there is a limit of five daily "
+#~ "manual backups."
+#~ msgstr ""
+#~ "手動備份的目的是建立生產或預備資料庫的特定快照（不適用於開發）。這些備份可"
+#~ "保留七天。但是，每日手動備份的限制為五個。"
+
+#~ msgid "Check scheduled actions"
+#~ msgstr "檢查排程動作"
+
+#~ msgid ""
+#~ "Scheduled actions are **disabled by default** after importing your "
+#~ "database. This prevents your newly imported database from performing "
+#~ "potentially disruptive operations such as:"
+#~ msgstr ""
+#~ "匯入資料庫後，排程動作**預設為停用**。這可防止新匯入的資料庫執行可能造成干"
+#~ "擾的操作，例如："
+
+#~ msgid "sending queued emails,"
+#~ msgstr "傳送隊列中的電子郵件、"
+
+#~ msgid "triggering mass mailings, or"
+#~ msgstr "觸發大量郵件，或"
+
+#~ msgid "syncing with third-party services (e.g., calendars, cloud storage)."
+#~ msgstr "與第三方服務同步（例如日曆、雲端儲存）。"
+
+#~ msgid ""
+#~ "If you intend to use this imported database in production, **re-enable** "
+#~ "only the scheduled actions you need by enabling :ref:`developer mode "
+#~ "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
+#~ "Automation: Scheduled Actions`."
+#~ msgstr ""
+#~ "如果您打算在生產環境中使用此匯入的資料庫，請啟用\\ :ref:`開發者模式 "
+#~ "<developer-mode>`\\ 並前往\\ :menuselection:`設定 --> 技術 --> 自動化：排"
+#~ "程動作`\\ ，僅**重新啟用**您需要的排程動作。"
+
+#~ msgid ""
+#~ "the **URL** you want to use for the database (e.g., `company.odoo.com`), "
+#~ "and"
+#~ msgstr "你想要用於資料庫的 **URL**（例如，`company.odoo.com`），以及"
+
+#~ msgid ""
+#~ "the **dump** as an attachment or as a link to the file (required for 60 "
+#~ "MB+ files)."
+#~ msgstr ""
+#~ "作為附件的**轉儲**或含有**轉儲**的文件連結（60 MB 以上的文件有需要使用文件"
+#~ "連結方式）。"
+
+#~ msgid "Your first module"
+#~ msgstr "您的第一個模組"
+
+#~ msgid ""
+#~ "This chapter helps you to create your first Odoo module and deploy it in "
+#~ "your Odoo.sh project."
+#~ msgstr "本章節協助您建立第一個 Odoo 模組並將其部署到 Odoo.sh 專案中。"
+
+#~ msgid ""
+#~ "This tutorial requires you created a project on Odoo.sh, and you know "
+#~ "your Github repository's URL."
+#~ msgstr ""
+#~ "本教學要求您已在 Odoo.sh 上建立專案，並且知道您的 Github 儲存庫網址。"
+
+#~ msgid "Basic use of Git and Github is explained."
+#~ msgstr "說明 Git 和 Github 的基本使用方式。"
+
+#~ msgid "The below assumptions are made:"
+#~ msgstr "以下為前提假設："
+
+#~ msgid ""
+#~ "*~/src* is the directory where are located the Git repositories related "
+#~ "to your Odoo projects,"
+#~ msgstr "*~/src* 是存放與 Odoo 專案相關 Git 儲存庫的目錄，"
+
+#~ msgid "*odoo* is the Github user,"
+#~ msgstr "*odoo* 是 Github 使用者，"
+
+#~ msgid "*odoo-addons* is the Github repository,"
+#~ msgstr "*odoo-addons* 是 Github 儲存庫，"
+
+#~ msgid "*feature-1* is the name of a development branch,"
+#~ msgstr "*feature-1* 是開發分支的名稱，"
+
+#~ msgid "*master* is the name of the production branch,"
+#~ msgstr "*master* 是正式分支的名稱，"
+
+#~ msgid "*my_module* is the name of the module."
+#~ msgstr "*my_module* 是模組的名稱。"
+
+#~ msgid "Replace these by the values of your choice."
+#~ msgstr "請將這些替換為您選擇的值。"
+
+#~ msgid "From Odoo.sh"
+#~ msgstr "從 Odoo.sh"
+
+#~ msgid "In the branches view:"
+#~ msgstr "在分支檢視中："
+
+#~ msgid "hit the :code:`+` button next to the development stage,"
+#~ msgstr "點擊開發階段旁邊的 :code:`+` 按鈕，"
+
+#~ msgid "choose the branch *master* in the *Fork* selection,"
+#~ msgstr "在 *Fork* 選擇中選擇分支 *master*，"
+
+#~ msgid "type *feature-1* in the *To* input."
+#~ msgstr "在 *To* 輸入欄位中輸入 *feature-1*。"
+
+#~ msgid "|pic1|  |pic2|"
+#~ msgstr "|pic1|  |pic2|"
+
+#~ msgid "pic1"
+#~ msgstr "pic1"
+
+#~ msgid "pic2"
+#~ msgstr "pic2"
+
+#~ msgid ""
+#~ "Once the build created, you can access the editor and browse to the "
+#~ "folder *~/src/user* to access to the code of your development branch."
+#~ msgstr ""
+#~ "建立建置後，您可以存取編輯器並瀏覽到資料夾 *~/src/user*，以存取您開發分支"
+#~ "的程式碼。"
+
+#~ msgid "From your computer"
+#~ msgstr "從您的電腦"
+
+#~ msgid "Clone your Github repository on your computer:"
+#~ msgstr "將您的 Github 儲存庫複製到您的電腦："
+
+#~ msgid "Create a new branch:"
+#~ msgstr "建立新分支："
+
+#~ msgid "Scaffolding the module"
+#~ msgstr "建立模組架構"
+
+#~ msgid ""
+#~ "While not necessary, scaffolding avoids the tedium of setting the basic "
+#~ "Odoo module structure. You can scaffold a new module using the executable "
+#~ "*odoo-bin*."
+#~ msgstr ""
+#~ "雖然不是必要的，但建立架構可以避免設定基本 Odoo 模組結構的繁瑣工作。您可以"
+#~ "使用可執行檔 *odoo-bin* 來建立新模組的架構。"
+
+#~ msgid "From the Odoo.sh editor, in a terminal:"
+#~ msgstr "從 Odoo.sh 編輯器，在終端機中："
+
+#~ msgid "Or, from your computer, if you have an installation of Odoo:"
+#~ msgstr "或者，如果您的電腦上已安裝 Odoo："
+
+#~ msgid ""
+#~ "If you do not want to bother installing Odoo on your computer, you can "
+#~ "also :download:`download this module structure template <first_module/"
+#~ "my_module.zip>` in which you replace every occurrences of *my_module* to "
+#~ "the name of your choice."
+#~ msgstr ""
+#~ "如果您不想在電腦上安裝 Odoo，您也可以:download:`下載此模組結構範本 "
+#~ "<first_module/my_module.zip>`，並將其中所有出現的 *my_module* 替換為您選擇"
+#~ "的名稱。"
+
+#~ msgid "The below structure will be generated:"
+#~ msgstr "將產生以下結構："
+
+#~ msgid ""
+#~ "Do not use special characters other than the underscore ( _ ) for your "
+#~ "module name, not even an hyphen ( - ). This name is used for the Python "
+#~ "classes of your module, and having classes name with special characters "
+#~ "other than the underscore is not valid in Python."
+#~ msgstr ""
+#~ "除了底線（_）之外，不要在模組名稱中使用特殊字元，連連字號（-）也不行。此名"
+#~ "稱用於模組的 Python 類別，而在 Python 中，類別名稱包含底線以外的特殊字元是"
+#~ "無效的。"
+
+#~ msgid "Uncomment the content of the files:"
+#~ msgstr "取消註解檔案的內容："
+
+#~ msgid "*models/models.py*, an example of model with its fields,"
+#~ msgstr "*models/models.py*，包含欄位的模型範例，"
+
+#~ msgid ""
+#~ "*views/views.xml*, a tree and a form view, with the menus opening them,"
+#~ msgstr "*views/views.xml*，樹狀檢視和表單檢視，以及開啟它們的選單，"
+
+#~ msgid "*demo/demo.xml*, demo records for the above example model,"
+#~ msgstr "*demo/demo.xml*，上述範例模型的示範記錄，"
+
+#~ msgid ""
+#~ "*controllers/controllers.py*, an example of controller implementing some "
+#~ "routes,"
+#~ msgstr "*controllers/controllers.py*，實作某些路由的控制器範例，"
+
+#~ msgid ""
+#~ "*views/templates.xml*, two example qweb views used by the above "
+#~ "controller routes,"
+#~ msgstr "*views/templates.xml*，上述控制器路由使用的兩個 qweb 檢視範例，"
+
+#~ msgid ""
+#~ "*__manifest__.py*, the manifest of your module, including for instance "
+#~ "its title, description and data files to load. You just need to uncomment "
+#~ "the access control list data file:"
+#~ msgstr ""
+#~ "*__manifest__.py*，模組的資訊清單，包括標題、描述和要載入的資料檔案等。您"
+#~ "只需要取消註解存取控制清單資料檔案："
+
+#~ msgid ""
+#~ "If you want to create your module structure manually, you can follow "
+#~ "the :doc:`/developer/tutorials/server_framework_101` tutorial to "
+#~ "understand the structure of a module and the content of each file."
+#~ msgstr ""
+#~ "如果您想手動建立模組結構，可以參考:doc:`/developer/tutorials/"
+#~ "server_framework_101`教學，以了解模組的結構和各檔案的內容。"
+
+#~ msgid "Push the development branch"
+#~ msgstr "推送開發分支"
+
+#~ msgid "Stage the changes to be committed"
+#~ msgstr "暫存要提交的變更"
+
+#~ msgid "Commit your changes"
+#~ msgstr "提交您的變更"
+
+#~ msgid "Push your changes to your remote repository"
+#~ msgstr "將變更推送到遠端儲存庫"
+
+#~ msgid "From an Odoo.sh editor terminal:"
+#~ msgstr "從 Odoo.sh 編輯器終端機："
+
+#~ msgid ""
+#~ "The above command is explained in the section :ref:`Commit and push "
+#~ "changes <odoo-sh/editor/commit>` of the :doc:`Online editor page "
+#~ "<getting_started/online_editor>`. It includes the explanation regarding "
+#~ "the fact you will be prompted to type your username and password, and "
+#~ "what to do if you use the two-factor authentication."
+#~ msgstr ""
+#~ "上述命令在 :doc:`線上編輯器頁面 <getting_started/online_editor>`的 :ref:`"
+#~ "提交和推送變更 <odoo-sh/editor/commit>`章節中說明。其中包括關於您將被提示"
+#~ "輸入使用者名稱和密碼的說明，以及如果您使用雙重驗證時該怎麼做。"
+
+#~ msgid "Or, from your computer terminal:"
+#~ msgstr "或者，從您的電腦終端機："
+
+#~ msgid ""
+#~ "You need to specify *-u origin feature-1* for the first push only. From "
+#~ "that point, to push your future changes from your computer, you can "
+#~ "simply use"
+#~ msgstr ""
+#~ "您只需要在第一次推送時指定 *-u origin feature-1*。之後，要從電腦推送未來的"
+#~ "變更，您只需使用"
+
+#~ msgid "Test your module"
+#~ msgstr "測試您的模組"
+
+#~ msgid ""
+#~ "Your branch should appear in your development branches in your project."
+#~ msgstr "您的分支應該會出現在專案的開發分支中。"
+
+#~ msgid ""
+#~ "In the branches view of your project, you can click on your branch name "
+#~ "in the left navigation panel to access its history."
+#~ msgstr ""
+#~ "在專案的分支檢視中，您可以在左側導覽面板中按一下分支名稱，以存取其歷史記"
+#~ "錄。"
+
+#~ msgid ""
+#~ "You can see here the changes you just pushed, including the comment you "
+#~ "set. Once the database ready, you can access it by clicking the *Connect* "
+#~ "button."
+#~ msgstr ""
+#~ "您可以在此處看到剛才推送的變更，包括您設定的註解。資料庫準備就緒後，您可以"
+#~ "按一下 *連線* 按鈕來存取它。"
+
+#~ msgid ""
+#~ "If your Odoo.sh project is configured to install your module "
+#~ "automatically, you will directly see it amongst the database apps. "
+#~ "Otherwise, it will be available in the apps to install."
+#~ msgstr ""
+#~ "如果您的 Odoo.sh 專案已設定為自動安裝您的模組，您將直接在資料庫應用程式中"
+#~ "看到它。否則，它將在可安裝的應用程式中可用。"
+
+#~ msgid ""
+#~ "You can then play around with your module, create new records and test "
+#~ "your features and buttons."
+#~ msgstr "接著您可以試用您的模組，建立新記錄並測試您的功能和按鈕。"
+
+#~ msgid ""
+#~ "You need to have a production database for this step. You can create it "
+#~ "if you do not have it yet."
+#~ msgstr "您需要有正式資料庫才能執行此步驟。如果您尚未擁有，可以建立一個。"
+
+#~ msgid ""
+#~ "Once you tested your module in a development build with the demo data and "
+#~ "believe it is ready, you can test it with the production data using a "
+#~ "staging branch."
+#~ msgstr ""
+#~ "在使用示範資料的開發建置中測試您的模組並認為已準備就緒後，您可以使用預備分"
+#~ "支以正式資料進行測試。"
+
+#~ msgid "You can either:"
+#~ msgstr "你可選擇其中一項："
+
+#~ msgid ""
+#~ "Make your development branch a staging branch, by drag and dropping it "
+#~ "onto the *staging* section title."
+#~ msgstr "將您的開發分支設為預備分支，方法是將其拖放至 *staging* 區段標題上。"
+
+#~ msgid ""
+#~ "Merge it in an existing staging branch, by drag and dropping it onto the "
+#~ "given staging branch."
+#~ msgstr "將它合併到現有的預備分支中，方法是將其拖放至指定的預備分支上。"
+
+#~ msgid ""
+#~ "You can also use the :code:`git merge` command to merge your branches."
+#~ msgstr "您也可以使用 :code:`git merge` 指令來合併您的分支。"
+
+#~ msgid ""
+#~ "This will create a new staging build, which will duplicate the production "
+#~ "database and make it run using a server updated with your latest changes "
+#~ "of your branch."
+#~ msgstr ""
+#~ "這將建立新的預備建置，它會複製正式資料庫，並使用以您分支最新變更更新的伺服"
+#~ "器來執行它。"
+
+#~ msgid ""
+#~ "Once the database ready, you can access it using the *Connect* button."
+#~ msgstr "資料庫準備就緒後，您可以使用 *連線* 按鈕來存取它。"
+
+#~ msgid "Install your module"
+#~ msgstr "安裝您的模組"
+
+#~ msgid ""
+#~ "Your module will not be installed automatically, you have to install it "
+#~ "from the apps menu. Indeed, the purpose of the staging build is to test "
+#~ "the behavior of your changes as it would be on your production, and on "
+#~ "your production you would not like your module to be installed "
+#~ "automatically, but on demand."
+#~ msgstr ""
+#~ "您的模組不會自動安裝，您必須從應用程式選單安裝它。事實上，預備建置的目的是"
+#~ "測試您的變更在正式環境中的行為，而在正式環境中，您不希望模組自動安裝，而是"
+#~ "按需安裝。"
+
+#~ msgid ""
+#~ "Your module may not appear directly in your apps to install either, you "
+#~ "need to update your apps list first:"
+#~ msgstr ""
+#~ "您的模組可能也不會直接出現在可安裝的應用程式中，您需要先更新應用程式清單："
+
+#~ msgid "Activate the :ref:`developer mode <developer-mode>`"
+#~ msgstr "啟用:ref:`開發者模式 <developer-mode>`"
+
+#~ msgid "in the apps menu, click the *Update Apps List* button,"
+#~ msgstr "在應用程式選單中，按一下 *更新應用程式清單* 按鈕，"
+
+#~ msgid "in the dialog that appears, click the *Update* button."
+#~ msgstr "在出現的對話方塊中，按一下 *更新* 按鈕。"
+
+#~ msgid "Your module will then appear in the list of available apps."
+#~ msgstr "您的模組將出現在可用應用程式清單中。"
+
+#~ msgid ""
+#~ "Once you tested your module in a staging branch with your production "
+#~ "data, and believe it is ready for production, you can merge your branch "
+#~ "in the production branch."
+#~ msgstr ""
+#~ "在將您的模組在預備分支中使用生產資料測試後，並確信已準備好投入生產時，您可"
+#~ "以將您的分支合併到生產分支中。"
+
+#~ msgid "Drag and drop your staging branch on the production branch."
+#~ msgstr "將您的預備分支拖放到生產分支上。"
+
+#~ msgid ""
+#~ "This will merge the latest changes of your staging branch in the "
+#~ "production branch, and update your production server with these latest "
+#~ "changes."
+#~ msgstr ""
+#~ "這將把您預備分支的最新變更合併到生產分支中，並使用這些最新變更更新您的生產"
+#~ "伺服器。"
+
+#~ msgid ""
+#~ "Your module will not be installed automatically, you have to install it "
+#~ "manually as explained in the :ref:`above section about installing your "
+#~ "module in staging databases <odoosh-gettingstarted-firstmodule-"
+#~ "productiondata-install>`."
+#~ msgstr ""
+#~ "您的模組不會自動安裝，您必須手動安裝，如:ref:`上述關於在預備資料庫中安裝模"
+#~ "組的章節 <odoosh-gettingstarted-firstmodule-productiondata-install>`所述。"
+
+#~ msgid ""
+#~ "This section explains how to add a change in your module by adding a new "
+#~ "field in a model and deploy it."
+#~ msgstr "本節說明如何透過在模型中加入新欄位來為您的模組加入變更並部署。"
+
+#~ msgid "From the Odoo.sh editor,"
+#~ msgstr "從 Odoo.sh 編輯器，"
+
+#~ msgid "browse to your module folder *~/src/user/my_module*,"
+#~ msgstr "瀏覽至您的模組資料夾 *~/src/user/my_module*，"
+
+#~ msgid "then, open the file *models/models.py*."
+#~ msgstr "然後開啟檔案 *models/models.py*。"
+
+#~ msgid "Or, from your computer,"
+#~ msgstr "或者，從您的電腦，"
+
+#~ msgid ""
+#~ "use the file browser of your choice to browse to your module folder *~/"
+#~ "src/odoo-addons/my_module*,"
+#~ msgstr ""
+#~ "使用您選擇的檔案瀏覽器瀏覽至您的模組資料夾 *~/src/odoo-addons/my_module*，"
+
+#~ msgid ""
+#~ "then, open the file *models/models.py* using the editor of your choice, "
+#~ "such as *Atom*, *Sublime Text*, *PyCharm*, *vim*, ..."
+#~ msgstr ""
+#~ "然後使用您選擇的編輯器開啟檔案 *models/models.py*，例如 *Atom*、*Sublime "
+#~ "Text*、*PyCharm*、*vim* 等。"
+
+#~ msgid "Then, after the description field"
+#~ msgstr "然後，在描述欄位之後"
+
+#~ msgid "Add a datetime field"
+#~ msgstr "加入日期時間欄位"
+
+#~ msgid "Then, open the file *views/views.xml*."
+#~ msgstr "然後開啟檔案 *views/views.xml*。"
+
+#~ msgid "After"
+#~ msgstr "之後"
+
+#~ msgid "Add"
+#~ msgstr "加入"
+
+#~ msgid ""
+#~ "These changes alter the database structure by adding a column in a table, "
+#~ "and modify a view stored in database."
+#~ msgstr ""
+#~ "這些變更透過在表格中加入欄來改變資料庫結構，並修改儲存在資料庫中的檢視。"
+
+#~ msgid ""
+#~ "In order to be applied in existing databases, such as your production "
+#~ "database, these changes requires the module to be updated."
+#~ msgstr "為了套用於現有資料庫(例如您的生產資料庫)，這些變更需要更新模組。"
+
+#~ msgid ""
+#~ "If you would like the update to be performed automatically by the Odoo.sh "
+#~ "platform when you push your changes, increase your module version in its "
+#~ "manifest."
+#~ msgstr ""
+#~ "如果您希望在推送變更時由 Odoo.sh 平台自動執行更新，請在模組清單中提高模組"
+#~ "版本。"
+
+#~ msgid "Open the module manifest *__manifest__.py*."
+#~ msgstr "開啟模組清單 *__manifest__.py*。"
+
+#~ msgid "with"
+#~ msgstr "與"
+
+#~ msgid ""
+#~ "The platform will detect the change of version and trigger the update of "
+#~ "the module upon the new revision deployment."
+#~ msgstr "平台將偵測版本變更，並在新修訂版本部署時觸發模組更新。"
+
+#~ msgid "Browse to your Git folder."
+#~ msgstr "瀏覽至您的 Git 資料夾。"
+
+#~ msgid "Then, from an Odoo.sh terminal:"
+#~ msgstr "然後，從 Odoo.sh 終端機："
+
+#~ msgid "Then, stage your changes to be committed"
+#~ msgstr "然後，暫存您的變更以便提交"
+
+#~ msgid "Push your changes:"
+#~ msgstr "推送您的變更："
+
+#~ msgid "From an Odoo.sh terminal:"
+#~ msgstr "從 Odoo.sh 終端機："
+
+#~ msgid ""
+#~ "The platform will then create a new build for the branch *feature-1*."
+#~ msgstr "平台將為分支 *feature-1* 建立新的建置。"
+
+#~ msgid ""
+#~ "Once you tested your changes, you can merge your changes in the "
+#~ "production branch, for instance by drag-and-dropping the branch on the "
+#~ "production branch in the Odoo.sh interface. As you increased the module "
+#~ "version in the manifest, the platform will update the module "
+#~ "automatically and your new field will be directly available. Otherwise "
+#~ "you can manually update the module within the apps list."
+#~ msgstr ""
+#~ "測試變更後，您可以將變更合併到生產分支，例如在 Odoo.sh 介面中將分支拖放到"
+#~ "生產分支上。由於您在清單中增加了模組版本，平台將自動更新模組，新欄位將直接"
+#~ "可用。否則，您可以在應用程式清單中手動更新模組。"
+
+#~ msgid ""
+#~ "If you would like to use an external Python library which is not "
+#~ "installed by default, you can define a *requirements.txt* file listing "
+#~ "the external libraries your modules depends on."
+#~ msgstr ""
+#~ "如果您想使用預設未安裝的外部 Python 程式庫，可以定義 *requirements.txt* 檔"
+#~ "案，列出模組所依賴的外部程式庫。"
+
+#~ msgid ""
+#~ "It is not possible to install or upgrade system packages on an Odoo.sh "
+#~ "database (e.g., apt packages). However, under specific conditions, "
+#~ "packages can be considered for installation. This also applies to "
+#~ "**Python modules** requiring system packages for their compilation, and "
+#~ "**third-party Odoo modules**."
+#~ msgstr ""
+#~ "無法在 Odoo.sh 資料庫上安裝或升級系統套件（例如 apt 套件）。但在特定條件"
+#~ "下，可以考慮安裝套件。這也適用於需要系統套件進行編譯的 **Python 模組**，以"
+#~ "及**第三方 Odoo 模組**。"
+
+#~ msgid "**PostgreSQL extensions** are not supported on Odoo.sh."
+#~ msgstr "Odoo.sh 不支援 **PostgreSQL 擴充功能**。"
+
+#~ msgid ""
+#~ "For more information, consult our `FAQ <https://www.odoo.sh/"
+#~ "faq#install_dependencies>`_."
+#~ msgstr ""
+#~ "如需更多資訊，請參閱我們的`常見問題 <https://www.odoo.sh/"
+#~ "faq#install_dependencies>`_。"
+
+#~ msgid ""
+#~ "The platform will use this file to automatically install the Python "
+#~ "libraries your project needs."
+#~ msgstr "平台將使用此檔案自動安裝專案所需的 Python 程式庫。"
+
+#~ msgid ""
+#~ "The feature is explained in this section by using the `Unidecode library "
+#~ "<https://pypi.python.org/pypi/Unidecode>`_ in your module."
+#~ msgstr ""
+#~ "本節使用在模組中使用 `Unidecode 程式庫 <https://pypi.python.org/pypi/"
+#~ "Unidecode>`_ 來說明此功能。"
+
+#~ msgid ""
+#~ "Create a file *requirements.txt* in the root folder of your repository"
+#~ msgstr "在儲存庫的根資料夾中建立 *requirements.txt* 檔案"
+
+#~ msgid ""
+#~ "From the Odoo.sh editor, create and open the file ~/src/user/"
+#~ "requirements.txt."
+#~ msgstr "從 Odoo.sh 編輯器，建立並開啟檔案 ~/src/user/requirements.txt。"
+
+#~ msgid ""
+#~ "Or, from your computer, create and open the file ~/src/odoo-addons/"
+#~ "requirements.txt."
+#~ msgstr "或者，從您的電腦建立並開啟檔案 ~/src/odoo-addons/requirements.txt。"
+
+#~ msgid ""
+#~ "Then use the library in your module, for instance to remove accents from "
+#~ "characters in the name field of your model."
+#~ msgstr ""
+#~ "然後在模組中使用該程式庫，例如從模型的 name 欄位中移除字元的重音符號。"
+
+#~ msgid "Open the file *models/models.py*."
+#~ msgstr "開啟檔案 *models/models.py*。"
+
+#~ msgid "Before"
+#~ msgstr "在之前"
+
+#~ msgid ""
+#~ "Adding a Python dependency requires a module version increase for the "
+#~ "platform to install it."
+#~ msgstr "加入 Python 相依性需要增加模組版本，平台才能安裝。"
+
+#~ msgid "Edit the module manifest *__manifest__.py*"
+#~ msgstr "編輯模組清單 *__manifest__.py*"
+
+#~ msgid "Stage and commit your changes:"
+#~ msgstr "暫存並提交您的變更："
+
+#~ msgid "Then, push your changes:"
+#~ msgstr "然後，推送您的變更："
+
+#~ msgid "In an Odoo.sh terminal:"
+#~ msgstr "在 Odoo.sh 終端機中："
+
+#~ msgid "In your computer terminal:"
+#~ msgstr "在您的電腦終端機中："
+
+#~ msgid ""
+#~ "The name of your project defines the address used to access your "
+#~ "production database. The addresses of your staging and development builds "
+#~ "are automatically derived from this name. If you change the project name, "
+#~ "only future builds will use the new name."
+#~ msgstr ""
+#~ "專案名稱定義了用於存取正式資料庫的網址。預備和開發建置的網址會自動從此名稱"
+#~ "衍生。如果您變更專案名稱,只有未來的建置會使用新名稱。"
 
 #~ msgid "You can `upgrade <https://upgrade.odoo.com>`_ from any version."
 #~ msgstr "您可以從任何版本`升級 <https://upgrade.odoo.com>`_。"

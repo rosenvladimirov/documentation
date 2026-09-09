@@ -90,8 +90,8 @@ Odoo.sh automatically detects folders containing Odoo modules. You can organize 
 prefer. For example, you can place them directly in the root directory of your repository or group
 them by category (e.g., `accounting`, `project`, etc.).
 
-For publicly available community modules, you may also consider using :doc:`submodules
-<../advanced/submodules>`.
+For publicly available community modules, you may also consider using :ref:`submodules
+<odoo-sh/advanced/submodules>`
 
 Download a backup
 -----------------
@@ -159,20 +159,6 @@ default Odoo.sh server is used.
 .. warning::
    Port **25** is and will remain closed. If connecting to an external SMTP server, use port **465**
    or **587**.
-
-Check scheduled actions
------------------------
-
-Scheduled actions are **disabled by default** after importing your database. This prevents your
-newly imported database from performing potentially disruptive operations such as:
-
-- sending queued emails,
-- triggering mass mailings, or
-- syncing with third-party services (e.g., calendars, cloud storage).
-
-If you intend to use this imported database in production, **re-enable** only the scheduled actions
-you need by enabling :ref:`developer mode <developer-mode>` and going to :menuselection:`Settings
---> Technical --> Automation: Scheduled Actions`.
 
 Register the subscription
 -------------------------

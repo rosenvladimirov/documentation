@@ -5,13 +5,15 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
+# Žiga Trček <ziga.trcek@implex.si>, 2026.
+# Tadej Vengust <tadej.vengust@implex.si>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-12 17:31+0000\n"
-"PO-Revision-Date: 2026-06-25 15:05+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"POT-Creation-Date: 2026-08-21 17:32+0000\n"
+"PO-Revision-Date: 2026-09-07 16:11+0000\n"
+"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19-doc/"
 "administration/sl/>\n"
 "Language: sl\n"
@@ -20,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../../content/administration.rst:8
 msgid "Database management"
@@ -31,7 +33,7 @@ msgid ""
 "These guides provide instructions on how to install, maintain and upgrade "
 "Odoo databases."
 msgstr ""
-"Ti vodniki vsebujejo navodila za namestitev, vzdrževanje in nadgradnjo "
+"Ti vodiči vsebujejo navodila za namestitev, vzdrževanje in nadgradnjo "
 "podatkovnih baz Odoo."
 
 #: ../../content/administration.rst:13
@@ -149,12 +151,12 @@ msgid "Transferring an on-premise database"
 msgstr "Prenašanje lastne podatkovne baze"
 
 #: ../../content/administration/hosting.rst:17
-#: ../../content/administration/hosting.rst:92
+#: ../../content/administration/hosting.rst:106
 msgid "To Odoo Online"
 msgstr "Na Odoo Online"
 
 #: ../../content/administration/hosting.rst:20
-#: ../../content/administration/hosting.rst:95
+#: ../../content/administration/hosting.rst:109
 msgid "Odoo Online is *not* compatible with **non-standard apps**."
 msgstr "Odoo Online *ni* združljiv z **nestandardnimi aplikacijami**."
 
@@ -181,7 +183,7 @@ msgstr ""
 "arhivom*."
 
 #: ../../content/administration/hosting.rst:26
-#: ../../content/administration/hosting.rst:98
+#: ../../content/administration/hosting.rst:112
 msgid ""
 "`Create a support ticket <https://www.odoo.com/help-form>`_ including the "
 "following:"
@@ -190,27 +192,72 @@ msgstr ""
 "vključuje naslednje:"
 
 #: ../../content/administration/hosting.rst:28
-#: ../../content/administration/hosting.rst:100
+#: ../../content/administration/hosting.rst:114
 msgid "your **subscription number**,"
 msgstr "vašo **številko naročnine**,"
 
 #: ../../content/administration/hosting.rst:29
+#: ../../content/administration/hosting.rst:115
 msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`), and"
+"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
 msgstr ""
 "**URL**, ki ga želite uporabiti za zbirko podatkov (npr. `podjetje.odoo.com`)"
-", in"
+","
 
 #: ../../content/administration/hosting.rst:30
 msgid ""
 "the **dump** as an attachment or as a link to the file (required for 60 MB+ "
-"files)."
+"files),"
 msgstr ""
-"**izvoz** kot prilogo ali kot povezavo do datoteke (obvezno za datoteke "
-"večje od 60 MB)."
+"**izvoz** kot prilogo ali povezavo do datoteke (zahtevano za datoteke, večje "
+"od 60 MB),"
 
-#: ../../content/administration/hosting.rst:32
-#: ../../content/administration/hosting.rst:107
+#: ../../content/administration/hosting.rst:31
+msgid "the **region** you wish to be hosted in,"
+msgstr "**regijo**, v kateri želite biti gostovani,"
+
+#: ../../content/administration/hosting.rst:34
+msgid ""
+"The list of available regions is available in `our privacy policy <https://"
+"www.odoo.com/privacy#data-transfer>`_."
+msgstr ""
+"Seznam razpoložljivih regij je na voljo v `naši politiki zasebnosti <https://"
+"www.odoo.com/privacy#data-transfer>`_."
+
+#: ../../content/administration/hosting.rst:36
+msgid "the **name** you want for the database,"
+msgstr "**ime**, ki ga želite za podatkovno zbirko,"
+
+#: ../../content/administration/hosting.rst:37
+msgid "what **version** the database is in,"
+msgstr "**različico**, v kateri je podatkovna zbirka,"
+
+#: ../../content/administration/hosting.rst:38
+msgid "the login (email) of the **administrator** user,"
+msgstr "prijavno ime (e-pošto) **skrbniškega** uporabnika,"
+
+#: ../../content/administration/hosting.rst:39
+msgid "whether you wish to have a first **test** deployment, and"
+msgstr "ali želite prvo **testno** namestitev, in"
+
+#: ../../content/administration/hosting.rst:42
+msgid ""
+"This is strongly recommended, especially if you have ever installed third-"
+"party apps."
+msgstr ""
+"To je močno priporočljivo, še posebej, če ste kdaj namestili aplikacije "
+"tretjih oseb."
+
+#: ../../content/administration/hosting.rst:44
+msgid ""
+"**when** you will want the production database to be put online (day, time "
+"of day, and your timezone)."
+msgstr ""
+"**kdaj** želite, da bo produkcijska podatkovna zbirka postavljena v uporabo "
+"(dan, ura in vaše časovno območje)."
+
+#: ../../content/administration/hosting.rst:46
+#: ../../content/administration/hosting.rst:121
 msgid ""
 "Odoo then makes sure the database is compatible before putting it online. In "
 "case of technical issues during the process, Odoo might contact you."
@@ -218,8 +265,8 @@ msgstr ""
 "Odoo nato preveri združljivost zbirke podatkov, preden jo objavi. V primeru "
 "tehničnih težav med postopkom vas Odoo lahko kontaktira."
 
-#: ../../content/administration/hosting.rst:36
-#: ../../content/administration/hosting.rst:111
+#: ../../content/administration/hosting.rst:50
+#: ../../content/administration/hosting.rst:125
 msgid ""
 "If you have time constraints, `create a support ticket <https://www.odoo.com/"
 "help-form>`_ as soon as possible to schedule the transfer."
@@ -227,13 +274,13 @@ msgstr ""
 "Če imate časovne omejitve, `ustvarite zahtevek za podporo <https://"
 "www.odoo.com/help-form>`_ čim prej, da načrtujete prenos."
 
-#: ../../content/administration/hosting.rst:40
-#: ../../content/administration/hosting.rst:78
+#: ../../content/administration/hosting.rst:54
+#: ../../content/administration/hosting.rst:92
 msgid "To Odoo.sh"
 msgstr "Na Odoo.sh"
 
-#: ../../content/administration/hosting.rst:42
-#: ../../content/administration/hosting.rst:85
+#: ../../content/administration/hosting.rst:56
+#: ../../content/administration/hosting.rst:99
 msgid ""
 "Follow the instructions found in :ref:`the Import a database section <odoo-"
 "sh/create/import>` of the Odoo.sh *Create a project* documentation."
@@ -241,11 +288,11 @@ msgstr ""
 "Sledite navodilom v :ref:`razdelku Uvoz zbirke podatkov <odoo-sh/create/"
 "import>` dokumentacije Odoo.sh *Ustvari projekt*."
 
-#: ../../content/administration/hosting.rst:46
+#: ../../content/administration/hosting.rst:60
 msgid "Transferring an Odoo Online database"
 msgstr "Prenos zbirke podatkov Odoo Online"
 
-#: ../../content/administration/hosting.rst:49
+#: ../../content/administration/hosting.rst:63
 msgid ""
 "Odoo Online's :doc:`intermediary versions <standard_extended_support>` are "
 "not supported by Odoo.sh or on-premise. Therefore, if the database to "
@@ -259,7 +306,7 @@ msgstr ""
 "<standard_extended_support>`, po potrebi pa je treba počakati na njeno "
 "izdajo."
 
-#: ../../content/administration/hosting.rst:55
+#: ../../content/administration/hosting.rst:69
 msgid ""
 "Transferring an online database running on Odoo 16.3 would require first "
 "upgrading it to Odoo 17.0."
@@ -267,7 +314,7 @@ msgstr ""
 "Prenos spletne zbirke podatkov, ki deluje na Odoo 16.3, bi zahteval najprej "
 "nadgradnjo na Odoo 17.0."
 
-#: ../../content/administration/hosting.rst:59
+#: ../../content/administration/hosting.rst:73
 msgid ""
 "Click the :icon:`fa-gear` (:guilabel:`gear`) button next to the database "
 "name on the `Odoo Online database manager <https://www.odoo.com/my/databases/"
@@ -277,7 +324,7 @@ msgstr ""
 "podatkov v `upravitelju zbirk podatkov Odoo Online <https://www.odoo.com/my/"
 "databases/>`_, da prikažete njeno številko različice."
 
-#: ../../content/administration/hosting.rst:63
+#: ../../content/administration/hosting.rst:77
 msgid ""
 "If there is an active Odoo subscription linked to the database being "
 "migrated, reach out to the Customer Service Manager or `contact Odoo support "
@@ -287,13 +334,13 @@ msgstr ""
 "Odoo, se obrnite na vodjo službe za stranke ali `kontaktirajte podporo Odoo "
 "<https://www.odoo.com/help>`_, da dokončate prenos naročnine."
 
-#: ../../content/administration/hosting.rst:68
-#: ../../content/administration/hosting.rst:120
+#: ../../content/administration/hosting.rst:82
+#: ../../content/administration/hosting.rst:134
 msgid "To on-premise"
 msgstr "Na lastno infrastrukturo"
 
-#: ../../content/administration/hosting.rst:70
-#: ../../content/administration/hosting.rst:80
+#: ../../content/administration/hosting.rst:84
+#: ../../content/administration/hosting.rst:94
 msgid ""
 "Download a database backup by signing in to `the Odoo Online database "
 "manager <https://www.odoo.com/my/databases/>`_, clicking the :icon:`fa-gear` "
@@ -309,8 +356,8 @@ msgstr ""
 "prenos ne uspe zaradi prevelike datoteke, `kontaktirajte podporo Odoo "
 "<https://www.odoo.com/help>`_."
 
-#: ../../content/administration/hosting.rst:75
-#: ../../content/administration/hosting.rst:123
+#: ../../content/administration/hosting.rst:89
+#: ../../content/administration/hosting.rst:137
 msgid ""
 "Restore the database from the database manager on your local server using "
 "the backup."
@@ -318,11 +365,11 @@ msgstr ""
 "Obnovite zbirko podatkov iz upravitelja zbirk podatkov na vašem lokalnem "
 "strežniku s pomočjo varnostne kopije."
 
-#: ../../content/administration/hosting.rst:89
+#: ../../content/administration/hosting.rst:103
 msgid "Transferring an Odoo.sh database"
 msgstr "Prenos zbirke podatkov Odoo.sh"
 
-#: ../../content/administration/hosting.rst:97
+#: ../../content/administration/hosting.rst:111
 msgid ""
 "Uninstall all **non-standard apps** in a staging build before doing it in "
 "the production build."
@@ -330,18 +377,11 @@ msgstr ""
 "Odstranite vse **nestandardne aplikacije** v testni različici, preden to "
 "storite v produkcijski različici."
 
-#: ../../content/administration/hosting.rst:101
-msgid ""
-"the **URL** you want to use for the database (e.g., `company.odoo.com`),"
-msgstr ""
-"**URL**, ki ga želite uporabiti za zbirko podatkov (npr. `podjetje.odoo.com`)"
-","
-
-#: ../../content/administration/hosting.rst:102
+#: ../../content/administration/hosting.rst:116
 msgid "which **branch** should be migrated,"
 msgstr "katera **veja** naj bo prenesena,"
 
-#: ../../content/administration/hosting.rst:103
+#: ../../content/administration/hosting.rst:117
 msgid ""
 "in which **region** you want the database to be hosted (Americas, Europe, or "
 "Asia),"
@@ -349,28 +389,28 @@ msgstr ""
 "v kateri **regiji** želite, da je zbirka podatkov gostovana (Amerike, Evropa "
 "ali Azija),"
 
-#: ../../content/administration/hosting.rst:104
+#: ../../content/administration/hosting.rst:118
 msgid "which user(s) will be the **administrator(s)**, and"
 msgstr "kateri uporabnik(i) bo(do) **skrbnik(i)**, in"
 
-#: ../../content/administration/hosting.rst:105
+#: ../../content/administration/hosting.rst:119
 msgid ""
 "**when** (and in which timezone) you want the database to be up and running."
 msgstr ""
 "**kdaj** (še v katerem časovnem pasu) želite, da bo podatkovna baza "
 "pripravljena in deluje."
 
-#: ../../content/administration/hosting.rst:113
+#: ../../content/administration/hosting.rst:127
 msgid "Select the **region** closest to most of your users to reduce latency."
 msgstr ""
 "Izberite **regijo**, ki je najboljša večini vaših uporabnikov, da zmanjšate "
 "zakasnitev."
 
-#: ../../content/administration/hosting.rst:114
+#: ../../content/administration/hosting.rst:128
 msgid "Future **administrator(s)** must have an Odoo.com account."
 msgstr "Prihodnji **skrbnik(i)** morajo imeti račun Odoo.com."
 
-#: ../../content/administration/hosting.rst:115
+#: ../../content/administration/hosting.rst:129
 msgid ""
 "The **date and time** you want the database to be up and running are helpful "
 "to organize the switch from the Odoo.sh server to the Odoo Online servers."
@@ -379,11 +419,11 @@ msgstr ""
 "sta koristna za organizacijo preklopa s strežnika Odoo.sh na strežnike Odoo "
 "Online."
 
-#: ../../content/administration/hosting.rst:117
+#: ../../content/administration/hosting.rst:131
 msgid "Databases are **not reachable** during their migration."
 msgstr "Podatkovne baze **niso dosegljive** med njihovo migracijo."
 
-#: ../../content/administration/hosting.rst:122
+#: ../../content/administration/hosting.rst:136
 msgid ""
 "Download a :ref:`backup of your Odoo.sh production database <odoo-sh/"
 "branches/tabs/backups>`."
@@ -1138,7 +1178,6 @@ msgstr "Vsebniki"
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:7
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:9
-#: ../../content/administration/odoo_sh/first_module.rst:6
 #: ../../content/administration/odoo_sh/getting_started/builds.rst:14
 msgid "Overview"
 msgstr "Pregled"
@@ -1454,7 +1493,7 @@ msgid ""
 "Finally, *via* the Odoo Shell, you can trigger the piece of code/function/"
 "method you want to debug."
 msgstr ""
-"Nazadnje lahko prek lupine Odoo sprožite kos kode/funkcijo/metodo, ki jo "
+"Nazadnje lahko *prek* lupine Odoo sprožite kos kode/funkcijo/metodo, ki jo "
 "želite razhroščevati."
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:None
@@ -1721,8 +1760,6 @@ msgstr "Nato dodajte podmodul z ukazom spodaj:"
 
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:82
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:94
-#: ../../content/administration/odoo_sh/first_module.rst:359
-#: ../../content/administration/odoo_sh/first_module.rst:498
 msgid "Replace"
 msgstr "Replace"
 
@@ -1796,733 +1833,629 @@ msgstr ""
 "bo to mapo prezrla in lahko ročno izberete svoje module tako, da nanje "
 "ustvarite simbolne povezave iz druge mape."
 
-#: ../../content/administration/odoo_sh/first_module.rst:3
-msgid "Your first module"
-msgstr "Vaš prvi modul"
+#: ../../content/administration/odoo_sh/create_module.rst:3
+msgid "Create a module"
+msgstr "Ustvarjanje modula"
 
-#: ../../content/administration/odoo_sh/first_module.rst:8
+#: ../../content/administration/odoo_sh/create_module.rst:5
 msgid ""
-"This chapter helps you to create your first Odoo module and deploy it in "
-"your Odoo.sh project."
+"Before creating your first module, it is necessary to :doc:`create an "
+"Odoo.sh project <getting_started/create>` and knowing your GitHub "
+"repository's URL."
 msgstr ""
-"To poglavje vam pomaga ustvariti vaš prvi modul Odoo in ga namestiti v vaš "
-"projekt Odoo.sh."
+"Preden ustvarite svoj prvi modul, je potrebno :doc:`ustvariti projekt "
+"Odoo.sh <getting_started/create>` in poznati URL vašega GitHub repozitorija."
 
-#: ../../content/administration/odoo_sh/first_module.rst:10
+#: ../../content/administration/odoo_sh/create_module.rst:8
+msgid "Glossary"
+msgstr "Slovar"
+
+#: ../../content/administration/odoo_sh/create_module.rst:10
 msgid ""
-"This tutorial requires you created a project on Odoo.sh, and you know your "
-"Github repository's URL."
+"`~/src` is the directory where the Git repositories related to your Odoo "
+"projects are located."
 msgstr ""
-"Ta vadnica zahteva, da ste ustvarili projekt na Odoo.sh in poznate URL "
-"vašega repozitorija Github."
+"`~/src` je imenik, kjer se nahajajo Git repozitoriji, povezani z vašimi Odoo "
+"projekti."
 
-#: ../../content/administration/odoo_sh/first_module.rst:13
-msgid "Basic use of Git and Github is explained."
-msgstr "Pojasnjene so osnovne uporabe Git in Github."
+#: ../../content/administration/odoo_sh/create_module.rst:11
+msgid "`odoo` is the GitHub user."
+msgstr "`odoo` je uporabnik GitHub."
 
-#: ../../content/administration/odoo_sh/first_module.rst:15
-msgid "The below assumptions are made:"
-msgstr "Spodaj so navedene predpostavke:"
+#: ../../content/administration/odoo_sh/create_module.rst:12
+msgid "`odoo-addons` is the GitHub repository."
+msgstr "`odoo-addons` je repozitorij GitHub."
 
-#: ../../content/administration/odoo_sh/first_module.rst:17
-msgid ""
-"*~/src* is the directory where are located the Git repositories related to "
-"your Odoo projects,"
-msgstr ""
-"*~/src* je imenik, kjer se nahajajo repozitoriji Git, povezani z vašimi "
-"projekti Odoo,"
+#: ../../content/administration/odoo_sh/create_module.rst:13
+msgid "`feature-1` is the name of a development branch."
+msgstr "`feature-1` je ime razvojne veje."
 
-#: ../../content/administration/odoo_sh/first_module.rst:18
-msgid "*odoo* is the Github user,"
-msgstr "*odoo* je uporabnik Github,"
+#: ../../content/administration/odoo_sh/create_module.rst:14
+msgid "`main` is the name of the production branch."
+msgstr "`main` je ime produkcijske veje."
 
-#: ../../content/administration/odoo_sh/first_module.rst:19
-msgid "*odoo-addons* is the Github repository,"
-msgstr "*odoo-addons* je repozitorij Github,"
+#: ../../content/administration/odoo_sh/create_module.rst:15
+msgid "`my_module` is the name of the module."
+msgstr "`my_module` je ime modula."
 
-#: ../../content/administration/odoo_sh/first_module.rst:20
-msgid "*feature-1* is the name of a development branch,"
-msgstr "*feature-1* je ime razvojne veje,"
+#: ../../content/administration/odoo_sh/create_module.rst:17
+msgid "Replace these as necessary."
+msgstr "Po potrebi jih zamenjajte."
 
-#: ../../content/administration/odoo_sh/first_module.rst:21
-msgid "*master* is the name of the production branch,"
-msgstr "*master* je ime produkcijske veje,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:22
-msgid "*my_module* is the name of the module."
-msgstr "*my_module* je ime modula."
-
-#: ../../content/administration/odoo_sh/first_module.rst:24
-msgid "Replace these by the values of your choice."
-msgstr "Zamenjajte jih z vrednostmi po vaši izbiri."
-
-#: ../../content/administration/odoo_sh/first_module.rst:27
+#: ../../content/administration/odoo_sh/create_module.rst:22
 msgid "Create the development branch"
 msgstr "Ustvarite razvojno vejo"
 
-#: ../../content/administration/odoo_sh/first_module.rst:30
-msgid "From Odoo.sh"
-msgstr "Iz Odoo.sh"
+#: ../../content/administration/odoo_sh/create_module.rst:26
+#: ../../content/administration/odoo_sh/create_module.rst:73
+#: ../../content/administration/odoo_sh/create_module.rst:165
+msgid "On Odoo.sh"
+msgstr "Na Odoo.sh"
 
-#: ../../content/administration/odoo_sh/first_module.rst:32
-msgid "In the branches view:"
-msgstr "V pogledu vej:"
+#: ../../content/administration/odoo_sh/create_module.rst:28
+msgid "From the :doc:`Branches view <getting_started/branches>`:"
+msgstr "Iz pogleda :doc:`Veje <getting_started/branches>`:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:34
-msgid "hit the :code:`+` button next to the development stage,"
-msgstr "pritisnite gumb :code:`+` poleg razvojne stopnje,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:35
-msgid "choose the branch *master* in the *Fork* selection,"
-msgstr "izberite vejo *master* v izbiri *Fork*,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:36
-msgid "type *feature-1* in the *To* input."
-msgstr "vnesite *feature-1* v polje *To*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:38
-msgid "|pic1|  |pic2|"
-msgstr "|pic1|  |pic2|"
-
-#: ../../content/administration/odoo_sh/first_module.rst:40
-msgid "pic1"
-msgstr "pic1"
-
-#: ../../content/administration/odoo_sh/first_module.rst:43
-msgid "pic2"
-msgstr "pic2"
-
-#: ../../content/administration/odoo_sh/first_module.rst:46
+#: ../../content/administration/odoo_sh/create_module.rst:30
 msgid ""
-"Once the build created, you can access the editor and browse to the folder "
-"*~/src/user* to access to the code of your development branch."
+"In the branches navigation panel, click the ＋ (:guilabel:`New development "
+"branch`) button next to :guilabel:`Development`."
 msgstr ""
-"Ko je gradnja ustvarjena, lahko dostopate do urejevalnika in pobrskate po "
-"mapi *~/src/user*, da dostopate do kode vaše razvojne veje."
+"V navigacijskem pultu vej kliknite gumb ＋ (:guilabel:`Nova razvojna veja`) "
+"poleg :guilabel:`Razvoj`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:56
-msgid "From your computer"
-msgstr "Z vašega računalnika"
+#: ../../content/administration/odoo_sh/create_module.rst:32
+msgid "Under :guilabel:`Fork`, select the `main` branch."
+msgstr "Pod :guilabel:`Razveji` izberite vejo `main`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:58
-msgid "Clone your Github repository on your computer:"
-msgstr "Klonirajte vaš repozitorij Github na računalnik:"
+#: ../../content/administration/odoo_sh/create_module.rst:33
+msgid "Under :guilabel:`To`, enter `feature-1`."
+msgstr "Pod :guilabel:`V` vnesite `feature-1`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:67
-msgid "Create a new branch:"
-msgstr "Ustvarite novo vejo:"
+#: ../../content/administration/odoo_sh/create_module.rst:0
+msgid "Forking the production branch to create a development branch on Odoo.sh"
+msgstr "Razvejanje produkcijske veje za ustvarjanje razvojne veje na Odoo.sh"
 
-#: ../../content/administration/odoo_sh/first_module.rst:74
+#: ../../content/administration/odoo_sh/create_module.rst:38
+msgid ""
+"Once the build is ready, you can access the :doc:`editor <getting_started/"
+"online_editor>` and the code of your development branch from the folder `~/"
+"src/user` folder."
+msgstr ""
+"Ko je gradnja pripravljena, lahko dostopate do :doc:`urejevalnika "
+"<getting_started/online_editor>` in kode vaše razvojne veje iz mape `~/src/"
+"user`."
+
+#: ../../content/administration/odoo_sh/create_module.rst:41
+#: ../../content/administration/odoo_sh/create_module.rst:81
+#: ../../content/administration/odoo_sh/create_module.rst:177
+msgid "On a computer"
+msgstr "Na računalniku"
+
+#: ../../content/administration/odoo_sh/create_module.rst:43
+msgid ""
+"Clone your GitHub repository on your computer by running the following "
+"commands:"
+msgstr ""
+"Klonirajte svoj GitHub repozitorij na računalnik z zagonom naslednjih ukazov:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:52
+msgid "Create a new branch by running:"
+msgstr "Ustvarite novo vejo z zagonom:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:61
 msgid "Create the module structure"
 msgstr "Ustvarite strukturo modula"
 
-#: ../../content/administration/odoo_sh/first_module.rst:77
-msgid "Scaffolding the module"
-msgstr "Priprava ogrodja modula"
+#: ../../content/administration/odoo_sh/create_module.rst:66
+msgid "Scaffolding"
+msgstr "Gradnja ogrodja"
 
-#: ../../content/administration/odoo_sh/first_module.rst:79
+#: ../../content/administration/odoo_sh/create_module.rst:68
 msgid ""
-"While not necessary, scaffolding avoids the tedium of setting the basic Odoo "
-"module structure. You can scaffold a new module using the executable *odoo-"
-"bin*."
+"While it is not required, scaffolding avoids the tedium of setting the basic "
+"Odoo module structure. You can scaffold a new module using the `odoo-bin` "
+"executable."
 msgstr ""
-"Čeprav ni nujno, priprava ogrodja prepreči dolgočasno nastavljanje osnovne "
-"strukture modula Odoo. Nov modul lahko pripravite z uporabo izvedljive "
-"datoteke *odoo-bin*."
+"Čeprav ni obvezno, gradnja ogrodja prepreči dolgočasno nastavljanje osnovne "
+"strukture modula Odoo. Nov modul lahko zgradite z uporabo izvedljive "
+"datoteke `odoo-bin`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:82
-msgid "From the Odoo.sh editor, in a terminal:"
-msgstr "Iz urejevalnika Odoo.sh v terminalu:"
+#: ../../content/administration/odoo_sh/create_module.rst:75
+#: ../../content/administration/odoo_sh/create_module.rst:167
+msgid "From the :doc:`editor <getting_started/online_editor>` terminal, run:"
+msgstr ""
+"Iz terminala :doc:`urejevalnika <getting_started/online_editor>` zaženite:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:88
-msgid "Or, from your computer, if you have an installation of Odoo:"
-msgstr "Ali pa s svojega računalnika, če imate nameščen Odoo:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:94
+#: ../../content/administration/odoo_sh/create_module.rst:83
 msgid ""
-"If you do not want to bother installing Odoo on your computer, you can "
-"also :download:`download this module structure template <first_module/"
-"my_module.zip>` in which you replace every occurrences of *my_module* to the "
-"name of your choice."
+"With :doc:`Odoo installed <../on_premise/source>` on your computer, run:"
 msgstr ""
-"Če se ne želite obremenjevati z namestitvijo Odoo na vaš računalnik, lahko "
-"tudi :download:`prenesete to predlogo strukture modula <first_module/"
-"my_module.zip>`, v kateri zamenjate vsako pojavitev *my_module* z imenom po "
-"vaši izbiri."
+"Z :doc:`nameščenim Odoo <../on_premise/source>` na vašem računalniku "
+"zaženite:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:98
-msgid "The below structure will be generated:"
+#: ../../content/administration/odoo_sh/create_module.rst:90
+msgid ""
+"If you do not want to install Odoo on your computer, you can "
+"also :download:`download this module structure template <create_module/"
+"my_module.zip>`. Replace every occurrence of `my_module` with the name of "
+"your choice."
+msgstr ""
+"Če ne želite namestiti Odoo na svoj računalnik, lahko tudi "
+":download:`prenesete to predlogo strukture modula <create_module/"
+"my_module.zip>`. Zamenjajte vsako pojavitev `my_module` z imenom po vaši "
+"izbiri."
+
+#: ../../content/administration/odoo_sh/create_module.rst:94
+msgid "The structure below will be generated:"
 msgstr "Ustvarjena bo naslednja struktura:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:121
+#: ../../content/administration/odoo_sh/create_module.rst:117
 msgid ""
-"Do not use special characters other than the underscore ( _ ) for your "
-"module name, not even an hyphen ( - ). This name is used for the Python "
-"classes of your module, and having classes name with special characters "
-"other than the underscore is not valid in Python."
+"Only use alphanumeric characters (`a-z`, `0-9`) or underscores (`_`) when "
+"naming your module, as its name is used for Python classes, and class names "
+"containing special characters other than underscores are not valid in Python."
 msgstr ""
-"Ne uporabljajte posebnih znakov razen podčrtaja ( _ ) za ime vašega modula, "
-"niti pomišljaja ( - ). To ime se uporabi za razrede Python vašega modula in "
-"imeti imena razredov s posebnimi znaki razen podčrtaja ni veljavno v Python."
+"Pri imenovanju modula uporabljajte samo alfanumerične znake (`a-z`, `0-9`) "
+"ali podčrtaje (`_`), saj se njegovo ime uporablja za razrede Python, imena "
+"razredov s posebnimi znaki, ki niso podčrtaji, pa niso veljavna v Pythonu."
 
-#: ../../content/administration/odoo_sh/first_module.rst:125
-msgid "Uncomment the content of the files:"
-msgstr "Odkomentirajte vsebino datotek:"
+#: ../../content/administration/odoo_sh/create_module.rst:121
+msgid "Uncomment the following files:"
+msgstr "Odkomentirajte naslednje datoteke:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:127
-msgid "*models/models.py*, an example of model with its fields,"
-msgstr "*models/models.py*, primer modela z njegovimi polji,"
+#: ../../content/administration/odoo_sh/create_module.rst:123
+msgid ":file:`models/models.py` an example of a model with its fields"
+msgstr ":file:`models/models.py` primer modela z njegovimi polji"
 
-#: ../../content/administration/odoo_sh/first_module.rst:129
-msgid "*views/views.xml*, a tree and a form view, with the menus opening them,"
-msgstr ""
-"*views/views.xml*, drevesni in obrazec pogled, z meniji, ki jih odpirata,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:131
-msgid "*demo/demo.xml*, demo records for the above example model,"
-msgstr "*demo/demo.xml*, predstavitveni zapisi za zgornji primer modela,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:133
+#: ../../content/administration/odoo_sh/create_module.rst:124
 msgid ""
-"*controllers/controllers.py*, an example of controller implementing some "
-"routes,"
+":file:`views/views.xml` a tree and a form view, with the menus opening them"
 msgstr ""
-"*controllers/controllers.py*, primer krmilnika, ki implementira nekaj poti,"
+":file:`views/views.xml` drevesni in obrazčni pogled z meniji, ki ju odpirata"
 
-#: ../../content/administration/odoo_sh/first_module.rst:135
+#: ../../content/administration/odoo_sh/create_module.rst:125
+msgid ":file:`demo/demo.xml` demo records for the example model"
+msgstr ":file:`demo/demo.xml` demo zapisi za primer modela"
+
+#: ../../content/administration/odoo_sh/create_module.rst:126
 msgid ""
-"*views/templates.xml*, two example qweb views used by the above controller "
-"routes,"
+":file:`controllers/controllers.py` an example of a controller implementing "
+"some routes"
 msgstr ""
-"*views/templates.xml*, dva primera qweb pogledov, ki jih uporabljata zgornji "
-"poti krmilnika,"
+":file:`controllers/controllers.py` primer krmilnika, ki implementira nekaj "
+"poti"
 
-#: ../../content/administration/odoo_sh/first_module.rst:137
+#: ../../content/administration/odoo_sh/create_module.rst:127
 msgid ""
-"*__manifest__.py*, the manifest of your module, including for instance its "
-"title, description and data files to load. You just need to uncomment the "
-"access control list data file:"
+":file:`views/templates.xml` two example qweb views used by the controller "
+"routes"
 msgstr ""
-"*__manifest__.py*, manifest vašega modula, ki vključuje na primer njegov "
-"naslov, opis in podatkovne datoteke za nalaganje. Potrebno je samo "
-"odkomentirati datoteko s seznamom kontrole dostopa:"
+":file:`views/templates.xml` dva primera qweb pogledov, ki jih uporabljajo "
+"poti krmilnika"
 
-#: ../../content/administration/odoo_sh/first_module.rst:146
+#: ../../content/administration/odoo_sh/create_module.rst:128
+msgid ""
+":file:`__manifest__.py` the manifest of your module, including its title, "
+"description and data files to load. Uncomment the access control list data "
+"file:"
+msgstr ""
+":file:`__manifest__.py` manifest vašega modula, vključno z naslovom, opisom "
+"in podatkovnimi datotekami za nalaganje. Odkomentirajte datoteko s seznamom "
+"nadzora dostopa:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:138
 msgid "Manually"
 msgstr "Ročno"
 
-#: ../../content/administration/odoo_sh/first_module.rst:148
+#: ../../content/administration/odoo_sh/create_module.rst:140
 msgid ""
-"If you want to create your module structure manually, you can follow "
-"the :doc:`/developer/tutorials/server_framework_101` tutorial to understand "
-"the structure of a module and the content of each file."
+"To create your module structure manually, follow the :doc:`/developer/"
+"tutorials/server_framework_101` tutorial to understand the structure of a "
+"module and the content of each file."
 msgstr ""
-"Če želite ustvariti strukturo modula ročno, lahko sledite :doc:`/developer/"
-"tutorials/server_framework_101` vadnici za razumevanje strukture modula in "
-"vsebine vsake datoteke."
+"Za ročno ustvarjanje strukture modula sledite navodilom :doc:`/developer/"
+"tutorials/server_framework_101`, da razumete strukturo modula in vsebino "
+"posameznih datotek."
 
-#: ../../content/administration/odoo_sh/first_module.rst:153
-msgid "Push the development branch"
-msgstr "Objavi razvojno vejo"
+#: ../../content/administration/odoo_sh/create_module.rst:147
+msgid "Push on the development branch"
+msgstr "Potiskanje v razvojno vejo"
 
-#: ../../content/administration/odoo_sh/first_module.rst:155
-msgid "Stage the changes to be committed"
-msgstr "Pripravi spremembe za uveljavitev"
+#: ../../content/administration/odoo_sh/create_module.rst:149
+msgid "Stage the changes to be committed by running:"
+msgstr "Pripravite spremembe za potrditev tako, da zaženete:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:161
-#: ../../content/administration/odoo_sh/first_module.rst:394
-msgid "Commit your changes"
-msgstr "Uveljavi svoje spremembe"
+#: ../../content/administration/odoo_sh/create_module.rst:155
+msgid "Commit your changes by running:"
+msgstr "Potrdite svoje spremembe tako, da zaženete:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:167
-msgid "Push your changes to your remote repository"
-msgstr "Objavi svoje spremembe v oddaljeni repozitorij"
+#: ../../content/administration/odoo_sh/create_module.rst:161
+msgid "Push your changes to your remote repository by running:"
+msgstr "Potisnite svoje spremembe v oddaljeni repozitorij tako, da zaženete:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:169
-msgid "From an Odoo.sh editor terminal:"
-msgstr "Iz terminala urejevalnika Odoo.sh:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:175
+#: ../../content/administration/odoo_sh/create_module.rst:174
 msgid ""
-"The above command is explained in the section :ref:`Commit and push changes "
-"<odoo-sh/editor/commit>` of the :doc:`Online editor page <getting_started/"
-"online_editor>`. It includes the explanation regarding the fact you will be "
-"prompted to type your username and password, and what to do if you use the "
-"two-factor authentication."
+":ref:`Online editor documentation: committing and pushing changes <odoo-sh/"
+"editor/commit>`"
 msgstr ""
-"Zgornji ukaz je razložen v razdelku :ref:`Potrditev in pošiljanje sprememb "
-"<odoo-sh/editor/commit>` na strani :doc:`Spletni urejevalnik "
-"<getting_started/online_editor>`. Vključuje razlago o tem, da boste pozvani "
-"k vnosu uporabniškega imena in gesla ter kaj storiti, če uporabljate "
-"dvofaktorsko preverjanje pristnosti."
+":ref:`Dokumentacija spletnega urejevalnika: potrjevanje in potisnitev "
+"sprememb <odoo-sh/editor/commit>`"
 
-#: ../../content/administration/odoo_sh/first_module.rst:180
-#: ../../content/administration/odoo_sh/first_module.rst:382
-#: ../../content/administration/odoo_sh/first_module.rst:408
-msgid "Or, from your computer terminal:"
-msgstr "Ali iz terminala vašega računalnika:"
+#: ../../content/administration/odoo_sh/create_module.rst:179
+msgid "Run:"
+msgstr "Zaženite:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:186
+#: ../../content/administration/odoo_sh/create_module.rst:185
 msgid ""
-"You need to specify *-u origin feature-1* for the first push only. From that "
-"point, to push your future changes from your computer, you can simply use"
+"It is only necessary to specify `-u origin feature-1` the first time you "
+"push. After that, run:"
 msgstr ""
-"Navesti morate *-u origin feature-1* samo za prvo objavo. Od tega trenutka "
-"naprej lahko za objavo prihodnjih sprememb iz vašega računalnika preprosto "
-"uporabite"
+"Potrebno je navesti `-u origin feature-1` samo prvič, ko potiskate. Po tem "
+"zaženite:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:194
-msgid "Test your module"
-msgstr "Testiraj svoj modul"
+#: ../../content/administration/odoo_sh/create_module.rst:195
+msgid "Test the module"
+msgstr "Testiranje modula"
 
-#: ../../content/administration/odoo_sh/first_module.rst:196
-msgid "Your branch should appear in your development branches in your project."
-msgstr "Vaša veja bi se morala pojaviti med razvojnimi vejami v vašem projektu."
-
-#: ../../content/administration/odoo_sh/first_module.rst:201
+#: ../../content/administration/odoo_sh/create_module.rst:197
 msgid ""
-"In the branches view of your project, you can click on your branch name in "
-"the left navigation panel to access its history."
+"The branch should appear under the :guilabel:`Development` section of "
+"the :doc:`Branches view <getting_started/branches>` navigation panel."
 msgstr ""
-"V pogledu vej vašega projekta lahko kliknete na ime veje v levem "
-"navigacijskem panelu za dostop do njene zgodovine."
+"Veja bi se morala prikazati v razdelku :guilabel:`Razvoj` v navigacijskem "
+"polju :doc:`Pogled vej <getting_started/branches>`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:207
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "Example of a development branch"
+msgstr "Primer razvojne veje"
+
+#: ../../content/administration/odoo_sh/create_module.rst:203
 msgid ""
-"You can see here the changes you just pushed, including the comment you set. "
-"Once the database ready, you can access it by clicking the *Connect* button."
+"Click the branch name to view its history, including the changes you just "
+"pushed. Once the database is ready, click :guilabel:`Connect` to access it."
 msgstr ""
-"Tukaj lahko vidite spremembe, ki ste jih pravkar objavili, vključno s "
-"komentarjem, ki ste ga nastavili. Ko je baza podatkov pripravljena, lahko do "
-"nje dostopate s klikom na gumb *Poveži se*."
+"Kliknite ime veje, da si ogledate njeno zgodovino, vključno s spremembami, "
+"ki ste jih pravkar potisnili. Ko je podatkovna zbirka pripravljena, kliknite "
+":guilabel:`Poveži`, da dostopate do nje."
 
-#: ../../content/administration/odoo_sh/first_module.rst:213
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "The connect button to access a database"
+msgstr "Gumb za povezavo za dostop do podatkovne zbirke"
+
+#: ../../content/administration/odoo_sh/create_module.rst:209
 msgid ""
-"If your Odoo.sh project is configured to install your module automatically, "
-"you will directly see it amongst the database apps. Otherwise, it will be "
-"available in the apps to install."
+"If your Odoo.sh project is configured to automatically install the module, "
+"it will appear directly on the database dashboard. Otherwise, it will be "
+"available for installation under the :guilabel:`Apps` app."
 msgstr ""
-"Če je vaš projekt Odoo.sh konfiguriran za samodejno namestitev vašega "
-"modula, ga boste neposredno videli med aplikacijami baze podatkov. V "
-"nasprotnem primeru bo na voljo med aplikacijami za namestitev."
+"Če je vaš projekt Odoo.sh konfiguriran za samodejno namestitev modula, se bo "
+"prikazal neposredno na nadzorni plošči podatkovne zbirke. V nasprotnem "
+"primeru bo na voljo za namestitev v aplikaciji :guilabel:`Aplikacije`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:217
-msgid ""
-"You can then play around with your module, create new records and test your "
-"features and buttons."
-msgstr ""
-"Nato se lahko igrate s svojim modulom, ustvarite nove zapise in testirate "
-"svoje funkcije in gumbe."
+#: ../../content/administration/odoo_sh/create_module.rst:None
+msgid "The new module on the database dashboard"
+msgstr "Nov modul na nadzorni plošči podatkovne zbirke"
 
-#: ../../content/administration/odoo_sh/first_module.rst:220
+#: ../../content/administration/odoo_sh/create_module.rst:219
 msgid "Test with the production data"
 msgstr "Testiranje s produkcijskimi podatki"
 
-#: ../../content/administration/odoo_sh/first_module.rst:222
+#: ../../content/administration/odoo_sh/create_module.rst:222
 msgid ""
-"You need to have a production database for this step. You can create it if "
-"you do not have it yet."
+"A production database is required for this step. If you do not have one yet, "
+"create it."
 msgstr ""
-"Za ta korak potrebujete produkcijsko bazo podatkov. Če je še nimate, jo "
-"lahko ustvarite."
+"Za ta korak je potrebna produkcijska podatkovna zbirka. Če je še nimate, jo "
+"ustvarite."
 
-#: ../../content/administration/odoo_sh/first_module.rst:224
+#: ../../content/administration/odoo_sh/create_module.rst:224
 msgid ""
-"Once you tested your module in a development build with the demo data and "
-"believe it is ready, you can test it with the production data using a "
+"Once you have tested the module in a development build with the demo data "
+"and believe it is ready, you can test it with the production data using a "
 "staging branch."
 msgstr ""
-"Ko ste testirali svoj modul v razvojni različici s predstavitvenimi podatki "
-"in menite, da je pripravljen, ga lahko testirate s produkcijskimi podatki z "
-"uporabo vmesne veje."
+"Ko ste testirali modul v razvojni različici s predstavitvenimi podatki in "
+"menite, da je pripravljen, ga lahko testirate s produkcijskimi podatki z "
+"uporabo testne veje."
 
-#: ../../content/administration/odoo_sh/first_module.rst:227
-msgid "You can either:"
+#: ../../content/administration/odoo_sh/create_module.rst:227
+msgid "You can:"
 msgstr "Lahko:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:229
+#: ../../content/administration/odoo_sh/create_module.rst:229
 msgid ""
-"Make your development branch a staging branch, by drag and dropping it onto "
-"the *staging* section title."
+"Convert your development branch to a staging branch by dragging and dropping "
+"it into the :guilabel:`Staging` section."
 msgstr ""
-"Vašo razvojno vejo spremenite v vmesno vejo tako, da jo povlečete in "
-"spustite na naslov oddelka *staging*."
+"Pretvorite svojo razvojno vejo v vmesno vejo tako, da jo povlečete in "
+"spustite v razdelek :guilabel:`Staging`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:235
+#: ../../content/administration/odoo_sh/create_module.rst:231
 msgid ""
-"Merge it in an existing staging branch, by drag and dropping it onto the "
-"given staging branch."
+"Merge it into an existing staging branch by dragging and dropping it onto "
+"that branch."
 msgstr ""
-"Jo združite v obstoječo vmesno vejo tako, da jo povlečete in spustite na "
-"podano vmesno vejo."
+"Združite jo z obstoječo vmesno vejo tako, da jo povlečete in spustite nanjo."
 
-#: ../../content/administration/odoo_sh/first_module.rst:240
-#: ../../content/administration/odoo_sh/first_module.rst:286
-msgid "You can also use the :code:`git merge` command to merge your branches."
-msgstr "Za združevanje vej lahko uporabite tudi ukaz :code:`git merge`."
+#: ../../content/administration/odoo_sh/create_module.rst:232
+msgid "Use the `git merge` command to merge your branches."
+msgstr "Za združevanje vej uporabite ukaz `git merge`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:242
+#: ../../content/administration/odoo_sh/create_module.rst:234
 msgid ""
-"This will create a new staging build, which will duplicate the production "
-"database and make it run using a server updated with your latest changes of "
-"your branch."
+"This creates a new staging build that duplicates the production database and "
+"runs it on a server updated with your branch’s latest changes."
 msgstr ""
-"To bo ustvarilo novo vmesno različico, ki bo podvojila produkcijsko bazo "
-"podatkov in jo zagnala na strežniku, posodobljenem z najnovejšimi "
-"spremembami vaše veje."
+"S tem ustvarite novo vmesno gradnjo, ki podvoji produkcijsko podatkovno bazo "
+"in jo zažene na strežniku, posodobljenem z najnovejšimi spremembami vaše "
+"veje."
 
-#: ../../content/administration/odoo_sh/first_module.rst:248
-#: ../../content/administration/odoo_sh/first_module.rst:294
-msgid "Once the database ready, you can access it using the *Connect* button."
+#: ../../content/administration/odoo_sh/create_module.rst:237
+msgid "Once the database is ready, click :guilabel:`Connect` to access it."
 msgstr ""
-"Ko je baza podatkov pripravljena, lahko do nje dostopate z gumbom *Poveži*."
+"Ko je podatkovna baza pripravljena, kliknite :guilabel:`Connect`, da "
+"dostopate do nje."
 
-#: ../../content/administration/odoo_sh/first_module.rst:253
-#: ../../content/administration/odoo_sh/first_module.rst:297
-msgid "Install your module"
-msgstr "Namestitev modula"
+#: ../../content/administration/odoo_sh/create_module.rst:242
+#: ../../content/administration/odoo_sh/create_module.rst:272
+msgid "Install the module"
+msgstr "Namestite modul"
 
-#: ../../content/administration/odoo_sh/first_module.rst:255
+#: ../../content/administration/odoo_sh/create_module.rst:244
+#: ../../content/administration/odoo_sh/create_module.rst:274
 msgid ""
-"Your module will not be installed automatically, you have to install it from "
-"the apps menu. Indeed, the purpose of the staging build is to test the "
-"behavior of your changes as it would be on your production, and on your "
-"production you would not like your module to be installed automatically, but "
-"on demand."
+"Install the module from the :guilabel:`Apps` app. As the module may not "
+"appear directly in the list of apps, update the list of apps by activating "
+"the :ref:`developer mode <developer-mode>` and "
+"clicking :menuselection:`Update Apps List --> Update`."
 msgstr ""
-"Vaš modul ne bo nameščen samodejno, namestiti ga morate iz menija aplikacij. "
-"Namen vmesne različice je namreč testirati obnašanje vaših sprememb, kot bi "
-"bilo v produkciji, v produkciji pa ne želite, da se modul namesti samodejno, "
-"ampak na zahtevo."
+"Namestite modul iz aplikacije :guilabel:`Apps`. Ker se modul morda ne "
+"prikaže neposredno na seznamu aplikacij, posodobite seznam aplikacij tako, "
+"da aktivirate :ref:`razvijalski način <developer-mode>` in kliknete "
+":menuselection:`Update Apps List --> Update`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:260
+#: ../../content/administration/odoo_sh/create_module.rst:249
 msgid ""
-"Your module may not appear directly in your apps to install either, you need "
-"to update your apps list first:"
+"The module is not installed automatically, as the purpose of the staging "
+"build is to test the behavior of your changes as they would be on the "
+"production database, so you would not want a module installed automatically."
 msgstr ""
-"Vaš modul se morda tudi ne bo prikazal neposredno v seznamu aplikacij za "
-"namestitev, najprej morate posodobiti seznam aplikacij:"
+"Modul se ne namesti samodejno, saj je namen vmesne gradnje preskusiti "
+"obnašanje vaših sprememb, kot bi bilo v produkcijski podatkovni bazi, zato "
+"ne želite, da se modul namesti samodejno."
 
-#: ../../content/administration/odoo_sh/first_module.rst:263
-msgid "Activate the :ref:`developer mode <developer-mode>`"
-msgstr "Aktivirajte :ref:`razvijalski način <developer-mode>`"
-
-#: ../../content/administration/odoo_sh/first_module.rst:264
-msgid "in the apps menu, click the *Update Apps List* button,"
-msgstr "v meniju aplikacij kliknite gumb *Posodobi seznam aplikacij*,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:265
-msgid "in the dialog that appears, click the *Update* button."
-msgstr "v pogovornem oknu, ki se prikaže, kliknite gumb *Posodobi*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:270
-msgid "Your module will then appear in the list of available apps."
-msgstr "Vaš modul se bo nato prikazal na seznamu razpoložljivih aplikacij."
-
-#: ../../content/administration/odoo_sh/first_module.rst:276
+#: ../../content/administration/odoo_sh/create_module.rst:256
 msgid "Deploy in production"
 msgstr "Uvajanje v produkcijo"
 
-#: ../../content/administration/odoo_sh/first_module.rst:278
+#: ../../content/administration/odoo_sh/create_module.rst:258
 msgid ""
-"Once you tested your module in a staging branch with your production data, "
-"and believe it is ready for production, you can merge your branch in the "
-"production branch."
+"Once you have tested the module in a staging branch with the production data "
+"and believe it is ready for production, you can merge your branch into the "
+"production branch by:"
 msgstr ""
-"Ko ste testirali svoj modul v vmesni veji s produkcijskimi podatki in "
-"menite, da je pripravljen za produkcijo, lahko vašo vejo združite v "
-"produkcijsko vejo."
+"Ko ste modul preskusili v vmesni veji s produkcijskimi podatki in menite, da "
+"je pripravljen za produkcijo, lahko svojo vejo združite s produkcijsko vejo "
+"tako, da:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:281
-msgid "Drag and drop your staging branch on the production branch."
-msgstr "Povlecite in spustite vmesno vejo na produkcijsko vejo."
+#: ../../content/administration/odoo_sh/create_module.rst:261
+msgid "Dragging and dropping the staging branch onto the production branch."
+msgstr "Povlečete in spustite vmesno vejo na produkcijsko vejo."
 
-#: ../../content/administration/odoo_sh/first_module.rst:288
+#: ../../content/administration/odoo_sh/create_module.rst:262
+msgid "Using the `git merge` command to merge your branches."
+msgstr "Za združevanje vej uporabite ukaz `git merge`."
+
+#: ../../content/administration/odoo_sh/create_module.rst:264
 msgid ""
-"This will merge the latest changes of your staging branch in the production "
-"branch, and update your production server with these latest changes."
+"This merges the latest changes from the staging branch into the production "
+"branch and updates the production server with them."
 msgstr ""
-"To bo združilo najnovejše spremembe vaše vmesne veje v produkcijsko vejo in "
-"posodobilo vaš produkcijski strežnik s temi najnovejšimi spremembami."
+"S tem združite najnovejše spremembe iz vmesne veje v produkcijsko vejo in z "
+"njimi posodobite produkcijski strežnik."
 
-#: ../../content/administration/odoo_sh/first_module.rst:299
-msgid ""
-"Your module will not be installed automatically, you have to install it "
-"manually as explained in the :ref:`above section about installing your "
-"module in staging databases <odoosh-gettingstarted-firstmodule-"
-"productiondata-install>`."
+#: ../../content/administration/odoo_sh/create_module.rst:267
+msgid "Once the database is ready,  click :guilabel:`Connect` to access it."
 msgstr ""
-"Vaš modul ne bo nameščen samodejno, namestiti ga morate ročno, kot je "
-"razloženo v :ref:`zgornjem razdelku o namestitvi modula v pripravljalne baze "
-"podatkov <odoosh-gettingstarted-firstmodule-productiondata-install>`."
+"Ko je podatkovna baza pripravljena, kliknite :guilabel:`Connect`, da "
+"dostopate do nje."
 
-#: ../../content/administration/odoo_sh/first_module.rst:307
+#: ../../content/administration/odoo_sh/create_module.rst:281
 msgid "Add a change"
 msgstr "Dodaj spremembo"
 
-#: ../../content/administration/odoo_sh/first_module.rst:309
+#: ../../content/administration/odoo_sh/create_module.rst:283
 msgid ""
 "This section explains how to add a change in your module by adding a new "
-"field in a model and deploy it."
+"field in a model and deploying it."
 msgstr ""
-"Ta razdelek razlaga, kako dodati spremembo v modul z dodajanjem novega polja "
-"v model in ga uvesti."
+"Ta razdelek pojasnjuje, kako dodati spremembo v svoj modul z dodajanjem "
+"novega polja v model in njegovo uvedbo."
 
-#: ../../content/administration/odoo_sh/first_module.rst:314
-msgid "From the Odoo.sh editor,"
-msgstr "V urejevalniku Odoo.sh"
-
-#: ../../content/administration/odoo_sh/first_module.rst:313
-msgid "browse to your module folder *~/src/user/my_module*,"
-msgstr "pojdite v mapo svojega modula *~/src/user/my_module*,"
-
-#: ../../content/administration/odoo_sh/first_module.rst:314
-msgid "then, open the file *models/models.py*."
-msgstr "nato odprite datoteko *models/models.py*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:320
-msgid "Or, from your computer,"
-msgstr "Ali pa na svojem računalniku"
-
-#: ../../content/administration/odoo_sh/first_module.rst:317
+#: ../../content/administration/odoo_sh/create_module.rst:286
 msgid ""
-"use the file browser of your choice to browse to your module folder *~/src/"
-"odoo-addons/my_module*,"
+"From the :doc:`editor <getting_started/online_editor>` or from your "
+"computer, open the module folder :file:`~/src/odoo-addons/my_module`, then "
+"open the :file:`models/models.py` file to edit it. After the description "
+"field:"
 msgstr ""
-"uporabite poljuben brskalnik datotek in pojdite v mapo modula *~/src/odoo-"
-"addons/my_module*,"
+"V :doc:`urejevalniku <getting_started/online_editor>` ali v svojem "
+"računalniku odprite mapo modula :file:`~/src/odoo-addons/my_module`, nato "
+"odprite datoteko :file:`models/models.py` za urejanje. Za poljem opisa:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:319
+#: ../../content/administration/odoo_sh/create_module.rst:294
+msgid "add a datetime field:"
+msgstr "dodajte polje datetime:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:300
+msgid "Open the :file:`views/views.xml` file and after:"
+msgstr "Odprite datoteko :file:`views/views.xml` in za:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:306
+#: ../../content/administration/odoo_sh/create_module.rst:377
+#: ../../content/administration/odoo_sh/create_module.rst:389
+msgid "add:"
+msgstr "dodajte:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:314
 msgid ""
-"then, open the file *models/models.py* using the editor of your choice, such "
-"as *Atom*, *Sublime Text*, *PyCharm*, *vim*, ..."
+"These changes alter the database structure by adding a column to a table and "
+"modifying a view. To be applied to an existing database, such as your "
+"production database, these changes require the module to be updated. If you "
+"would like the update to be performed automatically by the Odoo.sh platform "
+"when you push your changes, increase the module's version in its manifest by "
+"opening :file:`__manifest__.py` and replacing:"
 msgstr ""
-"nato odprite datoteko *models/models.py* z izbranim urejevalnikom, kot je "
-"*Atom*, *Sublime Text*, *PyCharm*, *vim* ..."
+"Te spremembe spremenijo strukturo podatkovne baze z dodajanjem stolpca v "
+"tabelo in spremembo pogleda. Da se uporabijo v obstoječi podatkovni bazi, "
+"kot je vaša produkcijska podatkovna baza, morajo biti te spremembe "
+"posodobljene v modulu. Če želite, da platforma Odoo.sh posodobitev izvede "
+"samodejno, ko potisnete svoje spremembe, povečajte različico modula v "
+"njegovem manifestu tako, da odprete :file:`__manifest__.py` in zamenjate:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:322
-msgid "Then, after the description field"
-msgstr "Nato za poljem opisa"
+#: ../../content/administration/odoo_sh/create_module.rst:324
+msgid "with:"
+msgstr "z:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:328
-msgid "Add a datetime field"
-msgstr "dodajte polje datetime"
-
-#: ../../content/administration/odoo_sh/first_module.rst:334
-msgid "Then, open the file *views/views.xml*."
-msgstr "Nato odprite datoteko *views/views.xml*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:336
-#: ../../content/administration/odoo_sh/first_module.rst:472
-msgid "After"
-msgstr "Po"
-
-#: ../../content/administration/odoo_sh/first_module.rst:342
-#: ../../content/administration/odoo_sh/first_module.rst:449
-#: ../../content/administration/odoo_sh/first_module.rst:466
-#: ../../content/administration/odoo_sh/first_module.rst:478
-msgid "Add"
-msgstr "Dodaj"
-
-#: ../../content/administration/odoo_sh/first_module.rst:348
+#: ../../content/administration/odoo_sh/create_module.rst:330
 msgid ""
-"These changes alter the database structure by adding a column in a table, "
-"and modify a view stored in database."
+"The platform will detect a version change and trigger the module update upon "
+"deployment of the new revision."
 msgstr ""
-"Te spremembe spreminjajo strukturo baze podatkov z dodajanjem stolpca v "
-"tabelo in spreminjajo pogled, shranjen v bazi podatkov."
+"Platforma bo zaznala spremembo različice in po uvedbi nove revizije sprožila "
+"posodobitev modula."
 
-#: ../../content/administration/odoo_sh/first_module.rst:351
+#: ../../content/administration/odoo_sh/create_module.rst:333
+msgid "Next, :ref:`push the changes <odoo-sh/module/push-development>`."
+msgstr "Nato :ref:`potisnite spremembe <odoo-sh/module/push-development>`."
+
+#: ../../content/administration/odoo_sh/create_module.rst:335
 msgid ""
-"In order to be applied in existing databases, such as your production "
-"database, these changes requires the module to be updated."
+"Once you have :ref:`tested your changes <odoo-sh/module/test-module>`, you "
+"can merge them into the production branch, for instance, by dragging and "
+"dropping the branch onto the production branch in the Odoo.sh interface. "
+"Since you increased the module version in the manifest, the platform will "
+"automatically update the module, and your new field will be available "
+"immediately. Otherwise, you can manually :ref:`update the module <odoo-sh/"
+"module/deploy/install>` within the apps list."
 msgstr ""
-"Da se uporabijo v obstoječih bazah podatkov, kot je produkcijska baza, te "
-"spremembe zahtevajo posodobitev modula."
+"Ko ste :ref:`preizkusili svoje spremembe <odoo-sh/module/test-module>`, jih "
+"lahko združite v produkcijsko vejo, na primer tako, da v vmesniku Odoo.sh "
+"povlečete in spustite vejo na produkcijsko vejo. Ker ste v manifestu "
+"povečali različico modula, bo platforma samodejno posodobila modul in vaše "
+"novo polje bo takoj na voljo. V nasprotnem primeru lahko ročno "
+":ref:`posodobite modul <odoo-sh/module/deploy/install>` v seznamu aplikacij."
 
-#: ../../content/administration/odoo_sh/first_module.rst:354
-msgid ""
-"If you would like the update to be performed automatically by the Odoo.sh "
-"platform when you push your changes, increase your module version in its "
-"manifest."
-msgstr ""
-"Če želite, da platforma Odoo.sh posodobitev izvede samodejno ob potisku "
-"sprememb, povečajte različico modula v njegovem manifestu."
-
-#: ../../content/administration/odoo_sh/first_module.rst:357
-msgid "Open the module manifest *__manifest__.py*."
-msgstr "Odprite manifest modula *__manifest__.py*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:365
-#: ../../content/administration/odoo_sh/first_module.rst:504
-msgid "with"
-msgstr "z"
-
-#: ../../content/administration/odoo_sh/first_module.rst:371
-msgid ""
-"The platform will detect the change of version and trigger the update of the "
-"module upon the new revision deployment."
-msgstr ""
-"Platforma bo zaznala spremembo različice in sprožila posodobitev modula ob "
-"uvedbi nove revizije."
-
-#: ../../content/administration/odoo_sh/first_module.rst:374
-msgid "Browse to your Git folder."
-msgstr "Pojdite v mapo Git."
-
-#: ../../content/administration/odoo_sh/first_module.rst:376
-msgid "Then, from an Odoo.sh terminal:"
-msgstr "Nato v terminalu Odoo.sh:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:388
-msgid "Then, stage your changes to be committed"
-msgstr "Nato pripravite spremembe za uveljavitev"
-
-#: ../../content/administration/odoo_sh/first_module.rst:400
-msgid "Push your changes:"
-msgstr "Potisni svoje spremembe:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:402
-msgid "From an Odoo.sh terminal:"
-msgstr "Iz terminala Odoo.sh:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:414
-msgid "The platform will then create a new build for the branch *feature-1*."
-msgstr "Platforma bo nato ustvarila novo gradnjo za vejo *feature-1*."
-
-#: ../../content/administration/odoo_sh/first_module.rst:419
-msgid ""
-"Once you tested your changes, you can merge your changes in the production "
-"branch, for instance by drag-and-dropping the branch on the production "
-"branch in the Odoo.sh interface. As you increased the module version in the "
-"manifest, the platform will update the module automatically and your new "
-"field will be directly available. Otherwise you can manually update the "
-"module within the apps list."
-msgstr ""
-"Ko testirate svoje spremembe, lahko združite spremembe v produkcijsko vejo, "
-"na primer s povleci in spusti veje na produkcijsko vejo v vmesniku Odoo.sh. "
-"Ker ste povečali verzijo modula v manifestu, bo platforma samodejno "
-"posodobila modul in vaše novo polje bo takoj na voljo. Sicer lahko ročno "
-"posodobite modul v seznamu aplikacij."
-
-#: ../../content/administration/odoo_sh/first_module.rst:425
+#: ../../content/administration/odoo_sh/create_module.rst:343
 msgid "Use an external Python library"
 msgstr "Uporaba zunanje knjižnice Python"
 
-#: ../../content/administration/odoo_sh/first_module.rst:427
+#: ../../content/administration/odoo_sh/create_module.rst:345
 msgid ""
-"If you would like to use an external Python library which is not installed "
-"by default, you can define a *requirements.txt* file listing the external "
-"libraries your modules depends on."
+"If you would like to use an external Python library that is not installed by "
+"default, you can define a :file:`requirements.txt` file listing the external "
+"libraries your modules depend on. The platform will use this file to "
+"automatically install the Python libraries your project needs."
 msgstr ""
 "Če želite uporabiti zunanjo knjižnico Python, ki privzeto ni nameščena, "
-"lahko določite datoteko *requirements.txt*, ki navaja zunanje knjižnice, od "
-"katerih so odvisni vaši moduli."
+"lahko definirate datoteko :file:`requirements.txt`, ki našteva zunanje "
+"knjižnice, od katerih so odvisni vaši moduli. Platforma bo to datoteko "
+"uporabila za samodejno namestitev knjižnic Python, ki jih vaš projekt "
+"potrebuje."
 
-#: ../../content/administration/odoo_sh/first_module.rst:431
+#: ../../content/administration/odoo_sh/create_module.rst:350
 msgid ""
-"It is not possible to install or upgrade system packages on an Odoo.sh "
-"database (e.g., apt packages). However, under specific conditions, packages "
-"can be considered for installation. This also applies to **Python modules** "
-"requiring system packages for their compilation, and **third-party Odoo "
-"modules**."
+"It is not possible to install or upgrade system packages on Odoo.sh "
+"databases (e.g., apt packages). However, under specific conditions, "
+"`packages can be considered for installation <https://www.odoo.sh/"
+"faq#install_dependencies>`_. This also applies to Python modules that "
+"require system packages for compilation and to third-party Odoo modules."
 msgstr ""
-"V zbirki podatkov Odoo.sh ni mogoče namestiti ali nadgraditi sistemskih "
-"paketov (npr. paketov apt). Vendar je pod določenimi pogoji mogoče pakete "
-"upoštevati za namestitev. To velja tudi za **module Python**, ki za svojo "
-"prevajanje zahtevajo sistemske pakete, in **module Odoo tretjih oseb**."
+"Na podatkovnih bazah Odoo.sh ni mogoče namestiti ali nadgraditi sistemskih "
+"paketov (npr. apt paketi). Vendar pa je pod določenimi pogoji `možno, da so "
+"paketi <https://www.odoo.sh/faq#install_dependencies>`_. To velja tudi za "
+"module Python, ki za prevajanje potrebujejo sistemske pakete, in za module "
+"Odoo tretjih oseb."
 
-#: ../../content/administration/odoo_sh/first_module.rst:435
-msgid "**PostgreSQL extensions** are not supported on Odoo.sh."
-msgstr "**Razširitve PostgreSQL** niso podprte na Odoo.sh."
-
-#: ../../content/administration/odoo_sh/first_module.rst:436
+#: ../../content/administration/odoo_sh/create_module.rst:354
 msgid ""
-"For more information, consult our `FAQ <https://www.odoo.sh/"
-"faq#install_dependencies>`_."
+"PostgreSQL extensions are not supported on Odoo.sh hence it is not possible "
+"to install extensions (such as PostGIS, ltree, ...) in Odoo.sh databases."
 msgstr ""
-"Za več informacij si oglejte naš `pogosto zastavljena vprašanja <https://"
-"www.odoo.sh/faq#install_dependencies>`_."
+"Razširitve PostgreSQL niso podprte na Odoo.sh, zato ni mogoče namestiti "
+"razširitev (kot so PostGIS, ltree, ...) v podatkovne baze Odoo.sh."
 
-#: ../../content/administration/odoo_sh/first_module.rst:438
+#: ../../content/administration/odoo_sh/create_module.rst:357
 msgid ""
-"The platform will use this file to automatically install the Python "
-"libraries your project needs."
+"For example, to use the `Unidecode library <https://pypi.org/project/"
+"Unidecode>`_ in your module:"
 msgstr ""
-"Platforma bo uporabila to datoteko za samodejno namestitev knjižnic Python, "
-"ki jih vaš projekt potrebuje."
+"Na primer, če želite v svojem modulu uporabiti `knjižnico Unidecode <https://"
+"pypi.org/project/Unidecode>`_:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:440
+#: ../../content/administration/odoo_sh/create_module.rst:359
 msgid ""
-"The feature is explained in this section by using the `Unidecode library "
-"<https://pypi.python.org/pypi/Unidecode>`_ in your module."
+"Create a file :file:`requirements.txt` in the root folder of your repository:"
 msgstr ""
-"Funkcija je pojasnjena v tem razdelku z uporabo `knjižnice Unidecode "
-"<https://pypi.python.org/pypi/Unidecode>`_ v vašem modulu."
+"Ustvarite datoteko :file:`requirements.txt` v korenski mapi svojega "
+"repozitorija:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:443
-msgid "Create a file *requirements.txt* in the root folder of your repository"
-msgstr "Ustvarite datoteko *requirements.txt* v koreni mapi vašega repozitorija"
-
-#: ../../content/administration/odoo_sh/first_module.rst:445
+#: ../../content/administration/odoo_sh/create_module.rst:361
 msgid ""
-"From the Odoo.sh editor, create and open the file ~/src/user/"
-"requirements.txt."
+"From the Odoo.sh editor, create and open the file :file:`~/src/user/"
+"requirements.txt`."
 msgstr ""
-"Iz urejevalnika Odoo.sh ustvarite in odprite datoteko ~/src/user/"
-"requirements.txt."
+"V urejevalniku Odoo.sh ustvarite in odprite datoteko :file:`~/src/user/"
+"requirements.txt`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:447
+#: ../../content/administration/odoo_sh/create_module.rst:362
 msgid ""
-"Or, from your computer, create and open the file ~/src/odoo-addons/"
-"requirements.txt."
+"From your computer, create nd open the file :file:`~/src/odoo-addons/"
+"requirements.txt`."
 msgstr ""
-"Ali pa iz računalnika ustvarite in odprite datoteko ~/src/odoo-addons/"
-"requirements.txt."
+"Na svojem računalniku ustvarite in odprite datoteko :file:`~/src/odoo-addons/"
+"requirements.txt`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:455
+#: ../../content/administration/odoo_sh/create_module.rst:364
+msgid "Add to the file:"
+msgstr "Dodajte v datoteko:"
+
+#: ../../content/administration/odoo_sh/create_module.rst:370
 msgid ""
-"Then use the library in your module, for instance to remove accents from "
-"characters in the name field of your model."
+"You can now use the library in your module, for instance, to remove accents "
+"from characters in the name field of your model. To do so, open "
+"the :file:`models/models.py` file and before:"
 msgstr ""
-"Nato uporabite knjižnico v svojem modulu, na primer za odstranjevanje "
-"poudarkov iz znakov v polju imena vašega modela."
+"Knjižnico lahko zdaj uporabite v svojem modulu, na primer za odstranitev "
+"naglasov iz znakov v polju imena vašega modela. To storite tako, da odprete "
+"datoteko :file:`models/models.py` in pred:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:458
-msgid "Open the file *models/models.py*."
-msgstr "Odprite datoteko *models/models.py*."
+#: ../../content/administration/odoo_sh/create_module.rst:383
+msgid "After:"
+msgstr "Po:"
 
-#: ../../content/administration/odoo_sh/first_module.rst:460
-msgid "Before"
-msgstr "Prej"
-
-#: ../../content/administration/odoo_sh/first_module.rst:494
+#: ../../content/administration/odoo_sh/create_module.rst:404
 msgid ""
-"Adding a Python dependency requires a module version increase for the "
-"platform to install it."
+"Increase the module version to install the Python dependency by editing "
+"the :ref:`module's manifest <odoo-sh/module/add/"
+"manifest>` :file:`__manifest__.py`."
 msgstr ""
-"Dodajanje odvisnosti Python zahteva povečanje verzije modula, da ga "
-"platforma namesti."
+"Povečajte različico modula za namestitev odvisnosti Python z urejanjem "
+":ref:`manifesta modula <odoo-sh/module/add/manifest>` "
+":file:`__manifest__.py`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:496
-msgid "Edit the module manifest *__manifest__.py*"
-msgstr "Uredite manifest modula *__manifest__.py*"
+#: ../../content/administration/odoo_sh/create_module.rst:407
+msgid "Then, :ref:`push the changes <odoo-sh/module/push-development>`."
+msgstr "Nato :ref:`potisnite spremembe <odoo-sh/module/push-development>`."
 
-#: ../../content/administration/odoo_sh/first_module.rst:510
-msgid "Stage and commit your changes:"
-msgstr "Pripravite in potrdite svoje spremembe:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:518
-msgid "Then, push your changes:"
-msgstr "Nato potisnite svoje spremembe:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:520
-msgid "In an Odoo.sh terminal:"
-msgstr "V terminalu Odoo.sh:"
-
-#: ../../content/administration/odoo_sh/first_module.rst:526
-msgid "In your computer terminal:"
-msgstr "V terminalu vašega računalnika:"
+#: ../../content/administration/odoo_sh/create_module.rst:410
+msgid ""
+"Stage the :file:`requirements.txt` file by running `git add "
+"requirements.txt`."
+msgstr ""
+"Pripravite datoteko :file:`requirements.txt` tako, da zaženete `git add "
+"requirements.txt`."
 
 #: ../../content/administration/odoo_sh/getting_started.rst:5
 msgid "Getting started"
@@ -3786,11 +3719,11 @@ msgstr ""
 msgid ""
 "The purpose of manual backups is to create a specific snapshot of production "
 "or staging databases (not available for development). These remain available "
-"for seven days. However, there is a limit of five daily manual backups."
+"for three days. However, there is a limit of five daily manual backups."
 msgstr ""
-"Namen ročnih varnostnih kopij je ustvariti poseben posnetek produkcijskih "
-"ali faznih podatkovnih zbirk (ni na voljo za razvojne). Te ostanejo na voljo "
-"sedem dni. Obstaja pa omejitev petih dnevnih ročnih varnostnih kopij."
+"Namen ročnih varnostnih kopij je ustvariti določen posnetek produkcijskih "
+"ali testnih baz podatkov (ni na voljo za razvojne baze). Te ostanejo na "
+"voljo tri dni. Vendar velja omejitev na pet ročnih varnostnih kopij na dan."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:500
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:49
@@ -5137,51 +5070,10 @@ msgstr ""
 "strežnikom SMTP, uporabite vrata **465** ali **587**."
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:164
-msgid "Check scheduled actions"
-msgstr "Preverjanje načrtovanih dejanj"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:166
-msgid ""
-"Scheduled actions are **disabled by default** after importing your database. "
-"This prevents your newly imported database from performing potentially "
-"disruptive operations such as:"
-msgstr ""
-"Načrtovana dejanja so **privzeto onemogočena** po uvozu vaše zbirke "
-"podatkov. To preprečuje, da bi vaša novo uvožena zbirka podatkov izvajala "
-"potencialno moteče operacije, kot so:"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:169
-msgid "sending queued emails,"
-msgstr "pošiljanje e-poštnih sporočil v čakalni vrsti,"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:170
-msgid "triggering mass mailings, or"
-msgstr "sprožanje množičnih pošiljanj ali"
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:171
-msgid "syncing with third-party services (e.g., calendars, cloud storage)."
-msgstr ""
-"sinhronizacija s storitvami tretjih oseb (npr. koledarji, shranjevanje v "
-"oblaku)."
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:173
-msgid ""
-"If you intend to use this imported database in production, **re-enable** "
-"only the scheduled actions you need by enabling :ref:`developer mode "
-"<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
-"Automation: Scheduled Actions`."
-msgstr ""
-"Če nameravate to uvoženo zbirko podatkov uporabiti v produkcijskem okolju, "
-"**znova omogočite** samo tista načrtovana dejanja, ki jih potrebujete, tako "
-"da omogočite :ref:`razvijalski način <developer-mode>` in greste na "
-":menuselection:`Nastavitve --> Tehnično --> Avtomatizacija: Načrtovana "
-"dejanja`."
-
-#: ../../content/administration/odoo_sh/getting_started/create.rst:178
 msgid "Register the subscription"
 msgstr "Registracija naročnine"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:180
+#: ../../content/administration/odoo_sh/getting_started/create.rst:166
 msgid ""
 "After import, the database is considered a **duplicate** and will be "
 "unlinked from your enterprise subscription."
@@ -5189,26 +5081,26 @@ msgstr ""
 "Po uvozu se zbirka podatkov šteje za **podvojeno** in bo povezava z vašo "
 "naročnino na enterprise preklicana."
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:184
+#: ../../content/administration/odoo_sh/getting_started/create.rst:170
 msgid "You are allowed only one active database per subscription."
 msgstr "Dovoljeno imate samo eno aktivno zbirko podatkov na naročnino."
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:186
+#: ../../content/administration/odoo_sh/getting_started/create.rst:172
 msgid ""
 "If you intend to make the imported database your production environment:"
 msgstr ""
 "Če nameravate uvoženo zbirko podatkov uporabiti kot svoje produkcijsko "
 "okolje:"
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:188
+#: ../../content/administration/odoo_sh/getting_started/create.rst:174
 msgid "Unlink your previous database from the subscription."
 msgstr "Prekličite povezavo prejšnje zbirke podatkov z naročnino."
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:189
+#: ../../content/administration/odoo_sh/getting_started/create.rst:175
 msgid "Register the new one."
 msgstr "Registrirajte novo."
 
-#: ../../content/administration/odoo_sh/getting_started/create.rst:191
+#: ../../content/administration/odoo_sh/getting_started/create.rst:177
 msgid ""
 "Refer to the :doc:`database registration documentation <../../on_premise>` "
 "for step-by-step instructions."
@@ -5564,15 +5456,15 @@ msgstr "Ime projekta"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:12
 msgid ""
-"The name of your project defines the address used to access your production "
-"database. The addresses of your staging and development builds are "
-"automatically derived from this name. If you change the project name, only "
-"future builds will use the new name."
+"The project name defines your production database address, as well as the "
+"derived URLs for staging and development. Upon saving, the new name is "
+"applied directly to the production branch. However, for staging and "
+"development URLs, the change will only reflect after a rebuild."
 msgstr ""
-"Ime vašega projekta določa naslov za dostop do produkcijske baze podatkov. "
-"Naslovi vaših testnih in razvojnih gradenj so samodejno izpeljani iz tega "
-"imena. Če spremenite ime projekta, bodo samo prihodnje gradnje uporabljale "
-"novo ime."
+"Ime projekta določa naslov vaše produkcijske podatkovne baze, pa tudi "
+"izpeljane URL-je za razvoj in pripravo. Po shranjevanju se novo ime "
+"neposredno uporabi za produkcijsko vejo. Vendar pa se bo za URL-je razvoja "
+"in priprave sprememba odražala šele po ponovni izgradnji."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:None
 msgid "The project name setting"
@@ -5725,15 +5617,15 @@ msgstr "Poveži + / Poveži kot"
 #: ../../content/administration/standard_extended_support.rst:36
 #: ../../content/administration/standard_extended_support.rst:42
 #: ../../content/administration/standard_extended_support.rst:48
-#: ../../content/administration/standard_extended_support.rst:54
-#: ../../content/administration/standard_extended_support.rst:55
-#: ../../content/administration/standard_extended_support.rst:56
-#: ../../content/administration/standard_extended_support.rst:78
-#: ../../content/administration/standard_extended_support.rst:79
-#: ../../content/administration/standard_extended_support.rst:80
+#: ../../content/administration/standard_extended_support.rst:60
+#: ../../content/administration/standard_extended_support.rst:61
+#: ../../content/administration/standard_extended_support.rst:62
 #: ../../content/administration/standard_extended_support.rst:84
 #: ../../content/administration/standard_extended_support.rst:85
 #: ../../content/administration/standard_extended_support.rst:86
+#: ../../content/administration/standard_extended_support.rst:90
+#: ../../content/administration/standard_extended_support.rst:91
+#: ../../content/administration/standard_extended_support.rst:92
 msgid "|green|"
 msgstr "|green|"
 
@@ -5808,14 +5700,15 @@ msgstr "Status"
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:187
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:191
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:192
-#: ../../content/administration/standard_extended_support.rst:60
+#: ../../content/administration/standard_extended_support.rst:54
 #: ../../content/administration/standard_extended_support.rst:66
 #: ../../content/administration/standard_extended_support.rst:72
-#: ../../content/administration/standard_extended_support.rst:90
+#: ../../content/administration/standard_extended_support.rst:78
 #: ../../content/administration/standard_extended_support.rst:96
 #: ../../content/administration/standard_extended_support.rst:102
 #: ../../content/administration/standard_extended_support.rst:108
-#: ../../content/administration/standard_extended_support.rst:109
+#: ../../content/administration/standard_extended_support.rst:114
+#: ../../content/administration/standard_extended_support.rst:115
 msgid "|red|"
 msgstr "|red|"
 
@@ -5829,7 +5722,7 @@ msgid ":ref:`Backups <odoo-sh/branches/tabs/backups>`"
 msgstr ":ref:`Varnostne kopije <odoo-sh/branches/tabs/backups>`"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:200
-#: ../../content/administration/standard_extended_support.rst:114
+#: ../../content/administration/standard_extended_support.rst:120
 msgid "Legend"
 msgstr "Legenda"
 
@@ -7732,8 +7625,8 @@ msgid ""
 "This setting is used on all database management screens (to create, delete, "
 "dump or restore databases)."
 msgstr ""
-"Toto nastavení se používá na všech obrazovkách správy databází (pro "
-"vytváření, mazání, výpis nebo obnovení databází)."
+"Ta nastavitev se uporablja na vseh zaslonih za upravljanje podatkovnih baz "
+"(za ustvarjanje, brisanje, izvoz ali obnovitev podatkovnih baz)."
 
 #: ../../content/administration/on_premise/deploy.rst:710
 msgid ""
@@ -7741,9 +7634,9 @@ msgid ""
 "``list_db`` configuration option to ``False``, to block access to all the "
 "database selection and management screens."
 msgstr ""
-"Pokud obrazovky správy nemají být vůbec přístupné, měli byste nastavit "
-"konfigurační možnost ``list_db`` na ``False``, abyste zablokovali přístup ke "
-"všem obrazovkám výběru a správy databází."
+"Če zasloni za upravljanje sploh ne smejo biti dostopni, nastavite "
+"konfiguracijsko možnost ``list_db`` na ``False``, da blokirate dostop do "
+"vseh zaslonov za izbiro in upravljanje podatkovnih baz."
 
 #: ../../content/administration/on_premise/deploy.rst:716
 msgid ""
@@ -7753,11 +7646,12 @@ msgid ""
 "production, and may even expose dangerous features to attackers. It is also "
 "not designed to handle large databases, and may trigger memory limits."
 msgstr ""
-"Důrazně se doporučuje zakázat Správce databází pro jakýkoli systém vystavený "
-"internetu! Je určen jako vývojový/demo nástroj pro snadné a rychlé vytváření "
-"a správu databází. Není navržen pro použití v produkci a může útočníkům "
-"dokonce odhalit nebezpečné funkce. Také není navržen pro práci s velkými "
-"databázemi a může způsobit dosažení paměťových limitů."
+"Zelo priporočljivo je onemogočiti upravitelja podatkovnih baz za vsak "
+"sistem, izpostavljen internetu! Namenjen je razvoju in predstavitvam ter "
+"omogoča preprosto in hitro ustvarjanje ter upravljanje podatkovnih baz. Ni "
+"zasnovan za uporabo v produkciji in lahko napadalcem razkrije nevarne "
+"funkcije. Prav tako ni namenjen delu z velikimi podatkovnimi bazami in lahko "
+"sproži omejitve pomnilnika."
 
 #: ../../content/administration/on_premise/deploy.rst:722
 msgid ""
@@ -7765,8 +7659,9 @@ msgid ""
 "performed by the system administrator, including provisioning of new "
 "databases and automated backups."
 msgstr ""
-"V produkčních systémech by operace správy databází měl vždy provádět správce "
-"systému, včetně zřizování nových databází a automatizovaných záloh."
+"V produkcijskih sistemih mora operacije upravljanja podatkovnih baz, "
+"vključno z vzpostavitvijo novih podatkovnih baz in samodejnimi varnostnimi "
+"kopijami, vedno izvajati skrbnik sistema."
 
 #: ../../content/administration/on_premise/deploy.rst:725
 msgid ""
@@ -7775,9 +7670,9 @@ msgid ""
 "each request, otherwise users will be blocked as they won't be allowed to "
 "choose the database themselves."
 msgstr ""
-"Ujistěte se, že jste nastavili vhodný parametr ``db_name`` (a volitelně také "
-"``dbfilter``), aby systém mohl určit cílovou databázi pro každý požadavek, "
-"jinak budou uživatelé zablokováni, protože nebudou moci vybrat databázi sami."
+"Nastavite ustrezen parameter ``db_name`` (po želji tudi ``dbfilter``), da "
+"lahko sistem za vsako zahtevo določi ciljno podatkovno bazo, sicer bodo "
+"uporabniki blokirani, ker ne bodo mogli sami izbrati podatkovne baze."
 
 #: ../../content/administration/on_premise/deploy.rst:730
 msgid ""
@@ -7786,10 +7681,10 @@ msgid ""
 "starting with ``/web/database`` except (maybe) ``/web/database/selector`` "
 "which displays the database-selection screen."
 msgstr ""
-"Pokud mají být obrazovky správy přístupné pouze z vybrané sady strojů, "
-"použijte funkce proxy serveru k zablokování přístupu ke všem cestám "
-"začínajícím ``/web/database`` s výjimkou (možná) ``/web/database/selector``, "
-"která zobrazuje obrazovku výběru databáze."
+"Če morajo biti zasloni za upravljanje dostopni samo iz izbranega nabora "
+"naprav, uporabite funkcije posredniškega strežnika za blokiranje dostopa do "
+"vseh poti, ki se začnejo z ``/web/database``, razen morda ``/web/database/"
+"selector``, ki prikazuje zaslon za izbiro podatkovne baze."
 
 #: ../../content/administration/on_premise/deploy.rst:734
 msgid ""
@@ -7797,22 +7692,21 @@ msgid ""
 "``admin_passwd`` setting must be changed from its ``admin`` default: this "
 "password is checked before allowing database-alteration operations."
 msgstr ""
-"Pokud má zůstat obrazovka správy databází přístupná, musí být nastavení "
-"``admin_passwd`` změněno z výchozí hodnoty ``admin``: toto heslo je "
-"kontrolováno před povolením operací měnících databázi."
+"Če mora zaslon za upravljanje podatkovnih baz ostati dostopen, je treba "
+"nastavitev ``admin_passwd`` spremeniti iz privzete vrednosti ``admin``: to "
+"geslo se preveri pred dovoljenjem operacij, ki spreminjajo podatkovno bazo."
 
 #: ../../content/administration/on_premise/deploy.rst:738
 msgid "It should be stored securely, and should be generated randomly e.g."
-msgstr ""
-"Mělo by být bezpečně uloženo a mělo by být generováno náhodně, například."
+msgstr "Shranjeno mora biti varno in naključno ustvarjeno, na primer."
 
 #: ../../content/administration/on_premise/deploy.rst:744
 msgid "which generates a 32-character pseudorandom printable string."
-msgstr "což vygeneruje 32znakový pseudonáhodný tisknutelný řetězec."
+msgstr "ki ustvari 32-mestni psevdonaključni izpisljiv niz."
 
 #: ../../content/administration/on_premise/deploy.rst:747
 msgid "Reset the master password"
-msgstr "Resetovat hlavní heslo"
+msgstr "Ponastavitev glavnega gesla"
 
 #: ../../content/administration/on_premise/deploy.rst:749
 msgid ""
@@ -7821,10 +7715,10 @@ msgid ""
 "administrators of an Odoo on-premise database detailing how to manually "
 "reset and re-encrypt the master password."
 msgstr ""
-"Mohou nastat situace, kdy je hlavní heslo ztraceno nebo kompromitováno a je "
-"třeba jej resetovat. Následující postup je pro správce systému databáze Odoo "
-"on-premise a podrobně popisuje, jak ručně resetovat a znovu zašifrovat "
-"hlavní heslo."
+"Lahko se zgodi, da se glavno geslo izgubi ali ogrozi in ga je treba "
+"ponastaviti. Naslednji postopek je namenjen skrbnikom sistema podatkovne "
+"baze Odoo na lastnem strežniku ter podrobno opisuje, kako ročno ponastaviti "
+"in znova šifrirati glavno geslo."
 
 #: ../../content/administration/on_premise/deploy.rst:754
 msgid ":doc:`../odoo_accounts`"
@@ -7837,18 +7731,19 @@ msgid ""
 "password is implemented by default, so there is a secure master password for "
 "any Odoo on-premise deployment."
 msgstr ""
-"Při vytváření nové databáze on-premise je vygenerováno náhodné hlavní heslo. "
-"Odoo doporučuje použít toto heslo k zabezpečení databáze. Toto heslo je "
-"implementováno ve výchozím nastavení, takže existuje bezpečné hlavní heslo "
-"pro jakékoli nasazení Odoo on-premise."
+"Pri ustvarjanju nove podatkovne baze na lastnem strežniku se ustvari "
+"naključno glavno geslo. Odoo priporoča uporabo tega gesla za zaščito "
+"podatkovne baze. To geslo je privzeto nastavljeno, zato je pri vsaki uvedbi "
+"Odoo na lastnem strežniku na voljo varno glavno geslo."
 
 #: ../../content/administration/on_premise/deploy.rst:761
 msgid ""
 "When creating an Odoo on-premise database the installation is accessible to "
 "anyone on the internet, until this password is set to secure the database."
 msgstr ""
-"Při vytváření databáze Odoo on-premise je instalace přístupná komukoli na "
-"internetu, dokud není toto heslo nastaveno k zabezpečení databáze."
+"Pri ustvarjanju podatkovne baze Odoo na lastnem strežniku je namestitev "
+"dostopna vsem v internetu, dokler ni to geslo nastavljeno za zaščito "
+"podatkovne baze."
 
 #: ../../content/administration/on_premise/deploy.rst:764
 msgid ""
@@ -7856,22 +7751,22 @@ msgid ""
 "or `odoorc` (hidden file)). The Odoo master password is needed to modify, "
 "create, or delete a database through the graphical user interface (GUI)."
 msgstr ""
-"Hlavní heslo je specifikováno v konfiguračním souboru Odoo (`odoo.conf` nebo "
-"`odoorc` (skrytý soubor)). Hlavní heslo Odoo je potřeba k úpravě, vytvoření "
-"nebo smazání databáze prostřednictvím grafického uživatelského rozhraní (GUI)"
-"."
+"Glavno geslo je določeno v konfiguracijski datoteki Odoo (`odoo.conf` ali "
+"`odoorc` (skrita datoteka)). Glavno geslo Odoo je potrebno za spreminjanje, "
+"ustvarjanje ali brisanje podatkovne baze prek grafičnega uporabniškega "
+"vmesnika (GUI)."
 
 #: ../../content/administration/on_premise/deploy.rst:769
 msgid "Locate configuration file"
-msgstr "Najít konfigurační soubor"
+msgstr "Iskanje konfiguracijske datoteke"
 
 #: ../../content/administration/on_premise/deploy.rst:771
 msgid ""
 "First, open the Odoo configuration file (`odoo.conf` or `odoorc` (hidden "
 "file))."
 msgstr ""
-"Nejprve otevřete konfigurační soubor Odoo (`odoo.conf` nebo `odoorc` (skrytý "
-"soubor))."
+"Najprej odprite konfiguracijsko datoteko Odoo (`odoo.conf` ali `odoorc` "
+"(skrita datoteka))."
 
 #: ../../content/administration/on_premise/deploy.rst:775
 #: ../../content/administration/on_premise/packages.rst:130
@@ -7893,8 +7788,8 @@ msgid ""
 "The configuration file is located at: `c:\\\\ProgramFiles\\\\Odoo{VERSION}\\"
 "\\server\\\\odoo.conf`"
 msgstr ""
-"Konfigurační soubor se nachází na: `c:\\\\ProgramFiles\\\\Odoo{VERSION}\\\\s"
-"erver\\\\odoo.conf`"
+"Konfiguracijska datoteka je na mestu: `c:\\\\ProgramFiles\\\\Odoo{VERSION}\\"
+"\\server\\\\odoo.conf`"
 
 #: ../../content/administration/on_premise/deploy.rst:779
 #: ../../content/administration/on_premise/packages.rst:25
@@ -7916,8 +7811,8 @@ msgid ""
 "Depending on how Odoo is installed on the Linux machine, the configuration "
 "file is located in one of two different places:"
 msgstr ""
-"V závislosti na tom, jak je Odoo nainstalováno na počítači s Linuxem, se "
-"konfigurační soubor nachází na jednom ze dvou různých míst:"
+"Glede na način namestitve Odoo v računalniku z Linuxom je konfiguracijska "
+"datoteka na enem od dveh različnih mest:"
 
 #: ../../content/administration/on_premise/deploy.rst:784
 msgid "Package installation: `/etc/odoo.conf`"
@@ -8407,8 +8302,8 @@ msgid ""
 "requirements are available on the `nightly server <https://"
 "nightly.odoo.com>`_."
 msgstr ""
-"Uradni **nočni** paketi **Community** z vsemi ustreznimi odvisnostmi so na "
-"voljo na `strežniku za nočne gradnje <https://nightly.odoo.com>`_."
+"Uradni **Community** nočni paketi z vsemi ustreznimi odvisnostmi so na voljo "
+"na `strežniku za nočne gradnje <https://nightly.odoo.com>`_."
 
 #: ../../content/administration/on_premise/packages.rst:13
 msgid "Nightly packages may be difficult to keep up to date."
@@ -9606,7 +9501,7 @@ msgid ""
 "Alternatively, if you prefer to simply discard the conflicting changes and "
 "restore the official version, you can use the following command::"
 msgstr ""
-"Drugače pa, če želite preprosto zavreči spremembe v konfliktu in obnoviti "
+"Alternativno, če želite preprosto zavreči spremembe v konfliktu in obnoviti "
 "uradno različico, lahko uporabite naslednji ukaz::"
 
 #: ../../content/administration/on_premise/update.rst:145
@@ -9701,8 +9596,8 @@ msgid "End of standard support"
 msgstr "Konec standardne podpore"
 
 #: ../../content/administration/standard_extended_support.rst:35
-msgid "Odoo SaaS 19.3"
-msgstr "Odoo SaaS 19.3"
+msgid "Odoo SaaS 19.4"
+msgstr "Odoo SaaS 19.4"
 
 #: ../../content/administration/standard_extended_support.rst:37
 #: ../../content/administration/standard_extended_support.rst:38
@@ -9710,154 +9605,164 @@ msgstr "Odoo SaaS 19.3"
 #: ../../content/administration/standard_extended_support.rst:44
 #: ../../content/administration/standard_extended_support.rst:49
 #: ../../content/administration/standard_extended_support.rst:50
-#: ../../content/administration/standard_extended_support.rst:61
-#: ../../content/administration/standard_extended_support.rst:62
+#: ../../content/administration/standard_extended_support.rst:55
+#: ../../content/administration/standard_extended_support.rst:56
 #: ../../content/administration/standard_extended_support.rst:67
 #: ../../content/administration/standard_extended_support.rst:68
 #: ../../content/administration/standard_extended_support.rst:73
 #: ../../content/administration/standard_extended_support.rst:74
+#: ../../content/administration/standard_extended_support.rst:79
+#: ../../content/administration/standard_extended_support.rst:80
 msgid "N/A"
 msgstr "N/A"
 
 #: ../../content/administration/standard_extended_support.rst:39
+msgid "July 2026"
+msgstr "julij 2026"
+
+#: ../../content/administration/standard_extended_support.rst:41
+msgid "Odoo SaaS 19.3"
+msgstr "Odoo SaaS 19.3"
+
+#: ../../content/administration/standard_extended_support.rst:45
 msgid "May 2026"
 msgstr "maj 2026"
 
-#: ../../content/administration/standard_extended_support.rst:41
+#: ../../content/administration/standard_extended_support.rst:47
 msgid "Odoo SaaS 19.2"
 msgstr "Odoo SaaS 19.2"
 
-#: ../../content/administration/standard_extended_support.rst:45
+#: ../../content/administration/standard_extended_support.rst:51
 msgid "March 2026"
 msgstr "marec 2026"
 
-#: ../../content/administration/standard_extended_support.rst:47
+#: ../../content/administration/standard_extended_support.rst:53
 msgid "Odoo SaaS 19.1"
 msgstr "Odoo SaaS 19.1"
 
-#: ../../content/administration/standard_extended_support.rst:51
+#: ../../content/administration/standard_extended_support.rst:57
 msgid "January 2026"
 msgstr "Januar 2026"
 
-#: ../../content/administration/standard_extended_support.rst:53
+#: ../../content/administration/standard_extended_support.rst:59
 msgid "**Odoo 19.0**"
 msgstr "**Odoo 19.0**"
 
-#: ../../content/administration/standard_extended_support.rst:57
-#: ../../content/administration/standard_extended_support.rst:94
+#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:100
 msgid "September 2025"
 msgstr "september 2025"
 
-#: ../../content/administration/standard_extended_support.rst:58
+#: ../../content/administration/standard_extended_support.rst:64
 msgid "September 2028 (planned)"
 msgstr "september 2028 (načrtovano)"
 
-#: ../../content/administration/standard_extended_support.rst:59
+#: ../../content/administration/standard_extended_support.rst:65
 msgid "Odoo SaaS 18.4"
 msgstr "Odoo SaaS 18.4"
 
-#: ../../content/administration/standard_extended_support.rst:63
+#: ../../content/administration/standard_extended_support.rst:69
 msgid "July 2025"
 msgstr "julij 2025"
 
-#: ../../content/administration/standard_extended_support.rst:65
+#: ../../content/administration/standard_extended_support.rst:71
 msgid "Odoo SaaS 18.3"
 msgstr "Odoo SaaS 18.3"
 
-#: ../../content/administration/standard_extended_support.rst:69
+#: ../../content/administration/standard_extended_support.rst:75
 msgid "May 2025"
 msgstr "maj 2025"
 
-#: ../../content/administration/standard_extended_support.rst:71
+#: ../../content/administration/standard_extended_support.rst:77
 msgid "Odoo SaaS 18.2"
 msgstr "Odoo SaaS 18.2"
 
-#: ../../content/administration/standard_extended_support.rst:75
+#: ../../content/administration/standard_extended_support.rst:81
 msgid "March 2025"
 msgstr "marec 2025"
 
-#: ../../content/administration/standard_extended_support.rst:77
+#: ../../content/administration/standard_extended_support.rst:83
 msgid "**Odoo 18.0**"
 msgstr "**Odoo 18.0**"
 
-#: ../../content/administration/standard_extended_support.rst:81
-#: ../../content/administration/standard_extended_support.rst:100
+#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:106
 msgid "October 2024"
 msgstr "oktober 2024"
 
-#: ../../content/administration/standard_extended_support.rst:82
+#: ../../content/administration/standard_extended_support.rst:88
 msgid "September 2027 (planned)"
 msgstr "september 2027 (načrtovano)"
 
-#: ../../content/administration/standard_extended_support.rst:83
+#: ../../content/administration/standard_extended_support.rst:89
 msgid "**Odoo 17.0**"
 msgstr "**Odoo 17.0**"
 
-#: ../../content/administration/standard_extended_support.rst:87
+#: ../../content/administration/standard_extended_support.rst:93
 msgid "November 2023"
 msgstr "november 2023"
 
-#: ../../content/administration/standard_extended_support.rst:88
+#: ../../content/administration/standard_extended_support.rst:94
 msgid "September 2026 (planned)"
 msgstr "september 2026 (načrtovano)"
 
-#: ../../content/administration/standard_extended_support.rst:89
+#: ../../content/administration/standard_extended_support.rst:95
 msgid "**Odoo 16.0**"
 msgstr "**Odoo 16.0**"
 
-#: ../../content/administration/standard_extended_support.rst:91
-#: ../../content/administration/standard_extended_support.rst:92
 #: ../../content/administration/standard_extended_support.rst:97
 #: ../../content/administration/standard_extended_support.rst:98
 #: ../../content/administration/standard_extended_support.rst:103
 #: ../../content/administration/standard_extended_support.rst:104
+#: ../../content/administration/standard_extended_support.rst:109
 #: ../../content/administration/standard_extended_support.rst:110
+#: ../../content/administration/standard_extended_support.rst:116
 msgid "|orange|"
 msgstr "|orange|"
 
-#: ../../content/administration/standard_extended_support.rst:93
+#: ../../content/administration/standard_extended_support.rst:99
 msgid "October 2022"
 msgstr "oktober 2022"
 
-#: ../../content/administration/standard_extended_support.rst:95
+#: ../../content/administration/standard_extended_support.rst:101
 msgid "**Odoo 15.0**"
 msgstr "**Odoo 15.0**"
 
-#: ../../content/administration/standard_extended_support.rst:99
+#: ../../content/administration/standard_extended_support.rst:105
 msgid "October 2021"
 msgstr "oktober 2021"
 
-#: ../../content/administration/standard_extended_support.rst:101
+#: ../../content/administration/standard_extended_support.rst:107
 msgid "**Odoo 14.0**"
 msgstr "**Odoo 14.0**"
 
-#: ../../content/administration/standard_extended_support.rst:105
 #: ../../content/administration/standard_extended_support.rst:111
+#: ../../content/administration/standard_extended_support.rst:117
 msgid "Before 2021"
 msgstr "Pred letom 2021"
 
-#: ../../content/administration/standard_extended_support.rst:106
 #: ../../content/administration/standard_extended_support.rst:112
+#: ../../content/administration/standard_extended_support.rst:118
 msgid "Before 2024"
 msgstr "Pred letom 2024"
 
-#: ../../content/administration/standard_extended_support.rst:107
+#: ../../content/administration/standard_extended_support.rst:113
 msgid "Older versions"
 msgstr "Starejše različice"
 
-#: ../../content/administration/standard_extended_support.rst:116
+#: ../../content/administration/standard_extended_support.rst:122
 msgid "|green| : Standard support"
 msgstr "|green| : Standardna podpora"
 
-#: ../../content/administration/standard_extended_support.rst:118
+#: ../../content/administration/standard_extended_support.rst:124
 msgid "|orange| : Extended support (mandatory extra fee)"
 msgstr "|orange|: Razširjena podpora (obvezno dodatno plačilo)"
 
-#: ../../content/administration/standard_extended_support.rst:120
+#: ../../content/administration/standard_extended_support.rst:126
 msgid "|red| : Not supported"
 msgstr "|red|: Ni podprto"
 
-#: ../../content/administration/standard_extended_support.rst:122
+#: ../../content/administration/standard_extended_support.rst:128
 msgid "N/A : Never released for this platform"
 msgstr "N/A : Nikoli izdano za to platformo"
 
@@ -10095,11 +10000,11 @@ msgid ""
 "manager <https://www.odoo.com/my/databases>`_, or your `Odoo.sh project "
 "<https://www.odoo.sh/project>`_."
 msgstr ""
-"<https://upgrade.odoo.com> je glavna platforma za zahtevanje nadgrajene baze "
-"podatkov. Vendar lahko glede na vrsto gostovanja nadgradite iz ukazne "
-"vrstice (na lastnih strežnikih), iz <https://www.odoo.com/my/databases> "
-"upravljalnika baz podatkov Odoo Online ali iz vašega <https://www.odoo.sh/"
-"project>."
+"`Stran za nadgradnjo <https://upgrade.odoo.com>`_ je glavna platforma za "
+"zahtevanje nadgrajene podatkovne baze. Vendar lahko glede na vrsto "
+"gostovanja nadgradite iz ukazne vrstice (na lastnem strežniku), iz "
+"`upravitelja podatkovnih baz <https://www.odoo.com/my/databases>`_ Odoo "
+"Online ali iz svojega `projekta Odoo.sh <https://www.odoo.sh/project>`_."
 
 #: ../../content/administration/upgrade.rst:103
 msgid ""
@@ -10108,8 +10013,9 @@ msgid ""
 "Protection Regulation page <https://www.odoo.com/gdpr>`_ to learn more about "
 "how Odoo handles your data and privacy."
 msgstr ""
-"Platforma za nadgradnjo sledi isti <https://www.odoo.com/privacy>, kot druge "
-"storitve Odoo.com. Obiščite <https://www.odoo.com/gdpr>, da izveste več o "
+"Platforma za nadgradnjo sledi isti `politiki zasebnosti <https://"
+"www.odoo.com/privacy>`_ kot druge storitve Odoo.com. Obiščite `stran Splošne "
+"uredbe o varstvu podatkov <https://www.odoo.com/gdpr>`_, da izveste več o "
 "tem, kako Odoo obravnava vaše podatke in zasebnost."
 
 #: ../../content/administration/upgrade.rst:111
@@ -10272,9 +10178,10 @@ msgid ""
 "pgpass.html>`_ for this requirement."
 msgstr ""
 "Sistemski uporabnik, ki izvede ukaz, mora biti konfiguriran z dostopom do "
-"baze podatkov. Prosimo, glejte dokumentacijo PostgreSQL za <https://"
-"www.postgresql.org/docs/current/libpq-envars.html> ali <https://"
-"www.postgresql.org/docs/current/libpq-pgpass.html> za to zahtevo."
+"podatkovne baze. Za to zahtevo glejte dokumentacijo PostgreSQL o "
+"`odjemalskem okolju <https://www.postgresql.org/docs/current/libpq-"
+"envars.html>`_ ali `datoteki z geslom odjemalca <https://www.postgresql.org/"
+"docs/current/libpq-pgpass.html>`_."
 
 #: ../../content/administration/upgrade.rst:175
 msgid ""
@@ -10300,8 +10207,8 @@ msgid ""
 "An upgraded test database can also be requested via the `Upgrade page "
 "<https://upgrade.odoo.com>`_."
 msgstr ""
-"Nadgrajeno testno bazo podatkov lahko zahtevate tudi prek <https://"
-"upgrade.odoo.com>."
+"Nadgrajeno testno podatkovno bazo lahko zahtevate tudi prek `strani za "
+"nadgradnjo <https://upgrade.odoo.com>`_."
 
 #: ../../content/administration/upgrade.rst:190
 msgid ""
@@ -10868,7 +10775,7 @@ msgid ""
 "Databases hosted on Odoo's cloud platforms (Odoo Online and Odoo.sh) or self-"
 "hosted (On-Premise) can benefit from upgrade services at all times for:"
 msgstr ""
-"Zbirke podatkov, gostovane na oblačnih platformah Odoo (Odoo Online in "
+"Zbirke podatkov, gostovane na Odoo-jevih oblačnih platformah (Odoo Online in "
 "Odoo.sh) ali samogostovane (On-Premise), lahko kadar koli izkoristijo "
 "storitve nadgradnje za:"
 
@@ -10937,6 +10844,665 @@ msgstr ":doc:`Dokumentacija Odoo.sh <odoo_sh>`"
 #: ../../content/administration/upgrade.rst:432
 msgid ":doc:`Supported Odoo versions <standard_extended_support>`"
 msgstr ":doc:`Podprte različice Odoo <standard_extended_support>`"
+
+#~ msgid ""
+#~ "The purpose of manual backups is to create a specific snapshot of "
+#~ "production or staging databases (not available for development). These "
+#~ "remain available for seven days. However, there is a limit of five daily "
+#~ "manual backups."
+#~ msgstr ""
+#~ "Namen ročnih varnostnih kopij je ustvariti poseben posnetek produkcijskih "
+#~ "ali faznih podatkovnih zbirk (ni na voljo za razvojne). Te ostanejo na "
+#~ "voljo sedem dni. Obstaja pa omejitev petih dnevnih ročnih varnostnih "
+#~ "kopij."
+
+#~ msgid "Check scheduled actions"
+#~ msgstr "Preverjanje načrtovanih dejanj"
+
+#~ msgid ""
+#~ "Scheduled actions are **disabled by default** after importing your "
+#~ "database. This prevents your newly imported database from performing "
+#~ "potentially disruptive operations such as:"
+#~ msgstr ""
+#~ "Načrtovana dejanja so **privzeto onemogočena** po uvozu vaše zbirke "
+#~ "podatkov. To preprečuje, da bi vaša novo uvožena zbirka podatkov izvajala "
+#~ "potencialno moteče operacije, kot so:"
+
+#~ msgid "sending queued emails,"
+#~ msgstr "pošiljanje e-poštnih sporočil v čakalni vrsti,"
+
+#~ msgid "triggering mass mailings, or"
+#~ msgstr "sprožanje množičnih pošiljanj ali"
+
+#~ msgid "syncing with third-party services (e.g., calendars, cloud storage)."
+#~ msgstr ""
+#~ "sinhronizacija s storitvami tretjih oseb (npr. koledarji, shranjevanje v "
+#~ "oblaku)."
+
+#~ msgid ""
+#~ "If you intend to use this imported database in production, **re-enable** "
+#~ "only the scheduled actions you need by enabling :ref:`developer mode "
+#~ "<developer-mode>` and going to :menuselection:`Settings --> Technical --> "
+#~ "Automation: Scheduled Actions`."
+#~ msgstr ""
+#~ "Če nameravate to uvoženo zbirko podatkov uporabiti v produkcijskem "
+#~ "okolju, **znova omogočite** samo tista načrtovana dejanja, ki jih "
+#~ "potrebujete, tako da omogočite :ref:`razvijalski način <developer-mode>` "
+#~ "in greste na :menuselection:`Nastavitve --> Tehnično --> Avtomatizacija: "
+#~ "Načrtovana dejanja`."
+
+#~ msgid ""
+#~ "the **URL** you want to use for the database (e.g., `company.odoo.com`), "
+#~ "and"
+#~ msgstr ""
+#~ "**URL**, ki ga želite uporabiti za zbirko podatkov (npr. "
+#~ "`podjetje.odoo.com`), in"
+
+#~ msgid ""
+#~ "the **dump** as an attachment or as a link to the file (required for 60 "
+#~ "MB+ files)."
+#~ msgstr ""
+#~ "**izvoz** kot prilogo ali kot povezavo do datoteke (obvezno za datoteke "
+#~ "večje od 60 MB)."
+
+#~ msgid "Your first module"
+#~ msgstr "Vaš prvi modul"
+
+#~ msgid ""
+#~ "This chapter helps you to create your first Odoo module and deploy it in "
+#~ "your Odoo.sh project."
+#~ msgstr ""
+#~ "To poglavje vam pomaga ustvariti vaš prvi modul Odoo in ga namestiti v "
+#~ "vaš projekt Odoo.sh."
+
+#~ msgid ""
+#~ "This tutorial requires you created a project on Odoo.sh, and you know "
+#~ "your Github repository's URL."
+#~ msgstr ""
+#~ "Ta vadnica zahteva, da ste ustvarili projekt na Odoo.sh in poznate URL "
+#~ "vašega repozitorija Github."
+
+#~ msgid "Basic use of Git and Github is explained."
+#~ msgstr "Pojasnjene so osnovne uporabe Git in Github."
+
+#~ msgid "The below assumptions are made:"
+#~ msgstr "Spodaj so navedene predpostavke:"
+
+#~ msgid ""
+#~ "*~/src* is the directory where are located the Git repositories related "
+#~ "to your Odoo projects,"
+#~ msgstr ""
+#~ "*~/src* je imenik, kjer se nahajajo repozitoriji Git, povezani z vašimi "
+#~ "projekti Odoo,"
+
+#~ msgid "*odoo* is the Github user,"
+#~ msgstr "*odoo* je uporabnik Github,"
+
+#~ msgid "*odoo-addons* is the Github repository,"
+#~ msgstr "*odoo-addons* je repozitorij Github,"
+
+#~ msgid "*feature-1* is the name of a development branch,"
+#~ msgstr "*feature-1* je ime razvojne veje,"
+
+#~ msgid "*master* is the name of the production branch,"
+#~ msgstr "*master* je ime produkcijske veje,"
+
+#~ msgid "*my_module* is the name of the module."
+#~ msgstr "*my_module* je ime modula."
+
+#~ msgid "Replace these by the values of your choice."
+#~ msgstr "Zamenjajte jih z vrednostmi po vaši izbiri."
+
+#~ msgid "From Odoo.sh"
+#~ msgstr "Iz Odoo.sh"
+
+#~ msgid "In the branches view:"
+#~ msgstr "V pogledu vej:"
+
+#~ msgid "hit the :code:`+` button next to the development stage,"
+#~ msgstr "pritisnite gumb :code:`+` poleg razvojne stopnje,"
+
+#~ msgid "choose the branch *master* in the *Fork* selection,"
+#~ msgstr "izberite vejo *master* v izbiri *Fork*,"
+
+#~ msgid "type *feature-1* in the *To* input."
+#~ msgstr "vnesite *feature-1* v polje *To*."
+
+#~ msgid "|pic1|  |pic2|"
+#~ msgstr "|pic1|  |pic2|"
+
+#~ msgid "pic1"
+#~ msgstr "pic1"
+
+#~ msgid "pic2"
+#~ msgstr "pic2"
+
+#~ msgid ""
+#~ "Once the build created, you can access the editor and browse to the "
+#~ "folder *~/src/user* to access to the code of your development branch."
+#~ msgstr ""
+#~ "Ko je gradnja ustvarjena, lahko dostopate do urejevalnika in pobrskate po "
+#~ "mapi *~/src/user*, da dostopate do kode vaše razvojne veje."
+
+#~ msgid "From your computer"
+#~ msgstr "Z vašega računalnika"
+
+#~ msgid "Clone your Github repository on your computer:"
+#~ msgstr "Klonirajte vaš repozitorij Github na računalnik:"
+
+#~ msgid "Create a new branch:"
+#~ msgstr "Ustvarite novo vejo:"
+
+#~ msgid "Scaffolding the module"
+#~ msgstr "Priprava ogrodja modula"
+
+#~ msgid ""
+#~ "While not necessary, scaffolding avoids the tedium of setting the basic "
+#~ "Odoo module structure. You can scaffold a new module using the executable "
+#~ "*odoo-bin*."
+#~ msgstr ""
+#~ "Čeprav ni nujno, priprava ogrodja prepreči dolgočasno nastavljanje "
+#~ "osnovne strukture modula Odoo. Nov modul lahko pripravite z uporabo "
+#~ "izvedljive datoteke *odoo-bin*."
+
+#~ msgid "From the Odoo.sh editor, in a terminal:"
+#~ msgstr "Iz urejevalnika Odoo.sh v terminalu:"
+
+#~ msgid "Or, from your computer, if you have an installation of Odoo:"
+#~ msgstr "Ali pa s svojega računalnika, če imate nameščen Odoo:"
+
+#~ msgid ""
+#~ "If you do not want to bother installing Odoo on your computer, you can "
+#~ "also :download:`download this module structure template <first_module/"
+#~ "my_module.zip>` in which you replace every occurrences of *my_module* to "
+#~ "the name of your choice."
+#~ msgstr ""
+#~ "Če se ne želite obremenjevati z namestitvijo Odoo na vaš računalnik, "
+#~ "lahko tudi :download:`prenesete to predlogo strukture modula "
+#~ "<first_module/my_module.zip>`, v kateri zamenjate vsako pojavitev "
+#~ "*my_module* z imenom po vaši izbiri."
+
+#~ msgid "The below structure will be generated:"
+#~ msgstr "Ustvarjena bo naslednja struktura:"
+
+#~ msgid ""
+#~ "Do not use special characters other than the underscore ( _ ) for your "
+#~ "module name, not even an hyphen ( - ). This name is used for the Python "
+#~ "classes of your module, and having classes name with special characters "
+#~ "other than the underscore is not valid in Python."
+#~ msgstr ""
+#~ "Ne uporabljajte posebnih znakov razen podčrtaja ( _ ) za ime vašega "
+#~ "modula, niti pomišljaja ( - ). To ime se uporabi za razrede Python vašega "
+#~ "modula in imeti imena razredov s posebnimi znaki razen podčrtaja ni "
+#~ "veljavno v Python."
+
+#~ msgid "Uncomment the content of the files:"
+#~ msgstr "Odkomentirajte vsebino datotek:"
+
+#~ msgid "*models/models.py*, an example of model with its fields,"
+#~ msgstr "*models/models.py*, primer modela z njegovimi polji,"
+
+#~ msgid ""
+#~ "*views/views.xml*, a tree and a form view, with the menus opening them,"
+#~ msgstr ""
+#~ "*views/views.xml*, drevesni in obrazec pogled, z meniji, ki jih odpirata,"
+
+#~ msgid "*demo/demo.xml*, demo records for the above example model,"
+#~ msgstr "*demo/demo.xml*, predstavitveni zapisi za zgornji primer modela,"
+
+#~ msgid ""
+#~ "*controllers/controllers.py*, an example of controller implementing some "
+#~ "routes,"
+#~ msgstr ""
+#~ "*controllers/controllers.py*, primer krmilnika, ki implementira nekaj "
+#~ "poti,"
+
+#~ msgid ""
+#~ "*views/templates.xml*, two example qweb views used by the above "
+#~ "controller routes,"
+#~ msgstr ""
+#~ "*views/templates.xml*, dva primera qweb pogledov, ki jih uporabljata "
+#~ "zgornji poti krmilnika,"
+
+#~ msgid ""
+#~ "*__manifest__.py*, the manifest of your module, including for instance "
+#~ "its title, description and data files to load. You just need to uncomment "
+#~ "the access control list data file:"
+#~ msgstr ""
+#~ "*__manifest__.py*, manifest vašega modula, ki vključuje na primer njegov "
+#~ "naslov, opis in podatkovne datoteke za nalaganje. Potrebno je samo "
+#~ "odkomentirati datoteko s seznamom kontrole dostopa:"
+
+#~ msgid ""
+#~ "If you want to create your module structure manually, you can follow "
+#~ "the :doc:`/developer/tutorials/server_framework_101` tutorial to "
+#~ "understand the structure of a module and the content of each file."
+#~ msgstr ""
+#~ "Če želite ustvariti strukturo modula ročno, lahko sledite :doc:`/"
+#~ "developer/tutorials/server_framework_101` vadnici za razumevanje "
+#~ "strukture modula in vsebine vsake datoteke."
+
+#~ msgid "Push the development branch"
+#~ msgstr "Objavi razvojno vejo"
+
+#~ msgid "Stage the changes to be committed"
+#~ msgstr "Pripravi spremembe za uveljavitev"
+
+#~ msgid "Commit your changes"
+#~ msgstr "Uveljavi svoje spremembe"
+
+#~ msgid "Push your changes to your remote repository"
+#~ msgstr "Objavi svoje spremembe v oddaljeni repozitorij"
+
+#~ msgid "From an Odoo.sh editor terminal:"
+#~ msgstr "Iz terminala urejevalnika Odoo.sh:"
+
+#~ msgid ""
+#~ "The above command is explained in the section :ref:`Commit and push "
+#~ "changes <odoo-sh/editor/commit>` of the :doc:`Online editor page "
+#~ "<getting_started/online_editor>`. It includes the explanation regarding "
+#~ "the fact you will be prompted to type your username and password, and "
+#~ "what to do if you use the two-factor authentication."
+#~ msgstr ""
+#~ "Zgornji ukaz je razložen v razdelku :ref:`Potrditev in pošiljanje "
+#~ "sprememb <odoo-sh/editor/commit>` na strani :doc:`Spletni urejevalnik "
+#~ "<getting_started/online_editor>`. Vključuje razlago o tem, da boste "
+#~ "pozvani k vnosu uporabniškega imena in gesla ter kaj storiti, če "
+#~ "uporabljate dvofaktorsko preverjanje pristnosti."
+
+#~ msgid "Or, from your computer terminal:"
+#~ msgstr "Ali iz terminala vašega računalnika:"
+
+#~ msgid ""
+#~ "You need to specify *-u origin feature-1* for the first push only. From "
+#~ "that point, to push your future changes from your computer, you can "
+#~ "simply use"
+#~ msgstr ""
+#~ "Navesti morate *-u origin feature-1* samo za prvo objavo. Od tega "
+#~ "trenutka naprej lahko za objavo prihodnjih sprememb iz vašega računalnika "
+#~ "preprosto uporabite"
+
+#~ msgid "Test your module"
+#~ msgstr "Testiraj svoj modul"
+
+#~ msgid ""
+#~ "Your branch should appear in your development branches in your project."
+#~ msgstr ""
+#~ "Vaša veja bi se morala pojaviti med razvojnimi vejami v vašem projektu."
+
+#~ msgid ""
+#~ "In the branches view of your project, you can click on your branch name "
+#~ "in the left navigation panel to access its history."
+#~ msgstr ""
+#~ "V pogledu vej vašega projekta lahko kliknete na ime veje v levem "
+#~ "navigacijskem panelu za dostop do njene zgodovine."
+
+#~ msgid ""
+#~ "You can see here the changes you just pushed, including the comment you "
+#~ "set. Once the database ready, you can access it by clicking the *Connect* "
+#~ "button."
+#~ msgstr ""
+#~ "Tukaj lahko vidite spremembe, ki ste jih pravkar objavili, vključno s "
+#~ "komentarjem, ki ste ga nastavili. Ko je baza podatkov pripravljena, lahko "
+#~ "do nje dostopate s klikom na gumb *Poveži se*."
+
+#~ msgid ""
+#~ "If your Odoo.sh project is configured to install your module "
+#~ "automatically, you will directly see it amongst the database apps. "
+#~ "Otherwise, it will be available in the apps to install."
+#~ msgstr ""
+#~ "Če je vaš projekt Odoo.sh konfiguriran za samodejno namestitev vašega "
+#~ "modula, ga boste neposredno videli med aplikacijami baze podatkov. V "
+#~ "nasprotnem primeru bo na voljo med aplikacijami za namestitev."
+
+#~ msgid ""
+#~ "You can then play around with your module, create new records and test "
+#~ "your features and buttons."
+#~ msgstr ""
+#~ "Nato se lahko igrate s svojim modulom, ustvarite nove zapise in testirate "
+#~ "svoje funkcije in gumbe."
+
+#~ msgid ""
+#~ "You need to have a production database for this step. You can create it "
+#~ "if you do not have it yet."
+#~ msgstr ""
+#~ "Za ta korak potrebujete produkcijsko bazo podatkov. Če je še nimate, jo "
+#~ "lahko ustvarite."
+
+#~ msgid ""
+#~ "Once you tested your module in a development build with the demo data and "
+#~ "believe it is ready, you can test it with the production data using a "
+#~ "staging branch."
+#~ msgstr ""
+#~ "Ko ste testirali svoj modul v razvojni različici s predstavitvenimi "
+#~ "podatki in menite, da je pripravljen, ga lahko testirate s produkcijskimi "
+#~ "podatki z uporabo vmesne veje."
+
+#~ msgid "You can either:"
+#~ msgstr "Lahko:"
+
+#~ msgid ""
+#~ "Make your development branch a staging branch, by drag and dropping it "
+#~ "onto the *staging* section title."
+#~ msgstr ""
+#~ "Vašo razvojno vejo spremenite v vmesno vejo tako, da jo povlečete in "
+#~ "spustite na naslov oddelka *staging*."
+
+#~ msgid ""
+#~ "Merge it in an existing staging branch, by drag and dropping it onto the "
+#~ "given staging branch."
+#~ msgstr ""
+#~ "Jo združite v obstoječo vmesno vejo tako, da jo povlečete in spustite na "
+#~ "podano vmesno vejo."
+
+#~ msgid ""
+#~ "You can also use the :code:`git merge` command to merge your branches."
+#~ msgstr "Za združevanje vej lahko uporabite tudi ukaz :code:`git merge`."
+
+#~ msgid ""
+#~ "This will create a new staging build, which will duplicate the production "
+#~ "database and make it run using a server updated with your latest changes "
+#~ "of your branch."
+#~ msgstr ""
+#~ "To bo ustvarilo novo vmesno različico, ki bo podvojila produkcijsko bazo "
+#~ "podatkov in jo zagnala na strežniku, posodobljenem z najnovejšimi "
+#~ "spremembami vaše veje."
+
+#~ msgid ""
+#~ "Once the database ready, you can access it using the *Connect* button."
+#~ msgstr ""
+#~ "Ko je baza podatkov pripravljena, lahko do nje dostopate z gumbom "
+#~ "*Poveži*."
+
+#~ msgid "Install your module"
+#~ msgstr "Namestitev modula"
+
+#~ msgid ""
+#~ "Your module will not be installed automatically, you have to install it "
+#~ "from the apps menu. Indeed, the purpose of the staging build is to test "
+#~ "the behavior of your changes as it would be on your production, and on "
+#~ "your production you would not like your module to be installed "
+#~ "automatically, but on demand."
+#~ msgstr ""
+#~ "Vaš modul ne bo nameščen samodejno, namestiti ga morate iz menija "
+#~ "aplikacij. Namen vmesne različice je namreč testirati obnašanje vaših "
+#~ "sprememb, kot bi bilo v produkciji, v produkciji pa ne želite, da se "
+#~ "modul namesti samodejno, ampak na zahtevo."
+
+#~ msgid ""
+#~ "Your module may not appear directly in your apps to install either, you "
+#~ "need to update your apps list first:"
+#~ msgstr ""
+#~ "Vaš modul se morda tudi ne bo prikazal neposredno v seznamu aplikacij za "
+#~ "namestitev, najprej morate posodobiti seznam aplikacij:"
+
+#~ msgid "Activate the :ref:`developer mode <developer-mode>`"
+#~ msgstr "Aktivirajte :ref:`razvijalski način <developer-mode>`"
+
+#~ msgid "in the apps menu, click the *Update Apps List* button,"
+#~ msgstr "v meniju aplikacij kliknite gumb *Posodobi seznam aplikacij*,"
+
+#~ msgid "in the dialog that appears, click the *Update* button."
+#~ msgstr "v pogovornem oknu, ki se prikaže, kliknite gumb *Posodobi*."
+
+#~ msgid "Your module will then appear in the list of available apps."
+#~ msgstr "Vaš modul se bo nato prikazal na seznamu razpoložljivih aplikacij."
+
+#~ msgid ""
+#~ "Once you tested your module in a staging branch with your production "
+#~ "data, and believe it is ready for production, you can merge your branch "
+#~ "in the production branch."
+#~ msgstr ""
+#~ "Ko ste testirali svoj modul v vmesni veji s produkcijskimi podatki in "
+#~ "menite, da je pripravljen za produkcijo, lahko vašo vejo združite v "
+#~ "produkcijsko vejo."
+
+#~ msgid "Drag and drop your staging branch on the production branch."
+#~ msgstr "Povlecite in spustite vmesno vejo na produkcijsko vejo."
+
+#~ msgid ""
+#~ "This will merge the latest changes of your staging branch in the "
+#~ "production branch, and update your production server with these latest "
+#~ "changes."
+#~ msgstr ""
+#~ "To bo združilo najnovejše spremembe vaše vmesne veje v produkcijsko vejo "
+#~ "in posodobilo vaš produkcijski strežnik s temi najnovejšimi spremembami."
+
+#~ msgid ""
+#~ "Your module will not be installed automatically, you have to install it "
+#~ "manually as explained in the :ref:`above section about installing your "
+#~ "module in staging databases <odoosh-gettingstarted-firstmodule-"
+#~ "productiondata-install>`."
+#~ msgstr ""
+#~ "Vaš modul ne bo nameščen samodejno, namestiti ga morate ročno, kot je "
+#~ "razloženo v :ref:`zgornjem razdelku o namestitvi modula v pripravljalne "
+#~ "baze podatkov <odoosh-gettingstarted-firstmodule-productiondata-install>`."
+
+#~ msgid ""
+#~ "This section explains how to add a change in your module by adding a new "
+#~ "field in a model and deploy it."
+#~ msgstr ""
+#~ "Ta razdelek razlaga, kako dodati spremembo v modul z dodajanjem novega "
+#~ "polja v model in ga uvesti."
+
+#~ msgid "From the Odoo.sh editor,"
+#~ msgstr "V urejevalniku Odoo.sh"
+
+#~ msgid "browse to your module folder *~/src/user/my_module*,"
+#~ msgstr "pojdite v mapo svojega modula *~/src/user/my_module*,"
+
+#~ msgid "then, open the file *models/models.py*."
+#~ msgstr "nato odprite datoteko *models/models.py*."
+
+#~ msgid "Or, from your computer,"
+#~ msgstr "Ali pa na svojem računalniku"
+
+#~ msgid ""
+#~ "use the file browser of your choice to browse to your module folder *~/"
+#~ "src/odoo-addons/my_module*,"
+#~ msgstr ""
+#~ "uporabite poljuben brskalnik datotek in pojdite v mapo modula *~/src/odoo-"
+#~ "addons/my_module*,"
+
+#~ msgid ""
+#~ "then, open the file *models/models.py* using the editor of your choice, "
+#~ "such as *Atom*, *Sublime Text*, *PyCharm*, *vim*, ..."
+#~ msgstr ""
+#~ "nato odprite datoteko *models/models.py* z izbranim urejevalnikom, kot je "
+#~ "*Atom*, *Sublime Text*, *PyCharm*, *vim* ..."
+
+#~ msgid "Then, after the description field"
+#~ msgstr "Nato za poljem opisa"
+
+#~ msgid "Add a datetime field"
+#~ msgstr "dodajte polje datetime"
+
+#~ msgid "Then, open the file *views/views.xml*."
+#~ msgstr "Nato odprite datoteko *views/views.xml*."
+
+#~ msgid "After"
+#~ msgstr "Po"
+
+#~ msgid "Add"
+#~ msgstr "Dodaj"
+
+#~ msgid ""
+#~ "These changes alter the database structure by adding a column in a table, "
+#~ "and modify a view stored in database."
+#~ msgstr ""
+#~ "Te spremembe spreminjajo strukturo baze podatkov z dodajanjem stolpca v "
+#~ "tabelo in spreminjajo pogled, shranjen v bazi podatkov."
+
+#~ msgid ""
+#~ "In order to be applied in existing databases, such as your production "
+#~ "database, these changes requires the module to be updated."
+#~ msgstr ""
+#~ "Da se uporabijo v obstoječih bazah podatkov, kot je produkcijska baza, te "
+#~ "spremembe zahtevajo posodobitev modula."
+
+#~ msgid ""
+#~ "If you would like the update to be performed automatically by the Odoo.sh "
+#~ "platform when you push your changes, increase your module version in its "
+#~ "manifest."
+#~ msgstr ""
+#~ "Če želite, da platforma Odoo.sh posodobitev izvede samodejno ob potisku "
+#~ "sprememb, povečajte različico modula v njegovem manifestu."
+
+#~ msgid "Open the module manifest *__manifest__.py*."
+#~ msgstr "Odprite manifest modula *__manifest__.py*."
+
+#~ msgid "with"
+#~ msgstr "z"
+
+#~ msgid ""
+#~ "The platform will detect the change of version and trigger the update of "
+#~ "the module upon the new revision deployment."
+#~ msgstr ""
+#~ "Platforma bo zaznala spremembo različice in sprožila posodobitev modula "
+#~ "ob uvedbi nove revizije."
+
+#~ msgid "Browse to your Git folder."
+#~ msgstr "Pojdite v mapo Git."
+
+#~ msgid "Then, from an Odoo.sh terminal:"
+#~ msgstr "Nato v terminalu Odoo.sh:"
+
+#~ msgid "Then, stage your changes to be committed"
+#~ msgstr "Nato pripravite spremembe za uveljavitev"
+
+#~ msgid "Push your changes:"
+#~ msgstr "Potisni svoje spremembe:"
+
+#~ msgid "From an Odoo.sh terminal:"
+#~ msgstr "Iz terminala Odoo.sh:"
+
+#~ msgid ""
+#~ "The platform will then create a new build for the branch *feature-1*."
+#~ msgstr "Platforma bo nato ustvarila novo gradnjo za vejo *feature-1*."
+
+#~ msgid ""
+#~ "Once you tested your changes, you can merge your changes in the "
+#~ "production branch, for instance by drag-and-dropping the branch on the "
+#~ "production branch in the Odoo.sh interface. As you increased the module "
+#~ "version in the manifest, the platform will update the module "
+#~ "automatically and your new field will be directly available. Otherwise "
+#~ "you can manually update the module within the apps list."
+#~ msgstr ""
+#~ "Ko testirate svoje spremembe, lahko združite spremembe v produkcijsko "
+#~ "vejo, na primer s povleci in spusti veje na produkcijsko vejo v vmesniku "
+#~ "Odoo.sh. Ker ste povečali verzijo modula v manifestu, bo platforma "
+#~ "samodejno posodobila modul in vaše novo polje bo takoj na voljo. Sicer "
+#~ "lahko ročno posodobite modul v seznamu aplikacij."
+
+#~ msgid ""
+#~ "If you would like to use an external Python library which is not "
+#~ "installed by default, you can define a *requirements.txt* file listing "
+#~ "the external libraries your modules depends on."
+#~ msgstr ""
+#~ "Če želite uporabiti zunanjo knjižnico Python, ki privzeto ni nameščena, "
+#~ "lahko določite datoteko *requirements.txt*, ki navaja zunanje knjižnice, "
+#~ "od katerih so odvisni vaši moduli."
+
+#~ msgid ""
+#~ "It is not possible to install or upgrade system packages on an Odoo.sh "
+#~ "database (e.g., apt packages). However, under specific conditions, "
+#~ "packages can be considered for installation. This also applies to "
+#~ "**Python modules** requiring system packages for their compilation, and "
+#~ "**third-party Odoo modules**."
+#~ msgstr ""
+#~ "V zbirki podatkov Odoo.sh ni mogoče namestiti ali nadgraditi sistemskih "
+#~ "paketov (npr. paketov apt). Vendar je pod določenimi pogoji mogoče pakete "
+#~ "upoštevati za namestitev. To velja tudi za **module Python**, ki za svojo "
+#~ "prevajanje zahtevajo sistemske pakete, in **module Odoo tretjih oseb**."
+
+#~ msgid "**PostgreSQL extensions** are not supported on Odoo.sh."
+#~ msgstr "**Razširitve PostgreSQL** niso podprte na Odoo.sh."
+
+#~ msgid ""
+#~ "For more information, consult our `FAQ <https://www.odoo.sh/"
+#~ "faq#install_dependencies>`_."
+#~ msgstr ""
+#~ "Za več informacij si oglejte naš `pogosto zastavljena vprašanja <https://"
+#~ "www.odoo.sh/faq#install_dependencies>`_."
+
+#~ msgid ""
+#~ "The platform will use this file to automatically install the Python "
+#~ "libraries your project needs."
+#~ msgstr ""
+#~ "Platforma bo uporabila to datoteko za samodejno namestitev knjižnic "
+#~ "Python, ki jih vaš projekt potrebuje."
+
+#~ msgid ""
+#~ "The feature is explained in this section by using the `Unidecode library "
+#~ "<https://pypi.python.org/pypi/Unidecode>`_ in your module."
+#~ msgstr ""
+#~ "Funkcija je pojasnjena v tem razdelku z uporabo `knjižnice Unidecode "
+#~ "<https://pypi.python.org/pypi/Unidecode>`_ v vašem modulu."
+
+#~ msgid ""
+#~ "Create a file *requirements.txt* in the root folder of your repository"
+#~ msgstr ""
+#~ "Ustvarite datoteko *requirements.txt* v koreni mapi vašega repozitorija"
+
+#~ msgid ""
+#~ "From the Odoo.sh editor, create and open the file ~/src/user/"
+#~ "requirements.txt."
+#~ msgstr ""
+#~ "Iz urejevalnika Odoo.sh ustvarite in odprite datoteko ~/src/user/"
+#~ "requirements.txt."
+
+#~ msgid ""
+#~ "Or, from your computer, create and open the file ~/src/odoo-addons/"
+#~ "requirements.txt."
+#~ msgstr ""
+#~ "Ali pa iz računalnika ustvarite in odprite datoteko ~/src/odoo-addons/"
+#~ "requirements.txt."
+
+#~ msgid ""
+#~ "Then use the library in your module, for instance to remove accents from "
+#~ "characters in the name field of your model."
+#~ msgstr ""
+#~ "Nato uporabite knjižnico v svojem modulu, na primer za odstranjevanje "
+#~ "poudarkov iz znakov v polju imena vašega modela."
+
+#~ msgid "Open the file *models/models.py*."
+#~ msgstr "Odprite datoteko *models/models.py*."
+
+#~ msgid "Before"
+#~ msgstr "Prej"
+
+#~ msgid ""
+#~ "Adding a Python dependency requires a module version increase for the "
+#~ "platform to install it."
+#~ msgstr ""
+#~ "Dodajanje odvisnosti Python zahteva povečanje verzije modula, da ga "
+#~ "platforma namesti."
+
+#~ msgid "Edit the module manifest *__manifest__.py*"
+#~ msgstr "Uredite manifest modula *__manifest__.py*"
+
+#~ msgid "Stage and commit your changes:"
+#~ msgstr "Pripravite in potrdite svoje spremembe:"
+
+#~ msgid "Then, push your changes:"
+#~ msgstr "Nato potisnite svoje spremembe:"
+
+#~ msgid "In an Odoo.sh terminal:"
+#~ msgstr "V terminalu Odoo.sh:"
+
+#~ msgid "In your computer terminal:"
+#~ msgstr "V terminalu vašega računalnika:"
+
+#~ msgid ""
+#~ "The name of your project defines the address used to access your "
+#~ "production database. The addresses of your staging and development builds "
+#~ "are automatically derived from this name. If you change the project name, "
+#~ "only future builds will use the new name."
+#~ msgstr ""
+#~ "Ime vašega projekta določa naslov za dostop do produkcijske baze "
+#~ "podatkov. Naslovi vaših testnih in razvojnih gradenj so samodejno "
+#~ "izpeljani iz tega imena. Če spremenite ime projekta, bodo samo prihodnje "
+#~ "gradnje uporabljale novo ime."
 
 #~ msgid "You can `upgrade <https://upgrade.odoo.com>`_ from any version."
 #~ msgstr "Lahko <https://upgrade.odoo.com> iz katere koli različice."
