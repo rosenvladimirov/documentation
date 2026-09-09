@@ -662,7 +662,7 @@ msgid ""
 "mailing, etc.)"
 msgstr ""
 "всички планирани действия (напр. автоматично фактуриране на абонаменти, "
-"масова разсилка на имейли и т.н.)"
+"масов мейлинг на имейли и т.н.)"
 
 #: ../../content/administration/neutralized_database.rst:27
 msgid "outgoing emails"
@@ -5322,7 +5322,7 @@ msgstr "изпращане на чакащи имейли,"
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:170
 msgid "triggering mass mailings, or"
-msgstr "стартиране на масови разсилки, или"
+msgstr "стартиране на масови мейлинги, или"
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:171
 msgid "syncing with third-party services (e.g., calendars, cloud storage)."
@@ -6959,7 +6959,7 @@ msgid ""
 "The :doc:`packaged installers <packages>` will automatically create a new "
 "user (``odoo``) and set it as the database user."
 msgstr ""
-"**:doc:`пакетираните инсталатори <packages>`** ще създадат автоматично нов "
+":doc:`пакетираните инсталатори <packages>` ще създадат автоматично нов "
 "потребител (``odoo``) и ще го зададат като потребител на базата данни."
 
 #: ../../content/administration/on_premise/deploy.rst:129

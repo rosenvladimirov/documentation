@@ -1691,7 +1691,7 @@ msgstr "Изпращане до / Доставка до глобално мес�
 #: ../../content/applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.rst:183
 #: ../../content/applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.rst:186
 msgid "Destination location"
-msgstr "Местоположение на дестинация"
+msgstr "Местоположение на местоназначение"
 
 #: ../../content/applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.rst:183
 msgid "(410)(\\\\d{13})"
@@ -4034,7 +4034,7 @@ msgid ""
 "barcode scanner devices."
 msgstr ""
 "Вижте следните раздели по-долу за често срещани проблеми, свързани с "
-"популярни устройства за скениране на баркодове."
+"популярни устройства за сканиране на баркодове."
 
 #: ../../content/applications/inventory_and_mrp/barcode/setup/device_troubleshooting.rst:17
 msgid ""
@@ -5221,8 +5221,8 @@ msgid ""
 msgstr ""
 "**Вътрешни трансфери** `WHINT` създава нова поръчка за трансфер. Могат да се"
 " сканират :doc:`баркодове за местоположение <software>`, за да се обозначи "
-"източникът и дестинацията, или сканирано направление, за да се инициира "
-"трансфер в **Баркод**."
+"източникът и местоназначението, или сканирано направление, за да се инициира"
+" трансфер в **Баркод**."
 
 #: ../../content/applications/inventory_and_mrp/barcode/setup/operation_types.rst:170
 msgid ""
@@ -16844,7 +16844,7 @@ msgid ""
 msgstr ""
 ":guilabel:`Last Used`: Използва се последното местоположение, с което е било"
 " свързано движение за този продукт или категория продукти. Ако няма последно"
-" използвано местоположение, дестинацията е тази, посочена в полето "
+" използвано местоположение, местоназначението е тази, посочена в полето "
 ":guilabel:`Store to`."
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.rst:199
@@ -22565,7 +22565,7 @@ msgid ""
 "destination."
 msgstr ""
 "Това ще ви позволи да управлявате транспортната компания, реалните цени и "
-"дестинацията."
+"местоназначението."
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel.rst:15
 msgid "You can easily cancel the request made to the carrier system."
@@ -26344,7 +26344,7 @@ msgid ""
 "method based on the order's content or destination:"
 msgstr ""
 "Използвайте раздела :guilabel:`Наличност`, за да зададете условия за метода "
-"на доставка въз основа на съдържанието или дестинацията на поръчката:"
+"на доставка въз основа на съдържанието или местоназначението на поръчката:"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/new_delivery_method.rst:80
 msgid ""
@@ -26520,9 +26520,9 @@ msgid ""
 "and :guilabel:`Zip Prefixes`. Leave these fields empty if all locations "
 "apply."
 msgstr ""
-"За да ограничите доставката до конкретни дестинации на уебсайта "
+"За да ограничите доставката до конкретни местоназначения на уебсайта "
 "**eCommerce**, във формуляра на метода за доставка отидете в раздела "
-":guilabel:`Наличност по дестинация` и задайте :guilabel:`Държави`, "
+":guilabel:`Наличност по местоназначение` и задайте :guilabel:`Държави`, "
 ":guilabel:`Области` и :guilabel:`Пощенски префикси`. Оставете тези полета "
 "празни, ако важат за всички местоположения."
 
@@ -30913,7 +30913,7 @@ msgstr ""
 "автоматизирани системи за класификация, за да разграничава вътрешните от "
 "международните пратки за целите на тарифирането. Тези системи помагат да се "
 "гарантира точно изчисляване на пощенските такси въз основа на фактори като "
-"дестинация, тегло на пакета, размери и избран клас поща."
+"местоназначение, тегло на пакета, размери и избран клас поща."
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/usps.rst:117
 msgid ""
@@ -33397,7 +33397,7 @@ msgid ""
 msgstr ""
 ":guilabel:`Replenishments`: използва се за :doc:`конфигуриране на маршрути "
 "<../../shipping_receiving/daily_operations/use_routes>`; поставете отметка в"
-" това квадратче, за да зададете местоположението като дестинация за "
+" това квадратче, за да зададете местоположението като местоназначение за "
 "получаване на продукти от маршрути *Buy*, *Manufacture* или други маршрути "
 "за снабдяване, като гарантирате, че продуктите се доставят правилно в "
 "склада."

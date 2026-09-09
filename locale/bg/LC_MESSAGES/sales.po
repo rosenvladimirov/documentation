@@ -19926,16 +19926,16 @@ msgid ""
 "**Green** :icon:`fa-list` (:guilabel:`Valid product lot`) **icon**: The "
 "tracking number was successfully imported or assigned."
 msgstr ""
-"**Зелена** икона :icon:`fa-list` (:guilabel:`Valid product lot`): Номерът за"
-" проследяване е успешно импортиран или присвоен."
+"**Зелена** :icon:`fa-list` (:guilabel:`Valid product lot`) **икона**: "
+"Номерът за проследяване е успешно импортиран или присвоен."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:452
 msgid ""
 "**Red** :icon:`fa-list` (:guilabel:`Invalid product lot`) **icon**: The "
 "tracking number is missing or incorrect."
 msgstr ""
-"**Червена** икона :icon:`fa-list` (:guilabel:`Invalid product lot`): Номерът"
-" за проследяване липсва или е неправилен."
+"**Червена** :icon:`fa-list` (:guilabel:`Invalid product lot`) **икона**: "
+"Номерът за проследяване липсва или е неправилен."
 
 #: ../../content/applications/sales/point_of_sale/products.rst:455
 msgid ""
