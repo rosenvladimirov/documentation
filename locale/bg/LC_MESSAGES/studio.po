@@ -10,12 +10,11 @@ msgstr ""
 "POT-Creation-Date: 2026-06-05 19:21+0000\n"
 "PO-Revision-Date: 2026-09-08 14:00+0000\n"
 "Last-Translator: Rosen Vladimirov <vladimirov.rosen@gmail.com>\n"
-"Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-19-doc/"
-"studio/bg/>\n"
+"Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-19-doc/studio/bg/>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bg\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.8.1\n"
 
@@ -28,8 +27,8 @@ msgid ""
 "**Odoo Studio** is a toolbox used to customize Odoo without coding "
 "knowledge. For example, in any app, add or modify:"
 msgstr ""
-"**Odoo Studio** е инструмент, използван за персонализиране на Odoo без нужда "
-"от познания по програмиране. Например, във всяко приложение можете да "
+"**Odoo Studio** е набор от инструменти, използван за персонализиране на Odoo"
+" без познания по програмиране. Например, във всяко приложение можете да "
 "добавяте или променяте:"
 
 #: ../../content/applications/studio.rst:21
@@ -68,8 +67,8 @@ msgstr "Правила за сигурност"
 msgid ""
 "Learn how to :doc:`build an app from scratch <studio/models_modules_apps>`."
 msgstr ""
-"Научете как да :doc:`създадете приложение от нулата <studio/"
-"models_modules_apps>`."
+"Научете как да :doc:`създадете приложение от нулата "
+"<studio/models_modules_apps>`."
 
 #: ../../content/applications/studio.rst:34
 msgid ""
@@ -78,19 +77,18 @@ msgid ""
 "Alternatively, with any app open, click the :icon:`oi-studio` "
 "(:guilabel:`Toggle Studio`) icon and navigate to the relevant app and model."
 msgstr ""
-"За достъп до **Studio** отидете в приложението и модела, който искате да "
+"За достъп до **Studio** отидете до приложението и модела, които искате да "
 "промените, след което щракнете върху иконата :icon:`oi-studio` "
-"(:guilabel:`Превключване на Studio`). Алтернативно, с отворено произволно "
-"приложение, щракнете върху иконата :icon:`oi-studio` "
-"(:guilabel:`Превключване на Studio`) и отидете до съответното приложение и "
-"модел."
+"(:guilabel:`Toggle Studio`). Като алтернатива, при отворено приложение "
+"щракнете върху иконата :icon:`oi-studio` (:guilabel:`Toggle Studio`) и "
+"отидете до съответното приложение и модел."
 
 #: ../../content/applications/studio.rst:38
 msgid ""
 "To close **Studio**, click :guilabel:`Close` in the upper-right corner."
 msgstr ""
-"За да затворите **Studio**, щракнете върху :guilabel:`Затвори` в горния "
-"десен ъгъл."
+"За да затворите **Studio**, щракнете върху :guilabel:`Close` в горния десен "
+"ъгъл."
 
 #: ../../content/applications/studio.rst:41
 msgid ""
@@ -98,7 +96,7 @@ msgid ""
 "automatically triggers an upsell to the *Custom* pricing plan."
 msgstr ""
 "Инсталирането на **Studio** в база данни на Odoo с ценови план *Standard* "
-"автоматично задейства надграждане до ценовия план *Custom*."
+"автоматично задейства преминаване към ценовия план *Custom*."
 
 #: ../../content/applications/studio.rst:44
 msgid ""
@@ -106,23 +104,24 @@ msgid ""
 "30-day limit."
 msgstr ""
 "**За годишни или многогодишни договори**: Създава се поръчка за надграждане "
-"с ограничение от 30 дни."
+"с 30-дневен срок."
 
 #: ../../content/applications/studio.rst:45
 msgid ""
 "**For monthly contracts**: The subscription automatically switches to the "
 "*Custom* plan and the new rate is applied when the next bill is generated."
 msgstr ""
-"**За месечни договори**: Абонаментът автоматично се превключва към плана "
-"*Custom* и новата тарифа се прилага при генериране на следващата фактура."
+"**За месечни договори**: Абонаментът автоматично преминава към плана "
+"*Custom* и новата ставка се прилага при генерирането на следващата фактура."
 
 #: ../../content/applications/studio.rst:48
 msgid ""
 "For more information, refer to `Odoo's pricing page "
 "<https://www.odoo.com/pricing-plan>`_ or contact your account manager."
 msgstr ""
-"За повече информация, вижте `страницата с цени на Odoo <https://www.odoo.com/"
-"pricing-plan>`_ или се свържете с вашия акаунт мениджър."
+"За повече информация вижте `страницата с цени на Odoo "
+"<https://www.odoo.com/pricing-plan>`_ или се свържете с вашия мениджър на "
+"акаунта."
 
 #: ../../content/applications/studio.rst:52
 msgid "`Odoo Tutorials: Studio <https://www.odoo.com/slides/studio-31>`_"
@@ -138,18 +137,20 @@ msgid ""
 "allow you to define the criteria for when an approval is required before an "
 "action can be performed using a button."
 msgstr ""
-"Правилата за одобрение се използват за автоматизиране на процесите на "
-"одобрение за действия. Те ви позволяват да дефинирате критериите, при които "
-"е необходимо одобрение, преди дадено действие да може да бъде изпълнено чрез "
-"бутон."
+"Правилата за одобрение се използват за автоматизиране на процесите по "
+"одобрение на действия. Те ви позволяват да дефинирате критериите за това "
+"кога е необходимо одобрение, преди дадено действие да може да бъде извършено"
+" чрез бутон."
 
 #: ../../content/applications/studio/approval_rules.rst:9
 msgid "Configuration"
-msgstr "Конфигурация"
+msgstr "Конфигуриране"
 
 #: ../../content/applications/studio/approval_rules.rst:11
 msgid "To add approval rules with Studio, proceed as follows:"
-msgstr "За да добавите правила за одобрение с Studio, направете следното:"
+msgstr ""
+"За да добавите правила за одобрение със Studio, процедирайте по следния "
+"начин:"
 
 #: ../../content/applications/studio/approval_rules.rst:13
 msgid ""
@@ -168,25 +169,24 @@ msgid ""
 "Click :icon:`fa-plus` :guilabel:`Add an approval step` in the :icon:`fa-"
 "server` :guilabel:`Properties` tab."
 msgstr ""
-"Натиснете :icon:`fa-plus` :guilabel:`Добавяне на стъпка за одобрение` в "
-"раздела :icon:`fa-server` :guilabel:`Свойства`."
+"Щракнете върху :icon:`fa-plus` :guilabel:`Add an approval step` в раздела "
+":icon:`fa-server` :guilabel:`Properties`."
 
 #: ../../content/applications/studio/approval_rules.rst:17
 msgid ""
 "Specify which users are responsible for approving the action by using one of"
 " the following fields or both:"
 msgstr ""
-"Посочете кои потребители отговарят за одобряването на действието, като "
+"Посочете кои потребители са отговорни за одобряването на действието, като "
 "използвате едно от следните полета или и двете:"
 
 #: ../../content/applications/studio/approval_rules.rst:20
 msgid ":guilabel:`Approvers` to specify one or several users;"
-msgstr ":guilabel:`Одобряващи` – за посочване на един или няколко потребители;"
+msgstr ":guilabel:`Approvers`, за да посочите един или няколко потребители;"
 
 #: ../../content/applications/studio/approval_rules.rst:21
 msgid ":guilabel:`Approver Group` to specify one user group."
-msgstr ""
-":guilabel:`Група одобряващи` – за посочване на една потребителска група."
+msgstr ":guilabel:`Approver Group`, за да посочите една потребителска група."
 
 #: ../../content/applications/studio/approval_rules.rst:24
 msgid ""
@@ -194,21 +194,21 @@ msgid ""
 " approval is requested."
 msgstr ""
 "Създава се дейност за всички потребители, зададени като "
-":guilabel:`Одобряващи`, когато се изисква тяхното одобрение."
+":guilabel:`Approvers`, когато бъде поискано тяхното одобрение."
 
 #: ../../content/applications/studio/approval_rules.rst:27
 msgid ""
 "(*optional*) Select the :guilabel:`Users to Notify` via an internal note "
 "when the action is approved or rejected."
 msgstr ""
-"(*незадължително*) Изберете :guilabel:`Потребители за уведомяване` чрез "
-"вътрешна бележка, когато действието бъде одобрено или отхвърлено."
+"(*по избор*) Изберете :guilabel:`Users to Notify` чрез вътрешна бележка, "
+"когато действието бъде одобрено или отхвърлено."
 
 #: ../../content/applications/studio/approval_rules.rst:29
 msgid ""
 "(*optional*) Add a :guilabel:`Description` to be displayed on the button."
 msgstr ""
-"(*незадължително*) Добавете :guilabel:`Описание`, което да се показва върху "
+"(*по избор*) Добавете :guilabel:`Description`, която да се показва върху "
 "бутона."
 
 #: ../../content/applications/studio/approval_rules.rst:32
@@ -217,26 +217,26 @@ msgid ""
 "by clicking the :icon:`fa-filter` (:guilabel:`filter`) icon next to the "
 ":guilabel:`Approvers` field."
 msgstr ""
-"Можете да посочите при какви условия трябва да се прилага дадена стъпка за "
-"одобрение, като натиснете иконата :icon:`fa-filter` (:guilabel:`филтър`) до "
-"полето :guilabel:`Одобряващи`."
+"Можете да посочите при какво(и) условие(я) трябва да се прилага дадена "
+"стъпка на одобрение, като щракнете върху иконата :icon:`fa-filter` "
+"(:guilabel:`filter`) до полето :guilabel:`Approvers`."
 
 #: ../../content/applications/studio/approval_rules.rst:35
 msgid ""
 "To add another approval step, click :icon:`fa-plus` :guilabel:`Add an "
 "approval step`. When there are multiple steps, you can:"
 msgstr ""
-"За да добавите друга стъпка за одобрение, натиснете :icon:`fa-plus` "
-":guilabel:`Добавяне на стъпка за одобрение`. Когато има няколко стъпки, "
-"можете да:"
+"За да добавите друга стъпка на одобрение, щракнете върху :icon:`fa-plus` "
+":guilabel:`Add an approval step`. Когато има няколко стъпки, можете да:"
 
 #: ../../content/applications/studio/approval_rules.rst:38
 msgid ""
 "Enable :guilabel:`Exclusive Approval` on any step so that a user who "
 "approves a step cannot approve another step for the same record."
 msgstr ""
-"Активирайте :guilabel:`Изключително одобрение` на дадена стъпка, за да не "
-"може потребител, одобрил тази стъпка, да одобри друга стъпка за същия запис."
+"Активирате :guilabel:`Exclusive Approval` за която и да е стъпка, така че "
+"потребител, който одобри дадена стъпка, да не може да одобрява друга стъпка "
+"за същия запис."
 
 #: ../../content/applications/studio/approval_rules.rst:40
 msgid ""
@@ -245,30 +245,30 @@ msgid ""
 " for a higher step can approve/reject previous step(s) unless "
 ":guilabel:`Exclusive Approval` is selected."
 msgstr ""
-"Променете :guilabel:`Ред на одобрение` на стъпките, като изберете число – "
-"`1` за първа стъпка, `2` за втора стъпка и т.н. Потребител, отговарящ за по-"
-"висока стъпка, може да одобри/отхвърли предходната(ите) стъпка(и), освен ако "
-"не е избрано :guilabel:`Изключително одобрение`."
+"Промените :guilabel:`Approval Order` на стъпките, като изберете число, при "
+"което `1` е първата стъпка, `2` — втората стъпка и така нататък. Потребител,"
+" отговарящ за по-висока стъпка, може да одобрява/отхвърля предходна(и) "
+"стъпка(и), освен ако не е избрано :guilabel:`Exclusive Approval`."
 
 #: ../../content/applications/studio/approval_rules.rst:44
 msgid ""
 "Click the :icon:`fa-trash` (:guilabel:`trash`) icon next to the "
 ":guilabel:`Approvers` field to remove an approval step."
 msgstr ""
-"Натиснете иконата :icon:`fa-trash` (:guilabel:`кошче`) до полето "
-":guilabel:`Одобряващи`, за да премахнете стъпка за одобрение."
+"Щракнете върху иконата :icon:`fa-trash` (:guilabel:`trash`) до полето "
+":guilabel:`Approvers`, за да премахнете стъпка на одобрение."
 
 #: ../../content/applications/studio/approval_rules.rst:48
 msgid ""
 "You can create :ref:`user groups <access-rights/groups>` specifically for "
 "approvals."
 msgstr ""
-"Можете да създавате :ref:`потребителски групи <access-rights/groups>` "
+"Можете да създадете :ref:`потребителски групи <access-rights/groups>` "
 "специално за одобрения."
 
 #: ../../content/applications/studio/approval_rules.rst:53
 msgid "Use"
-msgstr "Използване"
+msgstr "Употреба"
 
 #: ../../content/applications/studio/approval_rules.rst:55
 msgid ""
@@ -276,13 +276,13 @@ msgid ""
 "is displayed next to the button's label for each approval step. Clicking an "
 "icon reveals the step(s)."
 msgstr ""
-"След като е дефинирано правило за одобрение за даден бутон, до етикета на "
-"бутона се показва икона **аватар на потребител** за всяка стъпка на "
-"одобрение. Натискането на икона разкрива стъпката(ите)."
+"След като за даден бутон е дефинирано правило за одобрение, до етикета на "
+"бутона се показва икона **потребителски аватар** за всяка стъпка на "
+"одобрение. Щракването върху икона разкрива стъпката(ите)."
 
 #: ../../content/applications/studio/approval_rules.rst:None
 msgid "Confirm button with two approval steps"
-msgstr "Бутон „Потвърждаване“ с две стъпки на одобрение"
+msgstr "Бутон за потвърждение с две стъпки на одобрение"
 
 #: ../../content/applications/studio/approval_rules.rst:62
 msgid ""
@@ -322,8 +322,8 @@ msgid ""
 "Reject the action by clicking the **user avatar** icon next to the button's "
 "label and then the :icon:`fa-times` (:guilabel:`reject`) button."
 msgstr ""
-"Отхвърлят действието, като щракнат върху иконата **потребителски аватар** до "
-"етикета на бутона, а след това върху бутона :icon:`fa-times` "
+"Отхвърлят действието, като щракнат върху иконата **потребителски аватар** до"
+" етикета на бутона, а след това върху бутона :icon:`fa-times` "
 "(:guilabel:`reject`)."
 
 #: ../../content/applications/studio/approval_rules.rst:73
@@ -332,8 +332,8 @@ msgid ""
 "their approval rights to one or several users for **all records** by:"
 msgstr ""
 "(само за потребители, избрани в полето :guilabel:`Approvers`) Делегиране на "
-"правата им за одобрение на един или няколко потребители за **всички записи** "
-"чрез:"
+"правата им за одобрение на един или няколко потребители за **всички записи**"
+" чрез:"
 
 #: ../../content/applications/studio/approval_rules.rst:76
 msgid ""
@@ -382,8 +382,8 @@ msgid ""
 "</applications/general/developer_mode>` and go to :menuselection:`Settings "
 "--> Technical --> Studio Approval Entries`."
 msgstr ""
-"Одобренията се проследяват в чатъра на записа. Запис за одобрение се създава "
-"и всеки път, когато се извърши действие, свързано с одобрение в Studio. За "
+"Одобренията се проследяват в чатъра на записа. Запис за одобрение се създава"
+" и всеки път, когато се извърши действие, свързано с одобрение в Studio. За "
 "да достъпите записите за одобрение, :doc:`активирайте режима на разработчик "
 "</applications/general/developer_mode>` и отидете на "
 ":menuselection:`Settings --> Technical --> Studio Approval Entries`."
@@ -411,8 +411,8 @@ msgid ""
 "salesperson, or the state of the record must not be :guilabel:`Draft`."
 msgstr ""
 "При създаване на правило за автоматизация е възможно да :ref:`добавите "
-"условия, които трябва да бъдат изпълнени <studio/automated-actions/"
-"conditions>`, за да се изпълни правилото за автоматизация, например "
+"условия, които трябва да бъдат изпълнени <studio/automated-"
+"actions/conditions>`, за да се изпълни правилото за автоматизация, например "
 "възможността трябва да е възложена на конкретен търговец или състоянието на "
 "записа не трябва да е :guilabel:`Draft`."
 
@@ -476,8 +476,8 @@ msgid ""
 "an activity 3 months after a sales order is created for clients with a "
 "satisfaction percentage lower than 30%."
 msgstr ""
-"За да осигури проследяване на по-малко удовлетворените клиенти, това правило "
-"за автоматизация създава дейност 3 месеца след създаването на поръчка за "
+"За да осигури проследяване на по-малко удовлетворените клиенти, това правило"
+" за автоматизация създава дейност 3 месеца след създаването на поръчка за "
 "продажба за клиенти с процент на удовлетвореност под 30%."
 
 #: ../../content/applications/studio/automated_actions.rst:0
@@ -546,23 +546,23 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:60
 msgid ":ref:`studio/automated-actions/trigger-values-updated`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-values-updated`"
 
 #: ../../content/applications/studio/automated_actions.rst:61
 msgid ":ref:`studio/automated-actions/trigger-email-events`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-email-events`"
 
 #: ../../content/applications/studio/automated_actions.rst:62
 msgid ":ref:`studio/automated-actions/trigger-timing-conditions`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-timing-conditions`"
 
 #: ../../content/applications/studio/automated_actions.rst:63
 msgid ":ref:`studio/automated-actions/trigger-custom`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-custom`"
 
 #: ../../content/applications/studio/automated_actions.rst:64
 msgid ":ref:`studio/automated-actions/trigger-external`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-external`"
 
 #: ../../content/applications/studio/automated_actions.rst:69
 msgid "Adding conditions"
@@ -574,8 +574,8 @@ msgid ""
 "target or exclude. Efficient filtering enhances overall performance as it "
 "avoids unnecessary processing on records that are not impacted by the rule."
 msgstr ""
-"Филтрите по домейн ви позволяват да определите записите, към които правилото "
-"за автоматизация трябва да е насочено или които да изключи. Ефективното "
+"Филтрите по домейн ви позволяват да определите записите, към които правилото"
+" за автоматизация трябва да е насочено или които да изключи. Ефективното "
 "филтриране подобрява цялостната производителност, тъй като избягва ненужна "
 "обработка на записи, които не са засегнати от правилото."
 
@@ -603,8 +603,8 @@ msgid ""
 "meet *before* the trigger event occurs, e.g., the record must have `Type = "
 "Customer Invoice` and `Status = Posted`."
 msgstr ""
-"Полето :guilabel:`Before Update Domain` дефинира условията, на които записът "
-"трябва да отговаря *преди* настъпването на тригериращото събитие, например "
+"Полето :guilabel:`Before Update Domain` дефинира условията, на които записът"
+" трябва да отговаря *преди* настъпването на тригериращото събитие, например "
 "записът трябва да има `Type = Customer Invoice` и `Status = Posted`."
 
 #: ../../content/applications/studio/automated_actions.rst:85
@@ -612,8 +612,8 @@ msgid ""
 "With developer mode activated, click :guilabel:`Edit Domain`, if available, "
 "then :guilabel:`New Rule`."
 msgstr ""
-"С активиран режим на разработчик щракнете върху :guilabel:`Edit Domain`, ако "
-"е наличен, след това върху :guilabel:`New Rule`."
+"С активиран режим на разработчик щракнете върху :guilabel:`Edit Domain`, ако"
+" е наличен, след това върху :guilabel:`New Rule`."
 
 #: ../../content/applications/studio/automated_actions.rst:88
 msgid ""
@@ -621,9 +621,9 @@ msgid ""
 "*after* the trigger event occurs, e.g., the customer invoice must have "
 "`Payment Status = Partially Paid`."
 msgstr ""
-"Домейнът :guilabel:`Apply on` дефинира условията, на които записът трябва да "
-"отговаря *след* настъпването на тригериращото събитие, например фактурата за "
-"клиент трябва да има `Payment Status = Partially Paid`."
+"Домейнът :guilabel:`Apply on` дефинира условията, на които записът трябва да"
+" отговаря *след* настъпването на тригериращото събитие, например фактурата "
+"за клиент трябва да има `Payment Status = Partially Paid`."
 
 #: ../../content/applications/studio/automated_actions.rst:91
 msgid ""
@@ -696,8 +696,8 @@ msgid ""
 msgstr ""
 "Задействане на автоматизирани действия, когато настъпят конкретни промени в "
 "базата данни. Наличните тригери в тази категория зависят от модела и се "
-"основават на често срещани промени, като добавяне на конкретен таг (например "
-"към задача) или задаване на стойност на поле (например задаване на полето "
+"основават на често срещани промени, като добавяне на конкретен таг (например"
+" към задача) или задаване на стойност на поле (например задаване на полето "
 ":guilabel:`User`)."
 
 #: ../../content/applications/studio/automated_actions.rst:124
@@ -733,9 +733,9 @@ msgid ""
 " time *before or after* the date of the selected date field, e.g., 30 days "
 "before the contract end date."
 msgstr ""
-":guilabel:`Based on date field`: Действието се задейства определен период от "
-"време *преди или след* датата от избраното поле за дата, напр. 30 дни преди "
-"датата на изтичане на договора."
+":guilabel:`Based on date field`: Действието се задейства определен период от"
+" време *преди или след* датата от избраното поле за дата, напр. 30 дни преди"
+" датата на изтичане на договора."
 
 #: ../../content/applications/studio/automated_actions.rst:143
 msgid ""
@@ -792,8 +792,9 @@ msgid ""
 "Optionally, :ref:`add conditions <studio/automated-actions/conditions>` that"
 " the record must meet before and/or after the rule is triggered."
 msgstr ""
-"По желание :ref:`добавете условия <studio/automated-actions/conditions>`, на "
-"които записът трябва да отговаря преди и/или след задействането на правилото."
+"По желание :ref:`добавете условия <studio/automated-actions/conditions>`, на"
+" които записът трябва да отговаря преди и/или след задействането на "
+"правилото."
 
 #: ../../content/applications/studio/automated_actions.rst:160
 msgid "Click :icon:`fa-cloud-upload` :guilabel:`Save manually`."
@@ -817,10 +818,11 @@ msgid ""
 "date or 7 days after the last update."
 msgstr ""
 "Това планирано действие проверява за дати и часове на изпълнение, които са "
-"настъпили след предишното му стартиране, и изпълнява свързаното(ите) действие"
-"(я), ако е приложимо. По подразбиране планираното действие е настроено на "
-":guilabel:`Execute Every` 4 часа, което обикновено е достатъчно за забавяния "
-"като 3 месеца след датата на поръчката или 7 дни след последното обновяване."
+"настъпили след предишното му стартиране, и изпълнява свързаното(ите) "
+"действие(я), ако е приложимо. По подразбиране планираното действие е "
+"настроено на :guilabel:`Execute Every` 4 часа, което обикновено е достатъчно"
+" за забавяния като 3 месеца след датата на поръчката или 7 дни след "
+"последното обновяване."
 
 #: ../../content/applications/studio/automated_actions.rst:170
 msgid ""
@@ -833,9 +835,9 @@ msgstr ""
 "Ако някое правило за автоматизация има тригер, базиран на време, със "
 "забавяне, по-малко от еквивалента на 40 часа, напр. 3 часа преди датата и "
 "часа на започване на събитието, честотата на планираното действие "
-"автоматично се увеличава, напр. на :guilabel:`Execute Every` 18 минути. Това "
-"позволява действието да бъде изпълнено по-близо до планираните си дата и час "
-"на изпълнение."
+"автоматично се увеличава, напр. на :guilabel:`Execute Every` 18 минути. Това"
+" позволява действието да бъде изпълнено по-близо до планираните си дата и "
+"час на изпълнение."
 
 #: ../../content/applications/studio/automated_actions.rst:175
 msgid "Click :guilabel:`Run manually` at the top left."
@@ -870,9 +872,9 @@ msgid ""
 "then, when all actions have been defined, click :icon:`fa-cloud-upload` "
 ":guilabel:`Save manually`."
 msgstr ""
-"Добавете :ref:`действието(ята) за изпълнение <studio/automated-actions/"
-"action>`, след което, когато всички действия са дефинирани, щракнете върху "
-":icon:`fa-cloud-upload` :guilabel:`Save manually`."
+"Добавете :ref:`действието(ята) за изпълнение <studio/automated-"
+"actions/action>`, след което, когато всички действия са дефинирани, щракнете"
+" върху :icon:`fa-cloud-upload` :guilabel:`Save manually`."
 
 #: ../../content/applications/studio/automated_actions.rst:187
 msgid ""
@@ -1008,8 +1010,8 @@ msgid ""
 "automation rule in the :guilabel:`When updating` field."
 msgstr ""
 "За тригерите :guilabel:`On create and edit` и :guilabel:`On UI change` след "
-"това **трябва** да изберете полето(ата), което да се използва за задействане "
-"на правилото за автоматизация в полето :guilabel:`When updating`."
+"това **трябва** да изберете полето(ата), което да се използва за задействане"
+" на правилото за автоматизация в полето :guilabel:`When updating`."
 
 #: ../../content/applications/studio/automated_actions.rst:242
 msgid ""
@@ -1037,8 +1039,8 @@ msgid ""
 msgstr ""
 "Тригерът :guilabel:`On UI change` може да се използва само с действието "
 ":ref:`Execute Code <studio/automated-actions/action-execute-code>` и работи "
-"само когато модификацията е направена ръчно. Действието не се изпълнява, ако "
-"полето е променено чрез друго правило за автоматизация."
+"само когато модификацията е направена ръчно. Действието не се изпълнява, ако"
+" полето е променено чрез друго правило за автоматизация."
 
 #: ../../content/applications/studio/automated_actions.rst:256
 msgid "External"
@@ -1050,8 +1052,8 @@ msgid ""
 " application using a :doc:`webhook <automated_actions/webhooks>`."
 msgstr ""
 "Задействане на автоматизирани действия въз основа на конкретно събитие във "
-"външна система или приложение чрез :doc:`webhook <automated_actions/webhooks>"
-"`."
+"външна система или приложение чрез :doc:`webhook "
+"<automated_actions/webhooks>`."
 
 #: ../../content/applications/studio/automated_actions.rst:261
 msgid ""
@@ -1073,9 +1075,9 @@ msgid ""
 msgstr ""
 "*Силно се препоръчва* да се консултирате с разработчик, архитект на решения "
 "или друга техническа роля, когато решавате да използвате webhook-ове, както "
-"и през целия процес на внедряване. Ако не са конфигурирани правилно, webhook-"
-"овете могат да нарушат базата данни на Odoo и връщането им може да отнеме "
-"време."
+"и през целия процес на внедряване. Ако не са конфигурирани правилно, "
+"webhook-овете могат да нарушат базата данни на Odoo и връщането им може да "
+"отнеме време."
 
 #: ../../content/applications/studio/automated_actions.rst:None
 msgid "Example of a Based on date field trigger"
@@ -1088,8 +1090,8 @@ msgid ""
 "an event occurs in your Odoo database."
 msgstr ""
 "Възможно е също да настроите автоматизирано действие, което :ref:`изпраща "
-"данни към webhook на външна система <studio/automated-actions/action-webhook>"
-"`, когато настъпи събитие във вашата база данни на Odoo."
+"данни към webhook на външна система <studio/automated-actions/action-"
+"webhook>`, когато настъпи събитие във вашата база данни на Odoo."
 
 #: ../../content/applications/studio/automated_actions.rst:278
 msgid ":doc:`Webhook documentation <automated_actions/webhooks>`"
@@ -1138,12 +1140,12 @@ msgid ""
 "record` action, the email uses the values set *before* the record is "
 "updated."
 msgstr ""
-"Това означава например, че ако дефинирате действие :guilabel:`Update record` "
-"и след това действие :guilabel:`Send email`, при което имейлът препраща към "
-"полето, което е било актуализирано, имейлът използва актуализираните "
+"Това означава например, че ако дефинирате действие :guilabel:`Update record`"
+" и след това действие :guilabel:`Send email`, при което имейлът препраща към"
+" полето, което е било актуализирано, имейлът използва актуализираните "
 "стойности. Ако обаче действието :guilabel:`Send email` е дефинирано преди "
-"действието :guilabel:`Update record`, имейлът използва стойностите, зададени "
-"*преди* записът да бъде актуализиран."
+"действието :guilabel:`Update record`, имейлът използва стойностите, зададени"
+" *преди* записът да бъде актуализиран."
 
 #: ../../content/applications/studio/automated_actions.rst:300
 msgid ""
@@ -1152,8 +1154,8 @@ msgid ""
 "position."
 msgstr ""
 "За да промените реда на дефинираните действия, щракнете върху иконата "
-":icon:`oi-draggable` :guilabel:`(дръжка за влачене)` до дадено действие и го "
-"завлачете до желаната позиция."
+":icon:`oi-draggable` :guilabel:`(дръжка за влачене)` до дадено действие и го"
+" завлачете до желаната позиция."
 
 #: ../../content/applications/studio/automated_actions.rst:306
 msgid "Update Record"
@@ -1164,8 +1166,8 @@ msgid ""
 "This action is used to update one of the record's (related) fields. The "
 "following options are available:"
 msgstr ""
-"Това действие се използва за актуализиране на едно от (свързаните) полета на "
-"записа. Налични са следните опции:"
+"Това действие се използва за актуализиране на едно от (свързаните) полета на"
+" записа. Налични са следните опции:"
 
 #: ../../content/applications/studio/automated_actions.rst:311
 msgid ""
@@ -1179,8 +1181,8 @@ msgid ""
 "installed."
 msgstr ""
 ":guilabel:`Update with AI`: актуализира избраното поле динамично въз основа "
-"на предоставения AI prompt. Тази опция изисква да е инсталирано приложението "
-"**Odoo AI**."
+"на предоставения AI prompt. Тази опция изисква да е инсталирано приложението"
+" **Odoo AI**."
 
 #: ../../content/applications/studio/automated_actions.rst:314
 msgid ""
@@ -1251,8 +1253,8 @@ msgid ""
 msgstr ""
 "Ако искате автоматизираното действие да премахне етикет от записа на "
 "клиента, задайте полето :guilabel:`Update` на :guilabel:`Customer > Tags`, "
-"изберете :guilabel:`by Removing` и след това изберете етикета, който да бъде "
-"премахнат."
+"изберете :guilabel:`by Removing` и след това изберете етикета, който да бъде"
+" премахнат."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an Update Record action"
@@ -1397,8 +1399,8 @@ msgid ""
 ":guilabel:`Reference`, then, in the dropdown, click :guilabel:`Search more`."
 " Click :guilabel:`New` to create a new sequence."
 msgstr ""
-"Ако искате автоматизираното действие да създава последователна референция на "
-"клиент всеки път, когато се създава нов клиент, задайте полето "
+"Ако искате автоматизираното действие да създава последователна референция на"
+" клиент всеки път, когато се създава нов клиент, задайте полето "
 ":guilabel:`Sequence` на :guilabel:`Reference`, след което в падащото меню "
 "щракнете върху :guilabel:`Search more`. Щракнете върху :guilabel:`New`, за "
 "да създадете нова последователност."
@@ -1410,9 +1412,10 @@ msgid ""
 " century, and the suffix `/CL`, e.g., `#-REF-2025-00001/CL`, "
 "`#-REF-2025-00002/CL`, etc."
 msgstr ""
-"В примера всеки нов клиент получава последователна референция с префикса `#-"
-"REF-%(year)s-`, където `%(year)s` е текущата година, включително столетието, "
-"и суфикса `/CL`, например `#-REF-2025-00001/CL`, `#-REF-2025-00002/CL` и т.н."
+"В примера всеки нов клиент получава последователна референция с префикса "
+"`#-REF-%(year)s-`, където `%(year)s` е текущата година, включително "
+"столетието, и суфикса `/CL`, например `#-REF-2025-00001/CL`, "
+"`#-REF-2025-00002/CL` и т.н."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an Update Record action using a sequence"
@@ -1514,11 +1517,11 @@ msgid ""
 msgstr ""
 "Ако искате правилото за автоматизация да дублира проект, например шаблон на "
 "проект с предварително зададени задачи, когато възможност е зададена на "
-"`Won`, добавете персонализирано :ref:`many2one поле <studio/fields/"
-"relational-fields-many2one>` `Related opportunity` в модела *Project* и "
-"персонализирано :ref:`one2many поле <studio/fields/relational-fields-"
-"one2many>` `Related project` в модела *Lead*, след което задайте следните "
-"данни за дублирания запис:"
+"`Won`, добавете персонализирано :ref:`many2one поле "
+"<studio/fields/relational-fields-many2one>` `Related opportunity` в модела "
+"*Project* и персонализирано :ref:`one2many поле <studio/fields/relational-"
+"fields-one2many>` `Related project` в модела *Lead*, след което задайте "
+"следните данни за дублирания запис:"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Duplicate a record in a different model"
@@ -1532,21 +1535,22 @@ msgid ""
 " Record` action to create a new project task and then assign it to a "
 "specific user using an :guilabel:`Update Record` action."
 msgstr ""
-"Можете да създадете друго правило за автоматизация с действия :ref:`studio/"
-"automated-actions/action-update-record`, за да актуализирате полетата на "
-"новия или дублирания запис, ако е необходимо. Например можете да използвате "
-"действие :guilabel:`Create Record`, за да създадете нова проектна задача, и "
-"след това да я възложите на конкретен потребител чрез действие "
-":guilabel:`Update Record`."
+"Можете да създадете друго правило за автоматизация с действия "
+":ref:`studio/automated-actions/action-update-record`, за да актуализирате "
+"полетата на новия или дублирания запис, ако е необходимо. Например можете да"
+" използвате действие :guilabel:`Create Record`, за да създадете нова "
+"проектна задача, и след това да я възложите на конкретен потребител чрез "
+"действие :guilabel:`Update Record`."
 
 #: ../../content/applications/studio/automated_actions.rst:459
 msgid "Create Activity"
-msgstr ""
+msgstr "Създаване на дейност"
 
 #: ../../content/applications/studio/automated_actions.rst:461
 msgid "This action is used to schedule a new activity linked to the record."
 msgstr ""
-"Това действие се използва за насрочване на нова дейност, свързана със записа."
+"Това действие се използва за насрочване на нова дейност, свързана със "
+"записа."
 
 #: ../../content/applications/studio/automated_actions.rst:465
 msgid ""
@@ -1676,16 +1680,16 @@ msgid ""
 ":guilabel:`Email`: to send the message as an email to the recipients of the "
 ":guilabel:`Email Template`."
 msgstr ""
-":guilabel:`Email`: за изпращане на съобщението като имейл до получателите на "
-":guilabel:`Email Template`."
+":guilabel:`Email`: за изпращане на съобщението като имейл до получателите на"
+" :guilabel:`Email Template`."
 
 #: ../../content/applications/studio/automated_actions.rst:513
 msgid ""
 ":guilabel:`Message`: to post the message on the record and notify the "
 "record's followers."
 msgstr ""
-":guilabel:`Message`: за публикуване на съобщението в записа и уведомяване на "
-"последователите на записа."
+":guilabel:`Message`: за публикуване на съобщението в записа и уведомяване на"
+" последователите на записа."
 
 #: ../../content/applications/studio/automated_actions.rst:514
 msgid ""
@@ -1727,7 +1731,7 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:528
 msgid "Send WhatsApp"
-msgstr ""
+msgstr "Изпращане на WhatsApp"
 
 #: ../../content/applications/studio/automated_actions.rst:531
 msgid ""
@@ -1735,8 +1739,8 @@ msgid ""
 "templates <productivity/whatsapp/templates>` must be created."
 msgstr ""
 "За да автоматизирате изпращането на WhatsApp съобщения, трябва да бъдат "
-"създадени един или повече :ref:`WhatsApp шаблони <productivity/whatsapp/"
-"templates>`."
+"създадени един или повече :ref:`WhatsApp шаблони "
+"<productivity/whatsapp/templates>`."
 
 #: ../../content/applications/studio/automated_actions.rst:534
 msgid ""
@@ -1798,8 +1802,8 @@ msgid ""
 msgstr ""
 "За да добавите/премахнете контакт, свързан със записа по динамичен начин, "
 "изберете :guilabel:`Dynamic Followers`. Ако е необходимо, променете "
-":guilabel:`Followers Field`, като щракнете върху името на полето заместител, "
-"след което изберете или потърсете полето за партньор в списъка, който се "
+":guilabel:`Followers Field`, като щракнете върху името на полето заместител,"
+" след което изберете или потърсете полето за партньор в списъка, който се "
 "появява. Щракването върху :icon:`oi-chevron-right` :guilabel:`(стрелка "
 "надясно)` до името на полето ви позволява да достигнете до свързани полета, "
 "ако е необходимо."
@@ -1817,8 +1821,8 @@ msgstr ""
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Adding the customer as a follower when project task set to in progress"
 msgstr ""
-"Добавяне на клиента като последовател, когато проектна задача е зададена на „"
-"in progress“"
+"Добавяне на клиента като последовател, когато проектна задача е зададена на "
+"„in progress“"
 
 #: ../../content/applications/studio/automated_actions.rst:569
 msgid "Execute Code"
@@ -1859,7 +1863,8 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:582
 msgid "`record`: record on which the action is triggered; may be void"
-msgstr "`record`: запис, върху който се задейства действието; може да е празен"
+msgstr ""
+"`record`: запис, върху който се задейства действието; може да е празен"
 
 #: ../../content/applications/studio/automated_actions.rst:583
 msgid ""
@@ -1952,8 +1957,9 @@ msgid ""
 " predefined event occurs in that system."
 msgstr ""
 "Възможно е също да настроите автоматизирано действие, което :doc:`използва "
-"уебхук за получаване на данни от външна система <automated_actions/webhooks>"
-"`, когато настъпи предварително зададено събитие в тази система."
+"уебхук за получаване на данни от външна система "
+"<automated_actions/webhooks>`, когато настъпи предварително зададено събитие"
+" в тази система."
 
 #: ../../content/applications/studio/automated_actions.rst:618
 msgid "Multi Actions"
@@ -2017,8 +2023,8 @@ msgid ""
 "action in your Odoo database when a specific event occurs in another, "
 "external system."
 msgstr ""
-"Уебхуковете, които могат да бъдат създадени в **Odoo Studio**, ви позволяват "
-"да автоматизирате действие във вашата база данни на Odoo, когато настъпи "
+"Уебхуковете, които могат да бъдат създадени в **Odoo Studio**, ви позволяват"
+" да автоматизирате действие във вашата база данни на Odoo, когато настъпи "
 "определено събитие в друга, външна система."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:13
@@ -2043,10 +2049,11 @@ msgid ""
 msgstr ""
 "За разлика от планираните действия, които се изпълняват през предварително "
 "зададени интервали, или ръчните API заявки, които трябва да бъдат изрично "
-"извикани, уебхуковете позволяват комуникация и автоматизация в реално време, "
-"управлявани от събития. Например можете да настроите уебхук, така че данните "
-"за наличностите ви в Odoo да се актуализират автоматично, когато поръчка за "
-"продажба бъде потвърдена във външна система за продажби (point-of-sale)."
+"извикани, уебхуковете позволяват комуникация и автоматизация в реално време,"
+" управлявани от събития. Например можете да настроите уебхук, така че "
+"данните за наличностите ви в Odoo да се актуализират автоматично, когато "
+"поръчка за продажба бъде потвърдена във външна система за продажби (point-"
+"of-sale)."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:22
 msgid ""
@@ -2057,8 +2064,8 @@ msgid ""
 msgstr ""
 "Настройването на уебхук в Odoo не изисква програмиране, когато се свързват "
 "две бази данни на Odoo, но :ref:`тестването на уебхук <studio/webhooks/test-"
-"webhook>` изисква външен инструмент. :ref:`Персонализирани целеви записи или "
-"действия <studio/webhooks/webhook-example>` може да изискват умения за "
+"webhook>` изисква външен инструмент. :ref:`Персонализирани целеви записи или"
+" действия <studio/webhooks/webhook-example>` може да изискват умения за "
 "програмиране."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:28
@@ -2098,8 +2105,8 @@ msgstr ""
 ":ref:`Активирането на режим на разработчик <developer-mode>` преди "
 "създаването на уебхук дава по-голяма гъвкавост при избора на :doc:`модела "
 "<../models_modules_apps>`, към който е насочено правилото за автоматизация. "
-"То също така ви позволява да намерите техническото име на модела и полетата, "
-"което може да е необходимо за конфигуриране на полезния товар."
+"То също така ви позволява да намерите техническото име на модела и полетата,"
+" което може да е необходимо за конфигуриране на полезния товар."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:47
 msgid ""
@@ -2152,8 +2159,8 @@ msgid ""
 "when implementing the webhook in the external system that will send updates "
 "to the database."
 msgstr ""
-"URL адресът на уебхука се генерира автоматично, но може да бъде променен при "
-"необходимост чрез щракване върху :guilabel:`Rotate Secret`. Това е URL "
+"URL адресът на уебхука се генерира автоматично, но може да бъде променен при"
+" необходимост чрез щракване върху :guilabel:`Rotate Secret`. Това е URL "
 "адресът, който трябва да се използва при внедряването на уебхука във "
 "външната система, която ще изпраща актуализации към базата данни."
 
@@ -2164,9 +2171,9 @@ msgid ""
 "database. If the URL is updated after the initial implementation, make sure "
 "to update it in the external system."
 msgstr ""
-"URL адресът е **поверителен** и трябва да се третира с внимание. Споделянето "
-"му онлайн или без предпазливост може да предостави нежелан достъп до базата "
-"данни на Odoo. Ако URL адресът бъде актуализиран след първоначалното "
+"URL адресът е **поверителен** и трябва да се третира с внимание. Споделянето"
+" му онлайн или без предпазливост може да предостави нежелан достъп до базата"
+" данни на Odoo. Ако URL адресът бъде актуализиран след първоначалното "
 "внедряване, не забравяйте да го актуализирате във външната система."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:69
@@ -2187,9 +2194,9 @@ msgid ""
 msgstr ""
 "Ако системата, която изпраща webhook-а, не е Odoo, коригирайте кода на "
 ":guilabel:`Target Record`, така че да търси JSON записа, включен в полезния "
-"товар (payload), когато API заявката се направи към URL адреса на webhook-а. "
-"Ако системата, която изпраща webhook-а, е база данни на Odoo, уверете се, че "
-"`id` и `model` присъстват в полезния товар."
+"товар (payload), когато API заявката се направи към URL адреса на webhook-а."
+" Ако системата, която изпраща webhook-а, е база данни на Odoo, уверете се, "
+"че `id` и `model` присъстват в полезния товар."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:77
 msgid ""
@@ -2215,8 +2222,9 @@ msgid ""
 "Before implementing the webhook in the external system, :ref:`test "
 "<studio/webhooks/test-webhook>` it to ensure it works as intended."
 msgstr ""
-"Преди да внедрите webhook-а във външната система, :ref:`тествайте <studio/"
-"webhooks/test-webhook>` го, за да се уверите, че работи както е предвидено."
+"Преди да внедрите webhook-а във външната система, :ref:`тествайте "
+"<studio/webhooks/test-webhook>` го, за да се уверите, че работи както е "
+"предвидено."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:86
 msgid ""
@@ -2266,9 +2274,9 @@ msgid ""
 "See the :ref:`webhook use cases section <studio/webhooks/webhook-examples>` "
 "for step-by-step explanations of how to test webhooks using test payloads."
 msgstr ""
-"Вижте :ref:`раздела с примери за употреба на webhook <studio/webhooks/"
-"webhook-examples>` за обяснения стъпка по стъпка как да тествате webhook-ове "
-"с помощта на тестови полезни товари."
+"Вижте :ref:`раздела с примери за употреба на webhook "
+"<studio/webhooks/webhook-examples>` за обяснения стъпка по стъпка как да "
+"тествате webhook-ове с помощта на тестови полезни товари."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:105
 msgid ""
@@ -2370,8 +2378,8 @@ msgid ""
 "`POST` API requests are sent to the webhook's URL."
 msgstr ""
 "Когато webhook-ът е успешно създаден в Odoo и тестван, внедрете го в "
-"системата, която изпраща данни към базата данни на Odoo, като се уверите, че "
-"`POST` API заявките се изпращат към URL адреса на webhook-а."
+"системата, която изпраща данни към базата данни на Odoo, като се уверите, че"
+" `POST` API заявките се изпращат към URL адреса на webhook-а."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:142
 msgid "Webhook use cases"
@@ -2386,8 +2394,8 @@ msgid ""
 msgstr ""
 "По-долу са дадени два примера за това как да използвате webhook-ове в Odoo. "
 "За всеки пример е предоставен тестов полезен товар, който може да бъде "
-"намерен в раздела за тестване на webhook-а. За изпращане на тестовия полезен "
-"товар се използва `Postman <https://www.postman.com/>`_."
+"намерен в раздела за тестване на webhook-а. За изпращане на тестовия полезен"
+" товар се използва `Postman <https://www.postman.com/>`_."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:149
 msgid "Update a sales order's currency"
@@ -2430,9 +2438,9 @@ msgid ""
 "Open the **Sales** app, then :ref:`open Studio <studio/access>` and click "
 ":guilabel:`Webhooks`. The *Sales Order* model is selected by default."
 msgstr ""
-"Отворете приложението **Sales**, след това :ref:`отворете Studio <studio/"
-"access>` и щракнете върху :guilabel:`Webhooks`. Моделът *Sales Order* е "
-"избран по подразбиране."
+"Отворете приложението **Sales**, след това :ref:`отворете Studio "
+"<studio/access>` и щракнете върху :guilabel:`Webhooks`. Моделът *Sales "
+"Order* е избран по подразбиране."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:165
 #: ../../content/applications/studio/automated_actions/webhooks.rst:227
@@ -2448,8 +2456,8 @@ msgid ""
 "Set the :guilabel:`Target Record` to "
 "`model.env[payload.get('_model')].browse(int(payload.get('_id')))`, where:"
 msgstr ""
-"Задайте :guilabel:`Target Record` на `model.env[payload.get('_model')].browse"
-"(int(payload.get('_id')))`, където:"
+"Задайте :guilabel:`Target Record` на "
+"`model.env[payload.get('_model')].browse(int(payload.get('_id')))`, където:"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:169
 msgid ""
@@ -2458,8 +2466,8 @@ msgid ""
 "*Sales Order* model."
 msgstr ""
 "`payload.get('_model')` извлича стойността, свързана с ключа `model` в "
-"полезния товар, т.е. `sale.order`, което е техническото име на модела *Sales "
-"Order*."
+"полезния товар, т.е. `sale.order`, което е техническото име на модела *Sales"
+" Order*."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:171
 msgid ""
@@ -2545,8 +2553,8 @@ msgid ""
 "with the number `S00007` should be entered as `7` in Postman."
 msgstr ""
 "В своята база данни на Odoo изберете поръчка за продажба, върху която да "
-"тествате webhook. В поставения код заменете `SALES ORDER NUMBER` с номера на "
-"поръчката за продажба без `S` или нулите преди номера. Например поръчка за "
+"тествате webhook. В поставения код заменете `SALES ORDER NUMBER` с номера на"
+" поръчката за продажба без `S` или нулите преди номера. Например поръчка за "
 "продажба с номер `S00007` трябва да се въведе като `7` в Postman."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:207
@@ -2575,17 +2583,17 @@ msgid ""
 msgstr ""
 "Този webhook използва персонализиран код, за да създаде нов контакт в база "
 "данни на Odoo, когато външната система изпрати `POST` API заявка към URL "
-"адреса на webhook, която включва информацията за контакта. Това може да бъде "
-"полезно за автоматично създаване на нови доставчици или клиенти."
+"адреса на webhook, която включва информацията за контакта. Това може да бъде"
+" полезно за автоматично създаване на нови доставчици или клиенти."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:225
 msgid ""
 "Open the **Contacts** app, then :ref:`open Studio <studio/access>` and click"
 " :guilabel:`Webhooks`. The *Contact* model is selected by default."
 msgstr ""
-"Отворете приложението **Contacts**, след това :ref:`отворете Studio <studio/"
-"access>` и щракнете върху :guilabel:`Webhooks`. Моделът *Contact* е избран "
-"по подразбиране."
+"Отворете приложението **Contacts**, след това :ref:`отворете Studio "
+"<studio/access>` и щракнете върху :guilabel:`Webhooks`. Моделът *Contact* е "
+"избран по подразбиране."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:228
 msgid ""
@@ -2594,9 +2602,9 @@ msgid ""
 "webhook what needs to be retrieved from the payload and in which model the "
 "record needs to be created."
 msgstr ""
-"Задайте :guilabel:`Target Record` на `model.browse([2])`. Това по същество е "
-"контейнер за стойност, тъй като кодът в автоматизираното действие указва на "
-"webhook какво трябва да бъде извлечено от полезния товар и в кой модел "
+"Задайте :guilabel:`Target Record` на `model.browse([2])`. Това по същество е"
+" контейнер за стойност, тъй като кодът в автоматизираното действие указва на"
+" webhook какво трябва да бъде извлечено от полезния товар и в кой модел "
 "трябва да бъде създаден записът."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:232
@@ -2659,10 +2667,10 @@ msgid ""
 "different default widget;"
 msgstr ""
 ":ref:`да добавяте нови полета <studio/fields/add-new>` към своята база "
-"данни. От техническа гледна точка в Odoo има 15 :ref:`типа полета <studio/"
-"fields/field-types>`. Въпреки това в Studio можете да избирате измежду 21 "
-"типа полета, тъй като някои типове полета са налични повече от веднъж с "
-"различно приспособление по подразбиране;"
+"данни. От техническа гледна точка в Odoo има 15 :ref:`типа полета "
+"<studio/fields/field-types>`. Въпреки това в Studio можете да избирате "
+"измежду 21 типа полета, тъй като някои типове полета са налични повече от "
+"веднъж с различно приспособление по подразбиране;"
 
 #: ../../content/applications/studio/fields.rst:16
 msgid ""
@@ -2670,7 +2678,8 @@ msgid ""
 "already exists on a model, to any view of that model;"
 msgstr ""
 ":ref:`да добавяте съществуващи полета, <studio/fields/add-existing>` т.е. "
-"полета, които вече съществуват в даден модел, към всеки изглед на този модел;"
+"полета, които вече съществуват в даден модел, към всеки изглед на този "
+"модел;"
 
 #: ../../content/applications/studio/fields.rst:18
 msgid ":ref:`modify a field's properties <studio/fields/modify>`; or"
@@ -2693,11 +2702,11 @@ msgid ""
 "same parent record (e.g., for tasks, the project, or for a product, the "
 "product category), but they are not saved as columns in your database."
 msgstr ""
-"Полетата, създадени чрез Studio, се запазват като колони в своята база данни "
-"на Odoo. :doc:`Полетата свойства <../essentials/property_fields>`, от друга "
-"страна, действат като псевдополета; те се споделят от всички записи, които "
-"са свързани със същия родителски запис (например за задачите – проектът, или "
-"за продукта – продуктовата категория), но не се запазват като колони в "
+"Полетата, създадени чрез Studio, се запазват като колони в своята база данни"
+" на Odoo. :doc:`Полетата свойства <../essentials/property_fields>`, от друга"
+" страна, действат като псевдополета; те се споделят от всички записи, които "
+"са свързани със същия родителски запис (например за задачите – проектът, или"
+" за продукта – продуктовата категория), но не се запазват като колони в "
 "своята база данни."
 
 #: ../../content/applications/studio/fields.rst:29
@@ -2712,7 +2721,8 @@ msgstr ""
 "Studio прави това поле видимо във всяка задача в своята база данни. "
 "Добавянето на поле свойство :guilabel:`Special instructions` към дадена "
 "задача прави полето видимо във всички задачи *в рамките на същия проект* "
-"(т.е. неговия родител), докато задачите на други проекти остават незасегнати."
+"(т.е. неговия родител), докато задачите на други проекти остават "
+"незасегнати."
 
 #: ../../content/applications/studio/fields.rst:37
 msgid "Field types"
@@ -2749,8 +2759,8 @@ msgid ""
 "automatically through prompts."
 msgstr ""
 ":doc:`AI полетата <../productivity/ai/fields>` по същество са стандартни "
-"полета на Odoo с добавени AI възможности, които позволяват техните стойности "
-"да бъдат генерирани автоматично чрез подкани."
+"полета на Odoo с добавени AI възможности, които позволяват техните стойности"
+" да бъдат генерирани автоматично чрез подкани."
 
 #: ../../content/applications/studio/fields.rst:54
 msgid "Simple fields"
@@ -2767,7 +2777,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:62
 msgid "Text (`char`)"
-msgstr ""
+msgstr "Текст (`char`)"
 
 #: ../../content/applications/studio/fields.rst:64
 msgid ""
@@ -2805,8 +2815,8 @@ msgid ""
 ":guilabel:`Image`: displays an image using a URL. The value cannot be edited"
 " manually, but a default value can be set."
 msgstr ""
-":guilabel:`Image`: показва изображение чрез URL адрес. Стойността не може да "
-"се редактира ръчно, но може да се зададе стойност по подразбиране."
+":guilabel:`Image`: показва изображение чрез URL адрес. Стойността не може да"
+" се редактира ръчно, но може да се зададе стойност по подразбиране."
 
 #: ../../content/applications/studio/fields.rst:75
 msgid ""
@@ -2815,9 +2825,9 @@ msgid ""
 " Odoo when using a :guilabel:`Text` field with the :guilabel:`Image` widget."
 " For example, it can be useful if you want to save disk space."
 msgstr ""
-"Това работи различно от директното избиране на :ref:`полето Image <studio/"
-"fields/simple-fields-image>`, тъй като изображението не се съхранява в Odoo, "
-"когато се използва поле :guilabel:`Text` с приспособлението "
+"Това работи различно от директното избиране на :ref:`полето Image "
+"<studio/fields/simple-fields-image>`, тъй като изображението не се съхранява"
+" в Odoo, когато се използва поле :guilabel:`Text` с приспособлението "
 ":guilabel:`Image`. Например това може да бъде полезно, ако искате да "
 "спестите дисково пространство."
 
@@ -2843,7 +2853,7 @@ msgstr "Примери за полета Text с различни приспос
 
 #: ../../content/applications/studio/fields.rst:96
 msgid "Multiline Text (`text`)"
-msgstr ""
+msgstr "Многоредов текст (`text`)"
 
 #: ../../content/applications/studio/fields.rst:98
 msgid ""
@@ -2861,7 +2871,7 @@ msgstr "Примери за полета Multiline Text с различни пр
 
 #: ../../content/applications/studio/fields.rst:111
 msgid "Integer (`integer`)"
-msgstr ""
+msgstr "Цяло число (`integer`)"
 
 #: ../../content/applications/studio/fields.rst:113
 msgid ""
@@ -2897,8 +2907,8 @@ msgid ""
 ":guilabel:`Handle`: displays a drag handle icon to order records manually in"
 " :ref:`List view <studio/views/multiple-records/list>`."
 msgstr ""
-":guilabel:`Handle`: показва икона за плъзгане, с която записите се подреждат "
-"ръчно в :ref:`списъчния изглед <studio/views/multiple-records/list>`."
+":guilabel:`Handle`: показва икона за плъзгане, с която записите се подреждат"
+" ръчно в :ref:`списъчния изглед <studio/views/multiple-records/list>`."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Integer fields with different widgets"
@@ -2906,7 +2916,7 @@ msgstr "Примери за полета от тип Integer с различни
 
 #: ../../content/applications/studio/fields.rst:131
 msgid "Decimal (`float`)"
-msgstr ""
+msgstr "Десетично число (`float`)"
 
 #: ../../content/applications/studio/fields.rst:133
 msgid ""
@@ -2955,8 +2965,8 @@ msgid ""
 ":guilabel:`Time`: the value must follow the *hh:mm* format, with a maximum "
 "of 59 minutes."
 msgstr ""
-":guilabel:`Time`: стойността трябва да следва формата *hh:mm*, с максимум 59 "
-"минути."
+":guilabel:`Time`: стойността трябва да следва формата *hh:mm*, с максимум 59"
+" минути."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Decimal fields with different widgets"
@@ -2964,7 +2974,7 @@ msgstr "Примери за полета от тип Decimal с различни
 
 #: ../../content/applications/studio/fields.rst:158
 msgid "Monetary (`monetary`)"
-msgstr ""
+msgstr "Парична стойност (`monetary`)"
 
 #: ../../content/applications/studio/fields.rst:160
 msgid "The :guilabel:`Monetary` field is used for all monetary values."
@@ -2979,8 +2989,8 @@ msgid ""
 msgstr ""
 "Когато добавите за пръв път поле :guilabel:`Monetary`, ще получите подкана "
 "да добавите поле :guilabel:`Currency`, ако такова все още не съществува в "
-"модела. Odoo предлага да добави полето :guilabel:`Currency` вместо вас. След "
-"като то бъде добавено, добавете отново полето :guilabel:`Monetary`."
+"модела. Odoo предлага да добави полето :guilabel:`Currency` вместо вас. След"
+" като то бъде добавено, добавете отново полето :guilabel:`Monetary`."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Monetary field along with its Currency field"
@@ -2988,7 +2998,7 @@ msgstr "Пример за поле Monetary заедно със съответн
 
 #: ../../content/applications/studio/fields.rst:175
 msgid "Html (`html`)"
-msgstr ""
+msgstr "Html (`html`)"
 
 #: ../../content/applications/studio/fields.rst:177
 msgid ""
@@ -3012,7 +3022,7 @@ msgstr "Примери за полета от тип Html с различни п
 
 #: ../../content/applications/studio/fields.rst:189
 msgid "Date (`date`)"
-msgstr ""
+msgstr "Дата (`date`)"
 
 #: ../../content/applications/studio/fields.rst:191
 msgid "The :guilabel:`Date` field is used to select a date on a calendar."
@@ -3034,7 +3044,7 @@ msgstr "Примери за полета от тип Date с различни п
 
 #: ../../content/applications/studio/fields.rst:204
 msgid "Date & Time (`datetime`)"
-msgstr ""
+msgstr "Дата и час (`datetime`)"
 
 #: ../../content/applications/studio/fields.rst:206
 msgid ""
@@ -3042,8 +3052,8 @@ msgid ""
 " a time on a clock. The user's current time is automatically used if no time"
 " is set."
 msgstr ""
-"Полето :guilabel:`Date & Time` се използва за избор на дата в календар и час "
-"на часовник. Ако не е зададен час, автоматично се използва текущият час на "
+"Полето :guilabel:`Date & Time` се използва за избор на дата в календар и час"
+" на часовник. Ако не е зададен час, автоматично се използва текущият час на "
 "потребителя."
 
 #: ../../content/applications/studio/fields.rst:211
@@ -3060,7 +3070,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:217
 msgid "Date Range (`daterange`)"
-msgstr ""
+msgstr "Диапазон от дати (`daterange`)"
 
 #: ../../content/applications/studio/fields.rst:219
 msgid ""
@@ -3085,8 +3095,8 @@ msgid ""
 " Time` field, or one created specifically for this purpose."
 msgstr ""
 "Добавянето на период от дати изисква две полета: поле :guilabel:`Date & "
-"Time` със зададено приспособление :guilabel:`Date Range` и друго поле, което "
-"се избира като начална дата *или* крайна дата. Това подлежащо поле може да "
+"Time` със зададено приспособление :guilabel:`Date Range` и друго поле, което"
+" се избира като начална дата *или* крайна дата. Това подлежащо поле може да "
 "бъде съществуващо поле :ref:`Date <studio/fields/simple-fields-date>` или "
 ":guilabel:`Date & Time`, или специално създадено за тази цел."
 
@@ -3136,8 +3146,8 @@ msgid ""
 "Add a :guilabel:`Date & Time` field and set the :guilabel:`Widget` field to "
 ":guilabel:`Date Range`."
 msgstr ""
-"Добавете поле :guilabel:`Date & Time` и задайте полето :guilabel:`Widget` на "
-":guilabel:`Date Range`."
+"Добавете поле :guilabel:`Date & Time` и задайте полето :guilabel:`Widget` на"
+" :guilabel:`Date Range`."
 
 #: ../../content/applications/studio/fields.rst:245
 msgid "Enter an appropriate :guilabel:`Label`."
@@ -3166,9 +3176,9 @@ msgid ""
 "date-datetime>` as needed, then click :guilabel:`Close` in the upper right "
 "corner of the screen."
 msgstr ""
-"Актуализирайте при необходимост други :ref:`общи свойства <studio/fields/"
-"properties>` или специфични :ref:`свойства за полета Date & Time <studio/"
-"fields/properties-date-datetime>`, след което щракнете върху "
+"Актуализирайте при необходимост други :ref:`общи свойства "
+"<studio/fields/properties>` или специфични :ref:`свойства за полета Date & "
+"Time <studio/fields/properties-date-datetime>`, след което щракнете върху "
 ":guilabel:`Close` в горния десен ъгъл на екрана."
 
 #: ../../content/applications/studio/fields.rst:0
@@ -3177,7 +3187,7 @@ msgstr "Примери за полета от тип Date & Time с различ
 
 #: ../../content/applications/studio/fields.rst:259
 msgid "Remaining Days (`remaining_days`)"
-msgstr ""
+msgstr "Оставащи дни (`remaining_days`)"
 
 #: ../../content/applications/studio/fields.rst:261
 msgid ""
@@ -3191,7 +3201,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:268
 msgid "Checkbox (`boolean`)"
-msgstr ""
+msgstr "Отметка (`boolean`)"
 
 #: ../../content/applications/studio/fields.rst:270
 msgid ""
@@ -3224,7 +3234,7 @@ msgstr "Примери за полета Отметка с различни пр
 
 #: ../../content/applications/studio/fields.rst:284
 msgid "Selection (`selection`)"
-msgstr ""
+msgstr "Селекция (`selection`)"
 
 #: ../../content/applications/studio/fields.rst:286
 msgid ""
@@ -3279,8 +3289,8 @@ msgid ""
 ":guilabel:`Status Bar`: displays all selectable values at the same time as "
 "an arrow progress bar."
 msgstr ""
-":guilabel:`Status Bar`: показва едновременно всички избираеми стойности като "
-"лента за напредък със стрелка."
+":guilabel:`Status Bar`: показва едновременно всички избираеми стойности като"
+" лента за напредък със стрелка."
 
 #: ../../content/applications/studio/fields.rst:306
 msgid ""
@@ -3297,7 +3307,7 @@ msgstr "Примери за полета Selection с различни прис�
 
 #: ../../content/applications/studio/fields.rst:317
 msgid "Priority (`selection`)"
-msgstr ""
+msgstr "Приоритет (`selection`)"
 
 #: ../../content/applications/studio/fields.rst:319
 msgid ""
@@ -3310,12 +3320,12 @@ msgid ""
 "have the same effects as described under :ref:`Selection "
 "<studio/fields/simple-fields-selection>`."
 msgstr ""
-"Полето :guilabel:`Priority` се използва за показване на система за оценяване "
-"с три звезди, която може да се използва за обозначаване на ниво на важност "
-"или удовлетвореност. Този тип поле е :ref:`поле Selection <studio/fields/"
-"simple-fields-selection>` с избрано по подразбиране приспособление "
-":guilabel:`Priority` и четири предварително зададени стойности на "
-"приоритета. Следователно приспособленията :guilabel:`Badge`, "
+"Полето :guilabel:`Priority` се използва за показване на система за оценяване"
+" с три звезди, която може да се използва за обозначаване на ниво на важност "
+"или удовлетвореност. Този тип поле е :ref:`поле Selection "
+"<studio/fields/simple-fields-selection>` с избрано по подразбиране "
+"приспособление :guilabel:`Priority` и четири предварително зададени "
+"стойности на приоритета. Следователно приспособленията :guilabel:`Badge`, "
 ":guilabel:`Badges`, :guilabel:`Radio` и :guilabel:`Selection` имат същите "
 "ефекти като описаните в :ref:`Selection <studio/fields/simple-fields-"
 "selection>`."
@@ -3329,9 +3339,9 @@ msgid ""
 msgstr ""
 "За да промените броя налични звезди чрез добавяне или премахване на "
 "стойности, щракнете върху :guilabel:`Edit Values`. Имайте предвид, че "
-"първата стойност е равна на 0 звезди (т.е. когато не е направен избор), така "
-"че наличието на четири стойности води например до система за оценяване с три "
-"звезди."
+"първата стойност е равна на 0 звезди (т.е. когато не е направен избор), така"
+" че наличието на четири стойности води например до система за оценяване с "
+"три звезди."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Priority field"
@@ -3339,7 +3349,7 @@ msgstr "Пример за поле Priority"
 
 #: ../../content/applications/studio/fields.rst:339
 msgid "File (`binary`)"
-msgstr ""
+msgstr "Файл (`binary`)"
 
 #: ../../content/applications/studio/fields.rst:341
 msgid ""
@@ -3357,8 +3367,8 @@ msgid ""
 msgstr ""
 ":guilabel:`Image`: потребителите могат да качат файл с изображение, който "
 "след това се показва във :ref:`Формуляр <studio/views/general/form>`. Това "
-"има същия ефект като използването на :ref:`полето Image <studio/fields/"
-"simple-fields-image>`."
+"има същия ефект като използването на :ref:`полето Image "
+"<studio/fields/simple-fields-image>`."
 
 #: ../../content/applications/studio/fields.rst:347
 msgid ""
@@ -3375,8 +3385,8 @@ msgid ""
 "sign>`."
 msgstr ""
 ":guilabel:`Sign`: потребителите могат да подпишат формуляра по електронен "
-"път. Това има същия ефект като избирането на :ref:`полето Sign <studio/"
-"fields/simple-fields-sign>`."
+"път. Това има същия ефект като избирането на :ref:`полето Sign "
+"<studio/fields/simple-fields-sign>`."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of File fields with different widgets"
@@ -3384,7 +3394,7 @@ msgstr "Примери за полета File с различни приспос
 
 #: ../../content/applications/studio/fields.rst:360
 msgid "Image (`binary`)"
-msgstr ""
+msgstr "Изображение (`binary`)"
 
 #: ../../content/applications/studio/fields.rst:362
 msgid ""
@@ -3396,11 +3406,11 @@ msgid ""
 "the same effects as described under :ref:`File <studio/fields/simple-fields-"
 "file>`."
 msgstr ""
-"Полето :guilabel:`Image` се използва за качване на изображение и показването "
-"му във :ref:`Формуляр <studio/views/general/form>`. Този тип поле е "
+"Полето :guilabel:`Image` се използва за качване на изображение и показването"
+" му във :ref:`Формуляр <studio/views/general/form>`. Този тип поле е "
 ":ref:`поле File <studio/fields/simple-fields-file>` с избрано по "
-"подразбиране приспособление :guilabel:`Image`. Следователно приспособленията "
-":guilabel:`File`, :guilabel:`PDF Viewer` и :guilabel:`Sign` имат същите "
+"подразбиране приспособление :guilabel:`Image`. Следователно приспособленията"
+" :guilabel:`File`, :guilabel:`PDF Viewer` и :guilabel:`Sign` имат същите "
 "ефекти като описаните в :ref:`File <studio/fields/simple-fields-file>`."
 
 #: ../../content/applications/studio/fields.rst:369
@@ -3414,7 +3424,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:375
 msgid "Sign (`binary`)"
-msgstr ""
+msgstr "Подпис (`binary`)"
 
 #: ../../content/applications/studio/fields.rst:377
 msgid ""
@@ -3425,12 +3435,12 @@ msgid ""
 " the same effects as described under :ref:`File <studio/fields/simple-"
 "fields-file>`."
 msgstr ""
-"Полето :guilabel:`Sign` се използва за подписване на формуляра по електронен "
-"път. Този тип поле е :ref:`поле File <studio/fields/simple-fields-file>` с "
+"Полето :guilabel:`Sign` се използва за подписване на формуляра по електронен"
+" път. Този тип поле е :ref:`поле File <studio/fields/simple-fields-file>` с "
 "избрано по подразбиране приспособление :guilabel:`Sign`. Следователно "
 "приспособленията :guilabel:`File`, :guilabel:`Image` и :guilabel:`PDF "
-"Viewer` имат същите ефекти като описаните в :ref:`File <studio/fields/simple-"
-"fields-file>`."
+"Viewer` имат същите ефекти като описаните в :ref:`File "
+"<studio/fields/simple-fields-file>`."
 
 #: ../../content/applications/studio/fields.rst:383
 msgid ""
@@ -3454,7 +3464,7 @@ msgstr "Релационни полета"
 
 #: ../../content/applications/studio/fields.rst:400
 msgid "Many2One (`many2one`)"
-msgstr ""
+msgstr "Many2One (`many2one`)"
 
 #: ../../content/applications/studio/fields.rst:402
 msgid ""
@@ -3526,7 +3536,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:429
 msgid "One2Many (`one2many`)"
-msgstr ""
+msgstr "One2Many (`one2many`)"
 
 #: ../../content/applications/studio/fields.rst:431
 msgid ""
@@ -3557,13 +3567,13 @@ msgid ""
 "of existing Many2One relations is performed."
 msgstr ""
 "За да използвате поле :guilabel:`One2Many`, двата модела трябва вече да са "
-"свързани чрез :ref:`поле Many2One <studio/fields/relational-fields-many2one>"
-"`. Релациите One2Many не съществуват самостоятелно: извършва се обратно "
-"търсене на съществуващите релации Many2One."
+"свързани чрез :ref:`поле Many2One <studio/fields/relational-fields-"
+"many2one>`. Релациите One2Many не съществуват самостоятелно: извършва се "
+"обратно търсене на съществуващите релации Many2One."
 
 #: ../../content/applications/studio/fields.rst:449
 msgid "Lines (`one2many`)"
-msgstr ""
+msgstr "Редове (`one2many`)"
 
 #: ../../content/applications/studio/fields.rst:451
 msgid ""
@@ -3590,7 +3600,7 @@ msgstr "Пример за поле от тип Lines"
 
 #: ../../content/applications/studio/fields.rst:467
 msgid "Many2Many (`many2many`)"
-msgstr ""
+msgstr "Many2Many (`many2many`)"
 
 #: ../../content/applications/studio/fields.rst:469
 msgid ""
@@ -3600,11 +3610,11 @@ msgid ""
 ":guilabel:`Domain`, just like :ref:`Many2One fields "
 "<studio/fields/relational-fields-many2one>`."
 msgstr ""
-"Полето :guilabel:`Many2Many` се използва за свързване на множество записи от "
-"друг модел с множество записи в текущия модел. Полетата Many2Many могат да "
+"Полето :guilabel:`Many2Many` се използва за свързване на множество записи от"
+" друг модел с множество записи в текущия модел. Полетата Many2Many могат да "
 "използват :guilabel:`Disable creation`, :guilabel:`Disable opening`, "
-":guilabel:`Domain`, точно както :ref:`полетата Many2One <studio/fields/"
-"relational-fields-many2one>`."
+":guilabel:`Domain`, точно както :ref:`полетата Many2One "
+"<studio/fields/relational-fields-many2one>`."
 
 #: ../../content/applications/studio/fields.rst:475
 msgid ""
@@ -3647,13 +3657,14 @@ msgid ""
 "shapes, also known as *tags*. This has the same effect as selecting the "
 ":ref:`Tags field <studio/fields/relational-fields-tags>`."
 msgstr ""
-":guilabel:`Tags`: потребителите могат да изберат няколко стойности, които се "
-"показват в заоблени форми, известни още като *тагове*. Това има същия ефект "
-"като избирането на :ref:`полето Tags <studio/fields/relational-fields-tags>`."
+":guilabel:`Tags`: потребителите могат да изберат няколко стойности, които се"
+" показват в заоблени форми, известни още като *тагове*. Това има същия ефект"
+" като избирането на :ref:`полето Tags <studio/fields/relational-fields-"
+"tags>`."
 
 #: ../../content/applications/studio/fields.rst:495
 msgid "Tags (`many2many`)"
-msgstr ""
+msgstr "Маркери (`many2many`)"
 
 #: ../../content/applications/studio/fields.rst:497
 msgid ""
@@ -3669,25 +3680,25 @@ msgstr ""
 "друг модел, които се показват в заоблени форми, известни още като *тагове*. "
 "Този тип поле е :ref:`поле Many2Many <studio/fields/relational-fields-"
 "many2many>` с избрано по подразбиране приспособление :guilabel:`Tags`. "
-"Следователно приспособленията :guilabel:`Checkboxes` и :guilabel:`Many2Many` "
-"имат същите ефекти като описаните в :ref:`Many2Many <studio/fields/"
-"relational-fields-many2many>`."
+"Следователно приспособленията :guilabel:`Checkboxes` и :guilabel:`Many2Many`"
+" имат същите ефекти като описаните в :ref:`Many2Many "
+"<studio/fields/relational-fields-many2many>`."
 
 #: ../../content/applications/studio/fields.rst:504
 msgid ""
 "To display tags with different background colors, tick :guilabel:`Use "
 "colors`."
 msgstr ""
-"За да се показват етикети с различни цветове на фона, отметнете "
-":guilabel:`Използване на цветове`."
+"За да показвате таговете с различни фонови цветове, отметнете :guilabel:`Use"
+" colors`."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Tags field"
-msgstr "Пример за поле от тип „Етикети“"
+msgstr "Пример за поле от тип Tags"
 
 #: ../../content/applications/studio/fields.rst:514
 msgid "Related Field (`related`)"
-msgstr "Свързано поле (`related`)"
+msgstr "Related Field (`related`)"
 
 #: ../../content/applications/studio/fields.rst:516
 msgid ""
@@ -3695,8 +3706,8 @@ msgid ""
 "relationship is created between models. It uses an existing relationship to "
 "fetch and display information from another record."
 msgstr ""
-"Едно :guilabel:`свързано поле` не е релационно поле само по себе си; между "
-"моделите не се създава връзка. То използва съществуваща връзка, за да "
+"Полето :guilabel:`Related Field` само по себе си не е релационно поле; между"
+" моделите не се създава връзка. То използва съществуваща връзка, за да "
 "извлече и покаже информация от друг запис."
 
 #: ../../content/applications/studio/fields.rst:520
@@ -3705,9 +3716,9 @@ msgid ""
 "the :guilabel:`Related Field` `partner_id.email` by selecting "
 ":guilabel:`Customer` and then :guilabel:`Email`."
 msgstr ""
-"За да покажете имейл адреса на клиент в модела *Поръчка за продажба*, "
-"използвайте :guilabel:`свързаното поле` `partner_id.email`, като изберете "
-":guilabel:`Клиент`, а след това :guilabel:`Имейл`."
+"За да покажете имейл адреса на клиент в модела *Sales Order*, използвайте "
+":guilabel:`Related Field` `partner_id.email`, като изберете "
+":guilabel:`Customer` и след това :guilabel:`Email`."
 
 #: ../../content/applications/studio/fields.rst:526
 msgid "Add a field to a view"
@@ -3715,7 +3726,7 @@ msgstr "Добавяне на поле към изглед"
 
 #: ../../content/applications/studio/fields.rst:528
 msgid "With Studio, it is possible to add:"
-msgstr "Чрез Studio е възможно да добавите:"
+msgstr "Със Studio е възможно да добавите:"
 
 #: ../../content/applications/studio/fields.rst:530
 msgid ""
@@ -3723,9 +3734,9 @@ msgid ""
 "<studio/views/general/form>` or :ref:`list view <studio/views/multiple-"
 "records/list>` of a model"
 msgstr ""
-":ref:`ново поле <studio/fields/add-new>` към :ref:`формуляр <studio/views/"
-"general/form>` или :ref:`списъчен изглед <studio/views/multiple-records/list>"
-"` на даден модел"
+":ref:`ново поле <studio/fields/add-new>` към :ref:`формуляр "
+"<studio/views/general/form>` или :ref:`списъчен изглед "
+"<studio/views/multiple-records/list>` на модел"
 
 #: ../../content/applications/studio/fields.rst:532
 msgid ""
@@ -3733,8 +3744,8 @@ msgid ""
 "already exists on the :doc:`model <models_modules_apps>` in question, to "
 "*any* view of that model"
 msgstr ""
-":ref:`съществуващо поле <studio/fields/add-existing>`, т.е. поле, което вече "
-"съществува в разглеждания :doc:`модел <models_modules_apps>`, към *всеки* "
+":ref:`съществуващо поле <studio/fields/add-existing>`, т.е. поле, което вече"
+" съществува в съответния :doc:`модел <models_modules_apps>`, към *всеки* "
 "изглед на този модел"
 
 #: ../../content/applications/studio/fields.rst:536
@@ -3743,8 +3754,8 @@ msgid ""
 "available as an existing field in other views of the same model."
 msgstr ""
 "Добавете ново поле към формуляр или списъчен изглед, за да го запазите в "
-"модела и да го направите достъпно като съществуващо поле в другите изгледи "
-"на същия модел."
+"модела и да го направите достъпно като съществуващо поле в други изгледи на "
+"същия модел."
 
 #: ../../content/applications/studio/fields.rst:542
 msgid "Add a new field"
@@ -3756,8 +3767,8 @@ msgid ""
 "to see, and be able to edit, the field's technical name during "
 "configuration."
 msgstr ""
-"Активирайте :ref:`режим за разработчици <developer-mode>` *преди* да "
-"добавите ново поле, за да можете да видите и редактирате техническото име на "
+"Активирайте :ref:`режим на разработчик <developer-mode>` *преди* да добавите"
+" ново поле, за да виждате и да можете да редактирате техническото име на "
 "полето по време на конфигурирането."
 
 #: ../../content/applications/studio/fields.rst:548
@@ -3771,11 +3782,11 @@ msgid ""
 "with any app open, click the :icon:`oi-studio` (:guilabel:`Toggle Studio`) "
 "icon, then navigate to the relevant form or list view."
 msgstr ""
-"Отидете в съответния формуляр или списъчен изглед, след което щракнете върху "
-"иконата :icon:`oi-studio` (:guilabel:`Превключване на Studio`) в горния "
-"десен ъгъл. Като алтернатива, при отворено приложение, щракнете върху "
-"иконата :icon:`oi-studio` (:guilabel:`Превключване на Studio`), след което "
-"отидете в съответния формуляр или списъчен изглед."
+"Отидете до съответния формуляр или списъчен изглед, след което щракнете "
+"върху иконата :icon:`oi-studio` (:guilabel:`Toggle Studio`) в горния десен "
+"ъгъл. Като алтернатива, при отворено приложение, щракнете върху иконата "
+":icon:`oi-studio` (:guilabel:`Toggle Studio`), след което отидете до "
+"съответния формуляр или списъчен изглед."
 
 #: ../../content/applications/studio/fields.rst:555
 msgid ""
@@ -3785,18 +3796,18 @@ msgid ""
 "field <studio/fields/relational-fields>`, select the relevant reciprocal "
 "field, model, or related field in the pop-up."
 msgstr ""
-"В раздела :icon:`fa-plus` :guilabel:`Добавяне`, плъзнете съответния "
-":ref:`тип поле <studio/fields/field-types>` от секцията :guilabel:`Нови "
-"полета` и го пуснете на желаната позиция. Ако новото поле е :ref:`релационно "
-"поле <studio/fields/relational-fields>`, изберете съответното реципрочно "
-"поле, модел или свързано поле в изскачащия прозорец."
+"В раздела :icon:`fa-plus` :guilabel:`Add` плъзнете съответния :ref:`тип поле"
+" <studio/fields/field-types>` от секцията :guilabel:`New Fields` и го "
+"пуснете на желаната позиция. Ако новото поле е :ref:`релационно поле "
+"<studio/fields/relational-fields>`, изберете съответното реципрочно поле, "
+"модел или свързано поле в изскачащия прозорец."
 
 #: ../../content/applications/studio/fields.rst:560
 msgid ""
 "In the :icon:`fa-server` :guilabel:`Properties` tab, configure the field's "
 ":ref:`properties <studio/fields/properties>`:"
 msgstr ""
-"В раздела :icon:`fa-server` :guilabel:`Свойства` конфигурирайте "
+"В раздела :icon:`fa-server` :guilabel:`Properties` конфигурирайте "
 ":ref:`свойствата <studio/fields/properties>` на полето:"
 
 #: ../../content/applications/studio/fields.rst:563
@@ -3804,17 +3815,17 @@ msgid ""
 "Enter the :guilabel:`Label` to be displayed as the field name on the UI; "
 "this is also used to generate the default technical name of the field."
 msgstr ""
-"Въведете :guilabel:`Етикет`, който да се показва като име на полето в "
+"Въведете :guilabel:`Label`, който да се показва като име на полето в "
 "потребителския интерфейс; той се използва и за генериране на техническото "
-"име по подразбиране на полето."
+"име на полето по подразбиране."
 
 #: ../../content/applications/studio/fields.rst:565
 msgid ""
 "Click anywhere outside the :guilabel:`Label` field to see the "
 ":guilabel:`Technical Name` updated with the default technical name."
 msgstr ""
-"Щракнете някъде извън полето :guilabel:`Етикет`, за да видите как "
-":guilabel:`Техническо име` се обновява с техническото име по подразбиране."
+"Щракнете където и да е извън полето :guilabel:`Label`, за да видите "
+":guilabel:`Technical Name` обновено с техническото име по подразбиране."
 
 #: ../../content/applications/studio/fields.rst:569
 msgid ""
@@ -3823,19 +3834,18 @@ msgid ""
 "only be :ref:`modified via the technical settings of the database "
 "<studio/fields/properties-technical-name-change>`."
 msgstr ""
-"Полето :guilabel:`Техническо име` на ново поле може да бъде редактирано в "
-"Studio по време на процеса на конфигуриране. По всяко друго време "
-"техническото име на дадено поле може да бъде :ref:`променено само чрез "
-"техническите настройки на базата данни <studio/fields/properties-technical-"
-"name-change>`."
+":guilabel:`Technical Name` на ново поле може да се редактира в Studio по "
+"време на процеса на конфигуриране. По всяко друго време техническото име на "
+"поле може да бъде :ref:`променено само чрез техническите настройки на базата"
+" данни <studio/fields/properties-technical-name-change>`."
 
 #: ../../content/applications/studio/fields.rst:573
 msgid ""
 "The technical name of a new field added using Studio is by default prefixed "
 "by `x_studio_`."
 msgstr ""
-"Техническото име на ново поле, добавено чрез Studio, по подразбиране е с "
-"представка `x_studio_`."
+"Техническото име на ново поле, добавено със Studio, по подразбиране е с "
+"префикс `x_studio_`."
 
 #: ../../content/applications/studio/fields.rst:576
 msgid ""
@@ -3852,15 +3862,16 @@ msgid ""
 "Optionally, configure any other :ref:`field properties "
 "<studio/fields/properties>`."
 msgstr ""
-"По желание конфигурирайте всякакви други :ref:`свойства на полето <studio/"
-"fields/properties>`."
+"По желание конфигурирайте всякакви други :ref:`свойства на полето "
+"<studio/fields/properties>`."
 
 #: ../../content/applications/studio/fields.rst:580
 #: ../../content/applications/studio/fields.rst:609
 #: ../../content/applications/studio/fields.rst:742
 msgid "Click :guilabel:`Close` in the top-right corner to close Studio."
 msgstr ""
-"Щракнете върху :guilabel:`Close` в горния десен ъгъл, за да затворите Studio."
+"Щракнете върху :guilabel:`Close` в горния десен ъгъл, за да затворите "
+"Studio."
 
 #: ../../content/applications/studio/fields.rst:583
 msgid ":ref:`Adding a new AI field <ai/add-a-new-field>`"
@@ -3899,8 +3910,8 @@ msgid ""
 "the model's fields that are not currently present in the view."
 msgstr ""
 "В раздела :icon:`fa-plus` :guilabel:`Add`, в левия панел, щракнете върху "
-":guilabel:`Existing Fields` :icon:`fa-caret-right`, за да се покаже списък с "
-"всички полета на модела, които в момента не присъстват в изгледа."
+":guilabel:`Existing Fields` :icon:`fa-caret-right`, за да се покаже списък с"
+" всички полета на модела, които в момента не присъстват в изгледа."
 
 #: ../../content/applications/studio/fields.rst:599
 msgid "Drag the relevant field and drop it in the desired position."
@@ -3947,9 +3958,9 @@ msgstr ""
 "се конфигурира за повечето комбинации от :ref:`тип поле и приспособление "
 "<studio/fields/field-types>`. Налични са допълнителни свойства в зависимост "
 "от конкретния тип поле и избраното приспособление. Например полетата "
-":guilabel:`Date & Time`, използващи приспособлението :guilabel:`Date & Time` "
-"или :guilabel:`Date Range`, имат различни :ref:`специфични свойства <studio/"
-"fields/properties-date-datetime>`, които могат да се конфигурират."
+":guilabel:`Date & Time`, използващи приспособлението :guilabel:`Date & Time`"
+" или :guilabel:`Date Range`, имат различни :ref:`специфични свойства "
+"<studio/fields/properties-date-datetime>`, които могат да се конфигурират."
 
 #: ../../content/applications/studio/fields.rst:625
 msgid "General properties"
@@ -3962,10 +3973,10 @@ msgid ""
 "classes defined in Odoo to customize how the field is styled and displayed "
 "on the UI."
 msgstr ""
-":guilabel:`Class`: Използвайте `Bootstrap <https://getbootstrap.com/docs/5.3/"
-"examples/cheatsheet/>`_ или други персонализирани класове, дефинирани в "
-"Odoo, за да персонализирате стила и начина, по който полето се показва в "
-"потребителския интерфейс."
+":guilabel:`Class`: Използвайте `Bootstrap "
+"<https://getbootstrap.com/docs/5.3/examples/cheatsheet/>`_ или други "
+"персонализирани класове, дефинирани в Odoo, за да персонализирате стила и "
+"начина, по който полето се показва в потребителския интерфейс."
 
 #: ../../content/applications/studio/fields.rst:630
 msgid ""
@@ -3991,8 +4002,8 @@ msgid ""
 ":guilabel:`Readonly`: Enable this property if users should not be able to "
 "modify a field."
 msgstr ""
-":guilabel:`Readonly`: Активирайте това свойство, ако потребителите не трябва "
-"да могат да променят дадено поле."
+":guilabel:`Readonly`: Активирайте това свойство, ако потребителите не трябва"
+" да могат да променят дадено поле."
 
 #: ../../content/applications/studio/fields.rst:640
 msgid ""
@@ -4059,8 +4070,9 @@ msgid ""
 "database <studio/fields/properties-technical-name-change>`."
 msgstr ""
 "Ако това поле трябва да бъде актуализирано, но вече не може да се редактира "
-"чрез Studio, техническото име може да бъде :ref:`променено чрез техническите "
-"настройки на базата данни <studio/fields/properties-technical-name-change>`."
+"чрез Studio, техническото име може да бъде :ref:`променено чрез техническите"
+" настройки на базата данни <studio/fields/properties-technical-name-"
+"change>`."
 
 #: ../../content/applications/studio/fields.rst:666
 msgid ""
@@ -4104,8 +4116,8 @@ msgid ""
 "field, select one or more user access :ref:`groups <access-rights/groups>`."
 msgstr ""
 ":guilabel:`Allow visibility to groups`: За да ограничите кои потребители "
-"могат да виждат полето, изберете една или повече :ref:`групи <access-rights/"
-"groups>` за потребителски достъп."
+"могат да виждат полето, изберете една или повече :ref:`групи <access-"
+"rights/groups>` за потребителски достъп."
 
 #: ../../content/applications/studio/fields.rst:680
 msgid ""
@@ -4139,8 +4151,8 @@ msgid ""
 msgstr ""
 ":guilabel:`Minimal precision`: Определя най-малката времева единица, която "
 "трябва да бъде избрана в селектора на дати. Възможните стойности са `Day`, "
-"`Month`, `Year` или `Decade`. Ако не е избрана стойност, потребителят трябва "
-"да избере ден в селектора на дати."
+"`Month`, `Year` или `Decade`. Ако не е избрана стойност, потребителят трябва"
+" да избере ден в селектора на дати."
 
 #: ../../content/applications/studio/fields.rst:694
 msgid ""
@@ -4212,8 +4224,8 @@ msgid ""
 msgstr ""
 ":guilabel:`Time interval`: Въведете стойност, за да определите минутните "
 "интервали, показвани в селектора на час. Например въведете 15, за да "
-"позволите интервали от четвърт час. Стойността по подразбиране е зададена на "
-"5 минути."
+"позволите интервали от четвърт час. Стойността по подразбиране е зададена на"
+" 5 минути."
 
 #: ../../content/applications/studio/fields.rst:713
 msgid ""
@@ -4222,8 +4234,8 @@ msgid ""
 "current date is always the earliest accepted date, enter `today`. On the "
 "date selector, dates prior to the earliest accepted date are grayed out."
 msgstr ""
-":guilabel:`Earliest accepted date`: Въведете най-ранната дата, която може да "
-"бъде избрана в селектора на дати, в ISO формат, т.е. `YYYY-MM-DD`. Ако "
+":guilabel:`Earliest accepted date`: Въведете най-ранната дата, която може да"
+" бъде избрана в селектора на дати, в ISO формат, т.е. `YYYY-MM-DD`. Ако "
 "текущата дата винаги е най-ранната приета дата, въведете `today`. В "
 "селектора на дати датите преди най-ранната приета дата са оцветени в сиво."
 
@@ -4310,7 +4322,8 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:760
 msgid "Navigate to :menuselection:`Settings app --> Technical --> Fields`."
-msgstr "Навигирайте до :menuselection:`Settings app --> Technical --> Fields`."
+msgstr ""
+"Навигирайте до :menuselection:`Settings app --> Technical --> Fields`."
 
 #: ../../content/applications/studio/fields.rst:761
 msgid ""
@@ -4330,8 +4343,8 @@ msgid ""
 ":ref:`added (back) to the relevant view(s) <studio/fields/add-existing>` "
 "from the list of existing fields."
 msgstr ""
-"След като техническото име на полето бъде актуализирано, полето може да бъде "
-":ref:`добавено (обратно) към съответния изглед(и) <studio/fields/add-"
+"След като техническото име на полето бъде актуализирано, полето може да бъде"
+" :ref:`добавено (обратно) към съответния изглед(и) <studio/fields/add-"
 "existing>` от списъка със съществуващи полета."
 
 #: ../../content/applications/studio/fields.rst:768
@@ -4414,8 +4427,8 @@ msgid ""
 "All apps are modules. Larger, standalone modules are typically referred to "
 "as apps, whereas other modules usually serve as add-ons to said apps."
 msgstr ""
-"Всички приложения са модули. По-големите, самостоятелни модули обикновено се "
-"наричат приложения, докато други модули обикновено служат като добавки към "
+"Всички приложения са модули. По-големите, самостоятелни модули обикновено се"
+" наричат приложения, докато други модули обикновено служат като добавки към "
 "тези приложения."
 
 #: ../../content/applications/studio/models_modules_apps.rst:19
@@ -4435,11 +4448,11 @@ msgstr ""
 "Когато създавате нов модел или приложение със Studio, можете да изберете да "
 "добавите до 14 функции, за да ускорите процеса на създаване. Тези функции "
 "групират полета, настройки по подразбиране и изгледи, които обикновено се "
-"използват заедно, за да осигурят някаква стандартна функционалност. Повечето "
-"от тези функции могат да бъдат добавени по-късно, но добавянето им от самото "
-"начало прави процеса на създаване на модела много по-лесен. Освен това в "
-"някои случаи тези функции взаимодействат помежду си, за да увеличат своята "
-"полезност."
+"използват заедно, за да осигурят някаква стандартна функционалност. Повечето"
+" от тези функции могат да бъдат добавени по-късно, но добавянето им от "
+"самото начало прави процеса на създаване на модела много по-лесен. Освен "
+"това в някои случаи тези функции взаимодействат помежду си, за да увеличат "
+"своята полезност."
 
 #: ../../content/applications/studio/models_modules_apps.rst:28
 msgid ""
@@ -4448,10 +4461,10 @@ msgid ""
 "features/pipeline-stages` features enabled adds the image in the card layout"
 " of the :ref:`Kanban view <studio/views/multiple-records/kanban>`."
 msgstr ""
-"Създаването на модел с активирани функции :ref:`studio/models-modules-apps/"
-"suggested-features/picture` и :ref:`studio/models-modules-apps/suggested-"
-"features/pipeline-stages` добавя изображението в оформлението на картата на "
-":ref:`канбан изгледа <studio/views/multiple-records/kanban>`."
+"Създаването на модел с активирани функции :ref:`studio/models-modules-"
+"apps/suggested-features/picture` и :ref:`studio/models-modules-"
+"apps/suggested-features/pipeline-stages` добавя изображението в оформлението"
+" на картата на :ref:`канбан изгледа <studio/views/multiple-records/kanban>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid ""
@@ -4473,13 +4486,13 @@ msgid ""
 "<studio/views/multiple-records/list>`, and the :ref:`Map view "
 "<studio/views/multiple-records/map>` is activated."
 msgstr ""
-"Избирането на :guilabel:`Contact details` добавя към :ref:`формуляра <studio/"
-"views/general/form>` :ref:`Many2One поле <studio/fields/relational-fields-"
-"many2one>`, свързано с модела *Contact*, и две от неговите :ref:`свързани "
-"полета <studio/fields/relational-fields-related-field>`: :guilabel:`Phone` и "
-":guilabel:`Email`. Полето :guilabel:`Contact` също се добавя към "
-":ref:`списъчния изглед <studio/views/multiple-records/list>` и се активира "
-":ref:`изгледът Карта <studio/views/multiple-records/map>`."
+"Избирането на :guilabel:`Contact details` добавя към :ref:`формуляра "
+"<studio/views/general/form>` :ref:`Many2One поле <studio/fields/relational-"
+"fields-many2one>`, свързано с модела *Contact*, и две от неговите "
+":ref:`свързани полета <studio/fields/relational-fields-related-field>`: "
+":guilabel:`Phone` и :guilabel:`Email`. Полето :guilabel:`Contact` също се "
+"добавя към :ref:`списъчния изглед <studio/views/multiple-records/list>` и се"
+" активира :ref:`изгледът Карта <studio/views/multiple-records/map>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "Contact details feature on the Form view"
@@ -4500,11 +4513,11 @@ msgid ""
 "avatar. The :guilabel:`Responsible` field is also added to the :ref:`List "
 "view <studio/views/multiple-records/list>`."
 msgstr ""
-"Избирането на :guilabel:`User assignment` добавя към :ref:`формуляра <studio/"
-"views/general/form>` :ref:`Many2One поле <studio/fields/relational-fields-"
-"many2one>`, свързано с модела *Contact*, със следния :guilabel:`Domain`: "
-"`Share User is not set`, за да се позволи избор само на *вътрешни "
-"потребители*. Освен това се използва приспособлението "
+"Избирането на :guilabel:`User assignment` добавя към :ref:`формуляра "
+"<studio/views/general/form>` :ref:`Many2One поле <studio/fields/relational-"
+"fields-many2one>`, свързано с модела *Contact*, със следния "
+":guilabel:`Domain`: `Share User is not set`, за да се позволи избор само на "
+"*вътрешни потребители*. Освен това се използва приспособлението "
 ":guilabel:`many2one_avatar_user`, за да се покаже аватарът на потребителя. "
 "Полето :guilabel:`Responsible` също се добавя към :ref:`списъчния изглед "
 "<studio/views/multiple-records/list>`."
@@ -4524,13 +4537,13 @@ msgid ""
 "fields-date>` and activates the :ref:`Calendar view "
 "<studio/views/timeline/calendar>`."
 msgstr ""
-"Избирането на :guilabel:`Date & Calendar` добавя към :ref:`формуляра <studio/"
-"views/general/form>` :ref:`поле Дата <studio/fields/simple-fields-date>` и "
-"активира :ref:`изгледа Календар <studio/views/timeline/calendar>`."
+"Избирането на :guilabel:`Date & Calendar` добавя към :ref:`формуляра "
+"<studio/views/general/form>` :ref:`поле Дата <studio/fields/simple-fields-"
+"date>` и активира :ref:`изгледа Календар <studio/views/timeline/calendar>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:84
 msgid "Date range & Gantt"
-msgstr "Диапазон от дати и Гант"
+msgstr "Период от дати и Gantt"
 
 #: ../../content/applications/studio/models_modules_apps.rst:86
 msgid ""
@@ -4540,16 +4553,15 @@ msgid ""
 "an end date, using the :guilabel:`daterange` widget, and activates the "
 ":ref:`Gantt view <studio/views/timeline/gantt>`."
 msgstr ""
-"Изборът на :guilabel:`Диапазон от дати и Гант` добавя към :ref:`изглед "
-"Формуляр <studio/views/general/form>` две :ref:`полета за дата <studio/"
-"fields/simple-fields-date>` едно до друго: едно за задаване на начална дата, "
-"друго за задаване на крайна дата, като се използва джаджата "
-":guilabel:`диапазон от дати`, и активира :ref:`изгледа Гант <studio/views/"
-"timeline/gantt>`."
+"Избирането на :guilabel:`Date range & Gantt` добавя към :ref:`формуляра "
+"<studio/views/general/form>` две :ref:`полета Дата <studio/fields/simple-"
+"fields-date>` едно до друго: едното за задаване на начална дата, другото за "
+"задаване на крайна дата, използвайки приспособлението :guilabel:`daterange`,"
+" и активира :ref:`изгледа Gantt <studio/views/timeline/gantt>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:94
 msgid "Pipeline stages"
-msgstr "Етапи на конвейера"
+msgstr "Етапи на канал (pipeline)"
 
 #: ../../content/applications/studio/models_modules_apps.rst:96
 msgid ""
@@ -4562,19 +4574,19 @@ msgid ""
 "<studio/views/general/form>`. The :guilabel:`Color` field is added to the "
 ":ref:`List view <studio/views/multiple-records/list>`."
 msgstr ""
-"Изборът на :guilabel:`Етапи на конвейера` активира :ref:`изгледа Канбан "
+"Избирането на :guilabel:`Pipeline stages` активира :ref:`канбан изгледа "
 "<studio/views/multiple-records/kanban>`, добавя няколко полета, като "
-":ref:`Приоритет <studio/fields/simple-fields-priority>` и "
-":guilabel:`Състояние на канбан`, и три етапа: :guilabel:`Нов`, :guilabel:`В "
-"процес` и :guilabel:`Завършен`. :guilabel:`Лентата за състояние на "
-"конвейера` и полето :guilabel:`Състояние на канбан` се добавят към "
-":ref:`изгледа Формуляр <studio/views/general/form>`. Полето :guilabel:`Цвят` "
-"се добавя към :ref:`изгледа Списък <studio/views/multiple-records/list>`."
+":ref:`Priority <studio/fields/simple-fields-priority>` и :guilabel:`Kanban "
+"State`, и три етапа: :guilabel:`New`, :guilabel:`In Progress` и "
+":guilabel:`Done`. :guilabel:`Pipeline status bar` и полето :guilabel:`Kanban"
+" State` се добавят към :ref:`формуляра <studio/views/general/form>`. Полето "
+":guilabel:`Color` се добавя към :ref:`списъчния изглед "
+"<studio/views/multiple-records/list>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:105
 msgid "The :guilabel:`Pipeline stages` feature can be added at a later stage."
 msgstr ""
-"Функцията :guilabel:`Етапи на конвейера` може да бъде добавена на по-късен "
+"Функцията :guilabel:`Pipeline stages` може да бъде добавена на по-късен "
 "етап."
 
 #: ../../content/applications/studio/models_modules_apps.rst:110
@@ -4588,14 +4600,14 @@ msgid ""
 "<studio/fields/relational-fields-tags>`, creating a *Tag* model with "
 "preconfigured access rights in the process."
 msgstr ""
-"Изборът на :guilabel:`Етикети` добавя към изгледите :ref:`studio/views/"
-"general/form` и :ref:`studio/views/multiple-records/list` поле :ref:`Етикети "
-"<studio/fields/relational-fields-tags>`, като в процеса се създава модел "
-"*Tag* с предварително конфигурирани права за достъп."
+"Избирането на :guilabel:`Tags` добавя към изгледите "
+":ref:`studio/views/general/form` и :ref:`studio/views/multiple-records/list`"
+" :ref:`поле Етикети <studio/fields/relational-fields-tags>`, като в процеса "
+"създава модел *Tag* с предварително конфигурирани права за достъп."
 
 #: ../../content/applications/studio/models_modules_apps.rst:120
 msgid "Picture"
-msgstr "Снимка"
+msgstr "Картина"
 
 #: ../../content/applications/studio/models_modules_apps.rst:122
 msgid ""
@@ -4603,13 +4615,13 @@ msgid ""
 "<studio/views/general/form>` an :ref:`Image field <studio/fields/simple-"
 "fields-image>`."
 msgstr ""
-"Изборът на :guilabel:`Снимка` добавя в горния десен ъгъл на :ref:`изгледа "
-"Формуляр <studio/views/general/form>` :ref:`поле за изображение <studio/"
-"fields/simple-fields-image>`."
+"Избирането на :guilabel:`Picture` добавя в горния десен ъгъл на "
+":ref:`формуляра <studio/views/general/form>` :ref:`поле Изображение "
+"<studio/fields/simple-fields-image>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:126
 msgid "The :guilabel:`Picture` feature can be added at a later stage."
-msgstr "Функцията :guilabel:`Снимка` може да бъде добавена на по-късен етап."
+msgstr "Функцията :guilabel:`Picture` може да бъде добавена на по-късен етап."
 
 #: ../../content/applications/studio/models_modules_apps.rst:131
 msgid "Lines"
@@ -4621,9 +4633,9 @@ msgid ""
 "<studio/views/general/form>` a :ref:`Lines field <studio/fields/relational-"
 "fields-lines>` inside a :guilabel:`Tab` component."
 msgstr ""
-"Изборът на :guilabel:`Редове`: добавя към :ref:`изгледа Формуляр <studio/"
-"views/general/form>` поле :ref:`Редове <studio/fields/relational-fields-"
-"lines>` в компонент :guilabel:`Раздел`."
+"Избирането на :guilabel:`Lines`: добавя към :ref:`формуляра "
+"<studio/views/general/form>` :ref:`поле Редове <studio/fields/relational-"
+"fields-lines>` вътре в компонент :guilabel:`Tab`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:139
 msgid "Notes"
@@ -4635,9 +4647,9 @@ msgid ""
 "<studio/views/general/form>` an :ref:`Html field <studio/fields/simple-"
 "fields-html>` using the full width of the form."
 msgstr ""
-"Изборът на :guilabel:`Бележки` добавя към :ref:`изгледа Формуляр <studio/"
-"views/general/form>` :ref:`Html поле <studio/fields/simple-fields-html>`, "
-"използващо цялата широчина на формуляра."
+"Избирането на :guilabel:`Notes` добавя към :ref:`формуляра "
+"<studio/views/general/form>` :ref:`Html поле <studio/fields/simple-fields-"
+"html>`, използвайки цялата ширина на формуляра."
 
 #: ../../content/applications/studio/models_modules_apps.rst:147
 msgid "Monetary value"
@@ -4651,19 +4663,19 @@ msgid ""
 "monetary>`. The :ref:`studio/views/reporting/graph` and "
 ":ref:`studio/views/reporting/pivot` views are also activated."
 msgstr ""
-"Изборът на :guilabel:`Парична стойност` добавя към изгледите :ref:`studio/"
-"views/general/form` и :ref:`studio/views/multiple-records/list` поле "
-":ref:`Парично поле <studio/fields/simple-fields-monetary>`. Изгледите "
-":ref:`studio/views/reporting/graph` и :ref:`studio/views/reporting/pivot` "
-"също се активират."
+"Избирането на :guilabel:`Monetary value` добавя към изгледите "
+":ref:`studio/views/general/form` и :ref:`studio/views/multiple-records/list`"
+" :ref:`поле Парична стойност <studio/fields/simple-fields-monetary>`. "
+"Активират се също изгледите :ref:`studio/views/reporting/graph` и "
+":ref:`studio/views/reporting/pivot`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:155
 msgid "A *Currency* field is added and hidden from the view."
-msgstr "Добавя се поле *Валута*, което е скрито от изгледа."
+msgstr "Добавя се поле *Currency*, което се скрива от изгледа."
 
 #: ../../content/applications/studio/models_modules_apps.rst:160
 msgid "Company"
-msgstr "Компания"
+msgstr "Фирма"
 
 #: ../../content/applications/studio/models_modules_apps.rst:162
 msgid ""
@@ -4671,13 +4683,14 @@ msgid ""
 "and :ref:`studio/views/multiple-records/list` views a :ref:`Many2One field "
 "<studio/fields/relational-fields-many2one>` linked to the *Company* model."
 msgstr ""
-"Изборът на :guilabel:`Фирма` добавя към изгледите :ref:`studio/views/general/"
-"form` и :ref:`studio/views/multiple-records/list` поле :ref:`Many2One "
-"<studio/fields/relational-fields-many2one>`, свързано с модела *Company*."
+"Избирането на :guilabel:`Company` добавя към изгледите "
+":ref:`studio/views/general/form` и :ref:`studio/views/multiple-records/list`"
+" :ref:`Many2One поле <studio/fields/relational-fields-many2one>`, свързано с"
+" модела *Company*."
 
 #: ../../content/applications/studio/models_modules_apps.rst:167
 msgid "This is only useful if you work in a multi-company environment."
-msgstr "Това е полезно само ако работите в среда с множество фирми."
+msgstr "Това е полезно само ако работите в многофирмена среда."
 
 #: ../../content/applications/studio/models_modules_apps.rst:172
 msgid "Custom Sorting"
@@ -4699,7 +4712,7 @@ msgstr "Функцията Custom Sorting в списъчния изглед"
 
 #: ../../content/applications/studio/models_modules_apps.rst:186
 msgid "Chatter"
-msgstr ""
+msgstr "Chatter"
 
 #: ../../content/applications/studio/models_modules_apps.rst:188
 msgid ""
@@ -4707,9 +4720,9 @@ msgid ""
 "<studio/views/general/form>` Chatter functionalities (sending messages, "
 "logging notes, and scheduling activities)."
 msgstr ""
-"Избирането на :guilabel:`Chatter` добавя към :ref:`формуляра <studio/views/"
-"general/form>` функционалности на Chatter (изпращане на съобщения, водене на "
-"бележки и планиране на дейности)."
+"Избирането на :guilabel:`Chatter` добавя към :ref:`формуляра "
+"<studio/views/general/form>` функционалности на Chatter (изпращане на "
+"съобщения, водене на бележки и планиране на дейности)."
 
 #: ../../content/applications/studio/models_modules_apps.rst:192
 msgid "The :guilabel:`Chatter` feature can be added at a later stage."
@@ -4729,10 +4742,10 @@ msgid ""
 " and :ref:`studio/views/multiple-records/list` views the :guilabel:`Archive`"
 " action and hides archived records from searches and views by default."
 msgstr ""
-"Изборът на :guilabel:`Archiving` добавя към изгледите :ref:`studio/views/"
-"general/form` и :ref:`studio/views/multiple-records/list` действието "
-":guilabel:`Archive` и по подразбиране скрива архивираните записи от "
-"търсенията и изгледите."
+"Изборът на :guilabel:`Archiving` добавя към изгледите "
+":ref:`studio/views/general/form` и :ref:`studio/views/multiple-records/list`"
+" действието :guilabel:`Archive` и по подразбиране скрива архивираните записи"
+" от търсенията и изгледите."
 
 #: ../../content/applications/studio/models_modules_apps.rst:212
 msgid "Export and import customizations"
@@ -4749,9 +4762,9 @@ msgstr ""
 "Когато извършите каквато и да е персонализация със Studio, във вашата база "
 "данни се добавя нов модул с име `studio_customization`. Можете да "
 "експортирате този модул като ZIP файл с помощта на функцията "
-":guilabel:`Studio Export`. След това модулът може да бъде импортиран в друга "
-"база данни на Odoo. Това може да бъде полезно, например при настройка на нов "
-"модул или за целите на обучение."
+":guilabel:`Studio Export`. След това модулът може да бъде импортиран в друга"
+" база данни на Odoo. Това може да бъде полезно, например при настройка на "
+"нов модул или за целите на обучение."
 
 #: ../../content/applications/studio/models_modules_apps.rst:220
 msgid ""
@@ -4764,8 +4777,8 @@ msgstr ""
 "Експортирането и импортирането на персонализации по този начин, вместо чрез "
 "използване на :doc:`стандартните функции на Odoo за експортиране и "
 "импортиране <../essentials/export_import_data>`, означава, че данните се "
-"импортират по логичен начин. Например, ако модулът съдържа клиенти и поръчки "
-"за продажба, клиентите се създават първи, тъй като те са необходими за "
+"импортират по логичен начин. Например, ако модулът съдържа клиенти и поръчки"
+" за продажба, клиентите се създават първи, тъй като те са необходими за "
 "създаването на поръчките за продажба."
 
 #: ../../content/applications/studio/models_modules_apps.rst:228
@@ -4809,8 +4822,8 @@ msgid ""
 " model or select it from the list."
 msgstr ""
 "За да изберете конкретни модели за експортиране, щракнете върху "
-":guilabel:`New` на екрана :guilabel:`Studio Export`, след което започнете да "
-"въвеждате името на съответния модел или го изберете от списъка."
+":guilabel:`New` на екрана :guilabel:`Studio Export`, след което започнете да"
+" въвеждате името на съответния модел или го изберете от списъка."
 
 #: ../../content/applications/studio/models_modules_apps.rst:246
 msgid ""
@@ -4885,10 +4898,10 @@ msgid ""
 "click the :icon:`fa-cog` :guilabel:`Actions` button then :icon:`fa-trash-o` "
 ":guilabel:`Delete`."
 msgstr ""
-"Не е необходимо да избирате един или повече модели, тъй като всички изброени "
-"модели ще бъдат включени в експорта. За да премахнете модел от експорта, "
-"изберете го и щракнете върху бутона :icon:`fa-cog` :guilabel:`Actions`, след "
-"което :icon:`fa-trash-o` :guilabel:`Delete`."
+"Не е необходимо да избирате един или повече модели, тъй като всички изброени"
+" модели ще бъдат включени в експорта. За да премахнете модел от експорта, "
+"изберете го и щракнете върху бутона :icon:`fa-cog` :guilabel:`Actions`, след"
+" което :icon:`fa-trash-o` :guilabel:`Delete`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:270
 msgid "In the :guilabel:`Studio Export` window:"
@@ -4917,8 +4930,8 @@ msgid ""
 ":guilabel:`Include Data`."
 msgstr ""
 "поставете отметка на :guilabel:`Include Demo Data`, за да включите данни от "
-"избраните модели, които са маркирани като демо данни. Поставянето на отметка "
-"на тази опция поставя отметка и на :guilabel:`Include Data`."
+"избраните модели, които са маркирани като демо данни. Поставянето на отметка"
+" на тази опция поставя отметка и на :guilabel:`Include Data`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:277
 msgid "Click the :guilabel:`Export` button to download the ZIP file."
@@ -4984,7 +4997,7 @@ msgid ""
 "<studio/pdf-reports/create>`."
 msgstr ""
 "Със Studio можете да :ref:`редактирате съществуващи PDF отчети <studio/pdf-"
-"reports/edit>` (напр. фактури, оферти и др.) или :ref:`да създавате нови "
+"reports/edit>` (напр. фактури, оферти и др.) или да :ref:`създавате нови "
 "<studio/pdf-reports/create>`."
 
 #: ../../content/applications/studio/pdf_reports.rst:11
@@ -4999,10 +5012,10 @@ msgid ""
 " company-specific but apply to all reports."
 msgstr ""
 "Оформлението по подразбиране на отчетите се управлява извън Studio. Отидете "
-"на :menuselection:`Настройки`, след което в раздела :guilabel:`Компании` на "
-"основната страница кликнете върху :guilabel:`Конфигуриране на оформлението "
-"на документа`. Настройките за оформление са специфични за компанията, но се "
-"прилагат за всички отчети."
+"на :menuselection:`Settings`, след това в раздела :guilabel:`Companies` на "
+"основната страница щракнете върху :guilabel:`Configure Document Layout`. "
+"Настройките за оформление са специфични за компанията, но се прилагат за "
+"всички отчети."
 
 #: ../../content/applications/studio/pdf_reports.rst:18
 msgid ""
@@ -5012,11 +5025,11 @@ msgid ""
 "the report by clicking :guilabel:`Print preview` on the left side of the "
 "screen."
 msgstr ""
-"Можете да видите как различните настройки влияят на оформлението на отчета в "
-"прегледа на отчета от дясната страна на прозореца :guilabel:`Конфигуриране "
-"на оформлението на документа`. При създаване или редактиране на отчет можете "
-"да видите преглед на отчета, като кликнете върху :guilabel:`Преглед за "
-"печат` от лявата страна на екрана."
+"Можете да видите как различните настройки влияят на оформлението на отчета в"
+" прегледа на отчета в дясната част на прозореца :guilabel:`Configure your "
+"document layout`. При създаване или редактиране на отчет можете да видите "
+"преглед на отчета, като щракнете върху :guilabel:`Print preview` в лявата "
+"част на екрана."
 
 #: ../../content/applications/studio/pdf_reports.rst:23
 msgid "Use the following settings:"
@@ -5024,63 +5037,63 @@ msgstr "Използвайте следните настройки:"
 
 #: ../../content/applications/studio/pdf_reports.rst:27
 msgid ":guilabel:`Layout`: Seven layouts are available:"
-msgstr ":guilabel:`Оформление`: Налични са седем оформления:"
+msgstr ":guilabel:`Layout`: налични са седем оформления:"
 
 #: ../../content/applications/studio/pdf_reports.rst:31
 msgid "Light"
-msgstr "Светло"
+msgstr "Light"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Light report layout sample"
-msgstr "Пример за светло оформление на отчет"
+msgstr "Примерно оформление на отчет Light"
 
 #: ../../content/applications/studio/pdf_reports.rst:37
 msgid "Boxed"
-msgstr "В рамка"
+msgstr "Boxed"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Boxed report layout sample"
-msgstr "Пример за оформление на отчет в рамка"
+msgstr "Примерно оформление на отчет Boxed"
 
 #: ../../content/applications/studio/pdf_reports.rst:43
 msgid "Bold"
-msgstr "Плътно"
+msgstr "Bold"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Bold report layout sample"
-msgstr "Пример за плътно оформление на отчет"
+msgstr "Примерно оформление на отчет Bold"
 
 #: ../../content/applications/studio/pdf_reports.rst:49
 msgid "Striped"
-msgstr "На ивици"
+msgstr "Striped"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Striped report layout sample"
-msgstr "Пример за оформление на отчет на ивици"
+msgstr "Примерно оформление на отчет Striped"
 
 #: ../../content/applications/studio/pdf_reports.rst:55
 msgid "Bubble"
-msgstr "Балон"
+msgstr "Bubble"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Bubble report layout sample"
-msgstr "Пример за оформление на отчет тип балон"
+msgstr "Примерно оформление на отчет Bubble"
 
 #: ../../content/applications/studio/pdf_reports.rst:61
 msgid "Wave"
-msgstr "Вълна"
+msgstr "Wave"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Wave report layout sample"
-msgstr "Пример за оформление на отчет тип вълна"
+msgstr "Примерно оформление на отчет Wave"
 
 #: ../../content/applications/studio/pdf_reports.rst:67
 msgid "Folder"
-msgstr "Папка"
+msgstr "Folder"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Folder report layout sample"
-msgstr "Пример за оформление на отчет тип папка"
+msgstr "Примерно оформление на отчет Folder"
 
 #: ../../content/applications/studio/pdf_reports.rst:75
 msgid ":guilabel:`Background`: The following backgrounds are available:"
@@ -5107,8 +5120,8 @@ msgid ""
 msgstr ""
 ":guilabel:`Text`: Налични са осем шрифта: Lato, Roboto, Open Sans, "
 "Montserrat, Oswald, Raleway, Tajawal (който поддържа арабска и латинска "
-"писменост) и Fira Mono. Отидете на `уебсайта Google Fonts <https://"
-"fonts.google.com/>`_, за да ги прегледате."
+"писменост) и Fira Mono. Отидете на `уебсайта Google Fonts "
+"<https://fonts.google.com/>`_, за да ги прегледате."
 
 #: ../../content/applications/studio/pdf_reports.rst:89
 msgid ""
@@ -5120,8 +5133,8 @@ msgstr ""
 ":guilabel:`Company logo`: Щракнете върху бутона :guilabel:`Edit`, за да "
 "качите или промените логото. Това добавя логото към записа на фирмата в "
 "модела *Company*, до който имате достъп, като отидете в "
-":menuselection:`Settings` и след това щракнете върху :guilabel:`Update Info` "
-"в раздела :guilabel:`Companies`."
+":menuselection:`Settings` и след това щракнете върху :guilabel:`Update Info`"
+" в раздела :guilabel:`Companies`."
 
 #: ../../content/applications/studio/pdf_reports.rst:96
 msgid ""
@@ -5152,8 +5165,8 @@ msgid ""
 msgstr ""
 ":guilabel:`Tagline`: Това се показва в заглавния колонтитул на "
 ":ref:`външните отчети <studio/pdf-reports/header-footer>`, използващи "
-"оформленията Light, Striped, Bubble, Wave и Folder, и в долния колонтитул на "
-"външните отчети, използващи оформленията Boxed и Bold. Можете да добавите "
+"оформленията Light, Striped, Bubble, Wave и Folder, и в долния колонтитул на"
+" външните отчети, използващи оформленията Boxed и Bold. Можете да добавите "
 "няколко реда текст."
 
 #: ../../content/applications/studio/pdf_reports.rst:113
@@ -5205,17 +5218,17 @@ msgid ""
 "that opens, select the type of report. This is solely used to determine what"
 " is displayed in the header and footer:"
 msgstr ""
-"За да създадете нов отчет за :doc:`модел </applications/studio/"
-"models_modules_apps>` (например поръчки за продажба), отворете модела, "
-"щракнете върху бутона :icon:`oi-studio` (:guilabel:`Toggle Studio`), след "
-"което щракнете върху :guilabel:`Reports`. Щракнете върху :guilabel:`New` и в "
-"изскачащия прозорец, който се отваря, изберете типа на отчета. Това се "
-"използва единствено за определяне на това какво се показва в заглавния и "
-"долния колонтитул:"
+"За да създадете нов отчет за :doc:`модел "
+"</applications/studio/models_modules_apps>` (например поръчки за продажба), "
+"отворете модела, щракнете върху бутона :icon:`oi-studio` (:guilabel:`Toggle "
+"Studio`), след което щракнете върху :guilabel:`Reports`. Щракнете върху "
+":guilabel:`New` и в изскачащия прозорец, който се отваря, изберете типа на "
+"отчета. Това се използва единствено за определяне на това какво се показва в"
+" заглавния и долния колонтитул:"
 
 #: ../../content/applications/studio/pdf_reports.rst:141
 msgid ":guilabel:`External`:"
-msgstr ""
+msgstr ":guilabel:`Външен`:"
 
 #: ../../content/applications/studio/pdf_reports.rst:143
 msgid ""
@@ -5226,9 +5239,9 @@ msgid ""
 "tagline>` also appears in the header."
 msgstr ""
 "В заглавния колонтитул се показват :ref:`логото <studio/pdf-reports/default-"
-"layout-logo>` на фирмата и нейните :ref:`име и адрес <studio/pdf-reports/"
-"default-layout-address>`. За отчетите, използващи оформленията Light, "
-"Striped, Bubble, Wave и Folder, в заглавния колонтитул се показва и "
+"layout-logo>` на фирмата и нейните :ref:`име и адрес <studio/pdf-"
+"reports/default-layout-address>`. За отчетите, използващи оформленията "
+"Light, Striped, Bubble, Wave и Folder, в заглавния колонтитул се показва и "
 ":ref:`девизът <studio/pdf-reports/default-layout-tagline>`."
 
 #: ../../content/applications/studio/pdf_reports.rst:148
@@ -5249,8 +5262,8 @@ msgid ""
 "the company's :ref:`name and address <studio/pdf-reports/default-layout-"
 "address>` and the page number. There is no footer."
 msgstr ""
-":guilabel:`Internal`: В заглавния колонтитул се показват текущата дата и час "
-"на потребителя, :ref:`името и адресът <studio/pdf-reports/default-layout-"
+":guilabel:`Internal`: В заглавния колонтитул се показват текущата дата и час"
+" на потребителя, :ref:`името и адресът <studio/pdf-reports/default-layout-"
 "address>` на фирмата и номерът на страницата. Няма долен колонтитул."
 
 #: ../../content/applications/studio/pdf_reports.rst:157
@@ -5302,8 +5315,8 @@ msgid ""
 msgstr ""
 "Силно се препоръчва да **дублирате** стандартния отчет и да правите промени "
 "в дублираната версия. За да дублирате отчет, задръжте показалеца на мишката "
-"върху горния десен ъгъл на отчета, щракнете върху иконата :icon:`fa-ellipsis-"
-"vertical` (:guilabel:`vertical ellipsis`) и след това изберете "
+"върху горния десен ъгъл на отчета, щракнете върху иконата :icon:`fa-"
+"ellipsis-vertical` (:guilabel:`vertical ellipsis`) и след това изберете "
 ":guilabel:`Duplicate`."
 
 #: ../../content/applications/studio/pdf_reports.rst:0
@@ -5339,8 +5352,8 @@ msgid ""
 "paper>` is used."
 msgstr ""
 "Промените :guilabel:`Paper format`: Ако не е избрана стойност, се използва "
-"форматът, дефиниран в :ref:`оформлението по подразбиране <studio/pdf-reports/"
-"default-layout-paper>`."
+"форматът, дефиниран в :ref:`оформлението по подразбиране <studio/pdf-"
+"reports/default-layout-paper>`."
 
 #: ../../content/applications/studio/pdf_reports.rst:196
 msgid ""
@@ -5357,10 +5370,10 @@ msgid ""
 " the report any subsequent time. This is legally required for invoices and "
 "is mainly used in this case."
 msgstr ""
-":guilabel:`Reload from attachment`: за да запазите отчета като прикачен файл "
-"към записа при първото му генериране и да презареждате оригиналната версия "
-"на отчета при всеки следващ път. Това е законово изискване за фактурите и се "
-"използва основно в този случай."
+":guilabel:`Reload from attachment`: за да запазите отчета като прикачен файл"
+" към записа при първото му генериране и да презареждате оригиналната версия "
+"на отчета при всеки следващ път. Това е законово изискване за фактурите и се"
+" използва основно в този случай."
 
 #: ../../content/applications/studio/pdf_reports.rst:200
 msgid ""
@@ -5368,8 +5381,8 @@ msgid ""
 " report to specific :doc:`user groups <../general/users/access_rights>`."
 msgstr ""
 ":guilabel:`Limit visibility to groups`: за да ограничите наличността на PDF "
-"отчета само до определени :doc:`потребителски групи <../general/users/"
-"access_rights>`."
+"отчета само до определени :doc:`потребителски групи "
+"<../general/users/access_rights>`."
 
 #: ../../content/applications/studio/pdf_reports.rst:202
 msgid ""
@@ -5435,7 +5448,7 @@ msgid ""
 "Editing the header and footer of a report impacts all standard and custom "
 "reports."
 msgstr ""
-"Редактирането на горния и долния колонтитул на отчет засяга всички "
+"Редактирането на горния и долния колонтитул на отчет се отразява на всички "
 "стандартни и персонализирани отчети."
 
 #: ../../content/applications/studio/pdf_reports.rst:229
@@ -5448,24 +5461,24 @@ msgid ""
 "statements). These are used to show/hide content based on specific "
 "conditions. Click on the block to view the conditions."
 msgstr ""
-"Прекъснатите правоъгълници представляват **условни блокове** (изрази *if/"
-"else*). Те се използват за показване/скриване на съдържание в зависимост от "
-"определени условия. Щракнете върху блока, за да видите условията."
+"Пунктираните правоъгълници представляват **условни блокове** (оператори "
+"*if/else*). Те се използват за показване/скриване на съдържание въз основа "
+"на конкретни условия. Щракнете върху блока, за да видите условията."
 
 #: ../../content/applications/studio/pdf_reports.rst:None
 msgid "View conditions applied to a block."
-msgstr "Преглед на условията, приложени към даден блок."
+msgstr "Преглед на условията, приложени към блок."
 
 #: ../../content/applications/studio/pdf_reports.rst:237
 msgid ""
 "Select a value to preview its corresponding output and edit it if necessary."
 msgstr ""
-"Изберете стойност, за да прегледате съответния изход и да го редактирате, "
-"ако е необходимо."
+"Изберете стойност, за да визуализирате съответстващия ѝ изход, и я "
+"редактирайте, ако е необходимо."
 
 #: ../../content/applications/studio/pdf_reports.rst:None
 msgid "Preview the output of another condition."
-msgstr "Преглед на изхода на друго условие."
+msgstr "Визуализирайте изхода на друго условие."
 
 #: ../../content/applications/studio/pdf_reports.rst:243
 msgid ""
@@ -5481,15 +5494,15 @@ msgstr "Друго съдържание"
 
 #: ../../content/applications/studio/pdf_reports.rst:248
 msgid "There are two types of text content in reports:"
-msgstr "В отчетите има два вида текстово съдържание:"
+msgstr "В отчетите има два типа текстово съдържание:"
 
 #: ../../content/applications/studio/pdf_reports.rst:250
 msgid ""
 "Static text, i.e., the text that is not highlighted in blue, which can be "
 "modified directly in the editor."
 msgstr ""
-"Статичен текст, т.е. текстът, който не е маркиран в синьо, който може да се "
-"променя директно в редактора."
+"Статичен текст, тоест текстът, който не е осветен в синьо и който може да "
+"бъде променян директно в редактора."
 
 #: ../../content/applications/studio/pdf_reports.rst:252
 msgid ""
@@ -5497,9 +5510,9 @@ msgid ""
 "by :doc:`field </applications/studio/fields>` values when the report is "
 "generated, e.g., the sales order number or the quotation date."
 msgstr ""
-"Динамичен текст, т.е. текстът, който е маркиран в синьо, който се заменя със "
-"стойности на :doc:`полета </applications/studio/fields>` при генериране на "
-"отчета, напр. номера на нареждане за продажба или датата на офертата."
+"Динамичен текст, тоест текстът, който е осветен в синьо и който се заменя "
+"със стойности на :doc:`полета </applications/studio/fields>` при генериране "
+"на отчета, например номера на поръчката за продажба или датата на офертата."
 
 #: ../../content/applications/studio/pdf_reports.rst:256
 msgid ""
@@ -5508,15 +5521,16 @@ msgid ""
 "<essentials/html_editor/commands>`, then type the command's name or select "
 "it from the list."
 msgstr ""
-"Можете да добавяте съдържание (напр. полета, списъци, таблици, изображения, "
-"банери и т.н.) към отчета чрез команди. Въведете `/`, за да отворите "
-":ref:`лентата с команди <essentials/html_editor/commands>`, след което "
+"Можете да добавяте съдържание (например полета, списъци, таблици, "
+"изображения, банери и др.) към отчета с помощта на команди. Въведете `/`, за"
+" да отворите :ref:`powerbox <essentials/html_editor/commands>`, след това "
 "въведете името на командата или я изберете от списъка."
 
 #: ../../content/applications/studio/pdf_reports.rst:260
 msgid "To add static text to the report, type the text where you want it."
 msgstr ""
-"За да добавите статичен текст към отчета, въведете текста на желаното място."
+"За да добавите статичен текст към отчета, въведете текста там, където го "
+"искате."
 
 #: ../../content/applications/studio/pdf_reports.rst:262
 msgid ""
@@ -5538,15 +5552,16 @@ msgid ""
 "specify the default value that will be shown if the field is not completed "
 "in the record and press `Enter`."
 msgstr ""
-"За да добавите поле, въведете `/` и изберете командата :guilabel:`Поле`. В "
+"За да добавите поле, въведете `/` и изберете командата :guilabel:`Field`. В "
 "списъка, който се отваря, изберете или потърсете полето; щракнете върху "
-"стрелката надясно до името на полето, за да видите списъка със свързани "
-"полета, ако е необходимо. След това посочете стойността по подразбиране, "
-"която ще се показва, ако полето не е попълнено в записа, и натиснете `Enter`."
+"стрелката надясно до името на полето, за да получите достъп до списъка със "
+"свързани полета, ако е необходимо. След това задайте стойността по "
+"подразбиране, която ще се показва, ако полето не е попълнено в записа, и "
+"натиснете `Enter`."
 
 #: ../../content/applications/studio/pdf_reports.rst:None
 msgid "Select a related field."
-msgstr "Изберете свързано поле."
+msgstr "Избиране на свързано поле."
 
 #: ../../content/applications/studio/pdf_reports.rst:281
 msgid "Add or edit a table"
@@ -5554,7 +5569,7 @@ msgstr "Добавяне или редактиране на таблица"
 
 #: ../../content/applications/studio/pdf_reports.rst:283
 msgid "There are two types of tables in reports:"
-msgstr "В отчетите има два вида таблици:"
+msgstr "В отчетите има два типа таблици:"
 
 #: ../../content/applications/studio/pdf_reports.rst:285
 msgid ""
@@ -5563,8 +5578,8 @@ msgid ""
 " of columns and rows when adding the table."
 msgstr ""
 ":ref:`Статични таблици <studio/pdf-reports/static-table>`, които се "
-"използват за показване на статичен текст или полета. За този вид таблица "
-"определяте броя на колоните и редовете при добавянето ѝ."
+"използват за показване на статичен текст или полета. За този тип таблица вие"
+" задавате броя на колоните и редовете при добавянето на таблицата."
 
 #: ../../content/applications/studio/pdf_reports.rst:287
 msgid ""
@@ -5576,11 +5591,11 @@ msgid ""
 "with the current model."
 msgstr ""
 ":ref:`Динамични таблици <studio/pdf-reports/dynamic-table>`, които се "
-"използват за показване на данни от :ref:`релационни полета <studio/fields/"
-"relational-fields>`. За този тип таблица вие задавате само броя на колоните "
-"при добавянето на таблицата. Броят на редовете в генерирания отчет ще се "
-"определя от броя на записите в свързания модел, които са обвързани с текущия "
-"модел."
+"използват за показване на данни от :ref:`релационни полета "
+"<studio/fields/relational-fields>`. За този тип таблица вие задавате само "
+"броя на колоните при добавянето на таблицата. Броят на редовете в "
+"генерирания отчет ще се определя от броя на записите в свързания модел, "
+"които са обвързани с текущия модел."
 
 #: ../../content/applications/studio/pdf_reports.rst:294
 msgid ""
@@ -5589,8 +5604,8 @@ msgid ""
 "table in the generated report has 10 rows; if it contains two order lines, "
 "the table has two rows."
 msgstr ""
-"В отчет за поръчка за продажба динамична таблица се използва за показване на "
-"редовете на поръчката, свързани с поръчката за продажба. Ако поръчката за "
+"В отчет за поръчка за продажба динамична таблица се използва за показване на"
+" редовете на поръчката, свързани с поръчката за продажба. Ако поръчката за "
 "продажба съдържа 10 реда, таблицата в генерирания отчет има 10 реда; ако "
 "съдържа два реда, таблицата има два реда."
 
@@ -5605,8 +5620,8 @@ msgid ""
 "been added, you can start editing it."
 msgstr ""
 "За да добавите статична таблица, въведете `/` и изберете командата "
-":guilabel:`Table`. Определете броя на колоните и редовете за таблицата. След "
-"като таблицата е добавена, можете да започнете да я редактирате."
+":guilabel:`Table`. Определете броя на колоните и редовете за таблицата. След"
+" като таблицата е добавена, можете да започнете да я редактирате."
 
 #: ../../content/applications/studio/pdf_reports.rst:306
 msgid ""
@@ -5670,10 +5685,10 @@ msgid ""
 "insert or delete columns; it is not possible to move columns or to insert, "
 "move or delete rows."
 msgstr ""
-"Съществуваща динамична таблица в стандартен отчет има по-сложна структура от "
-"динамична таблица, която добавяте сами. За такива таблици е възможно да се "
-"вмъкват или изтриват колони; не е възможно да се преместват колони или да се "
-"вмъкват, преместват или изтриват редове."
+"Съществуваща динамична таблица в стандартен отчет има по-сложна структура от"
+" динамична таблица, която добавяте сами. За такива таблици е възможно да се "
+"вмъкват или изтриват колони; не е възможно да се преместват колони или да се"
+" вмъкват, преместват или изтриват редове."
 
 #: ../../content/applications/studio/pdf_reports.rst:334
 msgid ""
@@ -5725,8 +5740,8 @@ msgid ""
 "a row on the report for each field value (e.g., one row per order line)."
 msgstr ""
 "Редът по подразбиране автоматично преминава през съдържанието на полето, "
-"като генерира ред в отчета за всяка стойност на полето (например един ред на "
-"ред от поръчката)."
+"като генерира ред в отчета за всяка стойност на полето (например един ред на"
+" ред от поръчката)."
 
 #: ../../content/applications/studio/pdf_reports.rst:356
 msgid "Formatting"
@@ -5738,8 +5753,8 @@ msgid ""
 " the :doc:`text editor </applications/essentials/html_editor>`."
 msgstr ""
 "За да форматирате текст в отчета, изберете го, след това го форматирайте с "
-"помощта на опциите в :doc:`текстовия редактор </applications/essentials/"
-"html_editor>`."
+"помощта на опциите в :doc:`текстовия редактор "
+"</applications/essentials/html_editor>`."
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Format text using the text editor."
@@ -5810,8 +5825,8 @@ msgid ""
 "evaluated as `True` or `False`. The table will not be displayed if there are"
 " no tags in the quotation."
 msgstr ""
-"Например, ако искате да скриете персонализирана таблица с данни, когато няма "
-"етикети, можете да използвате атрибута `t-if`, за да дефинирате условието, "
+"Например, ако искате да скриете персонализирана таблица с данни, когато няма"
+" етикети, можете да използвате атрибута `t-if`, за да дефинирате условието, "
 "което след това се изчислява като `True` или `False`. Таблицата няма да се "
 "показва, ако в офертата няма етикети."
 
@@ -5825,9 +5840,9 @@ msgid ""
 "are no tags on the quotation:"
 msgstr ""
 "Ако искате да покажете друг блок в случай, че операторът `t-if` се изчисли "
-"като `False`, можете да го зададете чрез оператора `t-else`. Блокът `t-else` "
-"трябва да следва непосредствено блока `t-if` в структурата на документа. Не "
-"е необходимо да задавате каквото и да е условие в атрибута `t-else`. Като "
+"като `False`, можете да го зададете чрез оператора `t-else`. Блокът `t-else`"
+" трябва да следва непосредствено блока `t-if` в структурата на документа. Не"
+" е необходимо да задавате каквото и да е условие в атрибута `t-else`. Като "
 "пример, нека покажем кратко съобщение, обясняващо, че в офертата няма "
 "етикети:"
 
@@ -5861,8 +5876,8 @@ msgid ""
 "to add intermediary conditions. For example, this is how the title of sales "
 "order reports changes based on the condition of the underlying document."
 msgstr ""
-"Ако желаете да имате няколко опции, можете също да използвате директивите `t-"
-"elif`, за да добавите междинни условия. Например, ето как заглавието на "
+"Ако желаете да имате няколко опции, можете също да използвате директивите "
+"`t-elif`, за да добавите междинни условия. Например, ето как заглавието на "
 "отчетите за поръчки за продажба се променя въз основа на условието на "
 "съответния документ."
 
@@ -5891,8 +5906,9 @@ msgstr ""
 "прецизният контрол върху размера и поведението на изображението не винаги е "
 "очевиден. Можете да вмъквате полета за изображения чрез редактора на отчети "
 "(като използвате :ref:`командата Field <studio/pdf-reports/add-field>`), но "
-"вмъкването им в XML чрез директивата `t-field` и съпътстващите атрибути `t-"
-"options` осигурява по-добър контрол върху оразмеряването и позиционирането."
+"вмъкването им в XML чрез директивата `t-field` и съпътстващите атрибути "
+"`t-options` осигурява по-добър контрол върху оразмеряването и "
+"позиционирането."
 
 #: ../../content/applications/studio/pdf_reports.rst:507
 msgid ""
@@ -5921,8 +5937,8 @@ msgid ""
 "`height`: height of the image, usually in pixels or CSS length units (e.g., "
 "`rem`) (leave empty for auto-height)."
 msgstr ""
-"`height`: височина на изображението, обикновено в пиксели или CSS единици за "
-"дължина (напр. `rem`) (оставете празно за автоматична височина)."
+"`height`: височина на изображението, обикновено в пиксели или CSS единици за"
+" дължина (напр. `rem`) (оставете празно за автоматична височина)."
 
 #: ../../content/applications/studio/pdf_reports.rst:520
 msgid ""
@@ -5943,8 +5959,8 @@ msgid ""
 "<https://getbootstrap.com/docs/5.1/content/tables>`_."
 msgstr ""
 "`style`: атрибут за стил; той ви позволява да заменяте стилове по-свободно, "
-"отколкото с `Bootstrap класове <https://getbootstrap.com/docs/5.1/content/"
-"tables>`_."
+"отколкото с `Bootstrap класове "
+"<https://getbootstrap.com/docs/5.1/content/tables>`_."
 
 #: ../../content/applications/studio/pdf_reports.rst:526
 msgid ""
@@ -5986,7 +6002,8 @@ msgstr ""
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Add a column with the product image in the quotation table."
-msgstr "Добавяне на колона с изображението на продукта в таблицата на офертата."
+msgstr ""
+"Добавяне на колона с изображението на продукта в таблицата на офертата."
 
 #: ../../content/applications/studio/views.rst:3
 msgid "Views"
@@ -6004,10 +6021,10 @@ msgstr ""
 "Изгледите са интерфейсът, който позволява показването на данните, съдържащи "
 "се в :doc:`модел <models_modules_apps>`. Един модел може да има няколко "
 "изгледа, които са просто различни начини за показване на едни и същи данни. "
-"В Studio изгледите са организирани в четири категории: :ref:`общи <studio/"
-"views/general>`, :ref:`множество записи <studio/views/multiple-records>`, "
-":ref:`времева линия <studio/views/timeline>` и :ref:`отчитане <studio/views/"
-"reporting>`."
+"В Studio изгледите са организирани в четири категории: :ref:`общи "
+"<studio/views/general>`, :ref:`множество записи <studio/views/multiple-"
+"records>`, :ref:`времева линия <studio/views/timeline>` и :ref:`отчитане "
+"<studio/views/reporting>`."
 
 #: ../../content/applications/studio/views.rst:12
 msgid ""
@@ -6045,8 +6062,8 @@ msgstr ""
 "Ако редактирате изглед чрез XML редактора, избягвайте да правите промени "
 "директно в стандартните и наследените изгледи, тъй като те биха били "
 "нулирани и изгубени по време на актуализации или надстройки на модули. "
-"Винаги се уверявайте, че сте избрали правилните наследени изгледи на Studio: "
-"Когато промените изглед в Studio, като например плъзнете и пуснете ново "
+"Винаги се уверявайте, че сте избрали правилните наследени изгледи на Studio:"
+" Когато промените изглед в Studio, като например плъзнете и пуснете ново "
 "поле, автоматично се генерира специфичен наследен изглед на Studio и "
 "съответстващият му XPath, който определя променената част от изгледа."
 
@@ -6100,8 +6117,8 @@ msgid ""
 "To add a button, click :guilabel:`Add a button` at the top of the form, "
 "enter a :guilabel:`Label`, and select the button's action:"
 msgstr ""
-"За да добавите бутон, щракнете върху :guilabel:`Add a button` в горната част "
-"на формуляра, въведете :guilabel:`Label` и изберете действието на бутона:"
+"За да добавите бутон, щракнете върху :guilabel:`Add a button` в горната част"
+" на формуляра, въведете :guilabel:`Label` и изберете действието на бутона:"
 
 #: ../../content/applications/studio/views.rst:51
 #: ../../content/applications/studio/views.rst:164
@@ -6168,7 +6185,7 @@ msgstr "Формуляр на модела Quotation Template"
 
 #: ../../content/applications/studio/views.rst:78
 msgid "Activity"
-msgstr ""
+msgstr "Дейност"
 
 #: ../../content/applications/studio/views.rst:80
 msgid ""
@@ -6181,7 +6198,8 @@ msgstr ""
 #: ../../content/applications/studio/views.rst:84
 msgid "This view can only be modified within Studio by editing the XML code."
 msgstr ""
-"Този изглед може да бъде променян в Studio само чрез редактиране на XML кода."
+"Този изглед може да бъде променян в Studio само чрез редактиране на XML "
+"кода."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Lead/Opportunity model's Activity view"
@@ -6189,7 +6207,7 @@ msgstr "Изглед Activity на модела Lead/Opportunity"
 
 #: ../../content/applications/studio/views.rst:94
 msgid "Search"
-msgstr ""
+msgstr "Търсене"
 
 #: ../../content/applications/studio/views.rst:96
 msgid ""
@@ -6229,7 +6247,7 @@ msgstr "Изгледи за множество записи"
 
 #: ../../content/applications/studio/views.rst:121
 msgid "Kanban"
-msgstr ""
+msgstr "Канбан"
 
 #: ../../content/applications/studio/views.rst:123
 msgid ""
@@ -6281,15 +6299,15 @@ msgstr "Изглед Kanban на модела Project"
 
 #: ../../content/applications/studio/views.rst:143
 msgid "List"
-msgstr ""
+msgstr "Списък"
 
 #: ../../content/applications/studio/views.rst:145
 msgid ""
 "The :guilabel:`List` :icon:`oi-view-list` view is used to overview many "
 "records at once, look for records, and edit simple records."
 msgstr ""
-"Изгледът :guilabel:`List` :icon:`oi-view-list` се използва за общ преглед на "
-"много записи наведнъж, търсене на записи и редактиране на прости записи."
+"Изгледът :guilabel:`List` :icon:`oi-view-list` се използва за общ преглед на"
+" много записи наведнъж, търсене на записи и редактиране на прости записи."
 
 #: ../../content/applications/studio/views.rst:148
 msgid ""
@@ -6316,8 +6334,8 @@ msgid ""
 "This prevents users from opening records in :ref:`Form view "
 "<studio/views/general/form>` from the :guilabel:`List` view."
 msgstr ""
-"Това пречи на потребителите да отварят записи във :ref:`формуляра <studio/"
-"views/general/form>` от изгледа :guilabel:`List`."
+"Това пречи на потребителите да отварят записи във :ref:`формуляра "
+"<studio/views/general/form>` от изгледа :guilabel:`List`."
 
 #: ../../content/applications/studio/views.rst:158
 msgid "To edit several records at once, tick :guilabel:`Enable Mass Editing`."
@@ -6338,8 +6356,8 @@ msgid ""
 "To add a button, click :guilabel:`Add a button` at the top of the list, "
 "enter a :guilabel:`Label`, and select the button's action:"
 msgstr ""
-"За да добавите бутон, щракнете върху :guilabel:`Add a button` в горната част "
-"на списъка, въведете :guilabel:`Label` и изберете действието на бутона:"
+"За да добавите бутон, щракнете върху :guilabel:`Add a button` в горната част"
+" на списъка, въведете :guilabel:`Label` и изберете действието на бутона:"
 
 #: ../../content/applications/studio/views.rst:168
 msgid ""
@@ -6353,8 +6371,8 @@ msgstr ""
 "Ширините на колоните в изгледа :guilabel:`List` :icon:`oi-view-list` се "
 "изчисляват автоматично, за да осигурят оптимално потребителско изживяване. "
 "Възможно е обаче да зададете фиксирана ширина на колоната за всяко поле. За "
-"да направите това, щракнете върху съответната колона, за да отворите раздела "
-":icon:`fa-server` :guilabel:`Properties` на полето, след което въведете "
+"да направите това, щракнете върху съответната колона, за да отворите раздела"
+" :icon:`fa-server` :guilabel:`Properties` на полето, след което въведете "
 "желания брой пиксели в полето :guilabel:`Column Width (px)`."
 
 #: ../../content/applications/studio/views.rst:175
@@ -6363,14 +6381,16 @@ msgid ""
 "records manually, add an :ref:`Integer field <studio/fields/simple-fields-"
 "integer>` with the :guilabel:`Handle` widget."
 msgstr ""
-"За да добавите икона :icon:`oi-draggable` (:guilabel:`drag handle`) за ръчно "
-"пренареждане на записите, добавете :ref:`целочислено поле <studio/fields/"
-"simple-fields-integer>` с приспособлението :guilabel:`Handle`."
+"За да добавите икона :icon:`oi-draggable` (:guilabel:`drag handle`) за ръчно"
+" пренареждане на записите, добавете :ref:`целочислено поле "
+"<studio/fields/simple-fields-integer>` с приспособлението "
+":guilabel:`Handle`."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Drag handle icon enabling to sort records manually in List view"
 msgstr ""
-"Икона за плъзгане, позволяваща ръчно сортиране на записите в списъчния изглед"
+"Икона за плъзгане, позволяваща ръчно сортиране на записите в списъчния "
+"изглед"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales order model's List view"
@@ -6378,7 +6398,7 @@ msgstr "Списъчен изглед на модела Sales order"
 
 #: ../../content/applications/studio/views.rst:190
 msgid "Map"
-msgstr ""
+msgstr "Карта"
 
 #: ../../content/applications/studio/views.rst:192
 msgid ""
@@ -6387,8 +6407,8 @@ msgid ""
 "itinerary between different tasks."
 msgstr ""
 "Изгледът :guilabel:`Map` :icon:`fa-map-marker` се използва за показване на "
-"записи върху карта. Например той се използва в приложението Field Service за "
-"планиране на маршрут между различни задачи."
+"записи върху карта. Например той се използва в приложението Field Service за"
+" планиране на маршрут между различни задачи."
 
 #: ../../content/applications/studio/views.rst:196
 msgid ""
@@ -6396,9 +6416,10 @@ msgid ""
 " the *Contact* model is required to activate the view, as the contact "
 "address is used to position records on the map."
 msgstr ""
-"За активиране на изгледа е необходимо :ref:`поле Many2One <studio/fields/"
-"relational-fields-many2one>`, свързано с модела *Contact*, тъй като адресът "
-"на контакта се използва за позициониране на записите върху картата."
+"За активиране на изгледа е необходимо :ref:`поле Many2One "
+"<studio/fields/relational-fields-many2one>`, свързано с модела *Contact*, "
+"тъй като адресът на контакта се използва за позициониране на записите върху "
+"картата."
 
 #: ../../content/applications/studio/views.rst:199
 msgid ""
@@ -6451,8 +6472,8 @@ msgid ""
 "view. You can modify the :guilabel:`Start Date Field` and :guilabel:`Stop "
 "Date Field` after activating the view."
 msgstr ""
-"Когато активирате за първи път един от изгледите на времева линия, трябва да "
-"изберете кои полета :ref:`Date <studio/fields/simple-fields-date>` или "
+"Когато активирате за първи път един от изгледите на времева линия, трябва да"
+" изберете кои полета :ref:`Date <studio/fields/simple-fields-date>` или "
 ":ref:`Date & Time <studio/fields/simple-fields-date-time>` във вашия модел "
 "да се използват за определяне кога записите започват и спират, за да бъдат "
 "показани в изгледа. Можете да промените :guilabel:`Start Date Field` и "
@@ -6460,15 +6481,15 @@ msgstr ""
 
 #: ../../content/applications/studio/views.rst:229
 msgid "Calendar"
-msgstr ""
+msgstr "Календар"
 
 #: ../../content/applications/studio/views.rst:231
 msgid ""
 "The :guilabel:`Calendar` :icon:`fa-calendar` view is used to overview and "
 "manage records inside a calendar."
 msgstr ""
-"Изгледът :guilabel:`Calendar` :icon:`fa-calendar` се използва за общ преглед "
-"и управление на записи в календар."
+"Изгледът :guilabel:`Calendar` :icon:`fa-calendar` се използва за общ преглед"
+" и управление на записи в календар."
 
 #: ../../content/applications/studio/views.rst:234
 msgid ""
@@ -6486,9 +6507,9 @@ msgid ""
 ":guilabel:`Form` view to fill in the required fields."
 msgstr ""
 "Това работи само за определени модели, които могат да бъдат *бързо "
-"създадени*, използвайки само *име*. Повечето модели обаче не поддържат бързо "
-"създаване и отварят изгледа :guilabel:`Form` за попълване на задължителните "
-"полета."
+"създадени*, използвайки само *име*. Повечето модели обаче не поддържат бързо"
+" създаване и отварят изгледа :guilabel:`Form` за попълване на задължителните"
+" полета."
 
 #: ../../content/applications/studio/views.rst:242
 msgid ""
@@ -6497,8 +6518,8 @@ msgid ""
 "the same color."
 msgstr ""
 "За да оцветите записите в календара, изберете поле под :guilabel:`Color`. "
-"Всички записи, които споделят една и съща стойност за това поле, се показват "
-"в един и същи цвят."
+"Всички записи, които споделят една и съща стойност за това поле, се показват"
+" в един и същи цвят."
 
 #: ../../content/applications/studio/views.rst:246
 msgid ""
@@ -6514,9 +6535,9 @@ msgid ""
 " :ref:`Checkbox field <studio/fields/simple-fields-checkbox>` that specifies"
 " if the event lasts the whole day."
 msgstr ""
-"За да показвате събитията, които траят цял ден, в горната част на календара, "
-"изберете :ref:`поле от тип Отметка <studio/fields/simple-fields-checkbox>`, "
-"което указва дали събитието трае цял ден."
+"За да показвате събитията, които траят цял ден, в горната част на календара,"
+" изберете :ref:`поле от тип Отметка <studio/fields/simple-fields-checkbox>`,"
+" което указва дали събитието трае цял ден."
 
 #: ../../content/applications/studio/views.rst:252
 msgid ""
@@ -6558,9 +6579,9 @@ msgid ""
 "life cycle of records over a time period. For example, it is used in the "
 "Subscriptions app to view the subscriptions' retention rate."
 msgstr ""
-"Изгледът :guilabel:`Cohort` :icon:`oi-view-cohort` се използва за изследване "
-"на жизнения цикъл на записите през определен период от време. Например, той "
-"се използва в приложението Subscriptions, за да се види процентът на "
+"Изгледът :guilabel:`Cohort` :icon:`oi-view-cohort` се използва за изследване"
+" на жизнения цикъл на записите през определен период от време. Например, той"
+" се използва в приложението Subscriptions, за да се види процентът на "
 "задържане на абонаментите."
 
 #: ../../content/applications/studio/views.rst:276
@@ -6577,8 +6598,8 @@ msgid ""
 ":guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` "
 "under :guilabel:`Interval`."
 msgstr ""
-"За да изберете кой времеви интервал се използва по подразбиране за групиране "
-"на резултатите, изберете :guilabel:`Day`, :guilabel:`Week`, "
+"За да изберете кой времеви интервал се използва по подразбиране за групиране"
+" на резултатите, изберете :guilabel:`Day`, :guilabel:`Week`, "
 ":guilabel:`Month` или :guilabel:`Year` под :guilabel:`Interval`."
 
 #: ../../content/applications/studio/views.rst:280
@@ -6622,8 +6643,8 @@ msgid ""
 "time scale."
 msgstr ""
 "Изгледът :guilabel:`Gantt` :icon:`fa-tasks` се използва за прогнозиране и "
-"изследване на цялостния напредък на записите. Записите се представят с лента "
-"под времеви мащаб."
+"изследване на цялостния напредък на записите. Записите се представят с лента"
+" под времеви мащаб."
 
 #: ../../content/applications/studio/views.rst:301
 msgid ""
@@ -6639,8 +6660,8 @@ msgid ""
 "on weekends for employees), tick :guilabel:`Display Unavailability`."
 msgstr ""
 "За да запълвате клетките в сиво винаги, когато даден запис не трябва да се "
-"създава там (например през почивните дни за служители), поставете отметка на "
-":guilabel:`Display Unavailability`."
+"създава там (например през почивните дни за служители), поставете отметка на"
+" :guilabel:`Display Unavailability`."
 
 #: ../../content/applications/studio/views.rst:307
 msgid ""
@@ -6692,8 +6713,8 @@ msgid ""
 "same color."
 msgstr ""
 "За да оцветите записите в изгледа, изберете поле под :guilabel:`Color`. "
-"Всички записи, които споделят една и съща стойност за това поле, се показват "
-"в един и същи цвят."
+"Всички записи, които споделят една и съща стойност за това поле, се показват"
+" в един и същи цвят."
 
 #: ../../content/applications/studio/views.rst:320
 msgid ""
@@ -6736,8 +6757,8 @@ msgid ""
 "especially useful to aggregate numeric data, create categories, and drill "
 "down the data by expanding and collapsing different levels of data."
 msgstr ""
-"Изгледът :guilabel:`Pivot` :icon:`oi-view-pivot` се използва за интерактивно "
-"проучване и анализиране на данните, съдържащи се в записите. Той е особено "
+"Изгледът :guilabel:`Pivot` :icon:`oi-view-pivot` се използва за интерактивно"
+" проучване и анализиране на данните, съдържащи се в записите. Той е особено "
 "полезен за агрегиране на числови данни, създаване на категории и подробно "
 "разглеждане на данните чрез разгъване и свиване на различните нива на "
 "данните."
@@ -6747,8 +6768,8 @@ msgid ""
 "To access all records whose data is aggregated under a cell, tick "
 ":guilabel:`Access records from cell`."
 msgstr ""
-"За да получите достъп до всички записи, чиито данни са агрегирани под дадена "
-"клетка, поставете отметка на :guilabel:`Access records from cell`."
+"За да получите достъп до всички записи, чиито данни са агрегирани под дадена"
+" клетка, поставете отметка на :guilabel:`Access records from cell`."
 
 #: ../../content/applications/studio/views.rst:352
 msgid ""
@@ -6757,28 +6778,28 @@ msgid ""
 ":guilabel:`Row grouping - Second level`."
 msgstr ""
 "За да разделите данните на различни категории, изберете поле(та) под "
-":guilabel:`Групиране по колони`, :guilabel:`Групиране по редове - Първо "
-"ниво` или :guilabel:`Групиране по редове - Второ ниво`."
+":guilabel:`Column grouping`, :guilabel:`Row grouping - First level` или "
+":guilabel:`Row grouping - Second level`."
 
 #: ../../content/applications/studio/views.rst:354
 msgid ""
 "To add different types of data to be measured using the view, select a field"
 " under :guilabel:`Measures`."
 msgstr ""
-"За да добавите различни типове данни, които да бъдат измервани чрез изгледа, "
-"изберете поле под :guilabel:`Мерки`."
+"За да добавите различни видове данни, които да бъдат измервани с помощта на "
+"изгледа, изберете поле под :guilabel:`Measures`."
 
 #: ../../content/applications/studio/views.rst:356
 msgid ""
 "To display a count of records that made up the aggregated data in a cell, "
 "tick :guilabel:`Display count`."
 msgstr ""
-"За да покажете броя на записите, съставляващи агрегираните данни в клетка, "
-"отметнете :guilabel:`Показване на брой`."
+"За да показвате брой на записите, които съставляват агрегираните данни в "
+"дадена клетка, поставете отметка на :guilabel:`Display count`."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Purchase Report model's Pivot view"
-msgstr "Изглед Обобщена таблица на модела „Отчет за покупки“"
+msgstr "Изглед Обобщена таблица на модела Отчет за покупки"
 
 #: ../../content/applications/studio/views.rst:367
 msgid "Graph"
@@ -6789,18 +6810,16 @@ msgid ""
 "The :guilabel:`Graph` :icon:`fa-area-chart` view is used to showcase data "
 "from records in a bar, line, or pie chart."
 msgstr ""
-"Изгледът :guilabel:`Графика` :icon:`fa-area-chart` се използва за "
-"представяне на данни от записи чрез стълбовидна, линейна или кръгова "
-"диаграма."
+"Изгледът :guilabel:`Graph` :icon:`fa-area-chart` се използва за представяне "
+"на данни от записите в стълбовидна, линейна или кръгова диаграма."
 
 #: ../../content/applications/studio/views.rst:372
 msgid ""
 "To change the default chart, select :guilabel:`Bar`, :guilabel:`Line`, or "
 ":guilabel:`Pie` under :guilabel:`Type`."
 msgstr ""
-"За да промените диаграмата по подразбиране, изберете "
-":guilabel:`Стълбовидна`, :guilabel:`Линейна` или :guilabel:`Кръгова` под "
-":guilabel:`Тип`."
+"За да промените диаграмата по подразбиране, изберете :guilabel:`Bar`, "
+":guilabel:`Line` или :guilabel:`Pie` под :guilabel:`Type`."
 
 #: ../../content/applications/studio/views.rst:374
 msgid ""
@@ -6808,17 +6827,17 @@ msgid ""
 ":guilabel:`First dimension` and, if needed, another under :guilabel:`Second "
 "dimension`."
 msgstr ""
-"За да изберете основно измерение на данните (категория) по подразбиране, "
-"изберете поле под :guilabel:`Първо измерение` и, ако е необходимо, друго под "
-":guilabel:`Второ измерение`."
+"За да изберете измерение на данните по подразбиране (категория), изберете "
+"поле под :guilabel:`First dimension` и, ако е необходимо, друго под "
+":guilabel:`Second dimension`."
 
 #: ../../content/applications/studio/views.rst:376
 msgid ""
 "To select a default type of data to be measured using the view, select a "
 "field under :guilabel:`Measure`."
 msgstr ""
-"За да изберете тип данни по подразбиране, които да бъдат измервани чрез "
-"изгледа, изберете поле под :guilabel:`Мярка`."
+"За да изберете вид данни по подразбиране, които да бъдат измервани с помощта"
+" на изгледа, изберете поле под :guilabel:`Measure`."
 
 #: ../../content/applications/studio/views.rst:378
 msgid ""
@@ -6827,9 +6846,9 @@ msgid ""
 ":guilabel:`Descending` (from highest to lowest) under :guilabel:`Sorting`."
 msgstr ""
 "*Само за стълбовидни и линейни диаграми*: За да сортирате различните "
-"категории данни по тяхната стойност, изберете :guilabel:`Възходящо` (от най-"
-"ниска към най-висока стойност) или :guilabel:`Низходящо` (от най-висока към "
-"най-ниска) под :guilabel:`Сортиране`."
+"категории данни по тяхната стойност, изберете :guilabel:`Ascending` (от най-"
+"ниската към най-високата стойност) или :guilabel:`Descending` (от най-"
+"високата към най-ниската) под :guilabel:`Sorting`."
 
 #: ../../content/applications/studio/views.rst:381
 msgid ""
@@ -6838,8 +6857,8 @@ msgid ""
 "records from graph`."
 msgstr ""
 "*Само за стълбовидни и кръгови диаграми*: За да получите достъп до всички "
-"записи, чиито данни са агрегирани под категория данни в диаграмата, "
-"отметнете :guilabel:`Достъп до записите от графиката`."
+"записи, чиито данни са агрегирани под дадена категория данни в диаграмата, "
+"поставете отметка на :guilabel:`Access records from graph`."
 
 #: ../../content/applications/studio/views.rst:383
 msgid ""
@@ -6849,8 +6868,10 @@ msgid ""
 msgstr ""
 "*Само за стълбовидни диаграми*: Когато използвате две измерения на данните "
 "(категории), показвайте двете колони една върху друга по подразбиране, като "
-"отметнете :guilabel:`Насложена графика`."
+"поставите отметка на :guilabel:`Stacked graph`."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales Analysis Report model's Bar chart on Graph view"
-msgstr "Стълбовидна диаграма на модела „Анализ на продажбите“ в изглед Графика"
+msgstr ""
+"Стълбовидна диаграма в изглед Графика на модела Отчет за анализ на "
+"продажбите"
